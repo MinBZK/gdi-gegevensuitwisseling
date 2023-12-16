@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Log transaction at clearing house"
+    id="id-96f1623317f44b5d9f6560ebc14fde66"
+    documentation="Log the details of the successful (or unsuccessful) completion of the transaction at a Clearing House."/>

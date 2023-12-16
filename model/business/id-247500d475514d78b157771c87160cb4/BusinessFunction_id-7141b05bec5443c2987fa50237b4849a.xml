@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Request data"
+    id="id-7141b05bec5443c2987fa50237b4849a"
+    documentation="The Data Consumer directly requests data (and the corresponding metadata) from the Data Provider or the Data Provider pushes data directly to the Data Consumer."/>

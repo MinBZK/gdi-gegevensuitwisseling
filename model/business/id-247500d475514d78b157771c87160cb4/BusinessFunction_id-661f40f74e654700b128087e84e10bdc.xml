@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Search data"
+    id="id-661f40f74e654700b128087e84e10bdc"
+    documentation="Search at data provider, at metadata broker or in the cache of the connector."/>

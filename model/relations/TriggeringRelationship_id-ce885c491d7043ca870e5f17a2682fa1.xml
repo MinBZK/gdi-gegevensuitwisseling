@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="log transaction"
+    id="id-ce885c491d7043ca870e5f17a2682fa1">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_id-820604bbb32545759d3ffb0a63190a97.xml#id-820604bbb32545759d3ffb0a63190a97"/>
+  <target
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_id-3cd14b45c4bf4e779922f45da25bfc69.xml#id-3cd14b45c4bf4e779922f45da25bfc69"/>
+</archimate:TriggeringRelationship>

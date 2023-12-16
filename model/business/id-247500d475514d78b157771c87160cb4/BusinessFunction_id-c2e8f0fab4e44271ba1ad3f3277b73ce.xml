@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Authorize data provider"
+    id="id-c2e8f0fab4e44271ba1ad3f3277b73ce"
+    documentation="Authorize a Data Provider to make its data available to be used by a Data Consumer. Any such authorization should be documented by a contract, which should include data usage policy information for the data provided (see Usage Control in IDS). The contract needs not necessarily be a paper document, but may be an electronic file as well."/>
