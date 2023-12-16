@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Request updates to data"
+    id="id-549755d882e5438aaf0f56d483ba5814"
+    documentation="In case of a subscription, the Data Consumer may ask for updates regarding the requested data. The updated data can be provided either after certain events (e.g., after the data has been updated by the Data Provider) or within certain time intervals (e.g., every five minutes)."/>
