@@ -1,4 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Afnemen gegevens"
-    id="id-b160b994f4554d128443e7406af8d09e"/>
+    id="id-b160b994f4554d128443e7406af8d09e"
+    documentation="Het ervoor zorgen dat er gegevens beschikbaar zijn voor gebruik."/>

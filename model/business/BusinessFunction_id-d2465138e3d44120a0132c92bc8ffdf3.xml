@@ -1,4 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gegarandeerd afleveren gegevens"
-    id="id-d2465138e3d44120a0132c92bc8ffdf3"/>
+    id="id-d2465138e3d44120a0132c92bc8ffdf3"
+    documentation="Het borgen dat bepaalde gegevens met zekerheid worden afgeleverd bij een afnemer."/>
