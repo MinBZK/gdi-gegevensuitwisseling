@@ -200,15 +200,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-d1f4c3c2fec94797acd57ab559f8486d"
-        source="id-f4b6daf8f9134f3ab3b723f4d8309411"
-        target="id-90c9e55458e645bca87f2e547b7ae9e5">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-5a53d9da67b54e428b75b3affaa076ce.xml#id-5a53d9da67b54e428b75b3affaa076ce"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-d3b52c059c87423e985b25a215f57d79"
         source="id-f4b6daf8f9134f3ab3b723f4d8309411"
         target="id-a2d700a553294ca1aa63e6a798f30951">
@@ -241,24 +232,6 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-90c9e55458e645bca87f2e547b7ae9e5"
-        targetConnections="id-d1f4c3c2fec94797acd57ab559f8486d"
-        fillColor="#ffffff"
-        textPosition="1">
-      <features
-          name="iconVisible"
-          value="2"/>
-      <bounds
-          x="12"
-          y="96"
-          width="157"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessFunction"
-          href="BusinessFunction_id-7f8eb7673dc649fbae30d80af2214838.xml#id-7f8eb7673dc649fbae30d80af2214838"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a2d700a553294ca1aa63e6a798f30951"
         targetConnections="id-d3b52c059c87423e985b25a215f57d79"
         fillColor="#ffffff"
@@ -268,7 +241,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="156"
+          y="96"
           width="157"
           height="55"/>
       <archimateElement

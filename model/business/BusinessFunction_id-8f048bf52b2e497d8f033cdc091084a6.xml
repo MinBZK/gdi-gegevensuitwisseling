@@ -1,4 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Ontwikkelen gegevensdiensten"
-    id="id-8f048bf52b2e497d8f033cdc091084a6"/>
+    name="Ontwikkelen en beheren gegevensdiensten"
+    id="id-8f048bf52b2e497d8f033cdc091084a6"
+    documentation="Het creëren en wijzigen van processen en systemen die gegevensdiensten implementeren."/>

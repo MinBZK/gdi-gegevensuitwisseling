@@ -1,4 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Lokaliseren gegevens"
-    id="id-eb3c144faabf42ada75c8f4f809d800e"/>
+    id="id-eb3c144faabf42ada75c8f4f809d800e"
+    documentation="Het bepalen bij welke gegevensdienst gegevens over een bepaald object of subject beschikbaar zijn."/>

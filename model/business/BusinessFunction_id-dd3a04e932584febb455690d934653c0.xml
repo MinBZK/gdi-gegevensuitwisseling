@@ -1,4 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Organiseren samenwerking"
-    id="id-dd3a04e932584febb455690d934653c0"/>
+    id="id-dd3a04e932584febb455690d934653c0"
+    documentation="Het leggen van relaties en het creëren van afspraken met partijen die een betrokkenheid hebben in het uitwisselen van gegevens."/>
