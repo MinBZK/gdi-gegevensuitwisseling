@@ -1,0 +1,12 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="SOAP"
+    id="id-e5f0cf03b2394868958703e87f225704"
+    documentation="SOAP staat voor Simple Object Access Protocol, maar de SOAP specificatie beschrijft in de eerste plaats een berichtformat gebaseerd op XML.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Soap"/>
+</archimate:Contract>

@@ -1,0 +1,12 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NL ISO 19119"
+    id="id-a0568aba80d34619bc044f4402dae40b"
+    documentation="Nederlands metadataprofiel op ISO 19119 services. Dit metadataprofiel beschrijft de verplichte metadata elementen van een service op een dataset of dataset serie. ">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
+</archimate:Contract>
