@@ -1,0 +1,12 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NL-SBB"
+    id="id-8f9e6d3dc7474a3badf242f9efca5d84"
+    documentation="De standaard voor het beschrijven van begrippen geeft aan hoe begrippen in een begrippenlijst, taxonomie of thesaurus eenduidig worden beschreven. ">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="URL"
+      value="https://profielstelselcatalogus.pldn.nl/"/>
+</archimate:Contract>

@@ -1,0 +1,12 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="RDFS"
+    id="id-174669a667d34069bf69344e92386aca"
+    documentation="Resource Description Framework Schema (RDFS) biedt een standaard taal waarmee de structuur van gegevens in termen van klassen, eigenschappen en datatypen kan worden beschreven.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Rdfs"/>
+</archimate:Contract>

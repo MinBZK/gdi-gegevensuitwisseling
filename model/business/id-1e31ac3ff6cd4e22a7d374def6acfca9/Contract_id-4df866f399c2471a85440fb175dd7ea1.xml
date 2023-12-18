@@ -1,0 +1,12 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="StUF"
+    id="id-4df866f399c2471a85440fb175dd7ea1"
+    documentation="Standaard Uitwisseling Formaat (StUF) is een set basisafspraken over het uitwisselen van gegevens tussen applicaties in het gemeentelijke veld. StUF beschrijft de generieke toepassing van die berichten, niet de specifieke gegevens erin. Als overheidsorganisaties basisregistraties (informatie over personen, adressen of bijvoorbeeld gebouwen) uitwisselen, doen ze dat via standaarden die gebaseerd zijn op StUF.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Stuf"/>
+</archimate:Contract>
