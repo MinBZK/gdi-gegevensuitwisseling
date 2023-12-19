@@ -385,21 +385,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-47b1dabbc4fa4af2a50fce6fb3b761eb">
-    <features
-        name="iconVisible"
-        value="2"/>
-    <bounds
-        x="12"
-        y="624"
-        width="1201"
-        height="97"/>
-    <archimateElement
-        xsi:type="archimate:BusinessFunction"
-        href="BusinessFunction_id-f24bb9d77c9b433fa4897194a593f488.xml#id-f24bb9d77c9b433fa4897194a593f488"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-bb3ddbeff40449f38e5303366d077b37">
     <features
         name="iconVisible"

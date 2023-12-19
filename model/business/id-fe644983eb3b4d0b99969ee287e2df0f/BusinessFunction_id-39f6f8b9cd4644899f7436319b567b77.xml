@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Contracteren afnemers"
+    name="Contracteren"
     id="id-39f6f8b9cd4644899f7436319b567b77"
-    documentation="Het maken van contractuele afspraken met afnemers van gegevens."/>
+    documentation="Het maken van contractuele afspraken tussen aanbieders en afnemers van gegevens."/>
