@@ -136,7 +136,7 @@
           value="Beschikbaar stellen&#xD;&#xA;actuele gegevens"/>
       <bounds
           x="12"
-          y="156"
+          y="96"
           width="157"
           height="55"/>
       <archimateElement
@@ -172,7 +172,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="216"
+          y="156"
           width="157"
           height="55"/>
       <archimateElement
@@ -190,7 +190,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="276"
+          y="216"
           width="157"
           height="55"/>
       <archimateElement
@@ -262,7 +262,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="96"
+          y="276"
           width="157"
           height="55"/>
       <archimateElement
