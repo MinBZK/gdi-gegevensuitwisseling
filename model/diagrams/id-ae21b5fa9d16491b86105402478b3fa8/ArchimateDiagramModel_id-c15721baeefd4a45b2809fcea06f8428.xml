@@ -306,15 +306,6 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-11b73b1321ee42b19c15647972373ea6.xml#id-11b73b1321ee42b19c15647972373ea6"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-3ec655b6215942b2a635f10430b05b56"
-        source="id-9ffcd6c541584f6ea7b0b59795af1aa2"
-        target="id-dd851d0502034d0091e3d1d21b4d6fab">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-1935401237ec41f39aa1aa02c46a5cc4.xml#id-1935401237ec41f39aa1aa02c46a5cc4"/>
-    </sourceConnections>
     <bounds
         x="1212"
         y="36"
@@ -341,7 +332,6 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-dd851d0502034d0091e3d1d21b4d6fab"
-        targetConnections="id-3ec655b6215942b2a635f10430b05b56"
         fillColor="#ffffff"
         textPosition="1">
       <features
@@ -545,15 +535,6 @@
         value="2"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-689d2997ba8d4eb39a90085fcf705c48"
-        source="id-2cb8cb18711f40ffa37743c383b9ab33"
-        target="id-698696b6cbfc414c8fe19a69807e5d20">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-c1df463fa0a340d78c85a4ffb8807ffa.xml#id-c1df463fa0a340d78c85a4ffb8807ffa"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-2db645b5a9704812a0e66297dde4403a"
         source="id-2cb8cb18711f40ffa37743c383b9ab33"
         target="id-97a31a35da52412f804fc29efbf18784">
@@ -686,7 +667,6 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-698696b6cbfc414c8fe19a69807e5d20"
-        targetConnections="id-689d2997ba8d4eb39a90085fcf705c48"
         fillColor="#ffffff"
         textPosition="1">
       <features
