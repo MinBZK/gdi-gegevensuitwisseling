@@ -7,6 +7,9 @@
       key="Status"
       value="nvt"/>
   <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
       key="URL"
       value="https://www.w3.org/TR/rif-overview/"/>
 </archimate:Contract>

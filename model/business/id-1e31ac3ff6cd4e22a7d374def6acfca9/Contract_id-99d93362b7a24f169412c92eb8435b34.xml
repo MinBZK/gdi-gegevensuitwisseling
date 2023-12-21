@@ -1,0 +1,18 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="SQL"
+    id="id-99d93362b7a24f169412c92eb8435b34"
+    documentation="SQL is een taal voor een relationeel 'database management systeem' (DBMS). Met SQL kan je gegevens opslaan, bewerken en ophalen in relationele databases.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Databases"/>
+  <properties
+      key="Beheerorganisatie"
+      value="ISO"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Sql"/>
+</archimate:Contract>

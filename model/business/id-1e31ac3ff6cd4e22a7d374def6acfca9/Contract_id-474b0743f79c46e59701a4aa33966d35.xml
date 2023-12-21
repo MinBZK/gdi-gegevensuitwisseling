@@ -7,6 +7,9 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
+      key="Beheerorganisatie"
+      value="OGC"/>
+  <properties
       key="URL"
       value="https://ogcapi.ogc.org/records/"/>
 </archimate:Contract>

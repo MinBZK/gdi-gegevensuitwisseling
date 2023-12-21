@@ -7,6 +7,9 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
+      key="Beheerorganisatie"
+      value="Geonovum"/>
+  <properties
       key="URL"
       value="https://www.forumstandaardisatie.nl/open-standaarden/Mim"/>
 </archimate:Contract>

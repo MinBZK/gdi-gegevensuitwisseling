@@ -7,6 +7,12 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
+      key="Functioneel toepassingsgebied"
+      value="Uitwisseling en bevraging van basisgegevens die behoren tot een aantal wettelijk vastgestelde basisregistraties, zoals Personen (GBA), Adressen (BRA), Gebouwen (BGA), Kadaster (BRK), Nieuw Handelsregister (NHR) en Waarde Onroerende Zaken (WOZ); uitwisseling en bevraging van zaakgegevens die behoren tot de producten- en dienstenportfolio van gemeenten; uitwisseling van domein- of sectorspecifieke gegevens waarin ook basis- en/of zaakgegevens voorkomen en waarvoor geen andere (inter)nationale (XML-gebaseerde) berichtenstandaard is vastgesteld."/>
+  <properties
+      key="Beheerorganisatie"
+      value="VNG Realisatie"/>
+  <properties
       key="URL"
       value="https://www.forumstandaardisatie.nl/open-standaarden/Stuf"/>
 </archimate:Contract>

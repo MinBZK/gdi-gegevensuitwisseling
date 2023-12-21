@@ -1,0 +1,15 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="SPARQL"
+    id="id-3ca9fcd1aa264c968e61a7912a685121"
+    documentation="SPARQL is een protocol en vraagtaal voor het bevragen van Linked Data databases.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
+      key="URL"
+      value="https://www.w3.org/TR/sparql11-overview/"/>
+</archimate:Contract>
