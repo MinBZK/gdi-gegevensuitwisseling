@@ -1,7 +1,7 @@
 # Algemeen
 Samenwerking van de werkgroep gegevensuitwisseling van de GDI architectuur. Bestaat uit een ArchiMate Model in Archi formaat (gegevensuitwisseling.archimate) en een verzameling bestanden die met coArchi kunnen worden ingelezen. 
 
-De web versie is beschikbaar op: https://minbzk.github.io/gdi-gegevensuitwisseling. Dit is een handmatige HTML export vanuit Archi. Als iemand wijzigingen aanbrengt in het model dan moet er door deze persoon ook een nieuwe HTML export worden gemaakt en gepubliceerd.
+De web versie is beschikbaar op: https://minbzk.github.io/gdi-gegevensuitwisseling. Dit is een handmatige HTML export vanuit Archi. Als iemand wijzigingen aanbrengt in het model dan moet er door deze persoon ook een nieuwe HTML export worden gemaakt en gepubliceerd alsook een export van het toegang.archimate bestand.
 
 # Instructies voor coArchi
 1. Installeren Archi: https://www.archimatetool.com/download/
