@@ -7,6 +7,9 @@
       key="Status"
       value="nvt"/>
   <properties
+      key="Beheerorganisatie"
+      value="Geonovum"/>
+  <properties
       key="URL"
       value="https://geonovum.github.io/IMX-ModelMapping/"/>
 </archimate:Contract>

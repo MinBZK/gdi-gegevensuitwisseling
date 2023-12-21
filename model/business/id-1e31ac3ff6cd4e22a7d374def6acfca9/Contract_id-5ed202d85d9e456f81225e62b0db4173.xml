@@ -7,6 +7,12 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
+      key="Functioneel toepassingsgebied"
+      value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
+  <properties
+      key="Beheerorganisatie"
+      value="OGC"/>
+  <properties
       key="URL"
-      value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
+      value="https://www.geopackage.org/"/>
 </archimate:Contract>

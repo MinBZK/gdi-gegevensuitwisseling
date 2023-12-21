@@ -7,6 +7,9 @@
       key="Status"
       value="nvt"/>
   <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
       key="URL"
       value="https://json-schema.org/"/>
 </archimate:Contract>

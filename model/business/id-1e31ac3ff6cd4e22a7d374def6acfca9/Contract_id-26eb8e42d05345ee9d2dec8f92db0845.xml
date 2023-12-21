@@ -7,6 +7,12 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
+      key="Functioneel toepassingsgebied"
+      value="XML kan worden gebruikt voor het in tekst-format vastleggen en uitwisselen van gestructureerde gegevens die bedoeld zijn voor verwerking door machines."/>
+  <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
       key="URL"
       value="https://www.forumstandaardisatie.nl/open-standaarden/Xml"/>
 </archimate:Contract>
