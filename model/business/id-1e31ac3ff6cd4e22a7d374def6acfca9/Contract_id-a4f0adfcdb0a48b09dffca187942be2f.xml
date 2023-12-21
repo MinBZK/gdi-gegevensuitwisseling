@@ -9,7 +9,4 @@
   <properties
       key="URL"
       value="https://www.nationaalarchief.nl/archiveren/mdto"/>
-  <properties
-      key="Beheerorganisatie"
-      value="Nationaal Archief"/>
 </archimate:Contract>

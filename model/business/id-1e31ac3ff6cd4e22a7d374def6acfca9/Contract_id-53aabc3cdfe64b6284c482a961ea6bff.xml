@@ -1,14 +1,11 @@
 <archimate:Contract
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="OData"
+    name="ODatra"
     id="id-53aabc3cdfe64b6284c482a961ea6bff"
     documentation="OData kan worden toegepast voor het bouwen en gebruiken van REST APIs met als doel het gestructureerd ontsluiten van (statistische) open datasets.">
   <properties
       key="Status"
       value="Aanbevolen"/>
-  <properties
-      key="Beheerorganisatie"
-      value="OASIS"/>
   <properties
       key="URL"
       value="https://www.forumstandaardisatie.nl/open-standaarden/odata"/>

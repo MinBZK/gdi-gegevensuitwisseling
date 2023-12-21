@@ -7,9 +7,6 @@
       key="Status"
       value="nvt"/>
   <properties
-      key="Beheerorganisatie"
-      value="IIIF consortium"/>
-  <properties
       key="URL"
       value="https://iiif.io/"/>
 </archimate:Contract>

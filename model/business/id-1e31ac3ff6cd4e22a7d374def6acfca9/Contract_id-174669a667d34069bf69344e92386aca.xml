@@ -7,9 +7,6 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
-      key="Beheerorganisatie"
-      value="W3C"/>
-  <properties
       key="URL"
       value="https://www.forumstandaardisatie.nl/open-standaarden/Rdfs"/>
 </archimate:Contract>

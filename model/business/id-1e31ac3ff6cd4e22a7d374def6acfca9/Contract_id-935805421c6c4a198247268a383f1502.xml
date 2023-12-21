@@ -7,9 +7,6 @@
       key="Status"
       value="nvt"/>
   <properties
-      key="Beheerorganisatie"
-      value="ISO"/>
-  <properties
       key="URL"
       value="https://www.iso.org/standard/71339.html"/>
 </archimate:Contract>
