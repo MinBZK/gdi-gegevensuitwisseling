@@ -16,7 +16,7 @@ De volgende diagrammen en overzichten zijn geëxporteerd uit Archi. De diagramme
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/views/id-b6f068818d264742b80c8f4f5278aca0.html">Functiemodel met bedrijfsobjecten</a>
 
 ## Huidige situatie
-* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/views/id-c15721baeefd4a45b2809fcea06f8428.html">Huidige voorzieningen</a>
+* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-44e956451b5947e08070f8c2edca5bf3">Functiemodel met huidige voorzieningen</a>
 
 ## Gewenste situatie
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/views/id-5df0c1360768493aa966c16f7dbfd414.html">Functiemodel met standaarden</a>
