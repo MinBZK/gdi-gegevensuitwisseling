@@ -20,6 +20,7 @@ var elementname = "";
 
 var relationshipTypeMappings = {
     "access-relationship":"gebruikt",
+	"aggregation-relationship": "groepeert",
     "composition-relationship":"bestaat uit",
     "flow-relationship":"levert gegevens aan",
     "realization-relationship":"realiseert",
