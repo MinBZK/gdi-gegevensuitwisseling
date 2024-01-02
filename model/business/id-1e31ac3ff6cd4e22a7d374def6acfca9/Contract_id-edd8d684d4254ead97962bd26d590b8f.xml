@@ -1,0 +1,18 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="MTOM"
+    id="id-edd8d684d4254ead97962bd26d590b8f"
+    documentation="Message Transmission Optimization Mechanism of kortweg MTOM is een methode om op efficiënte wijze binaire data naar en van webservices te versturen.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Het verzenden van grote hoeveelheden data (bijvoorbeeld attachments) in SOAP-berichten."/>
+  <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Mtom"/>
+</archimate:Contract>

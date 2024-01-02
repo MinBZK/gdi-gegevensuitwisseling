@@ -1,0 +1,18 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="SKOS"
+    id="id-ec0dc19e62ab4c4e84870fb56d0499dc"
+    documentation="SKOS is een gegevensmodel om duidelijke lijsten met termen en begrippen op te stellen. Met deze termenlijsten kan informatie uit verschillende databases aan elkaar worden gekoppeld. SKOS maakt de relaties tussen begrippen inzichtelijk voor het vergelijken en interpreteren van data uit verschillende systemen. Zo krijgt informatie meer waarde.">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="SKOS moet worden toegepast op de publicatie van niet-geformaliseerde systemen voor kennisrepresentatie op het internet, met als doel: 1. kennis over de betekenissen en samenhang van de onderliggende begrippen te ordenen en toegankelijk te maken. 2. hergebruik mogelijk te maken."/>
+  <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Skos"/>
+</archimate:Contract>

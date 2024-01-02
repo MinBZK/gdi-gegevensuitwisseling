@@ -1,0 +1,15 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="MIM"
+    id="id-38939476dfd441e7a3ecec1997391988"
+    documentation="MIM (Metamodel voor Informatiemodellering) dient als gemeenschappelijk vertrekpunt voor het opstellen van informatiemodellen, zodat informatiemodellen en de daarop gebaseerde standaarden voor gegevensuitwisseling meer compatibel worden. ">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="Geonovum"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Mim"/>
+</archimate:Contract>

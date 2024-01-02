@@ -1,0 +1,15 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="RIF"
+    id="id-125c4966bbf148bf8541531a91f39283"
+    documentation="Rule Interchange Format (RIF) is een standaard voor het uitwisselen van regels over gegevens.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
+      key="URL"
+      value="https://www.w3.org/TR/rif-overview/"/>
+</archimate:Contract>

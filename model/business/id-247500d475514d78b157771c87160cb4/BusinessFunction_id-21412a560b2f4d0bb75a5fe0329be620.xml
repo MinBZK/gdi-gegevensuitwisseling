@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Create data"
+    id="id-21412a560b2f4d0bb75a5fe0329be620"
+    documentation="Creating data, e.g. by generating data such as from a sensor or accessing data in backend IT systems."/>

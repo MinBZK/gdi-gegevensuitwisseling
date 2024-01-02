@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Transform data"
+    id="id-c7ec5de33e6544b8b51e6206ee146a4c"
+    documentation="Use Apps in the IDS connector to transform the data."/>
