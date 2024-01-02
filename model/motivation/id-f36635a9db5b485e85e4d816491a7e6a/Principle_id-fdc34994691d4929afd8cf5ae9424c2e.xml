@@ -1,0 +1,27 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Metagegevens zijn aan elkaar verbonden"
+    id="id-fdc34994691d4929afd8cf5ae9424c2e"
+    documentation="Gegevens hebben metagegevens nodig om betekenis te krijgen en bruikbaar te zijn. Er zijn allerlei soorten metagegevens die verschillende aspecten van gegevens modelleren, zoals metagegevens die de betekenis beschrijven, metagegevens die de structuur beschrijven en metagegevens die beschrijven welke eenheden van gegevens beschikbaar zijn. Dit soort metagegevens moeten in relatie tot elkaar geïnterpreteerd worden, om echt waardevol te zijn. Zo heb je bijvoorbeeld niet zoveel aan metagegevens over datasets als je niet weet van voor gegevens erin zitten, wat ze betekenen en welke kwaliteit ze hebben. Daarnaast zijn begrippen belangrijke metagegevens voor het vinden van gegevens, maar is het daarvoor wel nodig dat er naar ze gerefereerd wordt.">
+  <properties
+      key="Implicatie"
+      value="Modelelementen in informatie- en gegevensmodellen zoals objecttypes en attribuutsoorten refereren expliciet naar de gedefinieerde begrippen die ze representeren."/>
+  <properties
+      key="Implicatie"
+      value="In informatie- en gegevensmodellen wordt ook gerefereerd naar de beperkingsregels en afleidingsregels die van toepassing zijn."/>
+  <properties
+      key="Implicatie"
+      value="Bij metagegevens over datasets zijn ook metagegevens beschikbaar over de objecttypen en attribuutsoorten van de in de dataset aanwezige gegevens."/>
+  <properties
+      key="Implicatie"
+      value="Informatieobjecten zoals documenten en datasets zijn voorzien van begrippen zodat ze beter vindbaar zijn."/>
+  <properties
+      key="Implicatie"
+      value="Bij de uitgewisselde gegevens is een verwijzing aanwezig naar het gebruikte schema."/>
+  <properties
+      key="Implicatie"
+      value="Data-elementen in schema’s (zoals JSON schema’s en XML schema’s) verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren."/>
+  <properties
+      key="Implicatie"
+      value="Er is bij de documentatie van diensten of operaties in datadiensten beschreven welke beperkingsregels en afleidingsregels worden toegepast."/>
+</archimate:Principle>

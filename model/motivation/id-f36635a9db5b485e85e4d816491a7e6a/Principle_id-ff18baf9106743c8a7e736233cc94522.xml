@@ -1,0 +1,24 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="De kwaliteit van gegevens en gegevensdiensten is afgestemd op het gebruik"
+    id="id-ff18baf9106743c8a7e736233cc94522"
+    documentation="Het is belangrijk dat mensen beschikken over gegevens en gegevensdiensten die optimaal aansluiten bij hun eigen behoeften en gebruik. Daarbij is de kunst om een balans te vinden tussen kwaliteit en kosten. Een hele hoge kwaliteit leidt al snel tot onacceptabele kosten. De vraag is dus vooral wat nodig is in een specifieke context. Is het acceptabel dat gegevens een dag oud zijn? Is het acceptabel dat het ophalen of analyseren van gegevens meer dan een paar seconden duurt of soms een paar uur niet beschikbaar is? Door het kopiëren van gegevens krijg je met een hogere zekerheid een sneller antwoord, maar gaat de actualiteit van de gegevens omlaag en stijgen vaak de kosten. Dit vraagt dus vooral bewuste afwegingen.">
+  <properties
+      key="Implicatie"
+      value="De eisen die worden gesteld aan de kwaliteit van gegevens en gegevensdiensten worden expliciet gemaakt in elke gebruikscontext."/>
+  <properties
+      key="Implicatie"
+      value="De huidige kwaliteit van gegevens en gegevensdiensten wordt expliciet gemeten en inzichtelijk gemaakt in de metadata, op een voor afnemers begrijpelijke wijze."/>
+  <properties
+      key="Implicatie"
+      value="Aanbieders van gegevens en/of gegevensdiensten kunnen meerdere serviceniveaus aanbieden, als dat relevant is vanuit het gebruik."/>
+  <properties
+      key="Implicatie"
+      value="Als er een verschil is tussen de eisen die worden gesteld vanuit gebruik en de huidige kwaliteit dan vindt hierover afstemming tussen aanbieder en afnemer plaats en wordt een afweging tussen kosten en baten gemaakt."/>
+  <properties
+      key="Implicatie"
+      value="Als het raadplegen van gegevens direct bij de bron past bij de eisen vanuit gebruik, dan wordt er geen kopie gemaakt van gegevens."/>
+  <properties
+      key="Implicatie"
+      value="Als een kopie toch nodig blijkt dan wordt deze bij voorkeur centraal ingericht met hoge serviceniveaus, zodat decentrale kopieën worden vermeden en kosten worden geminimaliseerd."/>
+</archimate:Principle>
