@@ -1,7 +1,7 @@
 # Algemeen
 Dit is de GitHub repository van de MIDO/GDI werkgroep gegevensuitwisseling. Deze werkgroep is verantwoordelijk voor de (door)ontwikkeling van de domeinarchitectuur gegevensuitwisseling. De nieuwe versie van deze architectuur wordt ontwikkeld in de vorm van een ArchiMate architectuurmodel, die te vinden is in deze repository. 
 
-Het architectuurmopdel is beschikbaar in verschillende vormen:
+Het architectuurmodel is beschikbaar in verschillende vormen:
 1. In de vorm van <a href="gegevensuitwisseling.archimate">een bestand</a> voor het modelleertool Archi
 2. Als bestanden die kunnen worden ingelezen met de coArchi plugin van Archi
 3. Als <a href="https://minbzk.github.io/gdi-gegevensuitwisseling">website</a> in de vorm van een HTML report uit Archi
