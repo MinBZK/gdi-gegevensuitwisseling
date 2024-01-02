@@ -19,14 +19,15 @@ var elementTextList = [];
 var elementname = "";
 
 var relationshipTypeMappings = {
-    "access-relationship":"beheert gegevens over",
+    "access-relationship":"gebruikt",
+	"aggregation-relationship": "groepeert",
     "composition-relationship":"bestaat uit",
     "flow-relationship":"levert gegevens aan",
     "realization-relationship":"realiseert",
     "assignment-relationship":"is toegekend aan",
     "serving-relationship":"ondersteunt",
     "association-relationship":"is gerelateerd aan",
-    "aggregation-relationship":"groepeert"
+    "specialization-relationship":"specialiseert"
 }
 
 var elementTypeMappings = {
@@ -70,7 +71,7 @@ function getHeader(name) {
 	text += "</head><body>";
 	text += "<div class=\"panel panel-default root-panel\">";
 	text += "<div class=\"panel-heading root-panel-heading\">";
-    text += "<b>"+name+"</b><a href=\"../../index.html\"><img src=\"../images/home.png\" style=\"float: left; padding-right: 5px; padding-top: 1px;\"></a>";
+    text += "<b>"+name+"</b>";
 	text += "</div>";
 	text += "<div class=\"panel-body root-panel-body\">";
 	text += "<table class=\"table table-striped table-hover table-condensed\">";
@@ -110,6 +111,8 @@ for (var i=0; i<elementTypes.length; i++) {
 }
 
 $("element").each(function(e) {
+	if (e.prop("exclude")!=null) { return; }
+
 	console.log("> " + e.name);
 	elementNamesList[e.type].push(e.name);
 	elementTextList[e.type][e.name] = "<tr><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\"><a href=\"..\\elements\\"+e.id+".html\">"+e.name+"</a></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</tr>";
