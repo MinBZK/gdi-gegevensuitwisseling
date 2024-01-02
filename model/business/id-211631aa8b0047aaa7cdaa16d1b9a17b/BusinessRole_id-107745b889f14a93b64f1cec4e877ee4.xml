@@ -1,4 +1,7 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="App Store"
-    id="id-107745b889f14a93b64f1cec4e877ee4"/>
+    id="id-107745b889f14a93b64f1cec4e877ee4">
+  <properties
+      key="exclude"/>
+</archimate:BusinessRole>

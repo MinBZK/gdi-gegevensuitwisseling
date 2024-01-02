@@ -1,4 +1,7 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Define usage contracts"
-    id="id-a735f7ee28fa4717b38cb92391850c2c"/>
+    id="id-a735f7ee28fa4717b38cb92391850c2c">
+  <properties
+      key="exclude"/>
+</archimate:BusinessFunction>

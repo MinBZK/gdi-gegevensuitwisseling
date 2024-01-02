@@ -1,4 +1,7 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Define data usage policies"
-    id="id-59b35f246faa4b3ca42b51e73a5e94c8"/>
+    id="id-59b35f246faa4b3ca42b51e73a5e94c8">
+  <properties
+      key="exclude"/>
+</archimate:BusinessFunction>

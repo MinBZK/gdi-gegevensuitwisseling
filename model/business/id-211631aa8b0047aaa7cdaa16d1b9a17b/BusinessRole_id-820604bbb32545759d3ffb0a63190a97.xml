@@ -1,4 +1,7 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Data Provider"
-    id="id-820604bbb32545759d3ffb0a63190a97"/>
+    id="id-820604bbb32545759d3ffb0a63190a97">
+  <properties
+      key="exclude"/>
+</archimate:BusinessRole>

@@ -1,4 +1,7 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Manage data quality"
-    id="id-bcebf2b4317b47ee8da02b976725dee2"/>
+    id="id-bcebf2b4317b47ee8da02b976725dee2">
+  <properties
+      key="exclude"/>
+</archimate:BusinessFunction>
