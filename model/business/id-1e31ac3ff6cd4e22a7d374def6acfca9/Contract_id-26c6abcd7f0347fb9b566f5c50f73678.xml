@@ -7,9 +7,6 @@
       key="Status"
       value="nvt"/>
   <properties
-      key="Beheerorganisatie"
-      value="Logius"/>
-  <properties
       key="URL"
       value="https://standaarden.overheid.nl/tooi"/>
 </archimate:Contract>

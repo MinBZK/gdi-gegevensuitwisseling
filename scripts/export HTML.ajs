@@ -1,0 +1,188 @@
+﻿/*
+ * Export To HTML
+ * 
+ * Requires jArchi - https://www.archimatetool.com/blog/2018/07/02/jarchi/
+ * 
+ * (c) 2023 Danny Greefhorst
+ *
+ */
+
+// Show output in the console
+console.show();
+console.clear();
+console.log("> Start HTML Export");
+
+var propertiesList = [];
+var textList = [];
+var elementNamesList = [];
+var elementTextList = [];
+var elementname = "";
+
+var relationshipTypeMappings = {
+    "access-relationship":"beheert gegevens over",
+    "composition-relationship":"bestaat uit",
+    "flow-relationship":"levert gegevens aan",
+    "realization-relationship":"realiseert",
+    "assignment-relationship":"is toegekend aan",
+    "serving-relationship":"ondersteunt",
+    "association-relationship":"is gerelateerd aan",
+    "aggregation-relationship":"groepeert"
+}
+
+var elementTypeMappings = {
+    "business-function":"Bedrijfsfunctie",
+    "business-object":"Bedrijfsobject",
+	"business-role":"Rol",
+    "contract":"Standaard",
+    "application-component":"Applicatie",
+    "requirement":"Richtlijn",
+    "principle":"Principe",
+    "constraint":"Beleid",
+    "grouping": "Groep"
+}
+
+var elementTypePluralMappings = {
+    "business-function":"bedrijfsfuncties",
+    "business-object":"bedrijfsobjecten",
+	"business-role":"rollen",
+    "contract":"standaarden",
+    "application-component":"applicaties",
+	"requirement":"richtlijnen",
+	"principle":"principes",
+	"constraint":"beleidsstukken",
+	"grouping": "groepen"
+}
+
+var elementTypes = ["business-function", "business-object", "business-role", "contract", "application-component", "requirement", "principle", "constraint", "grouping"];
+
+var dirPath = window.promptOpenDirectory({ title: "Kies output directory"});
+
+function getHeader(name) {
+    var text = "<html class=\"frame\"><head>";
+	text += "<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">";
+	text += "<title>"+name+"</title>";
+	text += "<script type=\"text/javascript\" src=\"../../lib/jquery/js/jquery-1.11.2.min.js\"></script>";
+	text += "<link type=\"text/css\" rel=\"stylesheet\" href=\"../../lib/bootstrap/css/bootstrap.min.yeti.css\">";
+	text += "<script type=\"text/javascript\" src=\"../../lib/bootstrap/js/bootstrap-3.3.2.min.js\"></script>";
+	text += "<link type=\"text/css\" rel=\"stylesheet\" href=\"../../lib/bootstrap/css/bootstrap.min.yeti.css\">";
+	text += "<link type=\"text/css\" rel=\"stylesheet\" href=\"../../css/model.css\">";
+	text += "<script type=\"text/javascript\" src=\"../../js/frame2.js\"></script>";
+	text += "</head><body>";
+	text += "<div class=\"panel panel-default root-panel\">";
+	text += "<div class=\"panel-heading root-panel-heading\">";
+    text += "<b>"+name+"</b><a href=\"../../index.html\"><img src=\"../images/home.png\" style=\"float: left; padding-right: 5px; padding-top: 1px;\"></a>";
+	text += "</div>";
+	text += "<div class=\"panel-body root-panel-body\">";
+	text += "<table class=\"table table-striped table-hover table-condensed\">";
+	text += "<tbody>";
+	return text;
+}
+
+function getFooter(id) {
+	return "</tbody></table><p style=\"font-size:5px;text-align:right\">"+id+"</p></div></div></body></html>";
+}
+
+function getRelationshipProperties (r) {
+	var proptext = "";
+	var first = true;
+	for (var i=0; i<r.prop().length; i++){
+		if (first) proptext = "- "; else proptext += ", ";
+		proptext += r.prop()[i] + " = " + r.prop(r.prop()[i]);
+		first = false;
+    }
+	return proptext;
+}
+
+function writeFile(id, contents) {
+    try {
+		$.fs.writeFile(dirPath+"\\"+id+".html", contents);
+	} catch(err) {
+		console.error(err);
+	}
+}
+
+for (var i=0; i<elementTypes.length; i++) {
+	var elementtypename = elementTypePluralMappings[elementTypes[i]];
+	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
+	textList[elementTypes[i]] = getHeader(ucelementtypename)+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Definitie</td></tr>";	
+	elementNamesList[elementTypes[i]] = [];
+	elementTextList[elementTypes[i]] = [];
+}
+
+$("element").each(function(e) {
+	console.log("> " + e.name);
+	elementNamesList[e.type].push(e.name);
+	elementTextList[e.type][e.name] = "<tr><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\"><a href=\"..\\elements\\"+e.id+".html\">"+e.name+"</a></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</tr>";
+
+	var theProperties = e.prop();  
+
+	for (var i=0; i<theProperties.length; i++){
+		var found = false;
+		for (var j=0; j<propertiesList.length; j++) {
+			if (propertiesList[j]==theProperties[i]) {
+				found=true;
+			}
+		}
+		if (!found) {
+			propertiesList.push(theProperties[i]);
+		}
+    }
+
+	var elementtypename = elementTypePluralMappings[e.type];
+	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
+    var text = getHeader(ucelementtypename + " > " + e.name);
+    text += "<tr><td width=200>Definitie</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
+	text += "<tr><td>Type</b></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+(!elementTypeMappings[e.type]?e.type:elementTypeMappings[e.type])+"</td></tr>";
+		
+	for (var i=0; i<propertiesList.length; i++){
+        if (e.prop(propertiesList[i]) && propertiesList[i]!="ID") {
+			text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.prop(propertiesList[i])+"</td></tr>";
+        }
+    }
+
+	for (var i=0; i<elementTypes.length; i++) {
+		var first = true;
+		var found = false;
+		$(e).outRels().each(function (r) {
+			if (r.target.type == elementTypes[i]) { 
+				if (first) {
+					text += "<tr><td>Relatie met "+(!elementTypePluralMappings[r.target.type]?e.type:elementTypePluralMappings[r.target.type])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
+					first = false;
+					found = true;
+				}
+				text += e.name+" "+(!relationshipTypeMappings[r.type]?e.type:relationshipTypeMappings[r.type])+" <a href=\"..\\elements\\"+r.target.id+".html\">"+r.target.name+"</a>"+(r.name?(" ("+r.name+") "):"")+getRelationshipProperties(r)+"<br>";
+			}
+		});
+		$(e).inRels().each(function (r) {
+			if (r.source.type == elementTypes[i]) { 
+				if (first) {
+					text += "<tr><td>Relatie met "+(!elementTypePluralMappings[r.source.type]?e.type:elementTypePluralMappings[r.source.type])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
+					first = false;
+					found = true;
+				}
+				text += "<a href=\"..\\elements\\"+r.source.id+".html\">"+r.source.name+"</a> "+(!relationshipTypeMappings[r.type]?e.type:relationshipTypeMappings[r.type])+" "+e.name+(r.name?(" ("+r.name+") "):"")+getRelationshipProperties(r)+"<br>";
+			}
+		});
+		if (found) {
+			text += "</td></tr>";
+		}
+	};
+
+	text += getFooter(e.id);
+	writeFile("elements\\"+e.id, text);
+
+});
+
+// bestanden per elementtype maken, met gesorteerde lijst van elementen
+// beleidsstukken overslaan omdat die anders gestructureerd in een bestand moeten komen
+for (var i=0; i<elementTypes.length; i++) {
+	elementNamesList[elementTypes[i]].sort();
+	for (j=0; j<elementNamesList[elementTypes[i]].length; j++) {
+		elementname = elementNamesList[elementTypes[i]][j];
+		textList[elementTypes[i]] += elementTextList[elementTypes[i]][elementname]; 
+	}
+	textList[elementTypes[i]] += getFooter("");
+	writeFile("views\\" + elementTypePluralMappings[elementTypes[i]], textList[elementTypes[i]]);
+}
+
+console.log("> End HTML Export");

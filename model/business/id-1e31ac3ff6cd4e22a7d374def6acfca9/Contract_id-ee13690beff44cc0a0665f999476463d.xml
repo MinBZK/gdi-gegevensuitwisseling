@@ -7,12 +7,6 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
-      key="Functioneel toepassingsgebied"
-      value="XSD wordt gebruikt voor het beschrijven van op XML gebaseerde koppelvlakken voor gegevensuitwisseling"/>
-  <properties
-      key="Beheerorganisatie"
-      value="W3C"/>
-  <properties
       key="URL"
-      value="https://www.forumstandaardisatie.nl/open-standaarden/Xsd"/>
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
 </archimate:Contract>

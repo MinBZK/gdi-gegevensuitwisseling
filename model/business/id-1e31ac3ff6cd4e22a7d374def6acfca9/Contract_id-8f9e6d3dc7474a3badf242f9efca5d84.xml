@@ -7,9 +7,6 @@
       key="Status"
       value="nvt"/>
   <properties
-      key="Beheerorganisatie"
-      value="Geonovum"/>
-  <properties
       key="URL"
       value="https://profielstelselcatalogus.pldn.nl/"/>
 </archimate:Contract>

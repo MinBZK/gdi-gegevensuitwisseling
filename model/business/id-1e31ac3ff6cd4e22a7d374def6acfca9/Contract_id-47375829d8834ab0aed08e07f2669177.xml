@@ -7,12 +7,6 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
-      key="Functioneel toepassingsgebied"
-      value="Gestructureerd via het Web ter beschikking stellen van gegevens door overheden, zodat de aanbieder of overige partijen (geautomatiseerd) deze gegevens kunnen koppelen."/>
-  <properties
-      key="Beheerorganisatie"
-      value="W3C"/>
-  <properties
       key="URL"
       value="https://www.forumstandaardisatie.nl/open-standaarden/Rdf"/>
 </archimate:Contract>
