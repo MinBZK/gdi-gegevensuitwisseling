@@ -2,4 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Provide updates to data"
     id="id-510ffc68f997474282917ab5bce4ed2b"
-    documentation="Use Apps in the IDS connector to transform the data."/>
+    documentation="Use Apps in the IDS connector to transform the data.">
+  <properties
+      key="exclude"/>
+</archimate:BusinessFunction>

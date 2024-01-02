@@ -1,4 +1,7 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Data Owner"
-    id="id-6a9fffaac6e34c68a3df8da80c71feff"/>
+    id="id-6a9fffaac6e34c68a3df8da80c71feff">
+  <properties
+      key="exclude"/>
+</archimate:BusinessRole>

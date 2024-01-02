@@ -1,4 +1,7 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Vocabulary Provider"
-    id="id-254b954f06344f7a96b884d8766941aa"/>
+    id="id-254b954f06344f7a96b884d8766941aa">
+  <properties
+      key="exclude"/>
+</archimate:BusinessRole>

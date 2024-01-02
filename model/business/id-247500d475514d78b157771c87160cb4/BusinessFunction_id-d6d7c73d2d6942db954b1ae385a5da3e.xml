@@ -1,4 +1,7 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Search data"
-    id="id-d6d7c73d2d6942db954b1ae385a5da3e"/>
+    id="id-d6d7c73d2d6942db954b1ae385a5da3e">
+  <properties
+      key="exclude"/>
+</archimate:BusinessFunction>

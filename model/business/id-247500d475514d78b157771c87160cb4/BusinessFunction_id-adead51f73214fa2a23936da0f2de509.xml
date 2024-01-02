@@ -1,4 +1,7 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Provide vocabulary"
-    id="id-adead51f73214fa2a23936da0f2de509"/>
+    id="id-adead51f73214fa2a23936da0f2de509">
+  <properties
+      key="exclude"/>
+</archimate:BusinessFunction>
