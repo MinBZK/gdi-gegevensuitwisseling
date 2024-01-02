@@ -1,4 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Uitwisselafspraak"
-    id="id-21a270de58fa4a5f8079569197429604"/>
+    id="id-21a270de58fa4a5f8079569197429604"
+    documentation="Een afspraak tussen partijen over wie, wanneer, welke gegevens onder welke condities uitwisselt."/>

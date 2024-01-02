@@ -1,4 +1,7 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Receive vocabulary"
-    id="id-4e49bda2d9d24104bada2af80ccfd658"/>
+    id="id-4e49bda2d9d24104bada2af80ccfd658">
+  <properties
+      key="exclude"/>
+</archimate:BusinessFunction>

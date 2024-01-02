@@ -2,4 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Contract data provider"
     id="id-c1e84b590c9d466d88b72f46ef762ed7"
-    documentation="Use Apps in the IDS connector to transform the data."/>
+    documentation="Use Apps in the IDS connector to transform the data.">
+  <properties
+      key="exclude"/>
+</archimate:BusinessFunction>
