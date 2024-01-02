@@ -7,18 +7,18 @@ Het architectuurmopdel is beschikbaar in verschillende vormen:
 3. Als <a href="https://minbzk.github.io/gdi-gegevensuitwisseling">website</a> in de vorm van een HTML report uit Archi
 4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren (zie hieronder)
 
-# Export uit architectuurmodel
-De vogende diagrammen en overzichten zijn geëxporteerd uit Archi met <a href="scripts/export HTML.ajs">script</a>.
+# Diagrammen en overzichten
+De volgende diagrammen en overzichten zijn geëxporteerd uit Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. De overzichten en achterliggende detailpagina's zijn gegenereerd met een <a href="scripts/export HTML.ajs">script</a>.
 
-##
+## Referentie-architectuur
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/views/id-f7226f7c68704aae807b71a2f10b1cce.html">Functiemodel</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/views/id-efc531031d114860a309f6eeacdad289.html">bedrijfsobjectenmodel</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/views/id-b6f068818d264742b80c8f4f5278aca0.html">Functiemodel met bedrijfsobjecten</a>
 
-# Huidige situatie
+## Huidige situatie
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/views/id-c15721baeefd4a45b2809fcea06f8428.html">Huidige voorzieningen</a>
 
-# Gewenste situatie
+## Gewenste situatie
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/views/id-5df0c1360768493aa966c16f7dbfd414.html">Functiemodel met standaarden</a>
 
 # Overzichten
@@ -26,8 +26,8 @@ De vogende diagrammen en overzichten zijn geëxporteerd uit Archi met <a href="s
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsfuncties.html">bedrijfsfuncties</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">Standaarden</a>
 
-
 # Instructies
+
 ## Aanbrengen van wijzigingen
 Als iemand wijzigingen aanbrengt in het model dan moet er door deze persoon ook een nieuwe HTML export worden gemaakt en gepubliceerd alsook een export van het toegang.archimate bestand.
 
