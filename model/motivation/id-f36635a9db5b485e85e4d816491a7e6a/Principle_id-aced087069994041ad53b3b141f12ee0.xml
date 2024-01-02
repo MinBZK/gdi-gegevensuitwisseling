@@ -4,18 +4,18 @@
     id="id-aced087069994041ad53b3b141f12ee0"
     documentation="Het is belangrijk dat metagegevens aan elkaar verbonden zijn om maximaal context te geven aan gegevens en ze echt waardevol te maken. Praktisch is het daarvoor nodig om verbindingen te leggen tussen verschillende vormen van metagegevens. Dit vraagt allerlei afspraken, onder meer op het niveau van standaarden, om deze vorm van integratie mogelijk te maken. Linked Data standaarden zijn specifiek gericht op het verbinden van gegevens en bieden hier dus al afspraken en conventies voor. Daarnaast zijn ze geoptimaliseerd om gegevens te publiceren op het web, wat de plaats is waar metagegevens overheidsbreed beschikbaar zouden moeten zijn. Er zijn allerlei Linked Data standaarden die ook specifiek gericht zijn op metagegevens, zoals standaarden voor het beschrijven van begrippen, gegevensmodellen, regels, datasets, gegevensdiensten en provenance. Dit biedt een rijke basis voor integrale metagegevens.">
   <properties
-      key="Implicatie"
+      key="Implicaties"
       value="Metagegevens zijn beschikbaar in de wereldwijd veelgebruikte Linked Data vocabulaires voor metagegevens zoals SKOS, Dublin Core, RDFS, OWL, SHACL, DCAT, PROV-O, DQV, ODRL en IIIF. "/>
   <properties
-      key="Implicatie"
+      key="Implicaties"
       value="Nederlandse standaarden voor metagegevens bieden (ook) een Linked Data vocabulaire, zoals dat ook is ontwikkeld voor bijvoorbeeld NL-SBB, MDTO, TOOI en MIM."/>
   <properties
-      key="Implicatie"
+      key="Implicaties"
       value="Voor wereldwijde standaarden voor metagegevens waarvoor geen Linked Data vocabulaires aanwezig zijn wordt een standaard Nederlandse vocabulaire ontwikkeld, zoals voor de OpenAPI Specification en ISO 19115."/>
   <properties
-      key="Implicatie"
+      key="Implicaties"
       value="Op de raakvlakken tussen de standaarden wordt middels webadressen (IRI’s) verwezen naar gerelateerde metadatastandaarden."/>
   <properties
-      key="Implicatie"
+      key="Implicaties"
       value="Metagegevens worden gepubliceerd in landelijke catalogi zoals data.overheid.nl, developer.overheid.nl en de stelselcatalogus, die deze (ook) als Linked Data ontsluiten."/>
 </archimate:Principle>
