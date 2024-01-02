@@ -1828,8 +1828,7 @@ $.fn.layout = function (opts) {
 		,	$parent, n
 		;
 		// sC = state.container
-		// Comment out this line. See https://github.com/allpro/layout/issues/17
-		//sC.selector = $N.selector.split(".slice")[0];
+		sC.selector = $N.selector.split(".slice")[0];
 		sC.ref		= (o.name ? o.name +' layout / ' : '') + tag + (id ? "#"+id : cls ? '.['+cls+']' : ''); // used in messages
 		sC.isBody	= (tag === "BODY");
 
