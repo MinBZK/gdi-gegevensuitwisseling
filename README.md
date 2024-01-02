@@ -6,7 +6,7 @@ De web versie is beschikbaar op: https://minbzk.github.io/gdi-gegevensuitwisseli
 # Overzichten
 Er worden ook overzichten gegenereerd uit het model om snel door het model heen te navigeren en informatie te vinden.
 
-* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsobjecten.html>Bedrijfsobjecten</a>
+* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsobjecten.html">Bedrijfsobjecten</a>
 * Bedrijfsfuncties: https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsfuncties.html
 * Standaarden: https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html
 
