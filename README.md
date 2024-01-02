@@ -21,7 +21,7 @@ De volgende diagrammen en overzichten zijn geëxporteerd uit Archi. De diagramme
 ## Gewenste situatie
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/views/id-5df0c1360768493aa966c16f7dbfd414.html">Functiemodel met standaarden</a>
 
-# Overzichten
+## Overzichten
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsobjecten.html">Bedrijfsobjecten</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsfuncties.html">bedrijfsfuncties</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">Standaarden</a>
@@ -29,7 +29,7 @@ De volgende diagrammen en overzichten zijn geëxporteerd uit Archi. De diagramme
 # Instructies
 
 ## Aanbrengen van wijzigingen
-Als iemand wijzigingen aanbrengt in het model dan moet er door deze persoon ook een nieuwe HTML export worden gemaakt en gepubliceerd alsook een export van het toegang.archimate bestand.
+Als iemand wijzigingen aanbrengt in het model dan moet er door deze persoon ook een nieuwe HTML export worden gemaakt en gepubliceerd alsook een export van het toegang.archimate bestand. Voor de HTML export moet een HTML report worden gegenereerd met Archi en moet daarnaast het <a href="scripts/export HTML.ajs">script</a> worden uitgevoerd om de aanvullende overzichten en detailpagina's te genereren.
 
 ## Installeren en configureren coArchi
 1. Installeren Archi: https://www.archimatetool.com/download/
