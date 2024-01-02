@@ -2,4 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Define payment model"
     id="id-b92cdd50fa9e48d3ac5bbed144580049"
-    documentation="Define the Payment Model, including the model for reuse of data by third parties."/>
+    documentation="Define the Payment Model, including the model for reuse of data by third parties.">
+  <properties
+      key="exclude"/>
+</archimate:BusinessFunction>

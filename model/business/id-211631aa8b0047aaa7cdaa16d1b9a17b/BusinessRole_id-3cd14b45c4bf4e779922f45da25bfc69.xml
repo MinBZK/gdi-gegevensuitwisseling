@@ -1,4 +1,7 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Clearing House"
-    id="id-3cd14b45c4bf4e779922f45da25bfc69"/>
+    id="id-3cd14b45c4bf4e779922f45da25bfc69">
+  <properties
+      key="exclude"/>
+</archimate:BusinessRole>

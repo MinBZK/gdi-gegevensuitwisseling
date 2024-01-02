@@ -1,4 +1,7 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Receive metadata"
-    id="id-a3399bd20bd340a79ba30b8a83b20eba"/>
+    id="id-a3399bd20bd340a79ba30b8a83b20eba">
+  <properties
+      key="exclude"/>
+</archimate:BusinessFunction>
