@@ -1,0 +1,15 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="GeoJSON"
+    id="id-aa5a89908e8a48bbb21d48035749356e"
+    documentation="GeoJSON is een op JSON gebaseerd formaat voor geografische gegevens.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
+      key="URL"
+      value="https://geojson.org/"/>
+</archimate:Contract>
