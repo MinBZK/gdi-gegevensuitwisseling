@@ -25,8 +25,8 @@ De volgende diagrammen en overzichten zijn geëxporteerd uit Archi. De diagramme
 ## Overzichten
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsobjecten.html">Bedrijfsobjecten</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsfuncties.html">Functies</a>
-* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsfuncties.html">Architectuurprincipes</a>
-* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/architectuurprincipes.html">Standaarden</a>
+* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/artchitectuurprincipes.html">Architectuurprincipes</a>
+* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">Standaarden</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/voorzieningen.html">Voorzieningen</a>
 
 # Instructies
