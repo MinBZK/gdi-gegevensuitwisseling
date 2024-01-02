@@ -1,5 +1,0 @@
-<archimate:BusinessObject
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operatie"
-    id="id-acfdb86ed00441229bc99318d30fc9fc"
-    documentation="Een verzameling bewerkingen die toegankelijk zijn via een interface (API) en die toegang bieden tot een of meer datasets of gegevensverwerkingsfuncties. (bron: DCAT 2.0)"/>
