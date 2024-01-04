@@ -35,7 +35,7 @@ var elementTypeMappings = {
     "business-object":"Bedrijfsobject",
 	"business-role":"Rol",
     "contract":"Standaard",
-    "application-component":"Applicatie",
+    "application-component":"Voorziening",
     "requirement":"Richtlijn",
     "principle":"Principe",
     "constraint":"Beleid",
@@ -47,7 +47,7 @@ var elementTypePluralMappings = {
     "business-object":"bedrijfsobjecten",
 	"business-role":"rollen",
     "contract":"standaarden",
-    "application-component":"applicaties",
+    "application-component":"voorzieningen",
 	"requirement":"richtlijnen",
 	"principle":"principes",
 	"constraint":"beleidsstukken",
@@ -135,11 +135,20 @@ $("element").each(function(e) {
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
     var text = getHeader(ucelementtypename + " > " + e.name);
     text += "<tr><td width=200>Definitie</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
-	text += "<tr><td>Type</b></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+(!elementTypeMappings[e.type]?e.type:elementTypeMappings[e.type])+"</td></tr>";
+//	text += "<tr><td>Type</b></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+(!elementTypeMappings[e.type]?e.type:elementTypeMappings[e.type])+"</td></tr>";
 		
 	for (var i=0; i<propertiesList.length; i++){
-        if (e.prop(propertiesList[i]) && propertiesList[i]!="ID") {
-			text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.prop(propertiesList[i])+"</td></tr>";
+        if (e.prop(propertiesList[i])) {
+			properties = e.prop(propertiesList[i], true);
+			if (properties.constructor == Array) {
+				text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
+				properties.forEach(function(f) {
+					text += f+"<br>";
+				})
+				text += "</td></tr>";
+			}
+			else
+				text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+properties+"</td></tr>";
         }
     }
 
