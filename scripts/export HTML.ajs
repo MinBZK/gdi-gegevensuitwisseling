@@ -19,14 +19,15 @@ var elementTextList = [];
 var elementname = "";
 
 var relationshipTypeMappings = {
-    "access-relationship":"beheert gegevens over",
+    "access-relationship":"gebruikt",
+	"aggregation-relationship": "groepeert",
     "composition-relationship":"bestaat uit",
     "flow-relationship":"levert gegevens aan",
     "realization-relationship":"realiseert",
     "assignment-relationship":"is toegekend aan",
     "serving-relationship":"ondersteunt",
     "association-relationship":"is gerelateerd aan",
-    "aggregation-relationship":"groepeert"
+    "specialization-relationship":"specialiseert"
 }
 
 var elementTypeMappings = {
@@ -34,7 +35,7 @@ var elementTypeMappings = {
     "business-object":"Bedrijfsobject",
 	"business-role":"Rol",
     "contract":"Standaard",
-    "application-component":"Applicatie",
+    "application-component":"Voorziening",
     "requirement":"Richtlijn",
     "principle":"Principe",
     "constraint":"Beleid",
@@ -46,7 +47,7 @@ var elementTypePluralMappings = {
     "business-object":"bedrijfsobjecten",
 	"business-role":"rollen",
     "contract":"standaarden",
-    "application-component":"applicaties",
+    "application-component":"voorzieningen",
 	"requirement":"richtlijnen",
 	"principle":"principes",
 	"constraint":"beleidsstukken",
@@ -70,7 +71,7 @@ function getHeader(name) {
 	text += "</head><body>";
 	text += "<div class=\"panel panel-default root-panel\">";
 	text += "<div class=\"panel-heading root-panel-heading\">";
-    text += "<b>"+name+"</b><a href=\"../../index.html\"><img src=\"../images/home.png\" style=\"float: left; padding-right: 5px; padding-top: 1px;\"></a>";
+    text += "<b>"+name+"</b>";
 	text += "</div>";
 	text += "<div class=\"panel-body root-panel-body\">";
 	text += "<table class=\"table table-striped table-hover table-condensed\">";
@@ -110,6 +111,8 @@ for (var i=0; i<elementTypes.length; i++) {
 }
 
 $("element").each(function(e) {
+	if (e.prop("exclude")!=null) { return; }
+
 	console.log("> " + e.name);
 	elementNamesList[e.type].push(e.name);
 	elementTextList[e.type][e.name] = "<tr><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\"><a href=\"..\\elements\\"+e.id+".html\">"+e.name+"</a></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</tr>";
@@ -132,11 +135,20 @@ $("element").each(function(e) {
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
     var text = getHeader(ucelementtypename + " > " + e.name);
     text += "<tr><td width=200>Definitie</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
-	text += "<tr><td>Type</b></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+(!elementTypeMappings[e.type]?e.type:elementTypeMappings[e.type])+"</td></tr>";
+//	text += "<tr><td>Type</b></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+(!elementTypeMappings[e.type]?e.type:elementTypeMappings[e.type])+"</td></tr>";
 		
 	for (var i=0; i<propertiesList.length; i++){
-        if (e.prop(propertiesList[i]) && propertiesList[i]!="ID") {
-			text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.prop(propertiesList[i])+"</td></tr>";
+        if (e.prop(propertiesList[i])) {
+			properties = e.prop(propertiesList[i], true);
+			if (properties.constructor == Array) {
+				text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
+				properties.forEach(function(f) {
+					text += f+"<br>";
+				})
+				text += "</td></tr>";
+			}
+			else
+				text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+properties+"</td></tr>";
         }
     }
 

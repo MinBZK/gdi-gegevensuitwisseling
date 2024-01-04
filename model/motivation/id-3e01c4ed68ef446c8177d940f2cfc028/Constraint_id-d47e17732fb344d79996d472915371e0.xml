@@ -1,0 +1,18 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OpenAPI specification"
+    id="id-d47e17732fb344d79996d472915371e0"
+    documentation="Voor zowel mensen als computers is het fijn als de documentatie van een API makkelijk te lezen is. In een OpenAPI Specification staan de eigenschappen van de data die een API als input accepteert en als output teruggeeft. De overheid en de publieke sector beschrijven deze specificaties volgens een vaste werkwijze. Zo wordt de documentatie voorspelbaar en de API's makkelijker te (her)gebruiken.">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="OAS moet worden toegepast op het beschrijven/specificeren van een REST API."/>
+  <properties
+      key="Beheerorganisatie"
+      value="OpenAPI Initiative"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/openapi-specification"/>
+</archimate:Constraint>

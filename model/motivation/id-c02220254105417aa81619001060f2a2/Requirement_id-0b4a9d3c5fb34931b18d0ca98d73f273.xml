@@ -1,0 +1,21 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Registraties kunnen notificeren over wijzigingen"
+    id="id-0b4a9d3c5fb34931b18d0ca98d73f273"
+    documentation="Registraties zijn de formele bron voor de gegevens die ze beheren. Afnemers houden liefst zelf geen kopie van deze gegevens bij, maar zijn wel afhankelijk van wijzigingen die erin optreden omdat zij hier zelf op moeten acteren.">
+  <properties
+      key="Implicaties"
+      value="Registraties kunnen notificaties verstrekken als gegevens wijzigen, op basis van door afnemers aangegeven criteria."/>
+  <properties
+      key="Implicaties"
+      value="Registraties kunnen ook notificaties verstrekken als historische gegevens wijzigen (iets dat liefst niet gebeurt, maar in uitzonderlijke gevallen toch kan optreden)"/>
+  <properties
+      key="Implicaties"
+      value="Registraties kunnen ook op basis van selectiecriteria eerder opgetreden wijzigen verstrekken."/>
+  <properties
+      key="Implicaties"
+      value="Registraties borgen de aflevering van notificaties bij afnemers."/>
+  <properties
+      key="Implicaties"
+      value="Notificaties zijn liefst gebaseerd op het NL GOV Profile voor CloudEvents en de bijbehorende richtlijnen."/>
+</archimate:Requirement>

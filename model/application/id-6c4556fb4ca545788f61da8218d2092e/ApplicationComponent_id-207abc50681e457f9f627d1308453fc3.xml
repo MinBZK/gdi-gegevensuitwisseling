@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Digimelding"
     id="id-207abc50681e457f9f627d1308453fc3"
-    documentation="Met Digimelding kunnen mogelijke onjuistheden in de gegevens van een (basis)registratie uniform, betrouwbaar en efficiënt worden teruggemeld aan de bronhouder van deze registratie."/>
+    documentation="Met Digimelding kunnen mogelijke onjuistheden in de gegevens van een (basis)registratie uniform, betrouwbaar en efficiënt worden teruggemeld aan de bronhouder van deze registratie.">
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://logius.nl/domeinen/gegevensuitwisseling/digimelding"/>
+</archimate:ApplicationComponent>

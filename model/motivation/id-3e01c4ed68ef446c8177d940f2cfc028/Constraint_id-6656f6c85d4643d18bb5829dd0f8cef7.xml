@@ -1,0 +1,15 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OData"
+    id="id-6656f6c85d4643d18bb5829dd0f8cef7"
+    documentation="OData kan worden toegepast voor het bouwen en gebruiken van REST APIs met als doel het gestructureerd ontsluiten van (statistische) open datasets.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="OASIS"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/odata"/>
+</archimate:Constraint>

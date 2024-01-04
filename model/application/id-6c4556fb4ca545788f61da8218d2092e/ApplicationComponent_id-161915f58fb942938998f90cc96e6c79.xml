@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Nationaal Geo Register"
     id="id-161915f58fb942938998f90cc96e6c79"
-    documentation="Een register en portaal met door de Nederlandse overheid beschikbaar gestelde geografische gegevens."/>
+    documentation="Een register en portaal met door de Nederlandse overheid beschikbaar gestelde geografische gegevens.">
+  <properties
+      key="Beheerorganisatie"
+      value="Kadaster"/>
+  <properties
+      key="URL"
+      value="https://www.nationaalgeoregister.nl/"/>
+</archimate:ApplicationComponent>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Metagegevens zijn aan elkaar verbonden</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Metagegevens zijn aan elkaar verbonden</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Principle"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Principle" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Gegevens hebben metagegevens nodig om betekenis te krijgen en bruikbaar te zijn. Er zijn allerlei soorten metagegevens die verschillende aspecten van gegevens modelleren, zoals metagegevens die de betekenis beschrijven, metagegevens die de structuur beschrijven en metagegevens die beschrijven welke eenheden van gegevens beschikbaar zijn. Dit soort metagegevens moeten in relatie tot elkaar ge&#239;nterpreteerd worden, om echt waardevol te zijn. Zo heb je bijvoorbeeld niet zoveel aan metagegevens over datasets als je niet weet van voor gegevens erin zitten, wat ze betekenen en welke kwaliteit ze hebben. Daarnaast zijn begrippen belangrijke metagegevens voor het vinden van gegevens, maar is het daarvoor wel nodig dat er naar ze gerefereerd wordt.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Modelelementen in informatie- en gegevensmodellen zoals objecttypes en attribuutsoorten refereren expliciet naar de gedefinieerde begrippen die ze representeren.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">In informatie- en gegevensmodellen wordt ook gerefereerd naar de beperkingsregels en afleidingsregels die van toepassing zijn.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Bij metagegevens over datasets zijn ook metagegevens beschikbaar over de objecttypen en attribuutsoorten van de in de dataset aanwezige gegevens.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Informatieobjecten zoals documenten en datasets zijn voorzien van begrippen zodat ze beter vindbaar zijn.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Bij de uitgewisselde gegevens is een verwijzing aanwezig naar het gebruikte schema.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Data-elementen in schema&#8217;s (zoals JSON schema&#8217;s en XML schema&#8217;s) verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Er is bij de documentatie van diensten of operaties in datadiensten beschreven welke beperkingsregels en afleidingsregels worden toegepast.</td></tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

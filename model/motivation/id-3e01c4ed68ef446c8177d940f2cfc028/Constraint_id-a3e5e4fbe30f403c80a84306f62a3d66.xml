@@ -1,0 +1,18 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="RDF"
+    id="id-a3e5e4fbe30f403c80a84306f62a3d66"
+    documentation="RDF is een standaard voor het uitwisselen van gegevens op het web. Als partijen data als ‘RDF-Triples’ uitwisselen, wordt het voor de ontvangende partij makkelijker om de data geautomatiseerd te interpreteren en te linken aan andere data(sets). ">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Gestructureerd via het Web ter beschikking stellen van gegevens door overheden, zodat de aanbieder of overige partijen (geautomatiseerd) deze gegevens kunnen koppelen."/>
+  <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Rdf"/>
+</archimate:Constraint>

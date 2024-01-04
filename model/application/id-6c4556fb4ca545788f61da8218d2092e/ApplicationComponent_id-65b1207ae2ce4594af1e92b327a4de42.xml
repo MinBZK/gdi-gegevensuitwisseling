@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="data.overheid.nl"
     id="id-65b1207ae2ce4594af1e92b327a4de42"
-    documentation="Een register en portaal met door de Nederlandse overheid beschikbaar gestelde gegevens."/>
+    documentation="Een register en portaal met door de Nederlandse overheid beschikbaar gestelde gegevens.">
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://data.overheid.nl/"/>
+</archimate:ApplicationComponent>

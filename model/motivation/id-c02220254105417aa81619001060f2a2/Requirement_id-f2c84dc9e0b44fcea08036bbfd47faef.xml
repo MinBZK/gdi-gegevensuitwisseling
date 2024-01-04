@@ -1,0 +1,15 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Registraties bieden historische gegevens aan"
+    id="id-f2c84dc9e0b44fcea08036bbfd47faef"
+    documentation="Basis- en sectorregistraties zijn de formele bron voor de gegevens die ze beheren. Ze zijn een belangrijke basis voor de Nederlandse overheid en er zal op allerlei manieren aan worden gerefereerd. Het is belangrijk dat er geen discussie kan ontstaan over welke gegevens er op een bepaald moment onderdeel waren van de registratie, ook in juridische zin.">
+  <properties
+      key="Implicaties"
+      value="Registraties houden de formele historie bij van hun gegevens."/>
+  <properties
+      key="Implicaties"
+      value="Registraties bieden de mogelijkheid om historische gegevens op te vragen."/>
+  <properties
+      key="Implicaties"
+      value="Registraties bieden liefst ook de mogelijkheid de formele historie (near) real-time te bevragen."/>
+</archimate:Requirement>

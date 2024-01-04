@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="developer.overheid.nl"
     id="id-aa1ff1bfa9e34d478810bb449f6ad57d"
-    documentation="Een register en portaal met door de Nederlandse overheid ontwikkelde API's."/>
+    documentation="Een register en portaal met door de Nederlandse overheid ontwikkelde API's.">
+  <properties
+      key="Beheerorganisatie"
+      value="minBZK"/>
+  <properties
+      key="URL"
+      value="https://developer.overheid.nl/"/>
+</archimate:ApplicationComponent>
