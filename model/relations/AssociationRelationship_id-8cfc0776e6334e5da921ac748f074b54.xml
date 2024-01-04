@@ -6,6 +6,6 @@
       xsi:type="archimate:BusinessFunction"
       href="BusinessFunction_id-e8e0fadbd63b479d95144f268ac1d2af.xml#id-e8e0fadbd63b479d95144f268ac1d2af"/>
   <target
-      xsi:type="archimate:Requirement"
-      href="Requirement_id-a6472f57bc4c427f901c0dc6502c23d7.xml#id-a6472f57bc4c427f901c0dc6502c23d7"/>
+      xsi:type="archimate:Principle"
+      href="Principle_id-1786a7952d0e4aa9882e7416ba13c3d7.xml#id-1786a7952d0e4aa9882e7416ba13c3d7"/>
 </archimate:AssociationRelationship>

@@ -1,7 +1,7 @@
-<archimate:Requirement
+<archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Metagegevens zijn beschikbaar als Linked Data"
-    id="id-410ec2e5cdcb4714983297b35d64eb68"
+    id="id-2c34fea9221d49f294b723e9a871cd47"
     documentation="Het is belangrijk dat metagegevens aan elkaar verbonden zijn om maximaal context te geven aan gegevens en ze echt waardevol te maken. Praktisch is het daarvoor nodig om verbindingen te leggen tussen verschillende vormen van metagegevens. Linked Data standaarden zijn specifiek gericht op het verbinden van gegevens en zijn geoptimaliseerd om gegevens te publiceren op het web. Er zijn allerlei Linked Data standaarden die ook specifiek gericht zijn op metagegevens.">
   <properties
       key="Implicaties"
@@ -18,4 +18,4 @@
   <properties
       key="Implicaties"
       value="Metagegevens worden gepubliceerd in landelijke catalogi zoals data.overheid.nl, developer.overheid.nl en de stelselcatalogus, die deze (ook) als Linked Data ontsluiten."/>
-</archimate:Requirement>
+</archimate:Principle>
