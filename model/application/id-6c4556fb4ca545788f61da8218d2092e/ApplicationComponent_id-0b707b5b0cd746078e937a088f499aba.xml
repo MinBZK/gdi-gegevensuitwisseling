@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Centraal Aansluitpunt"
     id="id-0b707b5b0cd746078e937a088f499aba"
-    documentation="Het Centraal Aansluitpunt (CA) is het knoopppunt voor berichtenverkeer tussen systemen voor overheidsorganisaties. "/>
+    documentation="Het Centraal Aansluitpunt (CA) is het knoopppunt voor berichtenverkeer tussen systemen voor overheidsorganisaties. ">
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="Link"
+      value="https://logius.nl/domeinen/infrastructuur/centraal-aansluitpunt"/>
+</archimate:ApplicationComponent>
