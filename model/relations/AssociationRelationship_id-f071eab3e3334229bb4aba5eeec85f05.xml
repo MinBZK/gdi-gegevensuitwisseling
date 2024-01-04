@@ -6,6 +6,6 @@
       xsi:type="archimate:BusinessObject"
       href="BusinessObject_id-d896763cdeee448e953a2193561a728f.xml#id-d896763cdeee448e953a2193561a728f"/>
   <target
-      xsi:type="archimate:Contract"
-      href="Contract_id-441204b5c66b4d9f81589e4fdf886785.xml#id-441204b5c66b4d9f81589e4fdf886785"/>
+      xsi:type="archimate:Constraint"
+      href="Constraint_id-ce31bcdad11a4f879c58d0072d5dbbe9.xml#id-ce31bcdad11a4f879c58d0072d5dbbe9"/>
 </archimate:AssociationRelationship>

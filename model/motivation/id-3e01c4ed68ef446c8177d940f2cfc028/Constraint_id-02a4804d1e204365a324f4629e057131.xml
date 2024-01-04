@@ -1,0 +1,18 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="DCAT"
+    id="id-02a4804d1e204365a324f4629e057131"
+    documentation="Data Catalog Vocabulary (DCAT) is een metadatastandaard en is ontworpen om interoperabiliteit tussen gegevenscatalogi, gepubliceerd op het internet, te vergemakkelijken. DCAT maakt decentrale publicaties en ontsluiting van catalogi mogelijk (federated search van datasets over meerdere catalogi).">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Beschrijven van datasets van op het internet gepubliceerde gegevenscatalogi ten behoeve van presentatie en gericht zoeken."/>
+  <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Dcat"/>
+</archimate:Constraint>

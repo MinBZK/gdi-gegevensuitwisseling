@@ -1,0 +1,15 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NL-SBB"
+    id="id-0e8e9bd950a04d5390cbd01cde4c9375"
+    documentation="De standaard voor het beschrijven van begrippen geeft aan hoe begrippen in een begrippenlijst, taxonomie of thesaurus eenduidig worden beschreven. ">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="Geonovum"/>
+  <properties
+      key="URL"
+      value="https://profielstelselcatalogus.pldn.nl/"/>
+</archimate:Constraint>

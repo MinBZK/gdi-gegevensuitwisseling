@@ -1,0 +1,18 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Digikoppeling Koppelvlakstandaard REST-API"
+    id="id-bf22ed38d975422685a677577ebb57bf"
+    documentation="Digikoppeling Koppelvlakstansdaard REST-API standaardiseert hoe gegevens worden uitgewisseld op basis van RESTful API's.">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Digikoppeling moet worden toegepast bij digitale gegevensuitwisseling die plaatsvindt met voorzieningen die onderdeel zijn van de GDI, waaronder de basisregistraties, of die sectoroverstijgend is. De verplichting geldt voor gegevensuitwisseling tussen systemen waarbij er noodzaak is voor tweezijdige authenticatie."/>
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://gitdocumentatie.logius.nl/publicatie/dk/restapi/"/>
+</archimate:Constraint>

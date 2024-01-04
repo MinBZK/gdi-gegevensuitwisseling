@@ -1,0 +1,18 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="JSON"
+    id="id-09e98a85539140da9e118b8679661527"
+    documentation="JSON (JavaScript Object Notation) is een deelverzameling van de programmeertaal JavaScript. Het is een formaat om net zoals XML gegevens op te slaan en te versturen.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Objectnotatie voor het uitwisselen van datastructuren. Bijvoorbeeld in webapplicaties die asynchroon gegevens ophalen van de webserver."/>
+  <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Json"/>
+</archimate:Constraint>

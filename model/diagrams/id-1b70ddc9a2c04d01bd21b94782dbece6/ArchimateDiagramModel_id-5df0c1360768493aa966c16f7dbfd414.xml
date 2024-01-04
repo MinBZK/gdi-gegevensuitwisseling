@@ -10,9 +10,9 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="756"
+        x="804"
         y="-36"
-        width="541"
+        width="577"
         height="457"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
@@ -23,49 +23,58 @@
       <bounds
           x="12"
           y="24"
-          width="517"
+          width="553"
           height="229"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-682419481f0f40d7b322cb64cccc5afc"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-6055747b07b34d75b8eef2c07dada2a1.xml#id-6055747b07b34d75b8eef2c07dada2a1"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-d8486619cfed479eaa0f996e5af89ecf.xml#id-d8486619cfed479eaa0f996e5af89ecf"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-5c034bda69c0443b93b50d6f17fb7a08"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-2e244ecbcfd64b0fbc1e351fec1d1204.xml#id-2e244ecbcfd64b0fbc1e351fec1d1204"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-0c5ff2bcee01490da929bce198ffa7e8.xml#id-0c5ff2bcee01490da929bce198ffa7e8"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ab3b333feef14fbda0adf44b0f48e090"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="132"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-3d7598af0f46469fbef2ed159565e72e.xml#id-3d7598af0f46469fbef2ed159565e72e"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-bf22ed38d975422685a677577ebb57bf.xml#id-bf22ed38d975422685a677577ebb57bf"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -75,126 +84,153 @@
         <features
             name="labelExpression"
             value="Digikoppeling Koppelvlakstandaard GB"/>
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="180"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-aa9c73f1de2d4702be5a64325b46b947.xml#id-aa9c73f1de2d4702be5a64325b46b947"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-3d5e3c7b91dc412d9f110e7cbfca84aa.xml#id-3d5e3c7b91dc412d9f110e7cbfca84aa"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-11a0bb70179645cca628d7ec6a66ef2f"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-53aabc3cdfe64b6284c482a961ea6bff.xml#id-53aabc3cdfe64b6284c482a961ea6bff"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-6656f6c85d4643d18bb5829dd0f8cef7.xml#id-6656f6c85d4643d18bb5829dd0f8cef7"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-39e822dccda24a4c8faa014168f42e7d"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-edd8d684d4254ead97962bd26d590b8f.xml#id-edd8d684d4254ead97962bd26d590b8f"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-6d511588479d46f0983341eebfb80bc5.xml#id-6d511588479d46f0983341eebfb80bc5"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-0fddca2385d44a00bf471e9216bcdcb4"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="132"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-2d4f9326e7c14b37a90e2db3d5055066.xml#id-2d4f9326e7c14b37a90e2db3d5055066"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-dc15c3dd36be47d98752f13e6008b7d7.xml#id-dc15c3dd36be47d98752f13e6008b7d7"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-91d0131b2b114cfc8e6af40d47d9bc98"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="180"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-e5f0cf03b2394868958703e87f225704.xml#id-e5f0cf03b2394868958703e87f225704"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-81ca2fbd0c984219b80e7596a9f16326.xml#id-81ca2fbd0c984219b80e7596a9f16326"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-6e59cb09f7654e0d9f42f7bbdc7ef7b3"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="348"
+            x="372"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-4df866f399c2471a85440fb175dd7ea1.xml#id-4df866f399c2471a85440fb175dd7ea1"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-7189c427043b41579a1b5ac7065242b6.xml#id-7189c427043b41579a1b5ac7065242b6"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-2c28cfdf844e4aec80f674838a1f9a15"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="348"
+            x="372"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-21e0dc2067d64e79a14b3ecbf96688bd.xml#id-21e0dc2067d64e79a14b3ecbf96688bd"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-da22abba43ae4197ae3a5db32b093183.xml#id-da22abba43ae4197ae3a5db32b093183"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-4d59b75056974543a6405c0e1f5c464c"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="348"
+            x="372"
             y="132"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-2979e5e931ed47549400cd4d248b7ff3.xml#id-2979e5e931ed47549400cd4d248b7ff3"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-b7baf6f4703f48ed874cc7b905d81e60.xml#id-b7baf6f4703f48ed874cc7b905d81e60"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-e18662eda57342c98b0eb4861a2c5589"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="348"
+            x="372"
             y="180"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-1c367a0327754eac874548647a5cd0c7.xml#id-1c367a0327754eac874548647a5cd0c7"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-35ec7c5a907d4d5889a0491d4776a503.xml#id-35ec7c5a907d4d5889a0491d4776a503"/>
       </children>
     </children>
     <children
@@ -206,119 +242,143 @@
       <bounds
           x="12"
           y="264"
-          width="517"
+          width="553"
           height="181"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-cd9adb71ff0045c5a06e6533aa5ddeb8"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-68c5c05799654d6e9db505d0ccc70c7c.xml#id-68c5c05799654d6e9db505d0ccc70c7c"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-09e98a85539140da9e118b8679661527.xml#id-09e98a85539140da9e118b8679661527"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-0b354ee139724f5091a8adb3cc3eefce"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-aa5a89908e8a48bbb21d48035749356e.xml#id-aa5a89908e8a48bbb21d48035749356e"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-6c54b2cd36674bb19b9ed8238f3a68de.xml#id-6c54b2cd36674bb19b9ed8238f3a68de"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-b4486ca0f5264101b23611a96aab9691"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="132"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-26eb8e42d05345ee9d2dec8f92db0845.xml#id-26eb8e42d05345ee9d2dec8f92db0845"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-517bb1d25ac740adb78e062922c5db17.xml#id-517bb1d25ac740adb78e062922c5db17"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-08e43ea8918940dbb446752b2b92d5d9"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-87585006a7064d2785691958b2685666.xml#id-87585006a7064d2785691958b2685666"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-7f3f21e561764fe0bd54a826cb952254.xml#id-7f3f21e561764fe0bd54a826cb952254"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-8da7e836718d449cbdcac21deb4b99fd"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-47375829d8834ab0aed08e07f2669177.xml#id-47375829d8834ab0aed08e07f2669177"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-a3e5e4fbe30f403c80a84306f62a3d66.xml#id-a3e5e4fbe30f403c80a84306f62a3d66"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-aff41c15b09e43c28b02471ac7615841"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="132"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-408a3071f48247ef84b5e5f3a70145d1.xml#id-408a3071f48247ef84b5e5f3a70145d1"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-091cee839d714688a54c57a769eea984.xml#id-091cee839d714688a54c57a769eea984"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-8012235b93344f2280665cdfecc8d24b"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="348"
+            x="372"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-5ed202d85d9e456f81225e62b0db4173.xml#id-5ed202d85d9e456f81225e62b0db4173"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-39b68135266a4b08be0c9bacacd8a5da.xml#id-39b68135266a4b08be0c9bacacd8a5da"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-c52b87521ddd48c1812f5eb422090c5a"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="348"
+            x="372"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-42fb4b9ea0084a5cac6a73ea48cafdc1.xml#id-42fb4b9ea0084a5cac6a73ea48cafdc1"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-e0f07c7f77834fd081955c8d99f288f7.xml#id-e0f07c7f77834fd081955c8d99f288f7"/>
       </children>
     </children>
     <archimateElement
@@ -337,13 +397,13 @@
         source="id-38f26c796bd948e69d71a12557977b3b"
         target="id-a96a555a4d7948aea8aefe0d10868440">
       <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-5f81f339c2bd4dbebf95479d8753ff4d.xml#id-5f81f339c2bd4dbebf95479d8753ff4d"/>
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-e7fe3dcc3215436380572d0a8e2730bb.xml#id-e7fe3dcc3215436380572d0a8e2730bb"/>
     </sourceConnections>
     <bounds
-        x="1308"
+        x="1392"
         y="432"
-        width="373"
+        width="409"
         height="73"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -351,14 +411,17 @@
         targetConnections="id-f1a0ef07c16544eaafdd8af8c82a8ef1"
         fillColor="#ffffff"
         textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
       <bounds
           x="24"
           y="24"
-          width="157"
+          width="169"
           height="37"/>
       <archimateElement
-          xsi:type="archimate:Contract"
-          href="Contract_id-3ec1d2a0555643dab1efad21091302fb.xml#id-3ec1d2a0555643dab1efad21091302fb"/>
+          xsi:type="archimate:Constraint"
+          href="Constraint_id-bd9f9a2fe62245c7ae1f01f5ff6ee28a.xml#id-bd9f9a2fe62245c7ae1f01f5ff6ee28a"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -376,13 +439,13 @@
         source="id-bb3ddbeff40449f38e5303366d077b37"
         target="id-02700ca55c2f4967b11ef7e58063a725">
       <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-d755d49a1b9c40d2aea1efecc72e5858.xml#id-d755d49a1b9c40d2aea1efecc72e5858"/>
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-4c7c47e83f8d4f2aa1d142ceafe754ea.xml#id-4c7c47e83f8d4f2aa1d142ceafe754ea"/>
     </sourceConnections>
     <bounds
-        x="756"
+        x="804"
         y="432"
-        width="541"
+        width="577"
         height="73"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -390,14 +453,17 @@
         targetConnections="id-48cfaf0a6e6f403f8332ae1e502a31cd"
         fillColor="#ffffff"
         textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
       <bounds
           x="12"
           y="24"
-          width="157"
+          width="169"
           height="37"/>
       <archimateElement
-          xsi:type="archimate:Contract"
-          href="Contract_id-714fa7ea96be48cba1706469489f9149.xml#id-714fa7ea96be48cba1706469489f9149"/>
+          xsi:type="archimate:Constraint"
+          href="Constraint_id-ce64114e055648af86127a0b29704e94.xml#id-ce64114e055648af86127a0b29704e94"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -412,7 +478,7 @@
     <bounds
         x="12"
         y="-36"
-        width="733"
+        width="781"
         height="541"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
@@ -423,49 +489,58 @@
       <bounds
           x="12"
           y="24"
-          width="347"
+          width="373"
           height="133"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-b5af6ee53a424591ac59f52a0c03ec8e"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-ec0dc19e62ab4c4e84870fb56d0499dc.xml#id-ec0dc19e62ab4c4e84870fb56d0499dc"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-d8f49707cd50464faed61c5d8ec11625.xml#id-d8f49707cd50464faed61c5d8ec11625"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-973a06e5713c4c75ad8d7a4a5b85b0f2"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-8f9e6d3dc7474a3badf242f9efca5d84.xml#id-8f9e6d3dc7474a3badf242f9efca5d84"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-0e8e9bd950a04d5390cbd01cde4c9375.xml#id-0e8e9bd950a04d5390cbd01cde4c9375"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-622365ab463c42ecace27103e58a6786"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-f1aa076158c34d2db2f25225e2088716.xml#id-f1aa076158c34d2db2f25225e2088716"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-c40dfcb8cd544a32a5e95435fa66423e.xml#id-c40dfcb8cd544a32a5e95435fa66423e"/>
       </children>
     </children>
     <children
@@ -477,175 +552,211 @@
       <bounds
           x="12"
           y="168"
-          width="347"
+          width="373"
           height="322"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-2a0144d3cfee454e983bd9136b66a9ed"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="33"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-38939476dfd441e7a3ecec1997391988.xml#id-38939476dfd441e7a3ecec1997391988"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-a886fec7ea1447db9831cd8c85bcd77c.xml#id-a886fec7ea1447db9831cd8c85bcd77c"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-8b18d22e9ed24aa1adb5bc4806f98134"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="81"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-96f8db645b214fa5ae7d386fdaaa9772.xml#id-96f8db645b214fa5ae7d386fdaaa9772"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-cc4548cefc604808952b9fc34ae15981.xml#id-cc4548cefc604808952b9fc34ae15981"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ba1db60bdc784e30b3c9a442658d0d1a"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="129"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-f276d9bd12e24ab5aa29e87cadf88edc.xml#id-f276d9bd12e24ab5aa29e87cadf88edc"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-789abaabe8384ed1a6cff3e6c40c7a97.xml#id-789abaabe8384ed1a6cff3e6c40c7a97"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-bac770b4cc8148e28120946c83c3fc1f"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="177"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-174669a667d34069bf69344e92386aca.xml#id-174669a667d34069bf69344e92386aca"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-702d1979b3634a7fae6a537f95cd0ccb.xml#id-702d1979b3634a7fae6a537f95cd0ccb"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-fb28bdd00ca644878b55b86742478a9a"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="225"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-9957613fefeb4416b5fe9f31c89f86fc.xml#id-9957613fefeb4416b5fe9f31c89f86fc"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-654de455909049e5880ca18ca40935ed.xml#id-654de455909049e5880ca18ca40935ed"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-786886213a684700b82ac0f938e491b4"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="273"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-777c2d5eaad54f69a3d14040208d876f.xml#id-777c2d5eaad54f69a3d14040208d876f"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-4ca2f05b381642d0987771b5f0af22a3.xml#id-4ca2f05b381642d0987771b5f0af22a3"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-5c87ba140171482b8af11b1baf8dc191"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="33"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-3298e10c0bf245e6be426a6f6f426c04.xml#id-3298e10c0bf245e6be426a6f6f426c04"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-0f85cbb16d5b48acbbe3cf7236dbdc2b.xml#id-0f85cbb16d5b48acbbe3cf7236dbdc2b"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-f224d78944bb4592b68c76cc03a5bee3"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="81"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-5ed202d85d9e456f81225e62b0db4173.xml#id-5ed202d85d9e456f81225e62b0db4173"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-39b68135266a4b08be0c9bacacd8a5da.xml#id-39b68135266a4b08be0c9bacacd8a5da"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-7a59923da2644e28b833766070bb9ec6"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="129"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-87585006a7064d2785691958b2685666.xml#id-87585006a7064d2785691958b2685666"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-7f3f21e561764fe0bd54a826cb952254.xml#id-7f3f21e561764fe0bd54a826cb952254"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-f9ca6764ef284d9c8a0209cfc83d1cf3"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="177"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-ee13690beff44cc0a0665f999476463d.xml#id-ee13690beff44cc0a0665f999476463d"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-978c37663b714e0fbdc9ec088db243d4.xml#id-978c37663b714e0fbdc9ec088db243d4"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-733f71d18e3f40efa80b0de6cbcf4045"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="225"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-012150ce7a0c4a499a85c0988e5ce91e.xml#id-012150ce7a0c4a499a85c0988e5ce91e"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-dfbe1c09e48c41ebbf57626a369f05d7.xml#id-dfbe1c09e48c41ebbf57626a369f05d7"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-31d578a9c0c84e4a98292c3dc90e4729"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="273"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-b1f2d4efd8ca4e19b13845ca9fdf34e2.xml#id-b1f2d4efd8ca4e19b13845ca9fdf34e2"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-adefb7b185264eaa958b42be410c314d.xml#id-adefb7b185264eaa958b42be410c314d"/>
       </children>
     </children>
     <children
@@ -655,149 +766,179 @@
         textAlignment="1"
         fillColor="#ffffb5">
       <bounds
-          x="372"
+          x="396"
           y="24"
-          width="349"
+          width="373"
           height="280"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-8da32f333aa44885b61cbca55f57da01"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="228"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-588c85e3a4274bf89abf65d7e20ecc52.xml#id-588c85e3a4274bf89abf65d7e20ecc52"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-76a5a82ce9444ce49b7b62d3c1ddbe21.xml#id-76a5a82ce9444ce49b7b62d3c1ddbe21"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-f1fe76bf315542f197c57dcd4ff8bb18"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-409e3161ef8c4800b07feddfa60438be.xml#id-409e3161ef8c4800b07feddfa60438be"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-d47e17732fb344d79996d472915371e0.xml#id-d47e17732fb344d79996d472915371e0"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-eb3019fdee874df49619886e43509736"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="132"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-7ef79f8f78ee469cb58fed98ada92fa0.xml#id-7ef79f8f78ee469cb58fed98ada92fa0"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-5942baa29f2843ef8aae2f9749930da9.xml#id-5942baa29f2843ef8aae2f9749930da9"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-7bbf03f90d2447098df32155b995412b"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="180"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-999e143b0b9c465a971be0958ccda0ac.xml#id-999e143b0b9c465a971be0958ccda0ac"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-da7a4768123a4f0b9336cce462bfdbfc.xml#id-da7a4768123a4f0b9336cce462bfdbfc"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-07f652f75f7245caa50526f988f03161"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="228"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-d62d63e8c4c44ebb957d0b7d4ccfb283.xml#id-d62d63e8c4c44ebb957d0b7d4ccfb283"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-5a7499e69e274232ae20ea84c74aa97b.xml#id-5a7499e69e274232ae20ea84c74aa97b"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-d2ad3f02ed12461db02d42a7e7f820f8"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-474b0743f79c46e59701a4aa33966d35.xml#id-474b0743f79c46e59701a4aa33966d35"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-8f06012b2a2f45ca97351be679da5987.xml#id-8f06012b2a2f45ca97351be679da5987"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-6062fb5f43ae4397b8513a34fcdce4b5"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-3d5b863efcaa4dab9831e9a763c7c0a0.xml#id-3d5b863efcaa4dab9831e9a763c7c0a0"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-02a4804d1e204365a324f4629e057131.xml#id-02a4804d1e204365a324f4629e057131"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-56eb2b22682747319289bd4d027f5468"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-cab0a76c50bd4434b28bb8a58cded851.xml#id-cab0a76c50bd4434b28bb8a58cded851"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-e0903391f835401798f98afd39daea1a.xml#id-e0903391f835401798f98afd39daea1a"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-681a8dfb8e03438ba8bf14df6113269c"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="180"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-a0568aba80d34619bc044f4402dae40b.xml#id-a0568aba80d34619bc044f4402dae40b"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-6502e902a19e4f4987a1340c7fefb05a.xml#id-6502e902a19e4f4987a1340c7fefb05a"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-8a2331ccf1bd4c679c8bed2cf41d9432"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="132"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-e0d8e49a8835411480e65327bd7ba1c8.xml#id-e0d8e49a8835411480e65327bd7ba1c8"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-293860e793c24752a4184737c13d802b.xml#id-293860e793c24752a4184737c13d802b"/>
       </children>
     </children>
     <children
@@ -807,79 +948,94 @@
         textAlignment="1"
         fillColor="#ffffb5">
       <bounds
-          x="373"
+          x="397"
           y="312"
-          width="347"
+          width="372"
           height="178"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-405cd3201edf4c658e49aace2d20382a"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="33"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-a4f0adfcdb0a48b09dffca187942be2f.xml#id-a4f0adfcdb0a48b09dffca187942be2f"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-729ea10a80c44ff882a31cb6d5fcc569.xml#id-729ea10a80c44ff882a31cb6d5fcc569"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-fc9f18b281ad4d11b2f5c337dcb6a177"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="81"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-26c6abcd7f0347fb9b566f5c50f73678.xml#id-26c6abcd7f0347fb9b566f5c50f73678"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-f78d2b6646744e4ba75a221cad0e234c.xml#id-f78d2b6646744e4ba75a221cad0e234c"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-5daf842513e54405a90cf297de3ac638"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="129"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-935805421c6c4a198247268a383f1502.xml#id-935805421c6c4a198247268a383f1502"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-2ca8c8a0edc245348bb3f56548636bf7.xml#id-2ca8c8a0edc245348bb3f56548636bf7"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-9e84f529a46c4ab7899ccb8533843bfd"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="33"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-9fc7137199c44f72b3a1a4557b491b15.xml#id-9fc7137199c44f72b3a1a4557b491b15"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-6b6bfd62cfce425b80f80637404b3925.xml#id-6b6bfd62cfce425b80f80637404b3925"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-b7cf9d66eecb4e58a89d82c7b8afea77"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="81"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-e82414e647a448f4816d251afbed95d1.xml#id-e82414e647a448f4816d251afbed95d1"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-d5c9bef30afa4a769b9e4813f0aa0956.xml#id-d5c9bef30afa4a769b9e4813f0aa0956"/>
       </children>
     </children>
     <archimateElement
@@ -893,9 +1049,9 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="1308"
+        x="1392"
         y="-36"
-        width="373"
+        width="409"
         height="457"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
@@ -906,63 +1062,75 @@
       <bounds
           x="18"
           y="24"
-          width="343"
+          width="379"
           height="131"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-31667206382c4bf3ae3a007452a091d7"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-ee13690beff44cc0a0665f999476463d.xml#id-ee13690beff44cc0a0665f999476463d"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-978c37663b714e0fbdc9ec088db243d4.xml#id-978c37663b714e0fbdc9ec088db243d4"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-5657d99b2615429188cef1ee54480770"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-012150ce7a0c4a499a85c0988e5ce91e.xml#id-012150ce7a0c4a499a85c0988e5ce91e"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-dfbe1c09e48c41ebbf57626a369f05d7.xml#id-dfbe1c09e48c41ebbf57626a369f05d7"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-52abfd34335848be9c80498e019ec048"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-b1f2d4efd8ca4e19b13845ca9fdf34e2.xml#id-b1f2d4efd8ca4e19b13845ca9fdf34e2"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-adefb7b185264eaa958b42be410c314d.xml#id-adefb7b185264eaa958b42be410c314d"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-e73ebf5d73794f4aa4103b644145ae49"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-9957613fefeb4416b5fe9f31c89f86fc.xml#id-9957613fefeb4416b5fe9f31c89f86fc"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-654de455909049e5880ca18ca40935ed.xml#id-654de455909049e5880ca18ca40935ed"/>
       </children>
     </children>
     <children
@@ -974,105 +1142,126 @@
       <bounds
           x="18"
           y="168"
-          width="343"
+          width="379"
           height="229"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ff801c7121db4d54907617e11f7abf66"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-9957613fefeb4416b5fe9f31c89f86fc.xml#id-9957613fefeb4416b5fe9f31c89f86fc"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-654de455909049e5880ca18ca40935ed.xml#id-654de455909049e5880ca18ca40935ed"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-dfdb8ce33d98499b8ccb52e4b95c4ddf"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-99d93362b7a24f169412c92eb8435b34.xml#id-99d93362b7a24f169412c92eb8435b34"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-5d1c3a474d43465b8d7f2670ee17f26a.xml#id-5d1c3a474d43465b8d7f2670ee17f26a"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ef21e6d43a6047cb951ea12bdac343c5"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="132"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-3ca9fcd1aa264c968e61a7912a685121.xml#id-3ca9fcd1aa264c968e61a7912a685121"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-90ed729aa9144f2bad8d25d7bd4b9c0b.xml#id-90ed729aa9144f2bad8d25d7bd4b9c0b"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-1ba01f1f658944ebb8e2a5bcddbd4125"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
             x="12"
             y="180"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-c8c66ab247eb4f9b859b7c0f69b90872.xml#id-c8c66ab247eb4f9b859b7c0f69b90872"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-4ac2f120b6ef47ebb5c8f522015a5d94.xml#id-4ac2f120b6ef47ebb5c8f522015a5d94"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-b9c075159c064eec81eea4a137b0317f"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="36"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-125c4966bbf148bf8541531a91f39283.xml#id-125c4966bbf148bf8541531a91f39283"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-d882da32a721431a9f53b1dd0df21fe3.xml#id-d882da32a721431a9f53b1dd0df21fe3"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-0234e87f00774701a311c36e90e74f9a"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="84"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-441204b5c66b4d9f81589e4fdf886785.xml#id-441204b5c66b4d9f81589e4fdf886785"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-ce31bcdad11a4f879c58d0072d5dbbe9.xml#id-ce31bcdad11a4f879c58d0072d5dbbe9"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-6efb68b9d3b9421db33db3c68888e007"
           fillColor="#ffffff"
           textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
         <bounds
-            x="180"
+            x="192"
             y="132"
-            width="157"
+            width="169"
             height="37"/>
         <archimateElement
-            xsi:type="archimate:Contract"
-            href="Contract_id-3e6ad97c9bc74210bbea46c1fe68208b.xml#id-3e6ad97c9bc74210bbea46c1fe68208b"/>
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-bc1611966ade49bca32f7ef76c31bdad.xml#id-bc1611966ade49bca32f7ef76c31bdad"/>
       </children>
     </children>
     <archimateElement

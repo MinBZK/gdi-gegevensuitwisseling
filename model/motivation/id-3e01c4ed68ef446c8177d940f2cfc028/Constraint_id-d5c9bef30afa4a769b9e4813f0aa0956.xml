@@ -1,0 +1,15 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IIIF"
+    id="id-d5c9bef30afa4a769b9e4813f0aa0956"
+    documentation="Het International Image Interoperability (IIIF) framework beschrijft standaarden voor het ontsluiten van beeldmateriaal.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="IIIF consortium"/>
+  <properties
+      key="URL"
+      value="https://iiif.io/"/>
+</archimate:Constraint>

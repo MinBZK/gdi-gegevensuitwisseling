@@ -1,0 +1,15 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FTP"
+    id="id-dc15c3dd36be47d98752f13e6008b7d7"
+    documentation="Het File Transfer Protocol (FTP) is een protocol dat uitwisseling van bestanden over het internet tussen computers vergemakkelijkt. Het standaardiseert een aantal handelingen die tussen besturingssystemen vaak verschillen.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Ftp"/>
+</archimate:Constraint>
