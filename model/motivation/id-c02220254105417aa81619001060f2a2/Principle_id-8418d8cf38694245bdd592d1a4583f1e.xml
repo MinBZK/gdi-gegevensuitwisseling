@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gegevensuitwisseling start met samenwerking"
+    id="id-8418d8cf38694245bdd592d1a4583f1e"
+    documentation="Gegevensuitwisseling is geen doel op zich, maar een middel om samen te werken. Samenwerking vraagt afspraken op allerlei niveaus: juridisch, organisatorisch, procesmatig, informatiekundig en technisch. Samenwerkingen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien en andere partijen te betrekken. Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.">
+  <properties
+      key="Implicaties"
+      value="Als er een aanleiding is tot gegevensuitwisseling, worden op alle relevante niveaus afspraken gemaakt: juridisch, organisatorisch, procesmatig, informatiekundig en technisch."/>
+  <properties
+      key="Implicaties"
+      value="Er wordt bij het maken van afspraken rekening gehouden met mogelijke opschaling en daarvoor gewenste afstemming met andere partijen, zodat afspraken toekomstvast kunnen zijn."/>
+  <properties
+      key="Implicaties"
+      value="Er zijn binnen samenwerkingen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
+</archimate:Principle>

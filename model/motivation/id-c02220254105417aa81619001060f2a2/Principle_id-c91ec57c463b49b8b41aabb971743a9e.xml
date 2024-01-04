@@ -1,7 +1,7 @@
-<archimate:Requirement
+<archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Uitwisseling van niet publieke gegevens wordt expliciet overeengekomen"
-    id="id-635249b8c5864bac9031841a033e9bfa"
+    id="id-c91ec57c463b49b8b41aabb971743a9e"
     documentation="Op het moment dat gegevens niet publiek beschikbaar zijn, dan zijn er voorwaarden die expliciet overeen moeten worden gekomen tussen aanbieders en afnemers. Pas na uitdrukkelijke overeenstemming tussen aanbieder en afnemer is er voldoende zekerheid dat aan de voorwaarden zal worden voldaan.">
   <properties
       key="Implicaties"
@@ -12,4 +12,4 @@
   <properties
       key="Implicaties"
       value="Aanbieders van niet publieke gegevens controleren expliciet of afnemers voldoen aan bepaalde voorwaarden en weigeren anders de levering."/>
-</archimate:Requirement>
+</archimate:Principle>
