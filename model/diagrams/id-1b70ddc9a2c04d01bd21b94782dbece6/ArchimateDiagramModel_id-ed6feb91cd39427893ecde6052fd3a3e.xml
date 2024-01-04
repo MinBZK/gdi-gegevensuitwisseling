@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Bedrijfsobjectenmodel met standaarden"
+    name="Bedrijfsobjectenmodel gerelateerd aan standaarden"
     id="id-ed6feb91cd39427893ecde6052fd3a3e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
