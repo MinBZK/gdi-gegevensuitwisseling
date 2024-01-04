@@ -10,6 +10,6 @@
       key="Beheerorganisatie"
       value="OGC"/>
   <properties
-      key="URL"
+      key="Link"
       value="https://ogcapi.ogc.org/records/"/>
 </archimate:Contract>

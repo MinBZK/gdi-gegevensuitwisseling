@@ -10,6 +10,6 @@
       key="Beheerorganisatie"
       value="Geonovum"/>
   <properties
-      key="URL"
+      key="Link"
       value="https://profielstelselcatalogus.pldn.nl/"/>
 </archimate:Contract>

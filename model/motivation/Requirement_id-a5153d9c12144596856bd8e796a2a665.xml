@@ -1,0 +1,12 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="De kwaliteit van gegevens is beschreven conform het NORA raamwerk gegevenskwaliteit"
+    id="id-a5153d9c12144596856bd8e796a2a665"
+    documentation="Het is belangrijk dat de kwaliteit van gegevens inzichtelijk is zodat afnemers begrijpen of dit aansluit bij hun eigen gebruik. Het NORA raamwerk gegevenskwaliteit is gebaseerd op wereldwijde ISO standaarden en breed afgestemd binnen de Nederlandse overheid.">
+  <properties
+      key="Implicaties"
+      value="In de metadata van datasets zijn beschrijvingen van de normen en gerealiseerde kwaliteit beschreven conform de structuur van het NORA raamwerk gegevenskwaliteit."/>
+  <properties
+      key="Implicaties"
+      value="Er is liefst ook een machineleesbare versie van de kwaliteit van de gegevens beschikbaar conform de DQV standaard."/>
+</archimate:Requirement>

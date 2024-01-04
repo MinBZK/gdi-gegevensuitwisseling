@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Digipoort"
     id="id-c3fe6d693371470caa89bea1b89e384a"
-    documentation="Digipoort is de ICT-centrale waar berichtenverkeer voor de overheid afgehandeld wordt. "/>
+    documentation="Digipoort is de ICT-centrale waar berichtenverkeer voor de overheid afgehandeld wordt. ">
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="Link"
+      value="https://logius.nl/domeinen/gegevensuitwisseling/digipoort"/>
+</archimate:ApplicationComponent>

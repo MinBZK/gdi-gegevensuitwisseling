@@ -10,6 +10,6 @@
       key="Beheerorganisatie"
       value="AsyncAPI Initiative"/>
   <properties
-      key="URL"
+      key="Link"
       value="https://www.asyncapi.com/"/>
 </archimate:Contract>

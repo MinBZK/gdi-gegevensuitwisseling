@@ -10,6 +10,6 @@
       key="Beheerorganisatie"
       value="OMG"/>
   <properties
-      key="URL"
+      key="Link"
       value="https://www.omg.org/spec/OCL/2.4/About-OCL"/>
 </archimate:Contract>

@@ -10,6 +10,6 @@
       key="Beheerorganisatie"
       value="W3C"/>
   <properties
-      key="URL"
+      key="Link"
       value="https://www.w3.org/TR/sparql11-overview/"/>
 </archimate:Contract>

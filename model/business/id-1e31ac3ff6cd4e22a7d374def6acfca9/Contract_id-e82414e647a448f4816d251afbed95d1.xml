@@ -10,6 +10,6 @@
       key="Beheerorganisatie"
       value="IIIF consortium"/>
   <properties
-      key="URL"
+      key="Link"
       value="https://iiif.io/"/>
 </archimate:Contract>
