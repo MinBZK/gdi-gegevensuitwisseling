@@ -10,6 +10,6 @@
       key="Beheerorganisatie"
       value="ISO"/>
   <properties
-      key="URL"
+      key="Link"
       value="https://www.iso.org/standard/79077.html"/>
 </archimate:Contract>

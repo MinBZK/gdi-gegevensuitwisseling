@@ -13,6 +13,6 @@
       key="Beheerorganisatie"
       value="Logius"/>
   <properties
-      key="URL"
+      key="Link"
       value="https://gitdocumentatie.logius.nl/publicatie/dk/wus/"/>
 </archimate:Contract>

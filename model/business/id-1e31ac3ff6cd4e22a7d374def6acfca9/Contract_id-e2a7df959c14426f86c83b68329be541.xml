@@ -13,6 +13,6 @@
       key="Beheerorganisatie"
       value="Geonovum"/>
   <properties
-      key="URL"
+      key="Link"
       value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
 </archimate:Contract>

@@ -13,17 +13,18 @@
         x="756"
         y="-36"
         width="541"
-        height="433"/>
+        height="457"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
         id="id-6f19fdcc5111481ca76166b4e19114cb"
         name="Protocollen"
-        textAlignment="1">
+        textAlignment="1"
+        fillColor="#ffffb5">
       <bounds
           x="12"
           y="24"
           width="517"
-          height="217"/>
+          height="229"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-682419481f0f40d7b322cb64cccc5afc"
@@ -31,7 +32,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -45,7 +46,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -59,7 +60,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="120"
+            y="132"
             width="157"
             height="37"/>
         <archimateElement
@@ -76,7 +77,7 @@
             value="Digikoppeling Koppelvlakstandaard GB"/>
         <bounds
             x="12"
-            y="168"
+            y="180"
             width="157"
             height="37"/>
         <archimateElement
@@ -90,7 +91,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -104,7 +105,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -118,7 +119,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="120"
+            y="132"
             width="157"
             height="37"/>
         <archimateElement
@@ -132,7 +133,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="168"
+            y="180"
             width="157"
             height="37"/>
         <archimateElement
@@ -146,7 +147,7 @@
           textPosition="1">
         <bounds
             x="348"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -160,7 +161,7 @@
           textPosition="1">
         <bounds
             x="348"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -174,7 +175,7 @@
           textPosition="1">
         <bounds
             x="348"
-            y="120"
+            y="132"
             width="157"
             height="37"/>
         <archimateElement
@@ -188,7 +189,7 @@
           textPosition="1">
         <bounds
             x="348"
-            y="168"
+            y="180"
             width="157"
             height="37"/>
         <archimateElement
@@ -200,12 +201,13 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-d050a8e37a054605b62a3622a4b9ccd1"
         name="Formaten"
-        textAlignment="1">
+        textAlignment="1"
+        fillColor="#ffffb5">
       <bounds
           x="12"
-          y="252"
+          y="264"
           width="517"
-          height="169"/>
+          height="181"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-cd9adb71ff0045c5a06e6533aa5ddeb8"
@@ -213,7 +215,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -227,7 +229,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -241,7 +243,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="120"
+            y="132"
             width="157"
             height="37"/>
         <archimateElement
@@ -255,7 +257,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -269,7 +271,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -283,7 +285,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="120"
+            y="132"
             width="157"
             height="37"/>
         <archimateElement
@@ -297,7 +299,7 @@
           textPosition="1">
         <bounds
             x="348"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -311,7 +313,7 @@
           textPosition="1">
         <bounds
             x="348"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -340,8 +342,8 @@
     </sourceConnections>
     <bounds
         x="1308"
-        y="408"
-        width="385"
+        y="432"
+        width="373"
         height="73"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -379,7 +381,7 @@
     </sourceConnections>
     <bounds
         x="756"
-        y="408"
+        y="432"
         width="541"
         height="73"/>
     <children
@@ -411,17 +413,18 @@
         x="12"
         y="-36"
         width="733"
-        height="517"/>
+        height="541"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
         id="id-113b82041e6c4b14a65cf34f97b29f6a"
         name="Begrippen"
-        textAlignment="1">
+        textAlignment="1"
+        fillColor="#ffffb5">
       <bounds
           x="12"
           y="24"
           width="347"
-          height="121"/>
+          height="133"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-b5af6ee53a424591ac59f52a0c03ec8e"
@@ -429,7 +432,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -443,7 +446,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -457,7 +460,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -469,12 +472,13 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-13fbf7d58a8641fd82d2949d1f8f3dcc"
         name="Informatie- en gegevensmodellen"
-        textAlignment="1">
+        textAlignment="1"
+        fillColor="#ffffb5">
       <bounds
           x="12"
-          y="156"
+          y="168"
           width="347"
-          height="313"/>
+          height="322"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-2a0144d3cfee454e983bd9136b66a9ed"
@@ -482,7 +486,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="24"
+            y="33"
             width="157"
             height="37"/>
         <archimateElement
@@ -496,7 +500,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="72"
+            y="81"
             width="157"
             height="37"/>
         <archimateElement
@@ -510,7 +514,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="120"
+            y="129"
             width="157"
             height="37"/>
         <archimateElement
@@ -524,7 +528,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="168"
+            y="177"
             width="157"
             height="37"/>
         <archimateElement
@@ -538,7 +542,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="216"
+            y="225"
             width="157"
             height="37"/>
         <archimateElement
@@ -552,7 +556,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="264"
+            y="273"
             width="157"
             height="37"/>
         <archimateElement
@@ -566,7 +570,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="24"
+            y="33"
             width="157"
             height="37"/>
         <archimateElement
@@ -580,7 +584,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="72"
+            y="81"
             width="157"
             height="37"/>
         <archimateElement
@@ -594,7 +598,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="120"
+            y="129"
             width="157"
             height="37"/>
         <archimateElement
@@ -608,7 +612,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="168"
+            y="177"
             width="157"
             height="37"/>
         <archimateElement
@@ -622,7 +626,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="216"
+            y="225"
             width="157"
             height="37"/>
         <archimateElement
@@ -636,7 +640,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="264"
+            y="273"
             width="157"
             height="37"/>
         <archimateElement
@@ -648,12 +652,13 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-8c3e3ec6245947cf89fbc5c56ebb1b5a"
         name="Datasets en gegevensdiensten"
-        textAlignment="1">
+        textAlignment="1"
+        fillColor="#ffffb5">
       <bounds
           x="372"
           y="24"
           width="349"
-          height="268"/>
+          height="280"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-8da32f333aa44885b61cbca55f57da01"
@@ -661,7 +666,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="216"
+            y="228"
             width="157"
             height="37"/>
         <archimateElement
@@ -675,7 +680,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -689,7 +694,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="120"
+            y="132"
             width="157"
             height="37"/>
         <archimateElement
@@ -703,7 +708,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="168"
+            y="180"
             width="157"
             height="37"/>
         <archimateElement
@@ -717,7 +722,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="216"
+            y="228"
             width="157"
             height="37"/>
         <archimateElement
@@ -731,7 +736,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -745,7 +750,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -759,7 +764,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -773,7 +778,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="168"
+            y="180"
             width="157"
             height="37"/>
         <archimateElement
@@ -787,7 +792,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="120"
+            y="132"
             width="157"
             height="37"/>
         <archimateElement
@@ -799,12 +804,13 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-2fc6768e4e7b438aad6192299a18b505"
         name="Informatie-objecten en bestanden"
-        textAlignment="1">
+        textAlignment="1"
+        fillColor="#ffffb5">
       <bounds
           x="373"
-          y="300"
+          y="312"
           width="347"
-          height="169"/>
+          height="178"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-405cd3201edf4c658e49aace2d20382a"
@@ -812,7 +818,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="24"
+            y="33"
             width="157"
             height="37"/>
         <archimateElement
@@ -826,7 +832,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="72"
+            y="81"
             width="157"
             height="37"/>
         <archimateElement
@@ -840,7 +846,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="120"
+            y="129"
             width="157"
             height="37"/>
         <archimateElement
@@ -854,7 +860,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="24"
+            y="33"
             width="157"
             height="37"/>
         <archimateElement
@@ -868,7 +874,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="72"
+            y="81"
             width="157"
             height="37"/>
         <archimateElement
@@ -889,18 +895,19 @@
     <bounds
         x="1308"
         y="-36"
-        width="385"
-        height="433"/>
+        width="373"
+        height="457"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
         id="id-e301a178e8774ff689765facec1493f6"
         name="Beperkingsregels"
-        textAlignment="1">
+        textAlignment="1"
+        fillColor="#ffffb5">
       <bounds
           x="18"
           y="24"
           width="343"
-          height="119"/>
+          height="131"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-31667206382c4bf3ae3a007452a091d7"
@@ -908,7 +915,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -922,7 +929,7 @@
           textPosition="1">
         <bounds
             x="12"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -936,7 +943,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="24"
+            y="36"
             width="157"
             height="37"/>
         <archimateElement
@@ -950,7 +957,7 @@
           textPosition="1">
         <bounds
             x="180"
-            y="72"
+            y="84"
             width="157"
             height="37"/>
         <archimateElement
@@ -962,10 +969,11 @@
         xsi:type="archimate:DiagramModelGroup"
         id="id-4c2ac36b805d421390f3b24bbf44feae"
         name="Afleidingsregels"
-        textAlignment="1">
+        textAlignment="1"
+        fillColor="#ffffb5">
       <bounds
           x="18"
-          y="156"
+          y="168"
           width="343"
           height="229"/>
       <children

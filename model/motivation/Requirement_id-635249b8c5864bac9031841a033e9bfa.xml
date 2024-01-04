@@ -1,0 +1,15 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Afname van niet publieke gegevens wordt gecontracteerd"
+    id="id-635249b8c5864bac9031841a033e9bfa"
+    documentation="Op het moment dat gegevens niet publiek beschikbaar zijn, dan zijn er voorwaarden die expliciet overeen moeten worden gekomen tussen aanbieders en afnemers. Pas na uitdrukkelijke overeenstemming tussen aanbieder en afnemer is er voldoende zekerheid dat aan de voorwaarden zal worden voldaan.">
+  <properties
+      key="Implicaties"
+      value="Aanbieders van gegevens beschrijven hun voorwaarden zoals de van toepassing zijnde gebruiksbeperkingen, -rechten en -plichten expliciet."/>
+  <properties
+      key="Implicaties"
+      value="Aanbieders van niet publieke gegevens sluiten een gegevensleveringsovereenkomst met afnemers."/>
+  <properties
+      key="Implicaties"
+      value="Aanbieders van niet publieke geevens controleren expliciet of afnemers voldoen aan bepaalde voorwaarden en weigeren anders de levering."/>
+</archimate:Requirement>

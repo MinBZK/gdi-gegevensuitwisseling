@@ -13,6 +13,6 @@
       key="Beheerorganisatie"
       value="Logius"/>
   <properties
-      key="URL"
+      key="Link"
       value="https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules"/>
 </archimate:Contract>
