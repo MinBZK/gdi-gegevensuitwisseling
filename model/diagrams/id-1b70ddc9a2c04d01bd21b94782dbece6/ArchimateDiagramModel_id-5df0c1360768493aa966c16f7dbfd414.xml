@@ -20,15 +20,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-b52edebbb0944f1c82ec49a7ac068258"
-        source="id-a39e57e671e44960a8ebad7fc43a0fbf"
-        target="id-1b3aec05b08d4747bf1c2ad32929f603">
-      <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-6d1b575b5c224454b034977d91f4c17d.xml#id-6d1b575b5c224454b034977d91f4c17d"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-e3524ce08cc342319cd9151c26a2c1f1"
         source="id-a39e57e671e44960a8ebad7fc43a0fbf"
         target="id-0fddca2385d44a00bf471e9216bcdcb4">
@@ -53,24 +44,6 @@
       <archimateRelationship
           xsi:type="archimate:AccessRelationship"
           href="AccessRelationship_id-dba522cdd14e49cb9237f1ec8d71313a.xml#id-dba522cdd14e49cb9237f1ec8d71313a"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-4848bec6a3cb41259efa1ff15687d1a0"
-        source="id-a39e57e671e44960a8ebad7fc43a0fbf"
-        target="id-f1fe76bf315542f197c57dcd4ff8bb18">
-      <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-954912d0a1c84ee98d04f70cbafef7cf.xml#id-954912d0a1c84ee98d04f70cbafef7cf"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-b5f0093970844b6ba5170a640b06ea4e"
-        source="id-a39e57e671e44960a8ebad7fc43a0fbf"
-        target="id-8da32f333aa44885b61cbca55f57da01">
-      <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-c3dcb86ae35d448a846987ae02efdfcf.xml#id-c3dcb86ae35d448a846987ae02efdfcf"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -119,15 +92,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-2bfc0f274f7e409a80e00fc9120ea004"
-        source="id-a39e57e671e44960a8ebad7fc43a0fbf"
-        target="id-eb3019fdee874df49619886e43509736">
-      <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-faccaa11eb6e45b69e065937db0b4a6f.xml#id-faccaa11eb6e45b69e065937db0b4a6f"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-58613ef502cd4984ae49bcb8de1b19ca"
         source="id-a39e57e671e44960a8ebad7fc43a0fbf"
         target="id-8012235b93344f2280665cdfecc8d24b">
@@ -152,15 +116,6 @@
       <archimateRelationship
           xsi:type="archimate:AccessRelationship"
           href="AccessRelationship_id-cf7e7396ab7d4f8f80bc4db34a01a35b.xml#id-cf7e7396ab7d4f8f80bc4db34a01a35b"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-ef5bbb296b53435e8ef02962b4b4072f"
-        source="id-a39e57e671e44960a8ebad7fc43a0fbf"
-        target="id-7bbf03f90d2447098df32155b995412b">
-      <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-d6499f4be60645108292398b2a3bb590.xml#id-d6499f4be60645108292398b2a3bb590"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -189,11 +144,47 @@
           xsi:type="archimate:AccessRelationship"
           href="AccessRelationship_id-7672fd87968b44d99b3e242ed4299bef.xml#id-7672fd87968b44d99b3e242ed4299bef"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-339f7cf17ba74bbeb0db74f731acaac2"
+        source="id-a39e57e671e44960a8ebad7fc43a0fbf"
+        target="id-5c034bda69c0443b93b50d6f17fb7a08">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-527f35ca86404cbda51212e783e33ec8.xml#id-527f35ca86404cbda51212e783e33ec8"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-10078079151d4075b99af1d1ca4deef7"
+        source="id-a39e57e671e44960a8ebad7fc43a0fbf"
+        target="id-ab3b333feef14fbda0adf44b0f48e090">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-0683c74c35aa496e9827e3b2d85ed5ed.xml#id-0683c74c35aa496e9827e3b2d85ed5ed"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-59e92764278f4b568428021bffd23e99"
+        source="id-a39e57e671e44960a8ebad7fc43a0fbf"
+        target="id-682419481f0f40d7b322cb64cccc5afc">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-9c7e5f4657ae42fe8bfa516c6af07cec.xml#id-9c7e5f4657ae42fe8bfa516c6af07cec"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-5faf0becdd474b40b5fa1e8bb31d155e"
+        source="id-a39e57e671e44960a8ebad7fc43a0fbf"
+        target="id-e814b4422b57414ba13eca396f342f9f">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-59bfde8a8b18430dbd2fa8c8d27b23d4.xml#id-59bfde8a8b18430dbd2fa8c8d27b23d4"/>
+    </sourceConnections>
     <bounds
-        x="528"
+        x="732"
         y="-36"
-        width="325"
-        height="673"/>
+        width="349"
+        height="517"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-aff41c15b09e43c28b02471ac7615841"
@@ -201,28 +192,13 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="372"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
           href="Contract_id-408a3071f48247ef84b5e5f3a70145d1.xml#id-408a3071f48247ef84b5e5f3a70145d1"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-1b3aec05b08d4747bf1c2ad32929f603"
-        targetConnections="id-b52edebbb0944f1c82ec49a7ac068258"
-        fillColor="#ffffff"
-        textPosition="1">
-      <bounds
-          x="12"
-          y="276"
-          width="145"
-          height="37"/>
-      <archimateElement
-          xsi:type="archimate:Contract"
-          href="Contract_id-4b416f5e025342b1835431c2dc696129.xml#id-4b416f5e025342b1835431c2dc696129"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -232,8 +208,8 @@
         textPosition="1">
       <bounds
           x="12"
-          y="372"
-          width="145"
+          y="324"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -246,9 +222,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="132"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -261,9 +237,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="36"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -275,43 +251,13 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="84"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
           href="Contract_id-1c367a0327754eac874548647a5cd0c7.xml#id-1c367a0327754eac874548647a5cd0c7"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-f1fe76bf315542f197c57dcd4ff8bb18"
-        targetConnections="id-4848bec6a3cb41259efa1ff15687d1a0"
-        fillColor="#ffffff"
-        textPosition="1">
-      <bounds
-          x="12"
-          y="36"
-          width="145"
-          height="37"/>
-      <archimateElement
-          xsi:type="archimate:Contract"
-          href="Contract_id-409e3161ef8c4800b07feddfa60438be.xml#id-409e3161ef8c4800b07feddfa60438be"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-8da32f333aa44885b61cbca55f57da01"
-        targetConnections="id-b5f0093970844b6ba5170a640b06ea4e"
-        fillColor="#ffffff"
-        textPosition="1">
-      <bounds
-          x="12"
-          y="132"
-          width="145"
-          height="37"/>
-      <archimateElement
-          xsi:type="archimate:Contract"
-          href="Contract_id-588c85e3a4274bf89abf65d7e20ecc52.xml#id-588c85e3a4274bf89abf65d7e20ecc52"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -321,8 +267,8 @@
         textPosition="1">
       <bounds
           x="12"
-          y="324"
-          width="145"
+          y="276"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -337,7 +283,7 @@
       <bounds
           x="12"
           y="228"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -350,9 +296,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="324"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -366,8 +312,8 @@
         textPosition="1">
       <bounds
           x="12"
-          y="420"
-          width="145"
+          y="372"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -380,28 +326,13 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="228"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
           href="Contract_id-26eb8e42d05345ee9d2dec8f92db0845.xml#id-26eb8e42d05345ee9d2dec8f92db0845"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-eb3019fdee874df49619886e43509736"
-        targetConnections="id-2bfc0f274f7e409a80e00fc9120ea004"
-        fillColor="#ffffff"
-        textPosition="1">
-      <bounds
-          x="12"
-          y="180"
-          width="145"
-          height="37"/>
-      <archimateElement
-          xsi:type="archimate:Contract"
-          href="Contract_id-7ef79f8f78ee469cb58fed98ada92fa0.xml#id-7ef79f8f78ee469cb58fed98ada92fa0"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -410,9 +341,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="420"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -425,9 +356,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="468"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -441,27 +372,12 @@
         textPosition="1">
       <bounds
           x="12"
-          y="468"
-          width="145"
+          y="420"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
           href="Contract_id-4df866f399c2471a85440fb175dd7ea1.xml#id-4df866f399c2471a85440fb175dd7ea1"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-7bbf03f90d2447098df32155b995412b"
-        targetConnections="id-ef5bbb296b53435e8ef02962b4b4072f"
-        fillColor="#ffffff"
-        textPosition="1">
-      <bounds
-          x="12"
-          y="84"
-          width="145"
-          height="37"/>
-      <archimateElement
-          xsi:type="archimate:Contract"
-          href="Contract_id-999e143b0b9c465a971be0958ccda0ac.xml#id-999e143b0b9c465a971be0958ccda0ac"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -471,8 +387,8 @@
         textPosition="1">
       <bounds
           x="12"
-          y="516"
-          width="145"
+          y="468"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -485,9 +401,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="276"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -500,13 +416,76 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="180"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
           href="Contract_id-aa5a89908e8a48bbb21d48035749356e.xml#id-aa5a89908e8a48bbb21d48035749356e"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-5c034bda69c0443b93b50d6f17fb7a08"
+        targetConnections="id-339f7cf17ba74bbeb0db74f731acaac2"
+        fillColor="#ffffff"
+        textPosition="1">
+      <bounds
+          x="12"
+          y="84"
+          width="157"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Contract"
+          href="Contract_id-2e244ecbcfd64b0fbc1e351fec1d1204.xml#id-2e244ecbcfd64b0fbc1e351fec1d1204"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-ab3b333feef14fbda0adf44b0f48e090"
+        targetConnections="id-10078079151d4075b99af1d1ca4deef7"
+        fillColor="#ffffff"
+        textPosition="1">
+      <bounds
+          x="12"
+          y="132"
+          width="157"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Contract"
+          href="Contract_id-3d7598af0f46469fbef2ed159565e72e.xml#id-3d7598af0f46469fbef2ed159565e72e"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-682419481f0f40d7b322cb64cccc5afc"
+        targetConnections="id-59e92764278f4b568428021bffd23e99"
+        fillColor="#ffffff"
+        textPosition="1">
+      <bounds
+          x="12"
+          y="36"
+          width="157"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Contract"
+          href="Contract_id-6055747b07b34d75b8eef2c07dada2a1.xml#id-6055747b07b34d75b8eef2c07dada2a1"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e814b4422b57414ba13eca396f342f9f"
+        targetConnections="id-5faf0becdd474b40b5fa1e8bb31d155e"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="labelExpression"
+          value="Digikoppeling Koppelvlakstandaard GB"/>
+      <bounds
+          x="12"
+          y="180"
+          width="157"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Contract"
+          href="Contract_id-aa9c73f1de2d4702be5a64325b46b947.xml#id-aa9c73f1de2d4702be5a64325b46b947"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -528,10 +507,10 @@
           href="AccessRelationship_id-5f81f339c2bd4dbebf95479d8753ff4d.xml#id-5f81f339c2bd4dbebf95479d8753ff4d"/>
     </sourceConnections>
     <bounds
-        x="1044"
+        x="1284"
         y="-36"
-        width="169"
-        height="673"/>
+        width="181"
+        height="517"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a96a555a4d7948aea8aefe0d10868440"
@@ -541,7 +520,7 @@
       <bounds
           x="12"
           y="36"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -569,8 +548,8 @@
     <bounds
         x="12"
         y="-36"
-        width="169"
-        height="673"/>
+        width="181"
+        height="517"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-02700ca55c2f4967b11ef7e58063a725"
@@ -580,7 +559,7 @@
       <bounds
           x="12"
           y="36"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -821,11 +800,56 @@
           xsi:type="archimate:AccessRelationship"
           href="AccessRelationship_id-1fef13b6d6d54df29c5706c6d0040617.xml#id-1fef13b6d6d54df29c5706c6d0040617"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-cad578e065a044efbd3cdbe038303efb"
+        source="id-20ed27128a6f42a0aca5c834a66c5fac"
+        target="id-07f652f75f7245caa50526f988f03161">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-79f18935412a4f2eb5c6ff6ef91e41dc.xml#id-79f18935412a4f2eb5c6ff6ef91e41dc"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-adec41cadd9c424ebf3d3a727965784a"
+        source="id-20ed27128a6f42a0aca5c834a66c5fac"
+        target="id-f1fe76bf315542f197c57dcd4ff8bb18">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-b203397121154936b9dcd6c318554db2.xml#id-b203397121154936b9dcd6c318554db2"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-3ef465176db94ac0ab8b35ded4cef770"
+        source="id-20ed27128a6f42a0aca5c834a66c5fac"
+        target="id-7bbf03f90d2447098df32155b995412b">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-e16c4ecf4ced481f86ec1efe5e9855f1.xml#id-e16c4ecf4ced481f86ec1efe5e9855f1"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-91590865f3844ceabfb04d0b29db9bba"
+        source="id-20ed27128a6f42a0aca5c834a66c5fac"
+        target="id-eb3019fdee874df49619886e43509736">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-797e2daa70cc40fbb7085a75700e8d8c.xml#id-797e2daa70cc40fbb7085a75700e8d8c"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-d35ef16f1c644f7e99a421cc7ecd5eb5"
+        source="id-20ed27128a6f42a0aca5c834a66c5fac"
+        target="id-8da32f333aa44885b61cbca55f57da01">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-3f227f173dd14603968388f8f120e13b.xml#id-3f227f173dd14603968388f8f120e13b"/>
+    </sourceConnections>
     <bounds
-        x="192"
+        x="204"
         y="-36"
-        width="325"
-        height="673"/>
+        width="517"
+        height="517"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-6062fb5f43ae4397b8513a34fcdce4b5"
@@ -833,9 +857,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="36"
-          width="145"
+          x="12"
+          y="468"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -850,7 +874,7 @@
       <bounds
           x="12"
           y="180"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -863,9 +887,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="84"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -878,9 +902,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
+          x="180"
           y="132"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -893,9 +917,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="12"
-          y="468"
-          width="145"
+          x="180"
+          y="36"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -908,9 +932,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="276"
-          width="145"
+          x="180"
+          y="228"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -923,9 +947,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="228"
-          width="145"
+          x="180"
+          y="180"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -940,7 +964,7 @@
       <bounds
           x="12"
           y="36"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -955,7 +979,7 @@
       <bounds
           x="12"
           y="276"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -970,7 +994,7 @@
       <bounds
           x="12"
           y="324"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -985,7 +1009,7 @@
       <bounds
           x="12"
           y="372"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -998,9 +1022,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="324"
-          width="145"
+          x="180"
+          y="276"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1013,9 +1037,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="372"
-          width="145"
+          x="180"
+          y="324"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1030,7 +1054,7 @@
       <bounds
           x="12"
           y="84"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1043,9 +1067,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="12"
-          y="516"
-          width="145"
+          x="180"
+          y="420"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1058,9 +1082,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="468"
-          width="145"
+          x="348"
+          y="324"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1073,9 +1097,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="516"
-          width="145"
+          x="348"
+          y="372"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1088,9 +1112,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="12"
-          y="564"
-          width="145"
+          x="180"
+          y="468"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1103,9 +1127,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="564"
-          width="145"
+          x="348"
+          y="420"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1118,9 +1142,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="612"
-          width="145"
+          x="348"
+          y="468"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1133,9 +1157,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="180"
-          width="145"
+          x="348"
+          y="276"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1150,7 +1174,7 @@
       <bounds
           x="12"
           y="132"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1165,7 +1189,7 @@
       <bounds
           x="12"
           y="420"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1178,9 +1202,9 @@
         fillColor="#ffffff"
         textPosition="1">
       <bounds
-          x="168"
-          y="420"
-          width="145"
+          x="180"
+          y="372"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1195,11 +1219,86 @@
       <bounds
           x="12"
           y="228"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
           href="Contract_id-96f8db645b214fa5ae7d386fdaaa9772.xml#id-96f8db645b214fa5ae7d386fdaaa9772"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-07f652f75f7245caa50526f988f03161"
+        targetConnections="id-cad578e065a044efbd3cdbe038303efb"
+        fillColor="#ffffff"
+        textPosition="1">
+      <bounds
+          x="348"
+          y="228"
+          width="157"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Contract"
+          href="Contract_id-d62d63e8c4c44ebb957d0b7d4ccfb283.xml#id-d62d63e8c4c44ebb957d0b7d4ccfb283"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-f1fe76bf315542f197c57dcd4ff8bb18"
+        targetConnections="id-adec41cadd9c424ebf3d3a727965784a"
+        fillColor="#ffffff"
+        textPosition="1">
+      <bounds
+          x="348"
+          y="84"
+          width="157"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Contract"
+          href="Contract_id-409e3161ef8c4800b07feddfa60438be.xml#id-409e3161ef8c4800b07feddfa60438be"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-7bbf03f90d2447098df32155b995412b"
+        targetConnections="id-3ef465176db94ac0ab8b35ded4cef770"
+        fillColor="#ffffff"
+        textPosition="1">
+      <bounds
+          x="348"
+          y="180"
+          width="157"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Contract"
+          href="Contract_id-999e143b0b9c465a971be0958ccda0ac.xml#id-999e143b0b9c465a971be0958ccda0ac"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-eb3019fdee874df49619886e43509736"
+        targetConnections="id-91590865f3844ceabfb04d0b29db9bba"
+        fillColor="#ffffff"
+        textPosition="1">
+      <bounds
+          x="348"
+          y="132"
+          width="157"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Contract"
+          href="Contract_id-7ef79f8f78ee469cb58fed98ada92fa0.xml#id-7ef79f8f78ee469cb58fed98ada92fa0"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-8da32f333aa44885b61cbca55f57da01"
+        targetConnections="id-d35ef16f1c644f7e99a421cc7ecd5eb5"
+        fillColor="#ffffff"
+        textPosition="1">
+      <bounds
+          x="348"
+          y="36"
+          width="157"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Contract"
+          href="Contract_id-588c85e3a4274bf89abf65d7e20ecc52.xml#id-588c85e3a4274bf89abf65d7e20ecc52"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -1302,10 +1401,10 @@
           href="AccessRelationship_id-f0d19795a23446c382d60c0ba934042d.xml#id-f0d19795a23446c382d60c0ba934042d"/>
     </sourceConnections>
     <bounds
-        x="864"
+        x="1092"
         y="-36"
-        width="169"
-        height="673"/>
+        width="181"
+        height="517"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-6efb68b9d3b9421db33db3c68888e007"
@@ -1315,7 +1414,7 @@
       <bounds
           x="12"
           y="468"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1330,7 +1429,7 @@
       <bounds
           x="12"
           y="180"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1345,7 +1444,7 @@
       <bounds
           x="12"
           y="372"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1360,7 +1459,7 @@
       <bounds
           x="12"
           y="420"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1375,7 +1474,7 @@
       <bounds
           x="12"
           y="36"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1390,7 +1489,7 @@
       <bounds
           x="12"
           y="84"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1405,7 +1504,7 @@
       <bounds
           x="12"
           y="132"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1420,7 +1519,7 @@
       <bounds
           x="12"
           y="228"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1435,7 +1534,7 @@
       <bounds
           x="12"
           y="276"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
@@ -1450,7 +1549,7 @@
       <bounds
           x="12"
           y="324"
-          width="145"
+          width="157"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Contract"
