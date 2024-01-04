@@ -1,0 +1,18 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NL WMS"
+    id="id-35ec7c5a907d4d5889a0491d4776a503"
+    documentation="Nederlands WFS profiel 1.1 op ISO 19142 voor Web Feature Services 2.0. Een WFS ondersteunt minimaal het opvragen van geo-informatie. Aanvullend biedt een WFS mogelijkheden om geo-informatie in de database direct te bewerken.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
+  <properties
+      key="Beheerorganisatie"
+      value="Geonovum"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
+</archimate:Constraint>

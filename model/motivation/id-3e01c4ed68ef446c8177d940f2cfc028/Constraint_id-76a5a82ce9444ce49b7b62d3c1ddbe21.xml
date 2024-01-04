@@ -1,0 +1,18 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="REST-API Design Rules"
+    id="id-76a5a82ce9444ce49b7b62d3c1ddbe21"
+    documentation="REST-API design rules is een lijst afspraken die ontwikkelaars volgen tijdens het bouwen van een REST-API voor de publieke sector. Door de regels te hanteren wordt de API voorspelbaar. En dat is wel zo prettig voor andere ontwikkelaars die er gebruik van willen maken. Dankzij deze regels blijft het makkelijk voor organisaties om gegevens met elkaar uit te wisselen.">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="De standaard REST-API Design Rules moet worden toegepast bij het aanbieden van REST API’s ten behoeve van het ontsluiten van overheidsinformatie en/of functionaliteit."/>
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules"/>
+</archimate:Constraint>

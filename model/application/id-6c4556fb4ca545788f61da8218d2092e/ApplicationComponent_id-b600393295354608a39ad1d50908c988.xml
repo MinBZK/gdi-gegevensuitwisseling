@@ -7,6 +7,6 @@
       key="Beheerorganisatie"
       value="Logius"/>
   <properties
-      key="Link"
+      key="URL"
       value="https://logius.nl/domeinen/gegevensuitwisseling/digilevering"/>
 </archimate:ApplicationComponent>

@@ -7,6 +7,6 @@
       key="Beheerorganisatie"
       value="Logius"/>
   <properties
-      key="Link"
+      key="URL"
       value="https://data.overheid.nl/"/>
 </archimate:ApplicationComponent>

@@ -1,0 +1,15 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="DQV"
+    id="id-293860e793c24752a4184737c13d802b"
+    documentation="Data Quality Vocabulary. Deze standaard is bedoeld om informatie over de kwaliteit van gegevens te publiceren.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
+      key="URL"
+      value="https://www.w3.org/TR/vocab-dqv/"/>
+</archimate:Constraint>

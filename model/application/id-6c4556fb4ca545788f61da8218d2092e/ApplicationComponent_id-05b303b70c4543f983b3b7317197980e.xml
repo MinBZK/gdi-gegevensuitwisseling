@@ -7,6 +7,6 @@
       key="Beheerorganisatie"
       value="Logius"/>
   <properties
-      key="Link"
+      key="URL"
       value="https://www.logius.nl/domeinen/toegang/centrale-oin-raadpleegvoorziening"/>
 </archimate:ApplicationComponent>

@@ -7,6 +7,6 @@
       key="Beheerorganisatie"
       value="minBZK"/>
   <properties
-      key="Link"
+      key="URL"
       value="https://developer.overheid.nl/"/>
 </archimate:ApplicationComponent>
