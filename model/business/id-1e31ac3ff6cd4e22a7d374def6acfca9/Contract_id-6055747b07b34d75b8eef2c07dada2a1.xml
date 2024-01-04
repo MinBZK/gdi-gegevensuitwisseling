@@ -1,0 +1,18 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Digikoppeling Koppelvlakstandaard WUS"
+    id="id-6055747b07b34d75b8eef2c07dada2a1"
+    documentation="Digikoppeling Koppelvlakstansdaard WUS standaardiseert hoe gegevens worden uitgewisseld op basis van de SOAP standaard.">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Digikoppeling moet worden toegepast bij digitale gegevensuitwisseling die plaatsvindt met voorzieningen die onderdeel zijn van de GDI, waaronder de basisregistraties, of die sectoroverstijgend is. De verplichting geldt voor gegevensuitwisseling tussen systemen waarbij er noodzaak is voor tweezijdige authenticatie."/>
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://gitdocumentatie.logius.nl/publicatie/dk/wus/"/>
+</archimate:Contract>

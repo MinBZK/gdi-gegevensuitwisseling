@@ -1,0 +1,18 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Digikoppeling Koppelvlakstandaard Grote Berichten"
+    id="id-aa9c73f1de2d4702be5a64325b46b947"
+    documentation="Digikoppeling Koppelvlakstansdaard API standaardiseert hoe grote berichten worden uitgewisseld.">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Digikoppeling moet worden toegepast bij digitale gegevensuitwisseling die plaatsvindt met voorzieningen die onderdeel zijn van de GDI, waaronder de basisregistraties, of die sectoroverstijgend is. De verplichting geldt voor gegevensuitwisseling tussen systemen waarbij er noodzaak is voor tweezijdige authenticatie."/>
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://gitdocumentatie.logius.nl/publicatie/dk/gb/"/>
+</archimate:Contract>
