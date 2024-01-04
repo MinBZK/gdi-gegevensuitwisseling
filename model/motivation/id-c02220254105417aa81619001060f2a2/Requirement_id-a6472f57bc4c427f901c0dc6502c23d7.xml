@@ -1,0 +1,12 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Metagegevens zijn begrijpelijk voor mensen"
+    id="id-a6472f57bc4c427f901c0dc6502c23d7"
+    documentation="Gebruikers willen op basis van metagegevens bepalen wat gegevens betekenen voor hun eigen gebruik en moeten deze daarvoor kunnen begrijpen. Specialisten hebben daarnaast ook een verantwoordelijkheid voor het onderhouden van metagegevens, en moeten deze metagegevens dus ook kunnen begrijpen om ze te kunnen aanpassen. Bepaalde metagegevens worden gegenereerd uit andere (hoger liggende) metagegevens en zijn daarmee automatisch op een hoger niveau gedocumenteerd. ">
+  <properties
+      key="Implicaties"
+      value="Metagegevens op alle niveaus zijn voorzien van een definitie en als dat niet voldoende is, ook van een aanvullende toelichting en/of voorbeelden."/>
+  <properties
+      key="Implicaties"
+      value="Metagegevens zijn niet alleen beschikbaar in machineleesbare vorm, maar zijn voorzien van begrijpelijke documentatie."/>
+</archimate:Requirement>

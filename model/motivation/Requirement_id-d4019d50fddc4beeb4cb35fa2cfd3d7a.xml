@@ -1,0 +1,12 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Het is mogelijk om mogelijke fouten in registraties terug te melden"
+    id="id-d4019d50fddc4beeb4cb35fa2cfd3d7a"
+    documentation="Het terugmelden van mogelijke fouten is een belangrijke maatregel voor het verhogen van de gegevenskwaliteit. Voor basisregistraties is het een wettelijke plicht om bij gerede twijfel aan de juistheid van gegevens dit aan de bronhouder terug te melden. Ook voor andere registraties is dit een belangrijke kwaliteitsverhogende maatregel.">
+  <properties
+      key="Implicaties"
+      value="Registraties bieden de mogelijkheid om mogelijke fouten in gegevens te melden."/>
+  <properties
+      key="Implicaties"
+      value="Registraties bieden een terugkoppeling over de status en het resultaat van de melding."/>
+</archimate:Requirement>
