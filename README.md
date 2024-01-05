@@ -14,7 +14,7 @@ De volgende diagrammen en overzichten zijn geëxporteerd uit Archi. De diagramme
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-f7226f7c68704aae807b71a2f10b1cce">Functiemodel</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-efc531031d114860a309f6eeacdad289">Bedrijfsobjectenmodel</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-b6f068818d264742b80c8f4f5278aca0">Functiemodel met bedrijfsobjecten</a>
-* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-4e701366fd844120b700c114068bc91e">Architectuurprincipes en richtlijnen</a>
+* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-4e701366fd844120b700c114068bc91e">Architectuurprincipes</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-5df0c1360768493aa966c16f7dbfd414">Standaarden</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-44e956451b5947e08070f8c2edca5bf3">Huidige voorzieningen</a>
 
@@ -22,7 +22,6 @@ De volgende diagrammen en overzichten zijn geëxporteerd uit Archi. De diagramme
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsfuncties.html">Functies</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsobjecten.html">Bedrijfsobjecten</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principes.html">Architectuurprincipes</a>
-* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/richtlijnen.html">Richtlijnen</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">Standaarden</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/voorzieningen.html">Huidige voorzieningen</a>
 
