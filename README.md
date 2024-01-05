@@ -25,6 +25,7 @@ De volgende diagrammen en overzichten zijn geëxporteerd uit Archi. De diagramme
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">Standaarden</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/knelpunten.html">Knelpunten</a>
 * <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/voorzieningen.html">Huidige voorzieningen</a>
+* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/veranderinitiatieven.html">Veranderinitiatieven</a>
 
 # Instructies
 
