@@ -5,7 +5,7 @@
     documentation="Afnemers willen kunnen testen of gegevensdiensten doen wat ze ervan verwachten en ook werken in hun eigen gebruikscontext. Aanbieders kunnen afnemers ontzorgen door ervoor te zorgen dat wat afnemers hiervoor nodig hebben beschikbaar is. Het voorkomt ook dat alle afnemers hier zelf het wiel voor moeten uitvinden.">
   <properties
       key="Implicaties"
-      value="Aanbieders van gegevensdiensten bieden testfaciliteiten zoals testscripts waar afnemers gebruik van kunnen maken."/>
+      value="Aanbieders van gegevensdiensten bieden testfaciliteiten zoals een testomgeving, testdata en/of testscripts waar afnemers gebruik van kunnen maken."/>
   <properties
       key="Implicaties"
       value="Testfaciliteiten zijn representatief voor het daadwerkelijke gebruik van de gegevensdiensten."/>
