@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IMX Model Mapping"
     id="id-ce31bcdad11a4f879c58d0072d5dbbe9"
-    documentation="IMX Model Mapping beschrijft een vertaling van één of meer bronnen naar een doel en is bedoeld om gebruikt te worden voor een IML orchestratie.">
+    documentation="IMX Model Mapping beschrijft een vertaling van één of meer bronnen naar een doel en is bedoeld om gebruikt te worden voor een IMX orchestratie.">
   <properties
       key="Status"
       value="nvt"/>
