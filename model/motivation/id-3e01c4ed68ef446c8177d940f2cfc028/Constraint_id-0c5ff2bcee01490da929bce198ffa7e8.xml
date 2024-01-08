@@ -15,4 +15,6 @@
   <properties
       key="URL"
       value="https://gitdocumentatie.logius.nl/publicatie/dk/ebms/"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
 </archimate:Constraint>

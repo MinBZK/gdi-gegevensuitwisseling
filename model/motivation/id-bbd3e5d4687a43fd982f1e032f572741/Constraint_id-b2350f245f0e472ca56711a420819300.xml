@@ -1,0 +1,8 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data Act"
+    id="id-b2350f245f0e472ca56711a420819300"
+    documentation="De Data Act beschrijft wie waarde kan creëren uit data en onder welke voorwaarden. Het voorstel beoogt het gebruik van data te bevorderen en te verzekeren dat de waarde uit data gelijkwaardiger wordt verdeeld over de partijen die deelnemen aan de data-economie. De act geeft een reeks essentiële vereisten om interoperabiliteit mogelijk te maken tussen dataspaces en data verwerkende diensten. Zo moeten data inhoud, structuur, licenties, verzamel-methode, kwaliteit en onzekerheden gedocumenteerd zijn, evenals datastructuren, formaten, classificaties, API-beschrijvingen etc. De EC kan verdere regels stellen t.a.v. interoperabiliteit, ook voor bepaalde sectoren. De EC kan standaarden vereisen, en (internationale) standaarden adopteren en verplicht stellen, niet alleen t.a.v. data maar ook bijvoorbeeld t.a.v. architectuur, technische standaarden en federatie van clouddiensten t.b.v. de Europese dataspace(s). De regels streven interoperabiliteit en portabiliteit na op zowel transport, syntactisch, semantisch, beleid en gedragsniveau.">
+  <profiles
+      href="folder.xml#id-930df6e4bb244a22a47f4820a36fd1c5"/>
+</archimate:Constraint>
