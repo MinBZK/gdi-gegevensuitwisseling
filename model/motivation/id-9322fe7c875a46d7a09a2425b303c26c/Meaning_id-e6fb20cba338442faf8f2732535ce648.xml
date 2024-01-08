@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="gebeurtenistype"
+    id="id-e6fb20cba338442faf8f2732535ce648"
+    documentation="De typering van een groep gebeurtenissen die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.">
+  <properties
+      key="ID"
+      value="gebeurtenistype"/>
+  <properties
+      key="Redactionele notitie"
+      value="Deze definitie volgt dezelfde structuur als die van objecttype, omdat ze beiden een groepering van attribuutsoorten zijn."/>
+</archimate:Meaning>

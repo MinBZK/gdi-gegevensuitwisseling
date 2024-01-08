@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="kennis"
+    id="id-ef4d9414e7ee4d838c9b4b7abda6f822"
+    documentation="Verzameling van feiten, gebeurtenissen, overtuigingen en regels, georganiseerd voor systematisch gebruik">
+  <properties
+      key="ID"
+      value="kennis"/>
+  <properties
+      key="Heeft bron"
+      value="ISO/IEC 2382-28:1995"/>
+</archimate:Meaning>

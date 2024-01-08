@@ -1,0 +1,18 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="formele historie"
+    id="id-9a5246a4ddea4c338ef6524602017087"
+    documentation="De veranderingen van gegevens in een registratie">
+  <properties
+      key="ID"
+      value="formele historie"/>
+  <properties
+      key="Redactionele notitie"
+      value="Deze definitie is gebaseerd op NEN 3610:2022, maar die bevat geen formele definitie."/>
+  <properties
+      key="Toelichting"
+      value="Deze historie kan pas in de registratie zelf worden bepaald. Het betreft typisch een startmoment van de registratie en een eindmoment van de registratie. Verder kan ook een versienummer worden gebruikt om de wijzigingen van een record in tijd te kunnen vastleggen. De periode waarin gegevens in de registratie aanwezig en actueel waren is de registratieperiode."/>
+  <properties
+      key="Is gerelateerd aan"
+      value="registratieperiode, gegeven"/>
+</archimate:Meaning>
