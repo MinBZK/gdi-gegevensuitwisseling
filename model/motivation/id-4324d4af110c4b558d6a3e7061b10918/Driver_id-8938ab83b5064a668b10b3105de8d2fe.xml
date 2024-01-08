@@ -1,0 +1,11 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Architectuur Digitale Overheid 2030"
+    id="id-8938ab83b5064a668b10b3105de8d2fe"
+    documentation="De Architectuur Digitale Overheid biedt houvast voor overheifdsorganisaties die dagelijks in de weer zijn om hun dienstverlening te verbeteren en hun informatiehuishouding te moderniseren. Er worden jaarlijks honderden programma's en projecten uitgevoerd. Digitalisering staat hierbij vaak centraal. Dit document geeft een solide kader voor deze vernieuwingsactiviteiten. Door binnen de afspraken in dit document te blijven, groeien we de komende jaren toe naar een overheid die op moderne wijze diensten verleent aan burgers en ondernemers.">
+  <properties
+      key="URL"
+      value="https://pgdi.nl/ado"/>
+  <profiles
+      href="folder.xml#id-d47de2a822304367b35fa6d2442d6060"/>
+</archimate:Driver>
