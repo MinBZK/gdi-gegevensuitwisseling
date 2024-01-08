@@ -5,7 +5,7 @@
     documentation="Het is belangrijk dat de kwaliteit van gegevens inzichtelijk is zodat afnemers begrijpen of dit aansluit bij hun eigen gebruik. Door de naamgeving en inhoud van dimensies voor gegevenskwaliteit te standaardiseren, zijn deze beter begrijpelijk voor afnemers. Het NORA raamwerk gegevenskwaliteit is gebaseerd op wereldwijde ISO standaarden, breed afgestemd binnen de Nederlandse overheid en is ook de basis voor het Federatief Datastelsel.">
   <properties
       key="Implicaties"
-      value="In de metadata van datasets zijn beschrijvingen van de normen en gerealiseerde kwaliteit beschreven conform de structuur van het NORA raamwerk gegevenskwaliteit."/>
+      value="In de metagegevens van datasets zijn beschrijvingen van de normen en gerealiseerde kwaliteit beschreven conform de structuur van het NORA raamwerk gegevenskwaliteit."/>
   <properties
       key="Implicaties"
       value="Er is liefst ook een machineleesbare versie van de kwaliteit van de gegevens beschikbaar conform de DQV standaard."/>
