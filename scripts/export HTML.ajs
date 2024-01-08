@@ -34,27 +34,31 @@ var elementTypeMappings = {
     "business-function":"Bedrijfsfunctie",
     "business-object":"Bedrijfsobject",
 	"business-role":"Rol",
-    "contract":"Standaard",
+    "assessment":"knelpunt",
     "application-component":"Voorziening",
     "requirement":"Richtlijn",
     "principle":"Principe",
-    "constraint":"Beleid",
-    "grouping": "Groep"
+    "constraint":"Standaard",
+	"meaning": "Begrip",
+    "grouping": "Groep",
+	"work-package": "Veranderinitiatief"
 }
 
 var elementTypePluralMappings = {
     "business-function":"bedrijfsfuncties",
     "business-object":"bedrijfsobjecten",
 	"business-role":"rollen",
-    "contract":"standaarden",
+    "assessment":"knelpunten",
     "application-component":"voorzieningen",
 	"requirement":"richtlijnen",
 	"principle":"principes",
-	"constraint":"beleidsstukken",
-	"grouping": "groepen"
+	"constraint":"standaarden",
+	"meaning":"begrippen",
+	"grouping": "groepen",
+	"work-package": "veranderinitiatieven"
 }
 
-var elementTypes = ["business-function", "business-object", "business-role", "contract", "application-component", "requirement", "principle", "constraint", "grouping"];
+var elementTypes = ["business-function", "business-object", "business-role", "assessment", "application-component", "requirement", "principle", "constraint", "meaning", "grouping", "work-package"];
 
 var dirPath = window.promptOpenDirectory({ title: "Kies output directory"});
 
@@ -105,7 +109,7 @@ function writeFile(id, contents) {
 for (var i=0; i<elementTypes.length; i++) {
 	var elementtypename = elementTypePluralMappings[elementTypes[i]];
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
-	textList[elementTypes[i]] = getHeader(ucelementtypename)+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Definitie</td></tr>";	
+	textList[elementTypes[i]] = getHeader(ucelementtypename)+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Omschrijving</td></tr>";	
 	elementNamesList[elementTypes[i]] = [];
 	elementTextList[elementTypes[i]] = [];
 }
@@ -134,11 +138,11 @@ $("element").each(function(e) {
 	var elementtypename = elementTypePluralMappings[e.type];
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
     var text = getHeader(ucelementtypename + " > " + e.name);
-    text += "<tr><td width=200>Definitie</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
+    text += "<tr><td width=200>Omschrijving</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
 //	text += "<tr><td>Type</b></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+(!elementTypeMappings[e.type]?e.type:elementTypeMappings[e.type])+"</td></tr>";
 		
 	for (var i=0; i<propertiesList.length; i++){
-        if (e.prop(propertiesList[i])) {
+        if (e.prop(propertiesList[i]) && propertiesList[i] != "ID") {
 			properties = e.prop(propertiesList[i], true);
 			if (properties.constructor == Array) {
 				text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
