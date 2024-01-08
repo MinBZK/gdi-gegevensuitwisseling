@@ -40,7 +40,8 @@ var elementTypeMappings = {
     "application-component":"Voorziening",
     "requirement":"Richtlijn",
     "principle":"Principe",
-    "constraint":"Standaard",
+    "constraintStandaard":"Standaard",
+    "constraintWetgeving":"Wet- en regelgeving",
 	"meaning": "Begrip",
     "grouping": "Groep",
 	"work-package": "Veranderinitiatief"
@@ -54,13 +55,14 @@ var elementTypePluralMappings = {
     "application-component":"voorzieningen",
 	"requirement":"richtlijnen",
 	"principle":"principes",
-	"constraint":"standaarden",
+	"constraintStandaard":"standaarden",
+	"constraintWetgeving":"wetten",
 	"meaning":"begrippen",
 	"grouping": "groepen",
 	"work-package": "veranderinitiatieven"
 }
 
-var elementTypes = ["business-function", "business-object", "business-role", "assessment", "application-component", "requirement", "principle", "constraint", "meaning", "grouping", "work-package"];
+var elementTypes = ["business-function", "business-object", "business-role", "assessment", "application-component", "requirement", "principle", "constraintStandaard", "constraintWetgeving", "meaning", "grouping", "work-package"];
 
 var dirPath = window.promptOpenDirectory({ title: "Kies output directory"});
 
@@ -114,6 +116,13 @@ function writeFile(id, contents) {
 	}
 }
 
+function getFullType(type, specialization) {
+	if (specialization) 
+		return type+specialization;
+	else
+		return type
+}
+
 for (var i=0; i<elementTypes.length; i++) {
 	var elementtypename = elementTypePluralMappings[elementTypes[i]];
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
@@ -130,9 +139,8 @@ for (var i=0; i<elementTypes.length; i++) {
 $("element").each(function(e) {
 	if (e.prop("exclude")!=null) { return; }
 
-	console.log("> " + e.name);
-	elementNamesList[e.type].push(e.name);
-	elementTextList[e.type][e.name] = "<tr><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\"><a href=\"..\\elements\\"+e.id+".html\">"+e.name+"</a></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</tr>";
+	elementNamesList[getFullType(e.type, e.specialization)].push(e.name);
+	elementTextList[getFullType(e.type, e.specialization)][e.name] = "<tr><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\"><a href=\"..\\elements\\"+e.id+".html\">"+e.name+"</a></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</tr>";
 
 	var theProperties = e.prop();  
 
@@ -148,16 +156,14 @@ $("element").each(function(e) {
 		}
     }
 
-	var elementtypename = elementTypePluralMappings[e.type];
+	var elementtypename = elementTypePluralMappings[getFullType(e.type, e.specialization)];
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
     var text = "";
 	if (e.type == "meaning")
 		text += "<tr><td width=200>Definitie</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
 	else
-		text += "<tr><td width=200>Omschrijving</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
-	
-//	text += "<tr><td>Type</b></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+(!elementTypeMappings[e.type]?e.type:elementTypeMappings[e.type])+"</td></tr>";
-		
+		text += "<tr><td width=200>Omschrijving</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";	
+
 	for (var i=0; i<propertiesList.length; i++){
         if (e.prop(propertiesList[i]) && propertiesList[i] != "ID") {
 			properties = e.prop(propertiesList[i], true);
@@ -178,24 +184,24 @@ $("element").each(function(e) {
 		var found = false;
 		$(e).outRels().each(function (r) {
 			if (r.prop("Type before conversion")) r.removeProp("Type before conversion");
-			if (r.target.type == elementTypes[i]) { 
+			if (getFullType(r.target.type,r.target.specialization) == elementTypes[i]) { 
 				if (first) {
-					text += "<tr><td>Relatie met "+(!elementTypePluralMappings[r.target.type]?e.type:elementTypePluralMappings[r.target.type])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
+					text += "<tr><td>Relatie met "+(!elementTypePluralMappings[getFullType(r.target.type,r.target.specialization)]?e.type:elementTypePluralMappings[getFullType(r.target.type,r.target.specialization)])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
 					first = false;
 					found = true;
 				}
-				text += e.name+" "+(!relationshipTypeMappings[r.type]?e.type:relationshipTypeMappings[r.type])+" <a href=\"..\\elements\\"+r.target.id+".html\">"+r.target.name+"</a>"+(r.name?(" ("+r.name+") "):"")+getRelationshipProperties(r)+"<br>";
+				text += "[...] "+(!relationshipTypeMappings[r.type]?e.type:relationshipTypeMappings[r.type])+" <a href=\"..\\elements\\"+r.target.id+".html\">"+r.target.name+"</a>"+(r.name?(" ("+r.name+") "):"")+getRelationshipProperties(r)+"<br>";
 			}
 		});
 		$(e).inRels().each(function (r) {
 			if (r.prop("Type before conversion")) r.removeProp("Type before conversion");
-			if (r.source.type == elementTypes[i]) { 
+			if (getFullType(r.source.type,r.source.specialization) == elementTypes[i]) { 
 				if (first) {
-					text += "<tr><td>Relatie met "+(!elementTypePluralMappings[r.source.type]?e.type:elementTypePluralMappings[r.source.type])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
+					text += "<tr><td>Relatie met "+(!elementTypePluralMappings[getFullType(r.source.type,r.source.specialization)]?e.type:elementTypePluralMappings[getFullType(r.source.type,r.source.specialization)])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
 					first = false;
 					found = true;
 				}
-				text += "<a href=\"..\\elements\\"+r.source.id+".html\">"+r.source.name+"</a> "+(!relationshipTypeMappings[r.type]?e.type:relationshipTypeMappings[r.type])+" "+e.name+(r.name?(" ("+r.name+") "):"")+getRelationshipProperties(r)+"<br>";
+				text += "<a href=\"..\\elements\\"+r.source.id+".html\">"+r.source.name+"</a> "+(!relationshipTypeMappings[r.type]?e.type:relationshipTypeMappings[r.type])+"  [...] "+(r.name?(" ("+r.name+") "):"")+getRelationshipProperties(r)+"<br>";
 			}
 		});
 		if (found) {
@@ -203,13 +209,13 @@ $("element").each(function(e) {
 		}
 	};
 
-	elementFullTextList[e.type][e.name] = "<b>" + e.name + "</b><br><br>"+ getTableStart() + text + getTableEnd();
+	elementFullTextList[getFullType(e.type, e.specialization)][e.name] = "<b>" + e.name + "</b><br><br>"+ getTableStart() + text + getTableEnd();
 	text = getHeader(ucelementtypename + " > " + e.name) + getTableStart() + text + getTableEnd() + getFooter(e.id);
 	writeFile("elements\\"+e.id, text);
 
 });
 
-// bestanden per elementtype maken, met gesorteerde lijst van elementen4
+// bestanden per elementtype maken, met gesorteerde lijst van elementen
 for (var i=0; i<elementTypes.length; i++) {
 	elementNamesList[elementTypes[i]].sort();
 	for (j=0; j<elementNamesList[elementTypes[i]].length; j++) {
