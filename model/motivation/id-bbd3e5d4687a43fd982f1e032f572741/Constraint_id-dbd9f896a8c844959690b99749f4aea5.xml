@@ -1,8 +1,11 @@
 <archimate:Constraint
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Algemene Verordening Gegevensbescherming"
+    name="General Data Protection Regulation"
     id="id-dbd9f896a8c844959690b99749f4aea5"
-    documentation="Deze verordening standaardiseert de regels voor de verwerking van persoonsgegevens door particuliere bedrijven en overheidsinstanties in de Europese Unie. Het doel van de verordening is het garanderen van de bescherming van persoonsgegevens binnen de Europese Unie en het waarborgen van het vrije verkeer van gegevens binnen de Europese interne markt. De verordening heeft rechtstreekse werking en hoeft niet geïmplementeerd te worden in de Nederlandse wetgeving.">
+    documentation="Deze verordening standaardiseert de regels voor de verwerking van persoonsgegevens door particuliere bedrijven en overheidsinstanties in de Europese Unie. Het doel van de verordening is het garanderen van de bescherming van persoonsgegevens binnen de Europese Unie en het waarborgen van het vrije verkeer van gegevens binnen de Europese interne markt. De verordening heeft rechtstreekse werking en hoeft niet geïmplementeerd te worden in de Nederlandse wetgeving. In Nederland staat de verordening bekend als de Algemene Verordening Gegevensbescherming (AVG).">
+  <properties
+      key="URL"
+      value="https://eur-lex.europa.eu/eli/reg/2016/679/oj"/>
   <profiles
       href="folder.xml#id-930df6e4bb244a22a47f4820a36fd1c5"/>
 </archimate:Constraint>
