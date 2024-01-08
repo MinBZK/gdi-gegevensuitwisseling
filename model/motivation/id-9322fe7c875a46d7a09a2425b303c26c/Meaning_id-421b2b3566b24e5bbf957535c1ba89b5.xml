@@ -1,0 +1,21 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="bestand"
+    id="id-421b2b3566b24e5bbf957535c1ba89b5"
+    documentation="Geordende verzameling van gegevens in elektronische vorm, die door een elektronisch apparaat onder één naam kan worden behandeld en aangesproken.">
+  <properties
+      key="ID"
+      value="bestand"/>
+  <properties
+      key="Redactionele notitie"
+      value="De definitie in MDTO is licht aangepast; de voorbeelden zijn eruit gehaald omdat die strikt genomen niet in een definitie horen."/>
+  <properties
+      key="Toelichting"
+      value="Merk op dat de Archiefterminologie voor Nederland en Vlaanderen (ArchiefWiki) een definitie voor 'bestand' (&quot;Groep vastgelegde gegevens of documenten bijeengebracht met een bepaald doel en in onderlinge samenhang te raadplegen.&quot;) hanteert die niet helemaal overeenkomt met het begrip 'computerbestand'."/>
+  <properties
+      key="Voorbeeld"
+      value="Word-bestand. Videobestand."/>
+  <properties
+      key="Heeft bron"
+      value="MDTO"/>
+</archimate:Meaning>

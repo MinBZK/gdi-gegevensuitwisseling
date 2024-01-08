@@ -1,0 +1,15 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="model"
+    id="id-3966936e69ad41609d4a7171493dd994"
+    documentation="Een abstractie van enige aspecten van de werkelijkheid.">
+  <properties
+      key="ID"
+      value="model"/>
+  <properties
+      key="Heeft bron"
+      value="NEN 3610:2022"/>
+  <properties
+      key="Is gerelateerd aan"
+      value="modelelement"/>
+</archimate:Meaning>

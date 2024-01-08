@@ -1,0 +1,18 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="data element"
+    id="id-0af6fff120fd424790a2ee5ad63ee679"
+    documentation="Eenheid van gegevens die in een bepaalde context als ondeelbaar wordt beschouwd.">
+  <properties
+      key="ID"
+      value="data element"/>
+  <properties
+      key="Toelichting"
+      value="Een data element is een typering van een bepaald gegeven. "/>
+  <properties
+      key="Heeft bron"
+      value="ISO/IEC 11179-30:2023"/>
+  <properties
+      key="Is gerelateerd aan"
+      value="gegeven"/>
+</archimate:Meaning>
