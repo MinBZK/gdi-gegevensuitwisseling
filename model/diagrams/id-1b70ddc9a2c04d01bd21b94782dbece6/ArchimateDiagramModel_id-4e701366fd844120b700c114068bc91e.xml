@@ -57,7 +57,7 @@
     </sourceConnections>
     <bounds
         x="684"
-        y="48"
+        y="12"
         width="325"
         height="529"/>
     <children
@@ -240,7 +240,7 @@
         value="2"/>
     <bounds
         x="1020"
-        y="336"
+        y="300"
         width="325"
         height="241"/>
     <archimateElement
@@ -274,7 +274,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="48"
+        y="12"
         width="325"
         height="529"/>
     <children
@@ -379,7 +379,7 @@
     </sourceConnections>
     <bounds
         x="348"
-        y="48"
+        y="12"
         width="325"
         height="529"/>
     <children
@@ -535,7 +535,7 @@
     </sourceConnections>
     <bounds
         x="1020"
-        y="48"
+        y="12"
         width="325"
         height="265"/>
     <children
