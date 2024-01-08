@@ -2,4 +2,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gegevensuitwisseling"
     id="id-06c6c1de430644b9adb865225da06cba"
-    version="5.0.0"/>
+    version="5.0.0">
+  <profiles
+      name="Standaard"
+      id="id-ac6c41bdfa5d4805be6b7aee7df9b6b7"
+      conceptType="Constraint"/>
+  <profiles
+      name="Wetgeving"
+      id="id-930df6e4bb244a22a47f4820a36fd1c5"
+      conceptType="Constraint"/>
+</archimate:ArchimateModel>
