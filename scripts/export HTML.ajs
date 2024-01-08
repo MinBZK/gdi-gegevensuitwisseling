@@ -14,8 +14,10 @@ console.log("> Start HTML Export");
 
 var propertiesList = [];
 var textList = [];
+var fullTextList = [];
 var elementNamesList = [];
 var elementTextList = [];
+var elementFullTextList = [];
 var elementname = "";
 
 var relationshipTypeMappings = {
@@ -78,13 +80,19 @@ function getHeader(name) {
     text += "<b>"+name+"</b>";
 	text += "</div>";
 	text += "<div class=\"panel-body root-panel-body\">";
-	text += "<table class=\"table table-striped table-hover table-condensed\">";
-	text += "<tbody>";
 	return text;
 }
 
+function getTableStart() {
+	return "<table class=\"table table-striped table-hover table-condensed\"><tbody>";
+}
+
+function getTableEnd() {
+	return "</tbody></table>";
+}
+
 function getFooter(id) {
-	return "</tbody></table><p style=\"font-size:5px;text-align:right\">"+id+"</p></div></div></body></html>";
+	return "<p style=\"font-size:5px;text-align:right\">"+id+"</p></div></div></body></html>";
 }
 
 function getRelationshipProperties (r) {
@@ -109,9 +117,14 @@ function writeFile(id, contents) {
 for (var i=0; i<elementTypes.length; i++) {
 	var elementtypename = elementTypePluralMappings[elementTypes[i]];
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
-	textList[elementTypes[i]] = getHeader(ucelementtypename)+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Omschrijving</td></tr>";	
+	if (elementTypes[i] == "meaning")
+		textList[elementTypes[i]] = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Definitie</td></tr>";
+	else
+		textList[elementTypes[i]] = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Omschrijving</td></tr>";		
+	fullTextList[elementTypes[i]] = getHeader(ucelementtypename);
 	elementNamesList[elementTypes[i]] = [];
 	elementTextList[elementTypes[i]] = [];
+	elementFullTextList[elementTypes[i]] = [];
 }
 
 $("element").each(function(e) {
@@ -137,8 +150,12 @@ $("element").each(function(e) {
 
 	var elementtypename = elementTypePluralMappings[e.type];
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
-    var text = getHeader(ucelementtypename + " > " + e.name);
-    text += "<tr><td width=200>Omschrijving</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
+    var text = "";
+	if (e.type == "meaning")
+		text += "<tr><td width=200>Definitie</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
+	else
+		text += "<tr><td width=200>Omschrijving</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
+	
 //	text += "<tr><td>Type</b></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+(!elementTypeMappings[e.type]?e.type:elementTypeMappings[e.type])+"</td></tr>";
 		
 	for (var i=0; i<propertiesList.length; i++){
@@ -160,6 +177,7 @@ $("element").each(function(e) {
 		var first = true;
 		var found = false;
 		$(e).outRels().each(function (r) {
+			if (r.prop("Type before conversion")) r.removeProp("Type before conversion");
 			if (r.target.type == elementTypes[i]) { 
 				if (first) {
 					text += "<tr><td>Relatie met "+(!elementTypePluralMappings[r.target.type]?e.type:elementTypePluralMappings[r.target.type])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
@@ -170,6 +188,7 @@ $("element").each(function(e) {
 			}
 		});
 		$(e).inRels().each(function (r) {
+			if (r.prop("Type before conversion")) r.removeProp("Type before conversion");
 			if (r.source.type == elementTypes[i]) { 
 				if (first) {
 					text += "<tr><td>Relatie met "+(!elementTypePluralMappings[r.source.type]?e.type:elementTypePluralMappings[r.source.type])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
@@ -184,21 +203,24 @@ $("element").each(function(e) {
 		}
 	};
 
-	text += getFooter(e.id);
+	elementFullTextList[e.type][e.name] = "<b>" + e.name + "</b><br><br>"+ getTableStart() + text + getTableEnd();
+	text = getHeader(ucelementtypename + " > " + e.name) + getTableStart() + text + getTableEnd() + getFooter(e.id);
 	writeFile("elements\\"+e.id, text);
 
 });
 
-// bestanden per elementtype maken, met gesorteerde lijst van elementen
-// beleidsstukken overslaan omdat die anders gestructureerd in een bestand moeten komen
+// bestanden per elementtype maken, met gesorteerde lijst van elementen4
 for (var i=0; i<elementTypes.length; i++) {
 	elementNamesList[elementTypes[i]].sort();
 	for (j=0; j<elementNamesList[elementTypes[i]].length; j++) {
 		elementname = elementNamesList[elementTypes[i]][j];
 		textList[elementTypes[i]] += elementTextList[elementTypes[i]][elementname]; 
+		fullTextList[elementTypes[i]] += elementFullTextList[elementTypes[i]][elementname]; 
 	}
-	textList[elementTypes[i]] += getFooter("");
+	textList[elementTypes[i]] += getTableEnd() + getFooter("");
+	fullTextList[elementTypes[i]] += getFooter("");
 	writeFile("views\\" + elementTypePluralMappings[elementTypes[i]], textList[elementTypes[i]]);
+	writeFile("views\\" + elementTypePluralMappings[elementTypes[i]] + "details", fullTextList[elementTypes[i]]);
 }
 
 console.log("> End HTML Export");

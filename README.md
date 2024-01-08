@@ -8,7 +8,9 @@ Het architectuurmodel is beschikbaar in verschillende vormen:
 4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren (zie hieronder)
 
 # Architectuur
-De volgende diagrammen en overzichten zijn geëxporteerd uit Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. De overzichten en achterliggende detailpagina's zijn gegenereerd met een <a href="scripts/export HTML.ajs">script</a>.
+De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein gegevensuitwisseling. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld.
+
+Bij de verschillende onderwerpen wordt verwezen naar diagrammen, overzichten en detailoverzichten. Deze zijn geëxporteerd uit het architectuurmodelleertool Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. De overzichten, detailoverzichten en achterliggende detailpagina's zijn gegenereerd met een <a href="scripts/export HTML.ajs">script</a>.
 
 ## Referentie-architectuur
 
@@ -16,7 +18,6 @@ De volgende diagrammen en overzichten zijn geëxporteerd uit Archi. De diagramme
 * Bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-efc531031d114860a309f6eeacdad289">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsobjecten.html">overzicht</a>
 * Relatie tussen functies en bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-b6f068818d264742b80c8f4f5278aca0">diagram</a>
 * Begrippen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippen.html">details</a>
-
 
 ## Huidige situatie
 
