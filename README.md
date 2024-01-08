@@ -26,6 +26,7 @@ Bij de verschillende onderwerpen wordt verwezen naar diagrammen, overzichten en 
 
 ## Gewenste situatie
 
+* Wet- en regelgeving: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/wetten.html">overzicht</a>
 * Architectuurprincipes: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-4e701366fd844120b700c114068bc91e">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principes.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principesdetails.html">details</a>
 * Standaarden: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-5df0c1360768493aa966c16f7dbfd414">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaardendetails.html">details</a>
 * Veranderinitiatieven: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/veranderinitiatieven.html">overzicht</a>
