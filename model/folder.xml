@@ -11,4 +11,12 @@
       name="Wetgeving"
       id="id-930df6e4bb244a22a47f4820a36fd1c5"
       conceptType="Constraint"/>
+  <profiles
+      name="Beleid"
+      id="id-d47de2a822304367b35fa6d2442d6060"
+      conceptType="Driver"/>
+  <profiles
+      name="Ontwikkeling"
+      id="id-7be84c5323e54f1b9e45b26375c7309b"
+      conceptType="Driver"/>
 </archimate:ArchimateModel>

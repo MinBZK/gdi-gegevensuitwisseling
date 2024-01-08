@@ -3,6 +3,9 @@
     name="Single Digital Gateway"
     id="id-c1ce30891ce64e08ae67b0695bff29f1"
     documentation="De SDG moet ervoor zorgen dat iedereen in de EU op dezelfde manier toegang heeft tot digitale overheidsdienstverlening. In de SDG-verordening staat welke informatie en procedures online aangeboden moeten worden en vanaf wanneer dat moet worden gedaan. De SDG-verordening is in oktober 2018 aangenomen door het Europees Parlement. Daarmee heeft Nederland de wettelijke verplichting gekregen om de verordening uit te voeren. Bij het verlenen van toegang tot procedures is het Once-Only Principe (Eenmaligheidsbeginsel) van belang. zodat burgers, instellingen en bedrijven bepaalde informatie slechts één keer hoeven aan te leveren aan overheidsorganisaties. ">
+  <properties
+      key="URL"
+      value="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG&amp;toc=OJ:L:2018:295:TOC"/>
   <profiles
       href="folder.xml#id-930df6e4bb244a22a47f4820a36fd1c5"/>
 </archimate:Constraint>

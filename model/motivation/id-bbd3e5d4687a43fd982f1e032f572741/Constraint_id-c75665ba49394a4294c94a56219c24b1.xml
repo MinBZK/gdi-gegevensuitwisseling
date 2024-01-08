@@ -1,0 +1,11 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="A European strategy for data"
+    id="id-c75665ba49394a4294c94a56219c24b1"
+    documentation="Vanuit de Europese strategie voor data wil de Commissie de ontwikkeling van gemeenschappelijke Europese dataruimtes in strategische economische sectoren en gebieden van algemeen belang bevorderen. Deze sectoren of domeinen zijn die waar het gebruik van data een systemische impact zal hebben op het hele ecosysteem, maar ook op burgers. De EU-brede dataspace is waar alle aspecten uit de hiervoor genoemde DGA, DA en Open datarichtlijn tot praktische uitdrukking komen.&#xD;&#xA;&#xD;&#xA;In de visie van de Europese strategie voor gegevens is de totstandbrenging van gemeenschappelijke, interoperabele gegevensruimten in de hele EU in strategische sectoren gericht op het wegnemen van juridische en technische belemmeringen voor het delen van gegevens door de nodige instrumenten en infrastructuren te combineren en vertrouwenskwesties aan te pakken door middel van gemeenschappelijke regels. Een gemeenschappelijke Europese gegevensruimte brengt relevante gegevensinfrastructuren en governancekaders samen om het poolen en delen van gegevens te vergemakkelijken.">
+  <properties
+      key="URL"
+      value="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020DC0066"/>
+  <profiles
+      href="folder.xml#id-930df6e4bb244a22a47f4820a36fd1c5"/>
+</archimate:Constraint>
