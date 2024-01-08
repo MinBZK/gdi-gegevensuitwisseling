@@ -8,7 +8,7 @@ Het architectuurmodel is beschikbaar in verschillende vormen:
 4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren (zie hieronder)
 
 # Architectuur
-De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein gegevensuitwisseling. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld.
+De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein gegevensuitwisseling. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke wet- en regelgeving, architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld.
 
 Bij de verschillende onderwerpen wordt verwezen naar diagrammen, overzichten en detailoverzichten. Deze zijn geëxporteerd uit het architectuurmodelleertool Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. De overzichten, detailoverzichten en achterliggende detailpagina's zijn gegenereerd met een <a href="scripts/export HTML.ajs">script</a>.
 
