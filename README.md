@@ -21,7 +21,7 @@ Bij de verschillende onderwerpen wordt verwezen naar diagrammen, overzichten en 
 
 ## Huidige situatie
 
-* Huidige voorzieningen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-44e956451b5947e08070f8c2edca5bf3">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/voorzieningen.html">details</a>
+* Huidige voorzieningen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-44e956451b5947e08070f8c2edca5bf3">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/voorzieningendetails.html">details</a>
 * Knelpunten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/knelpunten.html">overzicht</a>
 
 ## Gewenste situatie
