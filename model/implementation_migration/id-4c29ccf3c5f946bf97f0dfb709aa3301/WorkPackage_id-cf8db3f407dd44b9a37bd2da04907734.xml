@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Metagegevens standaard voor gegevenskwaliteit"
+    id="id-cf8db3f407dd44b9a37bd2da04907734"
+    documentation="Het is wenselijk om een standaard te bepalen waarmee op een consistentie manier over gegevenskwaliteit in metagegevens kan worden gecommuniceerd. Hierdoor kunnen afnemers eenvoudiger begrijpen in hoeverre gegevens passen bij hun eigen gebruik. Het NORA raamwerk gegevenskwaliteit zou hiertoe moeten worden vertaald naar de DQV standaard."/>
