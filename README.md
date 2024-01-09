@@ -45,3 +45,5 @@ Als iemand wijzigingen aanbrengt in het model dan moet er door deze persoon ook 
 4. Genereren Personal Access Token: Settings/Developer settings/Personal access tokens/Tokens (classic)
 5. Import Remote Model To Workspace in Archi: URL: https://github.com/minbzk/gdi-gegevensuitwisseling, Personal Access Token als wachtwoord
 
+# Voorstellen wijzigingen
+Als iemand wijzigingen wil aanbrengen, moet deze eerst de repository forken en dan in de eigen fork de voorgestelde wijzigingen aanbrengen. Na het committen van de change, worden de wijzigingen in een nieuwe branch geschreven in de eigen fork. Vanuit die fork kan de persoon een pull request sturen naar de eigenaar van de oorspronkelijke repository om de wijzigingen in het oorspronkelijke document op te nemen.
