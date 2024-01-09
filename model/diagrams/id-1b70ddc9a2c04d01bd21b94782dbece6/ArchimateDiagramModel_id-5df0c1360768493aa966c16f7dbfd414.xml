@@ -13,7 +13,7 @@
         x="804"
         y="-36"
         width="577"
-        height="505"/>
+        height="565"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
         id="id-6f19fdcc5111481ca76166b4e19114cb"
@@ -277,7 +277,7 @@
           x="12"
           y="312"
           width="553"
-          height="181"/>
+          height="241"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-cd9adb71ff0045c5a06e6533aa5ddeb8"
@@ -372,8 +372,8 @@
             name="iconVisible"
             value="2"/>
         <bounds
-            x="192"
-            y="132"
+            x="12"
+            y="180"
             width="169"
             height="37"/>
         <archimateElement
@@ -389,8 +389,8 @@
             name="iconVisible"
             value="2"/>
         <bounds
-            x="372"
-            y="36"
+            x="192"
+            y="132"
             width="169"
             height="37"/>
         <archimateElement
@@ -406,13 +406,64 @@
             name="iconVisible"
             value="2"/>
         <bounds
+            x="192"
+            y="180"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-e0f07c7f77834fd081955c8d99f288f7.xml#id-e0f07c7f77834fd081955c8d99f288f7"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-63a5c58227884c8ab92fc8135dda53d9"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="372"
+            y="36"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-82bc0503fd5c4d67b52990d8f2337dce.xml#id-82bc0503fd5c4d67b52990d8f2337dce"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-fb930dfaa70c402784d95ba5416b2003"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="372"
+            y="132"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-65345368655446139e74ae4b4fb1b8dc.xml#id-65345368655446139e74ae4b4fb1b8dc"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-3dd94f04a6824e65a19068cf00ebf887"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
             x="372"
             y="84"
             width="169"
             height="37"/>
         <archimateElement
             xsi:type="archimate:Constraint"
-            href="Constraint_id-e0f07c7f77834fd081955c8d99f288f7.xml#id-e0f07c7f77834fd081955c8d99f288f7"/>
+            href="Constraint_id-25074a472a37451c87083003b618cb81.xml#id-25074a472a37451c87083003b618cb81"/>
       </children>
     </children>
     <archimateElement
@@ -436,7 +487,7 @@
     </sourceConnections>
     <bounds
         x="1392"
-        y="480"
+        y="540"
         width="409"
         height="73"/>
     <children
@@ -478,7 +529,7 @@
     </sourceConnections>
     <bounds
         x="804"
-        y="480"
+        y="540"
         width="577"
         height="73"/>
     <children
@@ -1103,7 +1154,7 @@
         x="1392"
         y="-36"
         width="409"
-        height="505"/>
+        height="565"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
         id="id-e301a178e8774ff689765facec1493f6"
