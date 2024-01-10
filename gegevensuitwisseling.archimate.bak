@@ -279,6 +279,9 @@
       <element xsi:type="archimate:BusinessFunction" name="Beschikbaar stellen actuele gegevens" id="id-40f2e2d826cb46b3807a92ba2f3dc691">
         <documentation>Het toegankelijk maken van gegevens die de actuele stand weergeven.</documentation>
       </element>
+      <element xsi:type="archimate:BusinessFunction" name="Toetsen van gegevensuitwisseling aan gebruiksvoorwaarden" id="id-4a160e64388c4d53b0b4ec7340fdd42a">
+        <documentation>Het controleren of een gewenste gegevensuitwisseling voldoet aan de gebruiksvoorwaarden die de beperkingen, rechten en plichten beschrijven die van toepassing zijn op datasets en gegevensdiensten..</documentation>
+      </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren metagegevens over datasets" id="id-4fd82ab6d6514fb39329797ed2622cff">
         <documentation>Het creëren, vastleggen, wijzigen en verwijderen van metadata over datasets.</documentation>
       </element>
@@ -1233,9 +1236,8 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
       </element>
       <element xsi:type="archimate:Principle" name="Gegevensuitwisseling is federatief georganiseerd" id="id-8418d8cf38694245bdd592d1a4583f1e">
         <documentation>Gegevensuitwisseling is in heel veel sectoren, domeinen en op allerlei niveaus relevant, die allemaal eigen eisen stellen. Het is daarom nodig om gegevensuitwisseling te clusteren en in sectoren en/of domeinen samen te werken en meer specifieke afspraken te maken. Dit is ook een intentie achter de data spaces zoals voorgesteld door de Europese Commissie. Samenwerkingen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien en andere partijen te betrekken. Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.</documentation>
-        <property key="Implicaties" value="Binnen sectoren en domeinen  wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens."/>
-        <property key="Implicaties" value="Er wordt breed gekeken welke partijen nu en in de toekomst bij betrokken kunnen zijn bij gegevensuitwisseling in een specifieke sector of domein en er wordt ook afstemming met deze partijen georganiseerd."/>
-        <property key="Implicaties" value="Bij het ontwerpen van gegevensuitwisseling wordt expliciet rekening gehouden met eisen en wensen van toekomstige samenwerkingspartners."/>
+        <property key="Implicaties" value="Binnen sectoren en domeinen wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens."/>
+        <property key="Implicaties" value="Er wordt breed afgestemd met partijen in de sector of het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
         <property key="Implicaties" value="Er wordt onderzocht of er binnen de context van specifieke sectoren of domeinen specifieke voorzieningen wenselijk zijn die gegevensuitwisseling kunnen vereenvoudigen."/>
         <property key="Implicaties" value="Er zijn binnen specifieke sectoren of domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
       </element>
@@ -1256,9 +1258,16 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <documentation>Hergebruik van gegevens leidt tot meer transparantie, efficiëntie en innovatie. Voor het kunnen hergebruiken van gegevens zijn hun vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid zoals bedoeld in de FAIR-principes essentieel. Zij zorgen ervoor dat anderen in staat zijn om te begrijpen wat eigenschappen van de gegevens zijn, wat ze betekenen en of ze bruikbaar zijn voor hun eigen doeleinden. Ze zorgen er ook voor dat de gegevens eenvoudig verkregen kunnen worden.</documentation>
         <property key="Implicaties" value="Gegevens zijn voorzien van metagegevens, die zijn gepubliceerd in relevante catalogi zoals data.overheid.nl, het Nationaal Geo Register en de stelselcatalogus (vindbaar)."/>
         <property key="Implicaties" value="Gegevens en hun metagegevens zijn voorzien van wereldwijd unieke en stabiele identificaties (vindbaar)."/>
+        <property key="Implicaties" value="Metagegevens zijn rijk en bevatten ook informatie over de context, kwaliteit en karakteristieken van gegevens (vindbaar)."/>
         <property key="Implicaties" value="Gegevens kunnen worden benaderd via standaard, open en algemeen implementeerbare protocollen (toegankelijk)."/>
         <property key="Implicaties" value="Gegevens zijn beschreven in een gegevensmodel waarin hun syntax en betekenis zijn gedefinieerd en dat beschikbaar is een gestandaardiseerd open formaat zoals MIM (interoperabel)."/>
         <property key="Implicaties" value="Metagegevens beschrijven gebruiksbeperkingen, -rechten en -plichten en de herkomst van de gegevens (herbruikbaar)."/>
+      </element>
+      <element xsi:type="archimate:Principle" name="Uitwisseling van persoonsgegevens wordt expliciet getoetst op privacy, ethische en sociale aspecten" id="id-b6735b8d80074ebeac5fe0e617f00bc0">
+        <documentation>Persoonsgegevens zijn inherent privacygevoelig en de uitwisseling ervan is alleen onder specifieke condities mogelijk. Anderzijds wordt privacy vaak onterecht als blokkade gezien voor de uitwisseling van gegevens. Soortgelijk geldt dat gegevensuitwisseling ook ethische vragen op kan roepen en onvoorziene impact kan hebben op mensen. Een expliciete toetsing op privacy, ethische en sociale aspecten door een onafhankelijke commissie maakt een betere afweging mogelijk en kan bindende uitspraken doen.</documentation>
+        <property key="Implicaties" value="Voorafgaand aan het uitwisselen van gegevens vindt toetsing op privacy, ethische en sociale aspecten plaats door een onafhankelijke commissie."/>
+        <property key="Implicaties" value="Landelijk, in de sector of binnen het domein kunnen afspraken worden gemaakt over het inrichten van organisatie-onafhankelijke commissies."/>
+        <property key="Implicaties" value="Uitspraken van een toetscommissie worden bestuurlijk gedragen en zijn bindend."/>
       </element>
       <element xsi:type="archimate:Principle" name="Registraties kunnen notificeren over wijzigingen" id="id-b72405ee2dea40629a0a330260ede075">
         <documentation>Registraties zijn de formele bron voor de gegevens die ze beheren. Afnemers houden liefst zelf geen kopie van deze gegevens bij, maar zijn wel afhankelijk van wijzigingen die erin optreden omdat zij hier zelf op moeten acteren.</documentation>
@@ -1280,11 +1289,11 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <property key="Implicaties" value="Registraties bieden de mogelijkheid om historische gegevens op te vragen."/>
         <property key="Implicaties" value="Registraties bieden liefst ook de mogelijkheid de formele historie (near) real-time te bevragen."/>
       </element>
-      <element xsi:type="archimate:Principle" name="Uitwisseling van niet publieke gegevens wordt expliciet overeengekomen" id="id-c91ec57c463b49b8b41aabb971743a9e">
-        <documentation>Op het moment dat gegevens niet publiek beschikbaar zijn, dan zijn er voorwaarden die expliciet overeen moeten worden gekomen tussen aanbieders en afnemers. Pas na uitdrukkelijke overeenstemming tussen aanbieder en afnemer is er voldoende zekerheid dat aan de voorwaarden zal worden voldaan.</documentation>
+      <element xsi:type="archimate:Principle" name="Gegevensuitwisseling wordt overeengekomen" id="id-c91ec57c463b49b8b41aabb971743a9e">
+        <documentation>Op het moment dat gegevens niet publiek beschikbaar zijn, dan zijn er voorwaarden die expliciet overeen moeten worden gekomen tussen aanbieders en afnemers. Pas na uitdrukkelijke overeenstemming tussen aanbieder en afnemer is er voldoende zekerheid dat aan de voorwaarden zal worden voldaan. Bij open data ligt dat genuanceerder omdat deze in de basis voor iedereen herbruikbaar zijn. Er horen echter wel voorwaarden bij open data, die impliciet geaccepteerd worden door het gebruik ervan.</documentation>
         <property key="Implicaties" value="Aanbieders van gegevens beschrijven hun voorwaarden zoals de van toepassing zijnde gebruiksbeperkingen, -rechten en -plichten expliciet."/>
         <property key="Implicaties" value="Aanbieders van niet publieke gegevens sluiten een gegevensleveringsovereenkomst met afnemers."/>
-        <property key="Implicaties" value="Aanbieders van niet publieke gegevens controleren expliciet of afnemers voldoen aan bepaalde voorwaarden en weigeren anders de levering."/>
+        <property key="Implicaties" value="Aanbieders van niet publieke gegevens controleren expliciet of afnemers voldoen aan de voorwaarden en weigeren anders de levering."/>
       </element>
       <element xsi:type="archimate:Principle" name="Het is mogelijk om vermoedelijke fouten in registraties terug te melden" id="id-d0db7c9726e04ffb9f8aacf5d1616a6b">
         <documentation>Het terugmelden van mogelijke fouten is een belangrijke maatregel voor het verhogen van de gegevenskwaliteit. Voor basisregistraties is het een wettelijke plicht om bij gerede twijfel aan de juistheid van gegevens dit aan de bronhouder terug te melden. Ook voor andere registraties is dit een belangrijke kwaliteitsverhogende maatregel.</documentation>
@@ -1442,6 +1451,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:AssociationRelationship" id="id-0b06f75704534090b16f2b0436a32c6e" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-e0903391f835401798f98afd39daea1a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0b9241bcecba43eb96270a3d00956f8d" source="id-8f048bf52b2e497d8f033cdc091084a6" target="id-d47e17732fb344d79996d472915371e0"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0f7a897efc544d12bff166b20e2134d3" source="id-5ef12d74a642417684910d16092653f2" target="id-d47e17732fb344d79996d472915371e0"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-0fcc64688809413b8e2d805a71ca9fe4" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-4a160e64388c4d53b0b4ec7340fdd42a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-106a02000dd647e2b6d6cc5e5740f353" source="id-0da09931f8ac4b368c786703913087bf" target="id-34f1ce4ae0814162959a9489568c2d71"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-11339f10ee7548edbb1b3709d4e5f416" source="id-130b822b07de4b2592254d316bfffd0e" target="id-d5c9bef30afa4a769b9e4813f0aa0956"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-1284e3ff15624782acbce9aceb77239e" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-39b68135266a4b08be0c9bacacd8a5da"/>
@@ -1487,6 +1497,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:AssociationRelationship" id="id-320ceee107b74584b08fb9c48e7e24db" source="id-e24ef8dc93054899b021a15207b3eea0" target="id-654de455909049e5880ca18ca40935ed"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-34b92df881db424c97b19df3eb790f86" source="id-592dc350d1034ca280d27157e17ba09d" target="id-dfbe1c09e48c41ebbf57626a369f05d7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-355369df16a343b89fc8b203c6a9209e" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-c40dfcb8cd544a32a5e95435fa66423e"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-35c8104fce14418ca87c3233a01cb244" source="id-4a160e64388c4d53b0b4ec7340fdd42a" target="id-ce64114e055648af86127a0b29704e94"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-36217165772446cba427ced9a6f8b74e" source="id-5ef12d74a642417684910d16092653f2" target="id-e0903391f835401798f98afd39daea1a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-38b1dbbbbe89421b9b021eed92469d71" source="id-8f048bf52b2e497d8f033cdc091084a6" target="id-978c37663b714e0fbdc9ec088db243d4"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-3a7bee1ea8a24a0696f02262ca66df31" source="id-0da09931f8ac4b368c786703913087bf" target="id-6857a45330d3428fa0562f7db033d6df"/>
@@ -1716,6 +1727,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:AssociationRelationship" id="id-f70798a81119459198577852fb640fec" source="id-8f089dcb8add4b2fa57de76006aab538" target="id-5d1c3a474d43465b8d7f2670ee17f26a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-f852361cf16f4c4e9d8594946ed0e480" source="id-0da09931f8ac4b368c786703913087bf" target="id-65345368655446139e74ae4b4fb1b8dc"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-f8e876423c3f4b82812bdbfe063f03a6" source="id-0da09931f8ac4b368c786703913087bf" target="id-25074a472a37451c87083003b618cb81"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-f984d0291dfc4c58baa3da36a5120285" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-b6735b8d80074ebeac5fe0e617f00bc0"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fa926f2434f84223b9ec6bcec996ca01" source="id-592dc350d1034ca280d27157e17ba09d" target="id-6857a45330d3428fa0562f7db033d6df"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fbb9e65e809b4468b966172cebe0e9d9" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-702d1979b3634a7fae6a537f95cd0ccb"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fc3ef2055ad84e778df06df93d930cd6" source="id-bdd9ffe19f724e0fb42094958c71ce8e" target="id-ce31bcdad11a4f879c58d0072d5dbbe9"/>
@@ -1737,6 +1749,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:CompositionRelationship" id="id-337636d7b7e14bd7b7d466b8bf3bb756" source="id-592dc350d1034ca280d27157e17ba09d" target="id-ca0d41ec8062445a803b463b7b88a4c9"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-3f45bc6690be492db4500636c474ae1b" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-521fc9d8b0c04730ac5ac93823baf06f"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-46aaa8fe568e47c89aad1d7a5cb66416" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-f0ef2161fd644111bde92c8cb5f70a51"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-4d59ab813be040479e8880ee5f846814" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-4a160e64388c4d53b0b4ec7340fdd42a"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-55730e73679d473c80450155b626d1ec" source="id-0da09931f8ac4b368c786703913087bf" target="id-eb3c144faabf42ada75c8f4f809d800e"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-5a82849499584fcca29a6042ec5a7e99" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-94ea9b7331b44c07a35be13a359ffc32"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-5cf204068b3d49e2a434ef69ce40f6ee" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-f5d4c4f8264842e7ab69504476a0cdd4"/>
@@ -1872,6 +1885,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
           <sourceConnection xsi:type="archimate:Connection" id="id-8487bb1d6b3f4a77a060e7aefd612be2" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-219bd10f72004e918b25adeae41868f4" archimateRelationship="id-c31b5eb067a4405985eb3cc2f4fefca9"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-878e4f7f4fef48c89be884d5768d476e" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-934081c36aed4e8095fe45304a4d6823" archimateRelationship="id-d38a77edbbc8495ea645cb59f330fdec"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-9e82479d29ca415286327e15a45adaaa" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-a60f9e0426e6458f85bba6a5a2bd2aed" archimateRelationship="id-d7ef86d5587f4b28baae081c0b86fab9"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-37b4532c40d24b1bad39ba048444372e" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-391915030ab0439aa4c55a656ca3b1b9" archimateRelationship="id-f984d0291dfc4c58baa3da36a5120285"/>
           <child xsi:type="archimate:DiagramObject" id="id-219bd10f72004e918b25adeae41868f4" targetConnections="id-8487bb1d6b3f4a77a060e7aefd612be2" fillColor="#ffffff" textPosition="1" archimateElement="id-c91ec57c463b49b8b41aabb971743a9e">
             <bounds x="12" y="156" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
@@ -1882,6 +1896,10 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a60f9e0426e6458f85bba6a5a2bd2aed" targetConnections="id-9e82479d29ca415286327e15a45adaaa" fillColor="#ffffff" textPosition="1" archimateElement="id-14c201edcfb34a50864c0c511971e767">
             <bounds x="12" y="96" width="301" height="49"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-391915030ab0439aa4c55a656ca3b1b9" targetConnections="id-37b4532c40d24b1bad39ba048444372e" fillColor="#ffffff" textPosition="1" archimateElement="id-b6735b8d80074ebeac5fe0e617f00bc0">
+            <bounds x="12" y="216" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
@@ -2729,6 +2747,8 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
           <sourceConnection xsi:type="archimate:Connection" id="id-31bcbe259a3441dbb00b9dd06ceeba5b" source="id-7cc086101f2b498ea39b12669eb21929" target="id-5b53102ed34f4e4789265be0636a4fc9" archimateRelationship="id-10741bfeda2e40ab98e4184688f5e8a1"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-cff27774bc64409ea79db2c1be6c6f84" source="id-7cc086101f2b498ea39b12669eb21929" target="id-747b56ab240f4233969159401f9cbcf4" archimateRelationship="id-6d8d8c7dc42e488a996a87909accd8ea"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-4d6cfa0d138346fdbf68c1c83ac0c146" source="id-7cc086101f2b498ea39b12669eb21929" target="id-9136d691f7f14beaba2c7156d81ea5e5" archimateRelationship="id-ec051ca610784bbfb84ddaa2529d477d"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-fba47a59804f4c5e8c78809b76d7e617" source="id-7cc086101f2b498ea39b12669eb21929" target="id-1453c5bc93ff4b669310f8ec8f0d7fd9" archimateRelationship="id-0fcc64688809413b8e2d805a71ca9fe4"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-cd6ac8e6342748a28da8940b50559811" source="id-7cc086101f2b498ea39b12669eb21929" target="id-1453c5bc93ff4b669310f8ec8f0d7fd9" archimateRelationship="id-4d59ab813be040479e8880ee5f846814"/>
           <child xsi:type="archimate:DiagramObject" id="id-5b53102ed34f4e4789265be0636a4fc9" targetConnections="id-31bcbe259a3441dbb00b9dd06ceeba5b" fillColor="#ffffff" textPosition="1" archimateElement="id-dd3a04e932584febb455690d934653c0">
             <bounds x="12" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
@@ -2739,25 +2759,30 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
             <sourceConnection xsi:type="archimate:Connection" id="id-2e1ca90240a84b2bab8fb8cfa9b4975b" source="id-9136d691f7f14beaba2c7156d81ea5e5" target="id-dc2f82e673e644c8b3a56a4adc245561" archimateRelationship="id-ad97a7c324a44c9ebd9764c4d252ea80"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-0c63bcd1af8d4f618712cfd3e7f53272" targetConnections="id-e16942582c1a46368b841a711742bf16" fillColor="#ffffff" textPosition="1" archimateElement="id-6572c141a9734d8ab64400552d10974a">
-            <bounds x="12" y="216" width="157" height="55"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-c0664b92e10343a589b79ab1d29cd43f" targetConnections="id-cbadf8c0891447939f6eaf531471d6ee" fillColor="#ffffff" textPosition="1" archimateElement="id-2a09dbc4bf6844f4adf8de42a628bd5a">
             <bounds x="12" y="276" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-9f3be324778a45808f41ee0b09bb7a6b" targetConnections="id-7bf3e3bc10754eb7af6fe50ad9b9499f" fillColor="#ffffff" textPosition="1" archimateElement="id-f0ef2161fd644111bde92c8cb5f70a51">
+          <child xsi:type="archimate:DiagramObject" id="id-c0664b92e10343a589b79ab1d29cd43f" targetConnections="id-cbadf8c0891447939f6eaf531471d6ee" fillColor="#ffffff" textPosition="1" archimateElement="id-2a09dbc4bf6844f4adf8de42a628bd5a">
             <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-d4782a2e51054c5192281207c4437803" targetConnections="id-34298fd9dd494f2ea31575436129699d" fillColor="#ffffff" textPosition="1" archimateElement="id-f42973772a34492b919745229e4a9735">
+          <child xsi:type="archimate:DiagramObject" id="id-9f3be324778a45808f41ee0b09bb7a6b" targetConnections="id-7bf3e3bc10754eb7af6fe50ad9b9499f" fillColor="#ffffff" textPosition="1" archimateElement="id-f0ef2161fd644111bde92c8cb5f70a51">
             <bounds x="12" y="396" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-d4782a2e51054c5192281207c4437803" targetConnections="id-34298fd9dd494f2ea31575436129699d" fillColor="#ffffff" textPosition="1" archimateElement="id-f42973772a34492b919745229e4a9735">
+            <bounds x="12" y="456" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-747b56ab240f4233969159401f9cbcf4" targetConnections="id-cff27774bc64409ea79db2c1be6c6f84" fillColor="#ffffff" textPosition="1" archimateElement="id-83efbf11e08643ea93f8b87ff9d6e520">
             <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-d9f7def36d3c43ce8b65c8218957c154" source="id-747b56ab240f4233969159401f9cbcf4" target="id-dc2f82e673e644c8b3a56a4adc245561" archimateRelationship="id-b802a4a77bc1410e9523be8ae6d4e2c4"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-1453c5bc93ff4b669310f8ec8f0d7fd9" targetConnections="id-fba47a59804f4c5e8c78809b76d7e617 id-cd6ac8e6342748a28da8940b50559811" fillColor="#ffffff" textPosition="1" archimateElement="id-4a160e64388c4d53b0b4ec7340fdd42a">
+            <bounds x="12" y="216" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-9005866bd2074462aff825ceb58944a6" source="id-1453c5bc93ff4b669310f8ec8f0d7fd9" target="id-dc2f82e673e644c8b3a56a4adc245561" archimateRelationship="id-35c8104fce14418ca87c3233a01cb244"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-7fcde18832b146d497e2fb53e491f41c" archimateElement="id-e8e0fadbd63b479d95144f268ac1d2af">
@@ -3010,7 +3035,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <child xsi:type="archimate:DiagramObject" id="id-10a8279578d14accaf1682af7ded55b5" targetConnections="id-3985a9373c9a4eb186071b393ee6b0e6" archimateElement="id-6656f6c85d4643d18bb5829dd0f8cef7">
           <bounds x="1200" y="924" width="120" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-dc2f82e673e644c8b3a56a4adc245561" targetConnections="id-2fc827c12bfa417daed4445f85fe34ba id-2e1ca90240a84b2bab8fb8cfa9b4975b id-1e2a5743985749da927083f08677a56e id-d9f7def36d3c43ce8b65c8218957c154" archimateElement="id-ce64114e055648af86127a0b29704e94">
+        <child xsi:type="archimate:DiagramObject" id="id-dc2f82e673e644c8b3a56a4adc245561" targetConnections="id-2fc827c12bfa417daed4445f85fe34ba id-2e1ca90240a84b2bab8fb8cfa9b4975b id-1e2a5743985749da927083f08677a56e id-d9f7def36d3c43ce8b65c8218957c154 id-9005866bd2074462aff825ceb58944a6" archimateElement="id-ce64114e055648af86127a0b29704e94">
           <bounds x="1350" y="924" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-db73a1245a66475d9d86cc47ac11ef3f" targetConnections="id-feac3f3439834fffb7a83c28a9ec58b5 id-ef6cd0075118497fad064f2f127c88ab id-4f6c56842ca24ec692e39cb12503e93d" archimateElement="id-d47e17732fb344d79996d472915371e0">
@@ -4160,6 +4185,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
           <sourceConnection xsi:type="archimate:Connection" id="id-92ebe08c2c1346ea9f239e1006c35eb0" source="id-a3981060ac69448bb4b222115e2ced77" target="id-ac923a63496e4d0eab0567a08e945a45" archimateRelationship="id-46aaa8fe568e47c89aad1d7a5cb66416"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-639e6e8780a64ba6b4aa2f132fed512d" source="id-a3981060ac69448bb4b222115e2ced77" target="id-b5bdc37ab61c44dcbad03ce72a85b22e" archimateRelationship="id-d36ddd935d6b4bdca2596a13fa94f9ee"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-88f1a2c25e1942e5a52c33aa005f46a2" source="id-a3981060ac69448bb4b222115e2ced77" target="id-09fc48f83a1f406993e89a7da3191919" archimateRelationship="id-6d8d8c7dc42e488a996a87909accd8ea"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-326c75b6bec3449c8877c385daedd5b1" source="id-a3981060ac69448bb4b222115e2ced77" target="id-24b54b54ead4430fa4d5e14e4214f9c6" archimateRelationship="id-0fcc64688809413b8e2d805a71ca9fe4"/>
           <child xsi:type="archimate:DiagramObject" id="id-d74891b20abb44f7b272f959b39eaaee" targetConnections="id-fe3c4b4725bb409aa2f020674318100b" fillColor="#ffffff" textPosition="1" archimateElement="id-dd3a04e932584febb455690d934653c0">
             <bounds x="12" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
@@ -4169,23 +4195,27 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-904e0790fd8e44b5a94a966a2d6976c9" targetConnections="id-8e3386c9d0d74627ba454468251efc3c" fillColor="#ffffff" textPosition="1" archimateElement="id-6572c141a9734d8ab64400552d10974a">
-            <bounds x="12" y="216" width="157" height="55"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-f866f9931ad9404fb21482dc83574c1e" targetConnections="id-7ea28d96b2be41448bedcf9043286ca4" fillColor="#ffffff" textPosition="1" archimateElement="id-2a09dbc4bf6844f4adf8de42a628bd5a">
             <bounds x="12" y="276" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-ac923a63496e4d0eab0567a08e945a45" targetConnections="id-92ebe08c2c1346ea9f239e1006c35eb0" fillColor="#ffffff" textPosition="1" archimateElement="id-f0ef2161fd644111bde92c8cb5f70a51">
+          <child xsi:type="archimate:DiagramObject" id="id-f866f9931ad9404fb21482dc83574c1e" targetConnections="id-7ea28d96b2be41448bedcf9043286ca4" fillColor="#ffffff" textPosition="1" archimateElement="id-2a09dbc4bf6844f4adf8de42a628bd5a">
             <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-b5bdc37ab61c44dcbad03ce72a85b22e" targetConnections="id-639e6e8780a64ba6b4aa2f132fed512d" fillColor="#ffffff" textPosition="1" archimateElement="id-f42973772a34492b919745229e4a9735">
+          <child xsi:type="archimate:DiagramObject" id="id-ac923a63496e4d0eab0567a08e945a45" targetConnections="id-92ebe08c2c1346ea9f239e1006c35eb0" fillColor="#ffffff" textPosition="1" archimateElement="id-f0ef2161fd644111bde92c8cb5f70a51">
             <bounds x="12" y="396" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-b5bdc37ab61c44dcbad03ce72a85b22e" targetConnections="id-639e6e8780a64ba6b4aa2f132fed512d" fillColor="#ffffff" textPosition="1" archimateElement="id-f42973772a34492b919745229e4a9735">
+            <bounds x="12" y="456" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-09fc48f83a1f406993e89a7da3191919" targetConnections="id-88f1a2c25e1942e5a52c33aa005f46a2" fillColor="#ffffff" textPosition="1" archimateElement="id-83efbf11e08643ea93f8b87ff9d6e520">
             <bounds x="12" y="96" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-24b54b54ead4430fa4d5e14e4214f9c6" targetConnections="id-326c75b6bec3449c8877c385daedd5b1" fillColor="#ffffff" textPosition="1" archimateElement="id-4a160e64388c4d53b0b4ec7340fdd42a">
+            <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
@@ -4417,6 +4447,8 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
           <sourceConnection xsi:type="archimate:Connection" id="id-527269b6d0994665a3a8d8e970708746" source="id-649cc49e9a1149b6990c1a76d336e244" target="id-5a221703c5ba4d73bd7fa9f41ad18614" archimateRelationship="id-46aaa8fe568e47c89aad1d7a5cb66416"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-1e0da169e74749e9b3f88e702c37658f" source="id-649cc49e9a1149b6990c1a76d336e244" target="id-607e9b21a8c044ca970dcbe42f124c5a" archimateRelationship="id-d36ddd935d6b4bdca2596a13fa94f9ee"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a3dfca95648349f3bd9605184c137138" source="id-649cc49e9a1149b6990c1a76d336e244" target="id-698696b6cbfc414c8fe19a69807e5d20" archimateRelationship="id-6d8d8c7dc42e488a996a87909accd8ea"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-012c23cfda0443bd835947208de5d804" source="id-649cc49e9a1149b6990c1a76d336e244" target="id-2ba7836a031e481caecf91875715bf01" archimateRelationship="id-0fcc64688809413b8e2d805a71ca9fe4"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-fb7d2c6ea84145d586c8a6ecbb433db3" source="id-649cc49e9a1149b6990c1a76d336e244" target="id-2ba7836a031e481caecf91875715bf01" archimateRelationship="id-4d59ab813be040479e8880ee5f846814"/>
           <child xsi:type="archimate:DiagramObject" id="id-816ee0fa49fd4c93821dbeda87e2086c" targetConnections="id-4099c321abf54dc5a06dc42080d52a6c" fillColor="#ffffff" textPosition="1" archimateElement="id-dd3a04e932584febb455690d934653c0">
             <bounds x="12" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
@@ -4426,23 +4458,27 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-ba3e4bed86be40dd89a818d6d8f82e4d" targetConnections="id-6be2b181e39f43e79020cee45f61da87" fillColor="#ffffff" textPosition="1" archimateElement="id-6572c141a9734d8ab64400552d10974a">
-            <bounds x="12" y="216" width="157" height="55"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-d4e8ec17c4f24bedbb55a9d5ac57e637" targetConnections="id-bcc748d6cd4647f8b9454afd5320ce37" fillColor="#ffffff" textPosition="1" archimateElement="id-2a09dbc4bf6844f4adf8de42a628bd5a">
             <bounds x="12" y="276" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-5a221703c5ba4d73bd7fa9f41ad18614" targetConnections="id-527269b6d0994665a3a8d8e970708746" fillColor="#ffffff" textPosition="1" archimateElement="id-f0ef2161fd644111bde92c8cb5f70a51">
+          <child xsi:type="archimate:DiagramObject" id="id-d4e8ec17c4f24bedbb55a9d5ac57e637" targetConnections="id-bcc748d6cd4647f8b9454afd5320ce37" fillColor="#ffffff" textPosition="1" archimateElement="id-2a09dbc4bf6844f4adf8de42a628bd5a">
             <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-607e9b21a8c044ca970dcbe42f124c5a" targetConnections="id-1e0da169e74749e9b3f88e702c37658f" fillColor="#ffffff" textPosition="1" archimateElement="id-f42973772a34492b919745229e4a9735">
+          <child xsi:type="archimate:DiagramObject" id="id-5a221703c5ba4d73bd7fa9f41ad18614" targetConnections="id-527269b6d0994665a3a8d8e970708746" fillColor="#ffffff" textPosition="1" archimateElement="id-f0ef2161fd644111bde92c8cb5f70a51">
             <bounds x="12" y="396" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-607e9b21a8c044ca970dcbe42f124c5a" targetConnections="id-1e0da169e74749e9b3f88e702c37658f" fillColor="#ffffff" textPosition="1" archimateElement="id-f42973772a34492b919745229e4a9735">
+            <bounds x="12" y="456" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-698696b6cbfc414c8fe19a69807e5d20" targetConnections="id-a3dfca95648349f3bd9605184c137138" fillColor="#ffffff" textPosition="1" archimateElement="id-83efbf11e08643ea93f8b87ff9d6e520">
             <bounds x="12" y="96" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-2ba7836a031e481caecf91875715bf01" targetConnections="id-012c23cfda0443bd835947208de5d804 id-fb7d2c6ea84145d586c8a6ecbb433db3" fillColor="#ffffff" textPosition="1" archimateElement="id-4a160e64388c4d53b0b4ec7340fdd42a">
+            <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
