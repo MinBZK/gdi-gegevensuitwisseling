@@ -11,6 +11,9 @@
       value="Gegevens en hun metagegevens zijn voorzien van wereldwijd unieke en stabiele identificaties (vindbaar)."/>
   <properties
       key="Implicaties"
+      value="Metagegevens zijn rijk en bevatten ook informatie over de context, kwaliteit en karakteristieken van gegevens (vindbaar)."/>
+  <properties
+      key="Implicaties"
       value="Gegevens kunnen worden benaderd via standaard, open en algemeen implementeerbare protocollen (toegankelijk)."/>
   <properties
       key="Implicaties"

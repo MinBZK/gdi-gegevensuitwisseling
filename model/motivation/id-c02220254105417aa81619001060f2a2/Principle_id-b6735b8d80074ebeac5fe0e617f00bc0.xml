@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Uitwisseling van persoonsgegevens wordt expliciet getoetst op privacy, ethische en sociale aspecten"
+    id="id-b6735b8d80074ebeac5fe0e617f00bc0"
+    documentation="Persoonsgegevens zijn inherent privacygevoelig en de uitwisseling ervan is alleen onder specifieke condities mogelijk. Anderzijds wordt privacy vaak onterecht als blokkade gezien voor de uitwisseling van gegevens. Soortgelijk geldt dat gegevensuitwisseling ook ethische vragen op kan roepen en onvoorziene impact kan hebben op mensen. Een expliciete toetsing op privacy, ethische en sociale aspecten door een onafhankelijke commissie maakt een betere afweging mogelijk en kan bindende uitspraken doen.">
+  <properties
+      key="Implicaties"
+      value="Voorafgaand aan het uitwisselen van gegevens vindt toetsing op privacy, ethische en sociale aspecten plaats door een onafhankelijke commissie."/>
+  <properties
+      key="Implicaties"
+      value="Landelijk, in de sector of binnen het domein kunnen afspraken worden gemaakt over het inrichten van organisatie-onafhankelijke commissies."/>
+  <properties
+      key="Implicaties"
+      value="Uitspraken van een toetscommissie worden bestuurlijk gedragen en zijn bindend."/>
+</archimate:Principle>
