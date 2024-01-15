@@ -8,7 +8,7 @@
       value="De afleidingsregels zoals gebruikt voor het samenstellen van het dataproduct zijn toegankelijk voor de afnemer."/>
   <properties
       key="Implicaties"
-      value="Liefst zijn ook de onderliggende gegevens toegankelijk die zijn gebruikt bij de afleiding."/>
+      value="Liefst zijn ook de specifieke onderliggende gegevens die zijn gebruikt bij de afleiding toegankelijk voor de afnemer."/>
   <properties
       key="Implicaties"
       value="Afleidingsregels zijn onder versiebeheer zodat ook historisch inzicht kan worden gegeven in hun werking."/>
