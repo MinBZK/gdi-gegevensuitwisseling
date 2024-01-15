@@ -177,8 +177,13 @@ $("element").each(function(e) {
 			properties = e.prop(propertiesList[i], true);
 			if (properties.constructor == Array) {
 				text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
+				var first = true;
 				properties.forEach(function(f) {
-					text += f+"<br>";
+					if (first)
+						first = false
+					else
+						text+="<br>";
+					text += f;
 				})
 				text += "</td></tr>";
 			}
