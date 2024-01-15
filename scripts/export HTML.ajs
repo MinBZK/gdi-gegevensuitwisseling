@@ -132,6 +132,8 @@ for (var i=0; i<elementTypes.length; i++) {
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
 	if (elementTypes[i] == "meaning")
 		textList[elementTypes[i]] = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Definitie</td></tr>";
+	else if (elementTypes[i] == "principle")
+		textList[elementTypes[i]] = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Rationale</td></tr>";
 	else
 		textList[elementTypes[i]] = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Omschrijving</td></tr>";		
 	fullTextList[elementTypes[i]] = getHeader(ucelementtypename);
@@ -165,6 +167,8 @@ $("element").each(function(e) {
     var text = "";
 	if (e.type == "meaning")
 		text += "<tr><td width=200>Definitie</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
+	else if (e.type == "principle")
+		text += "<tr><td width=200>Rationale</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
 	else
 		text += "<tr><td width=200>Omschrijving</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";	
 
