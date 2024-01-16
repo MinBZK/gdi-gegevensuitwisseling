@@ -637,7 +637,7 @@
         value="2"/>
     <features
         name="labelExpression"
-        value="Gegevens&#xD;&#xA;uitwisseling"/>
+        value="Bericht"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-a7a35c707bef4651b9f21fbf497f0f2c"

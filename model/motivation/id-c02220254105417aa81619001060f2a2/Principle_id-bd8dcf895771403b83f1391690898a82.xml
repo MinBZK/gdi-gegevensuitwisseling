@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gegevens worden contextrijk vastgelegd"
     id="id-bd8dcf895771403b83f1391690898a82"
-    documentation="Het is belangrijk om de context van gegevens te kennen om hun betekenis goed te begrijpen. Dat is in het algemeen het doel van metagegevens. Metagegevens worden echter vaak niet goed vastgelegd omdat gebruikers het nut ervan niet goed begrijpen of omdat het teveel inspanning kost om ze vast te leggen. Door context expliciet en geautomatiseerd vast te leggen in metagegevens wordt de afhankelijkheid van mensen voor het vastleggen van metagegecvens beperkt. Het belang van expliciet maken van context in metagegevens is groter naarmate de afstand tot het initiële gebruik groter wordt.">
+    documentation="Het is belangrijk om de context van gegevens te kennen om hun betekenis goed te begrijpen. Dat is in het algemeen het doel van metagegevens. Metagegevens worden echter vaak niet goed vastgelegd omdat gebruikers het nut ervan niet goed begrijpen of omdat het teveel inspanning kost om ze vast te leggen. Door context expliciet en geautomatiseerd vast te leggen in metagegevens wordt de afhankelijkheid van mensen voor het vastleggen van metagegevens beperkt. Het belang van expliciet maken van context in metagegevens is groter naarmate de afstand tot het initiële gebruik groter wordt.">
   <properties
       key="Implicaties"
       value="Er wordt per gebruikscontext expliciet nagedacht welke metagegevens kritisch zijn."/>
