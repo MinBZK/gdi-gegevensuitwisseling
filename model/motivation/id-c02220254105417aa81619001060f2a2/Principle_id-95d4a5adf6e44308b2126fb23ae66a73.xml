@@ -1,18 +1,18 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Het (near) real-time ophalen van gegevens vindt plaats via RESTful API’s"
+    name="Gegevens worden geleverd vanuit herbruikbare gegevensdiensten"
     id="id-95d4a5adf6e44308b2126fb23ae66a73"
-    documentation="RESTful API’s zijn inmiddels de breed geaccepteerde wijze voor het ontsluiten van gegevens. Ze maken het eenvoudig om gegevens (near) real-time te delen mechanisme om, gebaseerd op web-standaarden. RESTful API's bieden geen standaard mechanismen voor het gegarandeerd afleveren van gegevens en passen niet goed op een gebeurtenisgedreven architectuurstijl.">
+    documentation="Gegevensdiensten maken het eenvoudig om gegevens (near) real-time te delen. Door vanuit hergebruik naar de clustering van functionaliteit en gegevens te kijken wordt voorkomen dat specifieke afnemers eigen specifieke gegevens en gegevensdiensten vragen.">
   <properties
       key="Implicaties"
-      value="Aanbieders realiseren gegevensdiensten voor het (near) real-time ophalen van gegevens als RESTful API’s, tenzij hele specifieke eisen worden gesteld vanuit de context of het gebruik van deze gegevens."/>
+      value="Gegevensdiensten leveren een clustering van functionaliteit en gegevens die past bij de behoeften van een grote hoeveelheid afnemers."/>
   <properties
       key="Implicaties"
-      value="Alternatieve protocollen voor het ophalen van gegevens zoals GraphQL kunnen naast RESTful API’s worden aangeboden."/>
+      value="Gegevensdiensten worden kenbaar gemaakt in relevante catalogi zoals developer.overheid.nl, data.overheid.nl en/of het Nationaal Geo Register."/>
   <properties
       key="Implicaties"
-      value="API’s worden kenbaar gemaakt in relevante catalogi zoals developer.overheid.nl, data.overheid.nl en/of het Nationaal Geo Register."/>
+      value="Aanbieders van gegevensdiensten bieden testfaciliteiten zoals een testomgeving, testdata en/of testscripts waar afnemers gebruik van kunnen maken."/>
   <properties
       key="Implicaties"
-      value="API’s voldoen aan de Nederlandse API-strategie en de REST API Design Rules."/>
+      value="Gegevensdiensten die zijn gerealiseerd als RESTful API voldoen aan de Nederlandse API-strategie en de REST API Design Rules."/>
 </archimate:Principle>
