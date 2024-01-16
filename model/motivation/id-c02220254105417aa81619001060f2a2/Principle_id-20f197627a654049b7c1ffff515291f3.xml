@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="De kwaliteit van gegevens is beschreven conform het NORA raamwerk gegevenskwaliteit"
+    name="De kwaliteit van gegevens is beschreven conform het landelijke raamwerk gegevenskwaliteit"
     id="id-20f197627a654049b7c1ffff515291f3"
     documentation="Het is belangrijk dat gebruikers eenvoudig inzicht kunnen krijgen in de kwaliteit van gegevens, zodat zij begrijpen of deze aansluiten bij hun eigen gebruik. Door de naamgeving en inhoud van dimensies voor gegevenskwaliteit te standaardiseren, zijn deze beter begrijpelijk voor afnemers. Het NORA raamwerk gegevenskwaliteit is gebaseerd op wereldwijde ISO standaarden, breed afgestemd binnen de Nederlandse overheid en is ook de basis voor het Federatief Datastelsel.">
   <properties
