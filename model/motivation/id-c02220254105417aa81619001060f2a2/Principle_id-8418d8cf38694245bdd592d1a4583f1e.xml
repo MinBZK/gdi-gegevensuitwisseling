@@ -14,5 +14,8 @@
       value="Er wordt onderzocht of er binnen de context van specifieke sectoren of domeinen specifieke voorzieningen wenselijk zijn die gegevensuitwisseling kunnen vereenvoudigen."/>
   <properties
       key="Implicaties"
+      value="Afspraken, standaarden en voorzieningen worden alleen centraal georganiseerd als het moet, decentraal als het kan."/>
+  <properties
+      key="Implicaties"
       value="Er zijn binnen specifieke sectoren of domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
 </archimate:Principle>

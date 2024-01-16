@@ -1,0 +1,12 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="De aangewezen bron van de gegevens is leidend"
+    id="id-9ad7c4b354e34226a5d86d81f8adf280"
+    documentation="Gegevens worden onderhouden in een aangewezen bron. Dat is niet per definitie de registratie waar de gegevens ontstaan. Daarmee is de bron per definitie de plaats waar de waarheid is vastgelegd en die het meest actueel is.">
+  <properties
+      key="Implicaties"
+      value="Actuele gegevens worden altijd gevraagd aan de bron."/>
+  <properties
+      key="Implicaties"
+      value="Lokale kopieën van gegevens worden voorkomen, als er geen specifieke eisen zijn vanuit het gebruik die daarom vragen."/>
+</archimate:Principle>

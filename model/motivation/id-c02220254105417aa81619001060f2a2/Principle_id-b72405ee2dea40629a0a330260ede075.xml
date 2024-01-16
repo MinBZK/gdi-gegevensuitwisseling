@@ -1,21 +1,16 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Registraties kunnen notificeren over wijzigingen"
+    name="Aanbieders kunnen notificeren over belangrijke gebeurtenissen"
     id="id-b72405ee2dea40629a0a330260ede075"
-    documentation="Registraties zijn de formele bron voor de gegevens die ze beheren. Afnemers houden liefst zelf geen kopie van deze gegevens bij, maar zijn wel afhankelijk van wijzigingen die erin optreden omdat zij hier zelf op moeten acteren.">
+    documentation="Afnemers zijn voor hun dienstverlening afhankelijk van gebeurtenissen van anderen. Daarnaast geldt dat afnemers liefst zelf geen kopie van gegevens bijhouden, maar dan wel willen weten of bepaalde gegevens gewijzigd zijn, omdat deze bijvoorbeeld ook in hun eigen administratie zijn opgenomen.">
   <properties
       key="Implicaties"
-      value="Registraties kunnen notificaties verstrekken als gegevens wijzigen, op basis van door afnemers aangegeven criteria."/>
+      value="Aanbieders kunnen notificaties verstrekken als belangrijke gebeurtenissen plaatsvinden, zoals wanneer bepaalde gegevens wijzigen."/>
   <properties
       key="Implicaties"
-      value="Registraties kunnen ook notificaties verstrekken als historische gegevens wijzigen (iets dat liefst niet gebeurt, maar in uitzonderlijke gevallen toch kan optreden)"/>
+      value="Aanbieders kunnen ook notificaties verstrekken als historische gegevens wijzigen (iets dat liefst niet gebeurt, maar in uitzonderlijke gevallen toch kan optreden)"/>
   <properties
       key="Implicaties"
-      value="Registraties kunnen ook op basis van selectiecriteria eerder opgetreden wijzigen verstrekken."/>
-  <properties
-      key="Implicaties"
-      value="Registraties borgen de aflevering van notificaties bij afnemers."/>
-  <properties
-      key="Implicaties"
-      value="Notificaties zijn liefst gebaseerd op het NL GOV Profile voor CloudEvents en de bijbehorende richtlijnen."/>
+      value="Er zijn mechanismen die borgen dat de notificaties daadwerkelijk zijn ontvangen door afnemers."/>
+  <properties/>
 </archimate:Principle>

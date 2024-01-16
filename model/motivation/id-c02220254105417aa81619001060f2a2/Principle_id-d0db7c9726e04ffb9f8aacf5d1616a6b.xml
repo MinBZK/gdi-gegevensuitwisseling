@@ -11,5 +11,8 @@
       value="Bronhouders hebben processen ingericht om terugmeldingen op registraties te onderzoeken, te verwerken en over het resultaat van de verwerking terug te koppelen."/>
   <properties
       key="Implicaties"
+      value="De processen voor terugmelden zijn beschreven in gegevensleveringsovereenkomsten."/>
+  <properties
+      key="Implicaties"
       value="Melders ontvangen een terugkoppeling over de status en het resultaat van de melding."/>
 </archimate:Principle>

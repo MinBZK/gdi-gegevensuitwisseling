@@ -15,4 +15,7 @@
   <properties
       key="Implicaties"
       value="Bij gegevensuitwisselingen waarbij meerdere partijen betrokken zijn, wordt een standaard gegevensmodel opgesteld waaraan alle partijen conformeren."/>
+  <properties
+      key="Implicaties"
+      value="Nederlandse standaarden zijn geïnternationaliseerd en worden actief ingebracht in internationale standaardisatieorganisaties zoals ISO, W3C, OGC, OASIS, IETF."/>
 </archimate:Principle>

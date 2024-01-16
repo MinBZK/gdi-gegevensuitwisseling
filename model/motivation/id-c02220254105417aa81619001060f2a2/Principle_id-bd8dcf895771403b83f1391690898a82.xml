@@ -1,15 +1,18 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="De vastlegging van metagegevens is een integraal onderdeel van bedrijfsprocessen"
+    name="Gegevens worden contextrijk vastgelegd"
     id="id-bd8dcf895771403b83f1391690898a82"
-    documentation="Metagegevens worden vaak niet goed vastgelegd omdat gebruikers het nut ervan niet goed begrijpen of omdat het teveel inspanning kost om ze vast te leggen. Als het vastleggen van metagegevens een integraal onderdeel is van het werk en ze zoveel mogelijk geautomatiseerd worden afgeleid dan is de kans het grootst dat ze toch worden vastgelegd.">
+    documentation="Het is belangrijk om de context van gegevens te kennen om hun betekenis goed te begrijpen. Dat is in het algemeen het doel van metagegevens. Metagegevens worden echter vaak niet goed vastgelegd omdat gebruikers het nut ervan niet goed begrijpen of omdat het teveel inspanning kost om ze vast te leggen. Door context expliciet en geautomatiseerd vast te leggen in metagegevens wordt de afhankelijkheid van mensen voor het vastleggen van metagegecvens beperkt. Het belang van expliciet maken van context in metagegevens is groter naarmate de afstand tot het initiële gebruik groter wordt.">
   <properties
       key="Implicaties"
       value="Er wordt per gebruikscontext expliciet nagedacht welke metagegevens kritisch zijn."/>
   <properties
       key="Implicaties"
-      value="Metagegevens worden zoveel mogelijk geautomatiseerd afgeleid uit de context."/>
+      value="Metagegevens worden zoveel mogelijk gedurende een bedrijfsproces geautomatiseerd afgeleid uit de context en opgeslagen bij gegevens."/>
   <properties
       key="Implicaties"
       value="Het vastleggen van metagegevens is geïntegreerd in de reguliere applicaties waar gebruikers mee werken."/>
+  <properties
+      key="Implicaties"
+      value="Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals trefwoorden, classificaties en omschrijvingen."/>
 </archimate:Principle>
