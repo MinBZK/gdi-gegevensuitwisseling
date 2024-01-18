@@ -15,4 +15,7 @@
   <properties
       key="Implicaties"
       value="Wet- en regelgeving wordt afgestemd op bestaande begrippen."/>
+  <properties
+      key="Implicaties"
+      value="Ontwerpen van gegevens, processen en applicaties verwijzen naar de begrippen en borgen hun betekenis."/>
 </archimate:Principle>
