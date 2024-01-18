@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Gemeenschappelijkheid van begrippen is de basis"
+    name="Gemeenschappelijke begripsvorming is het startpunt"
     id="id-108681ef00724a4ba689f412dd9ba257"
     documentation="Taal is een belangrijke basis voor het creëren van wederzijds begrip. Het is tevens een essentiële basis voor gegevens, die een concrete invulling geven aan taal. Als we dus niet dezelfde begrippen hanteren, dan zullen de gegevens ook niet uitwisselbaar zijn. Afstemming over begrippen zou zo vroeg mogelijk moeten starten, nog voordat wet- en regelgeving wordt opgesteld. Dat wat in de wet- en regelgeving is opgenomen is nu eenmaal de formele basis voor gegevens en informatievoorziening en kan niet meer van afgeweken worden.">
   <properties
@@ -15,10 +15,4 @@
   <properties
       key="Implicaties"
       value="Wet- en regelgeving wordt afgestemd op bestaande begrippen."/>
-  <properties
-      key="Implicaties"
-      value="Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals trefwoorden, classificaties en omschrijvingen."/>
-  <properties
-      key="Implicaties"
-      value="Modellen van processen, regels en gegevens hanteren de taal en betekenis zoals gedefinieerd bij de begrippen en verwijzen daar ook naar."/>
 </archimate:Principle>
