@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="De aangewezen bron van de gegevens is leidend"
     id="id-9ad7c4b354e34226a5d86d81f8adf280"
-    documentation="Gegevens worden onderhouden in een aangewezen bron. Dat is niet per definitie de registratie waar de gegevens ontstaan. Het kan bijvoorbeeld ook de plaats zijn waar deze beschikbaar wordt gesteld. Daarmee is de bron per definitie de plaats waar de waarheid is vastgelegd en die het meest actueel is.">
+    documentation="Gegevens worden onderhouden in een aangewezen bron. Dat is niet per definitie de registratie waar de gegevens ontstaan. Het kan bijvoorbeeld ook de plaats zijn waar ze beschikbaar worden gesteld. Daarmee is de bron per definitie de plaats waar de waarheid is vastgelegd en die het meest actueel is.">
   <properties
       key="Implicaties"
       value="Er zijn bronnen aangewezen voor bepaalde soorten gegevens."/>

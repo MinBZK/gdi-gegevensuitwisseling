@@ -5,10 +5,10 @@
     documentation="Het is belangrijk dat burgers en organisaties zelf een verantwoordelijkheid hebben in het bepalen van de gegevens die over of van henzelf worden uitgewisseld, voor welk doel en dat ze inzicht hebben in welke uitwisselingen hebben plaatsgevonden. Dit is ook een kerngedachte achter de Europese dataspaces. Alle partijen hebben er uiteindelijk belang dat gegevens rechtmatig worden uitgewisseld en dat ze correct en actueel zijn. Organisaties willen hun economische en intellectuele eigendommen beschermen. Voor burgers zijn rechten voor de uitwisseling van persoonsgegevens voor een deel al geborgd in bijvoorbeeld de AVG. Vanuit de AVG is ook belangrijk dat burgers expliciet toestemming geven voor gebruik van hun gegevens als hiervoor geen wettelijke grondslag is. Dit staat los van dat ze zichzelf ook kunnen laten vertegenwoordigen middels een machtiging. In de nieuwe eIDAS-verordening worden aan burgers en organisaties verdergaande rechten gegeven, waarbij ze de mogelijkheid krijgen om zelf gegevens via eigen wallets te verstrekken aan partijen. ">
   <properties
       key="Implicaties"
-      value="Aanbieders maken expliciet welke uitwisselafspraken zoals gebruiksbeperkingen -rechten en -plichten van toepassing zijn op de gegevens die ze aanbieden."/>
+      value="Aanbieders maken expliciet welke gebruiksbeperkingen -rechten en -plichten van toepassing zijn op specifieke gegevens die ze aanbieden."/>
   <properties
       key="Implicaties"
-      value="Er is een proces dat controleert of afnemers van gegevens voldoen aan de aan de uitwisselafspraken zoals beschreven door de aanbieder."/>
+      value="Afnemers gaan expliciet akkoord met de gebruiksbeperkingen -rechten en -plichten voorafgaand aan de uitwisseling van gegevens."/>
   <properties
       key="Implicaties"
       value="Uitwisselingen van gegevens worden expliciet getoetst aan wettelijke grondslagen."/>
@@ -20,7 +20,7 @@
       value="De toestemming voor het uitwisselen van gegevens kan eenvoudig door burgers worden ingetrokken."/>
   <properties
       key="Implicaties"
-      value="Aanbieders bieden burgers en organisaties de mogelijkheid om hun gegevens te downloaden en te voorzien van een waarmerk, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
+      value="Aanbieders bieden burgers en organisaties de mogelijkheid om hun gegevens te downloaden inclusief een verifieerbare verklaring, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
   <properties
       key="Implicaties"
       value="Burgers kunnen hun gegevens inzien en hebben inzicht in wanneer, met wie en waarom hun gegevens zijn uitgewisseld."/>
