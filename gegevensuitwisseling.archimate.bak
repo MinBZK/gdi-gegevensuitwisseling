@@ -224,10 +224,10 @@
         <documentation>De typering van een groep objecten die binnen een domein relevant zijn en als gelijksoortig worden beschouwd. (bron: Metamodel Informatie Modellering 1.2)</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Gegevensdienst" id="id-9aab67d0e4a045fda585d6550fd23f32">
-        <documentation>Een verzameling bewerkingen die toegankelijk zijn via een interface (API) en die toegang bieden tot een of meer datasets of gegevensverwerkingsfuncties. (bron: DCAT 2.0)</documentation>
+        <documentation>Een verzameling operaties die toegang bieden tot een of meer datasets of gegevensverwerkingsfuncties. (bron: DCAT 2.0)</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Operatie" id="id-acfdb86ed00441229bc99318d30fc9fc">
-        <documentation>Een verzameling bewerkingen die toegankelijk zijn via een interface (API) en die toegang bieden tot een of meer datasets of gegevensverwerkingsfuncties. (bron: DCAT 2.0)</documentation>
+        <documentation>Een geautomatiseerde functie die gegevens verwerkt.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Data-element" id="id-b8382723adde49209c8e6ba8d3130fd5">
         <documentation>Eenheid van gegevens die in een bepaalde context als ondeelbaar wordt beschouwd. (bron: ISO/IEC 11179-30:2023)</documentation>
@@ -235,8 +235,8 @@
       <element xsi:type="archimate:BusinessObject" name="Gebeurtenistype" id="id-c713b425f91c46ef860b8d0ade09b36c">
         <documentation>De typering van een groep gebeurtenissen die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessObject" name="Gegevensuitwisseling" id="id-cb139fa1a3624b03aae2faaca18fd761">
-        <documentation>De daadwerkelijke uitwisseling van gegevens op een specifiek moment in tijd.</documentation>
+      <element xsi:type="archimate:BusinessObject" name="Bericht" id="id-cb139fa1a3624b03aae2faaca18fd761">
+        <documentation>Een verzameling gegevens die als geheel wordt verzonden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Gegevenskwaliteit" id="id-d663973596d447ae98a48793fe341f34">
         <documentation>Een verzameling gegevens die is gepubliceerd of samengesteld door één enkele partij. (bron: DCAT 2.0)</documentation>
@@ -1196,7 +1196,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <property key="Implicaties" value="Uitwisselingen van gegevens worden expliciet getoetst aan wettelijke grondslagen."/>
         <property key="Implicaties" value="Als er geen wettelijke basis is voor het uitwisselen van persoonsgegevens, dan wordt aan burgers gevraagd of ze deze zelf willen leveren of dat ze toestemming geven om ze te halen bij andere organisaties."/>
         <property key="Implicaties" value="De toestemming voor het uitwisselen van gegevens kan eenvoudig door burgers worden ingetrokken."/>
-        <property key="Implicaties" value="Aanbieders bieden burgers de mogelijkheid om hun gegevens te downloaden en te voorzien van een waarmerk, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
+        <property key="Implicaties" value="Aanbieders bieden burgers en organisaties de mogelijkheid om hun gegevens te downloaden en te voorzien van een waarmerk, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
         <property key="Implicaties" value="Burgers kunnen hun gegevens inzien en hebben inzicht in wanneer, met wie en waarom hun gegevens zijn uitgewisseld."/>
       </element>
       <element xsi:type="archimate:Principle" name="Metagegevens zijn begrijpelijk voor mensen" id="id-1786a7952d0e4aa9882e7416ba13c3d7">
@@ -1204,7 +1204,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <property key="Implicaties" value="Metagegevens op alle niveaus zijn voorzien van een definitie of omschrijving en als dat niet voldoende is, ook van een aanvullende toelichting en/of voorbeelden."/>
         <property key="Implicaties" value="Metagegevens zijn niet alleen beschikbaar in machineleesbare vorm, maar zijn voorzien van begrijpelijke documentatie."/>
       </element>
-      <element xsi:type="archimate:Principle" name="De kwaliteit van gegevens is beschreven conform het NORA raamwerk gegevenskwaliteit" id="id-20f197627a654049b7c1ffff515291f3">
+      <element xsi:type="archimate:Principle" name="De kwaliteit van gegevens is beschreven conform het landelijke raamwerk gegevenskwaliteit" id="id-20f197627a654049b7c1ffff515291f3">
         <documentation>Het is belangrijk dat gebruikers eenvoudig inzicht kunnen krijgen in de kwaliteit van gegevens, zodat zij begrijpen of deze aansluiten bij hun eigen gebruik. Door de naamgeving en inhoud van dimensies voor gegevenskwaliteit te standaardiseren, zijn deze beter begrijpelijk voor afnemers. Het NORA raamwerk gegevenskwaliteit is gebaseerd op wereldwijde ISO standaarden, breed afgestemd binnen de Nederlandse overheid en is ook de basis voor het Federatief Datastelsel.</documentation>
         <property key="Implicaties" value="In de metagegevens van datasets zijn beschrijvingen van de normen en gerealiseerde kwaliteit beschreven conform de structuur van het NORA raamwerk gegevenskwaliteit."/>
         <property key="Implicaties" value="Er is liefst ook een machineleesbare versie van de kwaliteit van de gegevens beschikbaar conform de DQV standaard."/>
@@ -1223,7 +1223,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <property key="Implicaties" value="Liefst worden validatiediensten ook los aangeboden zodat afnemers ook zelf kunnen controleren of gegevens voldoen, zonder ze direct ter verwerking aan te bieden."/>
       </element>
       <element xsi:type="archimate:Principle" name="Informatieproducten zijn herleidbaar naar de onderliggende gegevens en regels" id="id-6105d026a74846a09e27cae12adde94b">
-        <documentation>Het is belangrijk dat afnemers van informatieproducten kunnen begrijpen waar de gegevens die zij afnemen op zijn gebaseerd. Hierdoor kunnen ze bepalen hoe de resultaten tot stand zijn gekomen, of het resultaat aansluit bij hun informatiebehoefte en of de onderliggende gegevens voldoende betrouwbaar zijn. Het geeft ze vertrouwen in de mate waarin het dataproduct aansluit bij hun eigen gebruik. De kwaliteit van de onderliggende gegevens bepalen namelijk vooral de kwaliteit van het informatieproduct dat erop is gebaseerd. </documentation>
+        <documentation>Het is belangrijk dat afnemers van informatieproducten kunnen begrijpen waar de gegevens die zij afnemen op zijn gebaseerd. Hierdoor kunnen ze bepalen hoe de resultaten tot stand zijn gekomen, of het resultaat aansluit bij hun informatiebehoefte en of de onderliggende gegevens voldoende betrouwbaar zijn. Het geeft ze vertrouwen in de mate waarin het informatieproduct aansluit bij hun eigen gebruik. De kwaliteit van de onderliggende gegevens bepalen namelijk vooral de kwaliteit van het informatieproduct dat erop is gebaseerd. </documentation>
         <property key="Implicaties" value="De afleidingsregels zoals gebruikt voor het samenstellen van het informatieproduct zijn toegankelijk voor de afnemer."/>
         <property key="Implicaties" value="Liefst zijn ook de specifieke onderliggende gegevens die zijn gebruikt bij de afleiding toegankelijk voor de afnemer."/>
         <property key="Implicaties" value="Afleidingsregels zijn onder versiebeheer zodat ook historisch inzicht kan worden gegeven in hun werking."/>
@@ -1250,6 +1250,13 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <property key="Implicaties" value="Gegevensdiensten worden kenbaar gemaakt in relevante catalogi zoals developer.overheid.nl, data.overheid.nl en/of het Nationaal Geo Register."/>
         <property key="Implicaties" value="Aanbieders van gegevensdiensten bieden testfaciliteiten zoals een testomgeving, testdata en/of testscripts waar afnemers gebruik van kunnen maken."/>
         <property key="Implicaties" value="Gegevensdiensten die zijn gerealiseerd als RESTful API voldoen aan de Nederlandse API-strategie en de REST API Design Rules."/>
+      </element>
+      <element xsi:type="archimate:Principle" name="De aangewezen bron van de gegevens is leidend" id="id-9ad7c4b354e34226a5d86d81f8adf280">
+        <documentation>Gegevens worden onderhouden in een aangewezen bron. Dat is niet per definitie de registratie waar de gegevens ontstaan. Het kan bijvoorbeeld ook de plaats zijn waar deze beschikbaar wordt gesteld. Daarmee is de bron per definitie de plaats waar de waarheid is vastgelegd en die het meest actueel is.</documentation>
+        <property key="Implicaties" value="Er zijn bronnen aangewezen voor bepaalde soorten gegevens."/>
+        <property key="Implicaties" value="Als actuele gegevens nodig zijn dan worden deze gehaald bij de bron."/>
+        <property key="Implicaties" value="Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>
+        <property key="Implicaties" value="Er wordt geen lokale kopie van gegevens gemaakt, als er geen specifieke eisen zijn die daarom vragen."/>
       </element>
       <element xsi:type="archimate:Principle" name="Persoonsgegevens zijn beschermd bij het uitwisselen van gegevens" id="id-a1d7faf077c6431d81a6acd66ffc5b29">
         <documentation>Het is belangrijk om te voldoen aan eisen rondom privacy en informatiebeveiliging bij het uitwisselen van gegevens. Daarbij vragen met name persoonsgegevens aandacht. Privacy is wettelijk geborgd in de Algemene Verordening Gegevenbescherming. Overheidsorganisaties dienen daarnaast hun informatiebeveiliging op orde te hebben. </documentation>
@@ -1279,10 +1286,9 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <property key="Implicaties" value="Aanbieders kunnen notificaties verstrekken als belangrijke gebeurtenissen plaatsvinden, zoals wanneer bepaalde gegevens wijzigen."/>
         <property key="Implicaties" value="Aanbieders kunnen ook notificaties verstrekken als historische gegevens wijzigen (iets dat liefst niet gebeurt, maar in uitzonderlijke gevallen toch kan optreden)"/>
         <property key="Implicaties" value="Er zijn mechanismen die borgen dat de notificaties daadwerkelijk zijn ontvangen door afnemers."/>
-        <property/>
       </element>
       <element xsi:type="archimate:Principle" name="Gegevens worden contextrijk vastgelegd" id="id-bd8dcf895771403b83f1391690898a82">
-        <documentation>Het is belangrijk om de context van gegevens te kennen om hun betekenis goed te begrijpen. Dat is in het algemeen het doel van metagegevens. Metagegevens worden echter vaak niet goed vastgelegd omdat gebruikers het nut ervan niet goed begrijpen of omdat het teveel inspanning kost om ze vast te leggen. Door context expliciet en geautomatiseerd vast te leggen in metagegevens wordt de afhankelijkheid van mensen voor het vastleggen van metagegecvens beperkt. Het belang van expliciet maken van context in metagegevens is groter naarmate de afstand tot het initiële gebruik groter wordt.</documentation>
+        <documentation>Het is belangrijk om de context van gegevens te kennen om hun betekenis goed te begrijpen. Dat is in het algemeen het doel van metagegevens. Metagegevens worden echter vaak niet goed vastgelegd omdat gebruikers het nut ervan niet goed begrijpen of omdat het teveel inspanning kost om ze vast te leggen. Door context expliciet en geautomatiseerd vast te leggen in metagegevens wordt de afhankelijkheid van mensen voor het vastleggen van metagegevens beperkt. Het belang van expliciet maken van context in metagegevens is groter naarmate de afstand tot het initiële gebruik groter wordt.</documentation>
         <property key="Implicaties" value="Er wordt per gebruikscontext expliciet nagedacht welke metagegevens kritisch zijn."/>
         <property key="Implicaties" value="Metagegevens worden zoveel mogelijk gedurende een bedrijfsproces geautomatiseerd afgeleid uit de context en opgeslagen bij gegevens."/>
         <property key="Implicaties" value="Het vastleggen van metagegevens is geïntegreerd in de reguliere applicaties waar gebruikers mee werken."/>
@@ -1318,21 +1324,13 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <property key="Implicaties" value="Data-elementen in schema’s (zoals JSON schema’s en XML schema’s) verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren."/>
         <property key="Implicaties" value="Er is bij de documentatie van diensten of operaties in datadiensten beschreven welke beperkingsregels en afleidingsregels worden toegepast."/>
       </element>
-      <element xsi:type="archimate:Principle" name="De kwaliteit van gegevens en gegevensdiensten is afgestemd op het gebruik" id="id-ff18baf9106743c8a7e736233cc94522">
-        <documentation>Het is belangrijk dat gebruikers beschikken over gegevens en gegevensdiensten die optimaal aansluiten bij hun eigen behoeften en gebruik. Daarbij is de kunst om een balans te vinden tussen kwaliteit en kosten. Een hele hoge kwaliteit leidt al snel tot onacceptabele kosten. De vraag is dus vooral wat nodig is in een specifieke context. Is het acceptabel dat gegevens een dag oud zijn? Is het acceptabel dat het ophalen of analyseren van gegevens meer dan een paar seconden duurt of soms een paar uur niet beschikbaar is? Door het kopiëren van gegevens krijg je met een hogere zekerheid een sneller antwoord, maar gaat de actualiteit van de gegevens omlaag en stijgen vaak de kosten. Dit vraagt dus vooral bewuste afwegingen.</documentation>
-        <property key="Implicaties" value="De eisen die gebruikers stelllen aan de kwaliteit van gegevens en gegevensdiensten worden expliciet gemaakt in elke gebruikscontext."/>
-        <property key="Implicaties" value="De huidige kwaliteit van gegevens en gegevensdiensten worden expliciet gemeten en inzichtelijk gemaakt in de metagegevens, op een voor afnemers begrijpelijke wijze."/>
-        <property key="Implicaties" value="Aanbieders van gegevens en/of gegevensdiensten bieden één of meer serviceniveaus, passend bij de verschillende gebruiksbehoeften."/>
+      <element xsi:type="archimate:Principle" name="De kwaliteit van gegevens is afgestemd op het gebruik" id="id-ff18baf9106743c8a7e736233cc94522">
+        <documentation>Het is belangrijk dat gebruikers beschikken over gegevens die optimaal aansluiten bij hun eigen behoeften en gebruik. Daarbij is de kunst om een balans te vinden tussen kwaliteit en kosten. Een hele hoge kwaliteit leidt al snel tot onacceptabele kosten. De vraag is dus vooral wat nodig is in een specifieke context. Dit vraagt dus vooral bewuste afwegingen.</documentation>
+        <property key="Implicaties" value="De eisen die gebruikers stelllen aan de kwaliteit van gegevens worden expliciet gemaakt in elke gebruikscontext."/>
+        <property key="Implicaties" value="De huidige kwaliteit van gegevens wordt expliciet gemeten en inzichtelijk gemaakt in de metagegevens, op een voor afnemers begrijpelijke wijze."/>
         <property key="Implicaties" value="Als er een verschil is tussen de eisen die worden gesteld vanuit gebruik en de huidige kwaliteit dan vindt hierover afstemming tussen aanbieder en afnemer plaats en wordt een afweging tussen kosten en baten gemaakt."/>
-        <property key="Implicaties" value="Als het raadplegen van gegevens direct bij de bron past bij de eisen vanuit gebruik, dan wordt er geen kopie gemaakt van gegevens."/>
-        <property key="Implicaties" value="Als een kopie toch nodig blijkt dan wordt deze bij voorkeur centraal ingericht met hoge serviceniveaus, zodat decentrale kopieën worden vermeden en kosten worden geminimaliseerd."/>
       </element>
     </folder>
-    <element xsi:type="archimate:Principle" name="De aangewezen bron van de gegevens is leidend" id="id-9ad7c4b354e34226a5d86d81f8adf280">
-      <documentation>Gegevens worden onderhouden in een aangewezen bron. Dat is niet per definitie de registratie waar de gegevens ontstaan. Daarmee is de bron per definitie de plaats waar de waarheid is vastgelegd en die het meest actueel is.</documentation>
-      <property key="Implicaties" value="Actuele gegevens worden altijd gevraagd aan de bron."/>
-      <property key="Implicaties" value="Lokale kopieën van gegevens worden voorkomen, als er geen specifieke eisen zijn vanuit het gebruik die daarom vragen."/>
-    </element>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-3360bd06596c4b65a2105251976b6377" type="implementation_migration">
     <folder name="Veranderinitiatieven" id="id-4c29ccf3c5f946bf97f0dfb709aa3301">
@@ -1487,6 +1485,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:AssociationRelationship" id="id-20eb7ac394fc473b9418b8fa054ef1bd" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-0f85cbb16d5b48acbbe3cf7236dbdc2b"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-21e04e6f560e497ea2447598fe94ac6b" source="id-0da09931f8ac4b368c786703913087bf" target="id-81ca2fbd0c984219b80e7596a9f16326"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-21f552ebef74437cbd3b7e8c283fa88e" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-d8486619cfed479eaa0f996e5af89ecf"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-22c15254afc74215bdf1aa318ffd9082" source="id-0da09931f8ac4b368c786703913087bf" target="id-9ad7c4b354e34226a5d86d81f8adf280"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-22faeb9296b34cb0a0d062c657e1bbed" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-702d1979b3634a7fae6a537f95cd0ccb"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-23549623c4be4c05a5da47afbc3de841" source="id-592dc350d1034ca280d27157e17ba09d" target="id-978c37663b714e0fbdc9ec088db243d4"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-24cb72c3dfac46ef965929571edfdfe2" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-8f06012b2a2f45ca97351be679da5987"/>
@@ -1843,7 +1842,6 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:TriggeringRelationship" name="use data apps" id="id-e6680a8bbe9243e59a33d93532173580" source="id-107745b889f14a93b64f1cec4e877ee4" target="id-9b2a2a90cc4e404b9e5ff718817c5fd7"/>
     <element xsi:type="archimate:TriggeringRelationship" name="log transaction" id="id-eea8d5cf411645e9827e7189981ae385" source="id-9b2a2a90cc4e404b9e5ff718817c5fd7" target="id-3cd14b45c4bf4e779922f45da25bfc69"/>
     <element xsi:type="archimate:TriggeringRelationship" name="transfer data" id="id-eeed050885c946c1ae4bfa597e84eca4" source="id-cfe25a7f054e4b6896e8969e0dc11dab" target="id-820604bbb32545759d3ffb0a63190a97"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-22c15254afc74215bdf1aa318ffd9082" source="id-0da09931f8ac4b368c786703913087bf" target="id-9ad7c4b354e34226a5d86d81f8adf280"/>
   </folder>
   <folder name="Views" id="id-a006a61a59a4410aa97243727cded72a" type="diagrams">
     <folder name="Gewenste situatie" id="id-1b70ddc9a2c04d01bd21b94782dbece6">
@@ -4110,7 +4108,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <child xsi:type="archimate:DiagramObject" id="id-4b45c03bb7ec4406a6f5b3333704e2a2" targetConnections="id-a56ee5bb1bec447ab140657876243866" fillColor="#ffffff" textPosition="1" archimateElement="id-cb139fa1a3624b03aae2faaca18fd761">
           <bounds x="696" y="588" width="120" height="55"/>
           <feature name="iconVisible" value="2"/>
-          <feature name="labelExpression" value="Gegevens&#xD;&#xA;uitwisseling"/>
+          <feature name="labelExpression" value="Bericht"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a7a35c707bef4651b9f21fbf497f0f2c" source="id-4b45c03bb7ec4406a6f5b3333704e2a2" target="id-960162f1c7234d798642c2ad574d5819" archimateRelationship="id-782039ed493f4359b9526024620931cf"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-e3429ffc712b459f845a118656434993" targetConnections="id-b86ab142f1d04ab0bf0cc384f7c59b27" fillColor="#ffffff" textPosition="1" archimateElement="id-5d14a03bdd4f4f93b68149da9192663e">
