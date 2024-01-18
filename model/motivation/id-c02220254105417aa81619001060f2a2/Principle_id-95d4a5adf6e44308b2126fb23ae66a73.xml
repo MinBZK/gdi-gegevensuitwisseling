@@ -11,8 +11,11 @@
       value="Gegevensdiensten worden kenbaar gemaakt in relevante catalogi zoals developer.overheid.nl, data.overheid.nl en/of het Nationaal Geo Register."/>
   <properties
       key="Implicaties"
-      value="Aanbieders van gegevensdiensten bieden testfaciliteiten zoals een testomgeving, testdata en/of testscripts waar afnemers gebruik van kunnen maken."/>
+      value="Aanbieders van gegevensdiensten voor afnemers relevante testfaciliteiten zoals een testomgeving, testdata en/of testscripts, met name als de gegevensdienst meer behelst dan het ontsluiten van open data."/>
   <properties
       key="Implicaties"
       value="Gegevensdiensten die zijn gerealiseerd als RESTful API voldoen aan de Nederlandse API-strategie en de REST API Design Rules."/>
+  <properties
+      key="Implicaties"
+      value="Er zijn beschrijvingen van de serviceniveaus die gelden voor de gegevensdienst beschikbaar en deze serviceniveaus worden gemonitord door de aanbieder."/>
 </archimate:Principle>
