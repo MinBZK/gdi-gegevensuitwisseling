@@ -11,11 +11,11 @@
       value="Begrippen worden gedeeld zodat deze vindbaar en toegankelijk zijn voor anderen."/>
   <properties
       key="Implicaties"
-      value="Begrippen worden geharmoniseerd en gestandaardiseerd waar mogelijk, zodat ze alleen van elkaar verschillen als er andere betekenissen bij horen."/>
+      value="Begrippen worden geharmoniseerd en gestandaardiseerd waar mogelijk, zodat ze alleen van elkaar verschillen als er inherent andere betekenissen bij horen."/>
   <properties
       key="Implicaties"
       value="Wet- en regelgeving wordt afgestemd op bestaande begrippen."/>
   <properties
       key="Implicaties"
-      value="Ontwerpen van gegevens, processen en applicaties verwijzen naar de begrippen en borgen hun betekenis."/>
+      value="In alle relevante documentatie, ontwerp en modellen in het domein wordt verwezen naar de begrippen, zodat ze beter vindbaar zijn en &quot;by design&quot; met elkaar samenhangen."/>
 </archimate:Principle>
