@@ -8,7 +8,10 @@
       value="Er zijn bronnen aangewezen voor bepaalde soorten gegevens."/>
   <properties
       key="Implicaties"
-      value="Als actuele gegevens nodig zijn dan worden deze gehaald bij de bron."/>
+      value="Gegevens van een bepaalde soort worden opgehaald bij de aangewezen bron."/>
+  <properties
+      key="Implicaties"
+      value="Als actuele gegevens nodig zijn dan worden deze direct bij de bron geraadpleegd en niet bij een kopie ervan."/>
   <properties
       key="Implicaties"
       value="Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>
