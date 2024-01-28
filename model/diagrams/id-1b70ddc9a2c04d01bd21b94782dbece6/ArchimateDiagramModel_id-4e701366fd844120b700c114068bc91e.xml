@@ -38,7 +38,7 @@
     </sourceConnections>
     <bounds
         x="684"
-        y="204"
+        y="132"
         width="325"
         height="397"/>
     <children
@@ -168,7 +168,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="204"
+        y="132"
         width="325"
         height="397"/>
     <children
@@ -273,7 +273,7 @@
     </sourceConnections>
     <bounds
         x="348"
-        y="204"
+        y="132"
         width="325"
         height="397"/>
     <children
@@ -412,7 +412,7 @@
     </sourceConnections>
     <bounds
         x="1020"
-        y="204"
+        y="132"
         width="325"
         height="397"/>
     <children
@@ -459,12 +459,13 @@
       xsi:type="archimate:DiagramModelGroup"
       id="id-65a1f3adba71433e87518601ef934f33"
       name="Overkoepelende architectuurprincipes"
-      textAlignment="1">
+      textAlignment="1"
+      fillColor="#ffffb5">
     <bounds
         x="12"
         y="12"
         width="1333"
-        height="169"/>
+        height="109"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-44feb17526be43409c527c32b54305a2"
@@ -476,8 +477,8 @@
       <bounds
           x="12"
           y="36"
-          width="301"
-          height="49"/>
+          width="253"
+          height="61"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_id-a3ff1bdac53d4cf28526f9f3f360ffcf.xml#id-a3ff1bdac53d4cf28526f9f3f360ffcf"/>
@@ -491,10 +492,10 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="684"
+          x="540"
           y="36"
-          width="301"
-          height="49"/>
+          width="253"
+          height="61"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_id-9ad7c4b354e34226a5d86d81f8adf280.xml#id-9ad7c4b354e34226a5d86d81f8adf280"/>
@@ -508,10 +509,10 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="348"
+          x="276"
           y="36"
-          width="301"
-          height="49"/>
+          width="253"
+          height="61"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_id-14c201edcfb34a50864c0c511971e767.xml#id-14c201edcfb34a50864c0c511971e767"/>
@@ -525,10 +526,10 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="1020"
+          x="804"
           y="36"
-          width="301"
-          height="49"/>
+          width="253"
+          height="61"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_id-ff18baf9106743c8a7e736233cc94522.xml#id-ff18baf9106743c8a7e736233cc94522"/>
@@ -542,10 +543,10 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="12"
-          y="96"
-          width="301"
-          height="49"/>
+          x="1068"
+          y="36"
+          width="253"
+          height="61"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_id-6857a45330d3428fa0562f7db033d6df.xml#id-6857a45330d3428fa0562f7db033d6df"/>
