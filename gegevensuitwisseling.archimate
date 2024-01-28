@@ -360,7 +360,7 @@
       <element xsi:type="archimate:BusinessFunction" name="Beheren metagegevens" id="id-e8e0fadbd63b479d95144f268ac1d2af">
         <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over gegevens.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessFunction" name="Indexeren en lokaliseren gegevens" id="id-eb3c144faabf42ada75c8f4f809d800e">
+      <element xsi:type="archimate:BusinessFunction" name="Lokaliseren gegevens" id="id-eb3c144faabf42ada75c8f4f809d800e">
         <documentation>Het vastleggen bij welke gegevensdienst gegevens over een bepaald object of subject beschikbaar zijn en het ondersteunen van zoekvragen hierover.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Vertalen protocollen" id="id-eb64c1bcb6af46da9cc40b24284e5b69">
@@ -1318,16 +1318,9 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
       <element xsi:type="archimate:Principle" name="Aan gegevensuitwisseling ligt een overeenkomst ten grondslag" id="id-c91ec57c463b49b8b41aabb971743a9e">
         <documentation>Op het moment dat gegevens niet publiek beschikbaar zijn, dan zijn er voorwaarden die expliciet overeen moeten worden gekomen tussen aanbieders en afnemers. Pas na uitdrukkelijke overeenstemming tussen aanbieder en afnemer is er voldoende zekerheid dat aan de voorwaarden zal worden voldaan. Bij open data ligt dat genuanceerder omdat deze in de basis voor iedereen herbruikbaar zijn. Er horen echter wel voorwaarden bij open data, die impliciet geaccepteerd worden door het gebruik ervan.</documentation>
         <property key="Implicaties" value="Aanbieders van gegevens beschrijven hun voorwaarden zoals de van toepassing zijnde gebruiksbeperkingen, -rechten en -plichten expliciet."/>
-        <property key="Implicaties" value="Aanbieders van niet publieke gegevens sluiten een gegevensleveringsovereenkomst met afnemers waarin minimaal de grondslagen, verantwoordelijkheden, procedures, kwaliteitseisen en de betrokken gegevens zijn benoemd."/>
-        <property key="Implicaties" value="Gegevensleveringsovereenkomsten worden periodiek door aanbieder en afnemers getoetst aan de realisatie, geëvalueerd en bijgesteld."/>
+        <property key="Implicaties" value="Aanbieders van niet publieke gegevens sluiten een overeenkomst met afnemers waarin minimaal de grondslagen, verantwoordelijkheden, procedures, kwaliteitseisen en de betrokken gegevens zijn benoemd."/>
+        <property key="Implicaties" value="Overeenkomsten worden periodiek door aanbieder en afnemers getoetst aan de realisatie, geëvalueerd en bijgesteld."/>
         <property key="Implicaties" value="Aanbieders van niet publieke gegevens controleren expliciet of afnemers voldoen aan de voorwaarden en weigeren anders de levering."/>
-      </element>
-      <element xsi:type="archimate:Principle" name="Het is mogelijk om vermoedelijke fouten in registraties terug te melden" id="id-d0db7c9726e04ffb9f8aacf5d1616a6b">
-        <documentation>Het terugmelden van mogelijke fouten is een belangrijke maatregel voor het verhogen van de gegevenskwaliteit. Voor basisregistraties is het een wettelijke plicht om bij gerede twijfel aan de juistheid van gegevens dit aan de bronhouder terug te melden. Ook voor andere registraties is dit een belangrijke kwaliteitsverhogende maatregel.</documentation>
-        <property key="Implicaties" value="Registraties bieden de mogelijkheid om vermoedelijke fouten in gegevens te melden."/>
-        <property key="Implicaties" value="Bronhouders hebben processen ingericht om terugmeldingen op registraties te onderzoeken, te verwerken en over het resultaat van de verwerking terug te koppelen."/>
-        <property key="Implicaties" value="De processen voor terugmelden zijn beschreven in gegevensleveringsovereenkomsten."/>
-        <property key="Implicaties" value="Melders ontvangen een terugkoppeling over de status en het resultaat van de melding."/>
       </element>
       <element xsi:type="archimate:Principle" name="Gegevensuitwisselingen zijn gerelateerd aan de transactie waarop ze betrekking hebben " id="id-deb4667d24eb494c919800436a77358c">
         <documentation>Als inzicht is in alle gegevensuitwisselingen die bij en (business) transactie horen dan wordt het eenvoudiger om foutanalyses uit te voeren. Daarnaast maakt het ook mogelijk om op (business) transactieniveau analyses te doen van bijvoorbeeld doorlooptijden en bottlenecks. Het ondersteunt ook de onderlinge verrekening van diensten met betrekking tot gegevensuitwisseling.</documentation>
@@ -1346,9 +1339,11 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <property key="Implicaties" value="Er is bij de documentatie van diensten of operaties in datadiensten beschreven welke beperkingsregels en afleidingsregels worden toegepast."/>
       </element>
       <element xsi:type="archimate:Principle" name="De kwaliteit van gegevens is afgestemd op het gebruik" id="id-ff18baf9106743c8a7e736233cc94522">
-        <documentation>Het is belangrijk dat gebruikers beschikken over gegevens die optimaal aansluiten bij hun eigen behoeften en gebruik. Daarbij is de kunst om een balans te vinden tussen kwaliteit en kosten. Een hele hoge kwaliteit leidt al snel tot onacceptabele kosten. De vraag is dus vooral wat nodig is in een specifieke context. Dit vraagt dus vooral bewuste afwegingen.</documentation>
+        <documentation>Het is belangrijk dat gebruikers beschikken over gegevens die optimaal aansluiten bij hun eigen behoeften en gebruik. Daarbij is de kunst om een balans te vinden tussen kwaliteit en kosten. Een hele hoge kwaliteit leidt al snel tot onacceptabele kosten. De vraag is dus vooral wat nodig is in een specifieke context. Dit vraagt dus vooral bewuste afwegingen. Het terugmelden van mogelijke fouten is een belangrijke maatregel voor het verhogen van de gegevenskwaliteit. In meer algemene zin is afstemming tussen aanbieder en afnemer essentieel, zowel voorafgaand als gedurende het gebruik. Afnemers kunnen door het terugmelden van mogelijke fouten zorgen dat de kwaliteit beter aansluit bij hun behoeften.</documentation>
         <property key="Implicaties" value="De eisen die gebruikers stelllen aan de kwaliteit van gegevens worden expliciet gemaakt in elke gebruikscontext."/>
+        <property key="Implicaties" value="Als afnemers specifieke kwaliteitseisen stellen en overeenkomen dan worden deze vastgelegd in een overeenkomst met de aanbieder."/>
         <property key="Implicaties" value="De huidige kwaliteit van gegevens wordt expliciet gemeten en inzichtelijk gemaakt in de metagegevens, op een voor afnemers begrijpelijke wijze."/>
+        <property key="Implicaties" value="Aanbieders bieden mogelijkheid om vermoedelijke fouten in registraties terug te melden en informeren melders over de afhandeling ervan."/>
         <property key="Implicaties" value="Als er een verschil is tussen de eisen die worden gesteld vanuit gebruik en de huidige kwaliteit dan vindt hierover afstemming tussen aanbieder en afnemer plaats en wordt een afweging tussen kosten en baten gemaakt."/>
       </element>
     </folder>
@@ -1581,6 +1576,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:AssociationRelationship" id="id-5cd2191b490140cc9ff354c208529317" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-3d5e3c7b91dc412d9f110e7cbfca84aa"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5db55489890d4723a97bd48e2c835ff8" source="id-5ef12d74a642417684910d16092653f2" target="id-bc1611966ade49bca32f7ef76c31bdad"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5e3e0a23b8d54134982b20545ca00b7d" source="id-d2465138e3d44120a0132c92bc8ffdf3" target="id-0c5ff2bcee01490da929bce198ffa7e8"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-5f05317571724ff29c4c78a920317b63" source="id-b160b994f4554d128443e7406af8d09e" target="id-14c201edcfb34a50864c0c511971e767"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5f08b11067c04a5cad42d3183ded6ca4" source="id-b8382723adde49209c8e6ba8d3130fd5" target="id-39b68135266a4b08be0c9bacacd8a5da"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5f31816c08af4ad59626d0d1ccf718bf" source="id-d663973596d447ae98a48793fe341f34" target="id-293860e793c24752a4184737c13d802b"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-605c0894336b4948aa305dfd4aa35362" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-a3ff1bdac53d4cf28526f9f3f360ffcf"/>
@@ -1650,12 +1646,14 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:AssociationRelationship" id="id-98fa27e2b87040179f5914be841b0dd3" source="id-5d14a03bdd4f4f93b68149da9192663e" target="id-d5c9bef30afa4a769b9e4813f0aa0956"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9a2f9185716b4d4081e1eb424b51b87c" source="id-5b081702561f47dba7f87dddb4ef9a19" target="id-5942baa29f2843ef8aae2f9749930da9"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9a528b66400549e4b7772b0d346f8dc6" source="id-b8382723adde49209c8e6ba8d3130fd5" target="id-dfbe1c09e48c41ebbf57626a369f05d7"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-9ac1e4d14fd4448a93176227d1056c0f" source="id-0da09931f8ac4b368c786703913087bf" target="id-deb4667d24eb494c919800436a77358c"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9acd8dedd0c9494a91076ec651de48f8" source="id-b8382723adde49209c8e6ba8d3130fd5" target="id-978c37663b714e0fbdc9ec088db243d4"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9ae2bdcd3c3247a382a04163fc98b3df" source="id-5ef12d74a642417684910d16092653f2" target="id-0e8e9bd950a04d5390cbd01cde4c9375"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9f8a58ef6b1444b293df5f5fdcd32664" source="id-5ef12d74a642417684910d16092653f2" target="id-a886fec7ea1447db9831cd8c85bcd77c"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9fe4bdbdb1584e2fbec9ee9d007bb886" source="id-bdd9ffe19f724e0fb42094958c71ce8e" target="id-654de455909049e5880ca18ca40935ed"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a015581a7f5946bb8e6ff6710af2f4b4" source="id-bdd9ffe19f724e0fb42094958c71ce8e" target="id-5d1c3a474d43465b8d7f2670ee17f26a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a112b061d4b449babbae665bd2908629" source="id-5ef12d74a642417684910d16092653f2" target="id-f78d2b6646744e4ba75a221cad0e234c"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-a1a490b0cffc43f48fb0c945c730f5f6" source="id-b160b994f4554d128443e7406af8d09e" target="id-9ad7c4b354e34226a5d86d81f8adf280"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a2e637d40b004860a64f473ea1591762" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-35ec7c5a907d4d5889a0491d4776a503"/>
     <element xsi:type="archimate:AssociationRelationship" name="is gemeten voor" id="id-a3e1eca77d7149fb8e4e88c376f6cd81" source="id-d663973596d447ae98a48793fe341f34" target="id-5559669d97cb4cdca49cbe04a07067ff"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a615eba71c1743de89147e1d655904d6" source="id-592dc350d1034ca280d27157e17ba09d" target="id-5d1c3a474d43465b8d7f2670ee17f26a"/>
@@ -1664,7 +1662,6 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:AssociationRelationship" id="id-a8f9cf84906f4da7ad66df79523243a1" source="id-0da09931f8ac4b368c786703913087bf" target="id-3d5e3c7b91dc412d9f110e7cbfca84aa"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-aa39d7ae2c04482c9fc9ade568858992" source="id-0da09931f8ac4b368c786703913087bf" target="id-a3ff1bdac53d4cf28526f9f3f360ffcf"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-aa5495587a47486eb6af6439d0e5ea66" source="id-0da09931f8ac4b368c786703913087bf" target="id-35ec7c5a907d4d5889a0491d4776a503"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-ac5099301ee14d9a8e10cd3afcb9e3ec" source="id-0da09931f8ac4b368c786703913087bf" target="id-d0db7c9726e04ffb9f8aacf5d1616a6b"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-acc2d612d2f74516a452e8c76fa8ac24" source="id-f2920b273337408fbcb8aad5795bdd2b" target="id-e0f07c7f77834fd081955c8d99f288f7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-ad24363d9af141f6a9af4951fdebde98" source="id-61972e0d2c02472b903090af6f8b0650" target="id-6b6bfd62cfce425b80f80637404b3925"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-ad97a7c324a44c9ebd9764c4d252ea80" source="id-39f6f8b9cd4644899f7436319b567b77" target="id-ce64114e055648af86127a0b29704e94"/>
@@ -1765,9 +1762,11 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:AssociationRelationship" id="id-f984d0291dfc4c58baa3da36a5120285" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-b6735b8d80074ebeac5fe0e617f00bc0"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fa926f2434f84223b9ec6bcec996ca01" source="id-592dc350d1034ca280d27157e17ba09d" target="id-6857a45330d3428fa0562f7db033d6df"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fbb9e65e809b4468b966172cebe0e9d9" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-702d1979b3634a7fae6a537f95cd0ccb"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-fc3d34be4bff41c4bf6af2c297271721" source="id-0da09931f8ac4b368c786703913087bf" target="id-14c201edcfb34a50864c0c511971e767"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fc3ef2055ad84e778df06df93d930cd6" source="id-bdd9ffe19f724e0fb42094958c71ce8e" target="id-ce31bcdad11a4f879c58d0072d5dbbe9"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fdb223167017404a824916cea5c937ad" source="id-0da09931f8ac4b368c786703913087bf" target="id-bf22ed38d975422685a677577ebb57bf"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fdb86c20ae044f62a962fd499bf693c1" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-091cee839d714688a54c57a769eea984"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-fe4bfeb89cb94eb9a2192f5162f8b1e9" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-14c201edcfb34a50864c0c511971e767"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fef11d69a7024a0193cd4d3a5f7a3974" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-6b6bfd62cfce425b80f80637404b3925"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-03106e94990949e091ed050217d9f146" source="id-b160b994f4554d128443e7406af8d09e" target="id-2cefc04003f94fcb9721acbc42c92adf"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-0cdf4ca5e9ee4c7a8c88d39183f45fbd" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-5b081702561f47dba7f87dddb4ef9a19"/>
@@ -1871,117 +1870,85 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <folder name="Gewenste situatie" id="id-1b70ddc9a2c04d01bd21b94782dbece6">
       <element xsi:type="archimate:ArchimateDiagramModel" name="Architectuurprincipes geplot op functiemodel" id="id-4e701366fd844120b700c114068bc91e">
         <child xsi:type="archimate:DiagramObject" id="id-42ee4f28760043f9bff98fac0edb4a8e" archimateElement="id-0da09931f8ac4b368c786703913087bf">
-          <bounds x="684" y="12" width="325" height="529"/>
+          <bounds x="684" y="204" width="325" height="397"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-bdb254afca02495192f8115741492924" source="id-42ee4f28760043f9bff98fac0edb4a8e" target="id-ac95fadb4d984447978f5383cf73a342" archimateRelationship="id-400d15b32b244139bd634a230ae5cf20"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-9f804f56490e4d73882427da4e1d60ac" source="id-42ee4f28760043f9bff98fac0edb4a8e" target="id-0ee66fea89b5458ca67efc39da96710b" archimateRelationship="id-c1b8594f479b4c33b609ff7fc543c858"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-8a7487a5d5694148bff6f512cacebe86" source="id-42ee4f28760043f9bff98fac0edb4a8e" target="id-b5a68065130e4f318fc8afa2bfa9a4db" archimateRelationship="id-0666b4fa2bdb4ff18aca9ba1b04e8030"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-c99e102b09504b5a97095951c408e69c" source="id-42ee4f28760043f9bff98fac0edb4a8e" target="id-ec6c48469ebe469b8bc592797c5a1772" archimateRelationship="id-ac5099301ee14d9a8e10cd3afcb9e3ec"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-154aedce6e52483d8e2f5c8f2da859b3" source="id-42ee4f28760043f9bff98fac0edb4a8e" target="id-1e4529c6f4714ff89b6834f593fef4be" archimateRelationship="id-22c15254afc74215bdf1aa318ffd9082"/>
           <child xsi:type="archimate:DiagramObject" id="id-ac95fadb4d984447978f5383cf73a342" targetConnections="id-bdb254afca02495192f8115741492924" fillColor="#ffffff" textPosition="1" archimateElement="id-a1d7faf077c6431d81a6acd66ffc5b29">
-            <bounds x="12" y="216" width="301" height="49"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-0ee66fea89b5458ca67efc39da96710b" targetConnections="id-9f804f56490e4d73882427da4e1d60ac" fillColor="#ffffff" textPosition="1" archimateElement="id-bdcd0549c55a402c8d987ba3faae094f">
-            <bounds x="12" y="276" width="301" height="49"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-b5a68065130e4f318fc8afa2bfa9a4db" targetConnections="id-8a7487a5d5694148bff6f512cacebe86" fillColor="#ffffff" textPosition="1" archimateElement="id-b72405ee2dea40629a0a330260ede075">
-            <bounds x="12" y="336" width="301" height="49"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-b90bb7c1edb34fca865361932e478715" fillColor="#ffffff" textPosition="1" archimateElement="id-95d4a5adf6e44308b2126fb23ae66a73">
-            <bounds x="12" y="396" width="301" height="49"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-ec6c48469ebe469b8bc592797c5a1772" targetConnections="id-c99e102b09504b5a97095951c408e69c" fillColor="#ffffff" textPosition="1" archimateElement="id-d0db7c9726e04ffb9f8aacf5d1616a6b">
-            <bounds x="12" y="456" width="301" height="49"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-2f58e554d7024b24b39e58a594d0cab2" fillColor="#ffffff" textPosition="1" archimateElement="id-ff18baf9106743c8a7e736233cc94522">
             <bounds x="12" y="96" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-3cf66658fbad4053bc52bb758946e089" fillColor="#ffffff" textPosition="1" archimateElement="id-6857a45330d3428fa0562f7db033d6df">
+          <child xsi:type="archimate:DiagramObject" id="id-0ee66fea89b5458ca67efc39da96710b" targetConnections="id-9f804f56490e4d73882427da4e1d60ac" fillColor="#ffffff" textPosition="1" archimateElement="id-bdcd0549c55a402c8d987ba3faae094f">
             <bounds x="12" y="156" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-1e4529c6f4714ff89b6834f593fef4be" targetConnections="id-154aedce6e52483d8e2f5c8f2da859b3" fillColor="#ffffff" textPosition="1" archimateElement="id-9ad7c4b354e34226a5d86d81f8adf280">
+          <child xsi:type="archimate:DiagramObject" id="id-b5a68065130e4f318fc8afa2bfa9a4db" targetConnections="id-8a7487a5d5694148bff6f512cacebe86" fillColor="#ffffff" textPosition="1" archimateElement="id-b72405ee2dea40629a0a330260ede075">
+            <bounds x="12" y="216" width="301" height="49"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-b90bb7c1edb34fca865361932e478715" fillColor="#ffffff" textPosition="1" archimateElement="id-95d4a5adf6e44308b2126fb23ae66a73">
             <bounds x="12" y="36" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-2ac963be6b5e4b47a4050d7657223dea" archimateElement="id-b160b994f4554d128443e7406af8d09e">
-          <bounds x="1020" y="300" width="325" height="241"/>
-          <feature name="iconVisible" value="2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-89f808e921964539b48826b42bc57514" source="id-2ac963be6b5e4b47a4050d7657223dea" target="id-6f7085fe4f9544e8bdda7b8455cefd56" archimateRelationship="id-7e3798e0169a4a5fa01b3b7b2f09e83f"/>
-          <child xsi:type="archimate:DiagramObject" id="id-6f7085fe4f9544e8bdda7b8455cefd56" targetConnections="id-89f808e921964539b48826b42bc57514" fillColor="#ffffff" textPosition="1" archimateElement="id-deb4667d24eb494c919800436a77358c">
-            <bounds x="12" y="48" width="301" height="49"/>
+          <child xsi:type="archimate:DiagramObject" id="id-6f7085fe4f9544e8bdda7b8455cefd56" fillColor="#ffffff" textPosition="1" archimateElement="id-deb4667d24eb494c919800436a77358c">
+            <bounds x="12" y="276" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-9f1b3fc8bb984def968795510dd3ee8b" archimateElement="id-80e3338ec5a94dc4a0bab92c6d9b286a">
-          <bounds x="12" y="12" width="325" height="529"/>
+          <bounds x="12" y="204" width="325" height="397"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-8487bb1d6b3f4a77a060e7aefd612be2" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-219bd10f72004e918b25adeae41868f4" archimateRelationship="id-c31b5eb067a4405985eb3cc2f4fefca9"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-878e4f7f4fef48c89be884d5768d476e" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-934081c36aed4e8095fe45304a4d6823" archimateRelationship="id-d38a77edbbc8495ea645cb59f330fdec"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-9e82479d29ca415286327e15a45adaaa" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-a60f9e0426e6458f85bba6a5a2bd2aed" archimateRelationship="id-d7ef86d5587f4b28baae081c0b86fab9"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-37b4532c40d24b1bad39ba048444372e" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-391915030ab0439aa4c55a656ca3b1b9" archimateRelationship="id-f984d0291dfc4c58baa3da36a5120285"/>
           <child xsi:type="archimate:DiagramObject" id="id-219bd10f72004e918b25adeae41868f4" targetConnections="id-8487bb1d6b3f4a77a060e7aefd612be2" fillColor="#ffffff" textPosition="1" archimateElement="id-c91ec57c463b49b8b41aabb971743a9e">
-            <bounds x="12" y="156" width="301" height="49"/>
+            <bounds x="12" y="96" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-934081c36aed4e8095fe45304a4d6823" targetConnections="id-878e4f7f4fef48c89be884d5768d476e" fillColor="#ffffff" textPosition="1" archimateElement="id-8418d8cf38694245bdd592d1a4583f1e">
             <bounds x="12" y="36" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-a60f9e0426e6458f85bba6a5a2bd2aed" targetConnections="id-9e82479d29ca415286327e15a45adaaa" fillColor="#ffffff" textPosition="1" archimateElement="id-14c201edcfb34a50864c0c511971e767">
-            <bounds x="12" y="96" width="301" height="49"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
           <child xsi:type="archimate:DiagramObject" id="id-391915030ab0439aa4c55a656ca3b1b9" targetConnections="id-37b4532c40d24b1bad39ba048444372e" fillColor="#ffffff" textPosition="1" archimateElement="id-b6735b8d80074ebeac5fe0e617f00bc0">
-            <bounds x="12" y="216" width="301" height="49"/>
+            <bounds x="12" y="156" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-03d4a85ea5a542ae8a55b9d3a6c086fa" archimateElement="id-e8e0fadbd63b479d95144f268ac1d2af">
-          <bounds x="348" y="12" width="325" height="529"/>
+          <bounds x="348" y="204" width="325" height="397"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-7bc7c972a6c44f849af5ce3f037b6c0e" source="id-03d4a85ea5a542ae8a55b9d3a6c086fa" target="id-6577b5bea3bf4d7c8b84fface68d00dc" archimateRelationship="id-8cfc0776e6334e5da921ac748f074b54"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-afa6ca96052e42cda478d7f527309c74" source="id-03d4a85ea5a542ae8a55b9d3a6c086fa" target="id-bbd6eca0722c46b28291024baab49f06" archimateRelationship="id-1bfa474109eb48cfb164cd7fa222fcd7"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-619835435b874ee1b4f0cb784ff92e16" source="id-03d4a85ea5a542ae8a55b9d3a6c086fa" target="id-40bd2f1cfc4b403db5ab8a4a5f36b109" archimateRelationship="id-1631fd9c265a4593ac60d1a661e9b82f"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-869ad1e60b38412c84bd3991ffdd7713" source="id-03d4a85ea5a542ae8a55b9d3a6c086fa" target="id-ef1eab4e63d74f1da2667f4aa5aa5a38" archimateRelationship="id-8d9ecb9486374d78bda742a76085b2fc"/>
           <child xsi:type="archimate:DiagramObject" id="id-bbd6eca0722c46b28291024baab49f06" targetConnections="id-afa6ca96052e42cda478d7f527309c74" fillColor="#ffffff" textPosition="1" archimateElement="id-20f197627a654049b7c1ffff515291f3">
-            <bounds x="12" y="396" width="301" height="49"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-6577b5bea3bf4d7c8b84fface68d00dc" targetConnections="id-7bc7c972a6c44f849af5ce3f037b6c0e" fillColor="#ffffff" textPosition="1" archimateElement="id-1786a7952d0e4aa9882e7416ba13c3d7">
-            <bounds x="12" y="216" width="301" height="49"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-0ad2282f4a3f405d9d78bb2b2adba86a" fillColor="#ffffff" textPosition="1" archimateElement="id-ed8bb4317e15400a813ffc816f0823cb">
-            <bounds x="12" y="276" width="301" height="49"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-4aa90a23c2ef47e49131806d00b2b631" fillColor="#ffffff" textPosition="1" archimateElement="id-2c34fea9221d49f294b723e9a871cd47">
             <bounds x="12" y="336" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-40bd2f1cfc4b403db5ab8a4a5f36b109" targetConnections="id-619835435b874ee1b4f0cb784ff92e16" fillColor="#ffffff" textPosition="1" archimateElement="id-bd8dcf895771403b83f1391690898a82">
+          <child xsi:type="archimate:DiagramObject" id="id-6577b5bea3bf4d7c8b84fface68d00dc" targetConnections="id-7bc7c972a6c44f849af5ce3f037b6c0e" fillColor="#ffffff" textPosition="1" archimateElement="id-1786a7952d0e4aa9882e7416ba13c3d7">
             <bounds x="12" y="156" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-44feb17526be43409c527c32b54305a2" fillColor="#ffffff" textPosition="1" archimateElement="id-a3ff1bdac53d4cf28526f9f3f360ffcf">
-            <bounds x="12" y="36" width="301" height="49"/>
+          <child xsi:type="archimate:DiagramObject" id="id-0ad2282f4a3f405d9d78bb2b2adba86a" fillColor="#ffffff" textPosition="1" archimateElement="id-ed8bb4317e15400a813ffc816f0823cb">
+            <bounds x="12" y="216" width="301" height="49"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-4aa90a23c2ef47e49131806d00b2b631" fillColor="#ffffff" textPosition="1" archimateElement="id-2c34fea9221d49f294b723e9a871cd47">
+            <bounds x="12" y="276" width="301" height="49"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-40bd2f1cfc4b403db5ab8a4a5f36b109" targetConnections="id-619835435b874ee1b4f0cb784ff92e16" fillColor="#ffffff" textPosition="1" archimateElement="id-bd8dcf895771403b83f1391690898a82">
+            <bounds x="12" y="96" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-ef1eab4e63d74f1da2667f4aa5aa5a38" targetConnections="id-869ad1e60b38412c84bd3991ffdd7713" fillColor="#ffffff" textPosition="1" archimateElement="id-108681ef00724a4ba689f412dd9ba257">
-            <bounds x="12" y="96" width="301" height="49"/>
+            <bounds x="12" y="36" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-48120428fae04d568ef0ac9cfa43c271" archimateElement="id-592dc350d1034ca280d27157e17ba09d">
-          <bounds x="1020" y="12" width="325" height="265"/>
+          <bounds x="1020" y="204" width="325" height="397"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-49f03b7b4d0a4714a57016278aa6e000" source="id-48120428fae04d568ef0ac9cfa43c271" target="id-cdbfe30a397045d497511d15916982e4" archimateRelationship="id-20d53470b92c47ba9e0cf87565df41d3"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-254028d3c5614dbe8a712b400c9044d8" source="id-48120428fae04d568ef0ac9cfa43c271" target="id-d4dcc9db890d4fcb8cee431439718354" archimateRelationship="id-95dd964f0aee44759912c80286e113d8"/>
@@ -1990,6 +1957,29 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-d4dcc9db890d4fcb8cee431439718354" targetConnections="id-254028d3c5614dbe8a712b400c9044d8" fillColor="#ffffff" textPosition="1" archimateElement="id-6105d026a74846a09e27cae12adde94b">
+            <bounds x="12" y="96" width="301" height="49"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-65a1f3adba71433e87518601ef934f33" name="Overkoepelende architectuurprincipes" textAlignment="1">
+          <bounds x="12" y="12" width="1333" height="169"/>
+          <child xsi:type="archimate:DiagramObject" id="id-44feb17526be43409c527c32b54305a2" fillColor="#ffffff" textPosition="1" archimateElement="id-a3ff1bdac53d4cf28526f9f3f360ffcf">
+            <bounds x="12" y="36" width="301" height="49"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-1e4529c6f4714ff89b6834f593fef4be" fillColor="#ffffff" textPosition="1" archimateElement="id-9ad7c4b354e34226a5d86d81f8adf280">
+            <bounds x="684" y="36" width="301" height="49"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-a60f9e0426e6458f85bba6a5a2bd2aed" fillColor="#ffffff" textPosition="1" archimateElement="id-14c201edcfb34a50864c0c511971e767">
+            <bounds x="348" y="36" width="301" height="49"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-2f58e554d7024b24b39e58a594d0cab2" fillColor="#ffffff" textPosition="1" archimateElement="id-ff18baf9106743c8a7e736233cc94522">
+            <bounds x="1020" y="36" width="301" height="49"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-3cf66658fbad4053bc52bb758946e089" fillColor="#ffffff" textPosition="1" archimateElement="id-6857a45330d3428fa0562f7db033d6df">
             <bounds x="12" y="96" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
