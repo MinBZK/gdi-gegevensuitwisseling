@@ -9,9 +9,9 @@
 1. Downloaden coArchi: https://www.archimatetool.com/downloads/coarchi/coArchi_0.9.0.archiplugin
 2. Installeren coArchi in Archi (Help>Manage Plug-ins, en dan Instal New...)
 3. Aanmaken Github account
-4. Genereren Personal Access Token in GitHub: (Settings>Developer settings>Personal access tokens>Tokens (classic)
+4. Genereren Personal Access Token in GitHub: (Settings>Developer settings>Personal access tokens>Tokens (classic))
 5. Clonen repository met een github client (bijvoorbeeld https://desktop.github.com/): https://github.com/minbzk/gdi-gegevensuitwisseling
-6. Importeren model in Archi (Collabortation>Import Remote Model To Workspace) met URL: https://github.com/minbzk/gdi-gegevensuitwisseling, Personal Access Token als wachtwoord
+6. Importeren model in Archi (Collaboration>Import Remote Model To Workspace) met URL: https://github.com/minbzk/gdi-gegevensuitwisseling, Personal Access Token als wachtwoord
 7. Open repository in Archi door dubbelklikken op de naam van de repository in de Collaboration Workspace
 8. Downloaden jArchi: https://www.archimatetool.com/plugins/, kleine donatie noodzakelijk
 9. Installeren jArchi in Archi (Help>Manage Plug-ins, en dan Instal New...)
