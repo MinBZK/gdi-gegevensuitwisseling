@@ -7,7 +7,7 @@ Het architectuurmodel is beschikbaar in verschillende vormen:
 3. Als <a href="https://minbzk.github.io/gdi-gegevensuitwisseling">website</a> in de vorm van een HTML report uit Archi
 4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren (zie hieronder)
 
-Er zijn <a href="instructies">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi.
+Er zijn <a href="instructies.md">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi.
 
 # Architectuur
 De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein gegevensuitwisseling. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke ontwikkelingen, wet- en regelgeving, beleid, architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld.
@@ -34,16 +34,3 @@ Bij de verschillende onderwerpen wordt verwezen naar diagrammen, overzichten en 
 * Architectuurprincipes: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-4e701366fd844120b700c114068bc91e">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principes.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principesdetails.html">details</a>
 * Standaarden: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-5df0c1360768493aa966c16f7dbfd414">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaardendetails.html">details</a>
 * Veranderinitiatieven: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/veranderinitiatieven.html">overzicht</a>
-
-# Instructies
-
-## Aanbrengen van wijzigingen
-Als iemand wijzigingen aanbrengt in het model dan moet er door deze persoon ook een nieuwe HTML export worden gemaakt en gepubliceerd alsook een export van het toegang.archimate bestand. Voor de HTML export moet een HTML report worden gegenereerd met Archi en moet daarnaast het <a href="scripts/export HTML.ajs">script</a> worden uitgevoerd om de aanvullende overzichten en detailpagina's te genereren.
-
-## Installeren en configureren coArchi
-1. Installeren Archi: https://www.archimatetool.com/download/
-2. Installeren coArchi: https://www.archimatetool.com/downloads/coarchi/coArchi_0.9.0.archiplugin
-3. Aanmaken Github account
-4. Genereren Personal Access Token: Settings/Developer settings/Personal access tokens/Tokens (classic)
-5. Import Remote Model To Workspace in Archi: URL: https://github.com/minbzk/gdi-gegevensuitwisseling, Personal Access Token als wachtwoord
-
