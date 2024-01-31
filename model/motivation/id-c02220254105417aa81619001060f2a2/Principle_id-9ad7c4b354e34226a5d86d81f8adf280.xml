@@ -2,20 +2,20 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="De aangewezen bron van de gegevens is leidend"
     id="id-9ad7c4b354e34226a5d86d81f8adf280"
-    documentation="Gegevens worden onderhouden in een aangewezen bron. Dat is niet per definitie de registratie waar de gegevens ontstaan. Het kan bijvoorbeeld ook de plaats zijn waar ze beschikbaar worden gesteld. Daarmee is de bron per definitie de plaats waar de waarheid is vastgelegd en die het meest actueel is.">
+    documentation="Het is belangrijk dat duidelijk is waar gegevens vandaan komen. Gegevens worden onderhouden in een aangewezen bron. De bron is de plaats waar de kwaliteit van gegevens wordt bewaakt. Een bron is een logische administratie en staat los van de technische implementatie. De bron is niet per definitie de registratie waar de gegevens ontstaan. Het kan bijvoorbeeld ook de plaats zijn waar ze beschikbaar worden gesteld. De bron is wel de plaats waarnaar gerefereerd moet worden, omdat dit de plaats is waar het gegeven zijn legitimitet aan ontleent.">
   <properties
       key="Implicaties"
-      value="Er zijn bronnen aangewezen voor bepaalde soorten gegevens."/>
+      value="In gebruikscontexten worden bronnen aangewezen voor specifieke gegevens."/>
   <properties
       key="Implicaties"
-      value="Gegevens van een bepaalde soort worden opgehaald bij de aangewezen bron."/>
+      value="Specifieke gegevens worden opgehaald bij de aangewezen bron."/>
   <properties
       key="Implicaties"
-      value="Als actuele gegevens nodig zijn dan worden deze direct bij de bron geraadpleegd en niet bij een kopie ervan."/>
+      value="Als actuele gegevens nodig zijn dan worden deze direct bij de bron geraadpleegd."/>
   <properties
       key="Implicaties"
       value="Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>
   <properties
       key="Implicaties"
-      value="Er wordt geen lokale kopie van gegevens gemaakt, als er geen specifieke eisen zijn die daarom vragen."/>
+      value="Er wordt geen lokale kopie van gegevens gemaakt, tenzij er specifieke eisen zijn die daarom vragen."/>
 </archimate:Principle>

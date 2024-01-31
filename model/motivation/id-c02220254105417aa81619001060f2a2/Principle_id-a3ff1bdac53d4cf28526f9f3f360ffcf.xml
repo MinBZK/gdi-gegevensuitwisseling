@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gegevens die kunnen worden gedeeld zijn vindbaar, toegankelijk, interoperabel en herbruikbaar"
     id="id-a3ff1bdac53d4cf28526f9f3f360ffcf"
-    documentation="Hergebruik van gegevens leidt tot meer transparantie, efficiëntie en innovatie. Voor het kunnen hergebruiken van gegevens zijn hun vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid zoals bedoeld in de FAIR-principes essentieel. Zij zorgen ervoor dat anderen in staat zijn om te begrijpen wat eigenschappen van de gegevens zijn, wat ze betekenen en of ze bruikbaar zijn voor hun eigen doeleinden. Ze zorgen er ook voor dat de gegevens eenvoudig verkregen kunnen worden.">
+    documentation="Hergebruik van gegevens leidt tot meer transparantie, efficiëntie en innovatie. Voor het kunnen hergebruiken van gegevens zijn hun vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid zoals bedoeld met de FAIR-principes essentieel. Zij zorgen ervoor dat anderen in staat zijn om te begrijpen wat eigenschappen van de gegevens zijn, wat ze betekenen en of ze bruikbaar zijn voor hun eigen doeleinden. Ze zorgen er ook voor dat de gegevens eenvoudig verkregen kunnen worden.">
   <properties
       key="Implicaties"
       value="Gegevens zijn voorzien van metagegevens, die zijn gepubliceerd in relevante catalogi zoals data.overheid.nl, het Nationaal Geo Register en de stelselcatalogus (vindbaar)."/>
