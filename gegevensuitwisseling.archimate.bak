@@ -1870,7 +1870,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <folder name="Gewenste situatie" id="id-1b70ddc9a2c04d01bd21b94782dbece6">
       <element xsi:type="archimate:ArchimateDiagramModel" name="Architectuurprincipes geplot op functiemodel" id="id-4e701366fd844120b700c114068bc91e">
         <child xsi:type="archimate:DiagramObject" id="id-42ee4f28760043f9bff98fac0edb4a8e" archimateElement="id-0da09931f8ac4b368c786703913087bf">
-          <bounds x="684" y="204" width="325" height="397"/>
+          <bounds x="684" y="132" width="325" height="397"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-bdb254afca02495192f8115741492924" source="id-42ee4f28760043f9bff98fac0edb4a8e" target="id-ac95fadb4d984447978f5383cf73a342" archimateRelationship="id-400d15b32b244139bd634a230ae5cf20"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-9f804f56490e4d73882427da4e1d60ac" source="id-42ee4f28760043f9bff98fac0edb4a8e" target="id-0ee66fea89b5458ca67efc39da96710b" archimateRelationship="id-c1b8594f479b4c33b609ff7fc543c858"/>
@@ -1897,7 +1897,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-9f1b3fc8bb984def968795510dd3ee8b" archimateElement="id-80e3338ec5a94dc4a0bab92c6d9b286a">
-          <bounds x="12" y="204" width="325" height="397"/>
+          <bounds x="12" y="132" width="325" height="397"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-8487bb1d6b3f4a77a060e7aefd612be2" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-219bd10f72004e918b25adeae41868f4" archimateRelationship="id-c31b5eb067a4405985eb3cc2f4fefca9"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-878e4f7f4fef48c89be884d5768d476e" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-934081c36aed4e8095fe45304a4d6823" archimateRelationship="id-d38a77edbbc8495ea645cb59f330fdec"/>
@@ -1916,7 +1916,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-03d4a85ea5a542ae8a55b9d3a6c086fa" archimateElement="id-e8e0fadbd63b479d95144f268ac1d2af">
-          <bounds x="348" y="204" width="325" height="397"/>
+          <bounds x="348" y="132" width="325" height="397"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-7bc7c972a6c44f849af5ce3f037b6c0e" source="id-03d4a85ea5a542ae8a55b9d3a6c086fa" target="id-6577b5bea3bf4d7c8b84fface68d00dc" archimateRelationship="id-8cfc0776e6334e5da921ac748f074b54"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-afa6ca96052e42cda478d7f527309c74" source="id-03d4a85ea5a542ae8a55b9d3a6c086fa" target="id-bbd6eca0722c46b28291024baab49f06" archimateRelationship="id-1bfa474109eb48cfb164cd7fa222fcd7"/>
@@ -1948,7 +1948,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-48120428fae04d568ef0ac9cfa43c271" archimateElement="id-592dc350d1034ca280d27157e17ba09d">
-          <bounds x="1020" y="204" width="325" height="397"/>
+          <bounds x="1020" y="132" width="325" height="397"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-49f03b7b4d0a4714a57016278aa6e000" source="id-48120428fae04d568ef0ac9cfa43c271" target="id-cdbfe30a397045d497511d15916982e4" archimateRelationship="id-20d53470b92c47ba9e0cf87565df41d3"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-254028d3c5614dbe8a712b400c9044d8" source="id-48120428fae04d568ef0ac9cfa43c271" target="id-d4dcc9db890d4fcb8cee431439718354" archimateRelationship="id-95dd964f0aee44759912c80286e113d8"/>
@@ -1961,26 +1961,26 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
-        <child xsi:type="archimate:Group" id="id-65a1f3adba71433e87518601ef934f33" name="Overkoepelende architectuurprincipes" textAlignment="1">
-          <bounds x="12" y="12" width="1333" height="169"/>
+        <child xsi:type="archimate:Group" id="id-65a1f3adba71433e87518601ef934f33" name="Overkoepelende architectuurprincipes" textAlignment="1" fillColor="#ffffb5">
+          <bounds x="12" y="12" width="1333" height="109"/>
           <child xsi:type="archimate:DiagramObject" id="id-44feb17526be43409c527c32b54305a2" fillColor="#ffffff" textPosition="1" archimateElement="id-a3ff1bdac53d4cf28526f9f3f360ffcf">
-            <bounds x="12" y="36" width="301" height="49"/>
+            <bounds x="12" y="36" width="253" height="61"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1e4529c6f4714ff89b6834f593fef4be" fillColor="#ffffff" textPosition="1" archimateElement="id-9ad7c4b354e34226a5d86d81f8adf280">
-            <bounds x="684" y="36" width="301" height="49"/>
+            <bounds x="540" y="36" width="253" height="61"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a60f9e0426e6458f85bba6a5a2bd2aed" fillColor="#ffffff" textPosition="1" archimateElement="id-14c201edcfb34a50864c0c511971e767">
-            <bounds x="348" y="36" width="301" height="49"/>
+            <bounds x="276" y="36" width="253" height="61"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2f58e554d7024b24b39e58a594d0cab2" fillColor="#ffffff" textPosition="1" archimateElement="id-ff18baf9106743c8a7e736233cc94522">
-            <bounds x="1020" y="36" width="301" height="49"/>
+            <bounds x="804" y="36" width="253" height="61"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-3cf66658fbad4053bc52bb758946e089" fillColor="#ffffff" textPosition="1" archimateElement="id-6857a45330d3428fa0562f7db033d6df">
-            <bounds x="12" y="96" width="301" height="49"/>
+            <bounds x="1068" y="36" width="253" height="61"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
