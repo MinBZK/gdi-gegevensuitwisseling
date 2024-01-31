@@ -7,6 +7,9 @@
       key="Implicaties"
       value="De afleidingsregels zoals gebruikt voor het samenstellen van het informatieproduct zijn toegankelijk voor de afnemer."/>
   <properties
+      key="Implicatiea"
+      value="In metagegevens van informatieproducten is expliciet gemaakt welke administraties zijn gebruikt."/>
+  <properties
       key="Implicaties"
       value="Liefst zijn ook de specifieke onderliggende gegevens die zijn gebruikt bij de afleiding toegankelijk voor de afnemer."/>
   <properties

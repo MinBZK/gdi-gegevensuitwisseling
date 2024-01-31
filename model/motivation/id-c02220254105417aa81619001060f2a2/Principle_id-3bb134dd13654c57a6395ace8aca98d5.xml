@@ -1,8 +1,8 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Gegevens worden gevalideerd voordat ze worden vastgelegd"
+    name="Gegevens worden zo vroeg mogelijk gevalideerd"
     id="id-3bb134dd13654c57a6395ace8aca98d5"
-    documentation="Het valideren van gegevens borgt dat gegevens valide en consistent zijn en is daarmee een belangrijke maatregel voor het borgen van de kwaliteit van gegevens. Dit is met name relevant voor registraties omdat hiervan verwacht wordt dat zij consistent zijn en dat maatregelen zijn genomen met betrekking tot de kwaliteit van gegevens.">
+    documentation="Het valideren van gegevens borgt dat gegevens valide en consistent zijn en is daarmee een belangrijke maatregel voor het borgen van de kwaliteit van gegevens. Dit is met name relevant voor registraties omdat hiervan verwacht wordt dat zij consistent zijn en dat maatregelen zijn genomen met betrekking tot de kwaliteit van gegevens. Door zo vroeg mogelijk te valideren kan snel een terugkoppeling worden gegeven over fouten en is foutherstel het meest eenvoudig.">
   <properties
       key="Implicaties"
       value="Registraties controleren minimaal de validiteit en consistentie van gegevens voordat ze worden geaccepteerd en vastgelegd."/>
