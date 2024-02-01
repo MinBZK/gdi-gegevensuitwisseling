@@ -20,6 +20,7 @@
 ## Voor repository beheerders
 1. Aanpassen script aan metamodel van repository: https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/scripts/export%20HTML.ajs, variabelen relationshipTypeMappings, elementTypeMappings, elementTypePluralMappings en elementTypes, of overleggen of generieke script aangepast kan worden
 2. Kopiëren van https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/docs/js/frame2.js naar de /docs/js directory van de repository.
+3. Aanmaken van specialisaties voor repository in Archi (Tools>Specializations Manager): (Name:Standaard, RestrictedTo: Constraint) en (Name:Wetgeving, RestrictedTo: Constraint)
 
 # Aanbrengen van wijzigingen
 1. Wijzigingen in Archi committen (Collaboration>Commit Changes) 
@@ -31,4 +32,9 @@
 7. Heropenen repository in Archi door dubbelklikken op de naam van de repository in de Collaboration Workspace
 8. Committen repository in lokale GitHub client
 9. Publiceren repository in lokale GitHub client
+
+De volgende specifieke aandachtspunten gelden bij het maken van ArchiMate modellen:
+** Gebruik alleen de metamodel elementen die zijn voorgedefinieerd in het script
+** Gebruik de eigenschappen zoals gehanteerd in het model voor gegevensuitwisseling
+** Gebruik voor standaarden en wetgeving de Specializations van constraint
 
