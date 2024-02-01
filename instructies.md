@@ -19,6 +19,7 @@
 
 ## Voor repository beheerders
 1. Aanpassen script aan metamodel van repository: https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/scripts/export%20HTML.ajs, variabelen relationshipTypeMappings, elementTypeMappings, elementTypePluralMappings en elementTypes
+2. Kopiëren van https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/docs/js/frame2.js naar de /docs/js directory van de repository.
 
 # Aanbrengen van wijzigingen
 1. Wijzigingen in Archi committen (Collaboration>Commit Changes) 
