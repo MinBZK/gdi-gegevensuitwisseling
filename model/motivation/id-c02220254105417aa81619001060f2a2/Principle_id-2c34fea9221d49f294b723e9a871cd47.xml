@@ -5,17 +5,17 @@
     documentation="Het is belangrijk dat metagegevens aan elkaar verbonden zijn om maximaal context te geven aan gegevens en ze echt waardevol te maken. Praktisch is het daarvoor nodig om verbindingen te leggen tussen verschillende vormen van metagegevens. Linked Data standaarden zijn specifiek gericht op het verbinden van gegevens en zijn geoptimaliseerd om gegevens te publiceren op het web. Er zijn allerlei Linked Data standaarden die ook specifiek gericht zijn op metagegevens.">
   <properties
       key="Implicaties"
-      value="Metagegevens zijn beschikbaar in de wereldwijd veelgebruikte Linked Data vocabulaires voor metagegevens zoals SKOS, Dublin Core, RDFS, OWL, SHACL, DCAT, PROV-O, DQV, ODRL en IIIF. "/>
+      value="1. Metagegevens zijn beschikbaar in de wereldwijd veelgebruikte Linked Data vocabulaires voor metagegevens zoals SKOS, Dublin Core, RDFS, OWL, SHACL, DCAT, PROV-O, DQV, ODRL en IIIF. "/>
   <properties
       key="Implicaties"
-      value="Nederlandse standaarden voor metagegevens bieden (ook) een Linked Data vocabulaire, zoals dat ook is ontwikkeld voor bijvoorbeeld NL-SBB, MDTO, TOOI en MIM."/>
+      value="2. Nederlandse standaarden voor metagegevens bieden (ook) een Linked Data vocabulaire, zoals dat ook is ontwikkeld voor bijvoorbeeld NL-SBB, MDTO, TOOI en MIM."/>
   <properties
       key="Implicaties"
-      value="Voor wereldwijde standaarden voor metagegevens waarvoor geen Linked Data vocabulaires aanwezig zijn wordt een standaard Nederlandse vocabulaire ontwikkeld, zoals voor de OpenAPI Specification en ISO 19115."/>
+      value="3. Voor wereldwijde standaarden voor metagegevens waarvoor geen Linked Data vocabulaires aanwezig zijn wordt een standaard Nederlandse vocabulaire ontwikkeld, zoals voor de OpenAPI Specification en ISO 19115."/>
   <properties
       key="Implicaties"
-      value="Op de raakvlakken tussen de standaarden wordt middels webadressen (IRI’s) verwezen naar gerelateerde metadatastandaarden."/>
+      value="4. Op de raakvlakken tussen de standaarden wordt middels webadressen (IRI’s) verwezen naar gerelateerde metadatastandaarden."/>
   <properties
       key="Implicaties"
-      value="Metagegevens worden gepubliceerd in landelijke catalogi zoals data.overheid.nl, developer.overheid.nl en de stelselcatalogus, die deze (ook) als Linked Data ontsluiten."/>
+      value="5. Metagegevens worden gepubliceerd in landelijke catalogi zoals data.overheid.nl, developer.overheid.nl en de stelselcatalogus, die deze (ook) als Linked Data ontsluiten."/>
 </archimate:Principle>

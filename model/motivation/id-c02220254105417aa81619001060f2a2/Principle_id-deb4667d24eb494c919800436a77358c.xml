@@ -5,11 +5,11 @@
     documentation="Als inzicht is in alle gegevensuitwisselingen die bij en (business) transactie horen dan wordt het eenvoudiger om foutanalyses uit te voeren. Daarnaast maakt het ook mogelijk om op (business) transactieniveau analyses te doen van bijvoorbeeld doorlooptijden en bottlenecks. Het ondersteunt ook de onderlinge verrekening van diensten met betrekking tot gegevensuitwisseling.">
   <properties
       key="Implicaties"
-      value="Er wordt voor elke transactie een unieke identificatie gegenereerd."/>
+      value="1. Er wordt voor elke transactie een unieke identificatie gegenereerd."/>
   <properties
       key="Implicaties"
-      value="De transactie-identificatie is onderdeel van elk bericht dat wordt uitgewisseld als gevolg van deze transactie."/>
+      value="2. De transactie-identificatie is onderdeel van elk bericht dat wordt uitgewisseld als gevolg van deze transactie."/>
   <properties
       key="Implicaties"
-      value="De transactie-identificatie wordt opgenomen in logfiles van aanbieders, intermediairs en afnemers."/>
+      value="3. De transactie-identificatie wordt opgenomen in logfiles van aanbieders, intermediairs en afnemers."/>
 </archimate:Principle>

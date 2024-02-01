@@ -5,14 +5,14 @@
     documentation="Het is belangrijk dat afnemers van informatieproducten kunnen begrijpen waar de gegevens die zij afnemen op zijn gebaseerd. Hierdoor kunnen ze bepalen hoe de resultaten tot stand zijn gekomen, of het resultaat aansluit bij hun informatiebehoefte en of de onderliggende gegevens voldoende betrouwbaar zijn. Het geeft ze vertrouwen in de mate waarin het informatieproduct aansluit bij hun eigen gebruik. De kwaliteit van de onderliggende gegevens bepalen namelijk vooral de kwaliteit van het informatieproduct dat erop is gebaseerd. ">
   <properties
       key="Implicaties"
-      value="De afleidingsregels zoals gebruikt voor het samenstellen van het informatieproduct zijn toegankelijk voor de afnemer."/>
+      value="1. De afleidingsregels zoals gebruikt voor het samenstellen van het informatieproduct zijn toegankelijk voor de afnemer."/>
   <properties
       key="Implicatiea"
-      value="In metagegevens van informatieproducten is expliciet gemaakt welke administraties zijn gebruikt."/>
+      value="2. In metagegevens van informatieproducten is expliciet gemaakt welke administraties zijn gebruikt."/>
   <properties
       key="Implicaties"
-      value="Liefst zijn ook de specifieke onderliggende gegevens die zijn gebruikt bij de afleiding toegankelijk voor de afnemer."/>
+      value="3. Liefst zijn ook de specifieke onderliggende gegevens die zijn gebruikt bij de afleiding toegankelijk voor de afnemer."/>
   <properties
       key="Implicaties"
-      value="Afleidingsregels zijn onder versiebeheer zodat ook historisch inzicht kan worden gegeven in hun werking."/>
+      value="4. Afleidingsregels zijn onder versiebeheer zodat ook historisch inzicht kan worden gegeven in hun werking."/>
 </archimate:Principle>

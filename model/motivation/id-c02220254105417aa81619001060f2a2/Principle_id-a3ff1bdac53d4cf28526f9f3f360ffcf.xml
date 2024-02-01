@@ -5,20 +5,20 @@
     documentation="Hergebruik van gegevens leidt tot meer transparantie, efficiëntie en innovatie. Voor het kunnen hergebruiken van gegevens zijn hun vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid zoals bedoeld met de FAIR-principes essentieel. Zij zorgen ervoor dat anderen in staat zijn om te begrijpen wat eigenschappen van de gegevens zijn, wat ze betekenen en of ze bruikbaar zijn voor hun eigen doeleinden. Ze zorgen er ook voor dat de gegevens eenvoudig verkregen kunnen worden.">
   <properties
       key="Implicaties"
-      value="Gegevens zijn voorzien van metagegevens, die zijn gepubliceerd in relevante catalogi zoals data.overheid.nl, het Nationaal Geo Register en de stelselcatalogus (vindbaar)."/>
+      value="1. Gegevens zijn voorzien van metagegevens, die zijn gepubliceerd in relevante catalogi zoals data.overheid.nl, het Nationaal Geo Register en de stelselcatalogus (vindbaar)."/>
   <properties
       key="Implicaties"
-      value="Gegevens en hun metagegevens zijn voorzien van wereldwijd unieke en stabiele identificaties (vindbaar)."/>
+      value="2. Gegevens en hun metagegevens zijn voorzien van wereldwijd unieke en stabiele identificaties (vindbaar)."/>
   <properties
       key="Implicaties"
-      value="Metagegevens zijn rijk en bevatten ook informatie over de context, kwaliteit en karakteristieken van gegevens (vindbaar)."/>
+      value="3. Metagegevens zijn rijk en bevatten ook informatie over de context, kwaliteit en karakteristieken van gegevens (vindbaar)."/>
   <properties
       key="Implicaties"
-      value="Gegevens kunnen worden benaderd via standaard, open en algemeen implementeerbare protocollen (toegankelijk)."/>
+      value="4. Gegevens kunnen worden benaderd via standaard, open en algemeen implementeerbare protocollen (toegankelijk)."/>
   <properties
       key="Implicaties"
-      value="Gegevens zijn beschreven in een gegevensmodel waarin hun syntax en betekenis zijn gedefinieerd en dat beschikbaar is een gestandaardiseerd open formaat zoals MIM (interoperabel)."/>
+      value="5. Gegevens zijn beschreven in een gegevensmodel waarin hun syntax en betekenis zijn gedefinieerd en dat beschikbaar is een gestandaardiseerd open formaat zoals MIM (interoperabel)."/>
   <properties
       key="Implicaties"
-      value="Metagegevens beschrijven gebruiksbeperkingen, -rechten en -plichten en de herkomst van de gegevens (herbruikbaar)."/>
+      value="6. Metagegevens beschrijven gebruiksbeperkingen, -rechten en -plichten en de herkomst van de gegevens (herbruikbaar)."/>
 </archimate:Principle>

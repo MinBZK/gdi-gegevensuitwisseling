@@ -5,17 +5,17 @@
     documentation="Gegevensuitwisseling is in heel veel sectoren, domeinen en op allerlei niveaus relevant, die allemaal eigen eisen stellen. Het is daarom nodig om gegevensuitwisseling te clusteren en in sectoren en/of domeinen samen te werken en meer specifieke afspraken te maken. Dit is ook een intentie achter de data spaces zoals voorgesteld door de Europese Commissie. Daarbij moet tevens de interoperabiliteit tussen de sectoren en domeinen bewaakt worden en zijn ook overkoepelende afspraken en standaarden nodig. Samenwerkingen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien en andere partijen te betrekken. Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.">
   <properties
       key="Implicaties"
-      value="Binnen sectoren en domeinen wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens."/>
+      value="1. Binnen sectoren en domeinen wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens."/>
   <properties
       key="Implicaties"
-      value="Er wordt breed afgestemd met partijen in de sector of het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
+      value="2. Er wordt breed afgestemd met partijen in de sector of het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
   <properties
       key="Implicaties"
-      value="Er wordt onderzocht of er binnen de context van specifieke sectoren of domeinen specifieke voorzieningen wenselijk zijn die gegevensuitwisseling kunnen vereenvoudigen."/>
+      value="3. Er wordt onderzocht of er binnen de context van specifieke sectoren of domeinen specifieke voorzieningen wenselijk zijn die gegevensuitwisseling kunnen vereenvoudigen."/>
   <properties
       key="Implicaties"
-      value="Afspraken, standaarden en voorzieningen worden alleen centraal georganiseerd als het moet, decentraal als het kan."/>
+      value="4. Afspraken, standaarden en voorzieningen worden alleen centraal georganiseerd als het moet, decentraal als het kan."/>
   <properties
       key="Implicaties"
-      value="Er zijn binnen specifieke sectoren of domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
+      value="5. Er zijn binnen specifieke sectoren of domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
 </archimate:Principle>
