@@ -1,21 +1,22 @@
 # Installeren en configureren Archi
 
 ## Voor lezers
-1. Installeren Archi: https://www.archimatetool.com/download/
+1. Installeren Archi versie 5.2.0: https://www.archimatetool.com/download/ 
 2. Downloaden ArchiMate bestand
 3. Inlezen ArchiMate bestand in Archi (File>Open)
 
 ## Voor mensen die wijzigingen willen aanbrengen
-1. Downloaden coArchi: https://www.archimatetool.com/downloads/coarchi/coArchi_0.9.0.archiplugin
-2. Installeren coArchi in Archi (Help>Manage Plug-ins, en dan Install New...)
-3. Aanmaken GitHub account
-4. Genereren Personal Access Token in GitHub: (Settings>Developer settings>Personal access tokens>Tokens (classic))
-5. Clonen repository met een GitHub client (bijvoorbeeld https://desktop.github.com/)
-6. Importeren model in Archi (Collaboration>Import Remote Model To Workspace), met Personal Access Token als wachtwoord
-7. Open repository in Archi door dubbelklikken op de naam van de repository in de Collaboration Workspace
-8. Downloaden jArchi: https://www.archimatetool.com/plugins/, kleine donatie noodzakelijk
-9. Installeren jArchi in Archi (Help>Manage Plug-ins, en dan Instal New...)
-10. Kopiëren script naar scripts folder van Archi: https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/scripts/export%20HTML.ajs
+1. Zeker stellen dat je versie 5.2.0 van Archi gebruikt (hiermee is het script getest) en anders deze versie downloaden en installeren
+2. Downloaden coArchi: https://www.archimatetool.com/downloads/coarchi/coArchi_0.9.0.archiplugin
+3. Installeren coArchi in Archi (Help>Manage Plug-ins, en dan Install New...)
+4. Aanmaken GitHub account
+5. Genereren Personal Access Token in GitHub: (Settings>Developer settings>Personal access tokens>Tokens (classic))
+6. Clonen repository met een GitHub client (bijvoorbeeld https://desktop.github.com/)
+7. Importeren model in Archi (Collaboration>Import Remote Model To Workspace), met Personal Access Token als wachtwoord
+8. Open repository in Archi door dubbelklikken op de naam van de repository in de Collaboration Workspace
+9. Downloaden jArchi: https://www.archimatetool.com/plugins/, kleine donatie noodzakelijk
+10. Installeren jArchi in Archi (Help>Manage Plug-ins, en dan Instal New...)
+11. Kopiëren script naar scripts folder van Archi: https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/scripts/export%20HTML.ajs
 
 ## Voor repository beheerders
 1. Aanpassen script aan metamodel van repository: https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/scripts/export%20HTML.ajs, variabelen relationshipTypeMappings, elementTypeMappings, elementTypePluralMappings en elementTypes, of overleggen of generieke script aangepast kan worden
