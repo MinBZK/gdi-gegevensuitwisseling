@@ -5,17 +5,17 @@
     documentation="Het is belangrijk om te voldoen aan eisen rondom privacy en informatiebeveiliging bij het uitwisselen van gegevens. Daarbij vragen met name persoonsgegevens aandacht. Privacy is wettelijk geborgd in de Algemene Verordening Gegevenbescherming. Overheidsorganisaties dienen daarnaast hun informatiebeveiliging op orde te hebben. ">
   <properties
       key="Implicaties"
-      value="Gegevensdiensten die persoonsgegevens ontsluiten zijn voorzien van mechanismen voor authenticatie, autorisatie en encryptie."/>
+      value="1. Gegevensdiensten die persoonsgegevens ontsluiten zijn voorzien van mechanismen voor authenticatie, autorisatie en encryptie."/>
   <properties
       key="Implicaties"
-      value="Persoonsgegevens worden versleuteld of gepseudonimiseerd in gegevensuitwisseling."/>
+      value="2. Persoonsgegevens worden versleuteld of gepseudonimiseerd in gegevensuitwisseling."/>
   <properties
       key="Implicaties"
-      value="Waar nodig en mogelijk wordt gebruik gemaak van Privacy Enhancing Technologies om privacy te borgen."/>
+      value="3. Waar nodig en mogelijk wordt gebruik gemaak van Privacy Enhancing Technologies om privacy te borgen."/>
   <properties
       key="Implicaties"
-      value="De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
+      value="4. De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
   <properties
       key="Implicaties"
-      value="Over organisatiegrenzen heen worden notificaties informatiearm verstuurd, zonder de inhoudelijke persoonsgegevens."/>
+      value="5. Over organisatiegrenzen heen worden notificaties informatiearm verstuurd, zonder de inhoudelijke persoonsgegevens."/>
 </archimate:Principle>

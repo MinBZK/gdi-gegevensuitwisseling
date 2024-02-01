@@ -5,11 +5,11 @@
     documentation="Registraties zijn de formele bron voor de gegevens die ze beheren. Sector- en basisregistraties zijn een belangrijke basis voor de Nederlandse overheid en er zal op allerlei manieren aan worden gerefereerd. Het is belangrijk dat er geen discussie kan ontstaan over welke gegevens er op een bepaald moment onderdeel waren van de registratie, ook in juridische zin.">
   <properties
       key="Implicaties"
-      value="Registraties houden de formele historie bij van hun gegevens."/>
+      value="1. Registraties houden de formele historie bij van hun gegevens."/>
   <properties
       key="Implicaties"
-      value="Registraties bieden de mogelijkheid om historische gegevens op te vragen."/>
+      value="2. Registraties bieden de mogelijkheid om historische gegevens op te vragen."/>
   <properties
       key="Implicaties"
-      value="Registraties bieden liefst ook de mogelijkheid de formele historie (near) real-time te bevragen."/>
+      value="3. Registraties bieden liefst ook de mogelijkheid de formele historie (near) real-time te bevragen."/>
 </archimate:Principle>
