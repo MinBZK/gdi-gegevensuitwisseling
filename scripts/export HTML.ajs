@@ -74,7 +74,7 @@ function getHeader(name) {
     var text = "<html class=\"frame\"><head>";
 	text += "<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">";
 	text += "<title>"+name+"</title>";
-	text += "<script type=\"text/javascript\" src=\"../../lib/jquery/js/jquery-1.11.2.min.js\"></script>";
+	text += "<script type=\"text/javascript\" src=\"../../lib/jquery/jquery.min.js\"></script>";
 	text += "<link type=\"text/css\" rel=\"stylesheet\" href=\"../../lib/bootstrap/css/bootstrap.min.yeti.css\">";
 	text += "<script type=\"text/javascript\" src=\"../../lib/bootstrap/js/bootstrap-3.3.2.min.js\"></script>";
 	text += "<link type=\"text/css\" rel=\"stylesheet\" href=\"../../lib/bootstrap/css/bootstrap.min.yeti.css\">";
@@ -162,6 +162,7 @@ $("element").each(function(e) {
 		}
     }
 
+	console.log(e.name);
 	var elementtypename = elementTypePluralMappings[getFullType(e.type, e.specialization)];
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
     var text = "";
