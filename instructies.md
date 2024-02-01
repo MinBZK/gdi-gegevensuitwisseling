@@ -34,7 +34,8 @@
 9. Publiceren repository in lokale GitHub client
 
 De volgende specifieke aandachtspunten gelden bij het maken van ArchiMate modellen:
-** Gebruik alleen de metamodel elementen die zijn voorgedefinieerd in het script
-** Gebruik de eigenschappen zoals gehanteerd in het model voor gegevensuitwisseling
-** Gebruik voor standaarden en wetgeving de Specializations van constraint
+* Gebruik alleen de metamodel elementen die zijn voorgedefinieerd in het script
+* Gebruik voor standaarden en wetgeving de betreffende specialisaties van constraint
+* Gebruik voor andere modelelementen geen specialisaties
+* Gebruik de eigenschappen zoals gehanteerd in het model voor gegevensuitwisseling
 
