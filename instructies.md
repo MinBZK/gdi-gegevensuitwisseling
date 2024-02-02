@@ -27,7 +27,7 @@
 1. Wijzigingen in Archi committen (Collaboration>Commit Changes) 
 2. Wijzigingen in Archi publiceren (Collaboration>Publish Changes)
 3. Genereren HTML report in Archi (File>Report>HTML), met als doeldirectory de docs directory op de lokale clone van de repository
-4. Genereren aanvullende HTML pagina's voor overzichten met script (Scripts>export HTML, na het klikken op de naam van de repository, linksnboven in de treeview met de rechtermuisknop), met als doeldirectory de docs/content directory op de lokale clone van de repository
+4. Genereren aanvullende HTML pagina's voor overzichten met script (Scripts>export HTML, na het klikken op de naam van de repository, linksboven in de treeview met de rechtermuisknop), met als doeldirectory de docs/content directory op de lokale clone van de repository
 5. Opslaan .archimate bestand in de root directory van de lokale clone van de repository (File>Save As)
 6. Sluiten repository (File>Close Model)
 7. Heropenen repository in Archi door dubbelklikken op de naam van de repository in de Collaboration Workspace
@@ -35,7 +35,7 @@
 9. Publiceren repository in lokale GitHub client
 
 De volgende specifieke aandachtspunten gelden bij het maken van ArchiMate modellen:
-* Gebruik alleen de <a href="metamodel.md">metamodel</a> elementen die zijn voorgedefinieerd in het script
+* Gebruik alleen elementen zoals gedefinieerd in het <a href="metamodel.md">metamodel</a> 
 * Gebruik de in het <a href="metamodel.md">metamodel</a> voorgedefinieerde specialisaties, en voor alle andere modelelementen expliciet geen specialisatie
 * Gebruik de eigenschappen zoveel mogelijk zoals ook gehanteerd in het standaard <a href="metamodel.md">metamodel</a>
-* Definieer voor alle modelelementen die niet in de standaard HTML lijsten gegenereerd moeten worden een eigenschap "exclude" zonder waarde
+* Definieer voor alle modelelementen die niet door het script in de standaard HTML lijsten gegenereerd moeten worden een eigenschap "exclude" zonder waarde
