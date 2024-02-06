@@ -1194,162 +1194,162 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <folder name="Architectuurprincipes" id="id-c02220254105417aa81619001060f2a2">
       <element xsi:type="archimate:Principle" name="Gemeenschappelijke begripsvorming is het startpunt" id="id-108681ef00724a4ba689f412dd9ba257">
         <documentation>Taal is een belangrijke basis voor het creëren van wederzijds begrip. Het is tevens een essentiële basis voor gegevens, die een concrete invulling geven aan taal. Als we dus niet dezelfde begrippen hanteren, dan zullen de gegevens ook niet uitwisselbaar zijn. Afstemming over begrippen zou zo vroeg mogelijk moeten starten, nog voordat wet- en regelgeving wordt opgesteld. Dat wat in de wet- en regelgeving is opgenomen is nu eenmaal de formele basis voor gegevens en informatievoorziening en kan niet meer van afgeweken worden.</documentation>
-        <property key="Implicaties" value="In alle domeinen worden de daarin gehanteerde begrippen expliciet gemaakt."/>
-        <property key="Implicaties" value="Begrippen worden gedeeld zodat deze vindbaar en toegankelijk zijn voor anderen."/>
-        <property key="Implicaties" value="Begrippen worden geharmoniseerd en gestandaardiseerd waar mogelijk, zodat ze alleen van elkaar verschillen als er inherent andere betekenissen bij horen."/>
-        <property key="Implicaties" value="Wet- en regelgeving wordt afgestemd op bestaande begrippen."/>
-        <property key="Implicaties" value="In alle relevante documentatie, ontwerp en modellen in het domein wordt verwezen naar de begrippen, zodat ze beter vindbaar zijn en &quot;by design&quot; met elkaar samenhangen."/>
+        <property key="Implicaties" value="1. In alle domeinen worden de daarin gehanteerde begrippen expliciet gemaakt."/>
+        <property key="Implicaties" value="2. Begrippen worden gedeeld zodat deze vindbaar en toegankelijk zijn voor anderen."/>
+        <property key="Implicaties" value="3. Begrippen worden geharmoniseerd en gestandaardiseerd waar mogelijk, zodat ze alleen van elkaar verschillen als er inherent andere betekenissen bij horen."/>
+        <property key="Implicaties" value="4. Wet- en regelgeving wordt afgestemd op bestaande begrippen."/>
+        <property key="Implicaties" value="5. In alle relevante documentatie, ontwerp en modellen in het domein wordt verwezen naar de begrippen, zodat ze beter vindbaar zijn en &quot;by design&quot; met elkaar samenhangen."/>
       </element>
       <element xsi:type="archimate:Principle" name="Burgers hebben regie over hun eigen gegevens" id="id-14c201edcfb34a50864c0c511971e767">
         <documentation>Het is belangrijk dat burgers zelf een verantwoordelijkheid hebben in het bepalen van de gegevens die over henzelf worden uitgewisseld, voor welk doel en dat ze inzicht hebben in welke uitwisselingen hebben plaatsgevonden. Voor burgers zijn rechten voor de uitwisseling van persoonsgegevens voor een deel al geborgd in bijvoorbeeld de AVG. Vanuit de AVG is ook belangrijk dat burgers expliciet toestemming geven voor gebruik van hun gegevens als hiervoor geen andere wettelijke grondslag is. Dit staat los van dat ze zichzelf ook kunnen laten vertegenwoordigen middels een machtiging. In de nieuwe eIDAS-verordening worden aan burgers en organisaties verdergaande rechten gegeven, waarbij ze de mogelijkheid krijgen om zelf gegevens via eigen wallets te verstrekken aan partijen.</documentation>
-        <property key="Implicaties" value="Uitwisselingen van gegevens worden expliciet getoetst aan wettelijke grondslagen."/>
-        <property key="Implicaties" value="Als er geen andere wettelijke basis is voor het uitwisselen van persoonsgegevens, dan wordt aan burgers gevraagd of ze deze zelf willen leveren of dat ze toestemming geven om ze te halen bij andere organisaties."/>
-        <property key="Implicaties" value="De door de burger gegeven toestemming voor het uitwisselen van gegevens kan eenvoudig door hen worden ingetrokken."/>
-        <property key="Implicaties" value="Aanbieders bieden burgers en organisaties de mogelijkheid om hun gegevens te downloaden inclusief een verifieerbare verklaring, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
-        <property key="Implicaties" value="Burgers kunnen hun gegevens inzien en hebben inzicht in wanneer, met wie en waarom hun gegevens zijn uitgewisseld."/>
+        <property key="Implicaties" value="1. Uitwisselingen van gegevens worden expliciet getoetst aan wettelijke grondslagen."/>
+        <property key="Implicaties" value="2. Als er geen andere wettelijke basis is voor het uitwisselen van persoonsgegevens, dan wordt aan burgers gevraagd of ze deze zelf willen leveren of dat ze toestemming geven om ze te halen bij andere organisaties."/>
+        <property key="Implicaties" value="3. De door de burger gegeven toestemming voor het uitwisselen van gegevens kan eenvoudig door hen worden ingetrokken."/>
+        <property key="Implicaties" value="4. Aanbieders bieden burgers en organisaties de mogelijkheid om hun gegevens te downloaden inclusief een verifieerbare verklaring, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
+        <property key="Implicaties" value="5. Burgers kunnen hun gegevens inzien en hebben inzicht in wanneer, met wie en waarom hun gegevens zijn uitgewisseld."/>
       </element>
       <element xsi:type="archimate:Principle" name="Metagegevens zijn begrijpelijk voor mensen" id="id-1786a7952d0e4aa9882e7416ba13c3d7">
         <documentation>Gebruikers willen op basis van metagegevens bepalen wat gegevens betekenen voor hun eigen gebruik en moeten deze daarvoor kunnen begrijpen. Specialisten hebben daarnaast ook een verantwoordelijkheid voor het onderhouden van metagegevens, en moeten deze metagegevens dus ook kunnen begrijpen om ze te kunnen aanpassen. Bepaalde metagegevens worden gegenereerd uit andere (hoger liggende) metagegevens en zijn daarmee automatisch op een hoger niveau gedocumenteerd. </documentation>
-        <property key="Implicaties" value="Metagegevens op alle niveaus zijn voorzien van een definitie of omschrijving en als dat niet voldoende is, ook van een aanvullende toelichting en/of voorbeelden."/>
-        <property key="Implicaties" value="Metagegevens zijn niet alleen beschikbaar in machineleesbare vorm, maar zijn voorzien van begrijpelijke documentatie."/>
+        <property key="Implicaties" value="1. Metagegevens op alle niveaus zijn voorzien van een definitie of omschrijving en als dat niet voldoende is, ook van een aanvullende toelichting en/of voorbeelden."/>
+        <property key="Implicaties" value="2. Metagegevens zijn niet alleen beschikbaar in machineleesbare vorm, maar zijn voorzien van begrijpelijke documentatie."/>
       </element>
       <element xsi:type="archimate:Principle" name="De kwaliteit van gegevens is beschreven conform het landelijke raamwerk gegevenskwaliteit" id="id-20f197627a654049b7c1ffff515291f3">
         <documentation>Het is belangrijk dat gebruikers eenvoudig inzicht kunnen krijgen in de kwaliteit van gegevens, zodat zij begrijpen of deze aansluiten bij hun eigen gebruik. Door de naamgeving en inhoud van dimensies voor gegevenskwaliteit te standaardiseren, zijn deze beter begrijpelijk voor afnemers. Het NORA raamwerk gegevenskwaliteit is gebaseerd op wereldwijde ISO standaarden, breed afgestemd binnen de Nederlandse overheid en is ook de basis voor het Federatief Datastelsel.</documentation>
-        <property key="Implicaties" value="In de metagegevens van datasets zijn beschrijvingen van de normen en gerealiseerde kwaliteit beschreven conform de structuur van het NORA raamwerk gegevenskwaliteit."/>
-        <property key="Implicaties" value="Er is liefst ook een machineleesbare versie van de kwaliteit van de gegevens beschikbaar conform de DQV standaard."/>
+        <property key="Implicaties" value="1. In de metagegevens van datasets zijn beschrijvingen van de normen en gerealiseerde kwaliteit beschreven conform de structuur van het NORA raamwerk gegevenskwaliteit."/>
+        <property key="Implicaties" value="2. Er is liefst ook een machineleesbare versie van de kwaliteit van de gegevens beschikbaar conform de DQV standaard."/>
       </element>
       <element xsi:type="archimate:Principle" name="Metagegevens zijn beschikbaar als Linked Data" id="id-2c34fea9221d49f294b723e9a871cd47">
         <documentation>Het is belangrijk dat metagegevens aan elkaar verbonden zijn om maximaal context te geven aan gegevens en ze echt waardevol te maken. Praktisch is het daarvoor nodig om verbindingen te leggen tussen verschillende vormen van metagegevens. Linked Data standaarden zijn specifiek gericht op het verbinden van gegevens en zijn geoptimaliseerd om gegevens te publiceren op het web. Er zijn allerlei Linked Data standaarden die ook specifiek gericht zijn op metagegevens.</documentation>
-        <property key="Implicaties" value="Metagegevens zijn beschikbaar in de wereldwijd veelgebruikte Linked Data vocabulaires voor metagegevens zoals SKOS, Dublin Core, RDFS, OWL, SHACL, DCAT, PROV-O, DQV, ODRL en IIIF. "/>
-        <property key="Implicaties" value="Nederlandse standaarden voor metagegevens bieden (ook) een Linked Data vocabulaire, zoals dat ook is ontwikkeld voor bijvoorbeeld NL-SBB, MDTO, TOOI en MIM."/>
-        <property key="Implicaties" value="Voor wereldwijde standaarden voor metagegevens waarvoor geen Linked Data vocabulaires aanwezig zijn wordt een standaard Nederlandse vocabulaire ontwikkeld, zoals voor de OpenAPI Specification en ISO 19115."/>
-        <property key="Implicaties" value="Op de raakvlakken tussen de standaarden wordt middels webadressen (IRI’s) verwezen naar gerelateerde metadatastandaarden."/>
-        <property key="Implicaties" value="Metagegevens worden gepubliceerd in landelijke catalogi zoals data.overheid.nl, developer.overheid.nl en de stelselcatalogus, die deze (ook) als Linked Data ontsluiten."/>
+        <property key="Implicaties" value="1. Metagegevens zijn beschikbaar in de wereldwijd veelgebruikte Linked Data vocabulaires voor metagegevens zoals SKOS, Dublin Core, RDFS, OWL, SHACL, DCAT, PROV-O, DQV, ODRL en IIIF. "/>
+        <property key="Implicaties" value="2. Nederlandse standaarden voor metagegevens bieden (ook) een Linked Data vocabulaire, zoals dat ook is ontwikkeld voor bijvoorbeeld NL-SBB, MDTO, TOOI en MIM."/>
+        <property key="Implicaties" value="3. Voor wereldwijde standaarden voor metagegevens waarvoor geen Linked Data vocabulaires aanwezig zijn wordt een standaard Nederlandse vocabulaire ontwikkeld, zoals voor de OpenAPI Specification en ISO 19115."/>
+        <property key="Implicaties" value="4. Op de raakvlakken tussen de standaarden wordt middels webadressen (IRI’s) verwezen naar gerelateerde metadatastandaarden."/>
+        <property key="Implicaties" value="5. Metagegevens worden gepubliceerd in landelijke catalogi zoals data.overheid.nl, developer.overheid.nl en de stelselcatalogus, die deze (ook) als Linked Data ontsluiten."/>
       </element>
       <element xsi:type="archimate:Principle" name="Gegevens worden zo vroeg mogelijk gevalideerd" id="id-3bb134dd13654c57a6395ace8aca98d5">
         <documentation>Het valideren van gegevens borgt dat gegevens valide en consistent zijn en is daarmee een belangrijke maatregel voor het borgen van de kwaliteit van gegevens. Dit is met name relevant voor registraties omdat hiervan verwacht wordt dat zij consistent zijn en dat maatregelen zijn genomen met betrekking tot de kwaliteit van gegevens. Door zo vroeg mogelijk te valideren kan snel een terugkoppeling worden gegeven over fouten en is foutherstel het meest eenvoudig.</documentation>
-        <property key="Implicaties" value="Registraties controleren minimaal de validiteit en consistentie van gegevens voordat ze worden geaccepteerd en vastgelegd."/>
-        <property key="Implicaties" value="Liefst worden validatiediensten ook los aangeboden zodat afnemers ook zelf kunnen controleren of gegevens voldoen, zonder ze direct ter verwerking aan te bieden."/>
+        <property key="Implicaties" value="1. Registraties controleren minimaal de validiteit en consistentie van gegevens voordat ze worden geaccepteerd en vastgelegd."/>
+        <property key="Implicaties" value="2. Liefst worden validatiediensten ook los aangeboden zodat afnemers ook zelf kunnen controleren of gegevens voldoen, zonder ze direct ter verwerking aan te bieden."/>
       </element>
       <element xsi:type="archimate:Principle" name="Informatieproducten zijn herleidbaar naar de onderliggende gegevens en regels" id="id-6105d026a74846a09e27cae12adde94b">
         <documentation>Het is belangrijk dat afnemers van informatieproducten kunnen begrijpen waar de gegevens die zij afnemen op zijn gebaseerd. Hierdoor kunnen ze bepalen hoe de resultaten tot stand zijn gekomen, of het resultaat aansluit bij hun informatiebehoefte en of de onderliggende gegevens voldoende betrouwbaar zijn. Het geeft ze vertrouwen in de mate waarin het informatieproduct aansluit bij hun eigen gebruik. De kwaliteit van de onderliggende gegevens bepalen namelijk vooral de kwaliteit van het informatieproduct dat erop is gebaseerd. </documentation>
-        <property key="Implicaties" value="De afleidingsregels zoals gebruikt voor het samenstellen van het informatieproduct zijn toegankelijk voor de afnemer."/>
-        <property key="Implicatiea" value="In metagegevens van informatieproducten is expliciet gemaakt welke administraties zijn gebruikt."/>
-        <property key="Implicaties" value="Liefst zijn ook de specifieke onderliggende gegevens die zijn gebruikt bij de afleiding toegankelijk voor de afnemer."/>
-        <property key="Implicaties" value="Afleidingsregels zijn onder versiebeheer zodat ook historisch inzicht kan worden gegeven in hun werking."/>
+        <property key="Implicaties" value="1. De afleidingsregels zoals gebruikt voor het samenstellen van het informatieproduct zijn toegankelijk voor de afnemer."/>
+        <property key="Implicatiea" value="2. In metagegevens van informatieproducten is expliciet gemaakt welke administraties zijn gebruikt."/>
+        <property key="Implicaties" value="3. Liefst zijn ook de specifieke onderliggende gegevens die zijn gebruikt bij de afleiding toegankelijk voor de afnemer."/>
+        <property key="Implicaties" value="4. Afleidingsregels zijn onder versiebeheer zodat ook historisch inzicht kan worden gegeven in hun werking."/>
       </element>
       <element xsi:type="archimate:Principle" name="Er wordt expliciet gestuurd op standaarden voor gegevensuitwisseling" id="id-6857a45330d3428fa0562f7db033d6df">
         <documentation>Het tot stand brengen  van uitwisseling van gegevens kost vaak veel inspanning, doordat gegevens ontworpen zijn in een eigen context en er allerlei vertalingen nodig om ze bruikbaar te maken in een andere context. Door gebruik te maken van uitwisselstandaarden wordt de variatie beperkt en zijn er minder vertalingen nodig. Standaarden zorgen er ook voor dat leveranciersafhankelijkheden zoveel mogelijk worden voorkomen. In Nederland is het sturen op standaarden geformaliseerd in Forum Standaardisatie, die veel energie stopt in het bepalen en aanwijzen van standaarden die breed zouden moeten worden ingezet.</documentation>
-        <property key="Implicaties" value="De standaarden op de “pas toe, of leg uit” lijst van Forum Standaardisatie worden als eis meegegeven bij de selectie of ontwikkeling van systemen en gegevensuitwisselingen."/>
-        <property key="Implicaties" value="De standaarden op de lijst van aanbevolen standaarden worden serieus overwogen."/>
-        <property key="Implicaties" value="Als er in een specifieke context geen toepasbare standaarden op de lijsten van Forum Standaardisatie staan, dan wordt gebruik gemaakt van internationale standaarden, of anders nationale standaarden."/>
-        <property key="Implicaties" value="Bij gegevensuitwisselingen waarbij meerdere partijen betrokken zijn, wordt een standaard gegevensmodel opgesteld waaraan alle partijen conformeren."/>
-        <property key="Implicaties" value="Nederlandse standaarden zijn geïnternationaliseerd en worden actief ingebracht in internationale standaardisatieorganisaties zoals ISO, W3C, OGC, OASIS, IETF."/>
+        <property key="Implicaties" value="1. De standaarden op de “pas toe, of leg uit” lijst van Forum Standaardisatie worden als eis meegegeven bij de selectie of ontwikkeling van systemen en gegevensuitwisselingen."/>
+        <property key="Implicaties" value="2. De standaarden op de lijst van aanbevolen standaarden worden serieus overwogen."/>
+        <property key="Implicaties" value="3. Als er in een specifieke context geen toepasbare standaarden op de lijsten van Forum Standaardisatie staan, dan wordt gebruik gemaakt van internationale standaarden, of anders nationale standaarden."/>
+        <property key="Implicaties" value="4. Bij gegevensuitwisselingen waarbij meerdere partijen betrokken zijn, wordt een standaard gegevensmodel opgesteld waaraan alle partijen conformeren."/>
+        <property key="Implicaties" value="5. Nederlandse standaarden zijn geïnternationaliseerd en worden actief ingebracht in internationale standaardisatieorganisaties zoals ISO, W3C, OGC, OASIS, IETF."/>
       </element>
       <element xsi:type="archimate:Principle" name="Gegevensuitwisseling is federatief georganiseerd" id="id-8418d8cf38694245bdd592d1a4583f1e">
         <documentation>Gegevensuitwisseling is in heel veel sectoren, domeinen en op allerlei niveaus relevant, die allemaal eigen eisen stellen. Het is daarom nodig om gegevensuitwisseling te clusteren en in sectoren en/of domeinen samen te werken en meer specifieke afspraken te maken. Dit is ook een intentie achter de data spaces zoals voorgesteld door de Europese Commissie. Daarbij moet tevens de interoperabiliteit tussen de sectoren en domeinen bewaakt worden en zijn ook overkoepelende afspraken en standaarden nodig. Samenwerkingen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien en andere partijen te betrekken. Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.</documentation>
-        <property key="Implicaties" value="Binnen sectoren en domeinen wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens."/>
-        <property key="Implicaties" value="Er wordt breed afgestemd met partijen in de sector of het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
-        <property key="Implicaties" value="Er wordt onderzocht of er binnen de context van specifieke sectoren of domeinen specifieke voorzieningen wenselijk zijn die gegevensuitwisseling kunnen vereenvoudigen."/>
-        <property key="Implicaties" value="Afspraken, standaarden en voorzieningen worden alleen centraal georganiseerd als het moet, decentraal als het kan."/>
-        <property key="Implicaties" value="Er zijn binnen specifieke sectoren of domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
+        <property key="Implicaties" value="1. Binnen sectoren en domeinen wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens."/>
+        <property key="Implicaties" value="2. Er wordt breed afgestemd met partijen in de sector of het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
+        <property key="Implicaties" value="3. Er wordt onderzocht of er binnen de context van specifieke sectoren of domeinen specifieke voorzieningen wenselijk zijn die gegevensuitwisseling kunnen vereenvoudigen."/>
+        <property key="Implicaties" value="4. Afspraken, standaarden en voorzieningen worden alleen centraal georganiseerd als het moet, decentraal als het kan."/>
+        <property key="Implicaties" value="5. Er zijn binnen specifieke sectoren of domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
       </element>
       <element xsi:type="archimate:Principle" name="Gegevens worden geleverd vanuit herbruikbare gegevensdiensten" id="id-95d4a5adf6e44308b2126fb23ae66a73">
         <documentation>Door vanuit hergebruik naar de clustering van functionaliteit en gegevens te kijken wordt voorkomen dat specifieke afnemers eigen specifieke gegevens en gegevensdiensten vragen. De intentie is dat hergebruik efficiënter en meer beheersbaar is dan het gebruik van point-to-point koppelingen omdat het tot minder koppelingen leidt.</documentation>
-        <property key="Implicaties" value="Gegevensdiensten leveren een clustering van functionaliteit en gegevens die past bij de behoeften van een grote hoeveelheid afnemers."/>
-        <property key="Implicaties" value="Gegevensdiensten worden kenbaar gemaakt in relevante catalogi zoals developer.overheid.nl, data.overheid.nl en/of het Nationaal Geo Register."/>
-        <property key="Implicaties" value="Aanbieders van gegevensdiensten voor afnemers relevante testfaciliteiten zoals een testomgeving, testdata en/of testscripts, met name als de gegevensdienst meer behelst dan het ontsluiten van open data."/>
-        <property key="Implicaties" value="Gegevensdiensten die zijn gerealiseerd als RESTful API voldoen aan de Nederlandse API-strategie en de REST API Design Rules."/>
-        <property key="Implicaties" value="Er zijn beschrijvingen van de serviceniveaus die gelden voor de gegevensdienst beschikbaar en deze serviceniveaus worden gemonitord door de aanbieder."/>
+        <property key="Implicaties" value="1. Gegevensdiensten leveren een clustering van functionaliteit en gegevens die past bij de behoeften van een grote hoeveelheid afnemers."/>
+        <property key="Implicaties" value="2. Gegevensdiensten worden kenbaar gemaakt in relevante catalogi zoals developer.overheid.nl, data.overheid.nl en/of het Nationaal Geo Register."/>
+        <property key="Implicaties" value="3. Aanbieders van gegevensdiensten voor afnemers relevante testfaciliteiten zoals een testomgeving, testdata en/of testscripts, met name als de gegevensdienst meer behelst dan het ontsluiten van open data."/>
+        <property key="Implicaties" value="4. Gegevensdiensten die zijn gerealiseerd als RESTful API voldoen aan de Nederlandse API-strategie en de REST API Design Rules."/>
+        <property key="Implicaties" value="5. Er zijn beschrijvingen van de serviceniveaus die gelden voor de gegevensdienst beschikbaar en deze serviceniveaus worden gemonitord door de aanbieder."/>
       </element>
       <element xsi:type="archimate:Principle" name="De aangewezen bron van de gegevens is leidend" id="id-9ad7c4b354e34226a5d86d81f8adf280">
-        <documentation>Het is belangrijk dat duidelijk is waar gegevens vandaan komen. Gegevens worden onderhouden in een aangewezen bron. De bron is de plaats waar de kwaliteit van gegevens wordt bewaakt. Een bron is een logische administratie en staat los van de technische implementatie. De bron is niet per definitie de registratie waar de gegevens ontstaan. Het kan bijvoorbeeld ook de plaats zijn waar ze beschikbaar worden gesteld. De bron is wel de plaats waarnaar gerefereerd moet worden, omdat dit de plaats is waar het gegeven zijn legitimitet aan ontleent.</documentation>
-        <property key="Implicaties" value="In gebruikscontexten worden bronnen aangewezen voor specifieke gegevens."/>
-        <property key="Implicaties" value="Specifieke gegevens worden opgehaald bij de aangewezen bron."/>
-        <property key="Implicaties" value="Als actuele gegevens nodig zijn dan worden deze direct bij de bron geraadpleegd."/>
-        <property key="Implicaties" value="Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>
-        <property key="Implicaties" value="Er wordt geen lokale kopie van gegevens gemaakt, tenzij er specifieke eisen zijn die daarom vragen."/>
+        <documentation>Het is belangrijk dat duidelijk is waar gegevens vandaan komen. Gegevens worden onderhouden in een bron. De bron is de plaats waar de kwaliteit van gegevens wordt bewaakt. Een bron is een logische administratie en staat los van de technische implementatie. De bron is niet per definitie de registratie waar de gegevens ontstaan. Het kan bijvoorbeeld ook de plaats zijn waar ze beschikbaar worden gesteld. De bron is wel de plaats waarnaar gerefereerd moet worden, omdat het de plaats is waar het gegeven zijn legitimitet aan ontleent.</documentation>
+        <property key="Implicaties" value="1. In gebruikscontexten worden bronnen aangewezen voor specifieke gegevens."/>
+        <property key="Implicaties" value="2. Gegevens worden opgehaald bij de aangewezen bron."/>
+        <property key="Implicaties" value="3. Als actuele gegevens nodig zijn dan worden deze direct bij de bron geraadpleegd."/>
+        <property key="Implicaties" value="4. Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>
+        <property key="Implicaties" value="5. Er wordt geen lokale kopie van gegevens gemaakt, tenzij er specifieke eisen zijn die daarom vragen."/>
       </element>
       <element xsi:type="archimate:Principle" name="Persoonsgegevens zijn beschermd bij het uitwisselen van gegevens" id="id-a1d7faf077c6431d81a6acd66ffc5b29">
         <documentation>Het is belangrijk om te voldoen aan eisen rondom privacy en informatiebeveiliging bij het uitwisselen van gegevens. Daarbij vragen met name persoonsgegevens aandacht. Privacy is wettelijk geborgd in de Algemene Verordening Gegevenbescherming. Overheidsorganisaties dienen daarnaast hun informatiebeveiliging op orde te hebben. </documentation>
-        <property key="Implicaties" value="Gegevensdiensten die persoonsgegevens ontsluiten zijn voorzien van mechanismen voor authenticatie, autorisatie en encryptie."/>
-        <property key="Implicaties" value="Persoonsgegevens worden versleuteld of gepseudonimiseerd in gegevensuitwisseling."/>
-        <property key="Implicaties" value="Waar nodig en mogelijk wordt gebruik gemaak van Privacy Enhancing Technologies om privacy te borgen."/>
-        <property key="Implicaties" value="De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
-        <property key="Implicaties" value="Over organisatiegrenzen heen worden notificaties informatiearm verstuurd, zonder de inhoudelijke persoonsgegevens."/>
+        <property key="Implicaties" value="1. Gegevensdiensten die persoonsgegevens ontsluiten zijn voorzien van mechanismen voor authenticatie, autorisatie en encryptie."/>
+        <property key="Implicaties" value="2. Persoonsgegevens worden versleuteld of gepseudonimiseerd in gegevensuitwisseling."/>
+        <property key="Implicaties" value="3. Waar nodig en mogelijk wordt gebruik gemaak van Privacy Enhancing Technologies om privacy te borgen."/>
+        <property key="Implicaties" value="4. De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
+        <property key="Implicaties" value="5. Over organisatiegrenzen heen worden notificaties informatiearm verstuurd, zonder de inhoudelijke persoonsgegevens."/>
       </element>
       <element xsi:type="archimate:Principle" name="Aanbieders zijn soeverein over hun gegevens" id="id-a39c567de1f14abcbb11576b55cf456f">
-        <documentation>Organisaties willen hun economische en intellectuele eigendommen beschermen. Dit is ook een kerngedachte achter de Europese data spaces. Alle partijen hebben er uiteindelijk belang dat gegevens rechtmatig worden uitgewisseld en dat ze correct en actueel zijn. </documentation>
-        <property key="Implicaties" value="Aanbieders maken expliciet welke gebruiksbeperkingen -rechten en -plichten van toepassing zijn op specifieke gegevens die ze aanbieden."/>
-        <property key="Implicaties" value="Afnemers gaan expliciet akkoord met de gebruiksbeperkingen -rechten en -plichten voorafgaand aan de uitwisseling van gegevens."/>
+        <documentation>Organisaties willen hun economische en intellectuele eigendommen beschermen en daarom zelf bepalen met wie ze gegevens delen en onder welke voorwaarden. Dit is ook een kerngedachte achter de Europese data spaces. Alle partijen hebben er uiteindelijk belang dat gegevens rechtmatig worden uitgewisseld en dat ze correct en actueel zijn. </documentation>
+        <property key="Implicaties" value="1. Aanbieders maken expliciet welke gebruiksbeperkingen -rechten en -plichten van toepassing zijn op specifieke gegevens die ze aanbieden."/>
+        <property key="Implicaties" value="2. Afnemers gaan expliciet akkoord met de gebruiksbeperkingen -rechten en -plichten voorafgaand aan de uitwisseling van gegevens."/>
       </element>
       <element xsi:type="archimate:Principle" name="Gegevens die kunnen worden gedeeld zijn vindbaar, toegankelijk, interoperabel en herbruikbaar" id="id-a3ff1bdac53d4cf28526f9f3f360ffcf">
         <documentation>Hergebruik van gegevens leidt tot meer transparantie, efficiëntie en innovatie. Voor het kunnen hergebruiken van gegevens zijn hun vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid zoals bedoeld met de FAIR-principes essentieel. Zij zorgen ervoor dat anderen in staat zijn om te begrijpen wat eigenschappen van de gegevens zijn, wat ze betekenen en of ze bruikbaar zijn voor hun eigen doeleinden. Ze zorgen er ook voor dat de gegevens eenvoudig verkregen kunnen worden.</documentation>
-        <property key="Implicaties" value="Gegevens zijn voorzien van metagegevens, die zijn gepubliceerd in relevante catalogi zoals data.overheid.nl, het Nationaal Geo Register en de stelselcatalogus (vindbaar)."/>
-        <property key="Implicaties" value="Gegevens en hun metagegevens zijn voorzien van wereldwijd unieke en stabiele identificaties (vindbaar)."/>
-        <property key="Implicaties" value="Metagegevens zijn rijk en bevatten ook informatie over de context, kwaliteit en karakteristieken van gegevens (vindbaar)."/>
-        <property key="Implicaties" value="Gegevens kunnen worden benaderd via standaard, open en algemeen implementeerbare protocollen (toegankelijk)."/>
-        <property key="Implicaties" value="Gegevens zijn beschreven in een gegevensmodel waarin hun syntax en betekenis zijn gedefinieerd en dat beschikbaar is een gestandaardiseerd open formaat zoals MIM (interoperabel)."/>
-        <property key="Implicaties" value="Metagegevens beschrijven gebruiksbeperkingen, -rechten en -plichten en de herkomst van de gegevens (herbruikbaar)."/>
+        <property key="Implicaties" value="1. Gegevens zijn voorzien van metagegevens, die zijn gepubliceerd in relevante catalogi zoals data.overheid.nl, het Nationaal Geo Register en de stelselcatalogus (vindbaar)."/>
+        <property key="Implicaties" value="2. Gegevens en hun metagegevens zijn voorzien van wereldwijd unieke en stabiele identificaties (vindbaar)."/>
+        <property key="Implicaties" value="3. Metagegevens zijn rijk en bevatten ook informatie over de context, kwaliteit en karakteristieken van gegevens (vindbaar)."/>
+        <property key="Implicaties" value="4. Gegevens kunnen worden benaderd via standaard, open en algemeen implementeerbare protocollen (toegankelijk)."/>
+        <property key="Implicaties" value="5. Gegevens zijn beschreven in een gegevensmodel waarin hun syntax en betekenis zijn gedefinieerd en dat beschikbaar is een gestandaardiseerd open formaat zoals MIM (interoperabel)."/>
+        <property key="Implicaties" value="6. Metagegevens beschrijven gebruiksbeperkingen, -rechten en -plichten en de herkomst van de gegevens (herbruikbaar)."/>
       </element>
       <element xsi:type="archimate:Principle" name="Uitwisseling van persoonsgegevens wordt expliciet getoetst op privacy en ethiek" id="id-b6735b8d80074ebeac5fe0e617f00bc0">
         <documentation>Persoonsgegevens zijn inherent privacygevoelig en de uitwisseling ervan is alleen onder specifieke condities mogelijk. Anderzijds wordt privacy vaak onterecht als blokkade gezien voor de uitwisseling van gegevens. Soortgelijk geldt dat gegevensuitwisseling ook ethische vragen op kan roepen en onvoorziene impact kan hebben op mensen. Een expliciete toetsing op privacy en ethische aspecten door een onafhankelijke commissie maakt een betere afweging mogelijk en kan bindende uitspraken doen. Dit is in de basis een toetsing vanuit en door de afnemer, maar deze kan ook (deels) centraal georganiseerd worden.</documentation>
-        <property key="Implicaties" value="Bij uitwisseling van persoonsgegevens is de wettelijke grondslag expliciet gemaakt."/>
-        <property key="Implicaties" value="Voorafgaand aan het uitwisselen van gegevens vindt toetsing op privacy en ethische aspecten plaats door een onafhankelijke commissie."/>
-        <property key="Implicaties" value="Landelijk, in de sector of binnen het domein kunnen afspraken worden gemaakt over het inrichten van organisatie-onafhankelijke commissies."/>
-        <property key="Implicaties" value="De verantwoordelijkheden en bevoegdheden van de toetscommissie zijn geborgd, bij voorkeur wettelijk."/>
-        <property key="Implicaties" value="Uitspraken van een toetscommissie zijn bindend."/>
+        <property key="Implicaties" value="1. Bij uitwisseling van persoonsgegevens is de wettelijke grondslag expliciet gemaakt."/>
+        <property key="Implicaties" value="2. Voorafgaand aan het uitwisselen van gegevens vindt toetsing op privacy en ethische aspecten plaats door een onafhankelijke commissie."/>
+        <property key="Implicaties" value="3. Landelijk, in de sector of binnen het domein kunnen afspraken worden gemaakt over het inrichten van organisatie-onafhankelijke commissies."/>
+        <property key="Implicaties" value="4. De verantwoordelijkheden en bevoegdheden van de toetscommissie zijn geborgd, bij voorkeur wettelijk."/>
+        <property key="Implicaties" value="5. Uitspraken van een toetscommissie zijn bindend."/>
       </element>
       <element xsi:type="archimate:Principle" name="Aanbieders kunnen notificeren over belangrijke gebeurtenissen" id="id-b72405ee2dea40629a0a330260ede075">
         <documentation>De werkagenda waardegedreven digitaliseren stelt dat overheidsdienstverlening proactief zou moeten zijn en georganiseerd vanuit het perspectief van burgers en ondernemers o.a. aan de hand van levensgebeurtenissen. Dit betekent dat het belangrijk is om informatie over levensgebeurtenissen te delen. Overheidsorganisaties zijn voor hun dienstverlening afhankelijk van gebeurtenissen waarover zij geïnforrmeerd worden door anderen. Daarnaast geldt dat afnemers liefst zelf geen kopie van gegevens bijhouden, maar dan wel willen weten of bepaalde gegevens gewijzigd zijn, omdat deze bijvoorbeeld ook in hun eigen administratie zijn opgenomen.</documentation>
-        <property key="Implicaties" value="Overheidsorganisaties definiëren expliciet welke levensgebeurtenissen zij op willen acteren en welke gegevensuitwisselingen met andere overheidsorganisaties hiervoor nodig zijn."/>
-        <property key="Implicaties" value="Aanbieders kunnen notificaties verstrekken als belangrijke gebeurtenissen plaatsvinden, zoals wanneer bepaalde gegevens wijzigen."/>
-        <property key="Implicaties" value="Aanbieders kunnen ook notificaties verstrekken als historische gegevens wijzigen (iets dat liefst niet gebeurt, maar in uitzonderlijke gevallen toch kan optreden)"/>
-        <property key="Implicaties" value="Er zijn mechanismen die borgen dat de notificaties daadwerkelijk worden ontvangen door afnemers."/>
+        <property key="Implicaties" value="1. Overheidsorganisaties definiëren expliciet welke levensgebeurtenissen zij op willen acteren en welke gegevensuitwisselingen met andere overheidsorganisaties hiervoor nodig zijn."/>
+        <property key="Implicaties" value="2. Aanbieders kunnen notificaties verstrekken als belangrijke gebeurtenissen plaatsvinden, zoals wanneer bepaalde gegevens wijzigen."/>
+        <property key="Implicaties" value="3. Aanbieders kunnen ook notificaties verstrekken als historische gegevens wijzigen (iets dat liefst niet gebeurt, maar in uitzonderlijke gevallen toch kan optreden)"/>
+        <property key="Implicaties" value="4. Er zijn mechanismen die borgen dat de notificaties daadwerkelijk worden ontvangen door afnemers."/>
       </element>
       <element xsi:type="archimate:Principle" name="Gegevens worden contextrijk vastgelegd" id="id-bd8dcf895771403b83f1391690898a82">
         <documentation>Het is belangrijk om de context van gegevens te kennen om hun betekenis goed te begrijpen. Dat is in het algemeen het doel van metagegevens. Metagegevens worden echter vaak niet goed vastgelegd omdat gebruikers het nut ervan niet goed begrijpen of omdat het teveel inspanning kost om ze vast te leggen. Door context expliciet en geautomatiseerd vast te leggen in metagegevens wordt de afhankelijkheid van mensen voor het vastleggen van metagegevens beperkt. Het belang van expliciet maken van context in metagegevens is groter naarmate de afstand tot het initiële gebruik groter wordt.</documentation>
-        <property key="Implicaties" value="Er wordt per gebruikscontext expliciet nagedacht welke metagegevens kritisch zijn."/>
-        <property key="Implicaties" value="Metagegevens worden zoveel mogelijk gedurende een bedrijfsproces geautomatiseerd afgeleid uit de context en opgeslagen bij gegevens."/>
-        <property key="Implicaties" value="Het vastleggen van metagegevens is geïntegreerd in de reguliere applicaties waar gebruikers mee werken."/>
-        <property key="Implicaties" value="Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals trefwoorden, classificaties en omschrijvingen."/>
+        <property key="Implicaties" value="1. Er wordt per gebruikscontext expliciet nagedacht welke metagegevens kritisch zijn."/>
+        <property key="Implicaties" value="2. Metagegevens worden zoveel mogelijk gedurende een bedrijfsproces geautomatiseerd afgeleid uit de context en opgeslagen bij gegevens."/>
+        <property key="Implicaties" value="3. Het vastleggen van metagegevens is geïntegreerd in de reguliere applicaties waar gebruikers mee werken."/>
+        <property key="Implicaties" value="4. Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals trefwoorden, classificaties en omschrijvingen."/>
       </element>
       <element xsi:type="archimate:Principle" name="Registraties bieden historische gegevens aan" id="id-bdcd0549c55a402c8d987ba3faae094f">
         <documentation>Registraties zijn de formele bron voor de gegevens die ze beheren. Sector- en basisregistraties zijn een belangrijke basis voor de Nederlandse overheid en er zal op allerlei manieren aan worden gerefereerd. Het is belangrijk dat er geen discussie kan ontstaan over welke gegevens er op een bepaald moment onderdeel waren van de registratie, ook in juridische zin.</documentation>
-        <property key="Implicaties" value="Registraties houden de formele historie bij van hun gegevens."/>
-        <property key="Implicaties" value="Registraties bieden de mogelijkheid om historische gegevens op te vragen."/>
-        <property key="Implicaties" value="Registraties bieden liefst ook de mogelijkheid de formele historie (near) real-time te bevragen."/>
+        <property key="Implicaties" value="1. Registraties houden de formele historie bij van hun gegevens."/>
+        <property key="Implicaties" value="2. Registraties bieden de mogelijkheid om historische gegevens op te vragen."/>
+        <property key="Implicaties" value="3. Registraties bieden liefst ook de mogelijkheid de formele historie (near) real-time te bevragen."/>
       </element>
       <element xsi:type="archimate:Principle" name="Aan gegevensuitwisseling ligt een overeenkomst ten grondslag" id="id-c91ec57c463b49b8b41aabb971743a9e">
         <documentation>Op het moment dat gegevens niet publiek beschikbaar zijn, dan zijn er voorwaarden die expliciet overeen moeten worden gekomen tussen aanbieders en afnemers. Pas na uitdrukkelijke overeenstemming tussen aanbieder en afnemer is er voldoende zekerheid dat aan de voorwaarden zal worden voldaan. Bij open data ligt dat genuanceerder omdat deze in de basis voor iedereen herbruikbaar zijn. Er horen echter wel voorwaarden bij open data, die impliciet geaccepteerd worden door het gebruik ervan.</documentation>
-        <property key="Implicaties" value="Aanbieders van gegevens beschrijven hun voorwaarden zoals de van toepassing zijnde gebruiksbeperkingen, -rechten en -plichten expliciet."/>
-        <property key="Implicaties" value="Aanbieders van niet openbare gegevens sluiten een overeenkomst met afnemers waarin minimaal de grondslagen, verantwoordelijkheden, procedures, kwaliteitseisen en de betrokken gegevens zijn benoemd."/>
-        <property key="Implicaties" value="Overeenkomsten worden periodiek door aanbieder en afnemers getoetst aan de realisatie, geëvalueerd en bijgesteld."/>
-        <property key="Implicaties" value="Aanbieders van niet openbare gegevens evalueren of afnemers voldoen aan de voorwaarden."/>
+        <property key="Implicaties" value="1. Aanbieders van gegevens beschrijven hun voorwaarden zoals de van toepassing zijnde gebruiksbeperkingen, -rechten en -plichten expliciet."/>
+        <property key="Implicaties" value="2. Aanbieders van niet openbare gegevens sluiten een overeenkomst met afnemers waarin minimaal de grondslagen, verantwoordelijkheden, procedures, kwaliteitseisen en de betrokken gegevens zijn benoemd."/>
+        <property key="Implicaties" value="3. Overeenkomsten worden periodiek door aanbieder en afnemers getoetst aan de realisatie, geëvalueerd en bijgesteld."/>
+        <property key="Implicaties" value="4. Aanbieders van niet openbare gegevens evalueren of afnemers voldoen aan de voorwaarden."/>
       </element>
       <element xsi:type="archimate:Principle" name="Gegevensuitwisselingen zijn gerelateerd aan de transactie waarop ze betrekking hebben " id="id-deb4667d24eb494c919800436a77358c">
         <documentation>Als inzicht is in alle gegevensuitwisselingen die bij en (business) transactie horen dan wordt het eenvoudiger om foutanalyses uit te voeren. Daarnaast maakt het ook mogelijk om op (business) transactieniveau analyses te doen van bijvoorbeeld doorlooptijden en bottlenecks. Het ondersteunt ook de onderlinge verrekening van diensten met betrekking tot gegevensuitwisseling.</documentation>
-        <property key="Implicaties" value="Er wordt voor elke transactie een unieke identificatie gegenereerd."/>
-        <property key="Implicaties" value="De transactie-identificatie is onderdeel van elk bericht dat wordt uitgewisseld als gevolg van deze transactie."/>
-        <property key="Implicaties" value="De transactie-identificatie wordt opgenomen in logfiles van aanbieders, intermediairs en afnemers."/>
+        <property key="Implicaties" value="1. Er wordt voor elke transactie een unieke identificatie gegenereerd."/>
+        <property key="Implicaties" value="2. De transactie-identificatie is onderdeel van elk bericht dat wordt uitgewisseld als gevolg van deze transactie."/>
+        <property key="Implicaties" value="3. De transactie-identificatie wordt opgenomen in logfiles van aanbieders, intermediairs en afnemers."/>
       </element>
       <element xsi:type="archimate:Principle" name="Metagegevens zijn aan elkaar verbonden" id="id-ed8bb4317e15400a813ffc816f0823cb">
         <documentation>Gegevens hebben metagegevens nodig om betekenis te krijgen en bruikbaar te zijn. Er zijn allerlei soorten metagegevens die verschillende aspecten van gegevens modelleren, zoals metagegevens die de betekenis beschrijven, metagegevens die de structuur beschrijven en metagegevens die beschrijven welke eenheden van gegevens beschikbaar zijn. Dit soort metagegevens moeten in relatie tot elkaar geïnterpreteerd worden, om echt waardevol te zijn. </documentation>
-        <property key="Implicaties" value="Modelelementen in informatie- en gegevensmodellen zoals objecttypes en attribuutsoorten refereren expliciet naar de gedefinieerde begrippen die ze representeren."/>
-        <property key="Implicaties" value="In informatie- en gegevensmodellen wordt ook gerefereerd naar de beperkingsregels en afleidingsregels die van toepassing zijn."/>
-        <property key="Implicaties" value="Bij metagegevens over datasets zijn ook metagegevens beschikbaar over de objecttypen en attribuutsoorten van de in de dataset aanwezige gegevens."/>
-        <property key="Implicaties" value="Informatieobjecten zoals documenten en datasets zijn voorzien van begrippen zodat ze beter vindbaar zijn."/>
-        <property key="Implicaties" value="Bij de uitgewisselde gegevens is een verwijzing aanwezig naar het gebruikte schema."/>
-        <property key="Implicaties" value="Data-elementen in schema’s (zoals JSON schema’s en XML schema’s) verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren."/>
-        <property key="Implicaties" value="Er is bij de documentatie van diensten of operaties in datadiensten beschreven welke beperkingsregels en afleidingsregels worden toegepast."/>
+        <property key="Implicaties" value="1. Modelelementen in informatie- en gegevensmodellen zoals objecttypes en attribuutsoorten refereren expliciet naar de gedefinieerde begrippen die ze representeren."/>
+        <property key="Implicaties" value="2. In informatie- en gegevensmodellen wordt ook gerefereerd naar de beperkingsregels en afleidingsregels die van toepassing zijn."/>
+        <property key="Implicaties" value="3. Bij metagegevens over datasets zijn ook metagegevens beschikbaar over de objecttypen en attribuutsoorten van de in de dataset aanwezige gegevens."/>
+        <property key="Implicaties" value="4. Informatieobjecten zoals documenten en datasets zijn voorzien van begrippen zodat ze beter vindbaar zijn."/>
+        <property key="Implicaties" value="5. Bij de uitgewisselde gegevens is een verwijzing aanwezig naar het gebruikte schema."/>
+        <property key="Implicaties" value="6. Data-elementen in schema’s (zoals JSON schema’s en XML schema’s) verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren."/>
+        <property key="Implicaties" value="7. Er is bij de documentatie van diensten of operaties in datadiensten beschreven welke beperkingsregels en afleidingsregels worden toegepast."/>
       </element>
       <element xsi:type="archimate:Principle" name="De kwaliteit van gegevens is afgestemd op het gebruik" id="id-ff18baf9106743c8a7e736233cc94522">
         <documentation>Het is belangrijk dat gebruikers beschikken over gegevens die optimaal aansluiten bij hun eigen behoeften en gebruik. Daarbij is de kunst om een balans te vinden tussen kwaliteit en kosten. Een hele hoge kwaliteit leidt al snel tot onacceptabele kosten. De vraag is dus vooral wat nodig is in een specifieke context. Dit vraagt dus vooral bewuste afwegingen. Het terugmelden van mogelijke fouten is een belangrijke maatregel voor het verhogen van de gegevenskwaliteit. In meer algemene zin is afstemming tussen aanbieder en afnemer essentieel, zowel voorafgaand als gedurende het gebruik. Afnemers kunnen door het terugmelden van mogelijke fouten zorgen dat de kwaliteit beter aansluit bij hun behoeften.</documentation>
-        <property key="Implicaties" value="De eisen die gebruikers stelllen aan de kwaliteit van gegevens worden expliciet gemaakt in elke gebruikscontext."/>
-        <property key="Implicaties" value="Als afnemers specifieke kwaliteitseisen stellen en overeenkomen dan worden deze vastgelegd in een overeenkomst met de aanbieder."/>
-        <property key="Implicaties" value="De huidige kwaliteit van gegevens wordt expliciet gemeten en inzichtelijk gemaakt in de metagegevens, op een voor afnemers begrijpelijke wijze."/>
-        <property key="Implicaties" value="Aanbieders bieden mogelijkheid om vermoedelijke fouten in registraties terug te melden en informeren melders over de afhandeling ervan."/>
-        <property key="Implicaties" value="Als er een verschil is tussen de eisen die worden gesteld vanuit gebruik en de huidige kwaliteit dan vindt hierover afstemming tussen aanbieder en afnemer plaats en wordt een afweging tussen kosten en baten gemaakt."/>
+        <property key="Implicaties" value="1. De eisen die gebruikers stelllen aan de kwaliteit van gegevens worden expliciet gemaakt in elke gebruikscontext."/>
+        <property key="Implicaties" value="2. Als afnemers specifieke kwaliteitseisen stellen en overeenkomen dan worden deze vastgelegd in een overeenkomst met de aanbieder."/>
+        <property key="Implicaties" value="3. De huidige kwaliteit van gegevens wordt expliciet gemeten en inzichtelijk gemaakt in de metagegevens, op een voor afnemers begrijpelijke wijze."/>
+        <property key="Implicaties" value="4. Aanbieders bieden mogelijkheid om vermoedelijke fouten in registraties terug te melden en informeren melders over de afhandeling ervan."/>
+        <property key="Implicaties" value="5. Als er een verschil is tussen de eisen die worden gesteld vanuit gebruik en de huidige kwaliteit dan vindt hierover afstemming tussen aanbieder en afnemer plaats en wordt een afweging tussen kosten en baten gemaakt."/>
       </element>
     </folder>
   </folder>
