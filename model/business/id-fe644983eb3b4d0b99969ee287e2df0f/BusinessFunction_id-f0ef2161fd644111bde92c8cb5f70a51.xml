@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Evalueren contractafspraken"
+    name="Evalueren en bijstellen contractafspraken"
     id="id-f0ef2161fd644111bde92c8cb5f70a51"
-    documentation="Het bepalen in welke mate partijen hebben voldaan aan de gemaakte contractafspraken."/>
+    documentation="Het bepalen in welke mate partijen hebben voldaan aan de gemaakte contractafspraken en het aanpassen van contractafspraken aan nieuwe inzichten."/>
