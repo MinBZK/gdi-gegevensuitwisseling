@@ -271,13 +271,13 @@
         <documentation>Het bepalen welke bedragen partijen aan elkaar verschuldigd zijn gegeven de gegevensuitwisselingen die hebben plaatsgevonden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Loggen ontvangsten" id="id-2cefc04003f94fcb9721acbc42c92adf">
-        <documentation>Het vastleggen van emetadata over de gegeven die zijn ontvangen.</documentation>
+        <documentation>Het vastleggen van emetadata over de gegeven die zijn ontvangen van aanbieders.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Contracteren partijen" id="id-39f6f8b9cd4644899f7436319b567b77">
         <documentation>Het maken van contractuele afspraken tussen aanbieders, intermediairs en afnemers van gegevens.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessFunction" name="Loggen gegevensuitwisselingen" id="id-3b0a1d7d37fd44ab8463f05620c4997d">
-        <documentation>Het vastleggen van metadata over gegevensuitwisselingen die hebben plaatsgevonden.</documentation>
+      <element xsi:type="archimate:BusinessFunction" name="Loggen verzendingen" id="id-3b0a1d7d37fd44ab8463f05620c4997d">
+        <documentation>Het vastleggen van metadata over de gegevens die zijn verzonden van aanbieders naar afnemers.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beschikbaar stellen actuele gegevens" id="id-40f2e2d826cb46b3807a92ba2f3dc691">
         <documentation>Het toegankelijk maken van gegevens die de actuele stand weergeven.</documentation>
@@ -312,8 +312,8 @@
       <element xsi:type="archimate:BusinessFunction" name="Beschikbaar stellen metagegevens" id="id-5ef12d74a642417684910d16092653f2">
         <documentation>Het breed toegankelijk maken van allerlei vormen van metagegevens voor afnemers.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessFunction" name="Ethisch, juridisch en sociaal toetsen van gegevensuitwisseling" id="id-6572c141a9734d8ab64400552d10974a">
-        <documentation>Het controleren of een gewenste gegevensuitwisseling voldoet aan ethische, juridische en sociale normen en afspraken.</documentation>
+      <element xsi:type="archimate:BusinessFunction" name="Toetsen gegevensuitwisseling aan privacy en ethiek" id="id-6572c141a9734d8ab64400552d10974a">
+        <documentation>Het controleren of een gewenste gegevensuitwisseling voldoet aan ethische en privacy waarden, normen en afspraken.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren informatie- en gegevensmodellen" id="id-66e29db64fa94a2b86401169f8f08aed">
         <documentation>Het creëren, vastleggen, wijzigen en verwijderen van informatiemodellen en logische en fysieke gegevensmodellen.</documentation>
@@ -372,14 +372,14 @@
       <element xsi:type="archimate:BusinessFunction" name="Vertalen protocollen" id="id-eb64c1bcb6af46da9cc40b24284e5b69">
         <documentation>Het beschikbaar stellen van gegevens conform een protocol, anders dan het originele protocol.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessFunction" name="Evalueren contractafspraken" id="id-f0ef2161fd644111bde92c8cb5f70a51">
-        <documentation>Het bepalen in welke mate partijen hebben voldaan aan de gemaakte contractafspraken.</documentation>
+      <element xsi:type="archimate:BusinessFunction" name="Evalueren en bijstellen contractafspraken" id="id-f0ef2161fd644111bde92c8cb5f70a51">
+        <documentation>Het bepalen in welke mate partijen hebben voldaan aan de gemaakte contractafspraken en het aanpassen van contractafspraken aan nieuwe inzichten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beschikbaar stellen verifieerbare verklaring" id="id-f2920b273337408fbcb8aad5795bdd2b">
         <documentation>Het toegankelijk maken van een bewering over iets of iemand op een manier die gecontroleerd kan worden.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessFunction" name="Evalueren samenwerking" id="id-f42973772a34492b919745229e4a9735">
-        <documentation>Het bepalen in welke mate de samenwerking werkt en voldoende waarde oplevert voor de betrokken partijen.</documentation>
+      <element xsi:type="archimate:BusinessFunction" name="Evalueren en bijstellen samenwerking" id="id-f42973772a34492b919745229e4a9735">
+        <documentation>Het bepalen in welke mate de samenwerking werkt en voldoende waarde oplevert voor de betrokken partijen en het aanpassen van samenwerkingsafspraken aan nieuwe inzichten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren metagegevens over gegevensdiensten" id="id-f5d4c4f8264842e7ab69504476a0cdd4">
         <documentation>Het creëren, vastleggen, wijzigen en verwijderen van gegevens over gegevensdiensten.</documentation>
@@ -1263,7 +1263,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
       <element xsi:type="archimate:Principle" name="Gegevens worden geleverd vanuit herbruikbare gegevensdiensten" id="id-95d4a5adf6e44308b2126fb23ae66a73">
         <documentation>Door vanuit hergebruik naar de clustering van functionaliteit en gegevens te kijken wordt voorkomen dat specifieke afnemers eigen specifieke gegevens en gegevensdiensten vragen. De intentie is dat hergebruik efficiënter en meer beheersbaar is dan het gebruik van point-to-point koppelingen omdat het tot minder koppelingen leidt.</documentation>
         <property key="Implicaties" value="1. Gegevensdiensten leveren een clustering van functionaliteit en gegevens die past bij de behoeften van een grote hoeveelheid afnemers."/>
-        <property key="Implicaties" value="2. Gegevensdiensten worden kenbaar gemaakt in relevante catalogi zoals developer.overheid.nl, data.overheid.nl en/of het Nationaal Geo Register."/>
+        <property key="Implicaties" value="2. Gegevensdiensten worden kenbaar gemaakt in developer.overheid.nl, data.overheid.nl en/of het Nationaal Geo Register."/>
         <property key="Implicaties" value="3. Aanbieders van gegevensdiensten voor afnemers relevante testfaciliteiten zoals een testomgeving, testdata en/of testscripts, met name als de gegevensdienst meer behelst dan het ontsluiten van open data."/>
         <property key="Implicaties" value="4. Gegevensdiensten die zijn gerealiseerd als RESTful API voldoen aan de Nederlandse API-strategie en de REST API Design Rules."/>
         <property key="Implicaties" value="5. Er zijn beschrijvingen van de serviceniveaus die gelden voor de gegevensdienst beschikbaar en deze serviceniveaus worden gemonitord door de aanbieder."/>
