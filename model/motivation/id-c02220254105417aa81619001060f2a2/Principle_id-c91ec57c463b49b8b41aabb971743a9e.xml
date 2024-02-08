@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Aan gegevensuitwisseling ligt een overeenkomst ten grondslag"
+    name="2.2. Aan gegevensuitwisseling ligt een overeenkomst ten grondslag"
     id="id-c91ec57c463b49b8b41aabb971743a9e"
     documentation="Op het moment dat gegevens niet publiek beschikbaar zijn, dan zijn er voorwaarden die expliciet overeen moeten worden gekomen tussen aanbieders en afnemers. Pas na uitdrukkelijke overeenstemming tussen aanbieder en afnemer is er voldoende zekerheid dat aan de voorwaarden zal worden voldaan. Bij open data ligt dat genuanceerder omdat deze in de basis voor iedereen herbruikbaar zijn. Er horen echter wel voorwaarden bij open data, die impliciet geaccepteerd worden door het gebruik ervan.">
   <properties

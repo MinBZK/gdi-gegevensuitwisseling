@@ -13,7 +13,7 @@
         x="804"
         y="-36"
         width="577"
-        height="565"/>
+        height="601"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
         id="id-6f19fdcc5111481ca76166b4e19114cb"
@@ -266,6 +266,22 @@
             xsi:type="archimate:Constraint"
             href="Constraint_id-90ed729aa9144f2bad8d25d7bd4b9c0b.xml#id-90ed729aa9144f2bad8d25d7bd4b9c0b"/>
       </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-6e56842a35314d6e87cc151ffb8797b0"
+          fillColor="#ffffff">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="372"
+            y="228"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-722d227311134e49a0f133a054b7b6aa.xml#id-722d227311134e49a0f133a054b7b6aa"/>
+      </children>
     </children>
     <children
         xsi:type="archimate:DiagramModelGroup"
@@ -277,7 +293,7 @@
           x="12"
           y="312"
           width="553"
-          height="241"/>
+          height="277"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-cd9adb71ff0045c5a06e6533aa5ddeb8"
@@ -465,6 +481,74 @@
             xsi:type="archimate:Constraint"
             href="Constraint_id-25074a472a37451c87083003b618cb81.xml#id-25074a472a37451c87083003b618cb81"/>
       </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-bad3b0f684ab4d4ea1ae9fb87acff9ee"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="372"
+            y="180"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-b6dcc54033c54e28af9ab38462132c3c.xml#id-b6dcc54033c54e28af9ab38462132c3c"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-a85c01c9dc8841f4a4dec13c4e4faa35"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="372"
+            y="228"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-9d943684fc1e4678a99a37ec061dcd19.xml#id-9d943684fc1e4678a99a37ec061dcd19"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-d1fbc6eefc064f49913a8a3a4931772b"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="192"
+            y="228"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-68db626621624ecea3aba47a8ca6ed23.xml#id-68db626621624ecea3aba47a8ca6ed23"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-524ff4a199a74e1990058d809cbbd675"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="12"
+            y="228"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-d974da9b3dc341f1b2c6e22e4009796a.xml#id-d974da9b3dc341f1b2c6e22e4009796a"/>
+      </children>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -487,9 +571,9 @@
     </sourceConnections>
     <bounds
         x="1392"
-        y="540"
+        y="288"
         width="409"
-        height="73"/>
+        height="361"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a96a555a4d7948aea8aefe0d10868440"
@@ -501,12 +585,92 @@
           value="2"/>
       <bounds
           x="24"
-          y="24"
+          y="168"
           width="169"
           height="37"/>
       <archimateElement
           xsi:type="archimate:Constraint"
           href="Constraint_id-bd9f9a2fe62245c7ae1f01f5ff6ee28a.xml#id-bd9f9a2fe62245c7ae1f01f5ff6ee28a"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelGroup"
+        id="id-e301a178e8774ff689765facec1493f6"
+        name="Beperkingsregels"
+        textAlignment="1"
+        fillColor="#ffffb5">
+      <bounds
+          x="12"
+          y="24"
+          width="379"
+          height="131"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-31667206382c4bf3ae3a007452a091d7"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="12"
+            y="36"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-978c37663b714e0fbdc9ec088db243d4.xml#id-978c37663b714e0fbdc9ec088db243d4"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-5657d99b2615429188cef1ee54480770"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="12"
+            y="84"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-dfbe1c09e48c41ebbf57626a369f05d7.xml#id-dfbe1c09e48c41ebbf57626a369f05d7"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-52abfd34335848be9c80498e019ec048"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="192"
+            y="36"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-adefb7b185264eaa958b42be410c314d.xml#id-adefb7b185264eaa958b42be410c314d"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-e73ebf5d73794f4aa4103b644145ae49"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="192"
+            y="84"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-654de455909049e5880ca18ca40935ed.xml#id-654de455909049e5880ca18ca40935ed"/>
+      </children>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -529,7 +693,7 @@
     </sourceConnections>
     <bounds
         x="804"
-        y="540"
+        y="576"
         width="577"
         height="73"/>
     <children
@@ -564,7 +728,7 @@
         x="12"
         y="-36"
         width="781"
-        height="589"/>
+        height="685"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
         id="id-113b82041e6c4b14a65cf34f97b29f6a"
@@ -1154,87 +1318,7 @@
         x="1392"
         y="-36"
         width="409"
-        height="565"/>
-    <children
-        xsi:type="archimate:DiagramModelGroup"
-        id="id-e301a178e8774ff689765facec1493f6"
-        name="Beperkingsregels"
-        textAlignment="1"
-        fillColor="#ffffb5">
-      <bounds
-          x="18"
-          y="24"
-          width="379"
-          height="131"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-31667206382c4bf3ae3a007452a091d7"
-          fillColor="#ffffff"
-          textPosition="1">
-        <features
-            name="iconVisible"
-            value="2"/>
-        <bounds
-            x="12"
-            y="36"
-            width="169"
-            height="37"/>
-        <archimateElement
-            xsi:type="archimate:Constraint"
-            href="Constraint_id-978c37663b714e0fbdc9ec088db243d4.xml#id-978c37663b714e0fbdc9ec088db243d4"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-5657d99b2615429188cef1ee54480770"
-          fillColor="#ffffff"
-          textPosition="1">
-        <features
-            name="iconVisible"
-            value="2"/>
-        <bounds
-            x="12"
-            y="84"
-            width="169"
-            height="37"/>
-        <archimateElement
-            xsi:type="archimate:Constraint"
-            href="Constraint_id-dfbe1c09e48c41ebbf57626a369f05d7.xml#id-dfbe1c09e48c41ebbf57626a369f05d7"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-52abfd34335848be9c80498e019ec048"
-          fillColor="#ffffff"
-          textPosition="1">
-        <features
-            name="iconVisible"
-            value="2"/>
-        <bounds
-            x="192"
-            y="36"
-            width="169"
-            height="37"/>
-        <archimateElement
-            xsi:type="archimate:Constraint"
-            href="Constraint_id-adefb7b185264eaa958b42be410c314d.xml#id-adefb7b185264eaa958b42be410c314d"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-e73ebf5d73794f4aa4103b644145ae49"
-          fillColor="#ffffff"
-          textPosition="1">
-        <features
-            name="iconVisible"
-            value="2"/>
-        <bounds
-            x="192"
-            y="84"
-            width="169"
-            height="37"/>
-        <archimateElement
-            xsi:type="archimate:Constraint"
-            href="Constraint_id-654de455909049e5880ca18ca40935ed.xml#id-654de455909049e5880ca18ca40935ed"/>
-      </children>
-    </children>
+        height="313"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
         id="id-4c2ac36b805d421390f3b24bbf44feae"
@@ -1242,8 +1326,8 @@
         textAlignment="1"
         fillColor="#ffffb5">
       <bounds
-          x="18"
-          y="168"
+          x="12"
+          y="24"
           width="379"
           height="229"/>
       <children

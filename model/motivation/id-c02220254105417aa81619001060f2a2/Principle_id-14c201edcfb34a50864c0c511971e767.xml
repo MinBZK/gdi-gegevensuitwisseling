@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Burgers hebben regie over hun eigen gegevens"
+    name="1.5. Burgers hebben regie over hun eigen gegevens"
     id="id-14c201edcfb34a50864c0c511971e767"
     documentation="Het is belangrijk dat burgers zelf een verantwoordelijkheid hebben in het bepalen van de gegevens die over henzelf worden uitgewisseld, voor welk doel en dat ze inzicht hebben in welke uitwisselingen hebben plaatsgevonden. Voor burgers zijn rechten voor de uitwisseling van persoonsgegevens voor een deel al geborgd in bijvoorbeeld de AVG. Vanuit de AVG is ook belangrijk dat burgers expliciet toestemming geven voor gebruik van hun gegevens als hiervoor geen andere wettelijke grondslag is. Dit staat los van dat ze zichzelf ook kunnen laten vertegenwoordigen middels een machtiging. In de nieuwe eIDAS-verordening worden aan burgers en organisaties verdergaande rechten gegeven, waarbij ze de mogelijkheid krijgen om zelf gegevens via eigen wallets te verstrekken aan partijen.">
   <properties
