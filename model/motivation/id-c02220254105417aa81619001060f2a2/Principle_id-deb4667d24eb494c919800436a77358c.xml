@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Gegevensuitwisselingen zijn gerelateerd aan de transactie waarop ze betrekking hebben "
+    name="4.5. Gegevensuitwisselingen zijn gerelateerd aan de transactie waarop ze betrekking hebben "
     id="id-deb4667d24eb494c919800436a77358c"
     documentation="Als inzicht is in alle gegevensuitwisselingen die bij en (business) transactie horen dan wordt het eenvoudiger om foutanalyses uit te voeren. Daarnaast maakt het ook mogelijk om op (business) transactieniveau analyses te doen van bijvoorbeeld doorlooptijden en bottlenecks. Het ondersteunt ook de onderlinge verrekening van diensten met betrekking tot gegevensuitwisseling.">
   <properties

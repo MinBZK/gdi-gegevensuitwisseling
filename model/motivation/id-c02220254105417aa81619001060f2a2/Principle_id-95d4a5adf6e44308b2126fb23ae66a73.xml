@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Gegevens worden geleverd vanuit herbruikbare gegevensdiensten"
+    name="4.1. Gegevens worden geleverd vanuit herbruikbare gegevensdiensten"
     id="id-95d4a5adf6e44308b2126fb23ae66a73"
     documentation="Door vanuit hergebruik naar de clustering van functionaliteit en gegevens te kijken wordt voorkomen dat specifieke afnemers eigen specifieke gegevens en gegevensdiensten vragen. De intentie is dat hergebruik efficiënter en meer beheersbaar is dan het gebruik van point-to-point koppelingen omdat het tot minder koppelingen leidt.">
   <properties
