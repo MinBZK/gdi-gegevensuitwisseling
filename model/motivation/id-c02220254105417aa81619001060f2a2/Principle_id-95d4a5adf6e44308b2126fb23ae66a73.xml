@@ -8,7 +8,7 @@
       value="1. Gegevensdiensten leveren een clustering van functionaliteit en gegevens die past bij de behoeften van een grote hoeveelheid afnemers."/>
   <properties
       key="Implicaties"
-      value="2. Gegevensdiensten worden kenbaar gemaakt in developer.overheid.nl, data.overheid.nl en/of het Nationaal Geo Register."/>
+      value="2. Gegevensdiensten worden kenbaar gemaakt in developer.overheid.nl, data.overheid.nl en als het geodata betreft ook in het Nationaal Geo Register."/>
   <properties
       key="Implicaties"
       value="3. Aanbieders van gegevensdiensten voor afnemers relevante testfaciliteiten zoals een testomgeving, testdata en/of testscripts, met name als de gegevensdienst meer behelst dan het ontsluiten van open data."/>

@@ -1,0 +1,21 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="1.7. Partijen worden bij gegevensuitwisseling afgeschermd van onnodige complexiteit"
+    id="id-e0a280a70ebe45558fda4c5cfc3d35f2"
+    documentation="Gegevensuitwisseling vraagt veel inspanning en specifieke competenties. Organisaties moeten allerlei activiteiten uitvoeren en over allerlei functionaliteiten beschikken. Dit is voor kleinere organisaties al snel een hoge drempel. Gegevensuitwisseling is inherent complex, maar partijen kunnen ook worden afgeschermd van onnodige complexiteiten. Dat is bijvoorbeeld het geval als partijen geconfronteerd worden met een groot aantal koppelingen, die ook achter één generiek koppelvlak kunnen worden verborgen. Andere belangrijke categorieën van complexiteit waarvan partijen willen worden afgeschermd zijn: gegevens die ze niet nodig hebben, wijzigingen in gegevensstructuren en de diversiteit aan gegevensmodellen, formaten en protocollen waarin gegevens worden uitgewisseld. ">
+  <properties
+      key="Implicaties"
+      value="1. Als meerdere partijen gegevens moeten uitwisselen met meerdere andere partijen dan wordt onderzocht of een voorziening de uitwisseling met die andere partijen kan afschermen."/>
+  <properties
+      key="Implicaties"
+      value="2. Als dezelfde gegevens in verschillende gegevensmodellen, formaten of protocollen moeten worden uitgewisseld dan wordt onderzocht of een voorziening deze vertalingen kan verzorgen."/>
+  <properties
+      key="Implicaties"
+      value="3. Wijzigingen die worden aangebracht in de definitie van de gegevens die worden uitgewisseld worden zoveel mogelijk backwards compatible gedefinieerd."/>
+  <properties
+      key="Implicaties"
+      value="4. De eenheden waarin gegevens worden aangeboden (zoals datasets of gegevensdiensten) zijn afgestemd op de gegevensbehoeften van afnemers."/>
+  <properties
+      key="Implicaties"
+      value="5.  Als er een diversiteit aan gegevensbehoeften is bij afnemers, dan wordt gestreefd naar het kunnen aanbieden van de gegevens in verschillende eenheden. "/>
+</archimate:Principle>
