@@ -8,14 +8,17 @@
       value="1. Binnen sectoren en domeinen wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens."/>
   <properties
       key="Implicaties"
-      value="2. Er wordt breed afgestemd met partijen in de sector of het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
+      value="2. Er is een regisseur die de leiding neemt in het organiseren van de samenwerking en het maken, monitoren, evalueren en bijstellen van afspraken."/>
   <properties
       key="Implicaties"
-      value="3. Er wordt onderzocht of er binnen de context van specifieke sectoren of domeinen specifieke voorzieningen wenselijk zijn die gegevensuitwisseling kunnen vereenvoudigen."/>
+      value="3. Er wordt breed afgestemd met partijen in de sector of het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
   <properties
       key="Implicaties"
-      value="4. Afspraken, standaarden en voorzieningen worden alleen centraal georganiseerd als het moet, decentraal als het kan."/>
+      value="4. Er wordt onderzocht of er binnen de context van specifieke sectoren of domeinen specifieke voorzieningen wenselijk zijn die gegevensuitwisseling kunnen vereenvoudigen."/>
   <properties
       key="Implicaties"
-      value="5. Er zijn binnen specifieke sectoren of domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
+      value="5. Afspraken, standaarden en voorzieningen worden alleen centraal georganiseerd als het moet, decentraal als het kan."/>
+  <properties
+      key="Implicaties"
+      value="6. Er zijn binnen specifieke sectoren of domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
 </archimate:Principle>
