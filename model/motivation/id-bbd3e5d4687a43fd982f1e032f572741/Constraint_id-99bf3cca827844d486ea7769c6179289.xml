@@ -1,0 +1,8 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="eIDAS 2.0"
+    id="id-99bf3cca827844d486ea7769c6179289"
+    documentation="Met dit voorstel wil de EC de EU-verordening nr. 910/2014 (de eIDAS-verordening) wijzigen. De afkorting eIDAS staat voor ‘electronic IDentities And Trust Services’. De Europese Unie wil met de verordening Europees kader voor een digitale identiteit regelen dat het makkelijker en veiliger wordt om binnen Europa online zaken te regelen, er wordt beoogd: &#xD;&#xA;• om toegang tot sterk beveiligde en betrouwbare elektronische identiteitsoplossingen te bieden; &#xD;&#xA;• dat openbare en particuliere diensten betrouwbare en veilige digitale- identiteitsoplossingen kunnen gebruiken; &#xD;&#xA;• dat natuurlijke en rechtspersonen digitale-identiteitsoplossingen kunnen gebruiken; &#xD;&#xA;• dat deze oplossingen verbonden zijn met een reeks attributen en dat daarmee identiteitsgegevens gericht kunnen worden gedeeld, binnen de grenzen van hetgeen voor de gevraagde specifieke dienst nodig is; &#xD;&#xA;• dat gekwalificeerde vertrouwensdiensten in de EU worden aanvaard en dat gelijke voorwaarden gelden voor de verlening daarvan. ">
+  <profiles
+      href="folder.xml#id-930df6e4bb244a22a47f4820a36fd1c5"/>
+</archimate:Constraint>
