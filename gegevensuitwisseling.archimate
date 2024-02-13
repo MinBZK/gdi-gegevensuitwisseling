@@ -1297,10 +1297,11 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
       <element xsi:type="archimate:Principle" name="2.1. Gegevensuitwisseling is federatief georganiseerd" id="id-8418d8cf38694245bdd592d1a4583f1e">
         <documentation>Gegevensuitwisseling is in heel veel sectoren, domeinen en op allerlei niveaus relevant, die allemaal eigen eisen stellen. Het is daarom nodig om gegevensuitwisseling te clusteren en in sectoren en/of domeinen samen te werken en meer specifieke afspraken te maken. Dit is ook een intentie achter de data spaces zoals voorgesteld door de Europese Commissie. Daarbij moet tevens de interoperabiliteit tussen de sectoren en domeinen bewaakt worden en zijn ook overkoepelende afspraken en standaarden nodig. Samenwerkingen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien en andere partijen te betrekken. Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.</documentation>
         <property key="Implicaties" value="1. Binnen sectoren en domeinen wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens."/>
-        <property key="Implicaties" value="2. Er wordt breed afgestemd met partijen in de sector of het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
-        <property key="Implicaties" value="3. Er wordt onderzocht of er binnen de context van specifieke sectoren of domeinen specifieke voorzieningen wenselijk zijn die gegevensuitwisseling kunnen vereenvoudigen."/>
-        <property key="Implicaties" value="4. Afspraken, standaarden en voorzieningen worden alleen centraal georganiseerd als het moet, decentraal als het kan."/>
-        <property key="Implicaties" value="5. Er zijn binnen specifieke sectoren of domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
+        <property key="Implicaties" value="2. Er is een regisseur die de leiding neemt in het organiseren van de samenwerking en het maken, monitoren, evalueren en bijstellen van afspraken."/>
+        <property key="Implicaties" value="3. Er wordt breed afgestemd met partijen in de sector of het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
+        <property key="Implicaties" value="4. Er wordt onderzocht of er binnen de context van specifieke sectoren of domeinen specifieke voorzieningen wenselijk zijn die gegevensuitwisseling kunnen vereenvoudigen."/>
+        <property key="Implicaties" value="5. Afspraken, standaarden en voorzieningen worden alleen centraal georganiseerd als het moet, decentraal als het kan."/>
+        <property key="Implicaties" value="6. Er zijn binnen specifieke sectoren of domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
       </element>
       <element xsi:type="archimate:Principle" name="4.1. Gegevens worden geleverd vanuit herbruikbare gegevensdiensten" id="id-95d4a5adf6e44308b2126fb23ae66a73">
         <documentation>Door vanuit hergebruik naar de clustering van functionaliteit en gegevens te kijken wordt voorkomen dat specifieke afnemers eigen specifieke gegevens en gegevensdiensten vragen. De intentie is dat hergebruik efficiënter en meer beheersbaar is dan het gebruik van point-to-point koppelingen omdat het tot minder koppelingen leidt.</documentation>
@@ -1317,6 +1318,13 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
         <property key="Implicaties" value="3. Als actuele gegevens nodig zijn dan worden deze direct bij de bron geraadpleegd."/>
         <property key="Implicaties" value="4. Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>
         <property key="Implicaties" value="5. Er wordt geen lokale kopie van gegevens gemaakt, tenzij er specifieke eisen zijn die daarom vragen."/>
+      </element>
+      <element xsi:type="archimate:Principle" name="2.4. Inhoudelijke bewerkingen leiden tot een nieuwe bron" id="id-9e1a52cddbc4424990208f6876b70344">
+        <documentation>Als er gegevens inhoudelijk worden bewerkt (op basis van afleidingsregels) dan ontstaan er feitelijk andere gegevens. Deze nieuwe gegevens hebben namelijk een andere betekenis dan de originele gegevens. Iemand moet verantwoordelijkheid nemen voor deze nieuwe gegevens en daarvoor aansprakelijk zijn. Daarmee onstaat dus automatisch een nieuwe organisatorische verantwoordelijkheid. De nieuwe gegevens hoeven niet per definitie ook separaat te worden opgeslagen; zij worden bij voorkeur op verzoek gecreëerd.</documentation>
+        <property key="Implicaties" value="1. Als er inhoudelijk gegevens moeten worden bewerkt tussen aanbieder en afnemer, dan wordt hiervoor een nieuwe tussenliggende organisatie aangewezen of ingericht."/>
+        <property key="Implicaties" value="2. De tussenliggende organisatie is eindverantwoordelijk en daarmee aansprakelijk voor de inhoud en kwaliteit van de geproduceerde gegevens."/>
+        <property key="Implicaties" value="3. Als er vragen of problemen zijn met de inhoud van de geproduceerde gegevens dan biedt de tussenliggende organisatie hiervoor een loket."/>
+        <property/>
       </element>
       <element xsi:type="archimate:Principle" name="4.2. Persoonsgegevens zijn beschermd bij het uitwisselen van gegevens" id="id-a1d7faf077c6431d81a6acd66ffc5b29">
         <documentation>Het is belangrijk om te voldoen aan eisen rondom privacy en informatiebeveiliging bij het uitwisselen van gegevens. Daarbij vragen met name persoonsgegevens aandacht. Privacy is wettelijk geborgd in de Algemene Verordening Gegevenbescherming. Overheidsorganisaties dienen daarnaast hun informatiebeveiliging op orde te hebben. </documentation>
@@ -1383,11 +1391,11 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
       </element>
       <element xsi:type="archimate:Principle" name="1.7. Partijen worden bij gegevensuitwisseling afgeschermd van onnodige complexiteit" id="id-e0a280a70ebe45558fda4c5cfc3d35f2">
         <documentation>Gegevensuitwisseling vraagt veel inspanning en specifieke competenties. Organisaties moeten allerlei activiteiten uitvoeren en over allerlei functionaliteiten beschikken. Dit is voor kleinere organisaties al snel een hoge drempel. Gegevensuitwisseling is inherent complex, maar partijen kunnen ook worden afgeschermd van onnodige complexiteiten. Dat is bijvoorbeeld het geval als partijen geconfronteerd worden met een groot aantal koppelingen, die ook achter één generiek koppelvlak kunnen worden verborgen. Andere belangrijke categorieën van complexiteit waarvan partijen willen worden afgeschermd zijn: gegevens die ze niet nodig hebben, wijzigingen in gegevensstructuren en de diversiteit aan gegevensmodellen, formaten en protocollen waarin gegevens worden uitgewisseld. </documentation>
-        <property key="Implicaties" value="1. Als meerdere partijen gegevens moeten uitwisselen met meerdere andere partijen dan wordt onderzocht of een voorziening de uitwisseling met die andere partijen kan afschermen."/>
+        <property key="Implicaties" value="1. Als meerdere partijen gegevens aanbieden aan meerdere andere partijen dan wordt onderzocht of een generieke gegevensdienst kan worden ingericht die afnemers afschermt van de complexiteit van de aanbieders."/>
         <property key="Implicaties" value="2. Als dezelfde gegevens in verschillende gegevensmodellen, formaten of protocollen moeten worden uitgewisseld dan wordt onderzocht of een voorziening deze vertalingen kan verzorgen."/>
         <property key="Implicaties" value="3. Wijzigingen die worden aangebracht in de definitie van de gegevens die worden uitgewisseld worden zoveel mogelijk backwards compatible gedefinieerd."/>
         <property key="Implicaties" value="4. De eenheden waarin gegevens worden aangeboden (zoals datasets of gegevensdiensten) zijn afgestemd op de gegevensbehoeften van afnemers."/>
-        <property key="Implicaties" value="5.  Als er een diversiteit aan gegevensbehoeften is bij afnemers, dan wordt gestreefd naar het kunnen aanbieden van de gegevens in verschillende eenheden. "/>
+        <property key="Implicaties" value="5. Als er een diversiteit aan gegevensbehoeften is bij afnemers, dan wordt gestreefd naar het kunnen aanbieden van de gegevens in verschillende eenheden. "/>
       </element>
       <element xsi:type="archimate:Principle" name="3.4. Metagegevens zijn aan elkaar verbonden" id="id-ed8bb4317e15400a813ffc816f0823cb">
         <documentation>Gegevens hebben metagegevens nodig om betekenis te krijgen en bruikbaar te zijn. Er zijn allerlei soorten metagegevens die verschillende aspecten van gegevens modelleren, zoals metagegevens die de betekenis beschrijven, metagegevens die de structuur beschrijven en metagegevens die beschrijven welke eenheden van gegevens beschikbaar zijn. Dit soort metagegevens moeten in relatie tot elkaar geïnterpreteerd worden, om echt waardevol te zijn. </documentation>
@@ -1540,6 +1548,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:AssociationRelationship" id="id-09e438c63ce34cbcb368b9adab9279f3" source="id-f5d4c4f8264842e7ab69504476a0cdd4" target="id-d47e17732fb344d79996d472915371e0"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0b06f75704534090b16f2b0436a32c6e" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-e0903391f835401798f98afd39daea1a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0b9241bcecba43eb96270a3d00956f8d" source="id-8f048bf52b2e497d8f033cdc091084a6" target="id-d47e17732fb344d79996d472915371e0"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-0d6ace77a10f4e339ef1f6fd2802adde" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-9e1a52cddbc4424990208f6876b70344"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0f7a897efc544d12bff166b20e2134d3" source="id-5ef12d74a642417684910d16092653f2" target="id-d47e17732fb344d79996d472915371e0"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0fcc64688809413b8e2d805a71ca9fe4" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-4a160e64388c4d53b0b4ec7340fdd42a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-10bf0d29277945fb81b0272dcd1f2db3" source="id-0bad2907f66540b5954bc5eb0e35ba9b" target="id-722d227311134e49a0f133a054b7b6aa"/>
@@ -1758,6 +1767,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:AssociationRelationship" id="id-b5f8f2d5ee3748e680bf0c4817c6e198" source="id-5559669d97cb4cdca49cbe04a07067ff" target="id-02a4804d1e204365a324f4629e057131"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b64eff2870bc4b10b1248d7996589063" source="id-bdd9ffe19f724e0fb42094958c71ce8e" target="id-bc1611966ade49bca32f7ef76c31bdad"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b802a4a77bc1410e9523be8ae6d4e2c4" source="id-83efbf11e08643ea93f8b87ff9d6e520" target="id-ce64114e055648af86127a0b29704e94"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-b82cbb81db314ed4b16183fb2fea861c" source="id-b160b994f4554d128443e7406af8d09e" target="id-3bb134dd13654c57a6395ace8aca98d5"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b98905e459754fff8253d67dc65b1185" source="id-61972e0d2c02472b903090af6f8b0650" target="id-2ca8c8a0edc245348bb3f56548636bf7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b9f66eb1c8df47e6957192ae1eeb3081" source="id-0da09931f8ac4b368c786703913087bf" target="id-0c5ff2bcee01490da929bce198ffa7e8"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-ba050e96edf1487781bc1f836d589f24" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-6656f6c85d4643d18bb5829dd0f8cef7"/>
@@ -1966,7 +1976,6 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
     <element xsi:type="archimate:TriggeringRelationship" name="use data apps" id="id-e6680a8bbe9243e59a33d93532173580" source="id-107745b889f14a93b64f1cec4e877ee4" target="id-9b2a2a90cc4e404b9e5ff718817c5fd7"/>
     <element xsi:type="archimate:TriggeringRelationship" name="log transaction" id="id-eea8d5cf411645e9827e7189981ae385" source="id-9b2a2a90cc4e404b9e5ff718817c5fd7" target="id-3cd14b45c4bf4e779922f45da25bfc69"/>
     <element xsi:type="archimate:TriggeringRelationship" name="transfer data" id="id-eeed050885c946c1ae4bfa597e84eca4" source="id-cfe25a7f054e4b6896e8969e0dc11dab" target="id-820604bbb32545759d3ffb0a63190a97"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-b82cbb81db314ed4b16183fb2fea861c" source="id-b160b994f4554d128443e7406af8d09e" target="id-3bb134dd13654c57a6395ace8aca98d5"/>
   </folder>
   <folder name="Views" id="id-a006a61a59a4410aa97243727cded72a" type="diagrams">
     <folder name="Gewenste situatie" id="id-1b70ddc9a2c04d01bd21b94782dbece6">
@@ -2004,6 +2013,7 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
           <sourceConnection xsi:type="archimate:Connection" id="id-8487bb1d6b3f4a77a060e7aefd612be2" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-219bd10f72004e918b25adeae41868f4" archimateRelationship="id-c31b5eb067a4405985eb3cc2f4fefca9"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-878e4f7f4fef48c89be884d5768d476e" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-934081c36aed4e8095fe45304a4d6823" archimateRelationship="id-d38a77edbbc8495ea645cb59f330fdec"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-37b4532c40d24b1bad39ba048444372e" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-391915030ab0439aa4c55a656ca3b1b9" archimateRelationship="id-f984d0291dfc4c58baa3da36a5120285"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d69b277d24bc47b4ad18a80351bc5ac9" source="id-9f1b3fc8bb984def968795510dd3ee8b" target="id-0bb34bad14ad4800b897dc654cb66f71" archimateRelationship="id-0d6ace77a10f4e339ef1f6fd2802adde"/>
           <child xsi:type="archimate:DiagramObject" id="id-219bd10f72004e918b25adeae41868f4" targetConnections="id-8487bb1d6b3f4a77a060e7aefd612be2" fillColor="#ffffff" textPosition="1" archimateElement="id-c91ec57c463b49b8b41aabb971743a9e">
             <bounds x="12" y="96" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
@@ -2014,6 +2024,10 @@ De wet hergebruik overheidsinformatie is de Nederlandse vertaling van de Open Da
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-391915030ab0439aa4c55a656ca3b1b9" targetConnections="id-37b4532c40d24b1bad39ba048444372e" fillColor="#ffffff" textPosition="1" archimateElement="id-b6735b8d80074ebeac5fe0e617f00bc0">
             <bounds x="12" y="156" width="301" height="49"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-0bb34bad14ad4800b897dc654cb66f71" targetConnections="id-d69b277d24bc47b4ad18a80351bc5ac9" fillColor="#ffffff" textPosition="1" archimateElement="id-9e1a52cddbc4424990208f6876b70344">
+            <bounds x="12" y="216" width="301" height="49"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
