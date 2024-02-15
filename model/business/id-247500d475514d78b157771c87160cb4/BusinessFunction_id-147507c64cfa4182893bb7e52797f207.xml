@@ -1,8 +1,0 @@
-<archimate:BusinessFunction
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Acquire data"
-    id="id-147507c64cfa4182893bb7e52797f207"
-    documentation="Depending on the service/solution and the business model put in place, this entity can acquire data on its own (manually or by using cyberphysical systems) or use tools and services of third parties to acquire data.">
-  <properties
-      key="exclude"/>
-</archimate:BusinessFunction>

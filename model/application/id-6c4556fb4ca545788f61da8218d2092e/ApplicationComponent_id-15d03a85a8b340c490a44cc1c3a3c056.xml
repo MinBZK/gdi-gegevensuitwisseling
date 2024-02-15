@@ -9,4 +9,6 @@
   <properties
       key="URL"
       value="https://www.pdok.nl/"/>
+  <profiles
+      href="folder.xml#id-3fede1bbcb0941648a2c8a077a594cb1"/>
 </archimate:ApplicationComponent>

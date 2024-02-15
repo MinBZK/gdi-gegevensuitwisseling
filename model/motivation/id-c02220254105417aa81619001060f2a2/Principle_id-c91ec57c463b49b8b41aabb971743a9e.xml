@@ -2,17 +2,20 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2.2. Aan gegevensuitwisseling ligt een overeenkomst ten grondslag"
     id="id-c91ec57c463b49b8b41aabb971743a9e"
-    documentation="Op het moment dat gegevens niet publiek beschikbaar zijn, dan zijn er voorwaarden die expliciet overeen moeten worden gekomen tussen aanbieders en afnemers. Pas na uitdrukkelijke overeenstemming tussen aanbieder en afnemer is er voldoende zekerheid dat aan de voorwaarden zal worden voldaan. Bij open data ligt dat genuanceerder omdat deze in de basis voor iedereen herbruikbaar zijn. Er horen echter wel voorwaarden bij open data, die impliciet geaccepteerd worden door het gebruik ervan.">
+    documentation="Op het moment dat gegevens niet publiek beschikbaar zijn, dan zijn er voorwaarden die expliciet overeen moeten worden gekomen tussen aanbieders en afnemers. Pas na uitdrukkelijke overeenstemming tussen aanbieder en afnemer is er voldoende zekerheid dat aan de voorwaarden zal worden voldaan. Vanuit de AVG is belangrijk dat de verwerkingsverantwoordelijke duidelijke afspraken maakt met verwerkers in verwerkingsovereenkomsten. Bij open data ligt dat genuanceerder omdat deze in de basis voor iedereen herbruikbaar zijn. Er horen echter wel voorwaarden bij open data, die impliciet geaccepteerd worden door het gebruik ervan.">
   <properties
       key="Implicaties"
       value="1. Aanbieders van gegevens beschrijven hun voorwaarden zoals de van toepassing zijnde gebruiksbeperkingen, -rechten en -plichten expliciet."/>
   <properties
       key="Implicaties"
-      value="2. Aanbieders van niet openbare gegevens sluiten een overeenkomst met afnemers waarin minimaal de grondslagen, verantwoordelijkheden, procedures, kwaliteitseisen en de betrokken gegevens zijn benoemd."/>
+      value="2. Aanbieders van persoonsgegevens sluiten een verwerkersovereenkomst af met afnemers die onderdeel zijn van een andere organisatie."/>
   <properties
       key="Implicaties"
-      value="3. Overeenkomsten worden periodiek door aanbieder en afnemers getoetst aan de realisatie, geëvalueerd en bijgesteld."/>
+      value="3. Aanbieders van persoonsgegevens sluiten een (mogelijk aanvullende) overeenkomst af met afnemers waarin minimaal de grondslagen, verantwoordelijkheden, procedures, kwaliteitseisen en de betrokken gegevens zijn benoemd."/>
   <properties
       key="Implicaties"
-      value="4. Aanbieders van niet openbare gegevens evalueren of afnemers voldoen aan de voorwaarden."/>
+      value="4. Overeenkomsten worden periodiek door aanbieder en afnemers getoetst aan de realisatie, geëvalueerd en bijgesteld."/>
+  <properties
+      key="Implicaties"
+      value="5. Aanbieders van niet openbare gegevens evalueren of afnemers voldoen aan de voorwaarden."/>
 </archimate:Principle>

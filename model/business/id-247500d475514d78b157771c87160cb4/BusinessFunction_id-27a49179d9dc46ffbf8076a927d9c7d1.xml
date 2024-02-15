@@ -1,8 +1,0 @@
-<archimate:BusinessFunction
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Clean data"
-    id="id-27a49179d9dc46ffbf8076a927d9c7d1"
-    documentation="The Data Provider can use Apps in the IDS connector to improve the quality of the data.">
-  <properties
-      key="exclude"/>
-</archimate:BusinessFunction>
