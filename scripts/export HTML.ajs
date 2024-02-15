@@ -33,11 +33,13 @@ var relationshipTypeMappings = {
 }
 
 var elementTypeMappings = {
+	"capability":"Capability",
     "business-function":"Bedrijfsfunctie",
     "business-object":"Bedrijfsobject",
 	"business-role":"Rol",
     "assessment":"knelpunt",
-    "application-component":"Voorziening",
+    "application-componentHuidige voorziening":"Huidige voorziening",
+    "application-componentGewenste voorziening":"Gewenste voorziening",
 	"driverBeleid":"Beleid",
 	"driverOntwikkeling":"Ontwikkeling",
     "requirement":"Richtlijn",
@@ -50,11 +52,13 @@ var elementTypeMappings = {
 }
 
 var elementTypePluralMappings = {
+	"capability":"capabilities",
     "business-function":"bedrijfsfuncties",
     "business-object":"bedrijfsobjecten",
 	"business-role":"rollen",
     "assessment":"knelpunten",
-    "application-component":"voorzieningen",
+    "application-componentHuidige voorziening":"huidige voorzieningen",
+    "application-componentGewenste voorziening":"gewenste voorzieningen",
 	"driverBeleid":"beleid",
 	"driverOntwikkeling":"ontwikkelingen",
 	"requirement":"richtlijnen",
@@ -66,7 +70,7 @@ var elementTypePluralMappings = {
 	"work-package": "veranderinitiatieven"
 }
 
-var elementTypes = ["business-function", "business-object", "business-role", "assessment", "application-component", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraintStandaard", "constraintWetgeving", "meaning", "grouping", "work-package"];
+var elementTypes = ["capability", "business-function", "business-object", "business-role", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraintStandaard", "constraintWetgeving", "meaning", "grouping", "work-package"];
 
 var dirPath = window.promptOpenDirectory({ title: "Kies output directory"});
 
