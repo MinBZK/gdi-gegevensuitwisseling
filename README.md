@@ -16,7 +16,7 @@ Bij de verschillende onderwerpen wordt verwezen naar diagrammen, overzichten en 
 
 ## Referentie-architectuur
 
-* Functies: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-f7226f7c68704aae807b71a2f10b1cce">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsfuncties.html">overzicht</a>
+* Functies: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-6b14d70bd65443bfbf08cd9326376898">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsfuncties.html">overzicht</a>
 * Bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-efc531031d114860a309f6eeacdad289">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsobjecten.html">overzicht</a>
 * Relatie tussen functies en bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-b6f068818d264742b80c8f4f5278aca0">diagram</a>
 * Begrippen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippen.html">details</a>
