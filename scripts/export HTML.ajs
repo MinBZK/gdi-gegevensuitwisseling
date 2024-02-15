@@ -29,7 +29,8 @@ var relationshipTypeMappings = {
     "assignment-relationship":"is toegekend aan",
     "serving-relationship":"ondersteunt",
     "association-relationship":"is gerelateerd aan",
-    "specialization-relationship":"specialiseert"
+    "specialization-relationship":"specialiseert",
+	"influence-relationship":"geeft invulling aan"	
 }
 
 var elementTypeMappings = {
