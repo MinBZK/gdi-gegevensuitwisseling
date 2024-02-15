@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="1.4. Gegevensdiensten zijn afgestemd op de behoeften van afnemers"
     id="id-e0a280a70ebe45558fda4c5cfc3d35f2"
-    documentation="Afnemers moeten vooral worden ondersteund in hun specifieke informatie- of gegevensbehoefte. Ze willen deze bij voorkeur met een zo klein mogelijke inspanning ontvangen en gegevens liever ook niet zelf combineren en vertalen, als andere partijen dat voor ze kunnen doen tegen dezelfde of lagere kosten. Ze ontvangen gegevens bij voorkeur ook in hun eigen taal en in een formaat dat ze zelf direct kunnen gebruiken. Ze willen ook niet geconfronteerd worden met gegevens die ze niet nodig hebben. Dat sluit niet aan bij het principe van dataminimalisatie zoals beschreven in de AVG en levert alleen maar extra complexiteit en afhankelijkheden.">
+    documentation="Afnemers moeten vooral worden ondersteund in hun specifieke informatie- of gegevensbehoefte. Ze willen deze bij voorkeur met een zo klein mogelijke inspanning ontvangen en gegevens liever ook niet zelf combineren en vertalen, als andere partijen dat voor ze kunnen doen tegen dezelfde of lagere kosten. Ze ontvangen gegevens bij voorkeur ook in hun eigen taal en in een formaat dat ze zelf direct kunnen gebruiken. Ze willen ook niet geconfronteerd worden met gegevens die ze niet nodig hebben. Dat sluit ook niet aan bij het principe van dataminimalisatie zoals beschreven in de AVG en levert alleen maar extra complexiteit en afhankelijkheden.">
   <properties
       key="Implicaties"
       value="1. De inhoud, omvang, taal, formaat en protocol van gegevensdiensten zijn afgestemd op de informatie- of gegevensbehoeften van afnemers."/>

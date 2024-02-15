@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Huidige voorzieningen gerelateerd aan functiemodel"
-    id="id-c15721baeefd4a45b2809fcea06f8428">
+    id="id-c15721baeefd4a45b2809fcea06f8428"
+    viewpoint="application_usage">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-8f53cbd195f94e88aee7e33b65cc0882">

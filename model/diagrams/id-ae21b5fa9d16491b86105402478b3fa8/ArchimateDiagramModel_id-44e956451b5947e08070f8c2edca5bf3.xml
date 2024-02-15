@@ -3,7 +3,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Huidige voorzieningen geplot op functiemodel"
     id="id-44e956451b5947e08070f8c2edca5bf3"
-    documentation="Publieke Dienstverlening op de Kaart is een voorziening die geografische datasets ontsluit.">
+    documentation="Publieke Dienstverlening op de Kaart is een voorziening die geografische datasets ontsluit."
+    viewpoint="application_usage">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-fb8777d79b21453da12653bda0ce47ae"

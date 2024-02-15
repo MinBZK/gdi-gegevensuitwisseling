@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Bedrijfsobjecten geplot op functiemodel"
-    id="id-b6f068818d264742b80c8f4f5278aca0">
+    id="id-b6f068818d264742b80c8f4f5278aca0"
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f255b11fe2fe41f6bb2835dfac149b4f">

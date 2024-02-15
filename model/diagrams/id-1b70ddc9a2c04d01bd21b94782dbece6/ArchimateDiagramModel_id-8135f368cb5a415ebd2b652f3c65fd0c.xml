@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Standaarden geplot op functiemodel"
-    id="id-8135f368cb5a415ebd2b652f3c65fd0c">
+    id="id-8135f368cb5a415ebd2b652f3c65fd0c"
+    viewpoint="capability">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6fb233f674ec424e983b185ed2330e6c">

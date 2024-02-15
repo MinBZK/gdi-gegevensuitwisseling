@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Architectuurprincipes geplot op functiemodel"
-    id="id-4e701366fd844120b700c114068bc91e">
+    id="id-4e701366fd844120b700c114068bc91e"
+    viewpoint="layered">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-42ee4f28760043f9bff98fac0edb4a8e">

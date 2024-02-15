@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Architectuurprincipes gerelateerd aan wetgeving en functies"
-    id="id-6b7bc157855642cea6dce7d3dc7e12bf">
+    id="id-6b7bc157855642cea6dce7d3dc7e12bf"
+    viewpoint="layered">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e658c623134448549bf55da3f4679549">
