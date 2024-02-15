@@ -1,0 +1,43 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Functiemodel (copy)"
+    id="id-e2343cfe7af54895a3320164e1c0cb05"
+    viewpoint="capability">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-1fe9a139afc6464eb69ea995e8f47cb2">
+    <bounds
+        x="341"
+        y="113"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-0da09931f8ac4b368c786703913087bf.xml#id-0da09931f8ac4b368c786703913087bf"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-d7e39c465bd04e49a730dbca25b7008b">
+    <bounds
+        x="280"
+        y="260"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-b160b994f4554d128443e7406af8d09e.xml#id-b160b994f4554d128443e7406af8d09e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-39377df8f3744c5e8fa7ed0ff56d7501">
+    <bounds
+        x="96"
+        y="74"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-0da09931f8ac4b368c786703913087bf.xml#id-0da09931f8ac4b368c786703913087bf"/>
+  </children>
+</archimate:ArchimateDiagramModel>
