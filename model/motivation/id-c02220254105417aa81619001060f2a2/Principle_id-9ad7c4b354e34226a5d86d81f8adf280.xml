@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1.4. De aangewezen bron van de gegevens is leidend"
+    name="1.5. De aangewezen bron van de gegevens is leidend"
     id="id-9ad7c4b354e34226a5d86d81f8adf280"
     documentation="Het is belangrijk dat duidelijk is waar gegevens vandaan komen. Gegevens worden onderhouden in een bron. De bron is de plaats waar de kwaliteit van gegevens wordt bewaakt. Een bron is een logische administratie en staat los van de technische implementatie. De bron is niet per definitie de registratie waar de gegevens ontstaan. Het kan bijvoorbeeld ook de plaats zijn waar ze beschikbaar worden gesteld. De bron is wel de plaats waarnaar gerefereerd moet worden, omdat het de plaats is waar het gegeven zijn legitimiteit aan ontleent.">
   <properties

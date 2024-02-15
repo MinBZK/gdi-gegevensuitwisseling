@@ -1,8 +1,0 @@
-<archimate:BusinessFunction
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Contract data consumer"
-    id="id-dc3cfdcb849044de8568e5ee0b68a178"
-    documentation="Use Apps in the IDS connector to transform the data.">
-  <properties
-      key="exclude"/>
-</archimate:BusinessFunction>

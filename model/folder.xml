@@ -19,4 +19,12 @@
       name="Ontwikkeling"
       id="id-7be84c5323e54f1b9e45b26375c7309b"
       conceptType="Driver"/>
+  <profiles
+      name="Huidige voorziening"
+      id="id-10b1e85a34ea4c249cabccc0e17a4651"
+      conceptType="ApplicationComponent"/>
+  <profiles
+      name="Gewenste voorziening"
+      id="id-3fede1bbcb0941648a2c8a077a594cb1"
+      conceptType="ApplicationComponent"/>
 </archimate:ArchimateModel>

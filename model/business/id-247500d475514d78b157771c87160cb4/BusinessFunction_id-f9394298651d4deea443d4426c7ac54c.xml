@@ -1,8 +1,0 @@
-<archimate:BusinessFunction
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Enrich data"
-    id="id-f9394298651d4deea443d4426c7ac54c"
-    documentation="Use Apps in the IDS connector to enrich the data.">
-  <properties
-      key="exclude"/>
-</archimate:BusinessFunction>

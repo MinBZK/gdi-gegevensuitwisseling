@@ -1,8 +1,0 @@
-<archimate:BusinessFunction
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Submit metadata to metadata broker"
-    id="id-e04a7edfcffe4ad5bdd0643f1c182cb3"
-    documentation="Submit metadata (self-descriptions) to a Metadata Broker.">
-  <properties
-      key="exclude"/>
-</archimate:BusinessFunction>

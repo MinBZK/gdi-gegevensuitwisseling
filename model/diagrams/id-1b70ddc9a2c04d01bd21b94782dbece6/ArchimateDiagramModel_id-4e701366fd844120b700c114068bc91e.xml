@@ -492,8 +492,8 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="1020"
-          y="36"
+          x="192"
+          y="96"
           width="301"
           height="49"/>
       <archimateElement
@@ -509,7 +509,7 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="204"
+          x="528"
           y="96"
           width="301"
           height="49"/>
@@ -560,7 +560,7 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="516"
+          x="864"
           y="96"
           width="301"
           height="49"/>
@@ -577,8 +577,8 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="828"
-          y="96"
+          x="1008"
+          y="36"
           width="301"
           height="49"/>
       <archimateElement
