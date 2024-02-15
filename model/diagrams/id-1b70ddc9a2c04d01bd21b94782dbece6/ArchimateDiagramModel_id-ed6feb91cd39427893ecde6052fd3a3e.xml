@@ -2,8 +2,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Bedrijfsobjectenmodel gerelateerd aan standaarden"
-    id="id-ed6feb91cd39427893ecde6052fd3a3e"
-    viewpoint="information_structure">
+    id="id-ed6feb91cd39427893ecde6052fd3a3e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c736df5957ae4c909d6ff45201c93dc9"
