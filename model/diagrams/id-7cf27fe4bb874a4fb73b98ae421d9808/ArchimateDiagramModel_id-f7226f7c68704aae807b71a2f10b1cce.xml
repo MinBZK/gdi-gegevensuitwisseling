@@ -39,15 +39,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-2f8f39baef4f47de9eb2c26342145afd"
-        source="id-2f21fca410ff4bc9b0c77545b99737bc"
-        target="id-54e82657d37642e5bb5c6fbad0387e50">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-c94e702dc88e4c0393a3b1f630c043f5.xml#id-c94e702dc88e4c0393a3b1f630c043f5"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-8dc779daa1ad4b8bba39057494c04ced"
         source="id-2f21fca410ff4bc9b0c77545b99737bc"
         target="id-68efe70700e448e998a7b90a38690887">
@@ -227,24 +218,6 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-54e82657d37642e5bb5c6fbad0387e50"
-        targetConnections="id-2f8f39baef4f47de9eb2c26342145afd"
-        fillColor="#ffffff"
-        textPosition="1">
-      <features
-          name="iconVisible"
-          value="2"/>
-      <bounds
-          x="12"
-          y="456"
-          width="157"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessFunction"
-          href="BusinessFunction_id-57206781753a4a6e9ff701472fc3cbef.xml#id-57206781753a4a6e9ff701472fc3cbef"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-3bd8ccb81de140d8b5a76d6760f35e69"
         targetConnections="id-30df6c869e8a4f7ca1a05af90294efe1"
         fillColor="#ffffff"
@@ -271,8 +244,8 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="12"
-          y="396"
+          x="180"
+          y="36"
           width="157"
           height="55"/>
       <archimateElement
@@ -307,8 +280,8 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="180"
-          y="276"
+          x="12"
+          y="468"
           width="157"
           height="55"/>
       <archimateElement
@@ -361,8 +334,8 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="180"
-          y="36"
+          x="12"
+          y="396"
           width="157"
           height="55"/>
       <archimateElement
