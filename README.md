@@ -29,7 +29,7 @@ Bij de verschillende onderwerpen wordt verwezen naar diagrammen, overzichten en 
 ## Gewenste situatie
 
 * Ontwikkelingen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/ontwikkelingen.html">overzicht</a>
-* Wet- en regelgeving: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/wetten.html">overzicht</a>, Wet- en regelgeving: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/wettendetails.html">details</a> 
+* Wet- en regelgeving: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/wetten.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/wettendetails.html">details</a> 
 * Beleid en architecturen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/beleid.html">overzicht</a>
 * Capabilities: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-c86dd5efc983469aa01d883e87689369">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/capabilities.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/capabilitiesdetails.html">details</a>
 * Architectuurprincipes: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-4e701366fd844120b700c114068bc91e">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principes.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principesdetails.html">details</a>
