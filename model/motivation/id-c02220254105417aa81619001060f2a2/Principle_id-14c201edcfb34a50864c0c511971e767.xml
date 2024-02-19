@@ -1,21 +1,21 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1.7. Burgers hebben regie over hun eigen gegevens"
+    name="1.6. Gebruikers hebben regie over hun eigen gegevens"
     id="id-14c201edcfb34a50864c0c511971e767"
-    documentation="Het is belangrijk dat burgers zelf een verantwoordelijkheid hebben in het bepalen van de gegevens die over henzelf worden uitgewisseld, voor welk doel en dat ze inzicht hebben in welke uitwisselingen hebben plaatsgevonden. Voor burgers zijn rechten voor de uitwisseling van persoonsgegevens voor een deel al geborgd in bijvoorbeeld de AVG. Vanuit de AVG is ook belangrijk dat burgers expliciet toestemming geven voor gebruik van hun gegevens als hiervoor geen andere wettelijke grondslag is. Dit staat los van dat ze zichzelf ook kunnen laten vertegenwoordigen middels een machtiging. In de nieuwe eIDAS-verordening worden aan burgers en organisaties verdergaande rechten gegeven, waarbij ze de mogelijkheid krijgen om zelf gegevens via eigen wallets te verstrekken aan partijen.">
+    documentation="De Europese datastrategie stelt dat mensen meer macht moeten krijgen over data die zij genereren en dat zij daarom middelen en bevoegdheden nodig hebben om te beslissen wat er met hun gegevens gebeurt. Voor burgers zijn rechten voor de uitwisseling van persoonsgegevens voor een deel al geborgd in de AVG. De AVG stelt bijvoorbeeld dat burgers recht hebben op data portabiliteit, dat zij expliciet toestemming moeten geven voor gebruik van hun gegevens als hiervoor geen andere wettelijke grondslag is en dat zij deze toestemming weer eenvoudig moeten kunnen intrekken. Dit staat los van dat ze zichzelf ook kunnen laten vertegenwoordigen middels een machtiging. In de nieuwe eIDAS-verordening worden aan burgers en organisaties verdergaande rechten gegeven, waarbij ze de mogelijkheid krijgen om zelf gegevens via eigen wallets te verstrekken aan partijen.">
   <properties
       key="Implicaties"
       value="1. Uitwisselingen van gegevens worden expliciet getoetst aan wettelijke grondslagen."/>
   <properties
       key="Implicaties"
-      value="2. Als er geen andere wettelijke basis is voor het uitwisselen van persoonsgegevens, dan wordt aan burgers gevraagd of ze deze zelf willen leveren of dat ze toestemming geven om ze te halen bij andere organisaties."/>
+      value="2. Als er geen andere wettelijke basis is voor het uitwisselen van persoonsgegevens, dan wordt aan gebruikers gevraagd of ze deze zelf willen leveren of dat ze toestemming geven om ze te halen bij andere organisaties."/>
   <properties
       key="Implicaties"
-      value="3. De door de burger gegeven toestemming voor het uitwisselen van gegevens kan eenvoudig door hen worden ingetrokken."/>
+      value="3. De door de gebruiker gegeven toestemming voor het uitwisselen van gegevens kan eenvoudig door hen worden ingetrokken."/>
   <properties
       key="Implicaties"
-      value="4. Aanbieders bieden burgers en organisaties de mogelijkheid om hun gegevens te downloaden inclusief een verifieerbare verklaring, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
+      value="4. Aanbieders bieden gebruikers de mogelijkheid om hun gegevens te downloaden inclusief een verifieerbare verklaring, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
   <properties
       key="Implicaties"
-      value="5. Burgers kunnen hun gegevens inzien en hebben inzicht in wanneer, met wie en waarom hun gegevens zijn uitgewisseld."/>
+      value="5. Gebruikers kunnen hun gegevens inzien en hebben inzicht in wanneer, met wie en waarom hun gegevens zijn uitgewisseld."/>
 </archimate:Principle>
