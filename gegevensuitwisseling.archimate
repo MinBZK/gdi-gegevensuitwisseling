@@ -14,8 +14,8 @@
       <element xsi:type="archimate:Capability" name="Dataminimalisatie" id="id-469f0d6b1f28459a8e3562aaf192d7a5">
         <documentation>Overheidsorganisaties kunnen de gegevens die ze verzamelen beperken tot dat wat nodig is voor het beoogde doel.</documentation>
       </element>
-      <element xsi:type="archimate:Capability" name="Participeren in data spaces" id="id-6502e2bc2cce4b4eaf50b88b1e6dffaf">
-        <documentation>Overheidsorganisaties kunnen participeren in voor hen relevante data spaces en voldoen aan de afspraken die deze data spaces stellen.</documentation>
+      <element xsi:type="archimate:Capability" name="Participeren in gegevensruimtes" id="id-6502e2bc2cce4b4eaf50b88b1e6dffaf">
+        <documentation>Overheidsorganisaties kunnen participeren in voor hen relevante gegevensruimtes en voldoen aan de afspraken die deze gegevensruimtes stellen.</documentation>
       </element>
       <element xsi:type="archimate:Capability" name="Gegevens delen die niet open zijn" id="id-a2e0ce1237bb4c37bf5cb3675cd27573">
         <documentation>Overheidsorganisaties kunnen eenvoudig gegevens hergebruiken van andere overheidsorganisaties in andere wettelijke contexten, ook als deze niet als open data beschikbaar zijn.</documentation>
@@ -1124,7 +1124,7 @@ voornamelijk bedoeld voor machinale verwerking</documentation>
         <property key="Implicaties" value="5. Nederlandse standaarden zijn geïnternationaliseerd en wordt onderzocht of deze kunnen worden ingebracht in internationale standaardisatieorganisaties zoals ISO, W3C, OGC, OASIS, IETF."/>
       </element>
       <element xsi:type="archimate:Principle" name="2.1. Gegevensuitwisseling is federatief georganiseerd" id="id-8418d8cf38694245bdd592d1a4583f1e">
-        <documentation>De Europese datastrategie beoogt gegevensuitwisseling tussen en binnen sectoren te stimuleren middels data spaces. Hierdoor kunnen nieuwe producten en diensten ontstaan. Ook los van de door de EC voorgestelde data spaces kan gegevensuitwisseling worden gestimuleerd binnen domeinen. Binnen domeinen gelden specifieke eisen en zijn specifieke afspraken nodig. Samenwerkingen in domeinen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien . Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.</documentation>
+        <documentation>De Europese datastrategie beoogt gegevensuitwisseling tussen en binnen sectoren te stimuleren middels gegevensruimtes. Hierdoor kunnen nieuwe producten en diensten ontstaan. Ook los van de door de EC voorgestelde gegevensruimtes kan gegevensuitwisseling worden gestimuleerd binnen domeinen. Binnen domeinen gelden specifieke eisen en zijn specifieke afspraken nodig. Samenwerkingen in domeinen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien . Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.</documentation>
         <property key="Implicaties" value="1. Binnen domeinen wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens."/>
         <property key="Implicaties" value="2. Er is een regisseur die de leiding neemt in het organiseren van de samenwerking en het maken, monitoren, evalueren en bijstellen van afspraken."/>
         <property key="Implicaties" value="3. Er wordt breed afgestemd met partijen in het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
