@@ -11,7 +11,7 @@ Er zijn <a href="instructies.md">instructies</a> beschikbaar voor het aanbrengen
 
 # Architectuur
 
-Er is een algemene inleiding op de architectuur beschikbaar: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/docs/inleiding.html">inleiding</a>.
+Er is een algemene inleiding op de architectuur beschikbaar: <a href=https://minbzk.github.io/gdi-gegevensuitwisseling/inleiding.html">inleiding</a>.
 
 De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein gegevensuitwisseling. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke ontwikkelingen, wet- en regelgeving, beleid, architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld.
 
