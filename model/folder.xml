@@ -27,4 +27,8 @@
       name="Gewenste voorziening"
       id="id-3fede1bbcb0941648a2c8a077a594cb1"
       conceptType="ApplicationComponent"/>
+  <profiles
+      name="Tekst"
+      id="id-0005c1b00a8b43d58de11d534fb0aeb2"
+      conceptType="Resource"/>
 </archimate:ArchimateModel>
