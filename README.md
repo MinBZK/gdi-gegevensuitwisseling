@@ -9,7 +9,7 @@ Het architectuurmodel is beschikbaar in verschillende vormen:
 
 Er zijn <a href="instructies.md">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi. Daarnaast is er een beschrijving van het gehanteerde <a href="metamodel.md">metamodel</a>.
 
-Bij de verschillende onderdelen van de architectuur wordt verwezen naar diagrammen, overzichten en detailoverzichten. Deze zijn geëxporteerd uit het architectuurmodelleertool Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. De overzichten, detailoverzichten en achterliggende detailpagina's zijn gegenereerd met een <a href="scripts/export HTML.ajs">script</a>.
+Bij de verschillende onderdelen van de architectuur wordt verwezen naar beschrijvingen, diagrammen, overzichten en detailoverzichten. Met uitzondering van de beschrijvingen, zijn deze geëxporteerd uit het architectuurmodelleertool Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. De overzichten, detailoverzichten en achterliggende detailpagina's zijn gegenereerd met een <a href="scripts/export HTML.ajs">script</a>.
 
 # Architectuur
 
