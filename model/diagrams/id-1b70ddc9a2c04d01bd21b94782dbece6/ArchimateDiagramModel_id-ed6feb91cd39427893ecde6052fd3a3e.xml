@@ -408,15 +408,6 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-ecaf6452f0ab419d84fc1c818a2cb1fe.xml#id-ecaf6452f0ab419d84fc1c818a2cb1fe"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-3a6035f4b00542a59cae66210ff15f7f"
-        source="id-0d8548f067d54f8a803e8768c91af0b4"
-        target="id-b52309b734c04c90babf071913f4ab07">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-cc77b5ae6980423f9161fb6bdbf0d2f3.xml#id-cc77b5ae6980423f9161fb6bdbf0d2f3"/>
-    </sourceConnections>
     <bounds
         x="1248"
         y="444"
@@ -1477,18 +1468,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-0ee1bef0bdfd43509ef35d6e7c1c5c0e">
-    <bounds
-        x="1620"
-        y="714"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Constraint"
-        href="Constraint_id-6d511588479d46f0983341eebfb80bc5.xml#id-6d511588479d46f0983341eebfb80bc5"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-87d81e2097234e5d8daece84fda30310">
     <bounds
         x="1770"
@@ -1869,19 +1848,6 @@
     <archimateElement
         xsi:type="archimate:Constraint"
         href="Constraint_id-da7a4768123a4f0b9336cce462bfdbfc.xml#id-da7a4768123a4f0b9336cce462bfdbfc"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-b52309b734c04c90babf071913f4ab07"
-      targetConnections="id-3a6035f4b00542a59cae66210ff15f7f">
-    <bounds
-        x="1770"
-        y="1414"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Constraint"
-        href="Constraint_id-5a7499e69e274232ae20ea84c74aa97b.xml#id-5a7499e69e274232ae20ea84c74aa97b"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
