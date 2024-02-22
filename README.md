@@ -5,7 +5,7 @@ Het architectuurmodel is beschikbaar in verschillende vormen:
 1. In de vorm van <a href="gegevensuitwisseling.archimate">een bestand</a> voor het modelleertool Archi
 2. Als bestanden die kunnen worden ingelezen met de coArchi plugin van Archi
 3. Als <a href="https://minbzk.github.io/gdi-gegevensuitwisseling">website</a> in de vorm van een HTML report uit Archi
-4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren, inclusief <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20Gegevensuitwisseling.html">een pagina die een samenvatting van alle onderdelen bevat</a> (zie hieronder)
+4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren, inclusief <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20gegevensuitwisseling.html">een pagina die een samenvatting van alle onderdelen bevat</a> (zie hieronder)
 
 Er zijn <a href="instructies.md">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi. Daarnaast is er een beschrijving van het gehanteerde <a href="metamodel.md">metamodel</a>.
 
@@ -35,4 +35,4 @@ Gewenste situatie:
 * Standaarden: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-5df0c1360768493aa966c16f7dbfd414">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaardendetails.html">details</a>
 * Veranderinitiatieven: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/veranderinitiatieven.html">overzicht</a>
 
-samenvatting van het geheel: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20Gegevensuitwisseling.html">samenvatting</a>
+samenvatting van het geheel: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20gegevensuitwisseling.html">samenvatting</a>
