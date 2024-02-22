@@ -37,6 +37,15 @@
 	- Name: korte duiding van de capability
 	- Documentation: omschrijving van de capability in één zin die start met "Overheidsorganisaties kunnen ..."
 	- Realization: wetgeving die ten grondslag ligt aan de capability 
+* Document
+	- ArchiMate type: Representation
+	- Specialization: Tekst
+	- Name: titel van document
+	- Composition: pagina die deel uitmaakt van document
+		- naam: volgnummer die de volgorde in het document beschrijft, startend bij 1
+		- nummer: de nummer van de paragraaf in het document
+		- niveau: het niveau van de heading (een niveau van 1 == leidt tot de HTML heading H1)
+		- type: als het een verwijzing naar een elementType is dan "overzicht" of "details" voor het type overzicht
 * Gewenste voorziening
 	- ArchiMate type: Application Component
 	- Name: korte duiding van de gewenste voorziening
@@ -69,10 +78,11 @@
 	- URL: link naar pagina over de standaard bij Forum Standaardisatie in dien mogelijk, anders link naar andere pagina met details over de standaard, liefst bij de beheerder van de standaard
 	- Aggregation: standaarden die onderdeel uitmaken van de standaard, vooral bedoeld voor samengestelde standaarden gedefinieerd door Forum Standaardisatie
 * Tekst
-	- ArchiMate type: Resource
+	- ArchiMate type: Representation
 	- Specialization: Tekst
 	- Name: titel van pagina
 	- Documentation: HTML van pagina	
+	- elementType: de naam van het elementtype (inclusief specialisatie) in geval het een verwijzing is naar een overzicht of detailoverzicht
 * Veranderinitiatief
 	- ArchiMate type: Work Package
     - Name: korte duiding van het Veranderinitiatief
