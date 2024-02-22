@@ -68,6 +68,11 @@
 	- Functioneel toepassingsgebied: indien gedefinieerd door Forum Standaardisatie deze overnemen, anders weglaten
 	- URL: link naar pagina over de standaard bij Forum Standaardisatie in dien mogelijk, anders link naar andere pagina met details over de standaard, liefst bij de beheerder van de standaard
 	- Aggregation: standaarden die onderdeel uitmaken van de standaard, vooral bedoeld voor samengestelde standaarden gedefinieerd door Forum Standaardisatie
+* Tekst
+	- ArchiMate type: Resource
+	- Specialization: Tekst
+	- Name: titel van pagina
+	- Documentation: HTML van pagina	
 * Veranderinitiatief
 	- ArchiMate type: Work Package
     - Name: korte duiding van het Veranderinitiatief
