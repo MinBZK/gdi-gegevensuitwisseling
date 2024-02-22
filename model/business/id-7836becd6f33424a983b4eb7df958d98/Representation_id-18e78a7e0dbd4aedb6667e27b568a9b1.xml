@@ -1,0 +1,8 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gewenste situatie"
+    id="id-18e78a7e0dbd4aedb6667e27b568a9b1"
+    documentation="&lt;p>Dit hoofdstuk geeft een overzicht van de gewenste situatie met betrekking tot gegevensuitwisseling. Het beschrijft de belangrijkste ontwikkelingen, beleid en wet- en regelgeving die van toepassing is en de capabilities die daaruit voortvloeien. Het vertaalt deze vervolgens naar een architectuurvisie die een overkoepelende beschrijving geeft van de gewenste situatie en de architectuurprincipes die de meer concrete overtuigingen beschrijft. Op basis hiervan worden veranderinitiatieven voorgesteld, die aangeven welke nieuwe afspraken, standaarden of voorzieningen of wijzigingen daarin wenselijk zijn. Het hoofdstuk sluit af met een overzicht van relevante standaarden. De basis daarvoor zijn de domeinoverstijgende standaarden op de &quot;pas toe, leg uit&quot; lijst en de lijst van aanbevolen standaarden van Forum Standaardisatie. Deze standaarden zijn aangevuld met andere gangbare en anderzijds relevante standaarden.&lt;/p>">
+  <profiles
+      href="folder.xml#id-0005c1b00a8b43d58de11d534fb0aeb2"/>
+</archimate:Representation>

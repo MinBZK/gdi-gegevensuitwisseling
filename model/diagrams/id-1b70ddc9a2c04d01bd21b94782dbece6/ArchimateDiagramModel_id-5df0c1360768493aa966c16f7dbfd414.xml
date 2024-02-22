@@ -115,23 +115,6 @@
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-39e822dccda24a4c8faa014168f42e7d"
-          fillColor="#ffffff"
-          textPosition="1">
-        <features
-            name="iconVisible"
-            value="2"/>
-        <bounds
-            x="12"
-            y="228"
-            width="169"
-            height="37"/>
-        <archimateElement
-            xsi:type="archimate:Constraint"
-            href="Constraint_id-6d511588479d46f0983341eebfb80bc5.xml#id-6d511588479d46f0983341eebfb80bc5"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
           id="id-0fddca2385d44a00bf471e9216bcdcb4"
           fillColor="#ffffff"
           textPosition="1">
@@ -1103,23 +1086,6 @@
         <archimateElement
             xsi:type="archimate:Constraint"
             href="Constraint_id-da7a4768123a4f0b9336cce462bfdbfc.xml#id-da7a4768123a4f0b9336cce462bfdbfc"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-07f652f75f7245caa50526f988f03161"
-          fillColor="#ffffff"
-          textPosition="1">
-        <features
-            name="iconVisible"
-            value="2"/>
-        <bounds
-            x="12"
-            y="228"
-            width="169"
-            height="37"/>
-        <archimateElement
-            xsi:type="archimate:Constraint"
-            href="Constraint_id-5a7499e69e274232ae20ea84c74aa97b.xml#id-5a7499e69e274232ae20ea84c74aa97b"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"

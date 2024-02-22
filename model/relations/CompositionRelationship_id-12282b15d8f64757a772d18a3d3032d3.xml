@@ -1,0 +1,18 @@
+<archimate:CompositionRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="8"
+    id="id-12282b15d8f64757a772d18a3d3032d3">
+  <properties
+      key="nummer"
+      value="4"/>
+  <properties
+      key="niveau"
+      value="1"/>
+  <source
+      xsi:type="archimate:Representation"
+      href="Representation_id-f7cd0effef5643879ed04ee81f4d9bfb.xml#id-f7cd0effef5643879ed04ee81f4d9bfb"/>
+  <target
+      xsi:type="archimate:Representation"
+      href="Representation_id-18e78a7e0dbd4aedb6667e27b568a9b1.xml#id-18e78a7e0dbd4aedb6667e27b568a9b1"/>
+</archimate:CompositionRelationship>

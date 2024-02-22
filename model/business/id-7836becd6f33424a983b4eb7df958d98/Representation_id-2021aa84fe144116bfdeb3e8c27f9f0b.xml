@@ -1,0 +1,10 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Overzicht van huidige voorzieningen"
+    id="id-2021aa84fe144116bfdeb3e8c27f9f0b">
+  <properties
+      key="elementType"
+      value="application-componentHuidige voorziening"/>
+  <profiles
+      href="folder.xml#id-0005c1b00a8b43d58de11d534fb0aeb2"/>
+</archimate:Representation>
