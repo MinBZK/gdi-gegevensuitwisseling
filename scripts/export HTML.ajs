@@ -50,7 +50,8 @@ var elementTypeMappings = {
 	"meaning": "Begrip",
     "grouping": "Groep",
 	"work-package": "Veranderinitiatief",
-	"resourceTekst": "Tekst"
+	"representationTekst": "Tekst",
+	"representationDocument": "Tekst",
 }
 
 var elementTypePluralMappings = {
@@ -70,10 +71,11 @@ var elementTypePluralMappings = {
 	"meaning":"begrippen",
 	"grouping": "groepen",
 	"work-package": "veranderinitiatieven",
-	"resourceTekst": "teksten"
+	"representationTekst": "teksten",
+	"representationDocument": "documenten"
 }
 
-var elementTypes = ["capability", "business-function", "business-object", "business-role", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraintStandaard", "constraintWetgeving", "meaning", "grouping", "work-package", "resourceTekst"];
+var elementTypes = ["capability", "business-function", "business-object", "business-role", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraintStandaard", "constraintWetgeving", "meaning", "grouping", "work-package", "representationTekst", "representationDocument"];
 
 var dirPath = window.promptOpenDirectory({ title: "Kies output directory"});
 
@@ -135,18 +137,11 @@ function getFullType(type, specialization) {
 }
 
 for (var i=0; i<elementTypes.length; i++) {
-	var elementtypename = elementTypePluralMappings[elementTypes[i]];
-	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
-	if (elementTypes[i] == "meaning")
-		textList[elementTypes[i]] = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Definitie</td></tr>";
-	else if (elementTypes[i] == "principle")
-		textList[elementTypes[i]] = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Rationale</td></tr>";
-	else if (elementTypes[i] != "resourceTekst") 
-		textList[elementTypes[i]] = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Rationale</td></tr>";		
-	fullTextList[elementTypes[i]] = getHeader(ucelementtypename);
 	elementNamesList[elementTypes[i]] = [];
 	elementTextList[elementTypes[i]] = [];
 	elementFullTextList[elementTypes[i]] = [];
+	textList[elementTypes[i]] = "";
+	fullTextList[elementTypes[i]] = "";
 }
 
 $("element").each(function(e) {
@@ -174,19 +169,19 @@ $("element").each(function(e) {
 	var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
     var text = "";
 	if (e.type == "meaning")
-		text += "<tr><td width=200>Definitie</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
+		text += "<tr><td width=200 valign=\"top\">Definitie</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
 	else if (e.type == "principle")
-		text += "<tr><td width=200>Rationale</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
-	else if (e.type == "resource") 
+		text += "<tr><td width=200 valign=\"top\">Rationale</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";
+	else if (e.type == "representation" && e.specialization == "Tekst") 
 		text += e.documentation;
 	else
-		text += "<tr><td width=200>Omschrijving</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";	
+		text += "<tr><td width=200 valign=\"top\">Omschrijving</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</td></tr>";	
 
-	for (var i=0; i<propertiesList.length; i++){
+	if (e.type != "representation") for (var i=0; i<propertiesList.length; i++){
         if (e.prop(propertiesList[i]) && propertiesList[i] != "ID") {
 			properties = e.prop(propertiesList[i], true);
 			if (properties.constructor == Array) {
-				text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
+				text += "<tr><td valign=\"top\">"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
 				var first = true;
 				properties.forEach(function(f) {
 					if (first)
@@ -198,11 +193,11 @@ $("element").each(function(e) {
 				text += "</td></tr>";
 			}
 			else
-				text += "<tr><td>"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+properties+"</td></tr>";
+				text += "<tr><td valign=\"top\">"+ propertiesList[i]+ "</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+properties+"</td></tr>";
         }
     }
 
-	for (var i=0; i<elementTypes.length; i++) {
+	if (e.type != "representation") for (var i=0; i<elementTypes.length; i++) {
 		var first = true;
 		var found = false;
 		$(e).outRels().each(function (r) {
@@ -232,29 +227,60 @@ $("element").each(function(e) {
 		}
 	};
 
-	if (e.specialization != "Tekst") {
+	if (e.specialization == "Tekst") {
+		text = getHeader(e.name) + text + getFooter(e.id);	
+		writeFile("elements\\"+e.id, text);
+	} else if (e.specialization != "Document") {
 		elementFullTextList[getFullType(e.type, e.specialization)][e.name] = "<b>" + e.name + "</b><br><br>"+ getTableStart() + text + getTableEnd();
 		text = getHeader(ucelementtypename + " > " + e.name) + getTableStart() + text + getTableEnd() + getFooter(e.id);
-	} else
-		text = getHeader(e.name) + text + getFooter(e.id);	
-	writeFile("elements\\"+e.id, text);
-
+		writeFile("elements\\"+e.id, text);
+	}
 });
 
 // bestanden per elementtype maken, met gesorteerde lijst van elementen
 for (var i=0; i<elementTypes.length; i++) {
 	elementNamesList[elementTypes[i]].sort();
-	if (elementTypes[i] != "resourceTekst") {
+	if (elementTypes[i] != "representationTekst" && elementTypes[i] != "representationDocument") {
+		var header = "";
+		var elementtypename = elementTypePluralMappings[elementTypes[i]];
+		var ucelementtypename = elementtypename.slice(0,1).toUpperCase()+elementtypename.slice(1,elementtypename.length);
+		if (elementTypes[i] == "meaning")
+			header = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Definitie</td></tr>";
+		else if (elementTypes[i] == "principle")
+			header = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Rationale</td></tr>";
+		else if (elementTypes[i] != "representationTekst" && elementTypes[i] != "representationDocument") 
+			header = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Rationale</td></tr>";		
+	
 		for (j=0; j<elementNamesList[elementTypes[i]].length; j++) {
 			elementname = elementNamesList[elementTypes[i]][j];
 			textList[elementTypes[i]] += elementTextList[elementTypes[i]][elementname]; 
 			fullTextList[elementTypes[i]] += elementFullTextList[elementTypes[i]][elementname]; 
 		}
-		textList[elementTypes[i]] += getTableEnd() + getFooter("");
-		fullTextList[elementTypes[i]] += getFooter("");
-		writeFile("views\\" + elementTypePluralMappings[elementTypes[i]], textList[elementTypes[i]]);
-		writeFile("views\\" + elementTypePluralMappings[elementTypes[i]] + "details", fullTextList[elementTypes[i]]);
-	}
+		writeFile("views\\" + elementTypePluralMappings[elementTypes[i]], header + textList[elementTypes[i]] + getTableEnd() + getFooter(""));
+		writeFile("views\\" + elementTypePluralMappings[elementTypes[i]] + "details", getHeader(ucelementtypename) + fullTextList[elementTypes[i]] + getFooter(""));
+	} 
 }
+
+// genereer documenten
+$("representation").each(function(e) {
+	if (e.specialization == "Document") {
+		var text = "";
+		for (var i=1; i<$(e).outRels().length+1; i++)
+			$(e).outRels().each(function (r) {
+				if (r.name == i) { 
+					if (r.target.prop("elementType"))
+						if (r.prop("type") == "overzicht") {
+							text += "<h" + r.prop("niveau") + ">" + r.prop("nummer") + " " + r.target.name + "</h" + r.prop("niveau") + ">" + getTableStart() + textList[r.target.prop("elementType")] + getTableEnd();
+						}
+						else {
+							text += "<h" + r.prop("niveau") + ">" + r.prop("nummer") + " " + r.target.name + "</h" + r.prop("niveau") + ">" + fullTextList[r.target.prop("elementType")];	
+						}
+					else	
+						text += "<h" + r.prop("niveau") + ">" + r.prop("nummer") + " " + r.target.name + "</h" + r.prop("niveau") + ">" + r.target.documentation;
+				}
+			});	
+		writeFile("views\\"+e.name, getHeader(e.name) + text + getFooter(""));
+	}
+});
 
 console.log("> End HTML Export");
