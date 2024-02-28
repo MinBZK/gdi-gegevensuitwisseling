@@ -282,14 +282,14 @@ $("representation").each(function(e) {
 		for (var i=1; i<$(e).outRels().length+1; i++)
 			$(e).outRels().each(function (r) {
 				if (r.prop("volgnummer") == i) { 
-					var header = r.prop("niveau")?("<h" + r.prop("niveau") + ">" + r.name + " " + r.target.name + "</h" + r.prop("niveau") + ">"):r.name;						
+					text += r.prop("niveau")?("<h" + r.prop("niveau") + ">" + r.name + " " + r.target.name + "</h" + r.prop("niveau") + ">"):r.name;						
+					if (r.target.documentation)
+						text += r.target.documentation;
 					if (r.target.prop("elementType")) 
 						if (r.prop("type") == "overzicht")
-							text += header + getTableStart() + textList[r.target.prop("elementType")] + getTableEnd();
+							text += getTableStart() + textList[r.target.prop("elementType")] + getTableEnd();
 						else 
-							text += header + fullTextList[r.target.prop("elementType")];	
-					else 
-						text += header + r.target.documentation;
+							text += fullTextList[r.target.prop("elementType")];	
 				}
 			});	
 		writeFile("views\\"+e.name, getHeader(e.name) + text + getFooter(""));
