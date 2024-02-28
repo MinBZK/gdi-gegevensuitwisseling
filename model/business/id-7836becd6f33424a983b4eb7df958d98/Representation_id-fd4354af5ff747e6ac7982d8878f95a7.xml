@@ -1,7 +1,8 @@
 <archimate:Representation
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Knelpunten"
-    id="id-fd4354af5ff747e6ac7982d8878f95a7">
+    id="id-fd4354af5ff747e6ac7982d8878f95a7"
+    documentation="&lt;p>Knelpunten zijn aandachtspunten en risico's die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten zijn samengevat en opgenomen in de architectuur.&lt;/p>">
   <properties
       key="elementType"
       value="assessment"/>

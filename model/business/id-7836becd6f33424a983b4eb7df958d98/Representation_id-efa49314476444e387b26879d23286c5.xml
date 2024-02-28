@@ -1,7 +1,8 @@
 <archimate:Representation
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Overzicht van capabilities"
-    id="id-efa49314476444e387b26879d23286c5">
+    name="Capabilities"
+    id="id-efa49314476444e387b26879d23286c5"
+    documentation="&lt;p>Capabilities beschrijven dat wat organisaties zouden moeten kunnen. Om invulling te geven aan een capability zijn mensen, processen en middelen nodig. In de architectuur is de wet- en regelgeving doorvertaald naar capabilities zodat duidelijk is wat overheidsorganisaties moeten kunnen. &lt;/p>">
   <properties
       key="elementType"
       value="capability"/>
