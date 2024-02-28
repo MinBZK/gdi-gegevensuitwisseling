@@ -1,21 +1,18 @@
-<archimate:CompositionRelationship
+<archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="16"
-    id="id-d7099f64cd5e4b4b8be01a0804c31bbd">
+    name="4"
+    id="id-ca2f363d54c04721a6dd88dab31f517d">
   <properties
-      key="nummer"
-      value="4.7"/>
+      key="volgnummer"
+      value="11"/>
   <properties
       key="niveau"
-      value="2"/>
-  <properties
-      key="type"
-      value="overzicht"/>
+      value="1"/>
   <source
       xsi:type="archimate:Representation"
       href="Representation_id-f7cd0effef5643879ed04ee81f4d9bfb.xml#id-f7cd0effef5643879ed04ee81f4d9bfb"/>
   <target
       xsi:type="archimate:Representation"
-      href="Representation_id-75bc6e2c69dd4dfaa4f38a3ce5eaa9b6.xml#id-75bc6e2c69dd4dfaa4f38a3ce5eaa9b6"/>
-</archimate:CompositionRelationship>
+      href="Representation_id-18e78a7e0dbd4aedb6667e27b568a9b1.xml#id-18e78a7e0dbd4aedb6667e27b568a9b1"/>
+</archimate:AssociationRelationship>
