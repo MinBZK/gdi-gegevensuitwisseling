@@ -115,7 +115,7 @@ Begrippen, informatie- en gegevensmodellen zijn zelf ook een vorm van metagegeve
       </element>
       <element xsi:type="archimate:Representation" name="Bedrijfsobjecten" id="id-d1fc4f0a6391470f97c66d10241db9c7" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>&#xD;
-Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastgelegd. Een model van bedrijfsobjecten is te zien als een hoog niveau gegevensmodel.&#xD;
+Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastgelegd. Een model van bedrijfsobjecten is te zien als een hoog niveau gegevensmodel. Het geeft een overzicht van de belangrijkste begrippen die leiden tot gegevens die organisaties moeten vastleggen. Het is ook bruikbaar als checklist om verantwoordelijkheden van organisaties, mensen, processen en informatiesystemen toe te wijzen. In de domeinarchitectuur zijn ze gekoppeld aan de bedrijfsfuncties en standaarden.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 &lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/images/id-efc531031d114860a309f6eeacdad289.png&quot;>&#xD;
@@ -337,7 +337,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     </folder>
     <element xsi:type="archimate:Representation" name="Bedrijfsfuncties" id="id-307f05a1051a49ce9db6e3a9a2bd0c62" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
       <documentation>&lt;p>&#xD;
-Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastgelegd. Een model van bedrijfsobjecten is te zien als een hoog niveau gegevensmodel.&#xD;
+Bedrijfsfuncties zijn activiteiten die organisaties uitvoeren, los van hoe ze zijn georganiseerd. In deze domeinarchitectuur hebben we functies benoemd die in het algemeen relevant zijn voor gegevensuitwisseling. De functies beschrijven vooral activiteiten op organisatorieniveau, maar ze zijn ook te zien als hoog niveau functies van informatiesystemen. Organisaties zullen ervoor moeten worden dat deze bedrijfsfuncties worden uitgevoerd door mensen en/of informatiesystemen. Daarbij kunnen ze ervoor kiezen om ze door andere organisaties te laten uitvoeren zoals aanbieders of andere soorten intermediars of dienstverleners. Op landelijk niveau zijn er ook generieke voorzieningen beschikbaar die invulling geven aan een aantal van deze functies. De lijst van functies kan gebruikt worden om inzicht te geven in de huidige en gewenste inrichting van organisatie, processen en informatiesystemen. In de domeinarchitectuur zijn ze gekoppeld aan de capabilities, architectuurprincipes, bedrijfsobjecten, voorzieningen en standaarden.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 &lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/images/id-efc531031d114860a309f6eeacdad289.png&quot;>&#xD;
