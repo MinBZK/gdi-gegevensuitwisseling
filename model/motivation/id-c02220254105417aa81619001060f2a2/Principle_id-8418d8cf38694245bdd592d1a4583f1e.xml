@@ -2,13 +2,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2.1. Gegevensuitwisseling is federatief georganiseerd"
     id="id-8418d8cf38694245bdd592d1a4583f1e"
-    documentation="De Europese datastrategie beoogt gegevensuitwisseling tussen en binnen sectoren te stimuleren middels gegevensruimtes. Hierdoor kunnen nieuwe producten en diensten ontstaan. Ook los van de door de EC voorgestelde gegevensruimtes kan gegevensuitwisseling worden gestimuleerd binnen domeinen. Binnen domeinen gelden specifieke eisen en zijn specifieke afspraken nodig. Samenwerkingen in domeinen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien . Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.">
+    documentation="De Europese datastrategie beoogt gegevensuitwisseling tussen en binnen sectoren te stimuleren middels gegevensruimtes. Hierdoor kunnen nieuwe producten en diensten ontstaan. Ook los van de door de EC voorgestelde gegevensruimtes kan gegevensuitwisseling worden gestimuleerd binnen domeinen. Binnen domeinen gelden specifieke eisen en zijn specifieke afspraken nodig. Samenwerkingen in domeinen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien. Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.">
   <properties
       key="Implicaties"
       value="1. Binnen domeinen wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens."/>
   <properties
       key="Implicaties"
-      value="2. Er is een regisseur die de leiding neemt in het organiseren van de samenwerking en het maken, monitoren, evalueren en bijstellen van afspraken."/>
+      value="2. Er is een domeinregisseur die de leiding neemt in het organiseren van de samenwerking en het maken, monitoren, evalueren en bijstellen van afspraken."/>
   <properties
       key="Implicaties"
       value="3. Er wordt breed afgestemd met partijen in het domein om te komen tot samenwerkingsafspraken, zodat deze duurzaam zijn."/>
@@ -20,5 +20,5 @@
       value="5. Afspraken, standaarden en voorzieningen worden alleen centraal georganiseerd als het moet, decentraal als het kan."/>
   <properties
       key="Implicaties"
-      value="6. Er zijn binnen specifieke domeinen duidelijke en eerlijke afspraken wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
+      value="6. Er zijn binnen specifieke domeinen duidelijke en eerlijke afspraken over wie waarvoor betaalt, zodat bepaalde partijen niet met onevenredig hoge kosten worden geconfronteerd."/>
 </archimate:Principle>

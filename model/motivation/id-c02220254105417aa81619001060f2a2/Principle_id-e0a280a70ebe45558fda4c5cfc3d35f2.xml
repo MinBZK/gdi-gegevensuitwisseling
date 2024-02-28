@@ -8,8 +8,8 @@
       value="1. De inhoud, omvang, taal, formaat en protocol van gegevensdiensten zijn afgestemd op de informatie- of gegevensbehoeften van afnemers."/>
   <properties
       key="Implicaties"
-      value="2. Als meerdere partijen een soortgelijke informatie- of gegevensbehoefte hebben wordt onderzocht hiervoor een gemeenschappelijke gegevensdienst kan worden ingericht."/>
+      value="2. Als meerdere afnemers een soortgelijke informatie- of gegevensbehoefte hebben dan wordt onderzocht hiervoor een gemeenschappelijke gegevensdienst kan worden ingericht."/>
   <properties
       key="Implicaties"
-      value="3. Als afnemers gegevens willen in een andere taal, formaat of protocol dan de aanbieder kan of wil leveren dan wordt onderzocht of een voorziening deze vertalingen kan verzorgen."/>
+      value="3. Als meerdere afnemers gegevens willen in een andere taal, formaat of protocol dan de aanbieder kan of wil leveren dan wordt onderzocht of een voorziening deze vertalingen kan verzorgen."/>
 </archimate:Principle>
