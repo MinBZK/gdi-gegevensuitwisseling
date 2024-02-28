@@ -11,7 +11,7 @@
       value="2. Aanbieders kunnen notificaties verstrekken als belangrijke gebeurtenissen plaatsvinden, zoals wanneer bepaalde gegevens wijzigen."/>
   <properties
       key="Implicaties"
-      value="3. Aanbieders kunnen ook notificaties verstrekken als historische gegevens wijzigen (iets dat liefst niet gebeurt, maar in uitzonderlijke gevallen toch kan optreden)"/>
+      value="3. Aanbieders kunnen ook notificaties verstrekken als historische gegevens wijzigen (iets dat liefst niet gebeurt, maar in uitzonderlijke gevallen toch kan optreden)."/>
   <properties
       key="Implicaties"
       value="4. Er zijn mechanismen die borgen dat de notificaties daadwerkelijk worden ontvangen door afnemers."/>

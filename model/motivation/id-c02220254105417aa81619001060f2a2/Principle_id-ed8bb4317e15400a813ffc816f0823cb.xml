@@ -20,8 +20,8 @@
       value="5. Bij de uitgewisselde gegevens is een verwijzing aanwezig naar het gebruikte schema."/>
   <properties
       key="Implicaties"
-      value="6. Data-elementen in schema’s (zoals JSON schema’s en XML schema’s) verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren."/>
+      value="6. Data-elementen in schema’s verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren."/>
   <properties
       key="Implicaties"
-      value="7. Er is bij de documentatie van diensten of operaties in datadiensten beschreven welke beperkingsregels en afleidingsregels worden toegepast."/>
+      value="7. Er is bij de documentatie van diensten of operaties in gegevensdiensten beschreven welke beperkingsregels en afleidingsregels worden toegepast."/>
 </archimate:Principle>
