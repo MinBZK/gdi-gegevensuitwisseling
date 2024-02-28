@@ -4446,12 +4446,10 @@ voornamelijk bedoeld voor machinale verwerking</documentation>
           <child xsi:type="archimate:DiagramObject" id="id-eb01bb75c5b44bce929726d4d10cd86a" targetConnections="id-f42209e6e3be4744996d834694c8ebe3" fillColor="#ffffff" textPosition="1" archimateElement="id-4fd82ab6d6514fb39329797ed2622cff">
             <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
-            <feature name="labelExpression" value="Beheren metagegevens&#xD;&#xA;over datasets"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-44f7efe192264e96a6ad3556abec3a86" targetConnections="id-12d722f9389c4f0da573315b8063133e" fillColor="#ffffff" textPosition="1" archimateElement="id-f5d4c4f8264842e7ab69504476a0cdd4">
             <bounds x="12" y="276" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
-            <feature name="labelExpression" value="Beheren metagegevens&#xD;&#xA;over gegevensdiensten"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-ab9517172be040829dfdbe3d94ea96d8" targetConnections="id-2c490a6188be423f87ffaf2c85466d75" fillColor="#ffffff" textPosition="1" archimateElement="id-5b081702561f47dba7f87dddb4ef9a19">
             <bounds x="12" y="156" width="157" height="55"/>
@@ -4464,12 +4462,10 @@ voornamelijk bedoeld voor machinale verwerking</documentation>
           <child xsi:type="archimate:DiagramObject" id="id-abe64770e41c408e94e2a36984130c83" targetConnections="id-868f6befc7ac4eee9d06cc43d228e2dc" fillColor="#ffffff" textPosition="1" archimateElement="id-94ea9b7331b44c07a35be13a359ffc32">
             <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
-            <feature name="labelExpression" value="Beheren metagegevens voor digitale&#xD;&#xA;duurzaamheid"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-70d1482e11a44fd095fed2e1f72c7fd6" targetConnections="id-0b625a2a45b24fa3a7c6072657667cf9" fillColor="#ffffff" textPosition="1" archimateElement="id-130b822b07de4b2592254d316bfffd0e">
             <bounds x="12" y="396" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
-            <feature name="labelExpression" value="Beheren metagegevens&#xD;&#xA;over multimediale&#xD;&#xA;objecten"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f7ad211d29964992bbc3fcb85e06cb59" archimateElement="id-592dc350d1034ca280d27157e17ba09d">

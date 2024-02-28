@@ -90,6 +90,20 @@ function getHeader(name) {
 	text += "<link type=\"text/css\" rel=\"stylesheet\" href=\"../../css/model.css\">";
 	text += "<script type=\"text/javascript\" src=\"../../js/frame2.js\"></script>";
 	text += "</head><body>";
+	text += "<style>";
+	text += "h1 {";
+	text += "color: #000088;";
+	text += "font-family: \"Open Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif;";
+	text += "font-size: 150%;";
+	text += "font-weight:bold;";	
+	text += "}";
+	text += "h2 {";
+   	text += "color: #000088;";
+	text += "font-family: \"Open Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif;";
+	text += "font-size: 120%;";
+	text += "font-weight:bold;";	
+	text += "}";
+	text += "</style>";
 	text += "<div class=\"panel panel-default root-panel\">";
 	text += "<div class=\"panel-heading root-panel-heading\">";
     text += "<b>"+name+"</b>";
@@ -148,7 +162,7 @@ $("element").each(function(e) {
 	if (e.prop("exclude")!=null) { return; }
 
 	elementNamesList[getFullType(e.type, e.specialization)].push(e.name);
-	elementTextList[getFullType(e.type, e.specialization)][e.name] = "<tr><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\"><a href=\"..\\elements\\"+e.id+".html\">"+e.name+"</a></td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">"+e.documentation+"</tr>";
+	elementTextList[getFullType(e.type, e.specialization)][e.name] = "<tr><td width=200 class=\"convertlinks no-margin eerstekolom\" style=\"white-space:pre-wrap\"><a href=\"..\\elements\\"+e.id+".html\">"+e.name+"</a></td><td class=\"convertlinks no-margin tweedekolom\" style=\"white-space:pre-wrap\">"+e.documentation+"</tr>";
 
 	var theProperties = e.prop();  
 
