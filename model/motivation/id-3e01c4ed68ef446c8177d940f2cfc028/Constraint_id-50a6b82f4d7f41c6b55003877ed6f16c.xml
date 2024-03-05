@@ -1,0 +1,7 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Standaard"
+    id="id-50a6b82f4d7f41c6b55003877ed6f16c">
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

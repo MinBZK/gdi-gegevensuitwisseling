@@ -1,0 +1,20 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="JCDR"
+    id="id-3cd7d97de1d44c39bec06dfefe442347"
+    documentation="Decentrale overheden slaan hun regelgeving en wijzigingen op in de voorziening Decentrale Regelgeving en Officiële Publicaties (DROP). JCDR is een afgesproken tekstvolgorde (syntaxis) voor verwijzingen naar die documenten. ">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="JCDR moet worden toegepast op elektronische verwijzingen naar decentrale regelgeving."/>
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/jcdr"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

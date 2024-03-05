@@ -6,7 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6f78c0751095412c9a56b62ce51e885c"
-      fontColor="#ffffff"
+      lineColor="#000000"
       fillColor="#ffffff"
       textPosition="1">
     <features
@@ -209,9 +209,9 @@
           href="AssociationRelationship_id-d1285b6946eb4ff498d26c857b089b41.xml#id-d1285b6946eb4ff498d26c857b089b41"/>
     </sourceConnections>
     <bounds
-        x="180"
+        x="24"
         y="12"
-        width="25"
+        width="145"
         height="409"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -221,20 +221,17 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f2f81565eb4e4945b1bafbf324cb410f"
       targetConnections="id-a70e1d3feeaf494088ed844951b7fd35"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff"
       textPosition="1">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="324"
-        width="217"
+        width="212"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -245,20 +242,17 @@
       id="id-4ba3055e62214733bdff607ae167aae2"
       targetConnections="id-dc3147eb4ecb45418fd0fdd2fcbbeb6b"
       font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff"
       textPosition="1">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="264"
+        x="228"
         y="36"
-        width="236"
+        width="221"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -269,20 +263,17 @@
       id="id-825509e496dd4566b899ac92ff34b725"
       targetConnections="id-78759f7b9f94433faa90a674b3a466ad"
       font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff"
       textPosition="1">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="264"
+        x="228"
         y="60"
-        width="236"
+        width="221"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -293,20 +284,17 @@
       id="id-c90c69ba300d43cb814bcdc8db592028"
       targetConnections="id-e8ca392fad1b4264b705c6ced0a56f4b"
       font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff"
       textPosition="1">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="264"
+        x="228"
         y="132"
-        width="236"
+        width="221"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -316,17 +304,14 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b0dbcd2c4b6d459a83e5a810947679c9"
       targetConnections="id-5456c53d4f3c45fb89eb6f0d1a53e1e4"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="156"
         width="212"
         height="25"/>
@@ -338,17 +323,14 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-35c49dcdcf0b4fb4bfad6fc1cddae81b"
       targetConnections="id-8568c7e94a32499b95a0f76bbd4844f0"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="180"
         width="212"
         height="25"/>
@@ -361,20 +343,17 @@
       id="id-cc015d5d395f432dadb2bdf108106fb2"
       targetConnections="id-f7bd6ac6d94c4b5282e66d4b15aeb2aa"
       font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff"
       textPosition="1">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="264"
+        x="228"
         y="204"
-        width="236"
+        width="221"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -384,19 +363,16 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-2bb252c939694940873b14bd32307814"
       targetConnections="id-54a9dd9d7aa74a02bba0c00f5a81634d"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="276"
-        width="217"
+        width="212"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -406,19 +382,16 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-fa950dc640544bcebb2eff87e779eb1f"
       targetConnections="id-56ace43ec09f4f77a20547e0d6fde833"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="228"
-        width="217"
+        width="212"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -428,19 +401,16 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c187e6747b4f48c6bbd20b0ab96c2532"
       targetConnections="id-75f82d1d28b94efd86555939c1c87962"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="252"
-        width="217"
+        width="212"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -450,19 +420,16 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-288f872423cf4b7f8fd6d429cf03254a"
       targetConnections="id-11f40891074246a7b2f061c28dd68f1e"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="300"
-        width="217"
+        width="212"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -472,19 +439,16 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a55cdb532ea148ddae6b2a9b17f6ec50"
       targetConnections="id-808b8120dac443089a6f173548533abe"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="348"
-        width="217"
+        width="212"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -494,19 +458,16 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5706d0950497473fa028c830c439f16e"
       targetConnections="id-5d2ae4a97d5e4b86a8275fd3d6e88d2d"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="396"
-        width="217"
+        width="212"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -516,19 +477,16 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-53d86bc2166a435ba1f268d68296d676"
       targetConnections="id-28b67cae4d11484cb3cf060d614b79b9"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="372"
-        width="217"
+        width="212"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"
@@ -538,18 +496,15 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b0e1cd0b465d4b9187833337bb98e72c"
       targetConnections="id-4a9e62cb283445acaf37650e15957d47"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff"
       textPosition="1">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="108"
         width="212"
         height="25"/>
@@ -561,18 +516,15 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-29e6bae208f84faeaef3014e77822ff8"
       targetConnections="id-c005b3a70ba940daa2a832af399aed71"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff"
       textPosition="1">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="273"
+        x="237"
         y="84"
         width="212"
         height="25"/>
@@ -585,20 +537,17 @@
       id="id-ae6c3de331754ec38c3a8bfba7e5bb2e"
       targetConnections="id-d7eb47cbb3554d76be521434297a9d0a"
       font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
-      lineColor="#ffffff"
+      lineColor="#000000"
       textAlignment="1"
       fillColor="#ffffff"
       textPosition="1">
     <features
         name="iconVisible"
         value="2"/>
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <bounds
-        x="264"
+        x="228"
         y="12"
-        width="236"
+        width="221"
         height="25"/>
     <archimateElement
         xsi:type="archimate:Representation"

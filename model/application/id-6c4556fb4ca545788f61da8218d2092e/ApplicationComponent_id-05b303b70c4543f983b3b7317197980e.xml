@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Centrale OIN Raadpleegvoorziening"
     id="id-05b303b70c4543f983b3b7317197980e"
-    documentation="De Centrale OIN Raadpleegvoorziening (COR) is het OIN-register. Hier vindt u een overzicht van alle uitgegeven openbare Organisatie-identificatienummers (OIN). ">
+    documentation="De Centrale OIN Raadpleegvoorziening (COR) is de voorziening die de uitgegeven openbare Organisatie-identificatienummers (OIN) beheert. ">
   <properties
       key="Beheerorganisatie"
       value="Logius"/>

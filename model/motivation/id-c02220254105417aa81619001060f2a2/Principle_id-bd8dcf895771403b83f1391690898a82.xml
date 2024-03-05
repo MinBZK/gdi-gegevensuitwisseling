@@ -14,5 +14,8 @@
       value="3. Het vastleggen van metagegevens is geïntegreerd in de reguliere applicaties waar gebruikers mee werken."/>
   <properties
       key="Implicaties"
-      value="4. Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals trefwoorden, classificaties en omschrijvingen."/>
+      value="4. Waar mogelijk en waardevol wordt metadata gegenereerd op basis van kunstmatige intelligentie, bijvoorbeeld om relevante trefwoorden, samenvattingen of toelichtingen te genereren."/>
+  <properties
+      key="Implicaties"
+      value="5. Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals trefwoorden, classificaties en omschrijvingen."/>
 </archimate:Principle>
