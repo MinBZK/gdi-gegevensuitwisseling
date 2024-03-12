@@ -1,0 +1,9 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Wetgeving"
+    id="id-c572eedab5ce422cafd66030d2e45323">
+  <properties
+      key="exclude"/>
+  <profiles
+      href="folder.xml#id-930df6e4bb244a22a47f4820a36fd1c5"/>
+</archimate:Constraint>
