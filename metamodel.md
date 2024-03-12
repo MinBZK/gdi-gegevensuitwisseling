@@ -1,6 +1,6 @@
 # Metamodel MIDO/GDI domeinarchitecturen
 
-<img src="images/metamodel.svg">
+<img src="https://minbzk.github.io/gdi-gegevensuitwisseling/images/metamodel.svg">
 
 * Architectuurprincipe
 	- ArchiMate type: Principle
