@@ -1,5 +1,7 @@
 # Metamodel MIDO/GDI domeinarchitecturen
 
+<img src="images/metamodel.svg">
+
 * Architectuurprincipe
 	- ArchiMate type: Principle
 	- Name: stelling van het principe, voorafgegaan door een volgnummer, een punt en een spatie (eventueel hiërarchisch)
@@ -39,9 +41,9 @@
 	- Realization: wetgeving die ten grondslag ligt aan de capability 
 * Document
 	- ArchiMate type: Representation
-	- Specialization: Tekst
+	- Specialization: Document
 	- Name: titel van document
-	- Composition: pagina die deel uitmaakt van document
+	- Association: pagina die deel uitmaakt van document
 		- naam: nummer van de paragraaf in het document
 		- nummer: volgnummer die de volgorde in het document beschrijft, startend bij 1, is optioneel
 		- niveau: het niveau van de heading (een niveau van 1 == leidt tot de HTML heading H1), als deze niet is gedefinieerd dan wordt er geen heading gegenereerd
@@ -49,19 +51,25 @@
 * Gewenste voorziening
 	- ArchiMate type: Application Component
 	- Name: korte duiding van de gewenste voorziening
+	- Specialization: Gewenste voorziening
 	- Documentation: omschrijving
 	- Serving: bedrijfsfuncties die worden ondersteund door de voorziening
+	- Association: veranderinitiatief dat invulling geeft aan gewenste voorziening
+	- Flow: voorziening die gegevens ontvangt van deze voorziening
 * Huidige voorziening
 	- ArchiMate type: Application Component
 	- Name: korte duiding van de huidige voorziening
+	- Specialization: Huidige voorziening
 	- Documentation: omschrijving
 	- Beheerorganisatie: naam van de organisatie die de voorzienint beheert
 	- URL: link naar pagina met details over de voorziening, liefst bij de beheerder van de voorziening
 	- Serving: bedrijfsfuncties die worden ondersteund door de voorziening
+	- Flow: voorziening die gegevens ontvangt van deze voorziening
 * Knelpunt
 	- ArchiMate type: Assessment
 	- Name: korte duiding van het knelpunt
 	- Documentation: omschrijving
+	- Association: veranderinitiatief dat oplossing biedt voor knelpunt
 * Ontwikkeling
 	- ArchiMate type: Driver
     - Specialization: Ontwikkeling
