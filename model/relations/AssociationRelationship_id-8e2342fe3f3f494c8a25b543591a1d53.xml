@@ -1,7 +1,7 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="gebruikt"
+    name="heeft betrekking op"
     id="id-8e2342fe3f3f494c8a25b543591a1d53">
   <source
       xsi:type="archimate:BusinessObject"

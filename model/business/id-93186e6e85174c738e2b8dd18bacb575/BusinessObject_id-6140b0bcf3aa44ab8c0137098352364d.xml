@@ -2,4 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Regel"
     id="id-6140b0bcf3aa44ab8c0137098352364d"
-    documentation="Een beschrijving of voorschrift."/>
+    documentation="Een beschrijving of voorschrift.">
+  <properties
+      key="exclude"/>
+</archimate:BusinessObject>

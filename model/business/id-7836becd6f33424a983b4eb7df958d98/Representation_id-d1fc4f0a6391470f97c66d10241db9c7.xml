@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Bedrijfsobjecten"
     id="id-d1fc4f0a6391470f97c66d10241db9c7"
-    documentation="&lt;p>&#xD;&#xA;Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastgelegd. Een model van bedrijfsobjecten is te zien als een hoog niveau gegevensmodel. Het geeft een overzicht van de belangrijkste begrippen die leiden tot gegevens die organisaties moeten vastleggen. Het is ook bruikbaar als checklist om verantwoordelijkheden van organisaties, mensen, processen en informatiesystemen toe te wijzen. In de domeinarchitectuur zijn ze gekoppeld aan de bedrijfsfuncties en standaarden.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;&lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/id-06c6c1de430644b9adb865225da06cba/images/id-efc531031d114860a309f6eeacdad289.png&quot;>&#xD;&#xA;&lt;/p>">
+    documentation="&lt;p>&#xD;&#xA;Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastgelegd. Een model van bedrijfsobjecten is te zien als een hoog niveau gegevensmodel. Het geeft een overzicht van de belangrijkste begrippen die leiden tot gegevens die organisaties moeten vastleggen. Het is ook bruikbaar als checklist om verantwoordelijkheden van organisaties, mensen, processen en informatiesystemen toe te wijzen. In de domeinarchitectuur zijn ze gekoppeld aan de bedrijfsfuncties en standaarden.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;&lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/images/bedrijfsobjectenmodel.svg&quot;>&#xD;&#xA;&lt;/p>">
   <properties
       key="elementType"
       value="business-object"/>
