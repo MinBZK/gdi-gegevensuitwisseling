@@ -38,6 +38,9 @@
   </folder>
   <folder name="Business" id="id-f796105d5410440281aa77a67731ef3f" type="business">
     <folder name="Teksten" id="id-7836becd6f33424a983b4eb7df958d98">
+      <element xsi:type="archimate:Representation" name="Begrippen" id="id-021ce092aa7a46f6af9b8c068cf8b7d2" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
+        <property key="elementType" value="meaning"/>
+      </element>
       <element xsi:type="archimate:Representation" name="Beleid" id="id-0c8e568c55ab4ddc91ef581d337e57ff" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>De domeinarchitectuur beschrijft een aantal belangrijke beleidsdocumenten die invloed hebben op gegevensuitwisseling. Overheidsorganisaties zouden zich bewust moeten zijn van dit beleid en dit mee moeten nemen in hun eigen beleidsvorming.&lt;/p></documentation>
         <property key="elementType" value="driverBeleid"/>
@@ -84,8 +87,10 @@ Bedrijfsfuncties zijn activiteiten die organisaties uitvoeren, los van hoe ze zi
 &lt;tr>&lt;td>4.4&lt;/td>&lt;td>Capabilities&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>4.5&lt;/td>&lt;td>Architectuurvisie&lt;br>&#xD;
 &lt;tr>&lt;td>4.6&lt;/td>&lt;td>Architectuurprincipes&lt;br>&#xD;
-&lt;tr>&lt;td>4.7&lt;/td>&lt;td>Veranderinitiatieven&lt;br>&#xD;
-&lt;tr>&lt;td>4.8&lt;/td>&lt;td>Standaarden&lt;br>&#xD;
+&lt;tr>&lt;td>4.7&lt;/td>&lt;td>Verdieping: metagegevens&lt;br>&#xD;
+&lt;tr>&lt;td>4.8&lt;/td>&lt;td>Veranderinitiatieven&lt;br>&#xD;
+&lt;tr>&lt;td>4.9&lt;/td>&lt;td>Standaarden&lt;br>&#xD;
+&lt;tr>&lt;td>4.10&lt;/td>&lt;td>Begrippen&lt;br>&#xD;
 &lt;/table>&#xD;
 &lt;/p>&#xD;
 </documentation>
@@ -131,6 +136,7 @@ Een ander nieuw uitwisselpatroon is het gevolg van de &lt;a href=&quot;https://m
 &lt;/p>&#xD;
 &lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/images/notificatie.jpg&quot;>&lt;/center>&lt;/p>&#xD;
 &lt;h2>De rol van metagegevens in gegevensuitwisseling&lt;/h2>&#xD;
+&lt;p>&#xD;
 Gegevensuitwisseling kan alleen werken als er ook metagegevens zijn die bepalen wat de gegevens betekenen en hoe ermee wordt omgegaan. Metagegevens zijn een belangrijke basis onder de &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-a3ff1bdac53d4cf28526f9f3f360ffcf.html&quot;>FAIR-principes&lt;/a>. Door datasets en gegevensdiensten te publiceren in relevante catalogi zijn ze vindbaar. Door in de metagegevens te verwijzen naar &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-108681ef00724a4ba689f412dd9ba257.html&quot;>begrippen&lt;/a>, informatie- en gegevensmodellen worden gegevens interoperabel. Het opnemen van metagegevens over de beperkingen, rechten en plichten die van toepassing zijn worden de gegevens ook herbruikbaar. Het liefst zijn deze voorwaarden ook in machineleesbare vorm beschreven, zodat ze als autorisatieregels kunnen worden gebruikt. Het wordt dan mogelijk om meer geautomatiseerd te toetsen of afnemers voldoen aan de gestelde voorwaarden. Belangrijk is dat metagegevens &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-1786a7952d0e4aa9882e7416ba13c3d7.html&quot;>begrijpelijk zijn verwoord zodat ze eenvoudig kunnen worden begrepen&lt;/a>. Ook in de uitwisseling zelf spelen metagegevens een belangrijke rol. Ze kunnen aangeven waar gegevens vandaan komen, hoe ze zijn ontstaan en wanneer ze zijn uitgewisseld. Hierdoor zorgen metagegevens ook voor herleidbaarheid en bewijsvoering van gegevens.&lt;/p>&#xD;
 &lt;p>&#xD;
 Begrippen, informatie- en gegevensmodellen zijn zelf ook een vorm van metagegevens. Ze beschrijven de betekenis en structuur van de gegevens. Begrippen zijn daarbij het &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-108681ef00724a4ba689f412dd9ba257.html&quot;>startpunt voor gemeenschappelijke begripsvorming&lt;/a>. Zij worden in wet- en regelgeving verankerd, waardoor ze een formele status krijgen. Door informatie- en gegevensmodellen te &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-ed8bb4317e15400a813ffc816f0823cb.html&quot;>verbinden&lt;/a> aan deze begrippen kan er geen misverstand bestaan over hun betekenis. Als ook &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-ed8bb4317e15400a813ffc816f0823cb.html&quot;>verbindingen&lt;/a> worden gelegd vanuit gegevensmodellen naar schema's en uiteindelijk ook naar de individuele gegevens zelf is deze betekenis in de gehele keten geborgd. Het wordt dan ook mogelijk voor een eindgebruiker om de betekenis van een individueel gegeven op zijn scherm, in een rapportage of dashboard op te vragen.&#xD;
@@ -150,11 +156,24 @@ Begrippen, informatie- en gegevensmodellen zijn zelf ook een vorm van metagegeve
         <documentation>&lt;p>Architectuurprincipes zijn richtinggevende uitspraken die vooral uitting geven aan een streven. Ze bestaan uit een stelling die uitting geeft aan de overtuiging die eraan ten grondslag ligt, een rationale die meer informatie geeft over de drijfveren en implicaties die de consequenties beschrijven. Architectuurprincipes moeten vooral als argument worden meegenomen in het maken van keuzes, maar zijn niet per definitie doorslaggevend. Er kunnen contextueel altijd zwaarwegender argumenten zijn, waardoor het toch logischer is om van de principes af te wijken. Deze afweging moet wel expliciet worden gemaakt en vastgelegd. De architectuurprincipes zijn in de domeinarchitectuur gekoppeld aan de relevante wet- en regelgeving waar ze invulling aan geven en aan de bedrijfsfuncties die ingericht moeten zijn om ze te implementeren.&lt;/p></documentation>
         <property key="elementType" value="principle"/>
       </element>
-      <element xsi:type="archimate:Representation" name="Verdieping op thema metagegevens" id="id-b7da2fb1fe314dbfb7d025d2f1a07035" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
+      <element xsi:type="archimate:Representation" name="Verdieping: metagegevens" id="id-b7da2fb1fe314dbfb7d025d2f1a07035" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>Metagegevens zijn gegevens over gegevens. Praktisch gezien kun je metagegevens als bijsluiter bij gegevens beschouwen. Het onderscheid tussen gegevens en metagegevens is niet altijd zwart-wit; het is afhankelijk van de context en de rol die de gegevens spelen. Zo kunnen bijvoorbeeld gegevens over een persoon gebruikt worden om aan te geven wie de auteur is van een informatie-object en daarmee worden ze metagegevens. Er zijn allerlei vormen van metagegevens. De DAMA Data Management Body of Knowlegde (DMBoK) maakt onderscheid tussen business metagegevens, technische metagegevens en operationele metagegevens.&lt;/p>&#xD;
 &lt;p>Bij het inrichten van het beheer van metagegevens is belangrijk om te bepalen welke metagegevens zullen worden vastgelegd. Hiervoor is het nodig een metadatamodel op te stellen. In de context van gegevensuitwisseling is vooral interessant welke metagegevens worden uitgewisseld met andere organisaties. Daarbij spelen standaarden een cruciale rol. Ze zorgen ervoor dat afnemers eenvoudiger kunnen begrijpen welke gegevens het betreft. Er is een grote diversiteit aan standaarden die iets zeggen over metagegevens. De volgende figuur geeft een overzicht van gangbare standaarden, geplot op het bedrijfsobjectenmodel. Het geeft aan welke standaarden, voor het beschrijven van welke soort metagegevens relevant zijn. Op hoofdlijnen is het bedrijfsobjectenmodel daarmee eigenlijk al een metadatamodel en het kan door organisaties ook als startpunt voor een eigen metadatamodel dienen.&lt;/p>&#xD;
 &lt;p>&lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/images/metadatastandaarden.svg&quot;>&lt;/p>&#xD;
-&lt;p></documentation>
+&lt;p>&#xD;
+&lt;table>&#xD;
+&lt;tr>&lt;td valign=&quot;top&quot;>&lt;/td>&lt;td valign=&quot;top&quot;>&lt;b>Beschouwingsniveau I&lt;/b>&lt;/td>&lt;td valign=&quot;top&quot;>&lt;b>Beschouwingsniveau II&lt;/b>&lt;/td>&lt;td valign=&quot;top&quot;>&lt;b>Beschouwingsniveau III&lt;/b>&lt;/td>&lt;td valign=&quot;top&quot;>&lt;b>beschouwingsniveau IV&lt;/b>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td valign=&quot;top&quot;>&lt;b>Gangbare termen&lt;/b>&lt;/td>&lt;td valign=&quot;top&quot;>Begrippenmodel, Concept model, Thesaurus, Taxonomie, Business glossary&lt;/td>&lt;td valign=&quot;top&quot;>Conceptueel informatiemodel, Ontologie, Kennismodel, Bedrijfsobjectenmodel&lt;/td>&lt;td valign=&quot;top&quot;>Logisch informatiemodel, Logisch datamodel, Logisch gegevensmodel&lt;/td>&lt;td valign=&quot;top&quot;>Technisch datamodel, Technisch gegevensmodel, Fysiek datamodel, Schema&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td valign=&quot;top&quot;>&lt;b>Doelgroep&lt;/b>&lt;/td>&lt;td valign=&quot;top&quot;>Iedereen&lt;/td>&lt;td valign=&quot;top&quot;>Expertgebruikers van informatiediensten&lt;/td>&lt;td valign=&quot;top&quot;>Ontwerpers van informatiediensten&lt;/td>&lt;td valign=&quot;top&quot;>Ontwikkelaars van informatiediensten&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td valign=&quot;top&quot;>&lt;b>Modelleertalen&lt;/b>&lt;/td>&lt;td valign=&quot;top&quot;>SKOS, SBVR&lt;/td>&lt;td valign=&quot;top&quot;>OWL, RDFS, UML (OO), OntoUML, ORM, CogNIAM, FCO-IM, ERD (conceptueel), ArchiMate&lt;/td>&lt;td valign=&quot;top&quot;>SHACL, UML (OO), ERD (logisch)&lt;/td>&lt;td valign=&quot;top&quot;>SQL DDL, JSON Schema, XML Schema, ER (fysiek/implementatie), programmeertaal&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td valign=&quot;top&quot;>&lt;b>Inhoud&lt;/b>&lt;/td>&lt;td valign=&quot;top&quot;>&lt;ul>&lt;li>Begrippen die worden gebruikt en herkenbaar zijn in het domein&lt;/li>&lt;li>Definities en toelichtingen van de termen die worden gebruikt voor de begrippen&lt;/li>&lt;li>Synoniemen/homoniemen en alternatieve schrijfwijzen van de begrippen zoals  afkortingen&lt;/li>&lt;li>Hiërarchische en associatieve relaties tussen de begrippen&lt;/li>&lt;li>Classificaties van de begrippen&lt;/li>&lt;li>Regels over het domein in natuurlijke taal in termen van de begrippen&lt;/li>&lt;/ul>&lt;/td>&lt;td valign=&quot;top&quot;>&lt;ul>&lt;li>Een formalisatie van dingen die bestaan in het domein&lt;/li>&lt;li>Eigenschappen van de dingen in het domein&lt;/li>&lt;li>Eigenschappen die (mogelijk in combinatie) dingen uniek identificeren&lt;/li>&lt;li>Naamgeving gericht op exactheid&lt;/li>&lt;li>Formele definities van de dingen en hun eigenschappen&lt;/li>&lt;li>Mogelijke waarden van eigenschappen (populaties van dingen)&lt;/li>&lt;li>Exacte relaties tussen de dingen&lt;/li>&lt;li>Regels over de dingen en hun eigenschappen in een (semi) formele taal&lt;/li>&lt;li>Uitspraken over de dingen en hun eigenschappen&lt;/li>&lt;/ul>&lt;/td>&lt;td valign=&quot;top&quot;>&lt;ul>&lt;li>Technologie-onafhankelijke beschrijving van gegevens&lt;/li>&lt;li>Clusters van gegevens&lt;/li>&lt;li>Individuele data-&#xD;
+elementen binnen de gegevensclusters&lt;/li>&lt;li>Logische sleutels: identificaties die niet bestaan op conceptueel niveau&lt;/li>&lt;li>Naamgeving gericht op gebruik in ontwerpen&lt;/li>&lt;li>Beschrijvingen van de gegevens, die niet op hoger liggend niveau duidelijk zijn&lt;/li>&lt;li>Datatypes van de gegevens&lt;/li>&lt;li>Relaties tussen de gegevens&lt;/li>&lt;li>Regels over de gegevens en hun onderlinge relatie, mede op basis van kennis over hoe ze tot stand komen en worden gebruikt&lt;/li>&lt;li>Vastlegging van historie van gegevens&lt;/li>&lt;li>Vastlegging van gegevens t.b.v. herleidbaarheid en auditlogging&lt;/li>&lt;/ul>&lt;/td>&lt;td valign=&quot;top&quot;>&lt;ul>&lt;li>Technologie-specifieke representatie van gegevens als data&lt;/li>&lt;li>Technologie-specifieke datatypen&lt;/li>&lt;li>Technologie-specifieke identificaties van gegevens&lt;/li>&lt;li>Technologie-specifieke naamgeving van gegevens&lt;/li>&lt;li>Technische sleutels: technologie-specifieke representatie van logische sleutels&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
+&lt;/table>&#xD;
+&lt;/p>&#xD;
+&#xD;
+&#xD;
+&#xD;
+</documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Ontwikkelingen" id="id-b9f1d0aea3f44059bd3b54c9f1a2ebf1" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>In deze architectuur beschrijven we een aantal belangrijke (vooral technische) ontwikkelingen op het gebied van gegevensuitwisseling. Deze impact van deze ontwikkelingen is meegenomen in de beschrijving van de architectuur.&lt;/p></documentation>
@@ -1681,8 +1700,8 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-5f08b11067c04a5cad42d3183ded6ca4" source="id-b8382723adde49209c8e6ba8d3130fd5" target="id-39b68135266a4b08be0c9bacacd8a5da"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5f0e4d87834e4a4d82ba0307b42abfe9" source="id-b160b994f4554d128443e7406af8d09e" target="id-e0f07c7f77834fd081955c8d99f288f7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5f31816c08af4ad59626d0d1ccf718bf" source="id-d663973596d447ae98a48793fe341f34" target="id-293860e793c24752a4184737c13d802b"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.8" id="id-5fc4b55064304e459730a896f474d0c8" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-90484cc165104305a237032f84407803">
-      <property key="volgnummer" value="17"/>
+    <element xsi:type="archimate:AssociationRelationship" name="4.9" id="id-5fc4b55064304e459730a896f474d0c8" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-90484cc165104305a237032f84407803">
+      <property key="volgnummer" value="18"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
@@ -1770,10 +1789,14 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-9ac1e4d14fd4448a93176227d1056c0f" source="id-0da09931f8ac4b368c786703913087bf" target="id-deb4667d24eb494c919800436a77358c"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9acd8dedd0c9494a91076ec651de48f8" source="id-b8382723adde49209c8e6ba8d3130fd5" target="id-978c37663b714e0fbdc9ec088db243d4"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9ae2bdcd3c3247a382a04163fc98b3df" source="id-5ef12d74a642417684910d16092653f2" target="id-0e8e9bd950a04d5390cbd01cde4c9375"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.7" id="id-9d6f7cccb5e04158a086bb1b1325f009" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-75bc6e2c69dd4dfaa4f38a3ce5eaa9b6">
-      <property key="volgnummer" value="16"/>
+    <element xsi:type="archimate:AssociationRelationship" name="4.8" id="id-9d6f7cccb5e04158a086bb1b1325f009" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-75bc6e2c69dd4dfaa4f38a3ce5eaa9b6">
+      <property key="volgnummer" value="17"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" name="4.7" id="id-9eb877bc47c54e038c9c71a758b29e2f" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-b7da2fb1fe314dbfb7d025d2f1a07035">
+      <property key="volgnummer" value="16"/>
+      <property key="niveau" value="2"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-9f8a58ef6b1444b293df5f5fdcd32664" source="id-5ef12d74a642417684910d16092653f2" target="id-a886fec7ea1447db9831cd8c85bcd77c"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9fe4bdbdb1584e2fbec9ee9d007bb886" source="id-bdd9ffe19f724e0fb42094958c71ce8e" target="id-654de455909049e5880ca18ca40935ed"/>
@@ -1813,6 +1836,9 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-b802a4a77bc1410e9523be8ae6d4e2c4" source="id-83efbf11e08643ea93f8b87ff9d6e520" target="id-ce64114e055648af86127a0b29704e94"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b82cbb81db314ed4b16183fb2fea861c" source="id-b160b994f4554d128443e7406af8d09e" target="id-3bb134dd13654c57a6395ace8aca98d5"/>
+    <element xsi:type="archimate:AssociationRelationship" name="4.10" id="id-b94a3a9bea754d2b926a73533c5897ed" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-021ce092aa7a46f6af9b8c068cf8b7d2">
+      <property key="volgnummer" value="19"/>
+    </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-b98905e459754fff8253d67dc65b1185" source="id-61972e0d2c02472b903090af6f8b0650" target="id-2ca8c8a0edc245348bb3f56548636bf7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b9f66eb1c8df47e6957192ae1eeb3081" source="id-0da09931f8ac4b368c786703913087bf" target="id-0c5ff2bcee01490da929bce198ffa7e8"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-ba050e96edf1487781bc1f836d589f24" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-6656f6c85d4643d18bb5829dd0f8cef7"/>
@@ -5394,7 +5420,7 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Documentstructuur" id="id-8221d3cd685c4027b81176fa7f15153f">
       <child xsi:type="archimate:DiagramObject" id="id-6f78c0751095412c9a56b62ce51e885c" lineColor="#000000" fillColor="#ffffff" textPosition="1" archimateElement="id-f7cd0effef5643879ed04ee81f4d9bfb">
-        <bounds x="24" y="12" width="145" height="409"/>
+        <bounds x="24" y="12" width="145" height="457"/>
         <feature name="iconVisible" value="2"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-54a9dd9d7aa74a02bba0c00f5a81634d" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-2bb252c939694940873b14bd32307814" archimateRelationship="id-a5ee3e0dd5bf45da9cee20abc1914729"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-4a9e62cb283445acaf37650e15957d47" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-b0e1cd0b465d4b9187833337bb98e72c" archimateRelationship="id-d444c0e79b314a1ebba53c254f5d7037"/>
@@ -5413,6 +5439,8 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
         <sourceConnection xsi:type="archimate:Connection" id="id-f7bd6ac6d94c4b5282e66d4b15aeb2aa" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-cc015d5d395f432dadb2bdf108106fb2" archimateRelationship="id-ca2f363d54c04721a6dd88dab31f517d"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-75f82d1d28b94efd86555939c1c87962" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-c187e6747b4f48c6bbd20b0ab96c2532" archimateRelationship="id-6ca18ef2521e4b2da58445138f0bc419"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-d7eb47cbb3554d76be521434297a9d0a" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-ae6c3de331754ec38c3a8bfba7e5bb2e" archimateRelationship="id-d1285b6946eb4ff498d26c857b089b41"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f4f4824cbf954488b988a9a3198a2906" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-c1cf98ab553e4243b38f52d26539b3b8" archimateRelationship="id-9eb877bc47c54e038c9c71a758b29e2f"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ebf172a4590f4f278d017180d7b298a1" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-662584c0e4a24beb984869b7e81e0359" archimateRelationship="id-b94a3a9bea754d2b926a73533c5897ed"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-f2f81565eb4e4945b1bafbf324cb410f" targetConnections="id-a70e1d3feeaf494088ed844951b7fd35" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-65626af39b714343abdc1b5e9d8bfb21">
         <bounds x="237" y="324" width="212" height="25"/>
@@ -5463,11 +5491,11 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-5706d0950497473fa028c830c439f16e" targetConnections="id-5d2ae4a97d5e4b86a8275fd3d6e88d2d" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-90484cc165104305a237032f84407803">
-        <bounds x="237" y="396" width="212" height="25"/>
+        <bounds x="237" y="420" width="212" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-53d86bc2166a435ba1f268d68296d676" targetConnections="id-28b67cae4d11484cb3cf060d614b79b9" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-75bc6e2c69dd4dfaa4f38a3ce5eaa9b6">
-        <bounds x="237" y="372" width="212" height="25"/>
+        <bounds x="237" y="396" width="212" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-b0e1cd0b465d4b9187833337bb98e72c" targetConnections="id-4a9e62cb283445acaf37650e15957d47" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-d1fc4f0a6391470f97c66d10241db9c7">
@@ -5480,6 +5508,14 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-ae6c3de331754ec38c3a8bfba7e5bb2e" targetConnections="id-d7eb47cbb3554d76be521434297a9d0a" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-50e034c9db124940b1fa0936dc7f7f93">
         <bounds x="228" y="12" width="221" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c1cf98ab553e4243b38f52d26539b3b8" targetConnections="id-f4f4824cbf954488b988a9a3198a2906" textAlignment="1" fillColor="#ffffff" archimateElement="id-b7da2fb1fe314dbfb7d025d2f1a07035">
+        <bounds x="237" y="372" width="212" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-662584c0e4a24beb984869b7e81e0359" targetConnections="id-ebf172a4590f4f278d017180d7b298a1" textAlignment="1" fillColor="#ffffff" archimateElement="id-021ce092aa7a46f6af9b8c068cf8b7d2">
+        <bounds x="237" y="444" width="212" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
     </element>
