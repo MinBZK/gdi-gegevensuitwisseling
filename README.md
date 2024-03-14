@@ -32,6 +32,7 @@ Gewenste situatie:
 * Architectuurvisie: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-65626af39b714343abdc1b5e9d8bfb21.html">beschrijving</a>
 * Architectuurprincipes: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-4e701366fd844120b700c114068bc91e">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principes.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principesdetails.html">details</a>
 * Standaarden: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-5df0c1360768493aa966c16f7dbfd414">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaardendetails.html">details</a>
+* Verdieping op thema metagegevens: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-b7da2fb1fe314dbfb7d025d2f1a07035.html">beschrijving</a>
 * Veranderinitiatieven: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/veranderinitiatieven.html">overzicht</a>
 
 Samenvatting in één pagina: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20gegevensuitwisseling.html">samenvatting</a>
