@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Verdieping op thema metagegevens</title>
+	<title>Verdieping: metagegevens</title>
 
 	<!-- JQUERY -->
 	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
@@ -21,7 +21,7 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Verdieping op thema metagegevens</b>
+               <b>Verdieping: metagegevens</b>
 
             <!-- If a View with Viewpoint -->
 			   (<span class="i18n-elementtype-Representation"></span>)
@@ -41,6 +41,7 @@
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
                     <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
 
 				</ul>
 
@@ -53,7 +54,20 @@
 						<div class="convertlinks documentation" style="white-space:pre-wrap">&lt;p&gt;Metagegevens zijn gegevens over gegevens. Praktisch gezien kun je metagegevens als bijsluiter bij gegevens beschouwen. Het onderscheid tussen gegevens en metagegevens is niet altijd zwart-wit; het is afhankelijk van de context en de rol die de gegevens spelen. Zo kunnen bijvoorbeeld gegevens over een persoon gebruikt worden om aan te geven wie de auteur is van een informatie-object en daarmee worden ze metagegevens. Er zijn allerlei vormen van metagegevens. De DAMA Data Management Body of Knowlegde (DMBoK) maakt onderscheid tussen business metagegevens, technische metagegevens en operationele metagegevens.&lt;/p&gt;
 &lt;p&gt;Bij het inrichten van het beheer van metagegevens is belangrijk om te bepalen welke metagegevens zullen worden vastgelegd. Hiervoor is het nodig een metadatamodel op te stellen. In de context van gegevensuitwisseling is vooral interessant welke metagegevens worden uitgewisseld met andere organisaties. Daarbij spelen standaarden een cruciale rol. Ze zorgen ervoor dat afnemers eenvoudiger kunnen begrijpen welke gegevens het betreft. Er is een grote diversiteit aan standaarden die iets zeggen over metagegevens. De volgende figuur geeft een overzicht van gangbare standaarden, geplot op het bedrijfsobjectenmodel. Het geeft aan welke standaarden, voor het beschrijven van welke soort metagegevens relevant zijn. Op hoofdlijnen is het bedrijfsobjectenmodel daarmee eigenlijk al een metadatamodel en het kan door organisaties ook als startpunt voor een eigen metadatamodel dienen.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://minbzk.github.io/gdi-gegevensuitwisseling/images/metadatastandaarden.svg"&gt;&lt;/p&gt;
-&lt;p&gt;</div>
+&lt;p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;&lt;/td&gt;&lt;td valign="top"&gt;&lt;b&gt;Beschouwingsniveau I&lt;/b&gt;&lt;/td&gt;&lt;td valign="top"&gt;&lt;b&gt;Beschouwingsniveau II&lt;/b&gt;&lt;/td&gt;&lt;td valign="top"&gt;&lt;b&gt;Beschouwingsniveau III&lt;/b&gt;&lt;/td&gt;&lt;td valign="top"&gt;&lt;b&gt;beschouwingsniveau IV&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;&lt;b&gt;Gangbare termen&lt;/b&gt;&lt;/td&gt;&lt;td valign="top"&gt;Begrippenmodel, Concept model, Thesaurus, Taxonomie, Business glossary&lt;/td&gt;&lt;td valign="top"&gt;Conceptueel informatiemodel, Ontologie, Kennismodel, Bedrijfsobjectenmodel&lt;/td&gt;&lt;td valign="top"&gt;Logisch informatiemodel, Logisch datamodel, Logisch gegevensmodel&lt;/td&gt;&lt;td valign="top"&gt;Technisch datamodel, Technisch gegevensmodel, Fysiek datamodel, Schema&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;&lt;b&gt;Doelgroep&lt;/b&gt;&lt;/td&gt;&lt;td valign="top"&gt;Iedereen&lt;/td&gt;&lt;td valign="top"&gt;Expertgebruikers van informatiediensten&lt;/td&gt;&lt;td valign="top"&gt;Ontwerpers van informatiediensten&lt;/td&gt;&lt;td valign="top"&gt;Ontwikkelaars van informatiediensten&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;&lt;b&gt;Modelleertalen&lt;/b&gt;&lt;/td&gt;&lt;td valign="top"&gt;SKOS, SBVR&lt;/td&gt;&lt;td valign="top"&gt;OWL, RDFS, UML (OO), OntoUML, ORM, CogNIAM, FCO-IM, ERD (conceptueel), ArchiMate&lt;/td&gt;&lt;td valign="top"&gt;SHACL, UML (OO), ERD (logisch)&lt;/td&gt;&lt;td valign="top"&gt;SQL DDL, JSON Schema, XML Schema, ER (fysiek/implementatie), programmeertaal&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;&lt;b&gt;Inhoud&lt;/b&gt;&lt;/td&gt;&lt;td valign="top"&gt;&lt;ul&gt;&lt;li&gt;Begrippen die worden gebruikt en herkenbaar zijn in het domein&lt;/li&gt;&lt;li&gt;Definities en toelichtingen van de termen die worden gebruikt voor de begrippen&lt;/li&gt;&lt;li&gt;Synoniemen/homoniemen en alternatieve schrijfwijzen van de begrippen zoals  afkortingen&lt;/li&gt;&lt;li&gt;Hi&#235;rarchische en associatieve relaties tussen de begrippen&lt;/li&gt;&lt;li&gt;Classificaties van de begrippen&lt;/li&gt;&lt;li&gt;Regels over het domein in natuurlijke taal in termen van de begrippen&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td valign="top"&gt;&lt;ul&gt;&lt;li&gt;Een formalisatie van dingen die bestaan in het domein&lt;/li&gt;&lt;li&gt;Eigenschappen van de dingen in het domein&lt;/li&gt;&lt;li&gt;Eigenschappen die (mogelijk in combinatie) dingen uniek identificeren&lt;/li&gt;&lt;li&gt;Naamgeving gericht op exactheid&lt;/li&gt;&lt;li&gt;Formele definities van de dingen en hun eigenschappen&lt;/li&gt;&lt;li&gt;Mogelijke waarden van eigenschappen (populaties van dingen)&lt;/li&gt;&lt;li&gt;Exacte relaties tussen de dingen&lt;/li&gt;&lt;li&gt;Regels over de dingen en hun eigenschappen in een (semi) formele taal&lt;/li&gt;&lt;li&gt;Uitspraken over de dingen en hun eigenschappen&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td valign="top"&gt;&lt;ul&gt;&lt;li&gt;Technologie-onafhankelijke beschrijving van gegevens&lt;/li&gt;&lt;li&gt;Clusters van gegevens&lt;/li&gt;&lt;li&gt;Individuele data-
+elementen binnen de gegevensclusters&lt;/li&gt;&lt;li&gt;Logische sleutels: identificaties die niet bestaan op conceptueel niveau&lt;/li&gt;&lt;li&gt;Naamgeving gericht op gebruik in ontwerpen&lt;/li&gt;&lt;li&gt;Beschrijvingen van de gegevens, die niet op hoger liggend niveau duidelijk zijn&lt;/li&gt;&lt;li&gt;Datatypes van de gegevens&lt;/li&gt;&lt;li&gt;Relaties tussen de gegevens&lt;/li&gt;&lt;li&gt;Regels over de gegevens en hun onderlinge relatie, mede op basis van kennis over hoe ze tot stand komen en worden gebruikt&lt;/li&gt;&lt;li&gt;Vastlegging van historie van gegevens&lt;/li&gt;&lt;li&gt;Vastlegging van gegevens t.b.v. herleidbaarheid en auditlogging&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td valign="top"&gt;&lt;ul&gt;&lt;li&gt;Technologie-specifieke representatie van gegevens als data&lt;/li&gt;&lt;li&gt;Technologie-specifieke datatypen&lt;/li&gt;&lt;li&gt;Technologie-specifieke identificaties van gegevens&lt;/li&gt;&lt;li&gt;Technologie-specifieke naamgeving van gegevens&lt;/li&gt;&lt;li&gt;Technische sleutels: technologie-specifieke representatie van logische sleutels&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+
+
+</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -77,6 +91,10 @@
 								</tr>
 							</thead>
 							<tbody>
+								<tr id="used-in-views-id-8221d3cd685c4027b81176fa7f15153f">
+																	<td><a href="../views/id-8221d3cd685c4027b81176fa7f15153f.html" target="view" title="Documentstructuur"> Documentstructuur </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
 							</tbody>
 						</table>
 						<table class="table table-striped table-hover table-condensed" id="model-relations">
@@ -90,6 +108,12 @@
 								</tr>
 							</thead>
 							<tbody>
+									<tr>
+											<td><a href="../elements/id-9eb877bc47c54e038c9c71a758b29e2f.html" target="element" title="4.7">4.7</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f7cd0effef5643879ed04ee81f4d9bfb.html" target="element"> Domeinarchitectuur gegevensuitwisseling</a></td>
+											<td><a href="../elements/id-b7da2fb1fe314dbfb7d025d2f1a07035.html" target="element"> Verdieping: metagegevens</a></td>
+										</tr>
 							</tbody>
 						</table>
 					</div>
