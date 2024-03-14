@@ -674,6 +674,24 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-4c7c47e83f8d4f2aa1d142ceafe754ea.xml#id-4c7c47e83f8d4f2aa1d142ceafe754ea"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-61072c935bf04faf989fef469e080068"
+        source="id-bb3ddbeff40449f38e5303366d077b37"
+        target="id-8f21b39d807447e8bcd4a9d536f5a921">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-d950c09a38a146d2931d252079f668ad.xml#id-d950c09a38a146d2931d252079f668ad"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-d4f3cde34f754ddeb39c3dd695a62f7c"
+        source="id-bb3ddbeff40449f38e5303366d077b37"
+        target="id-8f21b39d807447e8bcd4a9d536f5a921">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-d950c09a38a146d2931d252079f668ad.xml#id-d950c09a38a146d2931d252079f668ad"/>
+    </sourceConnections>
     <bounds
         x="804"
         y="576"
@@ -697,6 +715,24 @@
           xsi:type="archimate:Constraint"
           href="Constraint_id-ce64114e055648af86127a0b29704e94.xml#id-ce64114e055648af86127a0b29704e94"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-8f21b39d807447e8bcd4a9d536f5a921"
+        targetConnections="id-61072c935bf04faf989fef469e080068 id-d4f3cde34f754ddeb39c3dd695a62f7c"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="384"
+          y="24"
+          width="169"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Constraint"
+          href="Constraint_id-0251be44656c48abb8ca49eb29f71715.xml#id-0251be44656c48abb8ca49eb29f71715"/>
+    </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-80e3338ec5a94dc4a0bab92c6d9b286a.xml#id-80e3338ec5a94dc4a0bab92c6d9b286a"/>
@@ -715,14 +751,14 @@
     <children
         xsi:type="archimate:DiagramModelGroup"
         id="id-113b82041e6c4b14a65cf34f97b29f6a"
-        name="Begrippen"
+        name="Begrippen en bedrijfsregels"
         textAlignment="1"
         fillColor="#ffffb5">
       <bounds
           x="12"
           y="24"
           width="373"
-          height="133"/>
+          height="181"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-b5af6ee53a424591ac59f52a0c03ec8e"
@@ -774,6 +810,40 @@
             xsi:type="archimate:Constraint"
             href="Constraint_id-c40dfcb8cd544a32a5e95435fa66423e.xml#id-c40dfcb8cd544a32a5e95435fa66423e"/>
       </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-27df2832f1464edea83f884fa4417f8b"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="192"
+            y="84"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-76f91f51924e4f858d9554164ece1a0f.xml#id-76f91f51924e4f858d9554164ece1a0f"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-2cb01e63f76a4bd69ac1327c30e0ccd3"
+          fillColor="#ffffff"
+          textPosition="1">
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="12"
+            y="132"
+            width="169"
+            height="37"/>
+        <archimateElement
+            xsi:type="archimate:Constraint"
+            href="Constraint_id-e12667630ded48f2b6c2c99bc1a01c44.xml#id-e12667630ded48f2b6c2c99bc1a01c44"/>
+      </children>
     </children>
     <children
         xsi:type="archimate:DiagramModelGroup"
@@ -783,7 +853,7 @@
         fillColor="#ffffb5">
       <bounds
           x="12"
-          y="168"
+          y="220"
           width="373"
           height="361"/>
       <children

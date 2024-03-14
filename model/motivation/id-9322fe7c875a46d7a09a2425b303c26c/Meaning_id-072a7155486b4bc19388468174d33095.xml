@@ -1,0 +1,18 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="kwaliteitsattribuut"
+    id="id-072a7155486b4bc19388468174d33095"
+    documentation="Een aspect van een kwaliteitsdimensie.">
+  <properties
+      key="Alternatieve term"
+      value="subkarakteristiek"/>
+  <properties
+      key="Toelichting"
+      value="Een kwaliteitsattribuut geeft een meer concreet meetbaar aspect binnen een kwaliteitsdimensie aan. Voor een kwaliteitsattribuut kunnen meetbare indicatoren worden gedefinieerd."/>
+  <properties
+      key="Heeft bron"
+      value="NORA raamwerk gegevenskwaliteit"/>
+  <properties
+      key="Is gerelateerd aan"
+      value="kwaliteitsdimensie"/>
+</archimate:Meaning>

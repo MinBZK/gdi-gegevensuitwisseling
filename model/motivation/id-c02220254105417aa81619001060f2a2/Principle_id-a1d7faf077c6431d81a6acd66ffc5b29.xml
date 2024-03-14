@@ -15,7 +15,5 @@
   <properties
       key="Implicaties"
       value="4. De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
-  <properties
-      key="Implicaties"
-      value="5. Over organisatiegrenzen heen worden notificaties informatiearm verstuurd, zonder de inhoudelijke persoonsgegevens."/>
+  <properties/>
 </archimate:Principle>

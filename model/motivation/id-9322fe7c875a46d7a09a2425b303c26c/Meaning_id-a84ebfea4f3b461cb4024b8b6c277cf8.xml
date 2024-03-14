@@ -1,0 +1,15 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="materiële historie"
+    id="id-a84ebfea4f3b461cb4024b8b6c277cf8"
+    documentation="De veranderingen van een object.">
+  <properties
+      key="Redactionele notitie"
+      value="Deze definitie is gebaseerd op NEN 3610:2022, maar die bevat geen formele definitie."/>
+  <properties
+      key="Toelichting"
+      value="Dit vraagt het vastleggen van de tijdstippen van veranderingen van eigenschappen, de toestand, van een object in de werkelijkheid. De periode waarin een object eenzelfde toestand had is de geldigheidsperiode."/>
+  <properties
+      key="Is gerelateerd aan"
+      value="geldigheidsperiode"/>
+</archimate:Meaning>
