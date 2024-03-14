@@ -208,11 +208,21 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-d1285b6946eb4ff498d26c857b089b41.xml#id-d1285b6946eb4ff498d26c857b089b41"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-f4f4824cbf954488b988a9a3198a2906"
+        lineColor="#c0c0c0"
+        source="id-6f78c0751095412c9a56b62ce51e885c"
+        target="id-c1cf98ab553e4243b38f52d26539b3b8">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-9eb877bc47c54e038c9c71a758b29e2f.xml#id-9eb877bc47c54e038c9c71a758b29e2f"/>
+    </sourceConnections>
     <bounds
         x="24"
         y="12"
         width="145"
-        height="409"/>
+        height="433"/>
     <archimateElement
         xsi:type="archimate:Representation"
         href="Representation_id-f7cd0effef5643879ed04ee81f4d9bfb.xml#id-f7cd0effef5643879ed04ee81f4d9bfb"/>
@@ -466,7 +476,7 @@
         value="2"/>
     <bounds
         x="237"
-        y="396"
+        y="420"
         width="212"
         height="25"/>
     <archimateElement
@@ -485,7 +495,7 @@
         value="2"/>
     <bounds
         x="237"
-        y="372"
+        y="396"
         width="212"
         height="25"/>
     <archimateElement
@@ -552,5 +562,23 @@
     <archimateElement
         xsi:type="archimate:Representation"
         href="Representation_id-50e034c9db124940b1fa0936dc7f7f93.xml#id-50e034c9db124940b1fa0936dc7f7f93"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-c1cf98ab553e4243b38f52d26539b3b8"
+      targetConnections="id-f4f4824cbf954488b988a9a3198a2906"
+      textAlignment="1"
+      fillColor="#ffffff">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <bounds
+        x="237"
+        y="372"
+        width="212"
+        height="25"/>
+    <archimateElement
+        xsi:type="archimate:Representation"
+        href="Representation_id-b7da2fb1fe314dbfb7d025d2f1a07035.xml#id-b7da2fb1fe314dbfb7d025d2f1a07035"/>
   </children>
 </archimate:ArchimateDiagramModel>
