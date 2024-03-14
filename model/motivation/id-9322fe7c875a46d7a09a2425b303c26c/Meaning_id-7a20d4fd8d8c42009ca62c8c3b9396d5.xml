@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="gegevenskwaliteit"
     id="id-7a20d4fd8d8c42009ca62c8c3b9396d5"
-    documentation="De mate waarin een geheel van eigenschappen en kenmerken van ��n of meer gegevens voldoet aan eisen.">
+    documentation="De mate waarin een geheel van eigenschappen en kenmerken van één of meer gegevens voldoet aan eisen.">
   <properties
       key="Alternatieve term"
       value="datakwaliteit"/>

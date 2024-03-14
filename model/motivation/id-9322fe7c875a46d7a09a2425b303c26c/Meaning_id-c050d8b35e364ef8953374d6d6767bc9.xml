@@ -5,8 +5,8 @@
     documentation="De periode waarin een object een bepaalde toestand had.">
   <properties
       key="Toelichting"
-      value="De opeenvolgingen van wijzigingen in de toestand van een object is de materi�le historie."/>
+      value="De opeenvolgingen van wijzigingen in de toestand van een object is de materiële historie."/>
   <properties
       key="Is gerelateerd aan"
-      value="materi�le historie, object"/>
+      value="materiële historie, object"/>
 </archimate:Meaning>

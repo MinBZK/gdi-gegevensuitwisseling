@@ -8,7 +8,7 @@
       value="attribuut"/>
   <properties
       key="Toelichting"
-      value="De gegevens &quot;Jan&quot; en &quot;Katrien&quot; worden als gelijksoortig gezien en worden daarom ondergebracht in �Attribuutsoort� naam. Je kan ook zeggen, het �Objecttype� Persoon heeft een Attribuutsoort naam en deze is geschikt om gegevens in te plaatsen. Aan elk �Objecttype� worden nul, ��n, of meer attribuutsoorten toegekend. In een informatiemodel wordt alleen een voor het domein relevant �Attribuutsoort� opgenomen bij een �Objecttype�. Attribuutsoorten worden ook wel kenmerken of eigenschappen genoemd. Dit zijn het ook, maar ook andere modelelementen vallen onder deze omschrijving. Zo is een �Relatiesoort� ook een kenmerk of eigenschap."/>
+      value="De gegevens &quot;Jan&quot; en &quot;Katrien&quot; worden als gelijksoortig gezien en worden daarom ondergebracht in Attribuutsoort naam. Je kan ook zeggen, het Objecttype Persoon heeft een Attribuutsoort naam en deze is geschikt om gegevens in te plaatsen. Aan elk Objecttype worden nul, één, of meer attribuutsoorten toegekend. In een informatiemodel wordt alleen een voor het domein relevant Attribuutsoort opgenomen bij een Objecttype. Attribuutsoorten worden ook wel kenmerken of eigenschappen genoemd. Dit zijn het ook, maar ook andere modelelementen vallen onder deze omschrijving. Zo is een Relatiesoort ook een kenmerk of eigenschap."/>
   <properties
       key="Heeft bron"
       value="MIM 1.2"/>
