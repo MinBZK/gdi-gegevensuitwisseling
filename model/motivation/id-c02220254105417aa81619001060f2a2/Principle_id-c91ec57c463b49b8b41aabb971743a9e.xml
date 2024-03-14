@@ -2,25 +2,23 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2.2. Aan gegevensuitwisseling ligt een overeenkomst ten grondslag"
     id="id-c91ec57c463b49b8b41aabb971743a9e"
-    documentation="Bronhouders willen hun gegevens beschermen en bijvoorbeeld kunnen voorkomen dat gegevens worden verwerkt in andere landen. De Data Act schrijft voor dat bronhouders met afnemers de voorwaarden voor het ter beschikking stellen van gegevens overeen moeten komen. Deze voorwaarden moeten eerlijk, redelijk en niet-dicriminerend zijn en transparant voor de afnemers. Vanuit de AVG is belangrijk dat een verwerkingsverantwoordelijke duidelijke afspraken maakt met verwerkers in verwerkingsovereenkomsten. Bij open data ligt dat genuanceerder omdat deze in de basis voor iedereen herbruikbaar zijn. Er horen echter wel voorwaarden bij open data, die impliciet geaccepteerd worden door het gebruik ervan. Als overeenkomsten deels ook in machineleesbare vorm kunnen worden gespecificeerd, dan kan zelfs een geautomatiseerde controle op contactvoorwaarden (autorisatie) worden uigevoerd bij de uitwisseling zelf.">
+    documentation="Bronhouders willen hun gegevens beschermen en bijvoorbeeld kunnen voorkomen dat gegevens worden verwerkt in andere landen. De Data Act schrijft voor dat bronhouders met afnemers de voorwaarden voor het ter beschikking stellen van gegevens overeen moeten komen. Deze voorwaarden moeten eerlijk, redelijk en niet-dicriminerend zijn en transparant voor de afnemers. Vanuit de AVG is belangrijk dat een verwerkingsverantwoordelijke duidelijke afspraken maakt met verwerkers in verwerkingsovereenkomsten. Als afspraken generiek kunnen worden gemaakt, landelijk of in de context van een domein, dan heeft dat de voorkeur omdat de noodzaak tot bilaterale afspraken minimaliseert. Als overeenkomsten deels ook in machineleesbare vorm kunnen worden gespecificeerd, dan kan zelfs een geautomatiseerde controle op contactvoorwaarden (autorisatie) worden uigevoerd bij de uitwisseling zelf.">
   <properties
       key="Implicaties"
       value="1. Aanbieders van gegevens beschrijven hun voorwaarden zoals de van toepassing zijnde gebruiksbeperkingen, -rechten en -plichten expliciet."/>
   <properties
       key="Implicaties"
-      value="2. Aanbieders van persoonsgegevens sluiten een verwerkersovereenkomst af met afnemers die onderdeel zijn van een andere organisatie."/>
+      value="2. Afspraken worden bij voorkeur zoveel mogelijk generiek gemaakt, landelijk of binnen een domein."/>
   <properties
       key="Implicaties"
-      value="3. Aanbieders van niet openbare gegevens sluiten een (mogelijk aanvullende) overeenkomst af met afnemers waarin minimaal de grondslagen, verantwoordelijkheden, procedures, kwaliteitseisen en de betrokken gegevens zijn benoemd."/>
+      value="3. Aanbieders van persoonsgegevens sluiten een verwerkersovereenkomst af met afnemers die onderdeel zijn van een andere organisatie."/>
   <properties
       key="Implicaties"
-      value="4. Aanbieders nemen maatregelen op het gebied van toegang en beveiliging om hun gegevens te beschermen."/>
+      value="4. Aanbieders maken waar nodig specifieke afspraken met afnemers, zoals over de grondslagen en de specifieke kwaliteitseisen."/>
   <properties
+      key="Implicaties"
       value="5. Daar waar verregaande automatisering loont worden relevante contractvoorwaarden in machineleesbare vorm omgezet en geautomatiseerd getoetst bij de uitwisseling."/>
   <properties
       key="Implicaties"
       value="6. Overeenkomsten worden periodiek door aanbieder en afnemers getoetst aan de realisatie, geëvalueerd en bijgesteld."/>
-  <properties
-      key="Implicaties"
-      value="7. Aanbieders van niet openbare gegevens evalueren of afnemers voldoen aan de voorwaarden."/>
 </archimate:Principle>

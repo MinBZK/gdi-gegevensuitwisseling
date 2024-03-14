@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="registratieperiode"
+    id="id-82076c7cf418461e9508cdb1345dff2b"
+    documentation="De periode waarin gegevens in een registratie aanwezig en actueel zijn.">
+  <properties
+      key="Toelichting"
+      value="De opeenvolgingen van wijzigingen in de registratie is de formele historie."/>
+  <properties
+      key="Is gerelateerd aan"
+      value="gegeven, formele historie"/>
+</archimate:Meaning>

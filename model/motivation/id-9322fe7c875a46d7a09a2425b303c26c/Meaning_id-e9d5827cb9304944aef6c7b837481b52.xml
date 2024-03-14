@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="datacatalogus"
+    id="id-e9d5827cb9304944aef6c7b837481b52"
+    documentation="Een samengestelde verzameling metadata over datasets en dataservices.">
+  <properties
+      key="Redactionele notitie"
+      value="Deze definitie is gebaseerd op de definitie van Catalog in DCAT 2.0, maar specifiek gemaakt voor datacatalogi."/>
+  <properties
+      key="Toelichting"
+      value="Een Catalog in DCAT 2.0 is algemener van aard en kan allerlei bronnen bevatten. In DCAT 2.0 is een Catalog ook een Dataset."/>
+</archimate:Meaning>

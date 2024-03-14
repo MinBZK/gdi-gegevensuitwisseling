@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="gebeurtenis"
+    id="id-1885ba9532db413b80df0502d477b0d3"
+    documentation="Iets dat gebeurt of gebeurd is.">
+  <properties
+      key="Alternatieve term"
+      value="voorval, feit"/>
+  <properties
+      key="Heeft bron"
+      value="VanDale"/>
+</archimate:Meaning>
