@@ -1031,7 +1031,7 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
       </element>
       <element xsi:type="archimate:Meaning" name="gegeven" id="id-0a1723fed84640eeb7e459a5f8da0389">
         <documentation>een uitdrukking van een feit in een geformaliseerd, gestructureerd formaat voornamelijk bedoeld voor machinale verwerking</documentation>
-        <property key="Toelichting" value="Voorbeelden van gegevens zijn de waardes �Jan� en �1-1-1970� betreffende de naam en de geboortedatum van een object van het type Persoon.&#xA;&#xA;Een informatiemodel specificeert niet de gegevens zelf. Een gegeven zoals '1-1-1970' noemen we een waarde voor een attribuut van Jan. In het informatiemodel wordt dit het attribuutsoort 'geboortedatum' of 'overlijdensdatum' van een objecttype Persoon genoemd. Het is dus ook van belang om welk kenmerk van Jan het gaat. Merk op dat een gegeven �1-1-1970� geen informatie biedt zonder dat er eerst duidelijkheid is over het kenmerk c.q. het attribuutsoort 'geboortedatum' of 'overlijdensdatum' het gaat en om welke object van het objecttype Persoon het gaat. Het waargenomen feit dat twee objecten een relatie hebben wordt ook gezien als een een modelelement waarvoor een gegeven bekend kan zijn."/>
+        <property key="Toelichting" value="Voorbeelden van gegevens zijn de waardes 'Jan' en '1-1-1970' betreffende de naam en de geboortedatum van een object van het type Persoon.&#xD;&#xA;&#xD;&#xA;Een informatiemodel specificeert niet de gegevens zelf. Een gegeven zoals '1-1-1970' noemen we een waarde voor een attribuut van Jan. In het informatiemodel wordt dit het attribuutsoort 'geboortedatum' of 'overlijdensdatum' van een objecttype Persoon genoemd. Het is dus ook van belang om welk kenmerk van Jan het gaat. Merk op dat een gegeven '1-1-1970' geen informatie biedt zonder dat er eerst duidelijkheid is over het kenmerk c.q. het attribuutsoort 'geboortedatum' of 'overlijdensdatum' het gaat en om welke object van het objecttype Persoon het gaat. Het waargenomen feit dat twee objecten een relatie hebben wordt ook gezien als een een modelelement waarvoor een gegeven bekend kan zijn."/>
         <property key="Heeft bron" value="ISO/IEC 2382-1:1993"/>
         <property key="Is exemplaar van" value="data element"/>
       </element>
@@ -1061,13 +1061,13 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
       <element xsi:type="archimate:Meaning" name="objecttype" id="id-3d51f7fe8fb4438fa55a093ff05ad695">
         <documentation>De typering van een groep objecten die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.</documentation>
         <property key="Alternatieve term" value="klasse"/>
-        <property key="Toelichting" value="Jan, Piet en Marie zijn mensen die vanuit het Burgerzaken-domein beschouwd worden als objecten van het �Objecttype� NatuurlijkPersoon. In een ander domein, �de volksmond�, noemen we dit Mens wat ook een �Objecttype� is. In weer een ander domein is Jan van het �Objecttype� Vergunninghouder en Piet en Marie niet, omdat aan hen (nog) nooit een vergunning verleend is. Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen."/>
+        <property key="Toelichting" value="Jan, Piet en Marie zijn mensen die vanuit het Burgerzaken-domein beschouwd worden als objecten van het Objecttype NatuurlijkPersoon. In een ander domein, 'de volksmond', noemen we dit Mens wat ook een Objecttype is. In weer een ander domein is Jan van het Objecttype Vergunninghouder en Piet en Marie niet, omdat aan hen (nog) nooit een vergunning verleend is. Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen."/>
         <property key="Heeft bron" value="MIM 1.2"/>
         <property key="Is gerelateerd aan" value="object"/>
       </element>
       <element xsi:type="archimate:Meaning" name="operatie" id="id-3f821c38c85c40a2b745f73e68d77b6d">
         <documentation>Een geautomatiseerde functie die gegevens verwerkt.</documentation>
-        <property key="Toelichting" value="Een bewerking is typisch het cre�ren, raadplegen, wijzigen of verwijderen van gegevens."/>
+        <property key="Toelichting" value="Een bewerking is typisch het creëren, raadplegen, wijzigen of verwijderen van gegevens."/>
         <property key="Is gerelateerd aan" value="gegeven"/>
       </element>
       <element xsi:type="archimate:Meaning" name="begrip" id="id-431b7e35b5b74fd49402a5559d35c23f">
@@ -1104,7 +1104,7 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
         <property key="Toelichting" value="Een regel kan primair gericht zijn op menselijk begrip of op geautomatiseerde verwerking. Een regel in de eerste categorie heet ook wel een bedrijfsregel."/>
       </element>
       <element xsi:type="archimate:Meaning" name="metadata" id="id-63bbf0f3edb24baa9712cbb6580355c8">
-        <documentation>Gegevens die andere gegevens defini�ren en beschrijven.</documentation>
+        <documentation>Gegevens die andere gegevens definiëren en beschrijven.</documentation>
         <property key="Alternatieve term" value="metagegevens"/>
         <property key="Heeft bron" value="ISO/IEC 11179-30:2023"/>
         <property key="Is gerelateerd aan" value="gegeven"/>
@@ -1120,7 +1120,7 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
         <property key="Heeft bron" value="FDS"/>
       </element>
       <element xsi:type="archimate:Meaning" name="gegevenskwaliteit" id="id-7a20d4fd8d8c42009ca62c8c3b9396d5">
-        <documentation>De mate waarin een geheel van eigenschappen en kenmerken van ��n of meer gegevens voldoet aan eisen.</documentation>
+        <documentation>De mate waarin een geheel van eigenschappen en kenmerken van één of meer gegevens voldoet aan eisen.</documentation>
         <property key="Alternatieve term" value="datakwaliteit"/>
         <property key="Toelichting" value="Het streven is dat gegevenskwaliteit &quot;fit-for-purpose&quot; is; dat deze aansluit bij het gebruik. Kwaliteit heeft betrekking op de mate waarin wordt voldaan aan verwachtingen."/>
         <property key="Heeft bron" value="NORA raamwerk gegevenskwaliteit"/>
@@ -1181,14 +1181,14 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
       <element xsi:type="archimate:Meaning" name="attribuutsoort" id="id-bbcdf3b898304a31931ef4365549e0d9">
         <documentation>De typering van gelijksoortige gegevens die voor een objecttype van toepassing is.</documentation>
         <property key="Alternatieve term" value="attribuut"/>
-        <property key="Toelichting" value="De gegevens &quot;Jan&quot; en &quot;Katrien&quot; worden als gelijksoortig gezien en worden daarom ondergebracht in �Attribuutsoort� naam. Je kan ook zeggen, het �Objecttype� Persoon heeft een Attribuutsoort naam en deze is geschikt om gegevens in te plaatsen. Aan elk �Objecttype� worden nul, ��n, of meer attribuutsoorten toegekend. In een informatiemodel wordt alleen een voor het domein relevant �Attribuutsoort� opgenomen bij een �Objecttype�. Attribuutsoorten worden ook wel kenmerken of eigenschappen genoemd. Dit zijn het ook, maar ook andere modelelementen vallen onder deze omschrijving. Zo is een �Relatiesoort� ook een kenmerk of eigenschap."/>
+        <property key="Toelichting" value="De gegevens &quot;Jan&quot; en &quot;Katrien&quot; worden als gelijksoortig gezien en worden daarom ondergebracht in �Attribuutsoort� naam. Je kan ook zeggen, het �Objecttype� Persoon heeft een Attribuutsoort naam en deze is geschikt om gegevens in te plaatsen. Aan elk �Objecttype� worden nul, ��n, of meer attribuutsoorten toegekend. In een informatiemodel wordt alleen een voor het domein relevant Attribuutsoort opgenomen bij een Objecttype. Attribuutsoorten worden ook wel kenmerken of eigenschappen genoemd. Dit zijn het ook, maar ook andere modelelementen vallen onder deze omschrijving. Zo is een Relatiesoort ook een kenmerk of eigenschap."/>
         <property key="Heeft bron" value="MIM 1.2"/>
         <property key="Is gerelateerd aan" value="objecttype"/>
       </element>
       <element xsi:type="archimate:Meaning" name="geldigheidsperiode" id="id-c050d8b35e364ef8953374d6d6767bc9">
         <documentation>De periode waarin een object een bepaalde toestand had.</documentation>
-        <property key="Toelichting" value="De opeenvolgingen van wijzigingen in de toestand van een object is de materi�le historie."/>
-        <property key="Is gerelateerd aan" value="materi�le historie, object"/>
+        <property key="Toelichting" value="De opeenvolgingen van wijzigingen in de toestand van een object is de materiële historie."/>
+        <property key="Is gerelateerd aan" value="materiële historie, object"/>
       </element>
       <element xsi:type="archimate:Meaning" name="model" id="id-c19fe33f288b4f60838dc60620e97eab">
         <documentation>Een abstractie van enige aspecten van de werkelijkheid.</documentation>
