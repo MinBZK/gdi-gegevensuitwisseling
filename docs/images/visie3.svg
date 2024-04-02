@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="205mm"
+   height="43mm"
+   viewBox="0 0 205 43"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="visie3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69219276"
+     inkscape:cx="396.56583"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="3206"
+     inkscape:window-y="1791"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-78.874534,-86.827454)"
+       id="g9">
+      <rect
+         x="306.5"
+         y="438.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect1" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(331.935,468)"
+         id="text1">Bronhouder</text>
+      <rect
+         x="478.5"
+         y="438.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect2" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(508.746,468)"
+         id="text2">Aanbieder</text>
+      <rect
+         x="704.5"
+         y="438.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#dae3f3"
+         id="rect3" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(747.531,468)"
+         id="text3">Wallet</text>
+      <path
+         d="m 435.5,463.167 h 35.699 v 0.666 H 435.5 Z m 34.366,-3.667 8,4 -8,4 z"
+         id="path3" />
+      <path
+         d="m 607.5,463.167 h 90.305 v 0.667 L 607.5,463.833 Z m 88.972,-3.667 8,4 -8,4 z"
+         id="path4" />
+      <rect
+         x="940.5"
+         y="438.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect4" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(976.148,468)"
+         id="text4">Afnemer</text>
+      <rect
+         x="811.5"
+         y="335.5"
+         width="129"
+         height="50"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect5" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(843.246,365)"
+         id="text5">Gebruiker</text>
+      <path
+         d="M 3.27229e-7,-0.333333 100.279,-0.333235 V 0.333432 L -3.27229e-7,0.333333 Z M 98.9454,-3.9999 106.945,1.04987e-4 98.9454,4.0001 Z"
+         transform="matrix(1,0,0,-1,833.5,463.5)"
+         id="path5" />
+      <path
+         d="M 0.149422,-0.297966 101.135,50.3439 100.837,50.9398 -0.149422,0.297966 Z M 101.587,46.4686 l 5.358,7.1617 -8.9439,-0.0105 z"
+         transform="matrix(-1,0,0,1,875.445,385.5)"
+         id="path6" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(621.389,435)"
+         id="text6">verifieerbare</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(629.969,452)"
+         id="text7">verklaring</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(847.814,434)"
+         id="text8">verifieerbare</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(856.394,451)"
+         id="text9">verklaring</text>
+      <path
+         d="m 875.628,385.192 123.002,51.074 -0.256,0.616 -123.002,-51.074 z m 123.177,47.176 5.855,6.762 -8.923,0.627 z"
+         id="path9" />
+    </g>
+  </g>
+</svg>
