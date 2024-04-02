@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="PDF/UA"
     id="id-25074a472a37451c87083003b618cb81"
-    documentation="PDF is een format voor de uitwisseling van documenten die een gebruiker kan bekijken, opslaan en afdrukken, onafhankelijk van de omgeving waarin ze zijn aangemaakt. Een PDF document ziet er op alle apparaten en in alle omgevingen hetzelfde uit. Een PDF/UA document is een PDF document dat voldoet aan aanvullende eisen van digitale toegankelijkheid.">
+    documentation="Een PDF/UA document is een PDF document dat voldoet aan aanvullende eisen van digitale toegankelijkheid.">
   <properties
       key="Status"
       value="Aanbevolen"/>

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Digikoppeling Koppelvlakstandaard WUS"
     id="id-d8486619cfed479eaa0f996e5af89ecf"
-    documentation="Digikoppeling Koppelvlakstansdaard WUS standaardiseert hoe gegevens worden uitgewisseld op basis van de SOAP standaard.">
+    documentation="Digikoppeling Koppelvlakstandaard WUS standaardiseert hoe gegevens worden uitgewisseld op basis van de SOAP standaard.">
   <properties
       key="Status"
       value="Verplicht"/>

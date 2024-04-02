@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="OWL"
     id="id-789abaabe8384ed1a6cff3e6c40c7a97"
-    documentation="OWL kan worden gebruikt voor het vastleggen van kennis voor ontsluiting door computers, om de samenhang van die kennis te controleren of impliciete kennis expliciet te maken.">
+    documentation="Web Ontology Language (OWL) kan worden gebruikt voor het vastleggen van kennis voor ontsluiting door computers, om de samenhang van die kennis te controleren of impliciete kennis expliciet te maken.">
   <properties
       key="Status"
       value="Aanbevolen"/>

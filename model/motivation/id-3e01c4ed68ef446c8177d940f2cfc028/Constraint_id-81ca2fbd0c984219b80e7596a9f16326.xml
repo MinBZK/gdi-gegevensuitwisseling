@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="SOAP"
     id="id-81ca2fbd0c984219b80e7596a9f16326"
-    documentation="SOAP staat voor Simple Object Access Protocol, maar de SOAP specificatie beschrijft in de eerste plaats een berichtformat gebaseerd op XML.">
+    documentation="De Simple Object Access Protocol (SOAP) specificatie beschrijft een berichtformaat gebaseerd op XML.">
   <properties
       key="Status"
       value="Aanbevolen"/>

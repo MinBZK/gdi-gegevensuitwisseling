@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="JSON"
     id="id-09e98a85539140da9e118b8679661527"
-    documentation="JSON (JavaScript Object Notation) is een deelverzameling van de programmeertaal JavaScript. Het is een formaat om net zoals XML gegevens op te slaan en te versturen.">
+    documentation="JavaScript Object Notation (JSON) is een deelverzameling van de programmeertaal JavaScript. Het is een formaat om net zoals XML gegevens op te slaan en te versturen.">
   <properties
       key="Status"
       value="Aanbevolen"/>

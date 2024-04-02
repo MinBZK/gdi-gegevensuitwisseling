@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="TOOI"
     id="id-f78d2b6646744e4ba75a221cad0e234c"
-    documentation="TOOI staat voor &quot;Thesauri en Ontologieën voor Overheidsinformatie&quot;. TOOI is een kennismodel. Het doel van dit kennismodel is het definiëren van een gemeenschappelijke taal waarmee data en metadata uitgedrukt kunnen worden, zodat overheidsinformatie beter vindbaar, toegankelijk, interoperabel en herbruikbaar wordt.">
+    documentation="Thesauri en Ontologieën voor Overheidsinformatie (TOOI) is een kennismodel dat is gericht op het definiëren van een gemeenschappelijke taal voor het beschrijven van gegevens en metagegevens zodat overheidsinformatie beter vindbaar, toegankelijk, interoperabel en herbruikbaar wordt.">
   <properties
       key="Status"
       value="nvt"/>

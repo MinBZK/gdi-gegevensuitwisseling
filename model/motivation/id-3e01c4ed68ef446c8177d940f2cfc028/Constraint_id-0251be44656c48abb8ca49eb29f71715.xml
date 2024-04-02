@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="XACML"
     id="id-0251be44656c48abb8ca49eb29f71715"
-    documentation="Dit is een op XML gebaseerde taal voor het uitdrukken van autorisatieregels.">
+    documentation="eXtensible Access Control Markup Language (XACML) is een op XML gebaseerde taal voor het uitdrukken van autorisatieregels.">
   <properties
       key="Status"
       value="nvt"/>

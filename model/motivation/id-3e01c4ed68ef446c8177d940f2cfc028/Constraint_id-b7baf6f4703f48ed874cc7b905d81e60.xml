@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="NL WFS"
     id="id-b7baf6f4703f48ed874cc7b905d81e60"
-    documentation="Nederlands profiel WMS op ISO 19128 versie 1.1. WMS maakt het mogelijk om een rasterbeelden op te vragen.">
+    documentation="Nederlands WFS profiel 1.1 op ISO 19142 voor Web Feature Services 2.0. Een WFS ondersteunt minimaal het opvragen van geo-informatie. Aanvullend biedt een WFS mogelijkheden om geo-informatie in de database direct te bewerken.">
   <properties
       key="Status"
       value="Aanbevolen"/>

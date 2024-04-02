@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="PDF"
     id="id-82bc0503fd5c4d67b52990d8f2337dce"
-    documentation="PDF is een format voor de uitwisseling van documenten waarvan de pagina opmaak vastligt, die bedoeld zijn om op te slaan en af te drukken. Een PDF document ziet er op alle apparaten en in alle omgevingen hetzelfde uit.">
+    documentation="Portable Document Format (PDF) is een standaard die de opmaak van documenten beschrijft, waardoor ze er op alle apparaten en in alle omgevingen hetzelfde uitzien.">
   <properties
       key="Status"
       value="Verplicht"/>

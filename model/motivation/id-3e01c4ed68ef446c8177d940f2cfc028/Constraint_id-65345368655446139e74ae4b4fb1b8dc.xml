@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="ODF"
     id="id-65345368655446139e74ae4b4fb1b8dc"
-    documentation="ODF maakt het mogelijk om reviseerbare documenten uit te wisselen die voor bewerking niet afhankelijk zijn van een bepaalde leverancier of applicatie. ODF is een duurzaam toegankelijk documentformat. ">
+    documentation="Open Document Format (ODF) maakt het mogelijk om reviseerbare documenten uit te wisselen die voor bewerking niet afhankelijk zijn van een bepaalde leverancier of applicatie. ODF is een duurzaam toegankelijk documentformat. ">
   <properties
       key="Status"
       value="Verplicht"/>
