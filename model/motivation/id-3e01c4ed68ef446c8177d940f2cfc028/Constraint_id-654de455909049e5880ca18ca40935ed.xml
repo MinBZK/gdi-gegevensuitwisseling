@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="SHACL"
     id="id-654de455909049e5880ca18ca40935ed"
-    documentation="SHACL kan worden gebruikt om gegevensstructuren die in de vorm van Linked Data zijn vastgelegd te beschrijven en te valideren, waarbij doorgaans wordt verwezen naar het semantisch model.">
+    documentation="Shapes Constraint Language (SHACL) is een standaard om gegevensstructuren die in de vorm van Linked Data zijn vastgelegd te beschrijven en te valideren.">
   <properties
       key="Status"
       value="Aanbevolen"/>

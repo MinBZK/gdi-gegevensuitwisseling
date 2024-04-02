@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="JCDR"
     id="id-3cd7d97de1d44c39bec06dfefe442347"
-    documentation="Decentrale overheden slaan hun regelgeving en wijzigingen op in de voorziening Decentrale Regelgeving en Officiële Publicaties (DROP). JCDR is een afgesproken tekstvolgorde (syntaxis) voor verwijzingen naar die documenten. ">
+    documentation=" Juriconnect Decentrale Regelgeving (JCDR) is een afgesproken tekstvolgorde (syntaxis) voor verwijzingen naar decentrale regelgeving in de voorziening Decentrale Regelgeving en Officiële Publicaties (DROP).">
   <properties
       key="Status"
       value="Verplicht"/>

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2.4. Inhoudelijke bewerkingen leiden tot een nieuwe bron"
     id="id-9e1a52cddbc4424990208f6876b70344"
-    documentation="Als er gegevens inhoudelijk worden bewerkt (op basis van afleidingsregels) dan ontstaan er feitelijk andere gegevens. Deze nieuwe gegevens hebben namelijk een andere betekenis dan de originele gegevens. Iemand moet verantwoordelijkheid nemen voor deze nieuwe gegevens en daarvoor aansprakelijk zijn. Daarmee onstaat dus automatisch een nieuwe organisatorische verantwoordelijkheid. De nieuwe gegevens hoeven niet per definitie ook separaat te worden opgeslagen; zij worden bij voorkeur op verzoek gecreëerd.">
+    documentation="Als er gegevens inhoudelijk worden bewerkt (op basis van afleidingsregels) dan ontstaan er feitelijk andere gegevens. Deze nieuwe gegevens hebben namelijk een andere betekenis dan de originele gegevens. Iemand moet verantwoordelijkheid nemen voor deze nieuwe gegevens en daarvoor aansprakelijk zijn. Daarmee ontstaat dus automatisch een nieuwe organisatorische verantwoordelijkheid. De nieuwe gegevens hoeven niet per definitie ook separaat te worden opgeslagen; zij worden bij voorkeur op verzoek gecreëerd.">
   <properties
       key="Implicaties"
       value="1. Als er inhoudelijk gegevens moeten worden bewerkt tussen aanbieder en afnemer, dan wordt hiervoor een nieuwe tussenliggende organisatie aangewezen of ingericht."/>

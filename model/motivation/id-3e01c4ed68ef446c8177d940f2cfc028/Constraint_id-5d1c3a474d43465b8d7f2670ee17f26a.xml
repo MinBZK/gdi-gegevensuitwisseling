@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="SQL"
     id="id-5d1c3a474d43465b8d7f2670ee17f26a"
-    documentation="SQL is een taal voor een relationeel 'database management systeem' (DBMS). Met SQL kan je gegevens opslaan, bewerken en ophalen in relationele databases.">
+    documentation="Structured Query Language (SQL) is een taal voor het opslaan, bewerken en ophalen vam gegevens in relationele databases.">
   <properties
       key="Status"
       value="Aanbevolen"/>

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="MIM"
     id="id-a886fec7ea1447db9831cd8c85bcd77c"
-    documentation="MIM (Metamodel voor Informatiemodellering) dient als gemeenschappelijk vertrekpunt voor het opstellen van informatiemodellen, zodat informatiemodellen en de daarop gebaseerde standaarden voor gegevensuitwisseling meer compatibel worden. ">
+    documentation="Het Metamodel voor Informatiemodellering (MIM) dient als gemeenschappelijk vertrekpunt voor het opstellen van informatiemodellen, zodat informatiemodellen en de daarop gebaseerde standaarden voor gegevensuitwisseling meer compatibel worden. ">
   <properties
       key="Status"
       value="Aanbevolen"/>

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="WSDL"
     id="id-da7a4768123a4f0b9336cce462bfdbfc"
-    documentation="WSDL is een XML taal voor het beschrijven van web services en hoe ze te benaderen. ">
+    documentation="Web Service Description Language (WSDL) is een XML taal voor het beschrijven van web services en hoe ze te benaderen. ">
   <properties
       key="Status"
       value="Aanbevolen"/>

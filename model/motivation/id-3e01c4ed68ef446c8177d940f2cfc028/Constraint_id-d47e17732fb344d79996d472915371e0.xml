@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="OpenAPI specification"
     id="id-d47e17732fb344d79996d472915371e0"
-    documentation="Voor zowel mensen als computers is het fijn als de documentatie van een API makkelijk te lezen is. In een OpenAPI Specification staan de eigenschappen van de data die een API als input accepteert en als output teruggeeft. De overheid en de publieke sector beschrijven deze specificaties volgens een vaste werkwijze. Zo wordt de documentatie voorspelbaar en de API's makkelijker te (her)gebruiken.">
+    documentation="De OpenAPI Specification standaardiseert de beschrijving van API's, inclusief de gegevens die in deze API's worden gebruikt als invoer en uitvoer.">
   <properties
       key="Status"
       value="Verplicht"/>

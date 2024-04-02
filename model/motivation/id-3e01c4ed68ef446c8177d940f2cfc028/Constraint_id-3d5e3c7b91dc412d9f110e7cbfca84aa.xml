@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Digikoppeling Koppelvlakstandaard Grote Berichten"
     id="id-3d5e3c7b91dc412d9f110e7cbfca84aa"
-    documentation="Digikoppeling Koppelvlakstansdaard API standaardiseert hoe grote berichten worden uitgewisseld.">
+    documentation="Digikoppeling Koppelvlakstandaard Grote Berichten standaardiseert hoe grote berichten worden uitgewisseld.">
   <properties
       key="Status"
       value="Verplicht"/>

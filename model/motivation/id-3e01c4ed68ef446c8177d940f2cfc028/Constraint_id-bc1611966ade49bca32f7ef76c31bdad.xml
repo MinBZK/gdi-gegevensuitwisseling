@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="XSLT"
     id="id-bc1611966ade49bca32f7ef76c31bdad"
-    documentation="CSV bestanden bestaan uit regels met informatie waarbij naar ieder los gegeven een komma wordt geplaatst. Het wordt veelgebruikt om gegevens tussen verschillende spreadsheet programma's uit te wisselen en kan ook gebruikt worden op gegevens uit databases over te zetten naar een andere database.">
+    documentation="eXtensible Stylesheet Language (XSLT) is een taal voor het opmaken en omzetten van gegevens in XML formaat.">
   <properties
       key="Status"
       value="Aanbevolen"/>

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="RDF"
     id="id-a3e5e4fbe30f403c80a84306f62a3d66"
-    documentation="RDF is een standaard voor het uitwisselen van gegevens op het web. Als partijen data als ‘RDF-Triples’ uitwisselen, wordt het voor de ontvangende partij makkelijker om de data geautomatiseerd te interpreteren en te linken aan andere data(sets). ">
+    documentation="Resource Description Framework (RDF) is een standaard voor het uitwisselen van gegevens op het web, waarbij gegevens worden uitgedrukt als een drie-eenheid (triple) die bestaat uit een subject, een predicaat en een object.  ">
   <properties
       key="Status"
       value="Aanbevolen"/>

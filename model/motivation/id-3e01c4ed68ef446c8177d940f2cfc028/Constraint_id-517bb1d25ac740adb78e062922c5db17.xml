@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="XML"
     id="id-517bb1d25ac740adb78e062922c5db17"
-    documentation="XML kan worden gebruikt voor het in tekst-format vastleggen en uitwisselen van gestructureerde gegevens die bedoeld zijn voor verwerking door machines.">
+    documentation="Extensible Markup Language (XML) is een standaard voor vastleggen en uitwisselen van gestructureerde gegevens, specifiek gericht op verwerking door machines.">
   <properties
       key="Status"
       value="Aanbevolen"/>

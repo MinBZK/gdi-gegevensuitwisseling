@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Cloud computing"
     id="id-72b44b3aa87f4a068b6682e17269c9ca"
-    documentation="Organisaties maken toenemend gebruik van cloudvoorzieningen voor hun systemen en gegevens. Hierdoor verloopt ook een toenemende hoeveelheid uitwisseling van gegevens binnen en tussen cloudomgevingen. Daarbij ontstaan vragen over performance, souvereiniteit, informatiebeveiliging en licentiekosten.">
+    documentation="Organisaties maken toenemend gebruik van cloudvoorzieningen voor hun systemen en gegevens. Hierdoor verloopt ook een toenemende hoeveelheid uitwisseling van gegevens binnen en tussen cloudomgevingen. Daarbij ontstaan vragen over performance, soevereiniteit, informatiebeveiliging en licentiekosten.">
   <profiles
       href="folder.xml#id-7be84c5323e54f1b9e45b26375c7309b"/>
 </archimate:Driver>

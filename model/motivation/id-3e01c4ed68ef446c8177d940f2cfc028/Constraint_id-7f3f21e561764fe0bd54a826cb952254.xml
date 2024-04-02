@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="GML"
     id="id-7f3f21e561764fe0bd54a826cb952254"
-    documentation="De Geography Markup Language is een XML-gebaseerde vorm voor het uitdrukken van schema's voor geografische gegevens.">
+    documentation="De Geography Markup Language (GML) is een XML-gebaseerde vorm voor het uitdrukken van schema's voor geografische gegevens.">
   <properties
       key="Status"
       value="Aanbevolen"/>

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="CSV"
     id="id-091cee839d714688a54c57a769eea984"
-    documentation="CSV bestanden bestaan uit regels met informatie waarbij naar ieder los gegeven een komma wordt geplaatst. Het wordt veelgebruikt om gegevens tussen verschillende spreadsheet programma's uit te wisselen en kan ook gebruikt worden op gegevens uit databases over te zetten naar een andere database.">
+    documentation="Comma-separated values (CSV) bestanden bestaan uit regels met gegevens waarbij tussen gegeven een komma (of ander scheidingsteken) wordt geplaatst.">
   <properties
       key="Status"
       value="Aanbevolen"/>

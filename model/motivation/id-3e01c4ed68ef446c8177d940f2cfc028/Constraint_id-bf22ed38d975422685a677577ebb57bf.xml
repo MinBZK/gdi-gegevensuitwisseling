@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Digikoppeling Koppelvlakstandaard REST-API"
     id="id-bf22ed38d975422685a677577ebb57bf"
-    documentation="Digikoppeling Koppelvlakstansdaard REST-API standaardiseert hoe gegevens worden uitgewisseld op basis van RESTful API's.">
+    documentation="Digikoppeling Koppelvlakstandaard REST-API standaardiseert hoe gegevens worden uitgewisseld op basis van RESTful API's.">
   <properties
       key="Status"
       value="Verplicht"/>
