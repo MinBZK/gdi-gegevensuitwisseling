@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Digikoppeling Koppelvlakstandaard ebMS2"
     id="id-0c5ff2bcee01490da929bce198ffa7e8"
-    documentation="Digikoppeling Koppelvlakstandaard ebMS2 standaardiseert hoe gegevens worden uitgewisseld op basis van de ebMS standaard.">
+    documentation="Digikoppeling Koppelvlakstandaard ebMS2 standaardiseert hoe gegevens asynchroon en betrouwbaar worden uitgewisseld op basis van de ebMS standaard.">
   <properties
       key="Status"
       value="Verplicht"/>

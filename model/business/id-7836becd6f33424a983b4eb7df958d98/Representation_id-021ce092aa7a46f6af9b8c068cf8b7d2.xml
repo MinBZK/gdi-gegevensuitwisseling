@@ -1,7 +1,8 @@
 <archimate:Representation
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Begrippen"
-    id="id-021ce092aa7a46f6af9b8c068cf8b7d2">
+    id="id-021ce092aa7a46f6af9b8c068cf8b7d2"
+    documentation="&lt;p>Deze begrippenlijst bevat een beschrijving van de belangrijkste begrippen zoals gehanteerd in de domeinarchitectuur. Het neemt een voorschot op de nieuwe set van begrippen zoals deze worden gedefinieerd in de NORA begrippenlijst. Die begrippenlijst is echter nog in ontwikkeling en kan nog wijzigen. De intentie is om in de toekomst vooral te verwijzen naar de nieuwe NORA begrippenlijst zodra deze beschikbaar is.&lt;/p>">
   <properties
       key="elementType"
       value="meaning"/>

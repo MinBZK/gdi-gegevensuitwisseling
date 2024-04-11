@@ -1,8 +1,0 @@
-<archimate:Representation
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Referentie-architectuur"
-    id="id-215bf07277cd4bdd83e07b32829f882f"
-    documentation="&lt;p>Dit hoofdstuk geeft een overzicht van de referentie-architectuur voor gegevensuitwisseling. Het beschrijft de bedrijfsfuncties en bedrijfsobjecten die deel uitmaken van het domein gegevensuitwisseling. Het start met een algemene beschrijving van wat bedrijfsfuncties en bedrijfsobjecten zijn en welke invulling eraan is gegeven in de domeinarchitectuur. Vervolgens worden diagrammen en overzichten van de bedrijfsfuncties en bedrijfsobjecten beschreven.&lt;/p>">
-  <profiles
-      href="folder.xml#id-0005c1b00a8b43d58de11d534fb0aeb2"/>
-</archimate:Representation>
