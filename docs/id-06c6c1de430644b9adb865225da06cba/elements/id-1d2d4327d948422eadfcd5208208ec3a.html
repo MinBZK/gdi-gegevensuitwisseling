@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Verdieping: uitwisselprotocollen</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Verdieping: uitwisselprotocollen</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Representation"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Representation" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+							<br>
+							<b class="i18n-specialization"></b>
+								Tekst
+						<div class="convertlinks documentation" style="white-space:pre-wrap">&lt;p&gt;Het is belangrijk om gegevensuitwisseling te standaardiseren, waar mogelijk. Overheidsbreed is hiervoor de Digikoppeling standaard gedefinieerd. In dit deel van de architectuur wordt de huidige status van de Digikoppeling standaard beschreven en een doorkijk gegeven op de gewenste doorontwikkeling.&lt;/p&gt;
+&lt;h3&gt;Huidige situatie&lt;/h3&gt;
+&lt;p&gt;
+De Digikoppeling standaard maakt veilige gegevensuitwisseling tussen overheden mogelijk. De standaard beschrijft afspraken om gegevens juist te adresseren, leesbaar en uitwisselbaar te maken en veilig en betrouwbaar te verzenden. Het bevordert de interoperabiliteit tussen overheidsorganisaties. De standaard bestaat uit een viertal koppelvlakspecificaties voor gestructureerd gegevensuitwisseling met en tussen overheidsorganisaties:
+&lt;ul&gt;
+&lt;li&gt;Digikoppeling Koppelvlakstandaard WUS - voor synchrone uitwisseling van gestructureerde berichten;&lt;/li&gt;
+&lt;li&gt;Digikoppeling Koppelvlakstandaard ebMS2 - voor asynchrone uitwisseling voor betrouwbaar berichtenverkeer.&lt;/li&gt;
+&lt;li&gt;Digikoppeling Koppelvlakstandaard Grote Berichten - voor synchrone gegevensuitwisseling met resources;&lt;/li&gt;
+&lt;li&gt;Digikoppeling Koppelvlakstandaard REST-API - voor het uitwisselen van grote bestanden.&lt;/li&gt;
+&lt;/ul&gt;
+Zoals beschreven in de &lt;a href="https://gitdocumentatie.logius.nl/publicatie/dk/architectuur/2.0vv/"&gt;architectuur Digikoppeling&lt;/a&gt; is Digikoppeling gericht op de beveiligde uitwisseling van gestructureerde gegevens tussen systemen van Nederlandse overheidsorganisaties en instellingen uit de (semi-)publieke sector. Het zegt niets voor over de toepassing van de standaard buiten deze afbakening: met bedrijven, van open data of van ongestructureerde gegevens. Het is verplicht om te gebruiken bij gesloten diensten, de uitwisseling met GDI-voorzieningen en bij sector-overstijgende uitwisseling. Uitwisseling van geografische gegevens is uitgesloten van het functioneel toepassingsgebied. &lt;/p&gt;
+&lt;p&gt;
+Synchrone uitwisseling kan worden ingericht op basis van de Digikoppeling-koppelvlakstandaard WUS en het Digikoppeling REST API profiel. Digikoppeling Koppelvlakstandaard ebMS2 biedt specifieke ondersteuning voor asynchrone uitwisseling en betrouwbare aflevering. Als snelheid belangrijker is dan betrouwbaarheid dan is het gebruik van de REST API of WUS koppelvlakstandaarden logischer. Digikoppeling Grote Berichten is gericht op de veilige bestandsoverdracht van berichten groter dan 20 MB, met name in de context van ebMS en WUS. Als er behoefte is aan signing en/of en encryptie dan zijn alleen de WUB en ebMS koppelvlakstandaarden geschikt. Dat is bijvoorbeeld relevant als zich tussen aanbieder en afnemer een niet vertrouwde intermediair bevindt. Er is in de huidige versie van de Digikoppeling architectuur geen onderscheid meer tussen 'WUS voor bevragingen' en 'ebMS voor meldingen'. In de praktijk bleek dit onderscheid niet altijd goed te werken. 
+&lt;/p&gt;&lt;p&gt;
+Partijen kunnen kiezen welk interactiepatroon nodig is voor gegevensuitwisseling. Partijen bepalen in onderling overleg welke Digikoppeling profiel ze gebruiken. Providers, zoals Basisregistraties en landelijke voorzieningen, bepalen welke koppelvlakstandaard gebruikt wordt voor een door hun geleverde dienst. Per dienst kunnen ook meerdere koppelvlakstandaarden aangeboden worden.
+&lt;/p&gt;
+&lt;h3&gt;Gewenste situatie&lt;/h3&gt;
+&lt;p&gt;
+In deze paragraaf schetsen we een aantal inzichten en ontwikkelingen die invloed hebben op de Digikoppeling standaard. Ons algemene advies is om Digikoppeling als brede standaard te positioneren, ook voor communicatie met bedrijven, binnen sectoren en voor open data. Dat draagt bij aan maximale standaardisatie en maakt het uiteindelijk voor organisaties dus alleen maar eenvoudiger. Dit vraagt wel een bredere positionering
+&lt;/p&gt;&lt;p&gt;
+Digikoppeling is ontwikkeld voor toepassing op nationaal niveau. Voor gegevensuitwisseling op EU-niveau gelden EU-standaarden, waarvan e-Delivery op dit moment de dominante is. Voor gegevensuitwisseling met Europese overheden is gebruik van de e-Delivery standaard dus aanbevolen. Het zou goed zijn als de Digikoppeling-standaarden zoveel mogelijk afgestemd zijn op de e-Delivery standaard. Dat zou het eenvoudiger maken voor Nederlandse overheidsorganisaties om gegevens via Digikoppeling automatisch ook internationaal beschikbaar te kunnen stellen. In het bijzonder zou het goed zijn om het e-Delivery API-profiel te gebruiken als input voor een volgende versie van de koppelvlakstandaard (REST) API. Daarnaast zou de e-Delivery standaard zelf mogelijk ook als Digikoppeling koppelvlakstandaard kunnen worden gedefinieerd. Het vraagt nader onderzoek om te bepalen of dit meerwaarde heeft.
+&lt;/p&gt;&lt;p&gt;
+De Digikoppeling standaard is ontwikkeld voor gegevensuitwisseling tussen organisaties, maar het zou beter zijn als deze standaard ook voor uitwisseling met bedrijven ingezet kan worden. Gegevensuitwisseling met overheidsorganisaties is niet fundamenteel anders dan met bedrijven. De inzet voor bedrijven is al grotendeels mogelijk, maar een expliciete toets hierop en eventuele aanpassing van de standaard is wenselijk. Met name de kosten die verbonden zijn aan de beveiligingscertificaten zijn een mogelijke drempel.
+&lt;/p&gt;&lt;p&gt;
+De koppelvlakstandaard REST API is op dit moment heel beperkt ingevuld. Het biedt ook geen ondersteuning voor signing en encryptie. Tegelijkertijd zijn ze inmiddels de standaard manier van gegevensuitwisseling voor veel organisaties. Doorontwikkeling en uitbreiding van deze standaard is dus aanbevolen. Vanuit het Common Ground initiatief bij gemeenten is inmiddels de FSC-standaard ontwikkeld, die een aantal functies biedt die in meer algemene zin waardevol zijn bij het gebruik van API&#8217;s. Zo biedt het bijvoorbeeld mechanismen om partijen te machtigen voor het gebruik van API&#8217;s van derden. We zien het als een logische stap, die ook inmiddels al is ingezet, om deze FSC standaard te combineren met de Digikoppeling API koppelvlak standaard. 
+&lt;/p&gt;&lt;p&gt;
+De koppelvlakstandaard REST API is nu specifiek gericht op RESTful API&#8217;s. Tegelijkertijd zien we nieuwe uitwisselprotocollen opkomen zoals GraphQL, SPARQL en event-gebaseerde protocollen zoals CloudEvent en Linked Data Event Streams. Deze protocollen bieden meer specifieke mogelijkheden dan RESTful API&#8217;s, bijvoorbeeld om mogelijke performanceproblemen die kunnen optreden bij het gebruik ervan te voorkomen. Het gebruik van RESTful API&#8217;s kan namelijk tot relatief veel kleine verzoeken leiden, wat tot performanceproblemen kan leiden. GraphQL is bijvoorbeeld een logisch protocol om te gebruiken als er sprake is van complexe bevragingen, mogelijk ook over meerdere endpoints. De rol van event-gebaseerde procotollen is beschreven in een ander hoofdstuk van deze domeinarchitectuur. We denken dat Digikoppeling ook rekening zou moeten houden met het gebruik van dit soort protocollen. Mogelijk kan de huidige koppelvlakstandaard REST API generieker worden opgezet om een aantal van dit soort protocollen ook te ondersteunen. 
+&lt;/p&gt;&lt;p&gt;
+Er is inmiddels een opvolger van de ebMS2 standaard zoals onderdeel van het koppelvlakprofiel ebMS. Het zou logisch zijn om migratie naar deze ebMS3 standaard in te zetten, zeker ook gegeven dat deze standaard ook Europees wordt gebruikt als onderdeel van de e-Delivery standaard. Aandachtspunt is dat ebMS3 niet backwards compatible is met ebMS2. Migratie van ebMS2 naar ebMS3 is dan ook belangrijk om nader te onderzoeken en uit te werken.
+&lt;/p&gt;
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-8221d3cd685c4027b81176fa7f15153f">
+																	<td><a href="../views/id-8221d3cd685c4027b81176fa7f15153f.html" target="view" title="Documentstructuur"> Documentstructuur </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-e3bbfc7226ed49ff88777ef027b315c2.html" target="element" title="3.4">3.4</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f7cd0effef5643879ed04ee81f4d9bfb.html" target="element"> Domeinarchitectuur gegevensuitwisseling</a></td>
+											<td><a href="../elements/id-1d2d4327d948422eadfcd5208208ec3a.html" target="element"> Verdieping: uitwisselprotocollen</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

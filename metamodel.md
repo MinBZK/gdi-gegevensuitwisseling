@@ -47,7 +47,7 @@
 		- naam: nummer van de paragraaf in het document
 		- nummer: volgnummer die de volgorde in het document beschrijft, startend bij 1, is optioneel
 		- niveau: het niveau van de heading (een niveau van 1 == leidt tot de HTML heading H1), als deze niet is gedefinieerd dan wordt er geen heading gegenereerd
-		- type: als het een verwijzing naar een elementType is dan "overzicht" of "details" voor het type overzicht
+		- type: als het een verwijzing naar een elementType is dan "overzicht", "properties" of "details" voor het type overzicht
 * Gewenste voorziening
 	- ArchiMate type: Application Component
 	- Name: korte duiding van de gewenste voorziening
