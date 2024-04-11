@@ -96,7 +96,7 @@
     - Name: korte duiding van het Veranderinitiatief
 	- Documentation: omschrijving 	
 * Wetgeving
-	- ArchiMate type: Constraint
+	- ArchiMate type: Driver
     - Specialization: Wetgeving
     - Name: korte duiding van de wetgeving
 	- Documentation: korte omschrijving 
