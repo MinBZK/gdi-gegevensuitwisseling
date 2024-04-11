@@ -1,11 +1,11 @@
-<archimate:RealizationRelationship
+<archimate:InfluenceRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-2a6b3c494c734c07806e0abbb123b3a4">
+    id="id-144ce683f1864899a36771fb0bb28b08">
   <source
       xsi:type="archimate:Capability"
       href="Capability_id-21219dfae67047fbbdc360805402fbf3.xml#id-21219dfae67047fbbdc360805402fbf3"/>
   <target
-      xsi:type="archimate:Constraint"
-      href="Constraint_id-c1ce30891ce64e08ae67b0695bff29f1.xml#id-c1ce30891ce64e08ae67b0695bff29f1"/>
-</archimate:RealizationRelationship>
+      xsi:type="archimate:Driver"
+      href="Driver_id-df765b2f0c9c41ccb28bb3f3b71b180a.xml#id-df765b2f0c9c41ccb28bb3f3b71b180a"/>
+</archimate:InfluenceRelationship>
