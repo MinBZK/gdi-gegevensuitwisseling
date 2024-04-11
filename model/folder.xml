@@ -35,4 +35,8 @@
       name="Document"
       id="id-d5b96c76c113467382aa37a2e773d369"
       conceptType="Representation"/>
+  <profiles
+      name="Wetgeving"
+      id="id-9a653edb2b4d4f3db01084267f44519e"
+      conceptType="Driver"/>
 </archimate:ArchimateModel>
