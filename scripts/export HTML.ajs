@@ -15,9 +15,11 @@ console.log("> Start HTML Export");
 var propertiesList = [];
 var textList = [];
 var fullTextList = [];
+var propTextList = [];
 var elementNamesList = [];
 var elementTextList = [];
 var elementFullTextList = [];
+var elementPropTextList = [];
 var elementname = "";
 
 var relationshipTypeMappings = {
@@ -46,7 +48,7 @@ var elementTypeMappings = {
     "requirement":"Richtlijn",
     "principle":"Principe",
     "constraintStandaard":"Standaard",
-    "constraintWetgeving":"Wet- en regelgeving",
+    "driverWetgeving":"Wet- en regelgeving",
 	"meaning": "Begrip",
     "grouping": "Groep",
 	"work-package": "Veranderinitiatief",
@@ -67,7 +69,7 @@ var elementTypePluralMappings = {
 	"requirement":"richtlijnen",
 	"principle":"principes",
 	"constraintStandaard":"standaarden",
-	"constraintWetgeving":"wetten",
+	"driverWetgeving":"wetten",
 	"meaning":"begrippen",
 	"grouping": "groepen",
 	"work-package": "veranderinitiatieven",
@@ -75,7 +77,7 @@ var elementTypePluralMappings = {
 	"representationDocument": "documenten"
 }
 
-var elementTypes = ["capability", "business-function", "business-object", "business-role", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraintStandaard", "constraintWetgeving", "meaning", "grouping", "work-package", "representationTekst", "representationDocument"];
+var elementTypes = ["capability", "business-function", "business-object", "business-role", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraintStandaard", "driverWetgeving", "meaning", "grouping", "work-package", "representationTekst", "representationDocument"];
 
 var dirPath = window.promptOpenDirectory({ title: "Kies output directory"});
 
@@ -91,6 +93,9 @@ function getHeader(name) {
 	text += "<script type=\"text/javascript\" src=\"../../js/frame2.js\"></script>";
 	text += "</head><body>";
 	text += "<style>";
+	text += "p {";
+	text += "font-size: 14px;";
+	text += "}";
 	text += "h1 {";
 	text += "color: #000088;";
 	text += "font-family: \"Open Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif;";
@@ -102,6 +107,15 @@ function getHeader(name) {
 	text += "font-family: \"Open Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif;";
 	text += "font-size: 120%;";
 	text += "font-weight:bold;";	
+	text += "}";
+	text += "h3 {";
+   	text += "color: #000088;";
+	text += "font-family: \"Open Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif;";
+	text += "font-size: 110%;";
+	text += "font-weight:bold;";	
+	text += "}";
+	text += "li {";
+   	text += "list-style: disc;";
 	text += "}";
 	text += "</style>";
 	text += "<div class=\"panel panel-default root-panel\">";
@@ -154,8 +168,10 @@ for (var i=0; i<elementTypes.length; i++) {
 	elementNamesList[elementTypes[i]] = [];
 	elementTextList[elementTypes[i]] = [];
 	elementFullTextList[elementTypes[i]] = [];
+	elementPropTextList[elementTypes[i]] = [];
 	textList[elementTypes[i]] = "";
 	fullTextList[elementTypes[i]] = "";
+	propTextList[elementTypes[i]] = "";
 }
 
 $("element").each(function(e) {
@@ -211,6 +227,7 @@ $("element").each(function(e) {
         }
     }
 
+    var reltext = "";
 	if (e.type != "representation") for (var i=0; i<elementTypes.length; i++) {
 		var first = true;
 		var found = false;
@@ -218,26 +235,26 @@ $("element").each(function(e) {
 			if (r.prop("Type before conversion")) r.removeProp("Type before conversion");
 			if (getFullType(r.target.type,r.target.specialization) == elementTypes[i]) { 
 				if (first) {
-					text += "<tr><td>Relatie met "+(!elementTypePluralMappings[getFullType(r.target.type,r.target.specialization)]?e.type:elementTypePluralMappings[getFullType(r.target.type,r.target.specialization)])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
+					reltext += "<tr><td>Relatie met "+(!elementTypePluralMappings[getFullType(r.target.type,r.target.specialization)]?e.type:elementTypePluralMappings[getFullType(r.target.type,r.target.specialization)])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
 					first = false;
 					found = true;
 				}
-				text += "[...] "+(!relationshipTypeMappings[r.type]?e.type:relationshipTypeMappings[r.type])+" <a href=\"..\\elements\\"+r.target.id+".html\">"+r.target.name+"</a>"+(r.name?(" ("+r.name+") "):"")+getRelationshipProperties(r)+"<br>";
+				reltext += "[...] "+(!relationshipTypeMappings[r.type]?e.type:relationshipTypeMappings[r.type])+" <a href=\"..\\elements\\"+r.target.id+".html\">"+r.target.name+"</a>"+(r.name?(" ("+r.name+") "):"")+getRelationshipProperties(r)+"<br>";
 			}
 		});
 		$(e).inRels().each(function (r) {
 			if (r.prop("Type before conversion")) r.removeProp("Type before conversion");
 			if (getFullType(r.source.type,r.source.specialization) == elementTypes[i]) { 
 				if (first) {
-					text += "<tr><td>Relatie met "+(!elementTypePluralMappings[getFullType(r.source.type,r.source.specialization)]?e.type:elementTypePluralMappings[getFullType(r.source.type,r.source.specialization)])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
+					reltext += "<tr><td>Relatie met "+(!elementTypePluralMappings[getFullType(r.source.type,r.source.specialization)]?e.type:elementTypePluralMappings[getFullType(r.source.type,r.source.specialization)])+"</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">";
 					first = false;
 					found = true;
 				}
-				text += "<a href=\"..\\elements\\"+r.source.id+".html\">"+r.source.name+"</a> "+(!relationshipTypeMappings[r.type]?e.type:relationshipTypeMappings[r.type])+"  [...] "+(r.name?(" ("+r.name+") "):"")+getRelationshipProperties(r)+"<br>";
+				reltext += "<a href=\"..\\elements\\"+r.source.id+".html\">"+r.source.name+"</a> "+(!relationshipTypeMappings[r.type]?e.type:relationshipTypeMappings[r.type])+"  [...] "+(r.name?(" ("+r.name+") "):"")+getRelationshipProperties(r)+"<br>";
 			}
 		});
 		if (found) {
-			text += "</td></tr>";
+			reltext += "</td></tr>";
 		}
 	};
 
@@ -245,7 +262,8 @@ $("element").each(function(e) {
 		text = getHeader(e.name) + text + getFooter(e.id);	
 		writeFile("elements\\"+e.id, text);
 	} else if (e.specialization != "Document") {
-		elementFullTextList[getFullType(e.type, e.specialization)][e.name] = "<b>" + e.name + "</b><br><br>"+ getTableStart() + text + getTableEnd();
+		elementPropTextList[getFullType(e.type, e.specialization)][e.name] = "<b>" + e.name + "</b><br><br>"+ getTableStart() + text + getTableEnd();
+		elementFullTextList[getFullType(e.type, e.specialization)][e.name] = "<b>" + e.name + "</b><br><br>"+ getTableStart() + text + reltext + getTableEnd();
 		text = getHeader(ucelementtypename + " > " + e.name) + getTableStart() + text + getTableEnd() + getFooter(e.id);
 		writeFile("elements\\"+e.id, text);
 	}
@@ -263,14 +281,16 @@ for (var i=0; i<elementTypes.length; i++) {
 		else if (elementTypes[i] == "principle")
 			header = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Rationale</td></tr>";
 		else if (elementTypes[i] != "representationTekst" && elementTypes[i] != "representationDocument") 
-			header = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Rationale</td></tr>";		
+			header = getHeader(ucelementtypename)+getTableStart()+"<tr><td width=200>Naam</td><td class=\"convertlinks no-margin\" style=\"white-space:pre-wrap\">Omschrijving</td></tr>";		
 	
 		for (j=0; j<elementNamesList[elementTypes[i]].length; j++) {
 			elementname = elementNamesList[elementTypes[i]][j];
 			textList[elementTypes[i]] += elementTextList[elementTypes[i]][elementname]; 
 			fullTextList[elementTypes[i]] += elementFullTextList[elementTypes[i]][elementname]; 
+			propTextList[elementTypes[i]] += elementPropTextList[elementTypes[i]][elementname]; 
 		}
 		writeFile("views\\" + elementTypePluralMappings[elementTypes[i]], header + textList[elementTypes[i]] + getTableEnd() + getFooter(""));
+		writeFile("views\\" + elementTypePluralMappings[elementTypes[i]] + "properties", getHeader(ucelementtypename) + propTextList[elementTypes[i]] + getFooter(""));
 		writeFile("views\\" + elementTypePluralMappings[elementTypes[i]] + "details", getHeader(ucelementtypename) + fullTextList[elementTypes[i]] + getFooter(""));
 	} 
 }
@@ -288,8 +308,10 @@ $("representation").each(function(e) {
 					if (r.target.prop("elementType")) 
 						if (r.prop("type") == "overzicht")
 							text += getTableStart() + textList[r.target.prop("elementType")] + getTableEnd();
-						else 
+						else if (r.prop("type") == "details")
 							text += fullTextList[r.target.prop("elementType")];	
+							else
+								text += propTextList[r.target.prop("elementType")];	
 				}
 			});	
 		writeFile("views\\"+e.name, getHeader(e.name) + text + getFooter(""));

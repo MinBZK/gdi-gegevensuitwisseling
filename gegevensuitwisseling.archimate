@@ -39,21 +39,52 @@
   <folder name="Business" id="id-f796105d5410440281aa77a67731ef3f" type="business">
     <folder name="Teksten" id="id-7836becd6f33424a983b4eb7df958d98">
       <element xsi:type="archimate:Representation" name="Begrippen" id="id-021ce092aa7a46f6af9b8c068cf8b7d2" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
+        <documentation>&lt;p>Deze begrippenlijst bevat een beschrijving van de belangrijkste begrippen zoals gehanteerd in de domeinarchitectuur. Het neemt een voorschot op de nieuwe set van begrippen zoals deze worden gedefinieerd in de NORA begrippenlijst. Die begrippenlijst is echter nog in ontwikkeling en kan nog wijzigen. De intentie is om in de toekomst vooral te verwijzen naar de nieuwe NORA begrippenlijst zodra deze beschikbaar is.&lt;/p></documentation>
         <property key="elementType" value="meaning"/>
       </element>
       <element xsi:type="archimate:Representation" name="Beleid" id="id-0c8e568c55ab4ddc91ef581d337e57ff" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>De domeinarchitectuur beschrijft een aantal belangrijke beleidsdocumenten die invloed hebben op gegevensuitwisseling. Overheidsorganisaties zouden zich bewust moeten zijn van dit beleid en dit mee moeten nemen in hun eigen beleidsvorming.&lt;/p></documentation>
         <property key="elementType" value="driverBeleid"/>
       </element>
-      <element xsi:type="archimate:Representation" name="Gewenste situatie" id="id-18e78a7e0dbd4aedb6667e27b568a9b1" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
-        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de gewenste situatie met betrekking tot gegevensuitwisseling. Het beschrijft de belangrijkste ontwikkelingen, beleid en wet- en regelgeving die van toepassing is en de capabilities die daaruit voortvloeien. Het vertaalt deze vervolgens naar een architectuurvisie die een overkoepelende beschrijving geeft van de gewenste situatie en de architectuurprincipes die de meer concrete overtuigingen beschrijft. Op basis hiervan worden veranderinitiatieven voorgesteld, die aangeven welke nieuwe afspraken, standaarden of voorzieningen of wijzigingen daarin wenselijk zijn. Het hoofdstuk sluit af met een overzicht van relevante standaarden. De basis daarvoor zijn de domeinoverstijgende standaarden op de &quot;pas toe, leg uit&quot; lijst en de lijst van aanbevolen standaarden van Forum Standaardisatie. Deze standaarden zijn aangevuld met andere gangbare en anderzijds relevante standaarden.&lt;/p></documentation>
+      <element xsi:type="archimate:Representation" name="Doelarchitectuur" id="id-18e78a7e0dbd4aedb6667e27b568a9b1" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
+        <documentation>&lt;p>Dit hoofdstuk beschrijft de architectuur van de gewenste situatie met betrekking tot gegevensuitwisseling. Het start met een architectuurvisie die een overkoepelende beschrijving geeft van de gewenste situatie en de architectuurprincipes die deze meer concreet maken. Het bevat vervolgens een aantal verdiepende hoofdstukken op de onderwerpen metadata en uitwisselprotocollen. Op basis hiervan worden veranderinitiatieven voorgesteld, die aangeven welke nieuwe afspraken, standaarden of voorzieningen of wijzigingen daarin wenselijk zijn. &lt;/p></documentation>
+      </element>
+      <element xsi:type="archimate:Representation" name="Verdieping: uitwisselprotocollen" id="id-1d2d4327d948422eadfcd5208208ec3a" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
+        <documentation>&lt;p>Het is belangrijk om gegevensuitwisseling te standaardiseren, waar mogelijk. Overheidsbreed is hiervoor de Digikoppeling standaard gedefinieerd. In dit deel van de architectuur wordt de huidige status van de Digikoppeling standaard beschreven en een doorkijk gegeven op de gewenste doorontwikkeling.&lt;/p>&#xD;
+&lt;h3>Huidige situatie&lt;/h3>&#xD;
+&lt;p>&#xD;
+De Digikoppeling standaard maakt veilige gegevensuitwisseling tussen overheden mogelijk. De standaard beschrijft afspraken om gegevens juist te adresseren, leesbaar en uitwisselbaar te maken en veilig en betrouwbaar te verzenden. Het bevordert de interoperabiliteit tussen overheidsorganisaties. De standaard bestaat uit een viertal koppelvlakspecificaties voor gestructureerd gegevensuitwisseling met en tussen overheidsorganisaties:&#xD;
+&lt;ul>&#xD;
+&lt;li>Digikoppeling Koppelvlakstandaard WUS - voor synchrone uitwisseling van gestructureerde berichten;&lt;/li>&#xD;
+&lt;li>Digikoppeling Koppelvlakstandaard ebMS2 - voor asynchrone uitwisseling voor betrouwbaar berichtenverkeer.&lt;/li>&#xD;
+&lt;li>Digikoppeling Koppelvlakstandaard Grote Berichten - voor synchrone gegevensuitwisseling met resources;&lt;/li>&#xD;
+&lt;li>Digikoppeling Koppelvlakstandaard REST-API - voor het uitwisselen van grote bestanden.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+Zoals beschreven in de &lt;a href=&quot;https://gitdocumentatie.logius.nl/publicatie/dk/architectuur/2.0vv/&quot;>architectuur Digikoppeling&lt;/a> is Digikoppeling gericht op de beveiligde uitwisseling van gestructureerde gegevens tussen systemen van Nederlandse overheidsorganisaties en instellingen uit de (semi-)publieke sector. Het zegt niets voor over de toepassing van de standaard buiten deze afbakening: met bedrijven, van open data of van ongestructureerde gegevens. Het is verplicht om te gebruiken bij gesloten diensten, de uitwisseling met GDI-voorzieningen en bij sector-overstijgende uitwisseling. Uitwisseling van geografische gegevens is uitgesloten van het functioneel toepassingsgebied. &lt;/p>&#xD;
+&lt;p>&#xD;
+Synchrone uitwisseling kan worden ingericht op basis van de Digikoppeling-koppelvlakstandaard WUS en het Digikoppeling REST API profiel. Digikoppeling Koppelvlakstandaard ebMS2 biedt specifieke ondersteuning voor asynchrone uitwisseling en betrouwbare aflevering. Als snelheid belangrijker is dan betrouwbaarheid dan is het gebruik van de REST API of WUS koppelvlakstandaarden logischer. Digikoppeling Grote Berichten is gericht op de veilige bestandsoverdracht van berichten groter dan 20 MB, met name in de context van ebMS en WUS. Als er behoefte is aan signing en/of en encryptie dan zijn alleen de WUB en ebMS koppelvlakstandaarden geschikt. Dat is bijvoorbeeld relevant als zich tussen aanbieder en afnemer een niet vertrouwde intermediair bevindt. Er is in de huidige versie van de Digikoppeling architectuur geen onderscheid meer tussen 'WUS voor bevragingen' en 'ebMS voor meldingen'. In de praktijk bleek dit onderscheid niet altijd goed te werken. &#xD;
+&lt;/p>&lt;p>&#xD;
+Partijen kunnen kiezen welk interactiepatroon nodig is voor gegevensuitwisseling. Partijen bepalen in onderling overleg welke Digikoppeling profiel ze gebruiken. Providers, zoals Basisregistraties en landelijke voorzieningen, bepalen welke koppelvlakstandaard gebruikt wordt voor een door hun geleverde dienst. Per dienst kunnen ook meerdere koppelvlakstandaarden aangeboden worden.&#xD;
+&lt;/p>&#xD;
+&lt;h3>Gewenste situatie&lt;/h3>&#xD;
+&lt;p>&#xD;
+In deze paragraaf schetsen we een aantal inzichten en ontwikkelingen die invloed hebben op de Digikoppeling standaard. Ons algemene advies is om Digikoppeling als brede standaard te positioneren, ook voor communicatie met bedrijven, binnen sectoren en voor open data. Dat draagt bij aan maximale standaardisatie en maakt het uiteindelijk voor organisaties dus alleen maar eenvoudiger. Dit vraagt wel een bredere positionering&#xD;
+&lt;/p>&lt;p>&#xD;
+Digikoppeling is ontwikkeld voor toepassing op nationaal niveau. Voor gegevensuitwisseling op EU-niveau gelden EU-standaarden, waarvan e-Delivery op dit moment de dominante is. Voor gegevensuitwisseling met Europese overheden is gebruik van de e-Delivery standaard dus aanbevolen. Het zou goed zijn als de Digikoppeling-standaarden zoveel mogelijk afgestemd zijn op de e-Delivery standaard. Dat zou het eenvoudiger maken voor Nederlandse overheidsorganisaties om gegevens via Digikoppeling automatisch ook internationaal beschikbaar te kunnen stellen. In het bijzonder zou het goed zijn om het e-Delivery API-profiel te gebruiken als input voor een volgende versie van de koppelvlakstandaard (REST) API. Daarnaast zou de e-Delivery standaard zelf mogelijk ook als Digikoppeling koppelvlakstandaard kunnen worden gedefinieerd. Het vraagt nader onderzoek om te bepalen of dit meerwaarde heeft.&#xD;
+&lt;/p>&lt;p>&#xD;
+De Digikoppeling standaard is ontwikkeld voor gegevensuitwisseling tussen organisaties, maar het zou beter zijn als deze standaard ook voor uitwisseling met bedrijven ingezet kan worden. Gegevensuitwisseling met overheidsorganisaties is niet fundamenteel anders dan met bedrijven. De inzet voor bedrijven is al grotendeels mogelijk, maar een expliciete toets hierop en eventuele aanpassing van de standaard is wenselijk. Met name de kosten die verbonden zijn aan de beveiligingscertificaten zijn een mogelijke drempel.&#xD;
+&lt;/p>&lt;p>&#xD;
+De koppelvlakstandaard REST API is op dit moment heel beperkt ingevuld. Het biedt ook geen ondersteuning voor signing en encryptie. Tegelijkertijd zijn ze inmiddels de standaard manier van gegevensuitwisseling voor veel organisaties. Doorontwikkeling en uitbreiding van deze standaard is dus aanbevolen. Vanuit het Common Ground initiatief bij gemeenten is inmiddels de FSC-standaard ontwikkeld, die een aantal functies biedt die in meer algemene zin waardevol zijn bij het gebruik van API’s. Zo biedt het bijvoorbeeld mechanismen om partijen te machtigen voor het gebruik van API’s van derden. We zien het als een logische stap, die ook inmiddels al is ingezet, om deze FSC standaard te combineren met de Digikoppeling API koppelvlak standaard. &#xD;
+&lt;/p>&lt;p>&#xD;
+De koppelvlakstandaard REST API is nu specifiek gericht op RESTful API’s. Tegelijkertijd zien we nieuwe uitwisselprotocollen opkomen zoals GraphQL, SPARQL en event-gebaseerde protocollen zoals CloudEvent en Linked Data Event Streams. Deze protocollen bieden meer specifieke mogelijkheden dan RESTful API’s, bijvoorbeeld om mogelijke performanceproblemen die kunnen optreden bij het gebruik ervan te voorkomen. Het gebruik van RESTful API’s kan namelijk tot relatief veel kleine verzoeken leiden, wat tot performanceproblemen kan leiden. GraphQL is bijvoorbeeld een logisch protocol om te gebruiken als er sprake is van complexe bevragingen, mogelijk ook over meerdere endpoints. De rol van event-gebaseerde procotollen is beschreven in een ander hoofdstuk van deze domeinarchitectuur. We denken dat Digikoppeling ook rekening zou moeten houden met het gebruik van dit soort protocollen. Mogelijk kan de huidige koppelvlakstandaard REST API generieker worden opgezet om een aantal van dit soort protocollen ook te ondersteunen. &#xD;
+&lt;/p>&lt;p>&#xD;
+Er is inmiddels een opvolger van de ebMS2 standaard zoals onderdeel van het koppelvlakprofiel ebMS. Het zou logisch zijn om migratie naar deze ebMS3 standaard in te zetten, zeker ook gegeven dat deze standaard ook Europees wordt gebruikt als onderdeel van de e-Delivery standaard. Aandachtspunt is dat ebMS3 niet backwards compatible is met ebMS2. Migratie van ebMS2 naar ebMS3 is dan ook belangrijk om nader te onderzoeken en uit te werken.&#xD;
+&lt;/p>&#xD;
+</documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Huidige voorzieningen" id="id-2021aa84fe144116bfdeb3e8c27f9f0b" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>De Generieke Digitale Infrastructuur bestaat uit een aantal generieke voorzieningen, die breed gebruikt kunnen worden door overheidsorganisaties. Daarnaast zijn er op het gebied van gegevensuitwisseling ook een aantal andere generieke voorzieningen die breder binnen de overheid gebruikt kunnen worden. In deze paragraaf wordt een overzicht gegeven van de belangrijkste voorzieningen die we onder de aandacht willen brengen. Deze voorzieningen zijn gerelateerd aan de bedrijfsfuncties om inzicht te geven in hun functionaliteit. Ze zijn ook voorzien van eigenschappen die beschrijven wie verantwoordelijk is voor het beheer en waar meer informatie over de voorziening kan worden gevonden.&lt;/p></documentation>
         <property key="elementType" value="application-componentHuidige voorziening"/>
-      </element>
-      <element xsi:type="archimate:Representation" name="Referentie-architectuur" id="id-215bf07277cd4bdd83e07b32829f882f" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
-        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de referentie-architectuur voor gegevensuitwisseling. Het beschrijft de bedrijfsfuncties en bedrijfsobjecten die deel uitmaken van het domein gegevensuitwisseling. Het start met een algemene beschrijving van wat bedrijfsfuncties en bedrijfsobjecten zijn en welke invulling eraan is gegeven in de domeinarchitectuur. Vervolgens worden diagrammen en overzichten van de bedrijfsfuncties en bedrijfsobjecten beschreven.&lt;/p></documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Bedrijfsfuncties" id="id-307f05a1051a49ce9db6e3a9a2bd0c62" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>&#xD;
@@ -64,8 +95,8 @@ Bedrijfsfuncties zijn activiteiten die organisaties uitvoeren, los van hoe ze zi
 &lt;/p></documentation>
         <property key="elementType" value="business-function"/>
       </element>
-      <element xsi:type="archimate:Representation" name="Huidige situatie" id="id-325e9b67dd074c24b3d2065d60bcef5a" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
-        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de huidige situatie met betrekking tot gegevensuitwisseling. Het beschrijft de knelpunten die er in algemene zin bestaan m.b.t. gegevensuitwisseling. Daarnaast geeft het een overzicht van de belangrijkste landelijke voorzieningen op het gebied van gegevensuitwisseling. Dat zijn met name GDI-voorzieningen, maar er worden ook een aantal voorzieningen beschreven die geen deel uitmaken van de GDI, maar wel in brede zin relevant zijn voor overheidsorganisaties.&lt;/p></documentation>
+      <element xsi:type="archimate:Representation" name="Veranderfactoren" id="id-325e9b67dd074c24b3d2065d60bcef5a" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
+        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de veranderfactoren die richting geven aan de architectuur. Het beschrijft de belangrijkste beleid en wet- en regelgeving die van toepassing zijn, de ontwikkelingen die spelen en de knelpunten die er op dit moment bestaan. &lt;/p></documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Inhoudsopgave" id="id-50e034c9db124940b1fa0936dc7f7f93" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>&#xD;
@@ -74,30 +105,25 @@ Bedrijfsfuncties zijn activiteiten die organisaties uitvoeren, los van hoe ze zi
 &lt;tr>&lt;td>1.1&lt;/td>&lt;td>Aanleiding&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>1.2&lt;/td>&lt;td>Dit document&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>1.3&lt;/td>&lt;td>Relatie met andere intiatieven&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>2&lt;/td>&lt;td>&lt;b>Referentie-architectuur&lt;/b>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>2.1&lt;/td>&lt;td>Bedrijfsfuncties&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>2.2&lt;/td>&lt;td>Bedrijfsobjecten&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>3&lt;/td>&lt;td>&lt;b>Huidige situatie&lt;/b>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>3.1&lt;/td>&lt;td>Knelpunten&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>3.2&lt;/td>&lt;td>Huidige voorzieningen&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4&lt;/td>&lt;td>&lt;b>Gewenste situatie&lt;/b>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.1&lt;/td>&lt;td>Ontwikkelingen&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.2&lt;/td>&lt;td>Beleid&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.3&lt;/td>&lt;td>Wet- en regelgeving&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.4&lt;/td>&lt;td>Capabilities&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.5&lt;/td>&lt;td>Architectuurvisie&lt;br>&#xD;
-&lt;tr>&lt;td>4.6&lt;/td>&lt;td>Architectuurprincipes&lt;br>&#xD;
-&lt;tr>&lt;td>4.7&lt;/td>&lt;td>Verdieping: metagegevens&lt;br>&#xD;
-&lt;tr>&lt;td>4.8&lt;/td>&lt;td>Veranderinitiatieven&lt;br>&#xD;
-&lt;tr>&lt;td>4.9&lt;/td>&lt;td>Standaarden&lt;br>&#xD;
-&lt;tr>&lt;td>4.10&lt;/td>&lt;td>Begrippen&lt;br>&#xD;
+&lt;tr>&lt;td>2&lt;/td>&lt;td>&lt;b>Veranderfactoren&lt;/b>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>2.1&lt;/td>&lt;td>Beleid&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>2.2&lt;/td>&lt;td>Wet- en regelgeving&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>2.3&lt;/td>&lt;td>Ontwikkelingen&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>2.4&lt;/td>&lt;td>Knelpunten&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>2.5&lt;/td>&lt;td>Capabilities&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>3&lt;/td>&lt;td>&lt;b>Doelarchitectuur&lt;/b>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>3.1&lt;/td>&lt;td>Architectuurvisie&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>3.2&lt;/td>&lt;td>Architectuurprincipes&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>3.3&lt;/td>&lt;td>Verdieping: metagegevens&lt;br>&#xD;
+&lt;tr>&lt;td>3.4&lt;/td>&lt;td>Verdieping: uitwisselprotocollen&lt;br>&#xD;
+&lt;tr>&lt;td>3.5&lt;/td>&lt;td>Veranderinitiatieven&lt;br>&#xD;
 &lt;/table>&#xD;
 &lt;/p>&#xD;
 </documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Wet- en regelgeving" id="id-5efdc7770d5a4973a6ac5ca913f4376e" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>De domeinarchitectuur beschrijft de belangrijkste wet- en regelgeving die van toepassing is op gegevensuitwisseling. Dat betreft met name wet- en regelgeving vanuit Europa, inclusief de Nederlandse invulling daarvan, gegeven dat dit een belangrijke bron voor verandering is voor gegevensuitwisseling. De wet- en regelgeving is in de architectuur doorvertaald naar capabilities die beschrijven wat overheidsorganisaties zouden moeten kunnen om deze te implementeren. Het is ook expliciet gekoppeld aan de architectuurprincipes die een belangrijke bijdrage leveren aan het implementeren  van deze wet- en regelgeving.&lt;/p></documentation>
-        <property key="elementType" value="constraintWetgeving"/>
+        <property key="elementType" value="driverWetgeving"/>
       </element>
       <element xsi:type="archimate:Representation" name="Architectuurvisie" id="id-65626af39b714343abdc1b5e9d8bfb21" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>Deze architectuurvisie geeft een overzicht van de belangrijkste ideeën in de domeinarchitectuur. Het kan voor een belangrijk deel worden gezien als het overkoepelende verhaal en een samenvatting en verbinding van de architectuurprincipes. Het bevat dan ook verwijzingen naar deze architectuurprincipes, waar meer over hun rationale en implicaties kan worden gelezen. Het voegt echter ook informatie toe over zaken die niet principieel van aard zijn, maar wel belangrijk om te begrijpen. &lt;/p>&#xD;
@@ -223,7 +249,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
 &lt;p>Dit document beschrijft de domeinarchitectuur voor gegevensuitwisseling, als onderdeel van de Generieke Digitale Infrastructuur. Het is opgesteld in een interbestuurlijke werkgroep met vertegenwoordigers van verschillende overheidsorganisaties. Deze zijn ondersteund door bureau MIDO van het ministerie van BZK. Het beschrijft de ontwikkelingen en wet- en regelgeving en vertaalt deze naar een visie en kaders voor de inrichting van gegevensuitwisseling bij overheidsorganisaties. Het document is vooral gericht op enterprise-, informatie- en data-architecten bij overheidsorganisaties. Het document is een doorontwikkeling van een eerdere versie van de domeinarchitectuur, maar kent een andere structuur en opzet. Zo is ervoor gekozen om de architectuur zoveel mogelijk in de modelleertaal ArchiMate uit te werken en de details ervan alleen on-line beschikbaar te stellen. Dit document is daarmee een samenvatting en verwijzing naar details die on-line te vinden zijn. De architectuur wordt on-line ook doorontwikkeld en beheerd in &lt;a href=&quot;https://github.com/minbzk/gdi-gegevensuitwisseling&quot;>GitHub&lt;/a>, waardoor de meest actuele versie daar te vinden is. Daar zijn ook bestanden te vinden die direct kunnen worden ingelezen in het Open Source modelleertool Archi.&#xD;
 &lt;/p>&#xD;
 &lt;p>Deze domeinarchitectuur heeft een relatie met de andere domeinarchitecturen, de Architectuur Digitale Overheid en NORA. Met name de domeinarchitectuur toegang is sterk gerelateerd aan deze domeinarchitectuur, omdat gegevens die worden uitgewisseld in veel gevallen gevoelig zijn en om toegangscontrole vragen. Er is bewust voor gekozen om geen delen uit de domeinarchitectuur toegang in te kopiëren in deze architectuur, zodat er één duidelijke bron van informatie over toegang is. De consequentie hiervan is dat lezers wordt gevraagd om de &lt;a href=&quot;https://github.com/minbzk/gdi-toegang&quot;>domeinarchitectuur toegang&lt;/a> ook te lezen om een volledig beeld van gegevensuitwisseling te krijgen. Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado&quot;>Architectuur Digitale Overheid 2030&lt;/a> en de &lt;a href=&quot;https://www.noraonline.nl&quot;>NORA&lt;/a>. Hierdoor is deze domeinarchitectuur te beschouwen als een doorvertaling en concretisering van deze overkoepelende architecturen.&lt;/p>&#xD;
-&lt;p>De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein gegevensuitwisseling. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke ontwikkelingen, wet- en regelgeving, beleid, architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld. De architectuur moet vooral worden gezien als een beschrijving van best-practices. Ze geven richting aan ontwerpkeuzes die in programma's en projecten worden gemaakt. &#xD;
+&lt;p>De architectuur is ingedeeld in drie onderdelen: veranderfactoren, doelarchitectuur en bijlagen. De veranderfactoren geven richting aan de architectuur. De doelarchitectuur is de inhoud van de architectuur zelf, in de vorm van een visie, architectuurprincipes en verdiepende hoofdstukken op het gebied van metadata, uitwisselprotocollen, notificaties en historie. In de bijlage zijn meer algemene modellen en beschrijvingen opgenomen van de functies, objecten, voorzieningen, standaarden en begrippen die van toepassing zijn op gegevensuitwisseling. De architectuur moet vooral worden gezien als een beschrijving van best-practices. Ze geven richting aan ontwerpkeuzes die in programma's en projecten worden gemaakt. &#xD;
 &lt;/p>&#xD;
 &lt;h2>1.3 Relatie met andere initiatieven&lt;/h2>&#xD;
 &lt;p>Er zijn allerlei andere initiatieven die zijn gerelateerd aan gegevensuitwisseling. Het belangrijkste programma dat er op het moment van schrijven van dit document loopt is het programma Federatief Data Stelsel (FDS), als onderdeel van het programma Interbestuurlijke Data Strategie (IBDS). Er is regelmatig afgestemd met programma FDS om ervoor te zorgen dat er geen conflicten en overlap ontstaat. De nadruk in programma FDS ligt op het inrichten van een overheidsbreed stelsel voor basis- en sectorregistraties. De nadruk in deze architectuur ligt op het in meer algemene zin beschrijven van hoe met gegevensuitwisseling wordt omgegaan.&lt;/p>&#xD;
@@ -308,6 +334,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     </folder>
     <folder name="Documenten" id="id-9f9619feaf5248b682214c28a67028b1">
       <element xsi:type="archimate:Representation" name="Domeinarchitectuur gegevensuitwisseling" id="id-f7cd0effef5643879ed04ee81f4d9bfb" profiles="id-d5b96c76c113467382aa37a2e773d369"/>
+      <element xsi:type="archimate:Representation" name="Bijlagen domeinarchitectuur gegevensuitwisseling" id="id-fca223917bb245fd97ff55c463938123" profiles="id-d5b96c76c113467382aa37a2e773d369"/>
     </folder>
     <folder name="Bedrijfsfuncties" id="id-fe644983eb3b4d0b99969ee287e2df0f">
       <element xsi:type="archimate:BusinessFunction" name="Abonneren en notificeren" id="id-0117f3617bc9465ca0df8a0441383b79">
@@ -545,7 +572,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Json"/>
       </element>
       <element xsi:type="archimate:Constraint" name="Digikoppeling Koppelvlakstandaard ebMS2" id="id-0c5ff2bcee01490da929bce198ffa7e8" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
-        <documentation>Digikoppeling Koppelvlakstandaard ebMS2 standaardiseert hoe gegevens worden uitgewisseld op basis van de ebMS standaard.</documentation>
+        <documentation>Digikoppeling Koppelvlakstandaard ebMS2 standaardiseert hoe gegevens asynchroon en betrouwbaar worden uitgewisseld op basis van de ebMS standaard.</documentation>
         <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Digikoppeling moet worden toegepast bij digitale gegevensuitwisseling die plaatsvindt met voorzieningen die onderdeel zijn van de GDI, waaronder de basisregistraties, of die sectoroverstijgend is. De verplichting geldt voor gegevensuitwisseling tussen systemen waarbij er noodzaak is voor tweezijdige authenticatie."/>
         <property key="Beheerorganisatie" value="Logius"/>
@@ -610,7 +637,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/jcdr"/>
       </element>
       <element xsi:type="archimate:Constraint" name="Digikoppeling Koppelvlakstandaard Grote Berichten" id="id-3d5e3c7b91dc412d9f110e7cbfca84aa" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
-        <documentation>Digikoppeling Koppelvlakstandaard Grote Berichten standaardiseert hoe grote berichten worden uitgewisseld.</documentation>
+        <documentation>Digikoppeling Koppelvlakstandaard Grote Berichten standaardiseert hoe grote bestanden worden uitgewisseld.</documentation>
         <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Digikoppeling moet worden toegepast bij digitale gegevensuitwisseling die plaatsvindt met voorzieningen die onderdeel zijn van de GDI, waaronder de basisregistraties, of die sectoroverstijgend is. De verplichting geldt voor gegevensuitwisseling tussen systemen waarbij er noodzaak is voor tweezijdige authenticatie."/>
         <property key="Beheerorganisatie" value="Logius"/>
@@ -844,7 +871,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <property key="URL" value="https://www.w3.org/TR/prov-overview/"/>
       </element>
       <element xsi:type="archimate:Constraint" name="Digikoppeling Koppelvlakstandaard REST-API" id="id-bf22ed38d975422685a677577ebb57bf" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
-        <documentation>Digikoppeling Koppelvlakstandaard REST-API standaardiseert hoe gegevens worden uitgewisseld op basis van RESTful API's.</documentation>
+        <documentation>Digikoppeling Koppelvlakstandaard REST-API standaardiseert hoe gegevens synchroon worden uitgewisseld met resources op basis van RESTful API's.</documentation>
         <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Digikoppeling moet worden toegepast bij digitale gegevensuitwisseling die plaatsvindt met voorzieningen die onderdeel zijn van de GDI, waaronder de basisregistraties, of die sectoroverstijgend is. De verplichting geldt voor gegevensuitwisseling tussen systemen waarbij er noodzaak is voor tweezijdige authenticatie."/>
         <property key="Beheerorganisatie" value="Logius"/>
@@ -1445,7 +1472,7 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
         <property key="Implicaties" value="3. Het vastleggen van metagegevens is geïntegreerd in de reguliere applicaties waar gebruikers mee werken."/>
         <property key="Implicaties" value="4. Waar mogelijk en waardevol worden metagegevens gegenereerd op basis van kunstmatige intelligentie, bijvoorbeeld om relevante trefwoorden, samenvattingen of toelichtingen te genereren."/>
         <property key="Implicaties" value="5. Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals trefwoorden, classificaties en omschrijvingen."/>
-        <property key="Implicaties" value="6. Er wordt in de metagegevens ook vastgelegd welke gebeurtenis en/of handeling ten grondslag lag aan het vastleggen of wijzigen van de gegevens."/>
+        <property key="Implicaties" value="6. Er worden in de metagegevens relevante contextgegevens vastgelegd zoals welke gebeurtenis en/of handeling ten grondslag lag aan het vastleggen of wijzigen van de gegevens."/>
       </element>
       <element xsi:type="archimate:Principle" name="4.3. Registraties bieden historische gegevens aan" id="id-bdcd0549c55a402c8d987ba3faae094f">
         <documentation>Registraties zijn de formele bron voor de gegevens die ze beheren. Sector- en basisregistraties zijn een belangrijke basis voor de Nederlandse overheid en er zal op allerlei manieren aan worden gerefereerd. Het is belangrijk dat er geen discussie kan ontstaan over welke gegevens er op een bepaald moment onderdeel waren van de registratie, ook in juridische zin.</documentation>
@@ -1573,8 +1600,8 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-010a417e5b56402f9b17ff265790b4d9" source="id-b8bd855199e9414b937ab5aaf1c2411f" target="id-5def1e4c5f5d4e2d97baddc782b9b8c6"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-018543ac2611429d9f23813620ac0497" source="id-5ef12d74a642417684910d16092653f2" target="id-2ffebc5b595141c2b31b26908a12ccd2"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-01cc68defcb544b6afdb7ff5c2d6a3b5" source="id-0da09931f8ac4b368c786703913087bf" target="id-a9426479d67d4614b26c009c8b5f8a5f"/>
-    <element xsi:type="archimate:AssociationRelationship" name="3" id="id-0233688f040b440ab34334b8eb64cad4" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-325e9b67dd074c24b3d2065d60bcef5a">
-      <property key="volgnummer" value="6"/>
+    <element xsi:type="archimate:AssociationRelationship" name="2" id="id-0233688f040b440ab34334b8eb64cad4" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-325e9b67dd074c24b3d2065d60bcef5a">
+      <property key="volgnummer" value="3"/>
       <property key="niveau" value="1"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-02a76a9a10714f3f8b0bc7a20b316cac" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-09e98a85539140da9e118b8679661527"/>
@@ -1593,15 +1620,15 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-0b06f75704534090b16f2b0436a32c6e" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-e0903391f835401798f98afd39daea1a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0b9241bcecba43eb96270a3d00956f8d" source="id-8f048bf52b2e497d8f033cdc091084a6" target="id-d47e17732fb344d79996d472915371e0"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0bcda1c88b30402ea3c0080115176a59" source="id-24bd37e146ae46c6953800741673e3c9" target="id-8d475d01559b463eb4a5a0e3fb3fc6b3"/>
-    <element xsi:type="archimate:AssociationRelationship" name="2.1" id="id-0c3601c604fb473291178ca7c5156222" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-307f05a1051a49ce9db6e3a9a2bd0c62">
-      <property key="volgnummer" value="4"/>
-      <property key="niveau" value="2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="1" id="id-0c3601c604fb473291178ca7c5156222" source="id-fca223917bb245fd97ff55c463938123" target="id-307f05a1051a49ce9db6e3a9a2bd0c62">
+      <property key="volgnummer" value="1"/>
+      <property key="niveau" value="1"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-0d6ace77a10f4e339ef1f6fd2802adde" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-9e1a52cddbc4424990208f6876b70344"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0f7a897efc544d12bff166b20e2134d3" source="id-5ef12d74a642417684910d16092653f2" target="id-d47e17732fb344d79996d472915371e0"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0fcc64688809413b8e2d805a71ca9fe4" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-4a160e64388c4d53b0b4ec7340fdd42a"/>
-    <element xsi:type="archimate:AssociationRelationship" name="3.1" id="id-101408f7acac4f02935ade19cd634cd6" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-fd4354af5ff747e6ac7982d8878f95a7">
+    <element xsi:type="archimate:AssociationRelationship" name="2.4" id="id-101408f7acac4f02935ade19cd634cd6" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-fd4354af5ff747e6ac7982d8878f95a7">
       <property key="volgnummer" value="7"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
@@ -1675,10 +1702,10 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-400d15b32b244139bd634a230ae5cf20" source="id-0da09931f8ac4b368c786703913087bf" target="id-a1d7faf077c6431d81a6acd66ffc5b29"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-402e88ae55f54d59b6f3980d64b0cd2a" source="id-8f089dcb8add4b2fa57de76006aab538" target="id-4ac2f120b6ef47ebb5c8f522015a5d94"/>
     <element xsi:type="archimate:AssociationRelationship" name="typeert" id="id-403e9cc80f944ac89fcf2bad4872cbc4" source="id-93869e353dd54b06b90794b2d0785379" target="id-61972e0d2c02472b903090af6f8b0650"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.6" id="id-405e921defc1470abf7d3b4e9d06e887" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-aaf568d0e0f1430d96eb831f18281a9c">
-      <property key="volgnummer" value="15"/>
+    <element xsi:type="archimate:AssociationRelationship" name="3.2" id="id-405e921defc1470abf7d3b4e9d06e887" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-aaf568d0e0f1430d96eb831f18281a9c">
+      <property key="volgnummer" value="11"/>
       <property key="niveau" value="2"/>
-      <property key="type" value="details"/>
+      <property key="type" value="properties"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-4129d92d06a0465e851d60f042631392" source="id-5ef12d74a642417684910d16092653f2" target="id-654de455909049e5880ca18ca40935ed"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-41439ea8a96544b18962788d5648257a" source="id-592dc350d1034ca280d27157e17ba09d" target="id-4ac2f120b6ef47ebb5c8f522015a5d94"/>
@@ -1705,13 +1732,13 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-502775e9043246988d83ec71c0068d47" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-0f85cbb16d5b48acbbe3cf7236dbdc2b"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-518f6e935a11401aaf49feac90236e1d" source="id-87ae2ab6ffb1475392848037863c404c" target="id-9d943684fc1e4678a99a37ec061dcd19"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-522f9c7374f0425eb2f42fbfc8d7085a" source="id-b160b994f4554d128443e7406af8d09e" target="id-dfbe1c09e48c41ebbf57626a369f05d7"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.1" id="id-5362d0e9ac474fb6910da286e90d4f61" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-b9f1d0aea3f44059bd3b54c9f1a2ebf1">
-      <property key="volgnummer" value="10"/>
+    <element xsi:type="archimate:AssociationRelationship" name="2.3" id="id-5362d0e9ac474fb6910da286e90d4f61" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-b9f1d0aea3f44059bd3b54c9f1a2ebf1">
+      <property key="volgnummer" value="6"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" name="4.5" id="id-541722c66b4043adaeb9f7ca47555509" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-65626af39b714343abdc1b5e9d8bfb21">
-      <property key="volgnummer" value="14"/>
+    <element xsi:type="archimate:AssociationRelationship" name="3.1" id="id-541722c66b4043adaeb9f7ca47555509" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-65626af39b714343abdc1b5e9d8bfb21">
+      <property key="volgnummer" value="10"/>
       <property key="niveau" value="2"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-5448bde26fea42be9be6c866ae815fb8" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-81ca2fbd0c984219b80e7596a9f16326"/>
@@ -1736,9 +1763,9 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-5f08b11067c04a5cad42d3183ded6ca4" source="id-b8382723adde49209c8e6ba8d3130fd5" target="id-39b68135266a4b08be0c9bacacd8a5da"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5f0e4d87834e4a4d82ba0307b42abfe9" source="id-b160b994f4554d128443e7406af8d09e" target="id-e0f07c7f77834fd081955c8d99f288f7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5f31816c08af4ad59626d0d1ccf718bf" source="id-d663973596d447ae98a48793fe341f34" target="id-293860e793c24752a4184737c13d802b"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.9" id="id-5fc4b55064304e459730a896f474d0c8" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-90484cc165104305a237032f84407803">
-      <property key="volgnummer" value="18"/>
-      <property key="niveau" value="2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="4" id="id-5fc4b55064304e459730a896f474d0c8" source="id-fca223917bb245fd97ff55c463938123" target="id-90484cc165104305a237032f84407803">
+      <property key="volgnummer" value="4"/>
+      <property key="niveau" value="1"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-605c0894336b4948aa305dfd4aa35362" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-a3ff1bdac53d4cf28526f9f3f360ffcf"/>
@@ -1754,8 +1781,8 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" name="wordt beschreven in" id="id-6b92d0c8d846479da490108edf61cca1" source="id-153383edf7e242bebd14d1d5a0583d69" target="id-93869e353dd54b06b90794b2d0785379"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-6c847f4279764dce87c5930e8bca1ae3" source="id-9aab67d0e4a045fda585d6550fd23f32" target="id-8f06012b2a2f45ca97351be679da5987"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-6c91441cf36d4870859c1e202681d31f" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-dfbe1c09e48c41ebbf57626a369f05d7"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.2" id="id-6ca18ef2521e4b2da58445138f0bc419" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-0c8e568c55ab4ddc91ef581d337e57ff">
-      <property key="volgnummer" value="11"/>
+    <element xsi:type="archimate:AssociationRelationship" name="2.1" id="id-6ca18ef2521e4b2da58445138f0bc419" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-0c8e568c55ab4ddc91ef581d337e57ff">
+      <property key="volgnummer" value="4"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
@@ -1825,13 +1852,13 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-9ac1e4d14fd4448a93176227d1056c0f" source="id-0da09931f8ac4b368c786703913087bf" target="id-deb4667d24eb494c919800436a77358c"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9acd8dedd0c9494a91076ec651de48f8" source="id-b8382723adde49209c8e6ba8d3130fd5" target="id-978c37663b714e0fbdc9ec088db243d4"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9ae2bdcd3c3247a382a04163fc98b3df" source="id-5ef12d74a642417684910d16092653f2" target="id-0e8e9bd950a04d5390cbd01cde4c9375"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.8" id="id-9d6f7cccb5e04158a086bb1b1325f009" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-75bc6e2c69dd4dfaa4f38a3ce5eaa9b6">
-      <property key="volgnummer" value="17"/>
+    <element xsi:type="archimate:AssociationRelationship" name="3.5" id="id-9d6f7cccb5e04158a086bb1b1325f009" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-75bc6e2c69dd4dfaa4f38a3ce5eaa9b6">
+      <property key="volgnummer" value="14"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" name="4.7" id="id-9eb877bc47c54e038c9c71a758b29e2f" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-b7da2fb1fe314dbfb7d025d2f1a07035">
-      <property key="volgnummer" value="16"/>
+    <element xsi:type="archimate:AssociationRelationship" name="3.3" id="id-9eb877bc47c54e038c9c71a758b29e2f" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-b7da2fb1fe314dbfb7d025d2f1a07035">
+      <property key="volgnummer" value="12"/>
       <property key="niveau" value="2"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-9f8a58ef6b1444b293df5f5fdcd32664" source="id-5ef12d74a642417684910d16092653f2" target="id-a886fec7ea1447db9831cd8c85bcd77c"/>
@@ -1841,8 +1868,8 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-a1a490b0cffc43f48fb0c945c730f5f6" source="id-b160b994f4554d128443e7406af8d09e" target="id-9ad7c4b354e34226a5d86d81f8adf280"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a2e637d40b004860a64f473ea1591762" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-35ec7c5a907d4d5889a0491d4776a503"/>
     <element xsi:type="archimate:AssociationRelationship" name="is gemeten voor" id="id-a3e1eca77d7149fb8e4e88c376f6cd81" source="id-d663973596d447ae98a48793fe341f34" target="id-5559669d97cb4cdca49cbe04a07067ff"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.3" id="id-a5ee3e0dd5bf45da9cee20abc1914729" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-5efdc7770d5a4973a6ac5ca913f4376e">
-      <property key="volgnummer" value="12"/>
+    <element xsi:type="archimate:AssociationRelationship" name="2.2" id="id-a5ee3e0dd5bf45da9cee20abc1914729" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-5efdc7770d5a4973a6ac5ca913f4376e">
+      <property key="volgnummer" value="5"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
@@ -1865,16 +1892,16 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-b3ee8929539f467a83287a59748e255e" source="id-f5d4c4f8264842e7ab69504476a0cdd4" target="id-dfbe1c09e48c41ebbf57626a369f05d7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b5f8f2d5ee3748e680bf0c4817c6e198" source="id-5559669d97cb4cdca49cbe04a07067ff" target="id-02a4804d1e204365a324f4629e057131"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b64eff2870bc4b10b1248d7996589063" source="id-bdd9ffe19f724e0fb42094958c71ce8e" target="id-bc1611966ade49bca32f7ef76c31bdad"/>
-    <element xsi:type="archimate:AssociationRelationship" name="3.2" id="id-b693cf327ea84951a54e65c29e951013" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-2021aa84fe144116bfdeb3e8c27f9f0b">
-      <property key="volgnummer" value="8"/>
-      <property key="niveau" value="2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="3" id="id-b693cf327ea84951a54e65c29e951013" source="id-fca223917bb245fd97ff55c463938123" target="id-2021aa84fe144116bfdeb3e8c27f9f0b">
+      <property key="volgnummer" value="3"/>
+      <property key="niveau" value="1"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-b802a4a77bc1410e9523be8ae6d4e2c4" source="id-83efbf11e08643ea93f8b87ff9d6e520" target="id-ce64114e055648af86127a0b29704e94"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b82cbb81db314ed4b16183fb2fea861c" source="id-b160b994f4554d128443e7406af8d09e" target="id-3bb134dd13654c57a6395ace8aca98d5"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.10" id="id-b94a3a9bea754d2b926a73533c5897ed" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-021ce092aa7a46f6af9b8c068cf8b7d2">
-      <property key="volgnummer" value="19"/>
-      <property key="niveau" value="2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="5" id="id-b94a3a9bea754d2b926a73533c5897ed" source="id-fca223917bb245fd97ff55c463938123" target="id-021ce092aa7a46f6af9b8c068cf8b7d2">
+      <property key="volgnummer" value="5"/>
+      <property key="niveau" value="1"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-b98905e459754fff8253d67dc65b1185" source="id-61972e0d2c02472b903090af6f8b0650" target="id-2ca8c8a0edc245348bb3f56548636bf7"/>
@@ -1883,10 +1910,6 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-ba23a5e404b2472bb4f265f9b3c62446" source="id-93869e353dd54b06b90794b2d0785379" target="id-cc4548cefc604808952b9fc34ae15981"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-ba8842dfe82d4992b29c8300cd661d76" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-a3e5e4fbe30f403c80a84306f62a3d66"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-ba8cca11561347a5b6ad25aff8961d79" source="id-0da09931f8ac4b368c786703913087bf" target="id-d8486619cfed479eaa0f996e5af89ecf"/>
-    <element xsi:type="archimate:AssociationRelationship" name="2" id="id-bacebbf472234e29931fcc1b98030001" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-215bf07277cd4bdd83e07b32829f882f">
-      <property key="volgnummer" value="3"/>
-      <property key="niveau" value="1"/>
-    </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-bae373c20fae4aaeb03af8beb2359c68" source="id-8f089dcb8add4b2fa57de76006aab538" target="id-ce31bcdad11a4f879c58d0072d5dbbe9"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-bca43c8fe01d48ccb45686dfda361f7f" source="id-5d14a03bdd4f4f93b68149da9192663e" target="id-25074a472a37451c87083003b618cb81"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-bddc97a1455742a8b7e23e109e60a643" source="id-b160b994f4554d128443e7406af8d09e" target="id-68db626621624ecea3aba47a8ca6ed23"/>
@@ -1909,7 +1932,7 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-c992ec86a36c41cb80d1a41768de1f8a" source="id-5ef12d74a642417684910d16092653f2" target="id-bd9f9a2fe62245c7ae1f01f5ff6ee28a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-c99965403e554fcba6303388d546b95e" source="id-521fc9d8b0c04730ac5ac93823baf06f" target="id-e12667630ded48f2b6c2c99bc1a01c44"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-c9e6ea885140454690b9d185c7fe180e" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-4ac2f120b6ef47ebb5c8f522015a5d94"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4" id="id-ca2f363d54c04721a6dd88dab31f517d" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-18e78a7e0dbd4aedb6667e27b568a9b1">
+    <element xsi:type="archimate:AssociationRelationship" name="3" id="id-ca2f363d54c04721a6dd88dab31f517d" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-18e78a7e0dbd4aedb6667e27b568a9b1">
       <property key="volgnummer" value="9"/>
       <property key="niveau" value="1"/>
     </element>
@@ -1933,9 +1956,9 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-d38a77edbbc8495ea645cb59f330fdec" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-8418d8cf38694245bdd592d1a4583f1e"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-d3969d584cb5449e9e27cd7457ea9b0b" source="id-5ef12d74a642417684910d16092653f2" target="id-789abaabe8384ed1a6cff3e6c40c7a97"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-d44454f12c9543aeb1f70fc9e2ff3412" source="id-0bad2907f66540b5954bc5eb0e35ba9b" target="id-b6dcc54033c54e28af9ab38462132c3c"/>
-    <element xsi:type="archimate:AssociationRelationship" name="2.2" id="id-d444c0e79b314a1ebba53c254f5d7037" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-d1fc4f0a6391470f97c66d10241db9c7">
-      <property key="volgnummer" value="5"/>
-      <property key="niveau" value="2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="2" id="id-d444c0e79b314a1ebba53c254f5d7037" source="id-fca223917bb245fd97ff55c463938123" target="id-d1fc4f0a6391470f97c66d10241db9c7">
+      <property key="volgnummer" value="2"/>
+      <property key="niveau" value="1"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-d4514a67e8a7455d92b9d67c4626246d" source="id-5ef12d74a642417684910d16092653f2" target="id-39b68135266a4b08be0c9bacacd8a5da"/>
@@ -1958,6 +1981,10 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-e197220a62bb43229f2d68b1fb3d3eed" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-65345368655446139e74ae4b4fb1b8dc"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e21964ee37244cc1bd0b6c8ac7eebbc7" source="id-153383edf7e242bebd14d1d5a0583d69" target="id-e12667630ded48f2b6c2c99bc1a01c44"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e2a38bf6407a479b992ea948c9daf41c" source="id-51addf9338fa40d4abb17533786677d0" target="id-e0f07c7f77834fd081955c8d99f288f7"/>
+    <element xsi:type="archimate:AssociationRelationship" name="3.4" id="id-e3bbfc7226ed49ff88777ef027b315c2" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-1d2d4327d948422eadfcd5208208ec3a">
+      <property key="volgnummer" value="13"/>
+      <property key="niveau" value="2"/>
+    </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-e4d5008da9a24aa8adc226d966728332" source="id-f2920b273337408fbcb8aad5795bdd2b" target="id-b6dcc54033c54e28af9ab38462132c3c"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e4edb051974141af80463e26d8aedbfd" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-789abaabe8384ed1a6cff3e6c40c7a97"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e518a86c68c4498f91e1170fdf9c219c" source="id-bdd9ffe19f724e0fb42094958c71ce8e" target="id-90ed729aa9144f2bad8d25d7bd4b9c0b"/>
@@ -1995,8 +2022,8 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     <element xsi:type="archimate:AssociationRelationship" id="id-f97c5bd166c94da9be8b46d59d3f86be" source="id-0da09931f8ac4b368c786703913087bf" target="id-722d227311134e49a0f133a054b7b6aa"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-f984d0291dfc4c58baa3da36a5120285" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-b6735b8d80074ebeac5fe0e617f00bc0"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fa926f2434f84223b9ec6bcec996ca01" source="id-592dc350d1034ca280d27157e17ba09d" target="id-6857a45330d3428fa0562f7db033d6df"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.4" id="id-faf218a4c3a1403292c5b6ddc399971c" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-efa49314476444e387b26879d23286c5">
-      <property key="volgnummer" value="13"/>
+    <element xsi:type="archimate:AssociationRelationship" name="2.5" id="id-faf218a4c3a1403292c5b6ddc399971c" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-efa49314476444e387b26879d23286c5">
+      <property key="volgnummer" value="8"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
@@ -5514,42 +5541,33 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Documentstructuur" id="id-8221d3cd685c4027b81176fa7f15153f">
       <child xsi:type="archimate:DiagramObject" id="id-6f78c0751095412c9a56b62ce51e885c" lineColor="#000000" fillColor="#ffffff" textPosition="1" archimateElement="id-f7cd0effef5643879ed04ee81f4d9bfb">
-        <bounds x="24" y="12" width="145" height="457"/>
+        <bounds x="24" y="12" width="145" height="337"/>
         <feature name="iconVisible" value="2"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-54a9dd9d7aa74a02bba0c00f5a81634d" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-2bb252c939694940873b14bd32307814" archimateRelationship="id-a5ee3e0dd5bf45da9cee20abc1914729"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-4a9e62cb283445acaf37650e15957d47" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-b0e1cd0b465d4b9187833337bb98e72c" archimateRelationship="id-d444c0e79b314a1ebba53c254f5d7037"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-11f40891074246a7b2f061c28dd68f1e" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-288f872423cf4b7f8fd6d429cf03254a" archimateRelationship="id-faf218a4c3a1403292c5b6ddc399971c"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-c005b3a70ba940daa2a832af399aed71" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-29e6bae208f84faeaef3014e77822ff8" archimateRelationship="id-0c3601c604fb473291178ca7c5156222"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-808b8120dac443089a6f173548533abe" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-a55cdb532ea148ddae6b2a9b17f6ec50" archimateRelationship="id-405e921defc1470abf7d3b4e9d06e887"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-5456c53d4f3c45fb89eb6f0d1a53e1e4" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-b0dbcd2c4b6d459a83e5a810947679c9" archimateRelationship="id-101408f7acac4f02935ade19cd634cd6"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a70e1d3feeaf494088ed844951b7fd35" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-f2f81565eb4e4945b1bafbf324cb410f" archimateRelationship="id-541722c66b4043adaeb9f7ca47555509"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-e8ca392fad1b4264b705c6ced0a56f4b" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-c90c69ba300d43cb814bcdc8db592028" archimateRelationship="id-0233688f040b440ab34334b8eb64cad4"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-8568c7e94a32499b95a0f76bbd4844f0" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-35c49dcdcf0b4fb4bfad6fc1cddae81b" archimateRelationship="id-b693cf327ea84951a54e65c29e951013"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-28b67cae4d11484cb3cf060d614b79b9" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-53d86bc2166a435ba1f268d68296d676" archimateRelationship="id-9d6f7cccb5e04158a086bb1b1325f009"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-dc3147eb4ecb45418fd0fdd2fcbbeb6b" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-4ba3055e62214733bdff607ae167aae2" archimateRelationship="id-92a222904dd141d095ccab3ee6016be0"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-5d2ae4a97d5e4b86a8275fd3d6e88d2d" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-5706d0950497473fa028c830c439f16e" archimateRelationship="id-5fc4b55064304e459730a896f474d0c8"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-56ace43ec09f4f77a20547e0d6fde833" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-fa950dc640544bcebb2eff87e779eb1f" archimateRelationship="id-5362d0e9ac474fb6910da286e90d4f61"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-78759f7b9f94433faa90a674b3a466ad" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-825509e496dd4566b899ac92ff34b725" archimateRelationship="id-bacebbf472234e29931fcc1b98030001"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f7bd6ac6d94c4b5282e66d4b15aeb2aa" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-cc015d5d395f432dadb2bdf108106fb2" archimateRelationship="id-ca2f363d54c04721a6dd88dab31f517d"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-75f82d1d28b94efd86555939c1c87962" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-c187e6747b4f48c6bbd20b0ab96c2532" archimateRelationship="id-6ca18ef2521e4b2da58445138f0bc419"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-d7eb47cbb3554d76be521434297a9d0a" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-ae6c3de331754ec38c3a8bfba7e5bb2e" archimateRelationship="id-d1285b6946eb4ff498d26c857b089b41"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f4f4824cbf954488b988a9a3198a2906" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-c1cf98ab553e4243b38f52d26539b3b8" archimateRelationship="id-9eb877bc47c54e038c9c71a758b29e2f"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-ebf172a4590f4f278d017180d7b298a1" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-662584c0e4a24beb984869b7e81e0359" archimateRelationship="id-b94a3a9bea754d2b926a73533c5897ed"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-56995f70827c47ff950558dfb32b6265" lineColor="#c0c0c0" source="id-6f78c0751095412c9a56b62ce51e885c" target="id-ee15744da1ba4e2895f2e20cc1f2fb00" archimateRelationship="id-e3bbfc7226ed49ff88777ef027b315c2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-f2f81565eb4e4945b1bafbf324cb410f" targetConnections="id-a70e1d3feeaf494088ed844951b7fd35" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-65626af39b714343abdc1b5e9d8bfb21">
-        <bounds x="237" y="324" width="212" height="25"/>
+        <bounds x="237" y="228" width="212" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-4ba3055e62214733bdff607ae167aae2" targetConnections="id-dc3147eb4ecb45418fd0fdd2fcbbeb6b" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-f763d8baeed7450a801180ca97a5e0bc">
         <bounds x="228" y="36" width="221" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-825509e496dd4566b899ac92ff34b725" targetConnections="id-78759f7b9f94433faa90a674b3a466ad" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-215bf07277cd4bdd83e07b32829f882f">
-        <bounds x="228" y="60" width="221" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
       <child xsi:type="archimate:DiagramObject" id="id-c90c69ba300d43cb814bcdc8db592028" targetConnections="id-e8ca392fad1b4264b705c6ced0a56f4b" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-325e9b67dd074c24b3d2065d60bcef5a">
-        <bounds x="228" y="132" width="221" height="25"/>
+        <bounds x="228" y="60" width="221" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-b0dbcd2c4b6d459a83e5a810947679c9" targetConnections="id-5456c53d4f3c45fb89eb6f0d1a53e1e4" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-fd4354af5ff747e6ac7982d8878f95a7">
@@ -5557,7 +5575,7 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-35c49dcdcf0b4fb4bfad6fc1cddae81b" targetConnections="id-8568c7e94a32499b95a0f76bbd4844f0" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-2021aa84fe144116bfdeb3e8c27f9f0b">
-        <bounds x="237" y="180" width="212" height="25"/>
+        <bounds x="237" y="408" width="212" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-cc015d5d395f432dadb2bdf108106fb2" targetConnections="id-f7bd6ac6d94c4b5282e66d4b15aeb2aa" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-18e78a7e0dbd4aedb6667e27b568a9b1">
@@ -5565,39 +5583,39 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-2bb252c939694940873b14bd32307814" targetConnections="id-54a9dd9d7aa74a02bba0c00f5a81634d" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-5efdc7770d5a4973a6ac5ca913f4376e">
-        <bounds x="237" y="276" width="212" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-fa950dc640544bcebb2eff87e779eb1f" targetConnections="id-56ace43ec09f4f77a20547e0d6fde833" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-b9f1d0aea3f44059bd3b54c9f1a2ebf1">
-        <bounds x="237" y="228" width="212" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-c187e6747b4f48c6bbd20b0ab96c2532" targetConnections="id-75f82d1d28b94efd86555939c1c87962" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-0c8e568c55ab4ddc91ef581d337e57ff">
-        <bounds x="237" y="252" width="212" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-288f872423cf4b7f8fd6d429cf03254a" targetConnections="id-11f40891074246a7b2f061c28dd68f1e" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-efa49314476444e387b26879d23286c5">
-        <bounds x="237" y="300" width="212" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-a55cdb532ea148ddae6b2a9b17f6ec50" targetConnections="id-808b8120dac443089a6f173548533abe" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-aaf568d0e0f1430d96eb831f18281a9c">
-        <bounds x="237" y="348" width="212" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-5706d0950497473fa028c830c439f16e" targetConnections="id-5d2ae4a97d5e4b86a8275fd3d6e88d2d" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-90484cc165104305a237032f84407803">
-        <bounds x="237" y="420" width="212" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-53d86bc2166a435ba1f268d68296d676" targetConnections="id-28b67cae4d11484cb3cf060d614b79b9" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-75bc6e2c69dd4dfaa4f38a3ce5eaa9b6">
-        <bounds x="237" y="396" width="212" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-b0e1cd0b465d4b9187833337bb98e72c" targetConnections="id-4a9e62cb283445acaf37650e15957d47" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-d1fc4f0a6391470f97c66d10241db9c7">
         <bounds x="237" y="108" width="212" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-29e6bae208f84faeaef3014e77822ff8" targetConnections="id-c005b3a70ba940daa2a832af399aed71" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-307f05a1051a49ce9db6e3a9a2bd0c62">
+      <child xsi:type="archimate:DiagramObject" id="id-fa950dc640544bcebb2eff87e779eb1f" targetConnections="id-56ace43ec09f4f77a20547e0d6fde833" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-b9f1d0aea3f44059bd3b54c9f1a2ebf1">
+        <bounds x="237" y="132" width="212" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c187e6747b4f48c6bbd20b0ab96c2532" targetConnections="id-75f82d1d28b94efd86555939c1c87962" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-0c8e568c55ab4ddc91ef581d337e57ff">
         <bounds x="237" y="84" width="212" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-288f872423cf4b7f8fd6d429cf03254a" targetConnections="id-11f40891074246a7b2f061c28dd68f1e" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-efa49314476444e387b26879d23286c5">
+        <bounds x="237" y="180" width="212" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a55cdb532ea148ddae6b2a9b17f6ec50" targetConnections="id-808b8120dac443089a6f173548533abe" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-aaf568d0e0f1430d96eb831f18281a9c">
+        <bounds x="237" y="252" width="212" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-5706d0950497473fa028c830c439f16e" targetConnections="id-5d2ae4a97d5e4b86a8275fd3d6e88d2d" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-90484cc165104305a237032f84407803">
+        <bounds x="237" y="432" width="212" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-53d86bc2166a435ba1f268d68296d676" targetConnections="id-28b67cae4d11484cb3cf060d614b79b9" lineColor="#000000" textAlignment="1" fillColor="#ffffff" archimateElement="id-75bc6e2c69dd4dfaa4f38a3ce5eaa9b6">
+        <bounds x="237" y="324" width="212" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b0e1cd0b465d4b9187833337bb98e72c" targetConnections="id-4a9e62cb283445acaf37650e15957d47" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-d1fc4f0a6391470f97c66d10241db9c7">
+        <bounds x="237" y="384" width="212" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-29e6bae208f84faeaef3014e77822ff8" targetConnections="id-c005b3a70ba940daa2a832af399aed71" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-307f05a1051a49ce9db6e3a9a2bd0c62">
+        <bounds x="237" y="360" width="212" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-ae6c3de331754ec38c3a8bfba7e5bb2e" targetConnections="id-d7eb47cbb3554d76be521434297a9d0a" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" lineColor="#000000" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-50e034c9db124940b1fa0936dc7f7f93">
@@ -5605,12 +5623,25 @@ Eén van de middelen bij die strategie is het opzetten van een Federatief Datast
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-c1cf98ab553e4243b38f52d26539b3b8" targetConnections="id-f4f4824cbf954488b988a9a3198a2906" textAlignment="1" fillColor="#ffffff" archimateElement="id-b7da2fb1fe314dbfb7d025d2f1a07035">
-        <bounds x="237" y="372" width="212" height="25"/>
+        <bounds x="237" y="276" width="212" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-662584c0e4a24beb984869b7e81e0359" targetConnections="id-ebf172a4590f4f278d017180d7b298a1" textAlignment="1" fillColor="#ffffff" archimateElement="id-021ce092aa7a46f6af9b8c068cf8b7d2">
-        <bounds x="237" y="444" width="212" height="25"/>
+        <bounds x="237" y="456" width="212" height="25"/>
         <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ee15744da1ba4e2895f2e20cc1f2fb00" targetConnections="id-56995f70827c47ff950558dfb32b6265" textAlignment="1" fillColor="#ffffff" archimateElement="id-1d2d4327d948422eadfcd5208208ec3a">
+        <bounds x="237" y="300" width="212" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a885670af8484c51a5b55863aba6e5b7" fillColor="#ffffff" textPosition="1" archimateElement="id-fca223917bb245fd97ff55c463938123">
+        <bounds x="24" y="360" width="145" height="121"/>
+        <feature name="iconVisible" value="2"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-c005b3a70ba940daa2a832af399aed71" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-a885670af8484c51a5b55863aba6e5b7" target="id-29e6bae208f84faeaef3014e77822ff8" archimateRelationship="id-0c3601c604fb473291178ca7c5156222"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-4a9e62cb283445acaf37650e15957d47" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" source="id-a885670af8484c51a5b55863aba6e5b7" target="id-b0e1cd0b465d4b9187833337bb98e72c" archimateRelationship="id-d444c0e79b314a1ebba53c254f5d7037"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-5d2ae4a97d5e4b86a8275fd3d6e88d2d" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-a885670af8484c51a5b55863aba6e5b7" target="id-5706d0950497473fa028c830c439f16e" archimateRelationship="id-5fc4b55064304e459730a896f474d0c8"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ebf172a4590f4f278d017180d7b298a1" lineColor="#c0c0c0" source="id-a885670af8484c51a5b55863aba6e5b7" target="id-662584c0e4a24beb984869b7e81e0359" archimateRelationship="id-b94a3a9bea754d2b926a73533c5897ed"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-8568c7e94a32499b95a0f76bbd4844f0" font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" lineColor="#c0c0c0" textAlignment="1" source="id-a885670af8484c51a5b55863aba6e5b7" target="id-35c49dcdcf0b4fb4bfad6fc1cddae81b" archimateRelationship="id-b693cf327ea84951a54e65c29e951013"/>
       </child>
     </element>
   </folder>
