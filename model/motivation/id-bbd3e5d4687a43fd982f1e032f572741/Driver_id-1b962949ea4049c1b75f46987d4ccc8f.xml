@@ -6,4 +6,6 @@
   <properties
       key="URL"
       value="https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52021PC0281"/>
+  <profiles
+      href="folder.xml#id-9a653edb2b4d4f3db01084267f44519e"/>
 </archimate:Driver>
