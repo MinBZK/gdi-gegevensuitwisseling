@@ -15,7 +15,7 @@
 7. Importeren model in Archi (Collaboration>Import Remote Model To Workspace), met Personal Access Token als wachtwoord
 8. Open repository in Archi door dubbelklikken op de naam van de repository in de Collaboration Workspace
 9. Downloaden jArchi: https://www.archimatetool.com/plugins/, kleine donatie noodzakelijk
-10. Installeren jArchi in Archi (Help>Manage Plug-ins, en dan Instal New...)
+10. Installeren jArchi in Archi (Help>Manage Plug-ins, en dan Install New...)
 11. Kopiëren script naar scripts folder van Archi: https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/scripts/export%20HTML.ajs
 
 ## Voor repository beheerders
