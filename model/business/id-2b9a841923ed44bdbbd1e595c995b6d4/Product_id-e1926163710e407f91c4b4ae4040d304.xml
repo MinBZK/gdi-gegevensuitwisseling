@@ -1,0 +1,13 @@
+<archimate:Product
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Digikoppeling"
+    id="id-e1926163710e407f91c4b4ae4040d304">
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/digikoppeling"/>
+  <profiles
+      href="folder.xml#id-e880bedb0ca94efc9967fae1bc62a6ae"/>
+</archimate:Product>

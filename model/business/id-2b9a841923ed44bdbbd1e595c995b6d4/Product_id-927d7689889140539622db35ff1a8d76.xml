@@ -1,0 +1,12 @@
+<archimate:Product
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Stelselcatalogus"
+    id="id-927d7689889140539622db35ff1a8d76"
+    documentation="De Stelselcatalogus geeft inzicht in welke gegevens er in welke registraties worden bijgehouden, welke betekenis deze gegevens hebben, en hoe gegevens uit de verschillende registraties zich tot elkaar verhouden.">
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://www.stelselcatalogus.nl/"/>
+</archimate:Product>

@@ -39,4 +39,12 @@
       name="Wetgeving"
       id="id-9a653edb2b4d4f3db01084267f44519e"
       conceptType="Driver"/>
+  <profiles
+      name="Huidige GDI-bouwsteen"
+      id="id-e880bedb0ca94efc9967fae1bc62a6ae"
+      conceptType="Product"/>
+  <profiles
+      name="Gewenste GDI-bouwsteen"
+      id="id-4fff02a5028044eb901042a9906d3ec7"
+      conceptType="Product"/>
 </archimate:ArchimateModel>
