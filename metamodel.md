@@ -1,4 +1,5 @@
 # Metamodel MIDO/GDI domeinarchitecturen
+Onderstaand metamodel is de basis voor de GDI domeinarchitecturen. Merk op dat niet alle onderdelen van dit metamodel in alle domeinarchitecturen worden gebruikt. Een aantal onderdelen zijn specifiek voor een specifieke domeinarchitectuur.
 
 <img src="https://minbzk.github.io/gdi-gegevensuitwisseling/images/metamodel.svg">
 
@@ -7,7 +8,7 @@
 	- Name: stelling van het principe, voorafgegaan door een volgnummer, een punt en een spatie (eventueel hiërarchisch)
     - Documentation: rationale
 	- Implicaties: per implicatie, waarbij elke implicatie start met een volgnummer, een punt en een spatie
-	- Influence: Wetgeving die wordt ondersteund door het principe
+	- Influence: ontwikkelingen, wetgeving, beleid en/of knelpunten die worden ondersteund door het principe
 * Begrip
 	- ArchiMate type: Meaning
 	- Name: voorkeursterm voor het begrip, startend met een kleine letter
@@ -38,7 +39,7 @@
 	- ArchiMate type: Capability
 	- Name: korte duiding van de capability
 	- Documentation: omschrijving van de capability in één zin die start met "Overheidsorganisaties kunnen ..."
-	- Realization: wetgeving die ten grondslag ligt aan de capability 
+	- Influence: wetgeving die ten grondslag ligt aan de capability 
 * Document
 	- ArchiMate type: Representation
 	- Specialization: Document
@@ -48,6 +49,13 @@
 		- nummer: volgnummer die de volgorde in het document beschrijft, startend bij 1, is optioneel
 		- niveau: het niveau van de heading (een niveau van 1 == leidt tot de HTML heading H1), als deze niet is gedefinieerd dan wordt er geen heading gegenereerd
 		- type: als het een verwijzing naar een elementType is dan "overzicht", "properties" of "details" voor het type overzicht
+* Gewenste GDI-bouwsteen
+	- ArchiMate type: Product
+	- Name: korte duiding van de gewenste GDI-bouwsteen
+	- Specialization: Gewenste GDI-bouwsteen
+	- Documentation: omschrijving
+	- Serving: bedrijfsfuncties die worden ondersteund door de voorziening
+	- Association: voorzieningen en/of standaarden die invulling geven aan de GDI-bouwsteen
 * Gewenste voorziening
 	- ArchiMate type: Application Component
 	- Name: korte duiding van de gewenste voorziening
@@ -56,6 +64,15 @@
 	- Serving: bedrijfsfuncties die worden ondersteund door de voorziening
 	- Association: veranderinitiatief dat invulling geeft aan gewenste voorziening
 	- Flow: voorziening die gegevens ontvangt van deze voorziening
+* Huidige GDI-bouwsteen
+	- ArchiMate type: Product
+	- Name: korte duiding van de huidige GDI-bouwsteen
+	- Specialization: Huidige GDI-bouwsteen
+	- Documentation: omschrijving
+	- Beheerorganisatie: naam van de organisatie die de voorzienint beheert
+	- URL: link naar pagina met details over de voorziening, liefst bij de beheerder van de voorziening
+	- Serving: bedrijfsfuncties die worden ondersteund door de voorziening
+	- Association: voorzieningen en/of standaarden die invulling geven aan de GDI-bouwsteen
 * Huidige voorziening
 	- ArchiMate type: Application Component
 	- Name: korte duiding van de huidige voorziening
@@ -74,6 +91,10 @@
 	- ArchiMate type: Driver
     - Specialization: Ontwikkeling
 	- Name: korte duiding van de ontwikkeling
+	- Documentation: omschrijving
+* Rol
+	- ArchiMate type: Business Role
+    - Name: korte duiding van de rol
 	- Documentation: omschrijving
 * Standaard
 	- ArchiMate type: Constraint
@@ -95,6 +116,11 @@
 	- ArchiMate type: Work Package
     - Name: korte duiding van het Veranderinitiatief
 	- Documentation: omschrijving 	
+* Waardestroom
+	- ArchiMate type: Value Stream
+    - Name: korte duiding van de waardestroom
+	- Documentation: omschrijving 
+	- Aggregation: waardestromen  die onderdeel uitmaken van de Waardestroom
 * Wetgeving
 	- ArchiMate type: Driver
     - Specialization: Wetgeving
