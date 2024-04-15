@@ -9,4 +9,6 @@
   <properties
       key="URL"
       value="https://www.stelselcatalogus.nl/"/>
+  <profiles
+      href="folder.xml#id-e880bedb0ca94efc9967fae1bc62a6ae"/>
 </archimate:Product>
