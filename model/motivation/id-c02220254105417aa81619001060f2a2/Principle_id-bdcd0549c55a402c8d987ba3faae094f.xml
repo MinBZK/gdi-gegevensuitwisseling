@@ -18,4 +18,7 @@
   <properties
       key="Implicaties"
       value="5. Gegevens worden niet fysiek verwijderd (tenzij ze om juridische redenen vernietigd moeten worden); als ze niet meer geldig zijn dan worden ze alleen logisch verwijderd."/>
+  <properties
+      key="Implicaties"
+      value="6. De historische integriteit van gegevens is geborgd; oude gegevens worden niet overschreven."/>
 </archimate:Principle>
