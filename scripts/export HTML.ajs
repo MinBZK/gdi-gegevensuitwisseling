@@ -37,12 +37,15 @@ var relationshipTypeMappings = {
 
 var elementTypeMappings = {
 	"capability":"Capability",
+	"value-stream": "Waardestroom",
     "business-function":"Bedrijfsfunctie",
     "business-object":"Bedrijfsobject",
 	"business-role":"Rol",
     "assessment":"knelpunt",
     "application-componentHuidige voorziening":"Huidige voorziening",
     "application-componentGewenste voorziening":"Gewenste voorziening",
+	"productHuidige GDI-bouwsteen": "Huidige GDI-bouwsteen",
+	"productGewenste GDI-bouwsteen": "Gewenste GDI-bouwsteen",
 	"driverBeleid":"Beleid",
 	"driverOntwikkeling":"Ontwikkeling",
     "requirement":"Richtlijn",
@@ -58,12 +61,15 @@ var elementTypeMappings = {
 
 var elementTypePluralMappings = {
 	"capability":"capabilities",
+	"value-stream": "waardestromen",
     "business-function":"bedrijfsfuncties",
     "business-object":"bedrijfsobjecten",
 	"business-role":"rollen",
     "assessment":"knelpunten",
     "application-componentHuidige voorziening":"huidige voorzieningen",
     "application-componentGewenste voorziening":"gewenste voorzieningen",
+	"productHuidige GDI-bouwsteen": "huidige GDI-bouwstenen",
+	"productGewenste GDI-bouwsteen": "gewenste GDI-bouwstenen",
 	"driverBeleid":"beleid",
 	"driverOntwikkeling":"ontwikkelingen",
 	"requirement":"richtlijnen",
@@ -77,7 +83,7 @@ var elementTypePluralMappings = {
 	"representationDocument": "documenten"
 }
 
-var elementTypes = ["capability", "business-function", "business-object", "business-role", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraintStandaard", "driverWetgeving", "meaning", "grouping", "work-package", "representationTekst", "representationDocument"];
+var elementTypes = ["capability", "value-stream", "business-function", "business-object", "business-role", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "productHuidige GDI-bouwsteen", "productGewenste GDI-bouwsteen", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraintStandaard", "driverWetgeving", "meaning", "grouping", "work-package", "representationTekst", "representationDocument"];
 
 var dirPath = window.promptOpenDirectory({ title: "Kies output directory"});
 
