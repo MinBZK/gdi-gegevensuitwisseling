@@ -99,7 +99,7 @@ function getHeader(name) {
 	text += "<script type=\"text/javascript\" src=\"../../js/frame2.js\"></script>";
 	text += "</head><body>";
 	text += "<style>";
-	text += "p {";
+	text += "p,ul,ol {";
 	text += "font-size: 14px;";
 	text += "}";
 	text += "h1 {";
