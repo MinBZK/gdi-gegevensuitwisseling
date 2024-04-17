@@ -270,9 +270,10 @@ $("element").each(function(e) {
 	} else if (e.specialization != "Document") {
 		elementPropTextList[getFullType(e.type, e.specialization)][e.name] = "<b>" + e.name + "</b><br><br>"+ getTableStart() + text + getTableEnd();
 		elementFullTextList[getFullType(e.type, e.specialization)][e.name] = "<b>" + e.name + "</b><br><br>"+ getTableStart() + text + reltext + getTableEnd();
-		text = getHeader(ucelementtypename + " > " + e.name) + getTableStart() + text + getTableEnd() + getFooter(e.id);
+		text = getHeader(ucelementtypename + " > " + e.name) + getTableStart() + text + reltext + getTableEnd() + getFooter(e.id);
 		writeFile("elements\\"+e.id, text);
 	}
+
 });
 
 // bestanden per elementtype maken, met gesorteerde lijst van elementen
