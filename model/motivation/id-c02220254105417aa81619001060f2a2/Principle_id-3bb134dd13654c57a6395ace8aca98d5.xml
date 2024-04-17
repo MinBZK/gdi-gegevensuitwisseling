@@ -5,7 +5,7 @@
     documentation="Het valideren van gegevens borgt dat gegevens valide en consistent zijn en is daarmee een belangrijke maatregel voor het borgen van de kwaliteit van gegevens. Dit is met name relevant voor registraties omdat hiervan verwacht wordt dat zij consistent zijn en dat maatregelen zijn genomen met betrekking tot de kwaliteit van gegevens. Door zo vroeg mogelijk te valideren kan snel een terugkoppeling worden gegeven over fouten en is foutherstel het meest eenvoudig.">
   <properties
       key="Implicaties"
-      value="1. Registraties controleren minimaal de validiteit en consistentie van gegevens voordat ze worden geaccepteerd en vastgelegd."/>
+      value="1. Registraties controleren minimaal de validiteit (structuur en vorm) en consistentie (samenhangend en vrij van tegenspraak) van gegevens voordat ze worden geaccepteerd en vastgelegd."/>
   <properties
       key="Implicaties"
       value="2. Liefst worden validatiediensten ook los aangeboden zodat partijen zelf kunnen controleren of gegevens voldoen, zonder ze direct ter verwerking aan te bieden."/>
