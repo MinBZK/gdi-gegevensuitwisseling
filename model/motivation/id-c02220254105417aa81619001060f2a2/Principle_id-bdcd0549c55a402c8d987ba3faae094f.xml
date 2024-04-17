@@ -17,5 +17,5 @@
       value="4. Registraties bieden liefst ook de mogelijkheid de historie (near) real-time te bevragen."/>
   <properties
       key="Implicaties"
-      value="5. Gegevens worden niet fysiek verwijderd (tenzij ze om juridische redenen vernietigd moeten worden); als ze niet meer geldig zijn dan wordt de datum einde geldigheid gezet (dit is een logische verwijdering)."/>
+      value="5. Gegevens worden niet fysiek verwijderd (tenzij ze om juridische redenen vernietigd moeten worden); als ze niet meer geldig zijn dan worden ze alleen logisch verwijderd."/>
 </archimate:Principle>
