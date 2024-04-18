@@ -50,13 +50,16 @@ var elementTypeMappings = {
 	"driverOntwikkeling":"Ontwikkeling",
     "requirement":"Richtlijn",
     "principle":"Principe",
+	"constraint":"Beperking",
     "constraintStandaard":"Standaard",
+	"outcome":"Uitkomst",
     "driverWetgeving":"Wet- en regelgeving",
 	"meaning": "Begrip",
     "grouping": "Groep",
 	"work-package": "Veranderinitiatief",
 	"representationTekst": "Tekst",
-	"representationDocument": "Tekst",
+	"representationDocument": "Document",
+	"representationBrondocument": "Brondocument",
 }
 
 var elementTypePluralMappings = {
@@ -74,16 +77,19 @@ var elementTypePluralMappings = {
 	"driverOntwikkeling":"ontwikkelingen",
 	"requirement":"richtlijnen",
 	"principle":"principes",
+	"constraint":"beperkingen",
 	"constraintStandaard":"standaarden",
+	"outcome":"Uitkomst",
 	"driverWetgeving":"wetten",
 	"meaning":"begrippen",
 	"grouping": "groepen",
 	"work-package": "veranderinitiatieven",
 	"representationTekst": "teksten",
-	"representationDocument": "documenten"
+	"representationDocument": "documenten",
+	"representationBrondocument": "brondocumenten"
 }
 
-var elementTypes = ["capability", "value-stream", "business-function", "business-object", "business-role", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "productHuidige GDI-bouwsteen", "productGewenste GDI-bouwsteen", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraintStandaard", "driverWetgeving", "meaning", "grouping", "work-package", "representationTekst", "representationDocument"];
+var elementTypes = ["capability", "value-stream", "business-function", "business-object", "business-role", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "productHuidige GDI-bouwsteen", "productGewenste GDI-bouwsteen", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraint", "constraintStandaard", "outcome", "driverWetgeving", "meaning", "grouping", "work-package", "representationTekst", "representationDocument", "representationBrondocument"];
 
 var dirPath = window.promptOpenDirectory({ title: "Kies output directory"});
 

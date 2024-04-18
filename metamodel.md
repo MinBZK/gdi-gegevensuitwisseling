@@ -96,6 +96,7 @@ Onderstaand metamodel is de basis voor de GDI domeinarchitecturen. Merk op dat n
 	- ArchiMate type: Business Role
     - Name: korte duiding van de rol
 	- Documentation: omschrijving
+	- Association: de waardestroom waarin de rol activiteiten uitvoert
 * Standaard
 	- ArchiMate type: Constraint
     - Specialization: Standaard
@@ -116,11 +117,13 @@ Onderstaand metamodel is de basis voor de GDI domeinarchitecturen. Merk op dat n
 	- ArchiMate type: Work Package
     - Name: korte duiding van het Veranderinitiatief
 	- Documentation: omschrijving 	
+	- Influence: knelpunt dat het oplost
 * Waardestroom
 	- ArchiMate type: Value Stream
     - Name: korte duiding van de waardestroom
 	- Documentation: omschrijving 
 	- Aggregation: waardestromen  die onderdeel uitmaken van de Waardestroom
+	- Serving: de capability die de waardestroom ondersteunt
 * Wetgeving
 	- ArchiMate type: Driver
     - Specialization: Wetgeving
