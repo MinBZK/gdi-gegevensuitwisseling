@@ -1147,6 +1147,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-c1b53cb72e624cc6ba52e0ad43e33c56"
+        targetConnections="id-1ee65e5aefd847418b5406443bfb7310"
         fillColor="#ffffff"
         textPosition="1">
       <features
@@ -1774,6 +1775,16 @@
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-2d6da87e1c39403a9ef4bc9045b5298b.xml#id-2d6da87e1c39403a9ef4bc9045b5298b"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-1ee65e5aefd847418b5406443bfb7310"
+        lineColor="#808080"
+        source="id-af42e7ece1524f68a86671644a318cec"
+        target="id-c1b53cb72e624cc6ba52e0ad43e33c56">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-7e189dd72df048fd939dc2c14696a2c8.xml#id-7e189dd72df048fd939dc2c14696a2c8"/>
     </sourceConnections>
     <bounds
         x="756"
