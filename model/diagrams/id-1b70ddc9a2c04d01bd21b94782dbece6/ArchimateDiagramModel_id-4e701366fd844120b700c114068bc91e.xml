@@ -572,6 +572,9 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-61180c8ad4da4b0cbcdf7c6d49c08cb9">
+    <features
+        name="iconVisible"
+        value="2"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ff521840cff94234b25aca4e820c22f7"
