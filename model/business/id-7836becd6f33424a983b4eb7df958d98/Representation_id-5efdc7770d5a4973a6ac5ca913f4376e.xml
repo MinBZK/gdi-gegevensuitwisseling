@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Wet- en regelgeving"
     id="id-5efdc7770d5a4973a6ac5ca913f4376e"
-    documentation="&lt;p>De domeinarchitectuur beschrijft de belangrijkste wet- en regelgeving die van toepassing is op gegevensuitwisseling. Dat betreft met name wet- en regelgeving vanuit Europa, inclusief de Nederlandse invulling daarvan, gegeven dat dit een belangrijke bron voor verandering is voor gegevensuitwisseling. De wet- en regelgeving is in de architectuur doorvertaald naar capabilities die beschrijven wat overheidsorganisaties zouden moeten kunnen om deze te implementeren. Het is ook expliciet gekoppeld aan de architectuurprincipes die een belangrijke bijdrage leveren aan het implementeren  van deze wet- en regelgeving.&lt;/p>">
+    documentation="&lt;p>De domeinarchitectuur beschrijft de belangrijkste wet- en regelgeving die van toepassing is op gegevensuitwisseling. Dat betreft met name nieuwe wet- en regelgeving vanuit Europa, inclusief de Nederlandse invulling daarvan, gegeven dat dit een belangrijke bron voor verandering is voor gegevensuitwisseling. De wet- en regelgeving is in de architectuur doorvertaald naar capabilities die beschrijven wat overheidsorganisaties zouden moeten kunnen om deze te implementeren. Het is ook expliciet gekoppeld aan de architectuurprincipes die een belangrijke bijdrage leveren aan het implementeren  van deze wet- en regelgeving.&lt;/p>">
   <properties
       key="elementType"
       value="driverWetgeving"/>
