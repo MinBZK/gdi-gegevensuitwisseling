@@ -287,9 +287,18 @@
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_id-b7a62229cc0a4178be59033eb8ee2d6b.xml#id-b7a62229cc0a4178be59033eb8ee2d6b"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-d70aebe083c3427c8c3242838fcce585"
+        source="id-c96723d08f1f4275aebddf61f72bcc36"
+        target="id-63da0df737684c7fa748f40004041327">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-22b35b44dd4e4bf5b42f11da8f4426a1.xml#id-22b35b44dd4e4bf5b42f11da8f4426a1"/>
+    </sourceConnections>
     <bounds
-        x="1164"
-        y="136"
+        x="1248"
+        y="135"
         width="145"
         height="55"/>
     <archimateElement
@@ -306,9 +315,9 @@
         source="id-06fdc5811af64f0db29fde9545d8c081"
         target="id-8c045ef3c8c44007b242f7e3f2fe3259">
       <bendpoints
-          startY="-111"
-          endX="36"
-          endY="117"/>
+          startX="-36"
+          startY="-115"
+          endY="113"/>
       <archimateRelationship
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_id-045ac9ba2b654a009497a5969e83083c.xml#id-045ac9ba2b654a009497a5969e83083c"/>
@@ -427,7 +436,7 @@
           href="InfluenceRelationship_id-b31d3d81746e4130a5053cdc82ef3047.xml#id-b31d3d81746e4130a5053cdc82ef3047"/>
     </sourceConnections>
     <bounds
-        x="1344"
+        x="1512"
         y="135"
         width="145"
         height="55"/>
@@ -441,7 +450,7 @@
       targetConnections="id-3b55bf97294049a7b01fea2df8864661"
       textPosition="1">
     <bounds
-        x="1344"
+        x="1512"
         y="16"
         width="145"
         height="55"/>
@@ -607,5 +616,19 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-fbb841b923474ff48c4177ea731ef2a4.xml#id-fbb841b923474ff48c4177ea731ef2a4"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-63da0df737684c7fa748f40004041327"
+      targetConnections="id-d70aebe083c3427c8c3242838fcce585"
+      textPosition="1">
+    <bounds
+        x="1344"
+        y="16"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-9144f238c553428a80d101a6d9ee50d0.xml#id-9144f238c553428a80d101a6d9ee50d0"/>
   </children>
 </archimate:ArchimateDiagramModel>
