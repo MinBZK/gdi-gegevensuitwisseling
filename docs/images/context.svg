@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="195mm"
-   height="115mm"
-   viewBox="0 0 195 115"
+   width="188mm"
+   height="119mm"
+   viewBox="0 0 188 119"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.69219276"
-     inkscape:cx="396.56583"
+     inkscape:cx="396.56584"
      inkscape:cy="561.25984"
      inkscape:window-width="1920"
      inkscape:window-height="991"
@@ -39,136 +39,136 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="matrix(0.26458333,0,0,0.26458333,-61.626641,-53.830929)"
-       id="g34">
+       transform="matrix(0.26458333,0,0,0.26458333,-69.208318,-49.978121)"
+       id="g38">
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(524.792,228)"
+         transform="translate(533.479,222)"
          id="text1">Tijdlijn</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(510.932,247)"
-         id="text2">registratie</text>
+         transform="translate(519.399,241)"
+         id="text2">geldigheid</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(378.155,309)"
-         id="text3">Tijdlijn geldigheid</text>
+         transform="translate(347.728,321)"
+         id="text3">Afleidingsregel</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(673.844,245)"
+         transform="translate(727.678,258)"
          id="text4">Betrokkene</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(786.475,556)"
+         transform="translate(786.475,564)"
          id="text5">Locatie</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(496.195,601)"
+         transform="translate(496.195,609)"
          id="text6">Overschreden</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(489.702,620)"
+         transform="translate(489.702,628)"
          id="text7">kwaliteitsr</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(572.215,620)"
+         transform="translate(572.215,628)"
          id="text8">egels</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(394.848,555)"
+         transform="translate(394.848,563)"
          id="text9">Terugmelding</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(354.804,364)"
-         id="text10">Begrip</text>
+         transform="translate(270.33,386)"
+         id="text10">Gegevensmodel</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(244.229,426)"
-         id="text11">Gegevensmodel</text>
+         transform="translate(300.448,444)"
+         id="text11">Begrip</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(845.911,362)"
+         transform="translate(848.841,378)"
          id="text12">Gebeurtenis</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(884.825,430)"
+         transform="translate(884.825,439)"
          id="text13">Activiteit</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(668.158,606)"
+         transform="translate(668.158,614)"
          id="text14">Verifieerbare</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(679.258,625)"
+         transform="translate(679.258,633)"
          id="text15">verklaring</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(839.627,497)"
+         transform="translate(839.627,505)"
          id="text16">Grondslag</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(744.309,309)"
+         transform="translate(816.621,324)"
          id="text17">Informa</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(808.475,309)"
+         transform="translate(880.788,324)"
          id="text18">tie</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(828.642,309)"
+         transform="translate(900.954,324)"
          id="text19">-</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(835.975,309)"
+         transform="translate(908.288,324)"
          id="text20">object</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="16px"
-         transform="translate(332.528,496)"
+         transform="translate(332.528,504)"
          id="text21">Onderzoek</text>
       <path
-         d="M 449.5,321.5 642.906,435.224"
+         d="M 407.5,332.5 600.906,446.224"
          stroke="#a6a6a6"
          stroke-linejoin="round"
          stroke-miterlimit="10"
@@ -177,7 +177,7 @@
          fill-rule="evenodd"
          id="path21" />
       <path
-         d="m 423.5,358.5 214.131,73.544"
+         d="m 411.5,379.5 214.131,73.544"
          stroke="#a6a6a6"
          stroke-linejoin="round"
          stroke-miterlimit="10"
@@ -186,7 +186,7 @@
          fill-rule="evenodd"
          id="path22" />
       <path
-         d="m 380.5,420.5 268.71,14.293"
+         d="m 368.5,438.5 268.71,14.293"
          stroke="#a6a6a6"
          stroke-linejoin="round"
          stroke-miterlimit="10"
@@ -202,7 +202,7 @@
          stroke-dasharray="1, 1"
          fill="none"
          fill-rule="evenodd"
-         transform="matrix(1,0,0,-1,423.5,489.52)"
+         transform="matrix(1,0,0,-1,423.5,498.52)"
          id="path24" />
       <path
          d="M 0,0 193.406,99.3903"
@@ -212,7 +212,7 @@
          stroke-dasharray="1, 1"
          fill="none"
          fill-rule="evenodd"
-         transform="matrix(1,0,0,-1,449.5,531.89)"
+         transform="matrix(1,0,0,-1,449.5,540.89)"
          id="path25" />
       <path
          d="M 0,0 90.6858,152.554"
@@ -222,10 +222,10 @@
          stroke-dasharray="1, 1"
          fill="none"
          fill-rule="evenodd"
-         transform="matrix(1,0,0,-1,552.5,588.054)"
+         transform="matrix(1,0,0,-1,552.5,596.054)"
          id="path26" />
       <path
-         d="M 720.29,587.584 645.5,430.5"
+         d="M 720.29,596.584 645.5,439.5"
          stroke="#a6a6a6"
          stroke-linejoin="round"
          stroke-miterlimit="10"
@@ -234,7 +234,7 @@
          fill-rule="evenodd"
          id="path27" />
       <path
-         d="M 815.581,531.89 645.5,432.5"
+         d="M 815.581,540.89 645.5,441.5"
          stroke="#a6a6a6"
          stroke-linejoin="round"
          stroke-miterlimit="10"
@@ -243,7 +243,7 @@
          fill-rule="evenodd"
          id="path28" />
       <path
-         d="M 830.727,491.456 642.5,431.5"
+         d="M 830.727,499.456 642.5,439.5"
          stroke="#a6a6a6"
          stroke-linejoin="round"
          stroke-miterlimit="10"
@@ -259,30 +259,30 @@
          stroke-dasharray="1, 1"
          fill="none"
          fill-rule="evenodd"
-         transform="matrix(-1,0,0,1,871.278,424.5)"
+         transform="matrix(-1,0,0,1,871.278,433.5)"
          id="path30" />
       <path
-         d="M 0,0 188.227,76.6989"
+         d="M 0,0 184.594,69.8012"
          stroke="#a6a6a6"
          stroke-linejoin="round"
          stroke-miterlimit="10"
          stroke-dasharray="1, 1"
          fill="none"
          fill-rule="evenodd"
-         transform="matrix(-1,0,0,1,830.727,356.5)"
+         transform="matrix(-1,0,0,1,834.094,372.5)"
          id="path31" />
       <path
-         d="M 0,0 172.331,109.196"
+         d="M 0,0 156.35,120.227"
          stroke="#a6a6a6"
          stroke-linejoin="round"
          stroke-miterlimit="10"
          stroke-dasharray="1, 1"
          fill="none"
          fill-rule="evenodd"
-         transform="matrix(-1,0,0,1,814.831,321.5)"
+         transform="matrix(-1,0,0,1,804.85,318.5)"
          id="path32" />
       <path
-         d="M 643.186,430.596 552.5,260.5"
+         d="M 651.186,424.596 560.5,254.5"
          stroke="#a6a6a6"
          stroke-linejoin="round"
          stroke-miterlimit="10"
@@ -291,28 +291,65 @@
          fill-rule="evenodd"
          id="path33" />
       <path
-         d="M 0,0 77.0403,170.096"
+         d="M 0,0 130.874,163.188"
          stroke="#a6a6a6"
          stroke-linejoin="round"
          stroke-miterlimit="10"
          stroke-dasharray="1, 1"
          fill="none"
          fill-rule="evenodd"
-         transform="matrix(-1,0,0,1,719.54,260.5)"
+         transform="matrix(-1,0,0,1,773.374,273.5)"
          id="path34" />
+      <path
+         d="M 507.5,296.5 645.58,441.257"
+         stroke="#a6a6a6"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-dasharray="1, 1"
+         fill="none"
+         fill-rule="evenodd"
+         id="path35" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(403.346,271)"
+         id="text35">Brongegevens</text>
+      <path
+         d="M 0,0 12.2986,195.128"
+         stroke="#a6a6a6"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-dasharray="1, 1"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,660.5,435.628)"
+         id="path36" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(644.897,208)"
+         id="text36">Tijdlijn</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(631.037,227)"
+         id="text37">registratie</text>
       <rect
          x="576"
-         y="391"
+         y="400"
          width="133"
          height="77"
          fill="#ffffff"
-         id="rect34" />
+         id="rect37" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="19px"
-         transform="translate(601.311,438)"
-         id="text34">Gegeven</text>
+         transform="translate(601.311,446)"
+         id="text38">Gegeven</text>
     </g>
   </g>
 </svg>
