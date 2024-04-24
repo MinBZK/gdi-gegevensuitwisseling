@@ -35,8 +35,8 @@ Bijlagen:
 * Huidige voorzieningen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-44e956451b5947e08070f8c2edca5bf3">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/huidige%20voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/huidige%20voorzieningendetails.html">details</a>
 * Standaarden: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-5df0c1360768493aa966c16f7dbfd414">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaardendetails.html">details</a>
 * Begrippen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippendetails.html">details</a>
-* Relatie van architectuurprincipes met ADO en NORA: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-98a74bf2a0b444ebba06ffda16362eb8.html>overzicht</a>
+* Relatie van architectuurprincipes met ADO en NORA: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-98a74bf2a0b444ebba06ffda16362eb8.html">overzicht</a>
 
-Samenvatting van de belangrijkste onderdelen in één pagina: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20gegevensuitwisseling.html">samenvatting</a>
-
-Bijlagen in één pagina: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Bijlagen%20domeinarchitectuur%20gegevensuitwisseling.html">bijlagen</a>
+Documenten:
+* Samenvatting van de belangrijkste onderdelen in één pagina: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20gegevensuitwisseling.html">samenvatting</a>
+* Bijlagen in één pagina: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Bijlagen%20domeinarchitectuur%20gegevensuitwisseling.html">bijlagen</a>
