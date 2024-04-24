@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="224mm"
+   height="62mm"
+   viewBox="0 0 224 62"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="visie4.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69219276"
+     inkscape:cx="396.56583"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="3206"
+     inkscape:window-y="1791"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-78.279971,-25.053885)"
+       id="g17">
+      <rect
+         x="302.5"
+         y="254.5"
+         width="130"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect1" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(328.188,284)"
+         id="text1">Bronhouder</text>
+      <rect
+         x="474.5"
+         y="254.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect2" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(505,284)"
+         id="text2">Aanbieder</text>
+      <rect
+         x="700.5"
+         y="235.5"
+         width="206"
+         height="88"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#dae3f3"
+         id="rect3" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(712.488,255)"
+         id="text3">Once</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(749.988,255)"
+         id="text4">Only</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(783.488,255)"
+         id="text5">Technical System</text>
+      <path
+         d="m 432.5,279.167 h 35.699 v 0.666 H 432.5 Z m 34.366,-3.667 8,4 -8,4 z"
+         id="path5" />
+      <path
+         d="m 603.5,279.167 h 89.861 v 0.666 H 603.5 Z m 88.528,-3.667 8,4 -8,4 z"
+         id="path6" />
+      <rect
+         x="1007.5"
+         y="254.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect6" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(1042.69,284)"
+         id="text6">Afnemer</text>
+      <rect
+         x="738.5"
+         y="99.500099"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect7" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(770.621,129)"
+         id="text7">Gebruiker</text>
+      <path
+         d="m 906.5,279.167 h 93.99 v 0.666 H 906.5 Z m 92.653,-3.667 7.997,4 -7.997,4 z"
+         id="path7" />
+      <path
+         d="m 803.833,148.5 v 80.183 h -0.666 V 148.5 Z m 3.667,78.85 -4,8 -4,-8 z"
+         id="path8" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(615.494,297)"
+         id="text8">verifieerbare</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(624.074,314)"
+         id="text9">verklaring</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(919.436,299)"
+         id="text10">verifieerbare</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(928.016,316)"
+         id="text11">verklaring</text>
+      <path
+         d="m 803.623,148.19 262.127,103.792 -0.25,0.62 L 803.377,148.81 Z m 262.237,99.892 5.96,6.665 -8.91,0.773 z"
+         id="path11" />
+      <path
+         d="M 0.124369,-0.309263 258.137,103.45 257.888,104.068 -0.124369,0.309263 Z M 258.268,99.5506 l 5.93,6.6964 -8.915,0.726 z"
+         transform="matrix(-1,0,0,1,803.698,148.5)"
+         id="path12" />
+      <rect
+         x="707.5"
+         y="269.5"
+         width="81"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect12" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(722.6,299)"
+         id="text12">OOTS</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(758.594,299)"
+         id="text13">-</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(763.427,299)"
+         id="text14">V</text>
+      <rect
+         x="812.5"
+         y="269.5"
+         width="82"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect14" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(828.06,299)"
+         id="text15">OOTS</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(864.053,299)"
+         id="text16">-</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(868.887,299)"
+         id="text17">A</text>
+    </g>
+  </g>
+</svg>

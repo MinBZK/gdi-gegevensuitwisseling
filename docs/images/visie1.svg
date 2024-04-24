@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="205mm"
+   height="110mm"
+   viewBox="0 0 205 110"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="visie1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69219276"
+     inkscape:cx="396.56583"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="3206"
+     inkscape:window-y="1791"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-61.442447,-47.228909)"
+       id="g15">
+      <rect
+         x="239"
+         y="318"
+         width="500"
+         height="81"
+         fill="#e2f0d9"
+         id="rect1" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-style="italic"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(467.289,391)"
+         id="text1">Domein</text>
+      <rect
+         x="252.5"
+         y="328.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect2" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(277.224,358)"
+         id="text2">Bronhouder</text>
+      <rect
+         x="423.5"
+         y="328.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect3" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(454.036,358)"
+         id="text3">Aanbieder</text>
+      <rect
+         x="595.5"
+         y="328.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect4" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(630.727,358)"
+         id="text4">Afnemer</text>
+      <path
+         d="m 381.5,352.167 h 35.699 v 0.666 H 381.5 Z m 34.366,-3.667 8,4 -8,4 z"
+         id="path4" />
+      <path
+         d="m 552.5,352.167 h 35.699 v 0.666 H 552.5 Z m 34.366,-3.667 8,4 -8,4 z"
+         id="path5" />
+      <rect
+         x="423"
+         y="184"
+         width="500"
+         height="81"
+         fill="#e2f0d9"
+         id="rect5" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-style="italic"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(651.158,256)"
+         id="text5">Domein</text>
+      <rect
+         x="435.5"
+         y="194.5"
+         width="130"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect6" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(461.094,224)"
+         id="text6">Bronhouder</text>
+      <rect
+         x="607.5"
+         y="194.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect7" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(637.905,224)"
+         id="text7">Aanbieder</text>
+      <rect
+         x="778.5"
+         y="194.5"
+         width="130"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect8" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(814.597,224)"
+         id="text8">Afnemer</text>
+      <path
+         d="m 565.5,218.167 h 35.699 v 0.666 H 565.5 Z m 34.366,-3.667 8,4 -8,4 z"
+         id="path8" />
+      <path
+         d="m 736.5,217.167 h 35.699 v 0.666 H 736.5 Z m 34.366,-3.667 8,4 -8,4 z"
+         id="path9" />
+      <rect
+         x="504"
+         y="447"
+         width="500"
+         height="81"
+         fill="#e2f0d9"
+         id="rect9" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-style="italic"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(732.48,520)"
+         id="text9">Domein</text>
+      <rect
+         x="517.5"
+         y="457.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect10" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(542.415,487)"
+         id="text10">Bronhouder</text>
+      <rect
+         x="688.5"
+         y="457.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect11" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(719.227,487)"
+         id="text11">Aanbieder</text>
+      <rect
+         x="860.5"
+         y="457.5"
+         width="129"
+         height="49"
+         stroke="#172c51"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect12" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(895.919,487)"
+         id="text12">Afnemer</text>
+      <path
+         d="m 646.5,482.167 h 35.699 v 0.666 H 646.5 Z m 34.366,-3.667 8,4 -8,4 z"
+         id="path12" />
+      <path
+         d="m 817.5,481.167 h 35.699 v 0.666 H 817.5 Z m 34.366,-3.667 8,4 -8,4 z"
+         id="path13" />
+      <path
+         d="m 752.95,457.875 -88.601,-75.788 0.434,-0.507 88.6,75.788 z m -89.971,-72.135 -3.479,-8.24 8.679,2.161 z"
+         id="path14" />
+      <path
+         d="M 0.30725,-0.129261 87.9254,208.137 87.3109,208.396 -0.30725,0.129261 Z M 90.788,205.486 l -0.5847,8.925 -6.7893,-5.823 z"
+         transform="matrix(1,0,0,-1,753.5,457.911)"
+         id="path15" />
+      <rect
+         x="239"
+         y="552"
+         width="765"
+         height="39"
+         fill="#deebf7"
+         id="rect15" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-style="italic"
+         font-weight="400"
+         font-size="14px"
+         transform="translate(552.134,576)"
+         id="text15">Generieke voorzieningen</text>
+    </g>
+  </g>
+</svg>
