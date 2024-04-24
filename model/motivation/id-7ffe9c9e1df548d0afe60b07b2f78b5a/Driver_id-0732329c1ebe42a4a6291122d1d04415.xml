@@ -1,9 +1,0 @@
-<archimate:Driver
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Wetgeving"
-    id="id-0732329c1ebe42a4a6291122d1d04415">
-  <properties
-      key="exclude"/>
-  <profiles
-      href="folder.xml#id-9a653edb2b4d4f3db01084267f44519e"/>
-</archimate:Driver>

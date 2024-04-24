@@ -1,9 +1,0 @@
-<archimate:ApplicationComponent
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Huidige voorziening"
-    id="id-ea34eeed23794fc5978ef39d96ba1b85">
-  <properties
-      key="exclude"/>
-  <profiles
-      href="folder.xml#id-10b1e85a34ea4c249cabccc0e17a4651"/>
-</archimate:ApplicationComponent>
