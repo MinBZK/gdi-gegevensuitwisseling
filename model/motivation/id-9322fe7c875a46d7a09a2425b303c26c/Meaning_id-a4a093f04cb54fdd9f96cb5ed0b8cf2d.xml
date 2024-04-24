@@ -1,0 +1,18 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="kwaliteitsdimensie"
+    id="id-a4a093f04cb54fdd9f96cb5ed0b8cf2d"
+    documentation="Een aspect van kwaliteit waaraan gebruikers van gegevens waarde hechten.">
+  <properties
+      key="Alternatieve term"
+      value="karakteristiek"/>
+  <properties
+      key="Toelichting"
+      value="Een kwaliteitsdimensie belicht een bepaald aspect van kwaliteit. Een kwaliteitsdimensie wordt uitgewerkt in kwaliteitsattributen."/>
+  <properties
+      key="Heeft bron"
+      value="NORA raamwerk gegevenskwaliteit"/>
+  <properties
+      key="Is gerelateerd aan"
+      value="kwaliteitsattribuut"/>
+</archimate:Meaning>

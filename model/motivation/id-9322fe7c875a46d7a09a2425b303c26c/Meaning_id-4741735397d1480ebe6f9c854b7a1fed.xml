@@ -1,0 +1,18 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="informatieobject"
+    id="id-4741735397d1480ebe6f9c854b7a1fed"
+    documentation="Een op zichzelf staand geheel van gegevens met een eigen identiteit.">
+  <properties
+      key="Alternatieve term"
+      value="gegevensobject, data-object"/>
+  <properties
+      key="Toelichting"
+      value="Een informatieobject is een verzameling aan elkaar gerelateerde gegevens die als eenheid wordt behandeld. Vanuit het perspectief van DUTO betekent dit dat een informatieobject als eenheid aan de gebruikers wordt gepresenteerd. Informatieobjecten zijn de eenheden van informatie waar de DUTO-eisen betrekking op hebben. Bijvoorbeeld zoekresultaten verwijzen naar informatieobjecten, informatieobjecten kunnen opgevraagd worden, informatieobjecten hebben metagegevens, etcetera. Een &quot;eigen identiteit&quot; betekent dat een informatieobject een naam of identificatiekenmerk heeft waardoor het te onderscheiden is van andere informatieobjecten. Hiermee kan een gebruiker eenduidig verwijzen naar het informatieobject."/>
+  <properties
+      key="Heeft bron"
+      value="MDTO"/>
+  <properties
+      key="Is gerelateerd aan"
+      value="gegeven"/>
+</archimate:Meaning>

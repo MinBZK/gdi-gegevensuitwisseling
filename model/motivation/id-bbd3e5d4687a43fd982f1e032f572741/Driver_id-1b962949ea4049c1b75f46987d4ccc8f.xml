@@ -1,0 +1,11 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="eIDAS"
+    id="id-1b962949ea4049c1b75f46987d4ccc8f"
+    documentation="De e-ID Verordening ziet erop om de tekortkomingen van de eIDAS-verordening op te lossen. De afkorting eIDAS staat voor ‘electronic IDentities And Trust Services’. De Europese Unie wil met de verordening Europees kader voor een digitale identiteit regelen dat het makkelijker en veiliger wordt om binnen Europa online zaken te regelen. De nieuwe verordening introduceert een Europese wallet waarmee burgers gebruik te maken van digitale diensten, welke voor verschillende doeleinden ingezet kan worden. De digitale identiteit is op vrijwillige basis en maakt het mogelijk voor individuen om controle te hebben over hun persoonsgegevens. De wallet kan gebruikt worden als een identificatiemiddel waarmee specifieke documenten aangeleverd kunnen worden. ">
+  <properties
+      key="URL"
+      value="https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52021PC0281"/>
+  <profiles
+      href="folder.xml#id-9a653edb2b4d4f3db01084267f44519e"/>
+</archimate:Driver>

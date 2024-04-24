@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Linked Data vocabulaire voor geografische datasets"
+    id="id-1295153881e94e7eb38a8a8eba58707e"
+    documentation="Het is wenselijk om een Linked Data vocabulaire te ontwikkelen voor geografische datasets. Dat zou gebaseerd kunnen zijn op de ISO 19115 standaard of op de GeoDCAT standaard, die DCAT en de ISO 19115 standaard al integreert. Dit maakt het mogelijk om metagegevens over geografische datasets te integreren met andere vormen van metagegevens, zoals gegevensdiensten. "/>
