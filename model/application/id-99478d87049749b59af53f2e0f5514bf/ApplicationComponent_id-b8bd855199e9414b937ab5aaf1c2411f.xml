@@ -1,0 +1,9 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gewenste voorziening"
+    id="id-b8bd855199e9414b937ab5aaf1c2411f">
+  <properties
+      key="exclude"/>
+  <profiles
+      href="folder.xml#id-3fede1bbcb0941648a2c8a077a594cb1"/>
+</archimate:ApplicationComponent>

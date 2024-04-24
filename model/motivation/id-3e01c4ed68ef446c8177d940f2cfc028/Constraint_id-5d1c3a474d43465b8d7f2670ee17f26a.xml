@@ -1,0 +1,20 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="SQL"
+    id="id-5d1c3a474d43465b8d7f2670ee17f26a"
+    documentation="Structured Query Language (SQL) is een taal voor het opslaan, bewerken en ophalen vam gegevens in relationele databases.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Databases"/>
+  <properties
+      key="Beheerorganisatie"
+      value="ISO"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Sql"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

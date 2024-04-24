@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="RuleSpeak"
+    id="id-76f91f51924e4f858d9554164ece1a0f"
+    documentation="RuleSpeak is een taal voor het beschrijven van bedrijfsregels op een manier die dicht tegen natuurlijke taal aanligt.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="Business Rule Solutions"/>
+  <properties
+      key="URL"
+      value="https://www.rulespeak.com/nl/"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

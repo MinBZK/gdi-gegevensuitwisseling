@@ -1,0 +1,14 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PDOK"
+    id="id-15d03a85a8b340c490a44cc1c3a3c056"
+    documentation="Publieke Dienstverlening op de Kaart is een voorziening voor het beschikbaar stellen van geografische gegevens.">
+  <properties
+      key="Beheerorganisatie"
+      value="Kadaster"/>
+  <properties
+      key="URL"
+      value="https://www.pdok.nl/"/>
+  <profiles
+      href="folder.xml#id-3fede1bbcb0941648a2c8a077a594cb1"/>
+</archimate:ApplicationComponent>

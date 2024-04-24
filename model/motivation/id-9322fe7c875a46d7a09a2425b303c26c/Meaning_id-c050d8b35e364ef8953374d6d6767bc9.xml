@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="geldigheidsperiode"
+    id="id-c050d8b35e364ef8953374d6d6767bc9"
+    documentation="De periode waarin een object een bepaalde toestand had.">
+  <properties
+      key="Toelichting"
+      value="De opeenvolgingen van wijzigingen in de toestand van een object is de materiële historie."/>
+  <properties
+      key="Is gerelateerd aan"
+      value="materiële historie, object"/>
+</archimate:Meaning>

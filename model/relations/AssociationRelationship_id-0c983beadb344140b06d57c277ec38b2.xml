@@ -1,0 +1,18 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="6"
+    id="id-0c983beadb344140b06d57c277ec38b2">
+  <properties
+      key="volgnummer"
+      value="6"/>
+  <properties
+      key="niveau"
+      value="1"/>
+  <source
+      xsi:type="archimate:Representation"
+      href="Representation_id-fca223917bb245fd97ff55c463938123.xml#id-fca223917bb245fd97ff55c463938123"/>
+  <target
+      xsi:type="archimate:Representation"
+      href="Representation_id-98a74bf2a0b444ebba06ffda16362eb8.xml#id-98a74bf2a0b444ebba06ffda16362eb8"/>
+</archimate:AssociationRelationship>

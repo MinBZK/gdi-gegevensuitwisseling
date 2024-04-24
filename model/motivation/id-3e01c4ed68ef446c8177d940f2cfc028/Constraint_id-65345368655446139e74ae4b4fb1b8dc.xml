@@ -1,0 +1,20 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="ODF"
+    id="id-65345368655446139e74ae4b4fb1b8dc"
+    documentation="Open Document Format (ODF) maakt het mogelijk om reviseerbare documenten uit te wisselen die voor bewerking niet afhankelijk zijn van een bepaalde leverancier of applicatie. ODF is een duurzaam toegankelijk documentformat. ">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="ODF moet worden toegepast op de uitwisseling en publicatie van reviseerbare documenten."/>
+  <properties
+      key="Beheerorganisatie"
+      value="OASIS"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Odf"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>
