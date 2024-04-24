@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gegevensdienst"
+    id="id-9aab67d0e4a045fda585d6550fd23f32"
+    documentation="Een verzameling operaties die toegang bieden tot een of meer datasets of gegevensverwerkingsfuncties. (bron: DCAT 2.0)"/>

@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="afleidingsregel"
+    id="id-8a79d218f2a140bdab701fc352f1a98c"
+    documentation="Een regel die beschrijft hoe bepaalde soorten gegevens kunnen worden afgeleid uit andere soorten gegevens.">
+  <properties
+      key="Toelichting"
+      value="Een transformatieregel is ook een afleidingsregel, waarbij de regel de gegevens in een gegevensmodel van een doel afleidt uit gegevens in een gegevensmodel van een bron."/>
+</archimate:Meaning>

@@ -1,0 +1,11 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Architectuurprincipes"
+    id="id-aaf568d0e0f1430d96eb831f18281a9c"
+    documentation="&lt;p>Architectuurprincipes zijn richtinggevende uitspraken die vooral uiting geven aan een streven. Ze bestaan uit een stelling die uiting geeft aan de overtuiging die eraan ten grondslag ligt, een rationale die meer informatie geeft over de drijfveren en implicaties die de consequenties beschrijven. Architectuurprincipes moeten vooral als argument worden meegenomen in het maken van keuzes, maar zijn niet per definitie doorslaggevend. Er kunnen contextueel altijd zwaarwegender argumenten zijn, waardoor het toch logischer is om van de principes af te wijken. Deze afweging moet wel expliciet worden gemaakt en vastgelegd. De architectuurprincipes zijn in de domeinarchitectuur gekoppeld aan de relevante wet- en regelgeving waar ze invulling aan geven en aan de bedrijfsfuncties die ingericht moeten zijn om ze te implementeren. Er is ook een &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-98a74bf2a0b444ebba06ffda16362eb8.html>mapping van deze architectuurprincipes&lt;/a> op de uitgangspunten in de Architectuur Digitale Overheid 2030 en de principes en implicaties in NORA. Deze geeft een verdere onderbouwing en verdieping van de architectuurprincipes.&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;&lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/images/architectuurprincipes.svg&quot;>&#xD;&#xA;&lt;/p>">
+  <properties
+      key="elementType"
+      value="principle"/>
+  <profiles
+      href="folder.xml#id-0005c1b00a8b43d58de11d534fb0aeb2"/>
+</archimate:Representation>

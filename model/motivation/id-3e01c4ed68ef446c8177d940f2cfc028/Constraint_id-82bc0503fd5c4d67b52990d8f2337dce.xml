@@ -1,0 +1,20 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PDF"
+    id="id-82bc0503fd5c4d67b52990d8f2337dce"
+    documentation="Portable Document Format (PDF) is een standaard die de opmaak van documenten beschrijft, waardoor ze er op alle apparaten en in alle omgevingen hetzelfde uitzien.">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="PDF (NEN-ISO) moet worden toegepast op de uitwisseling en publicatie van niet- of beperkt reviseerbare documenten."/>
+  <properties
+      key="Beheerorganisatie"
+      value="ISO"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Pdf-en-iso"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

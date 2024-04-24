@@ -1,0 +1,20 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OpenAPI specification"
+    id="id-d47e17732fb344d79996d472915371e0"
+    documentation="De OpenAPI Specification standaardiseert de beschrijving van API's, inclusief de gegevens die in deze API's worden gebruikt als invoer en uitvoer.">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="OAS moet worden toegepast op het beschrijven/specificeren van een REST API."/>
+  <properties
+      key="Beheerorganisatie"
+      value="OpenAPI Initiative"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/openapi-specification"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>
