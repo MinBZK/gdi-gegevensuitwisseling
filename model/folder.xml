@@ -1,0 +1,50 @@
+<archimate:ArchimateModel
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gegevensuitwisseling"
+    id="id-06c6c1de430644b9adb865225da06cba"
+    version="5.0.0">
+  <profiles
+      name="Standaard"
+      id="id-ac6c41bdfa5d4805be6b7aee7df9b6b7"
+      conceptType="Constraint"/>
+  <profiles
+      name="Wetgeving"
+      id="id-930df6e4bb244a22a47f4820a36fd1c5"
+      conceptType="Constraint"/>
+  <profiles
+      name="Beleid"
+      id="id-d47de2a822304367b35fa6d2442d6060"
+      conceptType="Driver"/>
+  <profiles
+      name="Ontwikkeling"
+      id="id-7be84c5323e54f1b9e45b26375c7309b"
+      conceptType="Driver"/>
+  <profiles
+      name="Huidige voorziening"
+      id="id-10b1e85a34ea4c249cabccc0e17a4651"
+      conceptType="ApplicationComponent"/>
+  <profiles
+      name="Gewenste voorziening"
+      id="id-3fede1bbcb0941648a2c8a077a594cb1"
+      conceptType="ApplicationComponent"/>
+  <profiles
+      name="Tekst"
+      id="id-0005c1b00a8b43d58de11d534fb0aeb2"
+      conceptType="Representation"/>
+  <profiles
+      name="Document"
+      id="id-d5b96c76c113467382aa37a2e773d369"
+      conceptType="Representation"/>
+  <profiles
+      name="Wetgeving"
+      id="id-9a653edb2b4d4f3db01084267f44519e"
+      conceptType="Driver"/>
+  <profiles
+      name="Huidige GDI-bouwsteen"
+      id="id-e880bedb0ca94efc9967fae1bc62a6ae"
+      conceptType="Product"/>
+  <profiles
+      name="Gewenste GDI-bouwsteen"
+      id="id-4fff02a5028044eb901042a9906d3ec7"
+      conceptType="Product"/>
+</archimate:ArchimateModel>

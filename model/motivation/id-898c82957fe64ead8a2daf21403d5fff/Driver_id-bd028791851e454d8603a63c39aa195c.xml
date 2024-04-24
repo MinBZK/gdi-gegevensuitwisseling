@@ -1,0 +1,8 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="API economie"
+    id="id-bd028791851e454d8603a63c39aa195c"
+    documentation="Organisaties gebruiken in toenemende mate API's. API's zijn de standaard manier geworden om systemen en gegevens te integreren. Er is binnen de Nederlandse overheid ook veel aandacht voor de inzet en het gebruik van API's. Zo is er een kennisplatform API's, een Nederlandse API strategie en het portaal developer.overheid.nl waarin API's kunnen worden gepubliceerd.">
+  <profiles
+      href="folder.xml#id-7be84c5323e54f1b9e45b26375c7309b"/>
+</archimate:Driver>

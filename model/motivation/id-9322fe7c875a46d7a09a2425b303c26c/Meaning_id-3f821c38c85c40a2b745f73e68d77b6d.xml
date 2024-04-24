@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="operatie"
+    id="id-3f821c38c85c40a2b745f73e68d77b6d"
+    documentation="Een geautomatiseerde functie die gegevens verwerkt.">
+  <properties
+      key="Toelichting"
+      value="Een bewerking is typisch het creëren, raadplegen, wijzigen of verwijderen van gegevens."/>
+  <properties
+      key="Is gerelateerd aan"
+      value="gegeven"/>
+</archimate:Meaning>

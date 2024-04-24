@@ -1,0 +1,11 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Wet open overheid"
+    id="id-9144f238c553428a80d101a6d9ee50d0"
+    documentation="Iedereen heeft recht op informatie van de overheid. De Wet open overheid (Woo) regelt welke overheidsinformatie openbaar is en hoe iemand die kan aanvragen. Door de Woo moet duidelijker worden wat de overheid doet en waarom. Overheidsinformatie is openbaar, behalve als er een reden is waarom dat niet kan. De overheid moet uit zichzelf zoveel mogelijk informatie openbaar maken als dat zonder grote moeite of hoge kosten kan. Het moet ook nut hebben. Overheden beoordelen zelf welke documenten hieronder vallen. Daarnaast staan in de Woo 17 soorten informatie die overheden uit zichzelf openbaar moeten maken. ">
+  <properties
+      key="URL"
+      value="https://wetten.overheid.nl/BWBR0045754/2023-04-01"/>
+  <profiles
+      href="folder.xml#id-9a653edb2b4d4f3db01084267f44519e"/>
+</archimate:Driver>

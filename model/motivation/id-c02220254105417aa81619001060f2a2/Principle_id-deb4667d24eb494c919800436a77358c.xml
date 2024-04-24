@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="4.5. Gegevensuitwisselingen worden gelogd"
+    id="id-deb4667d24eb494c919800436a77358c"
+    documentation="Logging van verzendingen en ontvangsten van gegevens maakt het mogelijk om aan te tonen dat gegevensuitwisselingen hebben plaatsgevonden, zeker als deze logging plaats vindt bij een derde partij (een clearing house). Het is dan wel belangrijk dat deze verzendingen en ontvangsten aan elkaar gekoppeld kunnen worden, op basis van een (transactie)identificatie. Inzicht in gegevensuitwisselingen maakt het ook eenvoudiger om foutanalyses uit te voeren, anderen inzicht te geven in de uitgewisselde gegevens en om procesanalyses te doen van bijvoorbeeld doorlooptijden en bottlenecks. Het ondersteunt ook de onderlinge verrekening van diensten met betrekking tot gegevensuitwisseling.">
+  <properties
+      key="Implicaties"
+      value="1. Aanbieders loggen verzendingen van berichten, afnemers loggen ontvangsten van berichten."/>
+  <properties
+      key="Implicaties"
+      value="2. Er wordt voor elke transactie een unieke identificatie gegenereerd, dat wordt vastgelegd in de logs van verzonden en ontvangen berichten."/>
+  <properties
+      key="Implicaties"
+      value="3. Als onweerlegbaarheid van gegevensuitwisselingen belangrijk is dan wordt logging gedelegeerd naar een derde partij (een clearing house)."/>
+</archimate:Principle>

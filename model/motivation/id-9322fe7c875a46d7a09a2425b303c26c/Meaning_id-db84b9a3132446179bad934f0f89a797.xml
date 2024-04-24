@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="data-aanbieder"
+    id="id-db84b9a3132446179bad934f0f89a797"
+    documentation="Een rol die data beschikbaar maakt voor afnemers door dataservices te ontwikkelen op de bron(nen) van bronhouder(s).">
+  <properties
+      key="Alternatieve term"
+      value="aanbieder, distributeur, verstrekker, leverancier"/>
+  <properties
+      key="Heeft bron"
+      value="FDS"/>
+</archimate:Meaning>
