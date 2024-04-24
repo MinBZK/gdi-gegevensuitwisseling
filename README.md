@@ -37,3 +37,4 @@ Bijlagen:
 * Begrippen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippendetails	.html">details</a>
 
 Samenvatting van de belangrijkste onderdelen in één pagina: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20gegevensuitwisseling.html">samenvatting</a>
+Bijlagen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Bijlagen%20domeinarchitectuur%20gegevensuitwisseling.html">bijlagen</a>
