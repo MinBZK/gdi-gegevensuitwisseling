@@ -1,9 +1,0 @@
-<archimate:Meaning
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="regel"
-    id="id-62dba0c72967493ebed05af72e5f9b09"
-    documentation="Een voorschrift.">
-  <properties
-      key="Toelichting"
-      value="Een regel kan primair gericht zijn op menselijk begrip of op geautomatiseerde verwerking. Een regel in de eerste categorie heet ook wel een bedrijfsregel."/>
-</archimate:Meaning>

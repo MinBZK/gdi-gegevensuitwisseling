@@ -1,5 +1,0 @@
-<archimate:WorkPackage
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Onderzoek automatisering contractering"
-    id="id-a424004519d640f3a005f813ece7ae01"
-    documentation="Er bestaan mogelijkheden om contractvoorwaarden om te zetten in autorisatieregels die geautomatiseerd gecontroleerd kunnen worden. Hiermee is verdergaande automatisering van contractering tussen aanbieders en afnemers mogelijk. Er is onderzoek nodig om te bepalen in hoeverre dit een bredere behoefte is bij overheidsorganisaties, hoe ver dit soort controles zouden moeten gaan en hoe dit technisch kan worden ingericht. Zo is het bijvoorbeeld mogelijk om ook aan de kant van de afnemer en gebruiker dergelijke controles uit te voeren. Verder zijn er verschillende standaarden die kunnen worden gebruikt zoals de XACML standaard, de ODRL standaard, de Rego taal van de Open Policy Agent (OPA), MYDATA of de Usage Contract Language van de International Data Spaces Association."/>
