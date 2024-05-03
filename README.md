@@ -1,5 +1,5 @@
 # Algemeen
-Dit is de GitHub repository van de MIDO/GDI werkgroep gegevensuitwisseling. Deze werkgroep is verantwoordelijk voor de (door)ontwikkeling van de domeinarchitectuur gegevensuitwisseling. De nieuwe versie van deze architectuur wordt ontwikkeld in de vorm van een ArchiMate architectuurmodel, die te vinden is in deze repository. 
+Dit is de GitHub repository van de MIDO/GDI werkgroep gegevensuitwisseling. Deze werkgroep is verantwoordelijk voor de (door)ontwikkeling van de domeinarchitectuur gegevensuitwisseling. De nieuwe versie van deze architectuur wordt ontwikkeld in de vorm van een ArchiMate architectuurmodel, die te vinden is in deze repository.
 
 Het architectuurmodel is beschikbaar in verschillende vormen:
 1. In de vorm van <a href="gegevensuitwisseling.archimate">een bestand</a> voor het modelleertool Archi;
@@ -15,9 +15,9 @@ Bij de verschillende onderdelen van de architectuur wordt verwezen naar beschrij
 Inleiding: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-f763d8baeed7450a801180ca97a5e0bc.html">beschrijving</a>.
 
 Veranderfactoren:
+* Ontwikkelingen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/ontwikkelingen.html">overzicht</a>
 * Beleid: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/beleid.html">overzicht</a>
 * Wet- en regelgeving: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/wetten.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/wettendetails.html">details</a> 
-* Ontwikkelingen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/ontwikkelingen.html">overzicht</a>
 * Knelpunten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/knelpunten.html">overzicht</a>
 * Capabilities: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-c86dd5efc983469aa01d883e87689369">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/capabilities.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/capabilitiesdetails.html">details</a>
 
@@ -26,6 +26,7 @@ Doelarchitectuur:
 * Architectuurprincipes: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-4e701366fd844120b700c114068bc91e">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principes.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principesdetails.html">details</a>
 * Verdieping op thema metagegevens: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-b7da2fb1fe314dbfb7d025d2f1a07035.html">beschrijving</a>
 * Verdieping op thema uitwisselprotocollen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-1d2d4327d948422eadfcd5208208ec3a.html">beschrijving</a>
+* Verdieping op thema historie: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-dcfbaf9541ce478aa0eb2bac5e9fb2dd.html">beschrijving</a>
 * Veranderinitiatieven: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/veranderinitiatieven.html">overzicht</a>
 
 Bijlagen:
