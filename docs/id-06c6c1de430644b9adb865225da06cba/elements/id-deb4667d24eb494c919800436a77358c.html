@@ -48,7 +48,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">Logging van verzendingen en ontvangsten van gegevens maakt het mogelijk om aan te tonen dat gegevensuitwisselingen hebben plaatsgevonden, zeker als deze logging plaats vindt bij een derde partij (een clearing house). Het is dan wel belangrijk dat deze verzendingen en ontvangsten aan elkaar gekoppeld kunnen worden, op basis van een (transactie)identificatie. Inzicht in gegevensuitwisselingen maakt het ook eenvoudiger om foutanalyses uit te voeren, anderen inzicht te geven in de uitgewisselde gegevens en om procesanalyses te doen van bijvoorbeeld doorlooptijden en bottlenecks. Het ondersteunt ook de onderlinge verrekening van diensten met betrekking tot gegevensuitwisseling.</div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Logging van gegevensuitwisselingen (verzendingen en ontvangsten) maakt het mogelijk om op een later moment aan te tonen dat gegevensuitwisselingen hebben plaatsgevonden (onweerlegbaarheid). Het faciliteert verder foutanalyse, procesanalyse, misbruikdetectie, forensisch onderzoek en onderlinge verrekening van diensten. Auditlogging is in het algemeen een plicht vanuit het perspectief van informatiebeveiliging.</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -59,7 +59,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Aanbieders loggen verzendingen van berichten, afnemers loggen ontvangsten van berichten.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2. Er wordt voor elke transactie een unieke identificatie gegenereerd, dat wordt vastgelegd in de logs van verzonden en ontvangen berichten.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">3. Als onweerlegbaarheid van gegevensuitwisselingen belangrijk is dan wordt logging gedelegeerd naar een derde partij (een clearing house).</td></tr>
+								<tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">1. Aanbieders loggen verzendingen van berichten, afnemers loggen ontvangsten van berichten.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2. De logs van verzonden en ontvangen berichten zijn aan elkaar te relateren op basis van een gemeenschappelijke identifier.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">3. Als hoge eisen aan onweerlegbaarheid worden gesteld dan worden delegeren van logging naar een derde partij (clearing house) overwogen.</td></tr><tr><td>Implicaties</td><td class="convertlinks no-margin" style="white-space:pre-wrap">4. De bewaartermijn van logs wordt expliciet bewaakt en gerespecteerd.</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -73,7 +73,10 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-930356858aa94d74bafd5f404e12d0c9">
+								<tr id="used-in-views-id-6b7bc157855642cea6dce7d3dc7e12bf">
+																	<td><a href="../views/id-6b7bc157855642cea6dce7d3dc7e12bf.html" target="view" title="Architectuurprincipes gerelateerd aan wetgeving"> Architectuurprincipes gerelateerd aan wetgeving </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-930356858aa94d74bafd5f404e12d0c9">
 																	<td><a href="../views/id-930356858aa94d74bafd5f404e12d0c9.html" target="view" title="Architectuurprincipes gerelateerd aan functies"> Architectuurprincipes gerelateerd aan functies </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr><tr id="used-in-views-id-4e701366fd844120b700c114068bc91e">
@@ -93,6 +96,12 @@
 								</tr>
 							</thead>
 							<tbody>
+									<tr>
+											<td><a href="../elements/id-9baa0f9fe6e54d5f94c4efd931f0f9e9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-InfluenceRelationship" /></td>
+											<td><a href="../elements/id-deb4667d24eb494c919800436a77358c.html" target="element"> 4.5. Gegevensuitwisselingen worden gelogd</a></td>
+											<td><a href="../elements/id-573d85f01b6f46fda9cabc5589ca2ed4.html" target="element"> General Data Protection Regulation</a></td>
+										</tr>
 									<tr>
 											<td><a href="../elements/id-7e3798e0169a4a5fa01b3b7b2f09e83f.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
