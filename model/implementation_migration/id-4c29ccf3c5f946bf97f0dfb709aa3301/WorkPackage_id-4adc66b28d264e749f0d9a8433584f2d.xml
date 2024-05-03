@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verbreding scope en inzetgebied Digikoppeling"
+    id="id-4adc66b28d264e749f0d9a8433584f2d"
+    documentation="Er zijn andere API standaarden zoals GraphQL en SPARQL die veel gebruikt worden. Er moet worden bepaald of Digikoppeling dit soort standaarden expliciet kan ondersteunen. Daarnaast is het verbreden van het inzetgebied van Digikoppeling naar gegevensuitwisseling met bedrijven wenselijk, omdat dat draagt bij aan maximale standaardisatie. Er is daarbij wel expliciet aandacht nodig voor drempels die certificaten mogelijk opwerpen."/>

@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Migratie van Digikoppeling ebMS naar ebMS3"
+    id="id-97f3d38b3882435f8472a14f47d9100a"
+    documentation="De ebMS3 standaard is de opvolger van de ebMS2 standaard.  Migratie naar de ebMS3 standaard is aanbevolen, met name ook omdat deze onderdeel is van de Europese e-Delivery standaard. Er moet een implementatie- en migratieplan worden opgesteld."/>
