@@ -20,5 +20,5 @@
       value="5. Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals trefwoorden, classificaties en omschrijvingen."/>
   <properties
       key="Implicaties"
-      value="6. Er worden in de metagegevens relevante contextgegevens vastgelegd zoals de bron van het gegeven, welke gebeurtenis en/of handeling ten grondslag lag aan het vastleggen of wijzigen van de gegevens, of er gerede twijfel bestaat over de juistheid van de gegeven en of er kwaliteitsregels zijn waaraan de gegevens niet voldoet."/>
+      value="6. Er worden in de metagegevens relevante contextgegevens beschikbaar gesteld zoals de bron van de gegevens en welke gebeurtenis en/of activiteit ten grondslag lag aan het vastleggen of wijzigen van de gegevens."/>
 </archimate:Principle>
