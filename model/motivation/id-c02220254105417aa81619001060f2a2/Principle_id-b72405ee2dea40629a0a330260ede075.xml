@@ -2,10 +2,10 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="4.4. Aanbieders kunnen notificeren over belangrijke gebeurtenissen"
     id="id-b72405ee2dea40629a0a330260ede075"
-    documentation="De werkagenda waardegedreven digitaliseren stelt dat overheidsdienstverlening proactief zou moeten zijn en georganiseerd vanuit het perspectief van burgers en ondernemers o.a. aan de hand van levensgebeurtenissen. Dit betekent dat het belangrijk is om informatie over levensgebeurtenissen te delen. Overheidsorganisaties zijn voor hun dienstverlening afhankelijk van gebeurtenissen waarover zij geïnformeerd worden door anderen. Daarnaast geldt dat afnemers liefst zelf geen kopie van gegevens bijhouden, maar dan wel willen weten of bepaalde gegevens gewijzigd zijn, omdat deze bijvoorbeeld ook in hun eigen administratie zijn opgenomen.">
+    documentation="Overheidsorganisaties willen worden geïnformeerd over gebeurtenissen waarop zij moeten acteren. Ze willen ook weten of er wijzigingen zijn opgetreden in gegevens die ze eerder hebben ontvangen. De werkagenda waardegedreven digitaliseren stelt dat overheidsdienstverlening proactief zou moeten zijn en georganiseerd vanuit het perspectief van burgers en ondernemers o.a. aan de hand van levensgebeurtenissen. Dit betekent dat het belangrijk is om informatie over levensgebeurtenissen te delen. ">
   <properties
       key="Implicaties"
-      value="1. Organisaties definiëren expliciet welke levensgebeurtenissen zij op willen acteren en welke gegevensuitwisselingen met andere organisaties hiervoor nodig zijn."/>
+      value="1. Organisaties definiëren expliciet welke (levens)gebeurtenissen zij op willen acteren en welke gegevensuitwisselingen met andere organisaties hiervoor nodig zijn."/>
   <properties
       key="Implicaties"
       value="2. Aanbieders kunnen notificaties verstrekken als belangrijke gebeurtenissen plaatsvinden, zoals wanneer bepaalde gegevens wijzigen."/>

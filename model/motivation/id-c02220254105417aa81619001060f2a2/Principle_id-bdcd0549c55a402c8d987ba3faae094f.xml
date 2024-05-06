@@ -11,14 +11,17 @@
       value="2. Er wordt expliciet bepaald of er in een gebruikscontext behoefte is aan materiële historie."/>
   <properties
       key="Implicaties"
-      value="3. Registraties bieden de mogelijkheid om historische gegevens op te vragen."/>
+      value="3. Er wordt bij het ontwikkelen van informatie- en gegevensmodellen expliciet rekening gehouden met historie."/>
   <properties
       key="Implicaties"
-      value="4. Registraties bieden liefst ook de mogelijkheid de historie (near) real-time te bevragen."/>
+      value="4. Registraties bieden de mogelijkheid om historische gegevens op te vragen."/>
   <properties
       key="Implicaties"
-      value="5. Gegevens worden niet fysiek verwijderd (tenzij ze om juridische redenen vernietigd moeten worden); als ze niet meer geldig zijn dan worden ze alleen logisch verwijderd."/>
+      value="5. Registraties bieden liefst ook de mogelijkheid de historie (near) real-time te bevragen."/>
   <properties
       key="Implicaties"
-      value="6. De historische integriteit van gegevens is geborgd; oude gegevens worden niet overschreven."/>
+      value="6. Gegevens worden niet fysiek verwijderd (tenzij ze om juridische redenen vernietigd moeten worden); als ze niet meer geldig zijn dan worden ze alleen logisch verwijderd."/>
+  <properties
+      key="Implicaties"
+      value="7. De historische integriteit van gegevens is geborgd; oude gegevens worden niet overschreven."/>
 </archimate:Principle>
