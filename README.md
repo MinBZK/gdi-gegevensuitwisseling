@@ -27,7 +27,7 @@ Doelarchitectuur:
 * Verdieping op thema metagegevens: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-b7da2fb1fe314dbfb7d025d2f1a07035.html">beschrijving</a>
 * Verdieping op thema uitwisselprotocollen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-1d2d4327d948422eadfcd5208208ec3a.html">beschrijving</a>
 * Verdieping op thema historie: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-dcfbaf9541ce478aa0eb2bac5e9fb2dd.html">beschrijving</a>
-* Verdieping op thema abonneren en notificeren: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-070bf0b5f6884999a5b5b742c8ee6ce5.html">beschrijving</a>
+* Verdieping op thema eventoriëntatie: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-070bf0b5f6884999a5b5b742c8ee6ce5.html">beschrijving</a>
 * Veranderinitiatieven: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/veranderinitiatieven.html">overzicht</a>
 
 Bijlagen:
