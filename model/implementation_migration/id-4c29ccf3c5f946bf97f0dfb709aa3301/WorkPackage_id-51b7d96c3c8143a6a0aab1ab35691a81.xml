@@ -1,5 +1,5 @@
 <archimate:WorkPackage
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Onderzoek eDelivery als onderdeel van Digikoppeling"
+    name="Onderzoek eDelivery bouwstenen als onderdeel van de GDI"
     id="id-51b7d96c3c8143a6a0aab1ab35691a81"
-    documentation="De Digikoppeling-standaarden zijn liefst zoveel mogelijk afgestemd zijn op de Europese e-Delivery standaard. De e-Delivery standaard zou zelf als Digikoppeling koppelvlakstandaard kunnen worden gedefinieerd. Het vraagt nader onderzoek om te bepalen of dit meerwaarde heeft."/>
+    documentation="Onderdeel van de Europese e-Delivery standaard zijn een aantal (software)bouwstenen beschikbaar. Het zou waardevol kunnen zijn om deze formeel onderdeel te laten zijn van de GDI en breed beschikbaar te stellen aan overheidsorganisaties. Daarbij hoort ook beleid over hoe deze bouwstenen generieker ingezet kunnen worden. Het vraagt nader onderzoek om te bepalen of dit meerwaarde heeft."/>
