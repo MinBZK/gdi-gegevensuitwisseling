@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="MQTT"
+    id="id-46bb10676acf475c9857869ed8d1608a"
+    documentation="Het MQTT protocol is een lichtgewicht protocol voor het betrouwbaar uitwisselen van berichten, specifiek gericht op het Internet of Things.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="OASIS"/>
+  <properties
+      key="URL"
+      value="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>
