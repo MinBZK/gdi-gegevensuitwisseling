@@ -1,5 +1,5 @@
 <archimate:WorkPackage
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Implementatie van de FSC standaard"
+    name="Standaardiseren FSC"
     id="id-d1cd1faf10d944159fc5b17f7d3ddb95"
-    documentation="De FSC standaard biedt standaard mogelijkheden voor veelvoorkomende uitdagingen bij het delen van gegevens tussen organisaties en het verstrekken van toegang. Er ligt een voorstel om FSC als basis te gebruiken voor het Digikoppeling API profiel. Als dit voorstel wordt goedgekeurd dan zal aandacht moeten worden gegeven aan de brede implementatie van deze standaard bij overheidsorganisaties."/>
+    documentation="De Federated Service Connectivity (FSC) standaard biedt standaard mogelijkheden voor veelvoorkomende uitdagingen bij het veilig en betrouwbaar delen van gegevens tussen organisaties. Het is daarmee een belangrijke basis voor gegevensuitwisseling. Het zou als voorstel moeten worden ingediend bij Forum Standaardisatie zodat deze overheidsbreed aanbevolen of verplicht wordt."/>

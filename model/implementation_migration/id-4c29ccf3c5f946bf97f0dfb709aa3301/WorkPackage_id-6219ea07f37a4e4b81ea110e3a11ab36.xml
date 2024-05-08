@@ -1,5 +1,5 @@
 <archimate:WorkPackage
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Implementatie van gebeurtenisgedreven gegevensuitwisseling"
+    name="Implementatie van eventoriëntatie"
     id="id-6219ea07f37a4e4b81ea110e3a11ab36"
-    documentation="Het is gewenst dat aanbieders notificaties gaan verstrekken over plaatsgevonden gebeurtenissen die relevant zijn voor andere overheidsorganisaties. Daarnaast moeten organisaties moeten hun processen en applicaties aanpassen dat zij effectief gebruik kunnen maken van notificaties. Er is op dit moment binnen de overheid nog weinig kennis aanwezig over gebeurtenisgedreven gegevensuitwisseling. Op dit moment wordt (te) vaak gekozen voor gebruik van RESTful API's. "/>
+    documentation="Het is gewenst dat aanbieders notificaties gaan verstrekken over plaatsgevonden gebeurtenissen die relevant zijn voor andere (overheids)organisaties. Daarnaast moeten organisaties moeten hun processen en applicaties aanpassen dat zij effectief gebruik kunnen maken van notificaties. Er is ook een behoefte aan catalogi waarin gebeurtenissen kunnen worden gedeeld. Mogelijk kan developer.overheid.nl hiervoor gebruikt worden."/>

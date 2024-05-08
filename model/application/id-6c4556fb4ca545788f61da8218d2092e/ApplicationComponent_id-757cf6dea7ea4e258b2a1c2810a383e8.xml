@@ -1,0 +1,8 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Digikoppeling adapter OSBDK"
+    id="id-757cf6dea7ea4e258b2a1c2810a383e8"
+    documentation="Dit is een standaard adapter voor Digikoppeling waarmee de koppeling met Digikoppeling ebMS kan worden gemaakt.">
+  <profiles
+      href="folder.xml#id-10b1e85a34ea4c249cabccc0e17a4651"/>
+</archimate:ApplicationComponent>

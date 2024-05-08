@@ -1,5 +1,0 @@
-<archimate:WorkPackage
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Standaardiseren gebeurtenissen"
-    id="id-1d6c4e717725432eab48abc2ee033a12"
-    documentation="Om te voorkomen dat er wildgroei ontstaat in de beschrijving van events en services is het gewenst om dit te standaardiseren. Producers kunnen dan events en de betekenis daarvan beschrijven in één of meer, conform de standaard ingerichte, catalogi. Dit biedt afnemers het noodzakelijke overzicht en inzicht om goed gebruik te maken van beschikbare notificaties. "/>
