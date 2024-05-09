@@ -39,7 +39,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="matrix(0.26458333,0,0,0.26458333,-31.569088,-49.165951)"
+       transform="matrix(0.26458333,0,0,0.26458333,-30.696955,-49.758373)"
        id="g52">
       <rect
          x="564"
@@ -271,7 +271,7 @@
          font-style="italic"
          font-weight="400"
          font-size="11px"
-         transform="translate(465.779,322)"
+         transform="translate(472.216,322)"
          id="text25">Service</text>
       <text
          fill="#ff0000"
@@ -279,7 +279,7 @@
          font-style="italic"
          font-weight="400"
          font-size="11px"
-         transform="translate(505.112,322)"
+         transform="translate(511.549,322)"
          id="text26">-</text>
       <text
          fill="#ff0000"
@@ -287,7 +287,7 @@
          font-style="italic"
          font-weight="400"
          font-size="11px"
-         transform="translate(509.946,322)"
+         transform="translate(516.383,322)"
          id="text27">oriëntatie</text>
       <rect
          x="233"
