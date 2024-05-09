@@ -11,7 +11,7 @@ Het is belangrijk om te onderkennen dat er heel veel verschillende vormen van ge
 </p><p>
 <b>Gegevensoriëntatie</b>: Bij de uitwisseling van gegevens kunnen ook de gegevens zelf centraal staan. Je zou dit gegevensoriëntatie kunnen noemen. De functionaliteit en de rol van de gegevens in een proces zijn daarbij van ondergeschikt belang. Het belangrijkste is dat er een aanbieder is van gegevens en een afnemer van deze gegevens. De precieze vorm van de gegevens en de manier waarop de gegevens worden uitgewisseld kan sterk variëren, maar is vaak in de vorm van bestanden. Het kan bijvoorbeeld gaan over downloads via HTTP of FTP, protocollen voor Big Data zoals HDFS of meer protocollen die gebruikt worden in de context van datawarehousing en/of business intelligence.
 </p><p>
-<b>Berichtoriëntatie</b>: Bij berichtoriëntatie staat het bericht centraal en zijn de precieze aanleiding en de verwerking ervan zijn daarbij minder belangrijk. Vaak gaat het om verwerkingen die uitgesteld verwerkt kunnen worden, en veelal zijn dat periodieke batchprocessen. De nadruk ligt dan vooral op het betrouwbaar verzenden van (vaak grote) berichten met Message Oriented Middleware, typisch op basis van queueing mechanismen. Daarbij spelen standaarden een rol zoals MQTT, AQMP en Jakarta Messaging. Notificaties van events kunnen technisch ook als bericht worden gezien, maar als primair gedacht wordt vanuit gebeurtenissen dan zou je dat nog als eventoriëntatie kunnen zien.
+<b>Berichtoriëntatie</b>: Bij berichtoriëntatie staat het bericht centraal en zijn de precieze aanleiding en de verwerking ervan zijn daarbij minder belangrijk. Vaak gaat het om verwerkingen die uitgesteld verwerkt kunnen worden, en veelal zijn dat periodieke batchprocessen. De nadruk ligt dan vooral op het betrouwbaar verzenden van (vaak grote) berichten met Message Oriented Middleware, typisch op basis van queueing mechanismen. Door de ontkoppeling van de zender en de ontvangen met een queue is het eenvoudiger om het aantal gelijktijdige verwerkingen op te schalen. Bij deze vorm zijn standaarden van belang zoals MQTT, AQMP en Jakarta Messaging.
 </p><p>
 <b>Weboriëntatie</b>: Bij weboriëntatie staat het betekenisvol publiceren van gegevens op het wereldwijde web centraal. Dat betekent dat het beschikbaar stellen conform webstandaarden belangrijk is. Het op een efficiënte manier verwerken van de gegevens is daarbij minder belangrijk. In deze context wordt ook gesproken over het semantische web, waarbij gegevens betekenisvol beschikbaar zijn op het web en aan elkaar verbonden. Daarbij wordt gebruik gemaakt van Linked Data standaarden zoals RDF, RDFS, OWL, SHACL, SKOS en SPARQL. SPARQL is vooral het uitwisselprotocol, waarmee complexe zoekvragen kunnen worden gesteld, ook federatief over meerdere bronnen.
 </p><p>
@@ -19,14 +19,17 @@ In onderstaande tabel wordt een overzicht gegeven van de verschillende vormen va
 </p><p>
 <table class="table table-striped">
 <tr><td><b>Vorm van gegevensuitwisseling</b></td><td><b>Toepassingsgebied</b></td></tr>
-<tr><td>Service-oriëntatie</td><td><ul><li>Complexere vormen van functionaliteit</li><li>Samenstellingen van verschillende gegevensbewerkingen</li></ul></td></tr>
-<tr><td>Resource-oriëntatie</td><td><ul><li>Basisverwerkingen van gegevens</li><li>Eenvoudige functionaliteit</li></ul></td></tr>
-<tr><td>Eventoriëntatie</b></td><td><ul><li>Afhandelen van gebeurtenissen</li><li>Snel kunnen inspringen op gebeurtenissen</li></ul></td></tr>
-<tr><td>Gegevensoriëntatie</b></td><td><ul><li>Periodieke batchprocessen</li><li>Bulkverwerkingen</li><li>Big Data</li><li>Datawarehousing en business intelligence</li></ul></td></tr>
-<tr><td>Berichtoriëntatie</b></td><td><ul><li>Integratie met legacy systemen</li><li>Verwerken van mutaties over organisatiegrenzen</li></ul></td></tr>
+<tr><td>Service-oriëntatie</td><td><ul><li>Complexe functionaliteit</li><li>Samenstellingen van verschillende gegevensbewerkingen</li></ul></td></tr>
+<tr><td>Resource-oriëntatie</td><td><ul><li>Eenvoudige functionaliteit</li><li>Nadruk op eenvoudige bewerking van gegevens</li></ul></td></tr>
+<tr><td>Eventoriëntatie</b></td><td><ul><li>Afhandelen van gebeurtenissen</li><li>Snel inspringen op gebeurtenissen</li></ul></td></tr>
+<tr><td>Gegevensoriëntatie</b></td><td><ul><li>Periodieke batchprocessen en bulkverwerkingen</li><li>Datawarehousing en business intelligence</li></ul></td></tr>
+<tr><td>Berichtoriëntatie</b></td><td><ul><li>Betrouwbaar en schaalbaar verwerken van mutaties</li><li>Integratie met legacy systemen</li></ul></td></tr>
 <tr><td>Weboriëntatie</b></td><td><ul><li>Betekenisvol publiceren van gegevens op het web</li><li>Wereldwijd verbindingen leggen tussen gegevens</li><li>Publicatie van metagegevens</li></ul></td></tr>
 </table>
 </p>
+<p>De volgende figuur geeft een overzicht van de verschillende vormen van gegevensuitwisseling door ze te positioneren in de context van de belangrijkste soorten verwerkingen tussen bepaalde soorten systemen</p>
+<p><img src="https://minbzk.github.io/gdi-gegevensuitwisseling/images/vormen.svg"></p>
+
 <h3>Digikoppeling</h3>
 <p>
 De Digikoppeling standaard maakt veilige gegevensuitwisseling tussen overheden mogelijk. De standaard beschrijft afspraken om gegevens juist te adresseren, leesbaar en uitwisselbaar te maken en veilig en betrouwbaar te verzenden. Het bevordert de interoperabiliteit tussen overheidsorganisaties. De standaard bestaat uit een viertal koppelvlakspecificaties voor gestructureerd gegevensuitwisseling met en tussen overheidsorganisaties:
