@@ -39,7 +39,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="matrix(0.26458333,0,0,0.26458333,-31.044064,-50.447032)"
+       transform="matrix(0.26458333,0,0,0.26458333,-30.664532,-49.937854)"
        id="g67">
       <rect
          x="564"
@@ -344,13 +344,13 @@
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="11px"
-         transform="translate(379.748,566)"
+         transform="translate(379.748,567)"
          id="text35">Publicatie van m</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="11px"
-         transform="translate(468.581,566)"
+         transform="translate(468.581,567)"
          id="text36">etagegevens</text>
       <text
          fill="#ff0000"
@@ -580,7 +580,7 @@
          font-style="italic"
          font-weight="400"
          font-size="11px"
-         transform="translate(749.603,582)"
+         transform="translate(749.603,584)"
          id="text64">Weboriëntatie</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
