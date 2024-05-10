@@ -120,7 +120,7 @@ elementen binnen de gegevensclusters</li><li>Logische sleutels: identificaties d
 
 
 
-<h2>3.4 Verdieping: uitwisselprotocollen</h2><p>Het is belangrijk om gegevensuitwisseling te standaardiseren, waar mogelijk. Overheidsbreed is hiervoor de Digikoppeling standaard gedefinieerd. In dit deel van de architectuur wordt eerst ingegaan op de verschillende vormen gegevensuitwisseling en hun toepassingsgebied. Vervolgens wordt de Digikoppeling standaard beschreven en een doorkijk gegeven op de gewenste doorontwikkeling van Digikoppeling.</p>
+<h2>3.4 Verdieping: uitwisselprotocollen</h2><p>In dit deel van de architectuur wordt ingegaan op de verschillende vormen gegevensuitwisseling en hun toepassingsgebied. Vervolgens wordt de Digikoppeling standaard beschreven en een doorkijk gegeven op de gewenste doorontwikkeling van Digikoppeling.</p>
 <h3>Vormen van gegevensuitwisseling</h3>
 <p>
 Het is belangrijk om te onderkennen dat er heel veel verschillende vormen van gegevensuitwisseling bestaan, op allerlei abstractieniveaus, met allemaal hun eigen specifieke focus. Veel van deze vormen hebben een eigen bestaansrecht. Het is dan vooral ook de vraag wanneer je zou moeten toepassen. Het onderscheidende bij al deze vormen van uitwisseling is vooral dat wat centraal staat (de focus heeft). Dat kan zijn 1. de service, 2. de resource, 3. het event, 4. de gegevens, 5. het bericht of 6. publicatie op het web. Daarmee zijn het paradigma’s om te kijken naar gegevensuitwisseling. In onderstaande paragrafen vergelijken we de verschillende basisvormen en benoemen we de belangrijkste uitwisselprotocollen. Vervolgens geven we een overzicht van de toepassingsgebieden.
@@ -129,7 +129,7 @@ Het is belangrijk om te onderkennen dat er heel veel verschillende vormen van ge
 </p><p>
 <b>Resource-oriëntatie</b>: Tegenwoordig is er toenemende aandacht voor integratie op basis van API’s, dat je kunt zien als onderdeel van het paradigma resource-oriëntatie. Bij resource-oriëntatie ligt de nadruk niet op de service maar op de te benaderen resource (bijvoorbeeld een klantobject). Elke resource heeft daartoe een eigen adres (URL) en kent standaard operaties voor het creëren, lezen, wijzigen en verwijderen van gegevens. Bij resource-oriëntatie wordt typisch gebruik gemaakt van RESTful API’s, waarbij de standaard HTTP centraal staat en ervan wordt uitgegaan dat de server geen toestand bijhoudt. Daarnaast krijgt de GraphQL standaard veel aandacht, die het eenvoudiger maakt om geïntegreerde vragen te stellen over meerdere onderliggende RESTful API’s.
 </p><p>
-<b>Eventoriëntatie</b>: Bij eventoriëntatie (ook wel: Event Driven Architecture - EDA) vormen gebeurtenissen de initiator voor uitwisseling van data. Denk aan de geboorte van een kind, een huwelijk en een verhuizing. Bij event-oriëntatie wordt veel gewerkt met het publish-and-subscribe mechanisme, waarbij applicaties zich kunnen abonneren op bepaalde typen gebeurtenissen, die vervolgens worden genotificeerd bij het optreden van deze gebeurtenissen. Voor eventoriëntatie zijn standaarden zoals CloudEvents, ASyncAPI en Linked Data Event Streams relevant.
+<b>Eventoriëntatie</b>: Bij eventoriëntatie (ook wel: Event Driven Architecture - EDA) vormen gebeurtenissen de initiator voor uitwisseling van gegevens. Denk aan de geboorte van een kind, een huwelijk en een verhuizing. Bij event-oriëntatie wordt veel gewerkt met het publish-and-subscribe mechanisme, waarbij applicaties zich kunnen abonneren op bepaalde typen gebeurtenissen, die vervolgens worden genotificeerd bij het optreden van deze gebeurtenissen. Voor eventoriëntatie zijn standaarden zoals CloudEvents, ASyncAPI en Linked Data Event Streams relevant. Een combinatie tussen eventoriëntatie en berichtoriëntatie komt wel vaker voor. Message oriented middleware biedt dan functionaliteit voor publish/subscribe of er is sprake van zogenaamde event streams, een opslag van de opgetreden events.
 </p><p>
 <b>Gegevensoriëntatie</b>: Bij de uitwisseling van gegevens kunnen ook de gegevens zelf centraal staan. Je zou dit gegevensoriëntatie kunnen noemen. De functionaliteit en de rol van de gegevens in een proces zijn daarbij van ondergeschikt belang. Het belangrijkste is dat er een aanbieder is van gegevens en een afnemer van deze gegevens. De precieze vorm van de gegevens en de manier waarop de gegevens worden uitgewisseld kan sterk variëren, maar is vaak in de vorm van bestanden. Het kan bijvoorbeeld gaan over downloads via HTTP of FTP, protocollen voor Big Data zoals HDFS of meer protocollen die gebruikt worden in de context van datawarehousing en/of business intelligence.
 </p><p>
@@ -154,7 +154,7 @@ In onderstaande tabel wordt een overzicht gegeven van de verschillende vormen va
 
 <h3>Digikoppeling</h3>
 <p>
-De Digikoppeling standaard maakt veilige gegevensuitwisseling tussen overheden mogelijk. De standaard beschrijft afspraken om gegevens juist te adresseren, leesbaar en uitwisselbaar te maken en veilig en betrouwbaar te verzenden. Het bevordert de interoperabiliteit tussen overheidsorganisaties. De standaard bestaat uit een viertal koppelvlakspecificaties voor gestructureerd gegevensuitwisseling met en tussen overheidsorganisaties:
+Het is belangrijk om gegevensuitwisseling te standaardiseren, waar mogelijk. Overheidsbreed is hiervoor de Digikoppeling standaard gedefinieerd. De Digikoppeling standaard maakt veilige gegevensuitwisseling tussen overheden mogelijk. De standaard beschrijft afspraken om gegevens juist te adresseren, leesbaar en uitwisselbaar te maken en veilig en betrouwbaar te verzenden. Het bevordert de interoperabiliteit tussen overheidsorganisaties. De standaard bestaat uit een viertal koppelvlakspecificaties voor gestructureerd gegevensuitwisseling met en tussen overheidsorganisaties:
 </p>
 <ul>
 <li>Digikoppeling Koppelvlakstandaard WUS - voor synchrone uitwisseling van gestructureerde berichten;</li>
@@ -169,7 +169,7 @@ Synchrone uitwisseling kan worden ingericht op basis van de Digikoppeling-koppel
 </p><p>
 Partijen kunnen kiezen welk interactiepatroon nodig is voor gegevensuitwisseling. Partijen bepalen in onderling overleg welke Digikoppeling profiel ze gebruiken. Providers, zoals Basisregistraties en landelijke voorzieningen, bepalen welke koppelvlakstandaard gebruikt wordt voor een door hun geleverde dienst. Per dienst kunnen ook meerdere koppelvlakstandaarden aangeboden worden.
 </p>
-<h3>Doorontwikkeling</h3>
+<h3>Doorontwikkeling van Digikoppeling</h3>
 <p>
 In deze paragraaf schetsen we een aantal inzichten en ontwikkelingen die invloed hebben op de Digikoppeling standaard. Ons algemene advies is om Digikoppeling als brede standaard te positioneren, ook voor communicatie met bedrijven, binnen sectoren en voor open data. Dat draagt bij aan maximale standaardisatie, hogere interoperabiliteit en maakt het uiteindelijk voor organisaties dus alleen maar eenvoudiger. Dit vraagt wel een bredere positionering, aandacht voor aansluitvoorwaarden en een stringenter vorm van lifecyclemanagement van de Digikoppeling standaard.
 </p><p>
