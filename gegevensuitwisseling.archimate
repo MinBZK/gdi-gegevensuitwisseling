@@ -126,24 +126,24 @@ Het is belangrijk om te onderkennen dat er heel veel verschillende vormen van ge
 &lt;/p>&lt;p>&#xD;
 &lt;b>Resource-oriëntatie&lt;/b>: Tegenwoordig is er toenemende aandacht voor integratie op basis van API’s, dat je kunt zien als onderdeel van het paradigma resource-oriëntatie. Bij resource-oriëntatie ligt de nadruk niet op de service maar op de te benaderen resource (bijvoorbeeld een klantobject). Elke resource heeft daartoe een eigen adres (URL) en kent standaard operaties voor het creëren, lezen, wijzigen en verwijderen van gegevens. Bij resource-oriëntatie wordt typisch gebruik gemaakt van RESTful API’s, waarbij de standaard HTTP centraal staat en ervan wordt uitgegaan dat de server geen toestand bijhoudt. Daarnaast krijgt de GraphQL standaard veel aandacht, die het eenvoudiger maakt om geïntegreerde vragen te stellen over meerdere onderliggende RESTful API’s.&#xD;
 &lt;/p>&lt;p>&#xD;
-&lt;b>Eventoriëntatie&lt;/b>: Bij eventoriëntatie (ook wel: Event Driven Architecture - EDA) vormen gebeurtenissen de initiator voor uitwisseling van gegevens. Denk aan de geboorte van een kind, een huwelijk en een verhuizing. Bij event-oriëntatie wordt veel gewerkt met het publish-and-subscribe mechanisme, waarbij applicaties zich kunnen abonneren op bepaalde typen gebeurtenissen, die vervolgens worden genotificeerd bij het optreden van deze gebeurtenissen. Voor eventoriëntatie zijn standaarden zoals CloudEvents, ASyncAPI en Linked Data Event Streams relevant. Een combinatie tussen eventoriëntatie en berichtoriëntatie komt wel vaker voor. Message oriented middleware biedt dan functionaliteit voor publish/subscribe of er is sprake van zogenaamde event streams, een opslag van de opgetreden events.&#xD;
+&lt;b>Eventoriëntatie&lt;/b>: Bij eventoriëntatie (ook wel: Event Driven Architecture - EDA) vormen gebeurtenissen de initiator voor uitwisseling van gegevens. Denk aan de geboorte van een kind, een huwelijk en een verhuizing. Bij event-oriëntatie wordt veel gewerkt met het publish-and-subscribe mechanisme, waarbij applicaties zich kunnen abonneren op bepaalde typen gebeurtenissen, die vervolgens worden genotificeerd bij het optreden van deze gebeurtenissen. Een combinatie tussen eventoriëntatie en berichtoriëntatie komt wel vaker voor. Message oriented middleware biedt dan functionaliteit voor publish/subscribe of er is sprake van zogenaamde event streams, een opslag van de opgetreden events.&#xD;
 &lt;/p>&lt;p>&#xD;
-&lt;b>Gegevensoriëntatie&lt;/b>: Bij de uitwisseling van gegevens kunnen ook de gegevens zelf centraal staan. Je zou dit gegevensoriëntatie kunnen noemen. De functionaliteit en de rol van de gegevens in een proces zijn daarbij van ondergeschikt belang. Het belangrijkste is dat er een aanbieder is van gegevens en een afnemer van deze gegevens. De precieze vorm van de gegevens en de manier waarop de gegevens worden uitgewisseld kan sterk variëren, maar is vaak in de vorm van bestanden. Het kan bijvoorbeeld gaan over downloads via HTTP of FTP, protocollen zoals OData of HDFS of protocollen die gebruikt worden in de context van datawarehousing en/of business intelligence.&#xD;
+&lt;b>Gegevensoriëntatie&lt;/b>: Bij de uitwisseling van gegevens kunnen ook de gegevens zelf centraal staan. Je zou dit gegevensoriëntatie kunnen noemen. De functionaliteit en de rol van de gegevens in een proces zijn daarbij van ondergeschikt belang. Het belangrijkste is dat er een aanbieder is van gegevens en een afnemer van deze gegevens. De precieze vorm van de gegevens en de manier waarop de gegevens worden uitgewisseld kan sterk variëren, maar is vaak in de vorm van bestanden. &#xD;
 &lt;/p>&lt;p>&#xD;
-&lt;b>Berichtoriëntatie&lt;/b>: Bij berichtoriëntatie staat het bericht centraal en zijn de precieze aanleiding en de verwerking ervan zijn daarbij minder belangrijk. Vaak gaat het om verwerkingen die uitgesteld verwerkt kunnen worden, en veelal zijn dat periodieke batchprocessen. De nadruk ligt dan vooral op het asynchroon en betrouwbaar verzenden van (vaak grote) berichten met Message Oriented Middleware, typisch op basis van queueing mechanismen. Door de ontkoppeling van de zender en de ontvangen met een queue is het eenvoudiger om het aantal gelijktijdige verwerkingen op te schalen. Bij deze vorm zijn standaarden van belang zoals MQTT, AQMP en Jakarta Messaging.&#xD;
+&lt;b>Berichtoriëntatie&lt;/b>: Bij berichtoriëntatie staat het bericht centraal en zijn de precieze aanleiding en de verwerking ervan zijn daarbij minder belangrijk. Vaak gaat het om verwerkingen die uitgesteld verwerkt kunnen worden, en veelal zijn dat periodieke batchprocessen. De nadruk ligt dan vooral op het asynchroon en betrouwbaar verzenden van (vaak grote) berichten met Message Oriented Middleware, typisch op basis van queueing mechanismen. Door de ontkoppeling van de zender en de ontvangen met een queue is het eenvoudiger om het aantal gelijktijdige verwerkingen op te schalen. &#xD;
 &lt;/p>&lt;p>&#xD;
-&lt;b>Weboriëntatie&lt;/b>: Bij weboriëntatie staat het betekenisvol publiceren van gegevens op het wereldwijde web centraal. Dat betekent dat het beschikbaar stellen conform webstandaarden belangrijk is. Het op een efficiënte manier verwerken van de gegevens is daarbij minder belangrijk. In deze context wordt ook gesproken over het semantische web, waarbij gegevens betekenisvol beschikbaar zijn op het web en aan elkaar verbonden. Daarbij wordt gebruik gemaakt van Linked Data standaarden zoals RDF, RDFS, OWL, SHACL, SKOS en SPARQL. SPARQL is vooral het uitwisselprotocol, waarmee complexe zoekvragen kunnen worden gesteld, ook federatief over meerdere bronnen.&#xD;
+&lt;b>Weboriëntatie&lt;/b>: Bij weboriëntatie staat het betekenisvol publiceren van gegevens op het wereldwijde web centraal. Dat betekent dat het beschikbaar stellen conform webstandaarden belangrijk is. Het op een efficiënte manier verwerken van de gegevens is daarbij minder belangrijk. In deze context wordt ook gesproken over het semantische web, waarbij gegevens betekenisvol beschikbaar zijn op het web en aan elkaar verbonden. Met het SPARQL protocol kunnen complexe zoekvragen worden gesteld, ook federatief over meerdere bronnen.&#xD;
 &lt;/p>&lt;p>&#xD;
-In onderstaande tabel wordt een overzicht gegeven van de verschillende vormen van gegevensuitwisseling en hun primaire toepassingsgebied.&#xD;
+In onderstaande tabel wordt een overzicht gegeven van de verschillende vormen van gegevensuitwisseling, hun primaire toepassingsgebied en de aanbevolen standaarden.&#xD;
 &lt;/p>&lt;p>&#xD;
 &lt;table class=&quot;table table-striped&quot;>&#xD;
-&lt;tr>&lt;td>&lt;b>Vorm van gegevensuitwisseling&lt;/b>&lt;/td>&lt;td>&lt;b>Toepassingsgebied&lt;/b>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Service-oriëntatie&lt;/td>&lt;td>&lt;ul>&lt;li>Complexe functionaliteit&lt;/li>&lt;li>Samenstellingen van verschillende gegevensbewerkingen&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Resource-oriëntatie&lt;/td>&lt;td>&lt;ul>&lt;li>Eenvoudige functionaliteit&lt;/li>&lt;li>Nadruk op eenvoudige bewerking van gegevens&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Eventoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Afhandelen van gebeurtenissen&lt;/li>&lt;li>Snel inspringen op gebeurtenissen&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Gegevensoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Periodieke batchprocessen en bulkverwerkingen&lt;/li>&lt;li>Datawarehousing en business intelligence&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Berichtoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Betrouwbaar en schaalbaar verwerken van mutaties&lt;/li>&lt;li>Integratie met legacy systemen&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Weboriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Betekenisvol publiceren van gegevens op het web&lt;/li>&lt;li>Wereldwijd verbindingen leggen tussen gegevens&lt;/li>&lt;li>Publicatie van metagegevens&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>&lt;b>Vorm van gegevensuitwisseling&lt;/b>&lt;/td>&lt;td>&lt;b>Toepassingsgebied&lt;/b>&lt;/td>&lt;td>&lt;b>Aanbevolen standaarden&lt;/b>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Service-oriëntatie&lt;/td>&lt;td>&lt;ul>&lt;li>Complexe functionaliteit&lt;/li>&lt;li>Samenstellingen van verschillende gegevensbewerkingen&lt;/li>&lt;/ul>&lt;/td>&lt;td>SOAP, Digikoppeling WUS, WSDL&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Resource-oriëntatie&lt;/td>&lt;td>&lt;ul>&lt;li>Eenvoudige functionaliteit&lt;/li>&lt;li>Nadruk op eenvoudige bewerking van gegevens&lt;/li>&lt;/ul>&lt;/td>&lt;td>GraphQL, API Features, API Tiles, NL WFS, NL WMS, Digikoppeling REST API, API Design Rules, API Specification&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Eventoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Afhandelen van gebeurtenissen&lt;/li>&lt;li>Snel inspringen op gebeurtenissen&lt;/li>&lt;/ul>&lt;/td>&lt;td>NL GOV profile for CloudEvents, AsyncAPI&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Gegevensoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Periodieke batchprocessen en bulkverwerkingen&lt;/li>&lt;li>Datawarehousing en business intelligence&lt;/li>&lt;/ul>&lt;/td>&lt;td>Odata, FTP, HTTP, HDFS, Digikoppeling GB&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Berichtoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Betrouwbaar en schaalbaar verwerken van mutaties&lt;/li>&lt;li>Integratie met legacy systemen&lt;/li>&lt;/ul>&lt;/td>&lt;td>ebMS, AMQP&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Weboriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Betekenisvol publiceren van gegevens op het web&lt;/li>&lt;li>Wereldwijd verbindingen leggen tussen gegevens&lt;/li>&lt;li>Publicatie van metagegevens&lt;/li>&lt;/ul>&lt;/td>&lt;td>SPARQL, IIIF, RDF, RDFS, OWL, SHACL, SKOS&lt;/td>&lt;/tr>&#xD;
 &lt;/table>&#xD;
 &lt;/p>&#xD;
 &lt;p>De volgende figuur geeft een overzicht van de verschillende vormen van gegevensuitwisseling door ze te positioneren in de context van de belangrijkste soorten verwerkingen tussen bepaalde soorten systemen&lt;/p>&#xD;
@@ -436,7 +436,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
         <documentation>Een afspraak tussen partijen over wie, wanneer, welke gegevens onder welke condities uitwisselt.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Gegeven" id="id-3f4dee7e670043c18bdf56feea2b5f91">
-        <documentation>Een vastgelegde bewering over eigenschappen van objecten.</documentation>
+        <documentation>Een vastgelegde waarneming of bewering over een getypeerde eigenschap van een object.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Dataset" id="id-5559669d97cb4cdca49cbe04a07067ff">
         <documentation>Een verzameling gegevens die is gepubliceerd of samengesteld door één enkele partij. (bron: DCAT 2.0)</documentation>
@@ -768,6 +768,12 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
         <property key="Beheerorganisatie" value="ISO"/>
         <property key="URL" value="https://www.iso.org/standard/71339.html"/>
       </element>
+      <element xsi:type="archimate:Constraint" name="API Tiles" id="id-2d115da1a05846888c6609964638928d" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
+        <documentation>De OGC API Tiles standaard ondersteunt het bevragen van geografische gegevens als tiles.</documentation>
+        <property key="Status" value="nvt"/>
+        <property key="Beheerorganisatie" value="OGC"/>
+        <property key="URL" value="https://ogcapi.ogc.org/tiles/"/>
+      </element>
       <element xsi:type="archimate:Constraint" name="ArchiMate" id="id-2ffebc5b595141c2b31b26908a12ccd2" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>ArchiMate is een taal voor het modelleren van enterprise-architectuur.</documentation>
         <property key="Status" value="nvt"/>
@@ -802,18 +808,6 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
         <property key="Beheerorganisatie" value="Logius"/>
         <property key="URL" value="https://gitdocumentatie.logius.nl/publicatie/dk/gb/"/>
       </element>
-      <element xsi:type="archimate:Constraint" name="Jakarta Messaging" id="id-3f8d32b5cf184fcbb48a3e5e8d455fa8" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
-        <documentation>Jakarta Messaging, voorheen bekend als JMS, is een Java-gebaseerde API voor het uitwisselen van berichten.</documentation>
-        <property key="Status" value="nvt"/>
-        <property key="Beheerorganisatie" value="Eclipse"/>
-        <property key="URL" value="https://projects.eclipse.org/projects/ee4j.messaging"/>
-      </element>
-      <element xsi:type="archimate:Constraint" name="MQTT" id="id-46bb10676acf475c9857869ed8d1608a" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
-        <documentation>Het MQTT protocol is een lichtgewicht protocol voor het betrouwbaar uitwisselen van berichten, specifiek gericht op het Internet of Things.</documentation>
-        <property key="Status" value="nvt"/>
-        <property key="Beheerorganisatie" value="OASIS"/>
-        <property key="URL" value="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html"/>
-      </element>
       <element xsi:type="archimate:Constraint" name="GraphQL" id="id-4ac2f120b6ef47ebb5c8f522015a5d94" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>GraphQL is een protocol en vraagtaal voor het bevragen van gegevens.</documentation>
         <property key="Status" value="nvt"/>
@@ -845,6 +839,12 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
         <property key="Functioneel toepassingsgebied" value="Databases"/>
         <property key="Beheerorganisatie" value="ISO"/>
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Sql"/>
+      </element>
+      <element xsi:type="archimate:Constraint" name="API Features" id="id-622179f0f5ab4f9fa6ac73b164c5be51" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
+        <documentation>De OGC API features standaard is bedoeld voor het creëren, wijzigen en bevragen van geografische gegevens op het web.</documentation>
+        <property key="Status" value="nvt"/>
+        <property key="Beheerorganisatie" value="OGC"/>
+        <property key="URL" value="https://ogcapi.ogc.org/features/"/>
       </element>
       <element xsi:type="archimate:Constraint" name="NL ISO 19119" id="id-6502e902a19e4f4987a1340c7fefb05a" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>Nederlands metadataprofiel op ISO 19119 services. Dit metadataprofiel beschrijft de verplichte metadata elementen van een service op een dataset of dataset serie. </documentation>
@@ -1854,7 +1854,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-17ff73fd4cfd4ff392c0d46c29df6706" source="id-87ae2ab6ffb1475392848037863c404c" target="id-d974da9b3dc341f1b2c6e22e4009796a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-18e40c9c4d3448afafaf88dcceb2a573" source="id-0da09931f8ac4b368c786703913087bf" target="id-da22abba43ae4197ae3a5db32b093183"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-1b2c8fc0c96f4baba96e3b8ea29613d9" source="id-592dc350d1034ca280d27157e17ba09d" target="id-654de455909049e5880ca18ca40935ed"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-1b3c6ed15ca948158bb91381eacc2df3" source="id-d2465138e3d44120a0132c92bc8ffdf3" target="id-46bb10676acf475c9857869ed8d1608a"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-1be4d784a192449fa2d62cc2e67605ce" source="id-0da09931f8ac4b368c786703913087bf" target="id-622179f0f5ab4f9fa6ac73b164c5be51"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-1bfa474109eb48cfb164cd7fa222fcd7" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-20f197627a654049b7c1ffff515291f3"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-1c755ee545f54fbe88f5ca8574e8179d" source="id-5ef12d74a642417684910d16092653f2" target="id-7f3f21e561764fe0bd54a826cb952254"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-1c80b8e77e404a669f0edc48c0fdc828" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-3cd7d97de1d44c39bec06dfefe442347"/>
@@ -1878,7 +1878,6 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-2543fd3140104e8c830cb0b2d33d712b" source="id-83efbf11e08643ea93f8b87ff9d6e520" target="id-0251be44656c48abb8ca49eb29f71715"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-255fea2300cb4ab2afe2b777c9752655" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-d882da32a721431a9f53b1dd0df21fe3"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-25d169c6627349c38e9122de6172b6e4" source="id-0da09931f8ac4b368c786703913087bf" target="id-b7baf6f4703f48ed874cc7b905d81e60"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-27a70f8c178a479eb1ba9de5b2ef5e8d" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-46bb10676acf475c9857869ed8d1608a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-281efd677db84976826a0e11a1a461da" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-0c5ff2bcee01490da929bce198ffa7e8"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-2845611348ed4c92a81a87e209c5ff6d" source="id-592dc350d1034ca280d27157e17ba09d" target="id-bc1611966ade49bca32f7ef76c31bdad"/>
     <element xsi:type="archimate:AssociationRelationship" name="3.6" id="id-2996119a124c404f95d01c4567d371f5" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-070bf0b5f6884999a5b5b742c8ee6ce5">
@@ -1896,6 +1895,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-2de11d420fd54fe78841440fb4ec722f" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-a886fec7ea1447db9831cd8c85bcd77c"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-2e298785bd3641bc95607c3bdbd63fb8" source="id-b160b994f4554d128443e7406af8d09e" target="id-722d227311134e49a0f133a054b7b6aa"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-2e4ce2bfe3f84dfe86ce58ce9e35da02" source="id-0da09931f8ac4b368c786703913087bf" target="id-7f3f21e561764fe0bd54a826cb952254"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-2e5c407fdbd24da6a5fcbf7b0bc7f9bb" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-2d115da1a05846888c6609964638928d"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-2e76eac1ef0646c4adf59e21a8488bcf" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-09e98a85539140da9e118b8679661527"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-30683d965ef54e5792b24e4e416f0bd4" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-7189c427043b41579a1b5ac7065242b6"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-31ea788841d240acbd69ad45669e642e" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-4ca2f05b381642d0987771b5f0af22a3"/>
@@ -1927,7 +1927,6 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-41439ea8a96544b18962788d5648257a" source="id-592dc350d1034ca280d27157e17ba09d" target="id-4ac2f120b6ef47ebb5c8f522015a5d94"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-4157beb222f14d4eb3a66a07f6022889" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-978c37663b714e0fbdc9ec088db243d4"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-41de415084a04a62b5485bf9c52928b2" source="id-4fd82ab6d6514fb39329797ed2622cff" target="id-3cd7d97de1d44c39bec06dfefe442347"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-431e14b107784c69b0d39a7f5f456c39" source="id-0da09931f8ac4b368c786703913087bf" target="id-3f8d32b5cf184fcbb48a3e5e8d455fa8"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-445987c992554c90b0e0a9baafe45187" source="id-5ef12d74a642417684910d16092653f2" target="id-02a4804d1e204365a324f4629e057131"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-448f735ab79f4e6cb172aab9c08ecf20" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-517bb1d25ac740adb78e062922c5db17"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-44c966c07fec4fbba2ac5baa91242f21" source="id-93869e353dd54b06b90794b2d0785379" target="id-2ffebc5b595141c2b31b26908a12ccd2"/>
@@ -1945,6 +1944,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" name="heeft betrekking op" id="id-4bad6fa4f746448f913297209db83529" source="id-21a270de58fa4a5f8079569197429604" target="id-5559669d97cb4cdca49cbe04a07067ff"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-4c06a57b93f844d6bc28f12b3e5fc53c" source="id-4fd82ab6d6514fb39329797ed2622cff" target="id-bd9f9a2fe62245c7ae1f01f5ff6ee28a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-4c1e04b072104114a87905913cb45e18" source="id-521fc9d8b0c04730ac5ac93823baf06f" target="id-0e8e9bd950a04d5390cbd01cde4c9375"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-4c7bc15a9d5e4406a1b0f3b7f30a4358" source="id-8f089dcb8add4b2fa57de76006aab538" target="id-622179f0f5ab4f9fa6ac73b164c5be51"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-4c7c47e83f8d4f2aa1d142ceafe754ea" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-ce64114e055648af86127a0b29704e94"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-4d001c7789664cf5b04b014c21172e1e" source="id-21a270de58fa4a5f8079569197429604" target="id-3cd7d97de1d44c39bec06dfefe442347"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-4e7550db064740fa85bcc52c1b120ea0" source="id-4fd82ab6d6514fb39329797ed2622cff" target="id-e0903391f835401798f98afd39daea1a"/>
@@ -1978,6 +1978,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-5ab0a0ec74ad4cf7a803037d5fa489d5" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-6857a45330d3428fa0562f7db033d6df"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5b34c1c8e7ee4a11bdd90bcde7c41b25" source="id-93d89c708c064926b628c42f8198227e" target="id-c3fe6d693371470caa89bea1b89e384a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5c5f68be851e45059fffdc94231afe21" source="id-f2920b273337408fbcb8aad5795bdd2b" target="id-722d227311134e49a0f133a054b7b6aa"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-5c829d38802e435cb1997c49ae0d9a5c" source="id-a8bbacb1e2cb410b94715623077562f5" target="id-02a2244645ab48e7bfe7c0247690e2e9"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5cd2191b490140cc9ff354c208529317" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-3d5e3c7b91dc412d9f110e7cbfca84aa"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5d1c9e33a81f42ff9be3a264fa75ce22" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-d492fe8867bc4528bff797b5762dd4c2"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5db55489890d4723a97bd48e2c835ff8" source="id-5ef12d74a642417684910d16092653f2" target="id-bc1611966ade49bca32f7ef76c31bdad"/>
@@ -2016,6 +2017,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-6d7c8c97003c4432a47f4e74fc7a744b" source="id-5559669d97cb4cdca49cbe04a07067ff" target="id-3cd7d97de1d44c39bec06dfefe442347"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-6e85d90930bb41dc8df6d5cb484c6078" source="id-153383edf7e242bebd14d1d5a0583d69" target="id-c40dfcb8cd544a32a5e95435fa66423e"/>
     <element xsi:type="archimate:AssociationRelationship" name="wordt gebruikt in" id="id-6f35bf0c2b664959b698ec0203d96901" source="id-b8382723adde49209c8e6ba8d3130fd5" target="id-acfdb86ed00441229bc99318d30fc9fc"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-6f5cfaee787d41149d5b0b10b93cf784" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-2d115da1a05846888c6609964638928d"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-70a15a68dffb47aabd1aa67f5fc84151" source="id-93869e353dd54b06b90794b2d0785379" target="id-702d1979b3634a7fae6a537f95cd0ccb"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-71f02b396f714a97b25c45dafcca033a" source="id-0bad2907f66540b5954bc5eb0e35ba9b" target="id-d974da9b3dc341f1b2c6e22e4009796a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-723e6d1a053c44f39ed0e89251f1fbce" source="id-6140b0bcf3aa44ab8c0137098352364d" target="id-76f91f51924e4f858d9554164ece1a0f"/>
@@ -2055,7 +2057,6 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-8ac4a3f31a754eb2993bc99990688805" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-d47e17732fb344d79996d472915371e0"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-8b1dbacfe0024f2a861df90e015eaa84" source="id-5ef12d74a642417684910d16092653f2" target="id-6502e902a19e4f4987a1340c7fefb05a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-8b36a38d8134446fb6aa9ba92e7fcef4" source="id-0da09931f8ac4b368c786703913087bf" target="id-95d4a5adf6e44308b2126fb23ae66a73"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-8c536b92edad491987064c5143bb1fd0" source="id-0da09931f8ac4b368c786703913087bf" target="id-46bb10676acf475c9857869ed8d1608a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-8ca04eda2f3e48b39a33e80157669fbb" source="id-0da09931f8ac4b368c786703913087bf" target="id-091cee839d714688a54c57a769eea984"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-8cfc0776e6334e5da921ac748f074b54" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-1786a7952d0e4aa9882e7416ba13c3d7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-8d9ecb9486374d78bda742a76085b2fc" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-108681ef00724a4ba689f412dd9ba257"/>
@@ -2094,6 +2095,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-a015581a7f5946bb8e6ff6710af2f4b4" source="id-bdd9ffe19f724e0fb42094958c71ce8e" target="id-5d1c3a474d43465b8d7f2670ee17f26a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a102aa6bf920497fba6639683506b7c7" source="id-5051532609b1444c926815801dc5652c" target="id-5def1e4c5f5d4e2d97baddc782b9b8c6"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a112b061d4b449babbae665bd2908629" source="id-5ef12d74a642417684910d16092653f2" target="id-f78d2b6646744e4ba75a221cad0e234c"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-a11574ecc0094eafaed651d348268c8f" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-622179f0f5ab4f9fa6ac73b164c5be51"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a1a490b0cffc43f48fb0c945c730f5f6" source="id-b160b994f4554d128443e7406af8d09e" target="id-9ad7c4b354e34226a5d86d81f8adf280"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a2e637d40b004860a64f473ea1591762" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-35ec7c5a907d4d5889a0491d4776a503"/>
     <element xsi:type="archimate:AssociationRelationship" name="is gemeten voor" id="id-a3e1eca77d7149fb8e4e88c376f6cd81" source="id-d663973596d447ae98a48793fe341f34" target="id-5559669d97cb4cdca49cbe04a07067ff"/>
@@ -2104,7 +2106,6 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-a615eba71c1743de89147e1d655904d6" source="id-592dc350d1034ca280d27157e17ba09d" target="id-5d1c3a474d43465b8d7f2670ee17f26a"/>
     <element xsi:type="archimate:AssociationRelationship" name="is gerepresenteerd in" id="id-a63abe1186914adbb6365cff8fcfc652" source="id-93869e353dd54b06b90794b2d0785379" target="id-b8382723adde49209c8e6ba8d3130fd5"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-a6470685b9554791b9b3ea61cbf2b43f" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-46bb10676acf475c9857869ed8d1608a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a68c9e7d419f4539ac752cf63147b777" source="id-0da09931f8ac4b368c786703913087bf" target="id-b6dcc54033c54e28af9ab38462132c3c"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a6f8bfd41d60458d8f36a7b3a87e29a0" source="id-0da09931f8ac4b368c786703913087bf" target="id-6c54b2cd36674bb19b9ed8238f3a68de"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a8f9cf84906f4da7ad66df79523243a1" source="id-0da09931f8ac4b368c786703913087bf" target="id-3d5e3c7b91dc412d9f110e7cbfca84aa"/>
@@ -2124,7 +2125,6 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-b3ee8929539f467a83287a59748e255e" source="id-f5d4c4f8264842e7ab69504476a0cdd4" target="id-dfbe1c09e48c41ebbf57626a369f05d7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b5f8f2d5ee3748e680bf0c4817c6e198" source="id-5559669d97cb4cdca49cbe04a07067ff" target="id-02a4804d1e204365a324f4629e057131"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b64eff2870bc4b10b1248d7996589063" source="id-bdd9ffe19f724e0fb42094958c71ce8e" target="id-bc1611966ade49bca32f7ef76c31bdad"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-b68ba77be1e44ac99cbdee26a96cabe4" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-3f8d32b5cf184fcbb48a3e5e8d455fa8"/>
     <element xsi:type="archimate:AssociationRelationship" name="3" id="id-b693cf327ea84951a54e65c29e951013" source="id-fca223917bb245fd97ff55c463938123" target="id-2021aa84fe144116bfdeb3e8c27f9f0b">
       <property key="volgnummer" value="3"/>
       <property key="niveau" value="1"/>
@@ -2151,6 +2151,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-bf0b1c8aa386402a8c303b2be062b6d7" source="id-521fc9d8b0c04730ac5ac93823baf06f" target="id-c40dfcb8cd544a32a5e95435fa66423e"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-bff3b3afae544e53a9f69ecdd84a0b41" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-35ec7c5a907d4d5889a0491d4776a503"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-c08c507878924eb3a35e5cd4e922b552" source="id-5d14a03bdd4f4f93b68149da9192663e" target="id-82bc0503fd5c4d67b52990d8f2337dce"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-c0a49a9050024dd4a4cca74f4e42d63d" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-622179f0f5ab4f9fa6ac73b164c5be51"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-c11d3088966a42fc9325234a3ee02f07" source="id-0da09931f8ac4b368c786703913087bf" target="id-09e98a85539140da9e118b8679661527"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-c1b8594f479b4c33b609ff7fc543c858" source="id-0da09931f8ac4b368c786703913087bf" target="id-bdcd0549c55a402c8d987ba3faae094f"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-c23583fc719545d5863fa08c970bfbfa" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-7189c427043b41579a1b5ac7065242b6"/>
@@ -2203,16 +2204,13 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-d7ef86d5587f4b28baae081c0b86fab9" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-14c201edcfb34a50864c0c511971e767"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-d8b529e508c649ad8686e571583dbc1c" source="id-8f048bf52b2e497d8f033cdc091084a6" target="id-dfbe1c09e48c41ebbf57626a369f05d7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-d8dedb924c674fd39a7adfbed0c1cc5f" source="id-0da09931f8ac4b368c786703913087bf" target="id-fcdb31a1e74440718fbe1b24a84c392e"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-d93c1cf15442438ca7c5bf0b584204d0" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-3f8d32b5cf184fcbb48a3e5e8d455fa8"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-d950c09a38a146d2931d252079f668ad" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-0251be44656c48abb8ca49eb29f71715"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-d97f23ab1c2644b4a68528b11438a91c" source="id-d2465138e3d44120a0132c92bc8ffdf3" target="id-3f8d32b5cf184fcbb48a3e5e8d455fa8"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-d99dddda7fb748a9975968b22d4dacc7" source="id-b160b994f4554d128443e7406af8d09e" target="id-b6dcc54033c54e28af9ab38462132c3c"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-da9d21eaa623484dbb9d9b13b27d21ff" source="id-d896763cdeee448e953a2193561a728f" target="id-654de455909049e5880ca18ca40935ed"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-daacb5ce13da44018cc40dbbbde2d70e" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-39b68135266a4b08be0c9bacacd8a5da"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-db2af0e4b9ad4537a6ec3e6ca5dc2ea6" source="id-5ef12d74a642417684910d16092653f2" target="id-da7a4768123a4f0b9336cce462bfdbfc"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-db429d2eefc848ffbd8b9e71dc318b27" source="id-5ef12d74a642417684910d16092653f2" target="id-4ca2f05b381642d0987771b5f0af22a3"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-dbe5df2d9ec34e0ea8e44d0dc844527d" source="id-b160b994f4554d128443e7406af8d09e" target="id-d974da9b3dc341f1b2c6e22e4009796a"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-dc0b2a63c67b48bfb6c65a29da0be3a7" source="id-a8bbacb1e2cb410b94715623077562f5" target="id-b5b54e4f16e04d6aacca4e426b1efdce"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-dd6c99e19d7f45f4a73222afe98a47d6" source="id-f5d4c4f8264842e7ab69504476a0cdd4" target="id-02a4804d1e204365a324f4629e057131"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-de72f87636534ed19236a7811480a1a3" source="id-51addf9338fa40d4abb17533786677d0" target="id-978c37663b714e0fbdc9ec088db243d4"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e13d58fa574c444fa36e6f54d2215ae4" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-a886fec7ea1447db9831cd8c85bcd77c"/>
@@ -2230,6 +2228,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:AssociationRelationship" id="id-e55f7a8a7d954ede9ee719a063b99ea4" source="id-87ae2ab6ffb1475392848037863c404c" target="id-e0f07c7f77834fd081955c8d99f288f7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e5d447fc37174c8a922322144f873858" source="id-b160b994f4554d128443e7406af8d09e" target="id-9d943684fc1e4678a99a37ec061dcd19"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e6516d124a864ab1b957f59d35745b5e" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-cc4548cefc604808952b9fc34ae15981"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-e6a0ead417e1424e8a1df0954c7f2d05" source="id-0da09931f8ac4b368c786703913087bf" target="id-2d115da1a05846888c6609964638928d"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e7fe3dcc3215436380572d0a8e2730bb" source="id-b160b994f4554d128443e7406af8d09e" target="id-bd9f9a2fe62245c7ae1f01f5ff6ee28a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e86119c9cd164918866d2498cd387a05" source="id-5559669d97cb4cdca49cbe04a07067ff" target="id-e0903391f835401798f98afd39daea1a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e979be4ecdef4ee1a06cc0fed98471f8" source="id-54bd0877c7c04a8e813cc06e0a98e700" target="id-5def1e4c5f5d4e2d97baddc782b9b8c6"/>
@@ -2325,6 +2324,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
     <element xsi:type="archimate:CompositionRelationship" id="id-f7dd34a7f1b940aaac95292c4a73ce50" source="id-0da09931f8ac4b368c786703913087bf" target="id-521fc9d8b0c04730ac5ac93823baf06f"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-ff49c9a4209f48a4ab6b2ddd81bb25c2" source="id-592dc350d1034ca280d27157e17ba09d" target="id-eb64c1bcb6af46da9cc40b24284e5b69"/>
     <element xsi:type="archimate:FlowRelationship" id="id-02161f986a474cddb944a7fcaa203eab" source="id-b8bd855199e9414b937ab5aaf1c2411f" target="id-b8bd855199e9414b937ab5aaf1c2411f"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-03037ac6d6984aa2a4a46b5b993b6b8b" source="id-b5b54e4f16e04d6aacca4e426b1efdce" target="id-b5b54e4f16e04d6aacca4e426b1efdce"/>
     <element xsi:type="archimate:FlowRelationship" id="id-91e8a363cee34ca1b629f78962cbbcf2" source="id-ea34eeed23794fc5978ef39d96ba1b85" target="id-ea34eeed23794fc5978ef39d96ba1b85"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-128371cbb59f4bb0948e4aa7656f7d21" source="id-4e60a3427db84c92bf612bd8aef22947" target="id-0732329c1ebe42a4a6291122d1d04415"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-1475d8081b244eceb2348e53e27e47a0" source="id-3b7fd55c85ef44d689f7fe0c16da60e1" target="id-c5dc7e3513124ee19ef0e7c2aa6870ba"/>
@@ -2636,11 +2636,10 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Standaarden gegroepeerd en geplot op functiemodel" id="id-5df0c1360768493aa966c16f7dbfd414">
         <child xsi:type="archimate:DiagramObject" id="id-a39e57e671e44960a8ebad7fc43a0fbf" archimateElement="id-0da09931f8ac4b368c786703913087bf">
-          <bounds x="804" y="-36" width="577" height="649"/>
+          <bounds x="804" y="-36" width="577" height="709"/>
           <feature name="iconVisible" value="2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-ac469bbfb4b54cb3bb07fe65c9eeae0e" source="id-a39e57e671e44960a8ebad7fc43a0fbf" target="id-bdd335fa9bbc4188854ce94fb10b573d" archimateRelationship="id-431e14b107784c69b0d39a7f5f456c39"/>
           <child xsi:type="archimate:Group" id="id-6f19fdcc5111481ca76166b4e19114cb" name="Protocollen" textAlignment="1" fillColor="#ffffb5">
-            <bounds x="12" y="24" width="553" height="325"/>
+            <bounds x="12" y="24" width="553" height="373"/>
             <child xsi:type="archimate:DiagramObject" id="id-682419481f0f40d7b322cb64cccc5afc" fillColor="#ffffff" textPosition="1" archimateElement="id-d8486619cfed479eaa0f996e5af89ecf">
               <bounds x="12" y="36" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
@@ -2679,44 +2678,44 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
               <feature name="iconVisible" value="2"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-4d59b75056974543a6405c0e1f5c464c" fillColor="#ffffff" textPosition="1" archimateElement="id-b7baf6f4703f48ed874cc7b905d81e60">
-              <bounds x="372" y="36" width="169" height="37"/>
-              <feature name="iconVisible" value="2"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-e18662eda57342c98b0eb4861a2c5589" fillColor="#ffffff" textPosition="1" archimateElement="id-35ec7c5a907d4d5889a0491d4776a503">
-              <bounds x="372" y="84" width="169" height="37"/>
-              <feature name="iconVisible" value="2"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-723975247040425789063025f7fcab0e" fillColor="#ffffff" textPosition="1" archimateElement="id-4ac2f120b6ef47ebb5c8f522015a5d94">
               <bounds x="372" y="132" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-202ba7d0542644468b579b017bc635be" fillColor="#ffffff" textPosition="1" archimateElement="id-90ed729aa9144f2bad8d25d7bd4b9c0b">
+            <child xsi:type="archimate:DiagramObject" id="id-e18662eda57342c98b0eb4861a2c5589" fillColor="#ffffff" textPosition="1" archimateElement="id-35ec7c5a907d4d5889a0491d4776a503">
               <bounds x="372" y="180" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-6e56842a35314d6e87cc151ffb8797b0" fillColor="#ffffff" archimateElement="id-722d227311134e49a0f133a054b7b6aa">
+            <child xsi:type="archimate:DiagramObject" id="id-723975247040425789063025f7fcab0e" fillColor="#ffffff" textPosition="1" archimateElement="id-4ac2f120b6ef47ebb5c8f522015a5d94">
               <bounds x="372" y="228" width="169" height="37"/>
+              <feature name="iconVisible" value="2"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-202ba7d0542644468b579b017bc635be" fillColor="#ffffff" textPosition="1" archimateElement="id-90ed729aa9144f2bad8d25d7bd4b9c0b">
+              <bounds x="372" y="276" width="169" height="37"/>
+              <feature name="iconVisible" value="2"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-6e56842a35314d6e87cc151ffb8797b0" fillColor="#ffffff" archimateElement="id-722d227311134e49a0f133a054b7b6aa">
+              <bounds x="12" y="276" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-6743c660039641e6af9964a74390ecc3" fillColor="#ffffff" textPosition="1" archimateElement="id-d492fe8867bc4528bff797b5762dd4c2">
               <bounds x="12" y="228" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-721b991f405f46ec8719c037753665d6" fillColor="#ffffff" textPosition="1" archimateElement="id-46bb10676acf475c9857869ed8d1608a">
-              <bounds x="12" y="276" width="169" height="37"/>
-              <feature name="iconVisible" value="2"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-bdd335fa9bbc4188854ce94fb10b573d" targetConnections="id-ac469bbfb4b54cb3bb07fe65c9eeae0e" fillColor="#ffffff" textPosition="1" archimateElement="id-3f8d32b5cf184fcbb48a3e5e8d455fa8">
+            <child xsi:type="archimate:DiagramObject" id="id-faa0211667ec40d58dccc83bcd3207ea" fillColor="#ffffff" textPosition="1" archimateElement="id-fcdb31a1e74440718fbe1b24a84c392e">
               <bounds x="192" y="276" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-faa0211667ec40d58dccc83bcd3207ea" fillColor="#ffffff" textPosition="1" archimateElement="id-fcdb31a1e74440718fbe1b24a84c392e">
-              <bounds x="372" y="276" width="169" height="37"/>
+            <child xsi:type="archimate:DiagramObject" id="id-0ef7f1aa696d452b8faeff58f2089b40" fillColor="#ffffff" textPosition="1" archimateElement="id-622179f0f5ab4f9fa6ac73b164c5be51">
+              <bounds x="372" y="36" width="169" height="37"/>
+              <feature name="iconVisible" value="2"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-74e3f106b78245d8a865e467444a3985" fillColor="#ffffff" textPosition="1" archimateElement="id-2d115da1a05846888c6609964638928d">
+              <bounds x="372" y="84" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
           </child>
           <child xsi:type="archimate:Group" id="id-d050a8e37a054605b62a3622a4b9ccd1" name="Formaten" textAlignment="1" fillColor="#ffffb5">
-            <bounds x="12" y="360" width="553" height="277"/>
+            <bounds x="12" y="408" width="553" height="277"/>
             <child xsi:type="archimate:DiagramObject" id="id-cd9adb71ff0045c5a06e6533aa5ddeb8" fillColor="#ffffff" textPosition="1" archimateElement="id-09e98a85539140da9e118b8679661527">
               <bounds x="12" y="36" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
@@ -2808,7 +2807,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-bb3ddbeff40449f38e5303366d077b37" archimateElement="id-80e3338ec5a94dc4a0bab92c6d9b286a">
-          <bounds x="804" y="624" width="577" height="73"/>
+          <bounds x="804" y="684" width="577" height="73"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-48cfaf0a6e6f403f8332ae1e502a31cd" source="id-bb3ddbeff40449f38e5303366d077b37" target="id-02700ca55c2f4967b11ef7e58063a725" archimateRelationship="id-4c7c47e83f8d4f2aa1d142ceafe754ea"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-61072c935bf04faf989fef469e080068" source="id-bb3ddbeff40449f38e5303366d077b37" target="id-8f21b39d807447e8bcd4a9d536f5a921" archimateRelationship="id-d950c09a38a146d2931d252079f668ad"/>
@@ -3171,35 +3170,35 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
           <sourceConnection xsi:type="archimate:Connection" id="id-369074b45d3f4be8a7e9cb1cab2be78c" source="id-6fb233f674ec424e983b185ed2330e6c" target="id-d462181b97b0497696ffd0146f0559dd" archimateRelationship="id-201c02a9a31047c286f4431b99af1bb4"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-2dd276b6b0504edd9647ea3d7e1dc376" source="id-6fb233f674ec424e983b185ed2330e6c" target="id-e1c7dd04cd2e4209a45ff1db6dfc2179" archimateRelationship="id-22dfaf3248fc432fa7eaeaedb2eaf45d"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-33ba4312770d4869b975c0f8541c88d2" source="id-6fb233f674ec424e983b185ed2330e6c" target="id-a956432ea6ff479f9f72b8629debbf50" archimateRelationship="id-ce0cc7e138c346d19cd8d12bab7f3ab8"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-d5a98ecba9a2441fbe34272891dca92a" source="id-6fb233f674ec424e983b185ed2330e6c" target="id-c3e97b8763fa4f379b0e63f617f2f090" archimateRelationship="id-8c536b92edad491987064c5143bb1fd0"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-312db7ca6df84fa4a9c68fe3918a4863" source="id-6fb233f674ec424e983b185ed2330e6c" target="id-9f3a6c3ecbe545d791a8a551b17e3f33" archimateRelationship="id-431e14b107784c69b0d39a7f5f456c39"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-9b72439086fe4a45b09de7386e6372df" source="id-6fb233f674ec424e983b185ed2330e6c" target="id-2840e27b47934d60906ae0aefb5f3880" archimateRelationship="id-d8dedb924c674fd39a7adfbed0c1cc5f"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ff314cf2b8b947f3af91d2e4bce606aa" source="id-6fb233f674ec424e983b185ed2330e6c" target="id-304d4e5297a64cb68dd0288d02186f29" archimateRelationship="id-1be4d784a192449fa2d62cc2e67605ce"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-921cbffbd5604766bfc8d3b137659707" source="id-6fb233f674ec424e983b185ed2330e6c" target="id-f82cb18b39ce4be9b80daeb67b7ef4ff" archimateRelationship="id-e6a0ead417e1424e8a1df0954c7f2d05"/>
           <child xsi:type="archimate:DiagramObject" id="id-8617ea83b92e4cd493eabc2d2c312ed5" targetConnections="id-8b8ca391c19046939de5db4917c076dd" fillColor="#ffffff" textPosition="1" archimateElement="id-09e98a85539140da9e118b8679661527">
-            <bounds x="180" y="132" width="157" height="37"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-811bff0431c3406b9cd2c05b8774239b" targetConnections="id-42555e2faabc41bf9f2d452d2fa70bbd" fillColor="#ffffff" textPosition="1" archimateElement="id-6c54b2cd36674bb19b9ed8238f3a68de">
-            <bounds x="180" y="180" width="157" height="37"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-40898b3f54c14ac5b08914090dab9555" targetConnections="id-d1b5fe5f7eca48548442ac8bbb80d953" fillColor="#ffffff" textPosition="1" archimateElement="id-517bb1d25ac740adb78e062922c5db17">
             <bounds x="180" y="228" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-38bcd31a6bea4be9baef72edc24b2e39" targetConnections="id-414dd5f419da41bc850d5b72835a60ac" fillColor="#ffffff" textPosition="1" archimateElement="id-7f3f21e561764fe0bd54a826cb952254">
+          <child xsi:type="archimate:DiagramObject" id="id-811bff0431c3406b9cd2c05b8774239b" targetConnections="id-42555e2faabc41bf9f2d452d2fa70bbd" fillColor="#ffffff" textPosition="1" archimateElement="id-6c54b2cd36674bb19b9ed8238f3a68de">
             <bounds x="180" y="276" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-dad79af12e7a48af984c1dcec9b96568" targetConnections="id-fab3fe33ec7740fbbf56732fbdb553f1" fillColor="#ffffff" textPosition="1" archimateElement="id-a3e5e4fbe30f403c80a84306f62a3d66">
+          <child xsi:type="archimate:DiagramObject" id="id-40898b3f54c14ac5b08914090dab9555" targetConnections="id-d1b5fe5f7eca48548442ac8bbb80d953" fillColor="#ffffff" textPosition="1" archimateElement="id-517bb1d25ac740adb78e062922c5db17">
             <bounds x="180" y="324" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-2bae5f0506c54ee19379d149c2066f5c" targetConnections="id-1f59e41abb0e40849639e2bf40653eaa" fillColor="#ffffff" textPosition="1" archimateElement="id-091cee839d714688a54c57a769eea984">
+          <child xsi:type="archimate:DiagramObject" id="id-38bcd31a6bea4be9baef72edc24b2e39" targetConnections="id-414dd5f419da41bc850d5b72835a60ac" fillColor="#ffffff" textPosition="1" archimateElement="id-7f3f21e561764fe0bd54a826cb952254">
             <bounds x="180" y="372" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-830493d0f1664ccaa9c779d0708a74b7" targetConnections="id-7c10b79b11b44e738f8e4ac7c0457093" fillColor="#ffffff" textPosition="1" archimateElement="id-39b68135266a4b08be0c9bacacd8a5da">
+          <child xsi:type="archimate:DiagramObject" id="id-dad79af12e7a48af984c1dcec9b96568" targetConnections="id-fab3fe33ec7740fbbf56732fbdb553f1" fillColor="#ffffff" textPosition="1" archimateElement="id-a3e5e4fbe30f403c80a84306f62a3d66">
             <bounds x="180" y="420" width="157" height="37"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-2bae5f0506c54ee19379d149c2066f5c" targetConnections="id-1f59e41abb0e40849639e2bf40653eaa" fillColor="#ffffff" textPosition="1" archimateElement="id-091cee839d714688a54c57a769eea984">
+            <bounds x="180" y="468" width="157" height="37"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-830493d0f1664ccaa9c779d0708a74b7" targetConnections="id-7c10b79b11b44e738f8e4ac7c0457093" fillColor="#ffffff" textPosition="1" archimateElement="id-39b68135266a4b08be0c9bacacd8a5da">
+            <bounds x="180" y="516" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-4faa7d0a921642c2a7047f09e38ad21a" targetConnections="id-4c2268e131074ad3889275ced3579d9e" fillColor="#ffffff" textPosition="1" archimateElement="id-e0f07c7f77834fd081955c8d99f288f7">
@@ -3244,11 +3243,11 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-5d449ab0c4a4465ca4b7eccfa4d4170f" targetConnections="id-542e3dd36f9049b2ac2e1f1a1a5b6f35" fillColor="#ffffff" textPosition="1" archimateElement="id-b7baf6f4703f48ed874cc7b905d81e60">
-            <bounds x="180" y="36" width="157" height="37"/>
+            <bounds x="180" y="132" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-dc51d68d7a924c2cb613303491d27826" targetConnections="id-b832521f89cd4d8c8a2435117e338fbc" fillColor="#ffffff" textPosition="1" archimateElement="id-35ec7c5a907d4d5889a0491d4776a503">
-            <bounds x="180" y="84" width="157" height="37"/>
+            <bounds x="180" y="180" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-8713a788e1214aa8811065820b1e4c99" targetConnections="id-68f23692e5cd48ae9595bc9329099b46" fillColor="#ffffff" textPosition="1" archimateElement="id-65345368655446139e74ae4b4fb1b8dc">
@@ -3256,7 +3255,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1577596b614b42d592f67248256e26eb" targetConnections="id-4b35cf534d4d4a6c91e3351827045779" fillColor="#ffffff" textPosition="1" archimateElement="id-82bc0503fd5c4d67b52990d8f2337dce">
-            <bounds x="180" y="468" width="157" height="37"/>
+            <bounds x="12" y="516" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-e66922d9d87946d7aa84b5df2a629e32" targetConnections="id-c2d7c990f4c94e4884a93a7cf47419c5" fillColor="#ffffff" textPosition="1" archimateElement="id-25074a472a37451c87083003b618cb81">
@@ -3287,16 +3286,16 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
             <bounds x="348" y="372" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-c3e97b8763fa4f379b0e63f617f2f090" targetConnections="id-d5a98ecba9a2441fbe34272891dca92a" fillColor="#ffffff" textPosition="1" archimateElement="id-46bb10676acf475c9857869ed8d1608a">
+          <child xsi:type="archimate:DiagramObject" id="id-2840e27b47934d60906ae0aefb5f3880" targetConnections="id-9b72439086fe4a45b09de7386e6372df" fillColor="#ffffff" textPosition="1" archimateElement="id-fcdb31a1e74440718fbe1b24a84c392e">
             <bounds x="348" y="420" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-9f3a6c3ecbe545d791a8a551b17e3f33" targetConnections="id-312db7ca6df84fa4a9c68fe3918a4863" fillColor="#ffffff" textPosition="1" archimateElement="id-3f8d32b5cf184fcbb48a3e5e8d455fa8">
-            <bounds x="348" y="468" width="157" height="37"/>
+          <child xsi:type="archimate:DiagramObject" id="id-304d4e5297a64cb68dd0288d02186f29" targetConnections="id-ff314cf2b8b947f3af91d2e4bce606aa" fillColor="#ffffff" textPosition="1" archimateElement="id-622179f0f5ab4f9fa6ac73b164c5be51">
+            <bounds x="180" y="36" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-2840e27b47934d60906ae0aefb5f3880" targetConnections="id-9b72439086fe4a45b09de7386e6372df" fillColor="#ffffff" textPosition="1" archimateElement="id-fcdb31a1e74440718fbe1b24a84c392e">
-            <bounds x="348" y="516" width="157" height="37"/>
+          <child xsi:type="archimate:DiagramObject" id="id-f82cb18b39ce4be9b80daeb67b7ef4ff" targetConnections="id-921cbffbd5604766bfc8d3b137659707" fillColor="#ffffff" textPosition="1" archimateElement="id-2d115da1a05846888c6609964638928d">
+            <bounds x="180" y="84" width="157" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
@@ -3965,8 +3964,9 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
           <sourceConnection xsi:type="archimate:Connection" id="id-b2b5188dd92641839ba7ca90ed2664b2" source="id-48284702864e4185ac08435d582f5aa7" target="id-3b896b16ced54738bbb4bc3f41574d85" archimateRelationship="id-201c02a9a31047c286f4431b99af1bb4"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-969449a9e04a455190a88bb3b1ec6933" source="id-48284702864e4185ac08435d582f5aa7" target="id-0a863816bce14b9d8cf3f1f94d39b4f2" archimateRelationship="id-75fa6937774f4698b0bbbc2636f38409"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-02d62c7ca3aa4a7d991c94bf79d9152a" source="id-48284702864e4185ac08435d582f5aa7" target="id-895ce3c2cbe94f97bb7b3f922c4ec1ac" archimateRelationship="id-ce0cc7e138c346d19cd8d12bab7f3ab8"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-5197bd7223e640a58962fb0d7c00893f" source="id-48284702864e4185ac08435d582f5aa7" target="id-9951f7a55eab422da5b2a01e102ef44c" archimateRelationship="id-8c536b92edad491987064c5143bb1fd0"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-68305d9fb59143f08b9d3a5f2522af8c" source="id-48284702864e4185ac08435d582f5aa7" target="id-ad52c17a6d3945d0b717fc60587152b2" archimateRelationship="id-d8dedb924c674fd39a7adfbed0c1cc5f"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-3fc930fc73ab4c18899a9380293c777f" source="id-48284702864e4185ac08435d582f5aa7" target="id-aa9991013b664102b64d7894cadb6210" archimateRelationship="id-1be4d784a192449fa2d62cc2e67605ce"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-134c46a3123b4a77afc285e864cb8b7b" source="id-48284702864e4185ac08435d582f5aa7" target="id-ad7a6ddb88f94e2d98e53b40205741c0" archimateRelationship="id-e6a0ead417e1424e8a1df0954c7f2d05"/>
           <child xsi:type="archimate:DiagramObject" id="id-177665012ebd45e696221d5bb89320a1" targetConnections="id-1842a962aef94e5294720bbabde2744c" fillColor="#ffffff" textPosition="1" archimateElement="id-06c74ea4eb7a4052b002d1f9ce22c820">
             <bounds x="180" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
@@ -3996,8 +3996,8 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
             <sourceConnection xsi:type="archimate:Connection" id="id-369173962bf24f55b95460246350134c" source="id-ffd0c2fb69c64287afc09d16128b8961" target="id-ed13eca2c37f4c5b9ffa2e3015f0901d" archimateRelationship="id-eecd0afa7235497ca658fc20856776ac"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-8c3a18b14b1d42c9b1701df50530b3d7" source="id-ffd0c2fb69c64287afc09d16128b8961" target="id-dd1fd52bc9be429fbc61d58cec5a156f" archimateRelationship="id-3b0ba5e7aebf4a1eb44562800becbf47"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-e6b1aac53a264b7ab12264e54f344a71" source="id-ffd0c2fb69c64287afc09d16128b8961" target="id-895ce3c2cbe94f97bb7b3f922c4ec1ac" archimateRelationship="id-5d1c9e33a81f42ff9be3a264fa75ce22"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-f091475ce61445f4840930f9940d5c4e" source="id-ffd0c2fb69c64287afc09d16128b8961" target="id-9951f7a55eab422da5b2a01e102ef44c" archimateRelationship="id-a6470685b9554791b9b3ea61cbf2b43f"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-d55b140ecff84e5a9b18caa135efec50" source="id-ffd0c2fb69c64287afc09d16128b8961" target="id-a1ade3342dca45c4bef8ea9e16d59271" archimateRelationship="id-b68ba77be1e44ac99cbdee26a96cabe4"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-89b12a0905ac4a07b1001c194c6f0267" source="id-ffd0c2fb69c64287afc09d16128b8961" target="id-aa9991013b664102b64d7894cadb6210" archimateRelationship="id-c0a49a9050024dd4a4cca74f4e42d63d"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-6e44f9cdb7fc42f5847924457f4d39e9" source="id-ffd0c2fb69c64287afc09d16128b8961" target="id-ad7a6ddb88f94e2d98e53b40205741c0" archimateRelationship="id-2e5c407fdbd24da6a5fcbf7b0bc7f9bb"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-968d7fd9576a4d2caef813cdad326ea7" targetConnections="id-f08e472d273f45e5aac016f190711418" fillColor="#ffffff" textPosition="1" archimateElement="id-75c7bd8abe3244d3aed0a72bf1509275">
             <bounds x="12" y="156" width="157" height="55"/>
@@ -4019,8 +4019,6 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
             <feature name="iconVisible" value="2"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-73b264cbdc3d4b359459f877cae9a410" source="id-fd5753f5f2184704aff9cfc2a23bc327" target="id-242abf6bedb64db2951cb951f52350f0" archimateRelationship="id-5e3e0a23b8d54134982b20545ca00b7d"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-c0d5741fba4344cbaf083774f4d5bdfb" source="id-fd5753f5f2184704aff9cfc2a23bc327" target="id-895ce3c2cbe94f97bb7b3f922c4ec1ac" archimateRelationship="id-22f99d4d055d44e9b0d1cf6e04683fca"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-2d1fcf90a22e4eb4bff99d782c1cc109" source="id-fd5753f5f2184704aff9cfc2a23bc327" target="id-9951f7a55eab422da5b2a01e102ef44c" archimateRelationship="id-1b3c6ed15ca948158bb91381eacc2df3"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-158a0e9684ff409eab5f407c10682b6f" source="id-fd5753f5f2184704aff9cfc2a23bc327" target="id-a1ade3342dca45c4bef8ea9e16d59271" archimateRelationship="id-d97f23ab1c2644b4a68528b11438a91c"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-c9f08fcaa8d44c31b5dafae57b18e09d" targetConnections="id-a338fb807a3e42f088f3887ff8fa6a4d" fillColor="#ffffff" textPosition="1" archimateElement="id-0117f3617bc9465ca0df8a0441383b79">
             <bounds x="180" y="36" width="157" height="55"/>
@@ -4307,6 +4305,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
             <sourceConnection xsi:type="archimate:Connection" id="id-486651dd22d749b9bdd4616c021290c8" source="id-640c7f076b0f49759be7292023dc563e" target="id-c4922f43026e4b44b00dd157ea13e134" archimateRelationship="id-5a76a1f60e06406b8eecf6ab9d5cc677"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-dab9efbba91643c8b9d66dac9b0845f7" source="id-640c7f076b0f49759be7292023dc563e" target="id-086d7ad490ea47f487b405ec126cfe4e" archimateRelationship="id-20794c1a772549dfacc3a015cb3df5b6"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-ff8f496731a54d2bbd858dff71e4c1b0" source="id-640c7f076b0f49759be7292023dc563e" target="id-2e60f7f173f94863b42d1ce6188e14d3" archimateRelationship="id-f70798a81119459198577852fb640fec"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-11ab60f7ff934862b86277fecb092959" source="id-640c7f076b0f49759be7292023dc563e" target="id-aa9991013b664102b64d7894cadb6210" archimateRelationship="id-4c7bc15a9d5e4406a1b0f3b7f30a4358"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-ab33bf69c2c34f6dbaabcd13255387b7" targetConnections="id-2b15c472042c4f3babdf4fd090928dd5" fillColor="#ffffff" textPosition="1" archimateElement="id-eb64c1bcb6af46da9cc40b24284e5b69">
             <bounds x="12" y="336" width="157" height="55"/>
@@ -4324,7 +4323,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
           <bounds x="1506" y="24" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-1acded9a6be34e2da024c9ee9a30d386" targetConnections="id-de8b18997efa413dbe3593ac20a45331" archimateElement="id-091cee839d714688a54c57a769eea984">
-          <bounds x="1787" y="24" width="120" height="55"/>
+          <bounds x="2412" y="24" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-3e3aa31bd59d4750a965aff5f4cf4cb1" targetConnections="id-17c2a6c562cc4fd287391a0e17c177bb id-bbac55cdb6a64054a8bfd0c306a9e44d id-516ba8b54b79447bacccebde5b96a260" archimateElement="id-02a4804d1e204365a324f4629e057131">
           <bounds x="1200" y="124" width="120" height="55"/>
@@ -4521,14 +4520,14 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
         <child xsi:type="archimate:DiagramObject" id="id-895ce3c2cbe94f97bb7b3f922c4ec1ac" targetConnections="id-02d62c7ca3aa4a7d991c94bf79d9152a id-e6b1aac53a264b7ab12264e54f344a71 id-c0d5741fba4344cbaf083774f4d5bdfb" archimateElement="id-d492fe8867bc4528bff797b5762dd4c2">
           <bounds x="1644" y="24" width="120" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-9951f7a55eab422da5b2a01e102ef44c" targetConnections="id-f091475ce61445f4840930f9940d5c4e id-5197bd7223e640a58962fb0d7c00893f id-2d1fcf90a22e4eb4bff99d782c1cc109" archimateElement="id-46bb10676acf475c9857869ed8d1608a">
-          <bounds x="1656" y="524" width="120" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-a1ade3342dca45c4bef8ea9e16d59271" targetConnections="id-d55b140ecff84e5a9b18caa135efec50 id-158a0e9684ff409eab5f407c10682b6f" archimateElement="id-3f8d32b5cf184fcbb48a3e5e8d455fa8">
-          <bounds x="1787" y="424" width="120" height="55"/>
-        </child>
         <child xsi:type="archimate:DiagramObject" id="id-ad52c17a6d3945d0b717fc60587152b2" targetConnections="id-9e6c931c3a184e24b1c59c0336588a2f id-68305d9fb59143f08b9d3a5f2522af8c" archimateElement="id-fcdb31a1e74440718fbe1b24a84c392e">
           <bounds x="2040" y="552" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-aa9991013b664102b64d7894cadb6210" targetConnections="id-3fc930fc73ab4c18899a9380293c777f id-11ab60f7ff934862b86277fecb092959 id-89b12a0905ac4a07b1001c194c6f0267" archimateElement="id-622179f0f5ab4f9fa6ac73b164c5be51">
+          <bounds x="1781" y="24" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ad7a6ddb88f94e2d98e53b40205741c0" targetConnections="id-134c46a3123b4a77afc285e864cb8b7b id-6e44f9cdb7fc42f5847924457f4d39e9" archimateElement="id-2d115da1a05846888c6609964638928d">
+          <bounds x="1931" y="24" width="120" height="55"/>
         </child>
         <property key="Status" value="nvt"/>
         <property key="Beheerorganisatie" value="W3C"/>
@@ -4717,9 +4716,9 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
           <sourceConnection xsi:type="archimate:Connection" id="id-8c19cc73aba14c6c938e0f3be8dd7eaa" source="id-c95575b007a74a019a042022c8b37ed0" target="id-66ab262bc4824958acdc890c49da2fc6" archimateRelationship="id-72a4916b501046c4964ecd91e013f84d"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-22a27b0c549a47479614c526a04ee8ab" source="id-c95575b007a74a019a042022c8b37ed0" target="id-694271fa98a2467e84dac4dc4c117acd" archimateRelationship="id-5cd2191b490140cc9ff354c208529317"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-4dbb03f409fd4752ad0b1a767f03fd3a" source="id-c95575b007a74a019a042022c8b37ed0" target="id-2d3d40f70b934e4da9c3cec7f2cecc54" archimateRelationship="id-b79834886e3745e6802f43baf684ad1f"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-274c7e23ca394837946bbb4f4040d4f7" source="id-c95575b007a74a019a042022c8b37ed0" target="id-5a054eff84674097b93474465c4bba69" archimateRelationship="id-27a70f8c178a479eb1ba9de5b2ef5e8d"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-11c802d837a044c884b2d4df5d81acf8" source="id-c95575b007a74a019a042022c8b37ed0" target="id-ad829246cccc42b597ce9538ad992147" archimateRelationship="id-d93c1cf15442438ca7c5bf0b584204d0"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-5b6638ad3de94098b649bffe3244843d" source="id-c95575b007a74a019a042022c8b37ed0" target="id-637a9f4bd9a74d3da7cd9b300cd09a17" archimateRelationship="id-82462a58e5d5433ea6e2599a8046e391"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d730d00f442e444ba1d858acf135d6d2" source="id-c95575b007a74a019a042022c8b37ed0" target="id-965c983f62bb494985cdf464a713f562" archimateRelationship="id-a11574ecc0094eafaed651d348268c8f"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-00d1024632384963a7b462ab4ead4ba7" source="id-c95575b007a74a019a042022c8b37ed0" target="id-190802dcaada4cce96e8261a1c021f4c" archimateRelationship="id-6f5cfaee787d41149d5b0b10b93cf784"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-d6233602b360481abcf06b8359d7b23f" targetConnections="id-e94a6258bab04931bb301e4fbe5ae23f" fillColor="#ffffff" textPosition="1" archimateElement="id-5d14a03bdd4f4f93b68149da9192663e">
           <bounds x="936" y="444" width="120" height="55"/>
@@ -4741,7 +4740,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
           <bounds x="1920" y="108" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-87f3628abc3243d182d57ae34ff990de" targetConnections="id-c2d38f7ca3264a058aeb42caabe2993a" archimateElement="id-091cee839d714688a54c57a769eea984">
-          <bounds x="2226" y="108" width="120" height="55"/>
+          <bounds x="2664" y="108" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-21ff975172934180a503f31983dfd367" targetConnections="id-175c2cb2bca046278d7c46e280b4438e id-209fd86b2a03434eaa3c50064beaf012" archimateElement="id-02a4804d1e204365a324f4629e057131">
           <bounds x="1620" y="214" width="120" height="55"/>
@@ -4940,14 +4939,14 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
         <child xsi:type="archimate:DiagramObject" id="id-2d3d40f70b934e4da9c3cec7f2cecc54" targetConnections="id-4dbb03f409fd4752ad0b1a767f03fd3a" archimateElement="id-d492fe8867bc4528bff797b5762dd4c2">
           <bounds x="2070" y="108" width="120" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-5a054eff84674097b93474465c4bba69" targetConnections="id-274c7e23ca394837946bbb4f4040d4f7" archimateElement="id-46bb10676acf475c9857869ed8d1608a">
-          <bounds x="2070" y="612" width="120" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-ad829246cccc42b597ce9538ad992147" targetConnections="id-11c802d837a044c884b2d4df5d81acf8" archimateElement="id-3f8d32b5cf184fcbb48a3e5e8d455fa8">
-          <bounds x="2495" y="514" width="120" height="55"/>
-        </child>
         <child xsi:type="archimate:DiagramObject" id="id-637a9f4bd9a74d3da7cd9b300cd09a17" targetConnections="id-5b6638ad3de94098b649bffe3244843d id-50f9666176c6426bb0081ef9f3eaf9a4" archimateElement="id-fcdb31a1e74440718fbe1b24a84c392e">
           <bounds x="2640" y="514" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-965c983f62bb494985cdf464a713f562" targetConnections="id-d730d00f442e444ba1d858acf135d6d2" archimateElement="id-622179f0f5ab4f9fa6ac73b164c5be51">
+          <bounds x="2378" y="108" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-190802dcaada4cce96e8261a1c021f4c" targetConnections="id-00d1024632384963a7b462ab4ead4ba7" archimateElement="id-2d115da1a05846888c6609964638928d">
+          <bounds x="2521" y="108" width="120" height="55"/>
         </child>
       </element>
     </folder>
@@ -6197,7 +6196,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
       </element>
     </folder>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Metamodel" id="id-67f7c0a8a1204083b3fbcf96875bcbf5">
-      <child xsi:type="archimate:DiagramObject" id="id-380a2caf8e52468d9ca9820c6b13ec7d" targetConnections="id-a0cf49b8f2b749ee8827f84c81b6dae7 id-4d3684d845264c3699c3ed9e73162d3d id-4176c3b18c194f3fb7804006dec7d8b8 id-96ce8dc63cf54dde8cd587597ca841c8 id-2047a220bfc2404a89b00e96e82e28db" textPosition="1" archimateElement="id-02a2244645ab48e7bfe7c0247690e2e9">
+      <child xsi:type="archimate:DiagramObject" id="id-380a2caf8e52468d9ca9820c6b13ec7d" targetConnections="id-a0cf49b8f2b749ee8827f84c81b6dae7 id-4d3684d845264c3699c3ed9e73162d3d id-4176c3b18c194f3fb7804006dec7d8b8 id-96ce8dc63cf54dde8cd587597ca841c8 id-2047a220bfc2404a89b00e96e82e28db id-27946f62e811439cbdfd5e9a4ef6e956" textPosition="1" archimateElement="id-02a2244645ab48e7bfe7c0247690e2e9">
         <bounds x="673" y="492" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-e60c8c60f6314d6d973afcd9c787d8ec" source="id-380a2caf8e52468d9ca9820c6b13ec7d" target="id-cf2a91fc9ca342b6921645872d7defa9" archimateRelationship="id-61ea0e25a8cf434db6240ff6a777b975"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a0cf49b8f2b749ee8827f84c81b6dae7" source="id-380a2caf8e52468d9ca9820c6b13ec7d" target="id-380a2caf8e52468d9ca9820c6b13ec7d" archimateRelationship="id-f49627484fcd4de78fab3d43668d6985">
@@ -6294,7 +6293,7 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
           <bendpoint startX="24" startY="-363" endX="24" endY="345"/>
         </sourceConnection>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-8d2faf41eb734643bcec91214cc4277f" targetConnections="id-25e347c8ae254d3da3791ca0f8c1739d id-fb00d13e77ec43d1bf38e46b89c203d2" textPosition="1" archimateElement="id-b5b54e4f16e04d6aacca4e426b1efdce">
+      <child xsi:type="archimate:DiagramObject" id="id-8d2faf41eb734643bcec91214cc4277f" targetConnections="id-25e347c8ae254d3da3791ca0f8c1739d id-c2da1725f24a4a93942e72ea35bdc8b7" textPosition="1" archimateElement="id-b5b54e4f16e04d6aacca4e426b1efdce">
         <bounds x="408" y="348" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-25e347c8ae254d3da3791ca0f8c1739d" source="id-8d2faf41eb734643bcec91214cc4277f" target="id-8d2faf41eb734643bcec91214cc4277f" archimateRelationship="id-acb27a5cd0ac4d7db44eaedee207dcfe">
           <bendpoint startX="-84" startY="-15" endX="-84" endY="-15"/>
@@ -6302,10 +6301,15 @@ Het is veel natuurlijker als feiten zelf de eenheid van registratie zijn. Een ve
           <bendpoint startX="-36" startY="-39" endX="-36" endY="-39"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-61249ae5664c4ed184f6c6c1162d9a03" source="id-8d2faf41eb734643bcec91214cc4277f" target="id-d0e35563fe3f449dbf5737e3f158976e" archimateRelationship="id-83aa68418e5547f0940333bfb01a29cc"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-c2da1725f24a4a93942e72ea35bdc8b7" source="id-8d2faf41eb734643bcec91214cc4277f" target="id-8d2faf41eb734643bcec91214cc4277f" archimateRelationship="id-03037ac6d6984aa2a4a46b5b993b6b8b">
+          <bendpoint startX="-36" startY="45" endX="-36" endY="45"/>
+          <bendpoint startX="-84" startY="45" endX="-84" endY="45"/>
+          <bendpoint startX="-84" startY="9" endX="-84" endY="9"/>
+        </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-416169968e0d4327bb6e6d85d1087ec8" textPosition="1" archimateElement="id-a8bbacb1e2cb410b94715623077562f5">
         <bounds x="409" y="492" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-fb00d13e77ec43d1bf38e46b89c203d2" source="id-416169968e0d4327bb6e6d85d1087ec8" target="id-8d2faf41eb734643bcec91214cc4277f" archimateRelationship="id-dc0b2a63c67b48bfb6c65a29da0be3a7"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-27946f62e811439cbdfd5e9a4ef6e956" source="id-416169968e0d4327bb6e6d85d1087ec8" target="id-380a2caf8e52468d9ca9820c6b13ec7d" archimateRelationship="id-5c829d38802e435cb1997c49ae0d9a5c"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-c09ba2c04e07403aa903378931a2ee43" textPosition="1" archimateElement="id-54bd0877c7c04a8e813cc06e0a98e700">
         <bounds x="408" y="624" width="120" height="55"/>
