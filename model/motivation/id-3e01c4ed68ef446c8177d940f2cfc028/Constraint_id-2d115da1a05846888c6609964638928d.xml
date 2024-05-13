@@ -1,17 +1,17 @@
 <archimate:Constraint
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Jakarta Messaging"
-    id="id-3f8d32b5cf184fcbb48a3e5e8d455fa8"
-    documentation="Jakarta Messaging, voorheen bekend als JMS, is een Java-gebaseerde API voor het uitwisselen van berichten.">
+    name="API Tiles"
+    id="id-2d115da1a05846888c6609964638928d"
+    documentation="De OGC API Tiles standaard ondersteunt het bevragen van geografische gegevens als tiles.">
   <properties
       key="Status"
       value="nvt"/>
   <properties
       key="Beheerorganisatie"
-      value="Eclipse"/>
+      value="OGC"/>
   <properties
       key="URL"
-      value="https://projects.eclipse.org/projects/ee4j.messaging"/>
+      value="https://ogcapi.ogc.org/tiles/"/>
   <profiles
       href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
 </archimate:Constraint>
