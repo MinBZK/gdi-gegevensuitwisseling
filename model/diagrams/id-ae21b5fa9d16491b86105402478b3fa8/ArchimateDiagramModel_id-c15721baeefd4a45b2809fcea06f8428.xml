@@ -798,7 +798,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-97a31a35da52412f804fc29efbf18784"
-        targetConnections="id-2db645b5a9704812a0e66297dde4403a id-1d4a7f442ac64aa291b68b5ad81d2660 id-746baa62b282482da7e7566fc5d5aec1 id-66fabcba3409459081ccc38558e19b1f"
+        targetConnections="id-2db645b5a9704812a0e66297dde4403a id-746baa62b282482da7e7566fc5d5aec1 id-66fabcba3409459081ccc38558e19b1f"
         fillColor="#ffffff"
         textPosition="1">
       <features
@@ -1857,16 +1857,6 @@
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-caa26b17df2d4414887e44ecf0163649.xml#id-caa26b17df2d4414887e44ecf0163649"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-1d4a7f442ac64aa291b68b5ad81d2660"
-        lineColor="#808080"
-        source="id-fad8fc8c42d148a9b132a2f319248bad"
-        target="id-97a31a35da52412f804fc29efbf18784">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_id-e8a09f3316a84317b1e8997ccd6c1e4a.xml#id-e8a09f3316a84317b1e8997ccd6c1e4a"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
