@@ -137,12 +137,12 @@ Het is belangrijk om te onderkennen dat er heel veel verschillende vormen van ge
 In onderstaande tabel wordt een overzicht gegeven van de verschillende vormen van gegevensuitwisseling, hun primaire toepassingsgebied en de aanbevolen standaarden.&#xD;
 &lt;/p>&lt;p>&#xD;
 &lt;table class=&quot;table table-striped&quot;>&#xD;
-&lt;tr>&lt;td>&lt;b>Vorm van gegevensuitwisseling&lt;/b>&lt;/td>&lt;td>&lt;b>Toepassingsgebied&lt;/b>&lt;/td>&lt;td>&lt;b>Aanbevolen standaarden&lt;/b>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Service-oriëntatie&lt;/td>&lt;td>&lt;ul>&lt;li>Complexe functionaliteit&lt;/li>&lt;li>Samenstellingen van verschillende gegevensbewerkingen&lt;/li>&lt;/ul>&lt;/td>&lt;td>SOAP, Digikoppeling WUS, WSDL&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Resource-oriëntatie&lt;/td>&lt;td>&lt;ul>&lt;li>Eenvoudige functionaliteit&lt;/li>&lt;li>Nadruk op eenvoudige bewerking van gegevens&lt;/li>&lt;/ul>&lt;/td>&lt;td>GraphQL, API Features, API Tiles, NL WFS, NL WMS, Digikoppeling REST API, API Design Rules, API Specification&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td width=20%>&lt;b>Vorm van gegevensuitwisseling&lt;/b>&lt;/td>&lt;td width=40%>&lt;b>Toepassingsgebied&lt;/b>&lt;/td>&lt;td width=40%>&lt;b>Aanbevolen standaarden&lt;/b>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Service-oriëntatie&lt;/td>&lt;td>&lt;ul>&lt;li>Complexe functionaliteit&lt;/li>&lt;li>Samenstellingen van verschillende gegevensbewerkingen&lt;/li>&lt;/ul>&lt;/td>&lt;td>Digikoppeling WUS, SOAP, WSDL&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Resource-oriëntatie&lt;/td>&lt;td>&lt;ul>&lt;li>Eenvoudige functionaliteit&lt;/li>&lt;li>Nadruk op eenvoudige bewerking van gegevens&lt;/li>&lt;/ul>&lt;/td>&lt;td>Digikoppeling REST API, API Design Rules, GraphQL, API Features, API Tiles, NL WFS, NL WMS, OpenAPI Specification&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>Eventoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Afhandelen van gebeurtenissen&lt;/li>&lt;li>Snel inspringen op gebeurtenissen&lt;/li>&lt;/ul>&lt;/td>&lt;td>NL GOV profile for CloudEvents, AsyncAPI&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Gegevensoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Periodieke batchprocessen en bulkverwerkingen&lt;/li>&lt;li>Datawarehousing en business intelligence&lt;/li>&lt;/ul>&lt;/td>&lt;td>Odata, FTP, HTTP, HDFS, Digikoppeling GB&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Berichtoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Betrouwbaar en schaalbaar verwerken van mutaties&lt;/li>&lt;li>Integratie met legacy systemen&lt;/li>&lt;/ul>&lt;/td>&lt;td>ebMS, AMQP&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Gegevensoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Periodieke batchprocessen en bulkverwerkingen&lt;/li>&lt;li>Datawarehousing en business intelligence&lt;/li>&lt;/ul>&lt;/td>&lt;td>Digikoppeling GB, OData, FTP, HTTP&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Berichtoriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Betrouwbaar en schaalbaar verwerken van mutaties&lt;/li>&lt;li>Integratie met legacy systemen&lt;/li>&lt;/ul>&lt;/td>&lt;td>Digikoppeling ebMS, ebMS, AMQP&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>Weboriëntatie&lt;/b>&lt;/td>&lt;td>&lt;ul>&lt;li>Betekenisvol publiceren van gegevens op het web&lt;/li>&lt;li>Wereldwijd verbindingen leggen tussen gegevens&lt;/li>&lt;li>Publicatie van metagegevens&lt;/li>&lt;/ul>&lt;/td>&lt;td>SPARQL, IIIF, RDF, RDFS, OWL, SHACL, SKOS&lt;/td>&lt;/tr>&#xD;
 &lt;/table>&#xD;
 &lt;/p>&#xD;
