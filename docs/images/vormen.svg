@@ -39,7 +39,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="matrix(0.26458333,0,0,0.26458333,-29.047485,-51.726399)"
+       transform="matrix(0.26458333,0,0,0.26458333,-29.405019,-53.285203)"
        id="g62">
       <rect
          x="565"
@@ -172,7 +172,7 @@
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(756.087,400)"
+         transform="translate(753.478,400)"
          id="text13">Aanlevering</text>
       <text
          fill="#ff0000"
@@ -180,7 +180,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(160.414,333)"
+         transform="translate(158.703,333)"
          id="text14">Eventoriëntatie</text>
       <text
          fill="#ff0000"
@@ -196,7 +196,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(709.292,334)"
+         transform="translate(705.803,334)"
          id="text16">Resource</text>
       <text
          fill="#ff0000"
@@ -204,7 +204,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(751.958,334)"
+         transform="translate(748.47,334)"
          id="text17">-</text>
       <text
          fill="#ff0000"
@@ -212,7 +212,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(756.125,334)"
+         transform="translate(752.636,334)"
          id="text18">oriëntatie</text>
       <rect
          x="566"
@@ -283,7 +283,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(449.525,334)"
+         transform="translate(438.134,334)"
          id="text27">Service</text>
       <text
          fill="#ff0000"
@@ -291,7 +291,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(483.692,334)"
+         transform="translate(472.301,334)"
          id="text28">-</text>
       <text
          fill="#ff0000"
@@ -299,7 +299,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(487.858,334)"
+         transform="translate(476.468,334)"
          id="text29">oriëntatie</text>
       <rect
          x="234"
@@ -495,7 +495,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(685.086,520)"
+         transform="translate(677.607,520)"
          id="text52">Betekenis</text>
       <text
          fill="#ff0000"
@@ -503,7 +503,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(730.253,520)"
+         transform="translate(722.773,520)"
          id="text53">oriëntatie</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -560,7 +560,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(736.179,594)"
+         transform="translate(733.788,594)"
          id="text60">Betekenis</text>
       <text
          fill="#ff0000"
@@ -568,7 +568,7 @@
          font-style="italic"
          font-weight="400"
          font-size="9px"
-         transform="translate(781.346,594)"
+         transform="translate(778.954,594)"
          id="text61">oriëntatie</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
