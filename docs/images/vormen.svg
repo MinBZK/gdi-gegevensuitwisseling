@@ -39,8 +39,8 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="matrix(0.26458333,0,0,0.26458333,-16.904778,-54.198315)"
-       id="g57">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.01901,-53.315038)"
+       id="g54">
       <rect
          x="602"
          y="387"
@@ -126,60 +126,54 @@
          font-weight="400"
          font-size="12px"
          transform="translate(710.951,321)"
-         id="text8">Schaalbare, eenvoudige r</text>
-      <text
-         font-family="Verdana, Verdana_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="12px"
-         transform="translate(865.284,321)"
-         id="text9">aadpleging</text>
+         id="text8">Schaalbare, eenvoudige raadpleging</text>
       <rect
          x="187"
          y="216"
          width="122"
          height="78"
          fill="#5b9bd5"
-         id="rect9" />
+         id="rect8" />
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(223.304,252)"
-         id="text10">Proces</text>
+         id="text9">Proces</text>
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(267.138,252)"
-         id="text11">-</text>
+         id="text10">-</text>
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(220.138,268)"
-         id="text12">systeem</text>
+         id="text11">systeem</text>
       <path
          d="M 0.5,-5.66354e-7 0.500097,86.02 h -1 L -0.5,5.66354e-7 Z M 4.0001,84.6866 l -3.999995013,8 -4.000004987,-8 z"
          transform="matrix(1,0,0,-1,248.5,387.187)"
-         id="path12" />
+         id="path11" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="12px"
          transform="translate(75.1132,321)"
-         id="text13">Notificatie over gebeurtenis</text>
+         id="text12">Notificatie over gebeurtenis</text>
       <path
          d="m 724.5,426 h 284.97 v 1 H 724.5 Z m 283.64,-3.5 8,4 -8,4 z"
-         id="path13" />
+         id="path12" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="12px"
          transform="translate(837.034,403)"
-         id="text14">Aanlevering</text>
+         id="text13">Aanlevering</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -187,7 +181,7 @@
          font-weight="400"
          font-size="12px"
          transform="translate(112.979,336)"
-         id="text15">Eventoriëntatie</text>
+         id="text14">Eventoriëntatie</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -195,7 +189,7 @@
          font-weight="400"
          font-size="12px"
          transform="translate(819.279,419)"
-         id="text16">Gegevensoriëntatie</text>
+         id="text15">Gegevensoriëntatie</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -203,7 +197,7 @@
          font-weight="400"
          font-size="12px"
          transform="translate(761.028,337)"
-         id="text17">Resource</text>
+         id="text16">Resource</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -211,7 +205,7 @@
          font-weight="400"
          font-size="12px"
          transform="translate(816.528,337)"
-         id="text18">-</text>
+         id="text17">-</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -219,44 +213,62 @@
          font-weight="400"
          font-size="12px"
          transform="translate(822.028,337)"
-         id="text19">oriëntatie</text>
+         id="text18">oriëntatie</text>
       <rect
          x="603"
          y="567"
          width="122"
          height="78"
          fill="#5b9bd5"
-         id="rect19" />
+         id="rect18" />
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(649.22,595)"
-         id="text20">Web</text>
+         id="text19">Web</text>
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(631.72,611)"
-         id="text21">publicatie</text>
+         id="text20">publicatie</text>
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(635.886,627)"
-         id="text22">systeem</text>
+         id="text21">systeem</text>
       <path
          d="m 309.5,391 h 286.906 v 1 H 309.5 Z m 285.573,-3.5 8,4 -8,4 z"
-         id="path22" />
+         id="path21" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="12px"
-         transform="translate(319.043,369)"
-         id="text23">Betrouwbare, schaalbare mutatieverwerking</text>
+         transform="translate(303.064,369)"
+         id="text22">Betrouwbare,</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(388.564,369)"
+         id="text23">schaalbare</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(453.564,369)"
+         id="text24">, veilige</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(505.23,369)"
+         id="text25">mutatieverwerking</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -264,19 +276,13 @@
          font-weight="400"
          font-size="12px"
          transform="translate(403.947,385)"
-         id="text24">Berichtoriëntatie</text>
+         id="text26">Berichtoriëntatie</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="12px"
          transform="translate(492.923,321)"
-         id="text25">Complexe</text>
-      <text
-         font-family="Verdana, Verdana_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="12px"
-         transform="translate(556.756,321)"
-         id="text26">raadpleging</text>
+         id="text27">Complexe raadpleging</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -284,7 +290,7 @@
          font-weight="400"
          font-size="12px"
          transform="translate(505.887,337)"
-         id="text27">Service</text>
+         id="text28">Service</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -292,7 +298,7 @@
          font-weight="400"
          font-size="12px"
          transform="translate(550.387,337)"
-         id="text28">-</text>
+         id="text29">-</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -300,34 +306,34 @@
          font-weight="400"
          font-size="12px"
          transform="translate(555.887,337)"
-         id="text29">oriëntatie</text>
+         id="text30">oriëntatie</text>
       <rect
          x="187"
          y="567"
          width="122"
          height="78"
          fill="#5b9bd5"
-         id="rect29" />
+         id="rect30" />
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(199.971,603)"
-         id="text30">Metagegevens</text>
+         id="text31">Metagegevens</text>
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(214.304,619)"
-         id="text31">repository</text>
+         id="text32">repository</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="12px"
          transform="translate(365.492,581)"
-         id="text32">Publicatie van metagegevens</text>
+         id="text33">Publicatie van metagegevens</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -335,25 +341,19 @@
          font-weight="400"
          font-size="12px"
          transform="translate(395.785,597)"
-         id="text33">Betekenisoriëntatie</text>
+         id="text34">Betekenisoriëntatie</text>
       <path
          d="m 640,387.107 v -90.94 h 1 v 90.94 z m -3.5,-89.607 4,-8 4,8 z"
-         id="path33" />
+         id="path34" />
       <path
          d="m 309.5,606 h 287.368 v 1 H 309.5 Z m 286.035,-3.5 8,4 -8,4 z"
-         id="path34" />
+         id="path35" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="12px"
          transform="translate(359.602,443)"
-         id="text34">Eenvoudige m</text>
-      <text
-         font-family="Verdana, Verdana_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="12px"
-         transform="translate(445.602,443)"
-         id="text35">utatieverwerking</text>
+         id="text35">Eenvoudige mutatieverwerking</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -432,25 +432,7 @@
          font-weight="400"
          font-size="12px"
          transform="translate(341.426,407)"
-         id="text44">Veilige, c</text>
-      <text
-         font-family="Verdana, Verdana_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="12px"
-         transform="translate(396.259,407)"
-         id="text45">omplexe mutatie</text>
-      <text
-         font-family="Verdana, Verdana_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="12px"
-         transform="translate(498.093,407)"
-         id="text46">v</text>
-      <text
-         font-family="Verdana, Verdana_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="12px"
-         transform="translate(505.259,407)"
-         id="text47">erwerking</text>
+         id="text44">Veilige, complexe mutatieverwerking</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -458,7 +440,7 @@
          font-weight="400"
          font-size="12px"
          transform="translate(400.161,423)"
-         id="text48">Service</text>
+         id="text45">Service</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -466,7 +448,7 @@
          font-weight="400"
          font-size="12px"
          transform="translate(444.661,423)"
-         id="text49">-</text>
+         id="text46">-</text>
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -474,13 +456,13 @@
          font-weight="400"
          font-size="12px"
          transform="translate(450.161,423)"
-         id="text50">oriëntatie</text>
+         id="text47">oriëntatie</text>
       <path
          d="m 309.5,426 h 286.393 v 1 H 309.5 Z m 285.06,-3.5 8,4 -8,4 z"
-         id="path50" />
+         id="path47" />
       <path
          d="m 664,465.495 0.911,95.839 -1,0.01 L 663,465.505 Z m 4.398,94.473 -3.923,8.038 -4.076,-7.962 z"
-         id="path51" />
+         id="path48" />
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -488,44 +470,44 @@
          font-weight="400"
          font-size="12px"
          transform="translate(726.889,523)"
-         id="text51">Betekenisoriëntatie</text>
+         id="text48">Betekenisoriëntatie</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="12px"
          transform="translate(674.213,507)"
-         id="text52">Betekenisvolle publicatie op het web</text>
+         id="text49">Betekenisvolle publicatie op het web</text>
       <rect
          x="1015"
          y="567"
          width="122"
          height="78"
          fill="#5b9bd5"
-         id="rect52" />
+         id="rect49" />
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(1061.6,595)"
-         id="text53">Web</text>
+         id="text50">Web</text>
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(1044.1,611)"
-         id="text54">publicatie</text>
+         id="text51">publicatie</text>
       <text
          fill="#ffffff"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="13px"
          transform="translate(1048.27,627)"
-         id="text55">systeem</text>
+         id="text52">systeem</text>
       <path
          d="m 725.5,606 h 284 v 1 h -284 z m 282.67,-3.5 8,4 -8,4 z"
-         id="path55" />
+         id="path52" />
       <text
          fill="#ff0000"
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -533,13 +515,13 @@
          font-weight="400"
          font-size="12px"
          transform="translate(817.343,597)"
-         id="text56">Betekenisoriëntatie</text>
+         id="text53">Betekenisoriëntatie</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="12px"
          transform="translate(803.038,581)"
-         id="text57">Verbinding van gegevens</text>
+         id="text54">Verbinding van gegevens</text>
     </g>
   </g>
 </svg>
