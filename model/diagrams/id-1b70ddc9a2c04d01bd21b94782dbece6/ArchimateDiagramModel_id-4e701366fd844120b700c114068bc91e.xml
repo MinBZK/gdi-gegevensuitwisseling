@@ -112,23 +112,6 @@
           xsi:type="archimate:Principle"
           href="Principle_id-95d4a5adf6e44308b2126fb23ae66a73.xml#id-95d4a5adf6e44308b2126fb23ae66a73"/>
     </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-6f7085fe4f9544e8bdda7b8455cefd56"
-        fillColor="#ffffff"
-        textPosition="1">
-      <features
-          name="iconVisible"
-          value="2"/>
-      <bounds
-          x="12"
-          y="276"
-          width="301"
-          height="49"/>
-      <archimateElement
-          xsi:type="archimate:Principle"
-          href="Principle_id-deb4667d24eb494c919800436a77358c.xml#id-deb4667d24eb494c919800436a77358c"/>
-    </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-0da09931f8ac4b368c786703913087bf.xml#id-0da09931f8ac4b368c786703913087bf"/>
@@ -465,7 +448,7 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="348"
+          x="204"
           y="96"
           width="301"
           height="49"/>
@@ -482,7 +465,7 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="684"
+          x="528"
           y="96"
           width="301"
           height="49"/>
@@ -540,6 +523,23 @@
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_id-e0a280a70ebe45558fda4c5cfc3d35f2.xml#id-e0a280a70ebe45558fda4c5cfc3d35f2"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-6f7085fe4f9544e8bdda7b8455cefd56"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="852"
+          y="96"
+          width="301"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:Principle"
+          href="Principle_id-deb4667d24eb494c919800436a77358c.xml#id-deb4667d24eb494c919800436a77358c"/>
     </children>
   </children>
   <children
