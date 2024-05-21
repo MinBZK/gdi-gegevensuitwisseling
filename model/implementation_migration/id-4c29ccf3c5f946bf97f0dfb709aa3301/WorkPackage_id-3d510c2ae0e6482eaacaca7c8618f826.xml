@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Standaard voor beperkingsregels"
+    id="id-3d510c2ae0e6482eaacaca7c8618f826"
+    documentation="Er is nu geen eenvoudige technologie-onafhankelijke standaard voor het uitdrukken van beperkingsregels, waardoor moet worden gekozen tussen natuurlijke taal, een zelfbedachte taal, een leverancierspecifieke taal of modelleertaalspecifieke talen zoals OCL of SHACL. Hierdoor is het niet goed mogelijk om deze op een standaard en begrijpelijke manier te beschrijven in een informatie- of gegevensmodel of om kwaliteitsregels mee uit te drukken. Er zou onderzoek moeten plaatsvinden of er in de markt wel talen of standaarden beschikbaar zijn die kunnen worden omarmd, of dat een nieuwe taal moet worden ontwikkeld."/>
