@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Capabilities"
     id="id-efa49314476444e387b26879d23286c5"
-    documentation="&lt;p>Capabilities beschrijven dat wat organisaties zouden moeten kunnen. Om invulling te geven aan een capability zijn mensen, processen en middelen nodig. In de architectuur zijn de capabilities een abstracte beschrijving van wat belangrijk is voor organisaties om invulling te geven aan gegevensuitwisseling. Je zou ze kunnen beschouwen als generieke doelen waarnaar gestreefd moet worden.&lt;/p>">
+    documentation="&lt;p>Capabilities beschrijven dat wat organisaties zouden moeten kunnen. Het zijn vermogens waar organisatie over moeten beschikken. Om invulling te geven aan een capability zijn mensen, processen en middelen nodig. In de architectuur zijn de capabilities een abstracte beschrijving van wat belangrijk is voor organisaties om invulling te geven aan gegevensuitwisseling. Je zou ze kunnen beschouwen als generieke doelen waarnaar gestreefd moet worden.&lt;/p>">
   <properties
       key="elementType"
       value="capability"/>

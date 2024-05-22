@@ -1,25 +1,28 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1.5. De aangewezen bron van de gegevens is leidend"
+    name="1.5. De bron van de gegevens is leidend"
     id="id-9ad7c4b354e34226a5d86d81f8adf280"
-    documentation="Het is belangrijk dat duidelijk is waar gegevens vandaan komen. Gegevens worden onderhouden in een bron. De bron is de plaats waar de kwaliteit van gegevens wordt bewaakt. Een bron is een logische administratie en staat los van de technische implementatie. De bron is niet per definitie de registratie waar de gegevens ontstaan. Het kan bijvoorbeeld ook de plaats zijn waar ze beschikbaar worden gesteld in een bepaalde gebruikscontext (ervan uitgaande dat deze plaats voldoet aan de gestelde kwaliteitseisen). De bron is wel de plaats waarnaar gerefereerd moet worden, omdat het de plaats is waar het gegeven zijn legitimiteit aan ontleent. Als een intermediair gegevens inhoudelijk bewerkt (op basis van afleidingsregels) dan ontstaan er feitelijk andere gegevens en dan wordt deze intermediair een bron.">
+    documentation="Het is belangrijk dat duidelijk is waar gegevens vandaan komen. Gegevens worden onderhouden in een bron. De bron is de plaats waar de kwaliteit van gegevens wordt bewaakt. In een bepaalde gebruikscontext kan een gecontroleerde kopie ook als verstrekkingspunt worden aangewezen (ervan uitgaande dat deze voldoet aan de gestelde kwaliteitseisen). De bron is wel de plaats waarnaar gerefereerd moet worden, omdat het de plaats is waar het gegeven zijn legitimiteit aan ontleent. Als een intermediair gegevens inhoudelijk bewerkt (op basis van afleidingsregels) dan ontstaan er feitelijk andere gegevens en dan wordt deze intermediair een bron.">
   <properties
       key="Implicaties"
-      value="1. In gebruikscontexten worden bronnen aangewezen voor specifieke gegevens."/>
+      value="1. In gebruikscontexten kunnen verstrekkingspunten worden aangewezen voor specifieke gegevens."/>
   <properties
       key="Implicaties"
-      value="2. Gegevens worden opgehaald bij en/of ontvangen van de aangewezen bron."/>
+      value="2. Verstrekkingspunten zijn gecontroleerd, voldoen aan gestelde kwaliteitseisen en daar wordt periodiek op gemonitord."/>
   <properties
       key="Implicaties"
-      value="3. Als actuele gegevens nodig zijn dan worden deze direct bij de bron geraadpleegd."/>
+      value="3. Gegevens worden opgehaald bij en/of ontvangen van de bron of een aangewezen verstrekkingspunt."/>
   <properties
       key="Implicaties"
-      value="4. Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>
+      value="4. Als gegevens met een hoge actualiteit (of juist historische gegevens) nodig zijn dan worden deze direct bij de bron of een aangewezen verstrekkingspunt geraadpleegd."/>
   <properties
       key="Implicaties"
-      value="5. Er wordt geen lokale kopie van gegevens gemaakt, tenzij er specifieke eisen zijn die daarom vragen."/>
+      value="5. Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>
   <properties
       key="Implicaties"
-      value="6. Het is voor gebruikers duidelijk op welke bronnen de gegevens die zij zien zijn gebaseerd."/>
+      value="6. Er wordt geen lokale kopie van gegevens gemaakt, tenzij er specifieke eisen zijn die daarom vragen."/>
+  <properties
+      key="Implicaties"
+      value="7. Het is voor gebruikers duidelijk op welke bronnen de gegevens die zij zien zijn gebaseerd."/>
   <properties/>
 </archimate:Principle>
