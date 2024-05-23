@@ -572,8 +572,8 @@
         source="id-416169968e0d4327bb6e6d85d1087ec8"
         target="id-380a2caf8e52468d9ca9820c6b13ec7d">
       <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-5c829d38802e435cb1997c49ae0d9a5c.xml#id-5c829d38802e435cb1997c49ae0d9a5c"/>
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_id-4f815d842d7649eb9fbfae4af641e888.xml#id-4f815d842d7649eb9fbfae4af641e888"/>
     </sourceConnections>
     <bounds
         x="409"
