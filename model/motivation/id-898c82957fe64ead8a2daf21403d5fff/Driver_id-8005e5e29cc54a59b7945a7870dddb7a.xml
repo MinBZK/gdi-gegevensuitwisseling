@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="De hoeveelheid gegevens groeit"
     id="id-8005e5e29cc54a59b7945a7870dddb7a"
-    documentation="Door de versnelde digitalisering van veel bedrijfsprocessen neemt het volume van uitgewisselde data sterk toe. Er wordt een toename van 530% van het wereldwijde gegevensvolume verwacht in de periode 2018–2025 (bron: Europese datastrategie). Het aantal organisaties dat data uitwisselt, ook binnen de overheid, neemt sterk toe. De rol van data en de uitwisseling daarvan wordt steeds belangrijker. Bijvoorbeeld voor analyse, besluitvorming en ontwikkeling en gebruik van kunstmatige intelligentie.">
+    documentation="Door de versnelde digitalisering van veel bedrijfsprocessen neemt het volume van uitgewisselde gegevens sterk toe. Er wordt een toename van 530% van het wereldwijde gegevensvolume verwacht in de periode 2018–2025 (bron: Europese datastrategie). Het aantal organisaties dat gegevens uitwisselt, ook binnen de overheid, neemt sterk toe. De rol van gegevens en de uitwisseling daarvan wordt steeds belangrijker. Bijvoorbeeld voor analyse, besluitvorming en ontwikkeling en gebruik van kunstmatige intelligentie.">
   <profiles
       href="folder.xml#id-7be84c5323e54f1b9e45b26375c7309b"/>
 </archimate:Driver>

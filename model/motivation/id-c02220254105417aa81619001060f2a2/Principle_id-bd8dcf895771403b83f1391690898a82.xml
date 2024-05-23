@@ -17,7 +17,7 @@
       value="4. Waar mogelijk en waardevol worden metagegevens gegenereerd op basis van kunstmatige intelligentie, bijvoorbeeld om relevante trefwoorden, samenvattingen of toelichtingen te genereren."/>
   <properties
       key="Implicaties"
-      value="5. Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals trefwoorden, classificaties en omschrijvingen."/>
+      value="5. Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals omschrijvingen."/>
   <properties
       key="Implicaties"
       value="6. Er worden in de metagegevens relevante contextgegevens beschikbaar gesteld zoals de bron van de gegevens en welke gebeurtenis en/of activiteit ten grondslag lag aan het vastleggen of wijzigen van de gegevens."/>
