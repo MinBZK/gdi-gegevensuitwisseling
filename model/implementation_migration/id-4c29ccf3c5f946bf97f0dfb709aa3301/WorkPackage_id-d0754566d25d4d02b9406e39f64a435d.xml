@@ -1,5 +1,5 @@
 <archimate:WorkPackage
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Kwaliteitsdashboards voor landelijke metagegevens"
+    name="Kwaliteitsmanagement metagegevens"
     id="id-d0754566d25d4d02b9406e39f64a435d"
-    documentation="Er moeten kwaliteitsdashboards worden ingericht op landelijke metagegevens catalogi zoals de stelselcatalogus, data.overheid.nl, developer.overheid.nl en het Nationaal Geo Register om inzicht te geven in de kwaliteit van de daarin vastgelegde metagegevens. Daarin kan ook publiek inzichtelijk worden gemaakt hoe bepaalde organisaties scoren op dit kwaliteitsdashboard, zodat extra prikkels ontstaan voor organisaties om de kwaliteit van hun metagegevens te verbeteren."/>
+    documentation="Goede metagegevens zijn randvoorwaardelijk voor gegevensuitwisseling. Het is daarom essentieel dat kwaliteitsmanagement van metagegevens expliciete aandacht krijgt, zowel landelijk als binnen individuele overheidsorganisaties. Voor landelijke catalogi dient onderzocht te worden hoe hier invulling aan wordt gegeven en of het bijvoorbeeld waardevol is om kwaliteitsdashboards in te richten, vergelijkbaar met hoe dat in het verleden ook voor het Nationaal Geo Register invulling is gedaan. Individuele overheidsorganisaties zouden minimaal een analyse moeten doen van compleetheid van hun metagegevens. Het is belangrijk dat alle gegevens die gedeeld kunnen worden (rijke) metagegevens worden gepubliceerd in landelijke catalogi."/>

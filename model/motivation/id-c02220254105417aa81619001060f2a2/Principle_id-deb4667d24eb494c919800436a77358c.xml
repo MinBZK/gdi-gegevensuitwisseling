@@ -11,7 +11,7 @@
       value="2. De logs van verzonden en ontvangen berichten zijn aan elkaar te relateren op basis van een gemeenschappelijke identifier."/>
   <properties
       key="Implicaties"
-      value="3. Als hoge eisen aan onweerlegbaarheid worden gesteld dan worden delegeren van logging naar een derde partij (clearing house) overwogen."/>
+      value="3. Als hoge eisen aan onweerlegbaarheid worden gesteld dan wordt het delegeren van logging naar een derde partij (clearing house) overwogen."/>
   <properties
       key="Implicaties"
       value="4. De bewaartermijn van logs wordt expliciet bewaakt en gerespecteerd."/>
