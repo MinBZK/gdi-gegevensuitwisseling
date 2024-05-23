@@ -19,7 +19,7 @@ Veranderfactoren:
 * Beleid: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/beleid.html">overzicht</a>
 * Wet- en regelgeving: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/wetten.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/wettendetails.html">details</a> 
 * Knelpunten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/knelpunten.html">overzicht</a>
-* Capabilities: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-c86dd5efc983469aa01d883e87689369">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/capabilities.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/capabilitiesdetails.html">details</a>
+* Capability's: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-c86dd5efc983469aa01d883e87689369">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/capabilities.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/capabilitiesdetails.html">details</a>
 
 Doelarchitectuur:
 * Architectuurvisie: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-65626af39b714343abdc1b5e9d8bfb21.html">beschrijving</a>
