@@ -5,7 +5,7 @@
     documentation="Het beschikbaar stellen van gegevens voor hergebruik leidt tot meer transparantie, efficiëntie en innovatie. De wet open overheid onderstreept het belang van openbaarheid van publieke informatie voor de democratische samenleving. Voor het kunnen hergebruiken van gegevens zijn hun vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid zoals bedoeld met de &lt;a href=&quot;https://www.go-fair.org/fair-principles/&quot;>FAIR-principes&lt;/a> essentieel. Zij zorgen ervoor dat anderen in staat zijn om te begrijpen wat eigenschappen van de gegevens zijn, wat ze betekenen en of ze bruikbaar zijn voor hun eigen doeleinden. Ze zorgen er ook voor dat de gegevens eenvoudig verkregen kunnen worden.">
   <properties
       key="Implicaties"
-      value="1. Gegevens zijn voorzien van metagegevens, en deze metagegevens zijn gepubliceerd in de stelselcatalogus, data.overheid.nl en als het geografische gegevens betreft ook in het Nationaal Geo Register (vindbaar)."/>
+      value="1. Gegevens zijn voorzien van metagegevens, en zijn gepubliceerd in relevante catalogi; gegevens die landelijk waardevol zijn, zijn landelijk vindbaar (vindbaar)."/>
   <properties
       key="Implicaties"
       value="2. Gegevens en hun metagegevens zijn voorzien van wereldwijd unieke en stabiele identificaties (vindbaar)."/>

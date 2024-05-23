@@ -5,16 +5,16 @@
     documentation="Het is belangrijk dat duidelijk is waar gegevens vandaan komen. Gegevens worden onderhouden in een bron. De bron is de plaats waar de kwaliteit van gegevens wordt bewaakt. In een bepaalde gebruikscontext kan een gecontroleerde kopie ook als verstrekkingspunt worden aangewezen (ervan uitgaande dat deze voldoet aan de gestelde kwaliteitseisen). De bron is wel de plaats waarnaar gerefereerd moet worden, omdat het de plaats is waar het gegeven zijn legitimiteit aan ontleent. Als een intermediair gegevens inhoudelijk bewerkt (op basis van afleidingsregels) dan ontstaan er feitelijk andere gegevens en dan wordt deze intermediair een bron.">
   <properties
       key="Implicaties"
-      value="1. In gebruikscontexten kunnen verstrekkingspunten worden aangewezen voor specifieke gegevens."/>
+      value="1. In gebruikscontexten kunnen verstrekkingspunten worden aangewezen voor specifieke gegevens, waarbij wettelijke bepalingen leidend zijn."/>
   <properties
       key="Implicaties"
       value="2. Verstrekkingspunten zijn gecontroleerd, voldoen aan gestelde kwaliteitseisen en daar wordt periodiek op gemonitord."/>
   <properties
       key="Implicaties"
-      value="3. Gegevens worden opgehaald bij en/of ontvangen van de bron of een aangewezen verstrekkingspunt."/>
+      value="3. Gegevens worden opgehaald bij en/of ontvangen van de bron of een verstrekkingspunt."/>
   <properties
       key="Implicaties"
-      value="4. Als gegevens met een hoge actualiteit (of juist historische gegevens) nodig zijn dan worden deze direct bij de bron of een aangewezen verstrekkingspunt geraadpleegd."/>
+      value="4. Als gegevens met een hoge actualiteit (of juist historische gegevens) nodig zijn dan worden deze direct bij de bron of een verstrekkingspunt geraadpleegd."/>
   <properties
       key="Implicaties"
       value="5. Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>

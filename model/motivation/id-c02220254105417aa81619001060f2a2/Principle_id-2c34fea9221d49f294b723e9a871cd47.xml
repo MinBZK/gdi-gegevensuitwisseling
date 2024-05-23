@@ -17,5 +17,5 @@
       value="4. Op de raakvlakken tussen de standaarden wordt middels webadressen (IRI’s) verwezen naar gerelateerde metadatastandaarden."/>
   <properties
       key="Implicaties"
-      value="5. Metagegevens worden gepubliceerd in landelijke catalogi zoals data.overheid.nl, developer.overheid.nl en de stelselcatalogus, die deze (ook) als Linked Data ontsluiten."/>
+      value="5. Metagegevens zijn vindbaar in relevante catalogi zoals data.overheid.nl, developer.overheid.nl en de stelselcatalogus, die deze (ook) als Linked Data ontsluiten."/>
 </archimate:Principle>
