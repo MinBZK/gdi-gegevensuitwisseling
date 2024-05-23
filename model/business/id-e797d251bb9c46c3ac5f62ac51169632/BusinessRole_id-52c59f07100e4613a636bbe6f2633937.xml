@@ -1,0 +1,5 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Domeinregisseur"
+    id="id-52c59f07100e4613a636bbe6f2633937"
+    documentation="Een rol die verantwoordelijk is voor het inrichten en besturen van een afsprakenstelsel voor gegevensuitwisselingen in een domein."/>
