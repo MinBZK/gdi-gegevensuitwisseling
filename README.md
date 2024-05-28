@@ -11,7 +11,7 @@ Er zijn <a href="instructies.md">instructies</a> beschikbaar voor het aanbrengen
 
 Bij de verschillende onderdelen van de architectuur wordt verwezen naar beschrijvingen, diagrammen, overzichten en detailoverzichten. Deze zijn allemaal geëxporteerd uit het architectuurmodelleertool Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. Het document als geheel, de overzichten, detailoverzichten en de achterliggende detailpagina's zijn gegenereerd met een <a href="scripts/export HTML.ajs">script</a>.
 
-#Review
+# Review
 Er is een review gestart van de conceptversie van de domeinarchitectuur. Het <a href="https://pgdi.nl/files/view/2b9325a0-c193-4d22-b8d1-9b8224a1606d/domeinarchitectuur-gegevensuitwisseling-1.pdf">document</a>, de bijbehorende <a href="https://pgdi.nl/files/view/d0b1bc35-c48a-4da8-af83-2bcfc1527c1f/toelichting-domeinarchitectuur-gegevensuitwisseling.pptx">toelichtende presentatie</a> en het <a href="https://pgdi.nl/files/view/79e6b3cb-6a14-4c78-95df-9d99e239d9ed/reviewformulier.xlsx">reviewformulier</a> zijn beschikbaar op <a href="https://pgdi.nl/groups/view/7d10e3c4-540d-4b20-ac04-d4011a6a90dc/architectuurraad-en-architectuurwerkgroepen/files/e2c148a1-d036-4a5e-92ff-df3d22da6285">pgdi.nl</a>. De opname van de informatiesessie is beschikbaar op <a href="https://youtu.be/clE9n7EOedo">YouTube</a>. Reviewcommentaar kan worden opgestuurd naar postbus.pgdi@minbzk.nl. De deadline voor de review is 17 juni 9.00 uur.
 
 # Architectuur
