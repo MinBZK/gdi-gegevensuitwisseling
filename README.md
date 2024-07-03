@@ -11,6 +11,9 @@ Er zijn <a href="instructies.md">instructies</a> beschikbaar voor het aanbrengen
 
 Bij de verschillende onderdelen van de architectuur wordt verwezen naar beschrijvingen, diagrammen, overzichten en detailoverzichten. Deze zijn allemaal geëxporteerd uit het architectuurmodelleertool Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. Het document als geheel, de overzichten, detailoverzichten en de achterliggende detailpagina's zijn gegenereerd met een <a href="scripts/export HTML.ajs">script</a>.
 
+# Review
+Er is een review gestart van de conceptversie van de domeinarchitectuur. Het <a href="https://pgdi.nl/files/view/2b9325a0-c193-4d22-b8d1-9b8224a1606d/domeinarchitectuur-gegevensuitwisseling-1.pdf">document</a>, de bijbehorende <a href="https://pgdi.nl/files/view/d0b1bc35-c48a-4da8-af83-2bcfc1527c1f/toelichting-domeinarchitectuur-gegevensuitwisseling.pptx">toelichtende presentatie</a> en het <a href="https://pgdi.nl/files/view/79e6b3cb-6a14-4c78-95df-9d99e239d9ed/reviewformulier.xlsx">reviewformulier</a> zijn beschikbaar op <a href="https://pgdi.nl/groups/view/7d10e3c4-540d-4b20-ac04-d4011a6a90dc/architectuurraad-en-architectuurwerkgroepen/files/e2c148a1-d036-4a5e-92ff-df3d22da6285">pgdi.nl</a>. De opname van de informatiesessie is beschikbaar op <a href="https://youtu.be/clE9n7EOedo">YouTube</a>. Reviewcommentaar kan worden opgestuurd naar postbus.pgdi@minbzk.nl. De deadline voor de review is 17 juni 9.00 uur.
+
 # Architectuur
 Inleiding: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-f763d8baeed7450a801180ca97a5e0bc.html">beschrijving</a>.
 
@@ -34,6 +37,7 @@ Bijlagen:
 * Functies: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-6b14d70bd65443bfbf08cd9326376898">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsfuncties.html">overzicht</a>
 * Bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-efc531031d114860a309f6eeacdad289">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsobjecten.html">overzicht</a>
 * Relatie tussen functies en bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-b6f068818d264742b80c8f4f5278aca0">diagram</a>
+* Rollen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/rollen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/rollendetails.html">details</a>
 * Huidige voorzieningen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-44e956451b5947e08070f8c2edca5bf3">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/huidige%20voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/huidige%20voorzieningendetails.html">details</a>
 * Standaarden: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-5df0c1360768493aa966c16f7dbfd414">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaardendetails.html">details</a>
 * Begrippen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippendetails.html">details</a>

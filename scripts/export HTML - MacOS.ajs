@@ -21,7 +21,7 @@ var elementTextList = [];
 var elementFullTextList = [];
 var elementPropTextList = [];
 var elementname = "";
-var separator = "\\";
+var separator = "/";
 
 var relationshipTypeMappings = {
     "access-relationship":"gebruikt",
