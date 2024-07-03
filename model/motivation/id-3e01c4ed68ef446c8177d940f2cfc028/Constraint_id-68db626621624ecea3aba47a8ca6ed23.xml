@@ -5,7 +5,7 @@
     documentation="Selective Disclosure JWT (SD-JWT) is een standaard die het mogelijk maakt om een subset van verklaringen in een getekende JWT te delen.">
   <properties
       key="Status"
-      value="nvt"/>
+      value="geen"/>
   <properties
       key="Beheerorganisatie"
       value="IETF"/>

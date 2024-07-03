@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="OData"
     id="id-6656f6c85d4643d18bb5829dd0f8cef7"
-    documentation="OData kan worden toegepast voor het bouwen en gebruiken van REST APIs met als doel het gestructureerd ontsluiten van (statistische) open datasets.">
+    documentation="Het Open Data-protocol (OData) is een best practice voor het structureren en bevragen van REST APIs. OData maakt het makkelijker om interoperabele REST-implementaties te bouwen, waardoor data die via API’s wordt uitgewisseld op een uniforme wijze weergegeven kan worden.">
   <properties
       key="Status"
       value="Aanbevolen"/>
@@ -10,8 +10,10 @@
       key="Beheerorganisatie"
       value="OASIS"/>
   <properties
-      key="URL"
-      value="https://www.forumstandaardisatie.nl/open-standaarden/odata"/>
+      key="Functioneel toepassingsgebied"
+      value="OData kan worden toegepast voor het bouwen en gebruiken van REST APIs met als doel het gestructureerd ontsluiten van (statistische) open datasets."/>
+  <properties
+      key="URL"/>
   <profiles
       href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
 </archimate:Constraint>

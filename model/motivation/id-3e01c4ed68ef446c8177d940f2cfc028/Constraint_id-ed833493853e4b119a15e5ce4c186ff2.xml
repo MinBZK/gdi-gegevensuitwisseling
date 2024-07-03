@@ -2,10 +2,10 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="FSC"
     id="id-ed833493853e4b119a15e5ce4c186ff2"
-    documentation="De Federated Service Connectivity (FSC) standaard beschrijft hoe organisaties kunnen interacteren op een uniforme en geautomatiseerde wijze. De standaard is ontwikkeld in de context van de Common Ground visie.">
+    documentation="De Federated Service Connectivity (FSC) standaard beschrijft hoe organisaties kunnen interacteren op een uniforme en geautomatiseerde wijze. ">
   <properties
       key="Status"
-      value="nvt"/>
+      value="geen"/>
   <properties
       key="Beheerorganisatie"
       value="VNG"/>

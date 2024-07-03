@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="informatie"
     id="id-e101355ce1f742129d58330710bfd305"
-    documentation="kennis die de onzekerheid over het optreden van een specifieke gebeurtenis uit een gegeven reeks mogelijke gebeurtenissen vermindert of wegneemt">
+    documentation="Kennis die de onzekerheid over het optreden van een specifieke gebeurtenis uit een gegeven reeks mogelijke gebeurtenissen vermindert of wegneemt">
   <properties
       key="Toelichting"
       value="In de informatietheorie moet het concept &quot;gebeurtenis&quot; worden opgevat zoals gebruikt in de waarschijnlijkheidstheorie. Een gebeurtenis kan bijvoorbeeld zijn: de aanwezigheid van een specifiek element in een gegeven reeks elementen; het voorkomen van een specifiek teken of woord in een bepaald bericht of op een bepaalde positie van een bericht; elk van de afzonderlijke resultaten die een experiment kan opleveren.&#xA;&#xA;Informatie wordt ook wel gezien als: dat wat verschil maakt. Het zijn gegevens in context. Niet elk gegeven is waardevol. Je kunt allerlei gegevens tot je nemen die voor jou geen informatie zijn. Gegevens en informatie zijn wel aan elkaar verbonden; zonder gegevens is er ook geen informatie."/>

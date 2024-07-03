@@ -5,7 +5,7 @@
     documentation="JSON Web Token (JWT) is een compacte, URL-veilige manier om verklaringen uit te wisselen tussen twee partijen.">
   <properties
       key="Status"
-      value="nvt"/>
+      value="geen"/>
   <properties
       key="Beheerorganisatie"
       value="IETF"/>

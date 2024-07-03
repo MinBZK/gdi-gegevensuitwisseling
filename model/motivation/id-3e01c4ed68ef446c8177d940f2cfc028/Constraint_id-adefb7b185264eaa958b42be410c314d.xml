@@ -5,7 +5,7 @@
     documentation="Schematron is een taal voor het specificeren van beperkingsregels op XML documenten.">
   <properties
       key="Status"
-      value="nvt"/>
+      value="geen"/>
   <properties
       key="Beheerorganisatie"
       value="ISO"/>

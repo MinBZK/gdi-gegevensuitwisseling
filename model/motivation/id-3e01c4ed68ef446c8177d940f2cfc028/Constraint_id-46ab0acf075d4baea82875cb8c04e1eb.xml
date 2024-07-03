@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="JWE"
+    id="id-46ab0acf075d4baea82875cb8c04e1eb"
+    documentation=" JSON Web Encryption (JWE) is een standaard voor het versleutelen van gegevens.">
+  <properties
+      key="Status"
+      value="geen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
+      key="URL"
+      value="https://www.rfc-editor.org/rfc/rfc7516"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

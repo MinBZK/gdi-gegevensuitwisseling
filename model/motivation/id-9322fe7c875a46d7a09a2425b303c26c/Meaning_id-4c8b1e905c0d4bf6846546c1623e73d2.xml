@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="feit"
+    id="id-4c8b1e905c0d4bf6846546c1623e73d2"
+    documentation="Een gebeurtenis of omstandigheid waarvan de werkelijkheid vaststaat, doordat het ofwel zintuiglijk waargenomen ofwel instrumenteel gemeten kan worden.">
+  <properties
+      key="Toelichting"
+      value="Een feit moet met objectieve waarnemingen vastgesteld en getoetst kunnen worden. Echter, het doen van de waarneming is subjectief en afhankelijk van persoonsgebonden factoren, zoals perspectief, voorkeur, nauwkeurigheid, tijdigheid, compleetheid en omstandigheden. Feiten staan aan de basis van kennis en kunnen door het verstand worden geordend tot een inzicht."/>
+</archimate:Meaning>

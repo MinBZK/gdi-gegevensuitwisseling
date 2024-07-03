@@ -5,7 +5,7 @@
     documentation="JSON Schema wordt gebruikt voor het beschrijven van op JSON gebaseerde koppelvlakken voor gegevensuitwisseling">
   <properties
       key="Status"
-      value="nvt"/>
+      value="geen"/>
   <properties
       key="Beheerorganisatie"
       value="IETF"/>

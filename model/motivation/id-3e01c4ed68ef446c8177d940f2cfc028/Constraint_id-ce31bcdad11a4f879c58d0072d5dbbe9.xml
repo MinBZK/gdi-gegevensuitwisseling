@@ -5,7 +5,7 @@
     documentation="IMX Model Mapping beschrijft een vertaling van één of meer bronnen naar een doel en is bedoeld om gebruikt te worden voor een IMX orchestratie.">
   <properties
       key="Status"
-      value="nvt"/>
+      value="geen"/>
   <properties
       key="Beheerorganisatie"
       value="Geonovum"/>

@@ -2,17 +2,23 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="1.2. Gegevensuitwisseling is gebaseerd op open standaarden"
     id="id-6857a45330d3428fa0562f7db033d6df"
-    documentation="Het tot stand brengen  van uitwisseling van gegevens kost vaak veel inspanning, doordat gegevens ontworpen zijn in een eigen context en er allerlei vertalingen nodig om ze bruikbaar te maken in een andere context. Door gebruik te maken van uitwisselstandaarden wordt de variatie beperkt en zijn er minder vertalingen nodig. Open standaarden zorgen er ook voor dat leveranciersafhankelijkheden zoveel mogelijk worden voorkomen. In Nederland is het sturen op standaarden geformaliseerd in Forum Standaardisatie, die veel energie stopt in het bepalen en aanwijzen van standaarden die breed zouden moeten worden ingezet. In de Wet digitale overheid is beschreven dat in algemene maatregelen van bestuur bepaalde standaarden ook wettelijk verplicht kunnen worden gesteld.">
+    documentation="Het tot stand brengen  van uitwisseling van gegevens kost vaak veel inspanning, doordat gegevens ontworpen zijn in een eigen context en er allerlei vertalingen nodig zijn om ze bruikbaar te maken in een andere context. Door gebruik te maken van uitwisselstandaarden wordt de variatie beperkt en zijn er minder vertalingen nodig. Open standaarden zorgen er ook voor dat leveranciersafhankelijkheden zoveel mogelijk worden voorkomen. In Nederland is het sturen op standaarden geformaliseerd in Forum Standaardisatie, die veel energie stopt in het bepalen en aanwijzen van standaarden die breed zouden moeten worden ingezet. In de Wet digitale overheid is beschreven dat in algemene maatregelen van bestuur bepaalde standaarden ook wettelijk verplicht kunnen worden gesteld.">
   <properties
       key="Implicaties"
       value="1. De standaarden op de “pas toe, of leg uit” lijst van Forum Standaardisatie worden als eis meegegeven bij de selectie of ontwikkeling van systemen en gegevensuitwisselingen (of er wordt expliciet uitgelegd waarom ze niet van toepassing zijn)."/>
   <properties
       key="Implicaties"
-      value="2. De standaarden op de lijst van aanbevolen standaarden worden serieus overwogen."/>
+      value="2. De standaarden op de lijst van aanbevolen standaarden worden serieus overwogen en de overweging tot al dan niet gebruik van de aanbevolen standaarden wordt vastgelegd."/>
   <properties
       key="Implicaties"
-      value="3. Als er in een specifieke context geen toepasbare standaarden op de lijsten van Forum Standaardisatie staan, dan wordt gebruik gemaakt van internationale standaarden, of anders nationale standaarden en wordt overwogen deze aan te melden bij Forum Standaardisatie."/>
+      value="3. De standaarden zoals beschreven in de streefbeeldafspraken worden per direct doorgevoerd op alle ICT-systemen en -diensten."/>
   <properties
       key="Implicaties"
-      value="4. Nederlandse standaarden zijn geïnternationaliseerd en er wordt onderzocht of deze kunnen worden ingebracht in internationale standaardisatieorganisaties zoals ISO, W3C, OGC, OASIS, IETF."/>
+      value="4. Als er in een specifieke context geen toepasbare standaarden op de lijsten van Forum Standaardisatie staan, dan wordt gebruik gemaakt van internationale standaarden, of anders nationale standaarden en wordt overwogen deze aan te melden bij Forum Standaardisatie."/>
+  <properties
+      key="Implicaties"
+      value="5. Nederlandse standaarden zijn voorbereid op gebruik in andere landen en er wordt onderzocht of deze kunnen worden ingebracht in internationale standaardisatieorganisaties."/>
+  <properties
+      key="Implicaties"
+      value="6. Als er nog geen standaard bestaat voor een specifiek gebied, dan wordt onderzocht of er zelf een standaard kan worden ontwikkeld."/>
 </archimate:Principle>

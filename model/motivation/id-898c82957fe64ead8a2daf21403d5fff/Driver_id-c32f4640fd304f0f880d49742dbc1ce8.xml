@@ -1,0 +1,8 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data clean rooms"
+    id="id-c32f4640fd304f0f880d49742dbc1ce8"
+    documentation="Een data clean room is een veilige, gecontroleerde omgeving waar verschillende partijen gevoelige gegevens kunnen delen en analyseren zonder de onderliggende gegevens daadwerkelijk te onthullen aan elkaar. Dit concept wordt vaak gebruikt in situaties waarin privacy en vertrouwelijkheid van groot belang zijn, zoals bij samenwerking tussen bedrijven of in de gezondheidszorg. ">
+  <profiles
+      href="folder.xml#id-7be84c5323e54f1b9e45b26375c7309b"/>
+</archimate:Driver>

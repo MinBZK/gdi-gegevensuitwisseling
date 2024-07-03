@@ -5,7 +5,7 @@
     documentation="Registraties zijn de formele bron voor de gegevens die ze beheren. Formele registraties zoals sector- en basisregistraties zijn een belangrijke basis voor de Nederlandse overheid en er zal op allerlei manieren naar ze worden gerefereerd. Het is belangrijk dat er geen discussie kan ontstaan over welke gegevens er op een bepaald moment onderdeel waren van een registratie, ook in juridische zin.">
   <properties
       key="Implicaties"
-      value="1. Nieuwe registraties die worden ontwikkeld leggen de formele historie van gegevens vast."/>
+      value="1. Nieuwe formele overheidsregistraties die worden ontwikkeld leggen de formele historie van gegevens vast."/>
   <properties
       key="Implicaties"
       value="2. Er wordt expliciet bepaald of er in een gebruikscontext behoefte is aan materiële historie."/>
@@ -17,8 +17,11 @@
       value="4. Registraties bieden de mogelijkheid om historische gegevens op te vragen."/>
   <properties
       key="Implicaties"
-      value="5. Gegevens worden niet fysiek verwijderd (tenzij ze om juridische redenen vernietigd moeten worden); als ze niet meer geldig zijn dan worden ze alleen logisch verwijderd."/>
+      value="5. Gegevens worden niet fysiek verwijderd; als ze niet meer geldig zijn dan wordt alleen vastgelegd dat ze niet meer geldig zijn (tenzij ze om juridische redenen vernietigd moeten worden)."/>
   <properties
       key="Implicaties"
       value="6. De historische integriteit van gegevens is geborgd; oude gegevens worden niet overschreven."/>
+  <properties
+      key="Implicaties"
+      value="7. Gegevens en hun historie kunnen worden overgebracht naar een archief om hun duurzame toegankelijkheid te kunnen garanderen."/>
 </archimate:Principle>

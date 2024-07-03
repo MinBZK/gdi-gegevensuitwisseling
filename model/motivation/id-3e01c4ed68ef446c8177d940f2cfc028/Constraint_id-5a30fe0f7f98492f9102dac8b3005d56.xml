@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="WS-Security"
+    id="id-5a30fe0f7f98492f9102dac8b3005d56"
+    documentation="Web Services Security (WS-Security) is een uitbreiding op de SOAP standaard, specifiek gerichty op beveiliging van Web Services.">
+  <properties
+      key="Status"
+      value="geen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="OASIS"/>
+  <properties
+      key="URL"
+      value="https://groups.oasis-open.org/higherlogic/ws/public/download/16790/wss-v1.1-spec-os-SOAPMessageSecurity.pdf/latest"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>
