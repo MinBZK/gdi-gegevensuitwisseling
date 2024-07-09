@@ -11,7 +11,7 @@
       value="2. Aanbieders loggen (metagegevens van) berichten die zijn verzonden, afnemers loggen (metagegevens van) berichten die zijn ontvangen als de uitwisseling later aantoonbaar moet zijn."/>
   <properties
       key="Implicaties"
-      value="3. De logs van verzonden en ontvangen berichten zijn aan elkaar te relateren op basis van een gemeenschappelijke identifier, zodat berichten die volgen uit één trigger aan elkaar gecorreleerd kunnen worden."/>
+      value="3. De logs van verzonden en ontvangen berichten zijn aan elkaar te relateren op basis van een gemeenschappelijke identifier, zodat berichten die volgen uit één trigger aan elkaar gerelateerd kunnen worden."/>
   <properties
       key="Implicaties"
       value="4. Als hoge eisen aan onweerlegbaarheid worden gesteld dan worden aanvullende maatregelen overwogen, zoals het ondertekenen van berichten of het delegeren van logging naar een derde partij (clearing house)."/>

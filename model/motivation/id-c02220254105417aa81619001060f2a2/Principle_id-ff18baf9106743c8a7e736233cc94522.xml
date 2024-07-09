@@ -8,7 +8,7 @@
       value="1. De eisen die gebruikers stellen aan de kwaliteit van gegevens worden door de (afnemer)organisatie gebundeld en expliciet gemaakt in elke gebruikscontext."/>
   <properties
       key="Implicaties"
-      value="2. Als afnemers specifieke kwaliteitseisen stellen en overeenkomen dan worden deze afgestemd met de bronhouder en vastgelegd in een overeenkomst met de aanbieder."/>
+      value="2. Als afnemers specifieke kwaliteitseisen stellen en overeenkomen met de bronhouder dan worden deze vastgelegd in een overeenkomst met de aanbieder."/>
   <properties
       key="Implicaties"
       value="3. De huidige kwaliteit van gegevens wordt expliciet gemeten en inzichtelijk gemaakt in de metagegevens, op een voor gebruikers begrijpelijke wijze."/>
@@ -17,7 +17,7 @@
       value="4. Aanbieders bieden de mogelijkheid om vermoedelijke fouten in registraties terug te melden (ook aan burgers en bedrijven) en routeren meldingen naar de verantwoordelijke bronhouder."/>
   <properties
       key="Implicaties"
-      value="5. Als er een verschil is tussen de eisen die worden gesteld vanuit gebruik en de huidige kwaliteit dan vindt hierover afstemming tussen aanbieder en afnemers plaats en wordt een afweging tussen kosten en baten van mogelijke maatregelen gemaakt."/>
+      value="5. Als er een verschil is tussen de eisen die worden gesteld vanuit gebruik en de huidige kwaliteit dan vindt hierover afstemming tussen bronhouder en afnemers plaats en wordt een afweging tussen kosten en baten van mogelijke maatregelen gemaakt."/>
   <properties
       key="Implicaties"
       value="6. Er is periodieke afstemming tussen bronhouders en afnemers over de mate waarin gegevens (blijven) voldoen aan de gestelde kwaliteitseisen."/>
