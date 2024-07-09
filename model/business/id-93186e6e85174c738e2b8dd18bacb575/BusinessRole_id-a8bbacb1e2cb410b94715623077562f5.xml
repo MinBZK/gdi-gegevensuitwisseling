@@ -1,4 +1,7 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Rol"
-    id="id-a8bbacb1e2cb410b94715623077562f5"/>
+    id="id-a8bbacb1e2cb410b94715623077562f5">
+  <properties
+      key="exclude"/>
+</archimate:BusinessRole>

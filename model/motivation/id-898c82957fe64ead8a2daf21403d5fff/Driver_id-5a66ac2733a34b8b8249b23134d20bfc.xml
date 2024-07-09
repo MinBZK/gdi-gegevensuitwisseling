@@ -1,0 +1,8 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regie op eigen gegevens"
+    id="id-5a66ac2733a34b8b8249b23134d20bfc"
+    documentation="Burgers en organisaties verwachten steeds meer dat ze zelf in control zijn over hun eigen gegevens. Ze willen zelf bepalen aan wie ze hun gegevens verstrekken. Dit is grotendeels hetzelfde als wat ook wel Self Sovereign Identity heet. Daarbij hoort dat je ook zelf je eigen identiteit wilt creëren en niet afhankelijk wil zijn van derde partijen die je mogelijk niet vertrouwt. Gebruikers kunnen hun identiteit voorzien van allerlei verklaringen, die deels van henzelf komen en die deels afkomstig zijn van anderen. De basis voor al dit soort ideeën is de behoefte aan autonomie en privacy.">
+  <profiles
+      href="folder.xml#id-7be84c5323e54f1b9e45b26375c7309b"/>
+</archimate:Driver>

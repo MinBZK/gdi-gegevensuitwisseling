@@ -5,7 +5,7 @@
     documentation="NL GOV profile for CloudEvents is een set Nederlandse afspraken over het gebruik van de internationale standaard CloudEvents. Het beschrijft hoe een plaatsgevonden gebeurtenis gerapporteerd en uitgewisseld kan worden.">
   <properties
       key="Status"
-      value="nvt"/>
+      value="geen"/>
   <properties
       key="Beheerorganisatie"
       value="Logius"/>

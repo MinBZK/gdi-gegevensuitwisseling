@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="typeert"
-    id="id-7e1107887b5843c09fa81c012c53d89e">
+    id="id-7e1107887b5843c09fa81c012c53d89e"
+    directed="true">
   <source
       xsi:type="archimate:BusinessObject"
       href="BusinessObject_id-b8382723adde49209c8e6ba8d3130fd5.xml#id-b8382723adde49209c8e6ba8d3130fd5"/>

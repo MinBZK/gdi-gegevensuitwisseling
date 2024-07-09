@@ -5,7 +5,7 @@
     documentation="SD-JWT-based Verifiable Credentials (SD-JWT VC) is een specificatie die het mogelijk maakt om verifieerbare verklaringen op basis van de SD-JWT standaard te beschrijven en deze ook in JWS JSON te serializeren.">
   <properties
       key="Status"
-      value="nvt"/>
+      value="geen"/>
   <properties
       key="Beheerorganisatie"
       value="IETF"/>

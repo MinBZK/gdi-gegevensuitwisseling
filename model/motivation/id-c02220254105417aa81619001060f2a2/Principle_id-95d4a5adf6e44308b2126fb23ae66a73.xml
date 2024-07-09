@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="4.1. Gegevens worden geleverd vanuit herbruikbare gegevensdiensten"
     id="id-95d4a5adf6e44308b2126fb23ae66a73"
-    documentation="Door vanuit hergebruik naar de clustering van functionaliteit en gegevens te kijken wordt voorkomen dat specifieke afnemers eigen specifieke gegevens en gegevensdiensten vragen. De intentie is dat hergebruik efficiënter en meer beheersbaar is dan het gebruik van point-to-point koppelingen omdat het tot minder koppelingen leidt.">
+    documentation="Door vanuit hergebruik naar de clustering van functionaliteit en gegevens te kijken wordt voorkomen dat specifieke afnemers eigen specifieke gegevens en gegevensdiensten vragen. De intentie is dat hergebruik efficiënter en meer beheersbaar is dan het gebruik van point-to-point koppelingen omdat het tot minder koppelingen leidt. Tegelijkertijd vraagt dataminimalisatie aandacht, waardoor hergebruik lastiger kan zijn.">
   <properties
       key="Implicaties"
       value="1. Gegevensdiensten leveren een clustering van functionaliteit en gegevens die past bij de behoeften van een grote hoeveelheid afnemers."/>

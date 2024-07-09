@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="is van toepassing op"
-    id="id-758957796bf64c7eb768a2cd75e01ffe">
+    id="id-758957796bf64c7eb768a2cd75e01ffe"
+    directed="true">
   <source
       xsi:type="archimate:BusinessObject"
       href="BusinessObject_id-153383edf7e242bebd14d1d5a0583d69.xml#id-153383edf7e242bebd14d1d5a0583d69"/>

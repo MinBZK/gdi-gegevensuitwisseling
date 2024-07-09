@@ -11,8 +11,8 @@
       value="2. In metagegevens van informatieproducten is expliciet gemaakt welke administraties zijn gebruikt."/>
   <properties
       key="Implicaties"
-      value="3. Liefst zijn ook de specifieke onderliggende gegevens die zijn gebruikt bij de afleiding toegankelijk voor de afnemer."/>
+      value="3. Liefst zijn ook de specifieke onderliggende gegevens die zijn gebruikt bij de afleiding toegankelijk voor de afnemer (daarbij rekening houdende met privacy)."/>
   <properties
       key="Implicaties"
-      value="4. Afleidingsregels zijn onder versiebeheer zodat ook historisch inzicht kan worden gegeven in hun werking."/>
+      value="4. Afleidingsregels zijn onder versiebeheer zodat ook historisch inzicht kan worden gegeven in hun werking (en de wet- en regelgeving waarop ze gebaseerd zijn)."/>
 </archimate:Principle>

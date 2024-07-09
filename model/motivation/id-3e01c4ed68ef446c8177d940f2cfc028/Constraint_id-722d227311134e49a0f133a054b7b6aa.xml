@@ -5,7 +5,7 @@
     documentation="Deze standaard maakt het mogelijk om verifieerbare verklaringen te gebruiken in de context van OpenID Connect.">
   <properties
       key="Status"
-      value="nvt"/>
+      value="geen"/>
   <properties
       key="Beheerorganisatie"
       value="OpenID Foundation"/>

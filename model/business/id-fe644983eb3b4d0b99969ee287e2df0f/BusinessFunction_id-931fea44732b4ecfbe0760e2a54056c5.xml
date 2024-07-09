@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Ondertekenen gegevens"
+    id="id-931fea44732b4ecfbe0760e2a54056c5"
+    documentation="Het creëren, verifiëren en valideren van een bewijs dat bepaalde gegevens afkomstig zijn van een specifieke partij en ongewijzigd zijn middels cryptografische technieken."/>
