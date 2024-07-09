@@ -1,11 +1,11 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="5.4"
+    name="6.4"
     id="id-b693cf327ea84951a54e65c29e951013">
   <properties
       key="volgnummer"
-      value="22"/>
+      value="23"/>
   <properties
       key="niveau"
       value="2"/>

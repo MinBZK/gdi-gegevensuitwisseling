@@ -1,8 +1,8 @@
 <archimate:Representation
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doelarchitectuur"
+    name="Gewenste situatie"
     id="id-18e78a7e0dbd4aedb6667e27b568a9b1"
-    documentation="&lt;p>Dit hoofdstuk beschrijft de architectuur van de gewenste situatie met betrekking tot gegevensuitwisseling. Het start met een architectuurvisie die een overkoepelende beschrijving geeft van de gewenste situatie en de architectuurprincipes die deze meer concreet maken. Het bevat vervolgens een aantal verdiepende hoofdstukken op de onderwerpen metagegevens, communicatieprotocollen, historie en eventoriëntatie. Op basis hiervan worden veranderinitiatieven voorgesteld, die aangeven welke nieuwe afspraken, standaarden of voorzieningen of wijzigingen daarin wenselijk zijn. &lt;/p>">
+    documentation="&lt;p>Dit hoofdstuk beschrijft de architectuur van de gewenste situatie met betrekking tot gegevensuitwisseling. Het start met een architectuurvisie die een overkoepelende beschrijving geeft van de gewenste situatie en de architectuurprincipes die deze meer concreet maken. Op basis hiervan worden veranderinitiatieven voorgesteld, die aangeven welke nieuwe afspraken, standaarden of voorzieningen of wijzigingen daarin wenselijk zijn. &lt;/p>">
   <profiles
       href="folder.xml#id-0005c1b00a8b43d58de11d534fb0aeb2"/>
 </archimate:Representation>

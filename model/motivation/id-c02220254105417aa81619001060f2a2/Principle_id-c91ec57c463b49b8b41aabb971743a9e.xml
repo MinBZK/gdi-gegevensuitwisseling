@@ -1,8 +1,8 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="2.2. Aan gegevensuitwisseling liggen voorwaarden en afspraken ten grondslag"
+    name="2.2. Voorwaarden en afspraken zijn expliciet en inzichtelijk"
     id="id-c91ec57c463b49b8b41aabb971743a9e"
-    documentation="Bronhouders willen hun gegevens beschermen en bijvoorbeeld kunnen voorkomen dat gegevens worden verwerkt in andere landen. Vanuit de AVG is belangrijk dat een verwerkingsverantwoordelijke duidelijke afspraken maakt met verwerkers in verwerkingsovereenkomsten. In meer algemene zin is belangrijk dat rechten, plichten en aansprakelijkheden goed zijn geborgd. Als bepaalde afspraken generiek kunnen worden gemaakt, landelijk of in de context van een domein, dan heeft dat de voorkeur omdat het de noodzaak tot bilaterale afspraken minimaliseert. Als overeenkomsten ook in machineleesbare vorm kunnen worden gespecificeerd, dan kan zelfs een geautomatiseerde controle op voorwaarden en afspraken worden uitgevoerd bij de uitwisseling zelf.">
+    documentation="Bronhouders willen hun gegevens beschermen en bijvoorbeeld kunnen voorkomen dat gegevens worden verwerkt in andere landen. Vanuit de AVG is belangrijk dat een verwerkingsverantwoordelijke duidelijke afspraken maakt met verwerkers in verwerkingsovereenkomsten. In meer algemene zin is belangrijk dat rechten, plichten en aansprakelijkheden goed zijn geborgd. Als bepaalde afspraken generiek kunnen worden gemaakt, landelijk of in de context van een domein, dan heeft dat de voorkeur omdat het de noodzaak tot bilaterale afspraken minimaliseert. Inzicht in overeengekomen gegevensuitwisselingen (gegevensdeelrelaties) is wenselijk om transparantie te bieden over (her)gebruik van gegevens aan partijen binnen en buiten de overheid. Als overeenkomsten ook in machineleesbare vorm kunnen worden gespecificeerd, dan kan zelfs een geautomatiseerde controle op voorwaarden en afspraken worden uitgevoerd bij de uitwisseling zelf. ">
   <properties
       key="Implicaties"
       value="1. Bronhouders beschrijven hun voorwaarden zoals de van toepassing zijnde gebruiksbeperkingen, -rechten en -plichten expliciet."/>
@@ -17,8 +17,11 @@
       value="4. Bronhouders of aanbieders maken waar nodig specifieke afspraken met afnemers, zoals over specifieke kwaliteitseisen."/>
   <properties
       key="Implicaties"
-      value="5. Daar waar mogelijk en waardevol worden relevante contractvoorwaarden in machineleesbare vorm omgezet en geautomatiseerd getoetst bij de uitwisseling."/>
+      value="5. Overeengekomen gegevensuitwisselingen worden vastgelegd en publiek inzichtelijk gemaakt (tenzij daar specifieke beperkingen voor gelden)."/>
   <properties
       key="Implicaties"
-      value="6. Overeenkomsten worden periodiek door aanbieder en afnemers getoetst aan de realisatie, geëvalueerd en bijgesteld."/>
+      value="6. Waar mogelijk en waardevol worden relevante voorwaarden in machineleesbare vorm omgezet en geautomatiseerd getoetst bij de uitwisseling."/>
+  <properties
+      key="Implicaties"
+      value="7. Overeenkomsten worden periodiek door aanbieder en afnemers getoetst aan de realisatie, geëvalueerd en bijgesteld."/>
 </archimate:Principle>
