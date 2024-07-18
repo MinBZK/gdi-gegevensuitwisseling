@@ -1,8 +1,8 @@
 <archimate:Constraint
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="API records"
+    name="API Records"
     id="id-8f06012b2a2f45ca97351be679da5987"
-    documentation="API records is een specificatie voor het kunnen creëren, wijzigen en bevragen van metadata over geografische gegevens.">
+    documentation="API Records is een specificatie voor het kunnen creëren, wijzigen en bevragen van metadata over geografische gegevens.">
   <properties
       key="Status"
       value="Aanbevolen"/>
