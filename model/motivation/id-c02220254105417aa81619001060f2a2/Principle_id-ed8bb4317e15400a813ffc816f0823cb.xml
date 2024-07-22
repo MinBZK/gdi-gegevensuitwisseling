@@ -17,7 +17,7 @@
       value="4. Informatieobjecten zoals documenten en datasets zijn voorzien van begrippen zodat ze beter vindbaar zijn."/>
   <properties
       key="Implicaties"
-      value="5. Bij de uitgewisselde gegevens is een verwijzing aanwezig naar het gebruikte schema."/>
+      value="5. Bij gegevens die worden uitgewisseld is een verwijzing aanwezig naar het gebruikte schema."/>
   <properties
       key="Implicaties"
       value="6. Data-elementen in schema’s verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren."/>

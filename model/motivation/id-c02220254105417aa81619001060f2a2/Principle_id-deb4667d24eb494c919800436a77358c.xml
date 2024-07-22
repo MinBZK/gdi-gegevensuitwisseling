@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="1.7. Uitwisseling van gegevens wordt gelogd als deze later aantoonbaar moet zijn"
     id="id-deb4667d24eb494c919800436a77358c"
-    documentation="Logging van gegevensuitwisselingen (verzendingen en ontvangsten) maakt het mogelijk om op een later moment aan te tonen dat gegevensuitwisselingen hebben plaatsgevonden (onweerlegbaarheid). Dat is met name relevant bij de uitwisseling van persoonsgegevens, maar bijvoorbeeld ook bij het aanleveren van open data aan een landelijke registratie. Het faciliteert verder foutanalyse, procesanalyse, misbruikdetectie, forensisch onderzoek en onderlinge verrekening van diensten. Auditlogging is in het algemeen een plicht vanuit het perspectief van informatiebeveiliging. ">
+    documentation="Logging van gegevensuitwisselingen (verzendingen en ontvangsten) maakt het mogelijk om op een later moment aan te tonen dat gegevensuitwisselingen hebben plaatsgevonden (onweerlegbaarheid). Dat is met name relevant bij de uitwisseling van persoonsgegevens, maar bijvoorbeeld ook bij het aanleveren van gegevens aan een landelijke registratie. Het faciliteert verder foutanalyse, procesanalyse, misbruikdetectie, forensisch onderzoek en onderlinge verrekening van diensten. Auditlogging is in het algemeen een plicht vanuit het perspectief van informatiebeveiliging. ">
   <properties
       key="Implicaties"
       value="1. Bronhouders afspraken maken met aanbieders over onweerlegbaarheid en logging."/>
@@ -11,7 +11,7 @@
       value="2. Aanbieders loggen (metagegevens van) berichten die zijn verzonden, afnemers loggen (metagegevens van) berichten die zijn ontvangen als de uitwisseling later aantoonbaar moet zijn."/>
   <properties
       key="Implicaties"
-      value="3. De logs van verzonden en ontvangen berichten zijn aan elkaar te relateren op basis van een gemeenschappelijke identifier, zodat berichten die volgen uit één trigger aan elkaar gerelateerd kunnen worden."/>
+      value="3. De logs van verzonden en ontvangen berichten zijn aan elkaar te relateren op basis van een gemeenschappelijke identificatie, zodat berichten die volgen uit één trigger aan elkaar gerelateerd kunnen worden."/>
   <properties
       key="Implicaties"
       value="4. Als hoge eisen aan onweerlegbaarheid worden gesteld dan worden aanvullende maatregelen overwogen, zoals het ondertekenen van berichten of het delegeren van logging naar een derde partij (clearing house)."/>

@@ -2,10 +2,10 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="5.1. Informatieproducten zijn herleidbaar naar de onderliggende gegevens en regels"
     id="id-6105d026a74846a09e27cae12adde94b"
-    documentation="Het is belangrijk dat afnemers van informatieproducten kunnen begrijpen waar de gegevens die zij afnemen op zijn gebaseerd. Hierdoor kunnen ze bepalen hoe de resultaten tot stand zijn gekomen, of het resultaat aansluit bij hun informatiebehoefte en of de onderliggende gegevens voldoende betrouwbaar zijn. Het geeft ze vertrouwen in de mate waarin het informatieproduct aansluit bij hun eigen gebruik. De kwaliteit van de onderliggende gegevens bepalen namelijk vooral de kwaliteit van het informatieproduct dat erop is gebaseerd. ">
+    documentation="Het is belangrijk dat afnemers van informatieproducten weten hoe deze tot stand zijn gekomen. Ze willen weten welke onderliggende brongegevens zijn gebruikt en welke afleidingsregels daarop zijn toegepast. Hierdoor kunnen ze beter inschatten of de resulterende gegevens aansluiten bij hun informatiebehoefte en of ze voldoende betrouwbaar zijn. Het geeft ze vertrouwen in de mate waarin het informatieproduct aansluit bij hun eigen gebruik. De kwaliteit van de onderliggende brongegevens bepalen de kwaliteit van het informatieproduct.">
   <properties
       key="Implicaties"
-      value="1. De afleidingsregels (en hun documentatie) zoals gebruikt voor het samenstellen van het informatieproduct (vanaf de bron) zijn toegankelijk voor de afnemer."/>
+      value="1. De afleidingsregels (en hun documentatie) die zijn gebruikt voor het creëren van het informatieproduct (vanaf de bron) zijn toegankelijk voor de afnemer."/>
   <properties
       key="Implicaties"
       value="2. In metagegevens van informatieproducten is expliciet gemaakt welke administraties zijn gebruikt."/>

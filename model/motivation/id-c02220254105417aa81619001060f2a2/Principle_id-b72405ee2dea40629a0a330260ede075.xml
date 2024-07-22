@@ -8,7 +8,7 @@
       value="1. Organisaties definiëren expliciet welke (levens)gebeurtenissen zij op willen acteren en welke gegevensuitwisselingen met andere organisaties hiervoor nodig zijn."/>
   <properties
       key="Implicaties"
-      value="2. Aanbieders verstrekken notificaties als belangrijke gebeurtenissen plaatsvinden, zoals wanneer bepaalde gegevens wijzigen."/>
+      value="2. Aanbieders verstrekken notificaties als belangrijke gebeurtenissen plaatsvinden."/>
   <properties
       key="Implicaties"
       value="3. Er zijn mechanismen die borgen dat de notificaties daadwerkelijk worden ontvangen door afnemers."/>
