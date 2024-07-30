@@ -11,15 +11,6 @@
         value="2"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-bdb254afca02495192f8115741492924"
-        source="id-42ee4f28760043f9bff98fac0edb4a8e"
-        target="id-ac95fadb4d984447978f5383cf73a342">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-400d15b32b244139bd634a230ae5cf20.xml#id-400d15b32b244139bd634a230ae5cf20"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-9f804f56490e4d73882427da4e1d60ac"
         source="id-42ee4f28760043f9bff98fac0edb4a8e"
         target="id-0ee66fea89b5458ca67efc39da96710b">
@@ -43,24 +34,6 @@
         height="397"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-ac95fadb4d984447978f5383cf73a342"
-        targetConnections="id-bdb254afca02495192f8115741492924"
-        fillColor="#ffffff"
-        textPosition="1">
-      <features
-          name="iconVisible"
-          value="2"/>
-      <bounds
-          x="12"
-          y="96"
-          width="301"
-          height="49"/>
-      <archimateElement
-          xsi:type="archimate:Principle"
-          href="Principle_id-a1d7faf077c6431d81a6acd66ffc5b29.xml#id-a1d7faf077c6431d81a6acd66ffc5b29"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0ee66fea89b5458ca67efc39da96710b"
         targetConnections="id-9f804f56490e4d73882427da4e1d60ac"
         fillColor="#ffffff"
@@ -70,7 +43,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="156"
+          y="96"
           width="301"
           height="49"/>
       <archimateElement
@@ -88,7 +61,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="216"
+          y="156"
           width="301"
           height="49"/>
       <archimateElement
@@ -421,7 +394,7 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="204"
+          x="12"
           y="96"
           width="301"
           height="49"/>
@@ -438,7 +411,7 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="528"
+          x="348"
           y="96"
           width="301"
           height="49"/>
@@ -489,7 +462,7 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="1008"
+          x="1020"
           y="36"
           width="301"
           height="49"/>
@@ -506,13 +479,30 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="852"
+          x="1020"
           y="96"
           width="301"
           height="49"/>
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_id-deb4667d24eb494c919800436a77358c.xml#id-deb4667d24eb494c919800436a77358c"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-ac95fadb4d984447978f5383cf73a342"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="684"
+          y="96"
+          width="301"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:Principle"
+          href="Principle_id-a1d7faf077c6431d81a6acd66ffc5b29.xml#id-a1d7faf077c6431d81a6acd66ffc5b29"/>
     </children>
   </children>
   <children
