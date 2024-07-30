@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="4.2. Persoonsgegevens zijn beschermd bij het uitwisselen van gegevens"
+    name="1.7. Persoonsgegevens zijn beschermd bij het uitwisselen van gegevens"
     id="id-a1d7faf077c6431d81a6acd66ffc5b29"
     documentation="De Europese datastrategie stelt dat het belang van de burger altijd op de eerste plaats moet komen, in overeenstemming met de Europese waarden, grondrechten en regels. Het is belangrijk om te voldoen aan eisen rondom privacy en informatiebeveiliging bij het uitwisselen van gegevens. Daarbij vragen met name persoonsgegevens aandacht omdat deze inherent privacygevoelig zijn en de uitwisseling alleen onder specifieke condities mogelijk is. Anderzijds wordt privacy vaak onterecht als blokkade gezien voor de uitwisseling van gegevens. Privacy is wettelijk geborgd in de Algemene Verordening Gegevensbescherming. ">
   <properties
@@ -17,7 +17,7 @@
       value="4. Gegevens die worden uitgewisseld zijn geclassificeerd en op basis van deze classificatie zijn relevante maatregelen genomen, zoals versleuteling."/>
   <properties
       key="Implicaties"
-      value="5. Waar nodig en mogelijk wordt gebruik gemaak van Privacy Enhancing Technologies om privacy te borgen."/>
+      value="5. Waar nodig en mogelijk wordt gebruik gemaakt van Privacy Enhancing Technologies om privacy te borgen."/>
   <properties
       key="Implicaties"
       value="6. De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
