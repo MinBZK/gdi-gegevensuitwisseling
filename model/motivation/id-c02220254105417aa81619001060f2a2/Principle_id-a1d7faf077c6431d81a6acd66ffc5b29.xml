@@ -17,11 +17,11 @@
       value="4. Gegevens die worden uitgewisseld zijn geclassificeerd en op basis van deze classificatie zijn relevante maatregelen genomen."/>
   <properties
       key="Implicaties"
-      value="5. Persoonsgegevens worden versleuteld bij uitwisseling, minimaal op transportniveau."/>
+      value="5. De persoonsgegevens die worden uitgewisseld zijn geanonimiseerd, gepseudonimiseerd of versleuteld (kan ook op transportniveau)."/>
   <properties
       key="Implicaties"
-      value="6. Waar nodig en mogelijk wordt gebruik gemaakt van Privacy Enhancing Technologies om privacy te borgen."/>
+      value="6. De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
   <properties
       key="Implicaties"
-      value="7. De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
+      value="7. Waar mogelijk en waardevol wordt gebruik gemaakt van Privacy Enhancing Technologies om privacy te borgen."/>
 </archimate:Principle>
