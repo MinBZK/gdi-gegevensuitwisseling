@@ -14,11 +14,14 @@
       value="3. Gegevensdiensten die persoonsgegevens ontsluiten zijn alleen toegankelijk voor geauthenticeerde en geautoriseerde afnemers."/>
   <properties
       key="Implicaties"
-      value="4. Gegevens die worden uitgewisseld zijn geclassificeerd en op basis van deze classificatie zijn relevante maatregelen genomen, zoals versleuteling."/>
+      value="4. Gegevens die worden uitgewisseld zijn geclassificeerd en op basis van deze classificatie zijn relevante maatregelen genomen."/>
   <properties
       key="Implicaties"
-      value="5. Waar nodig en mogelijk wordt gebruik gemaakt van Privacy Enhancing Technologies om privacy te borgen."/>
+      value="5. De persoonsgegevens die worden uitgewisseld zijn geanonimiseerd, gepseudonimiseerd of versleuteld (kan ook op transportniveau)."/>
   <properties
       key="Implicaties"
       value="6. De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
+  <properties
+      key="Implicaties"
+      value="7. Waar mogelijk en waardevol wordt gebruik gemaakt van Privacy Enhancing Technologies om privacy te borgen."/>
 </archimate:Principle>
