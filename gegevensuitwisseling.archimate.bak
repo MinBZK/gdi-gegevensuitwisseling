@@ -920,6 +920,11 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       <element xsi:type="archimate:ApplicationComponent" name="CPA register" id="id-dfe54c64edd940149c83331f33968fad" profiles="id-10b1e85a34ea4c249cabccc0e17a4651">
         <documentation>Het CPA Register slaat gegevens op over de organisatie, de gebruiker, service, certificaten, en digikoppeling. Dit om het de gebruikers makkelijk te maken om op basis van opgeslagen gegevens CPA’s te maken.</documentation>
       </element>
+      <element xsi:type="archimate:ApplicationComponent" name="BSNk" id="id-f417beff3e9f4b6088d2858190e298f4" profiles="id-10b1e85a34ea4c249cabccc0e17a4651">
+        <documentation>Een voorziening die polymorfe identiteiten en pseudoniemen kan genereren, versleutelen en ontsleutelen.</documentation>
+        <property key="Beheerorganisatie" value="Logius"/>
+        <property key="URL" value="https://www.logius.nl/domeinen/toegang/bsnk-pp"/>
+      </element>
     </folder>
     <folder name="Overig" id="id-99478d87049749b59af53f2e0f5514bf">
       <element xsi:type="archimate:ApplicationComponent" name="Gewenste voorziening" id="id-b8bd855199e9414b937ab5aaf1c2411f" profiles="id-3fede1bbcb0941648a2c8a077a594cb1">
@@ -1940,9 +1945,10 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <property key="Implicaties" value="1. De wettelijke grondslag en doelbinding van de uitwisseling zijn bekend."/>
         <property key="Implicaties" value="2. Voorafgaand aan het uitwisselen van gegevens vindt expliciete toetsing op privacy en informatiebeveiliging plaats."/>
         <property key="Implicaties" value="3. Gegevensdiensten die persoonsgegevens ontsluiten zijn alleen toegankelijk voor geauthenticeerde en geautoriseerde afnemers."/>
-        <property key="Implicaties" value="4. Gegevens die worden uitgewisseld zijn geclassificeerd en op basis van deze classificatie zijn relevante maatregelen genomen, zoals versleuteling."/>
-        <property key="Implicaties" value="5. Waar nodig en mogelijk wordt gebruik gemaakt van Privacy Enhancing Technologies om privacy te borgen."/>
+        <property key="Implicaties" value="4. Gegevens die worden uitgewisseld zijn geclassificeerd en op basis van deze classificatie zijn relevante maatregelen genomen."/>
+        <property key="Implicaties" value="5. De persoonsgegevens die worden uitgewisseld zijn geanonimiseerd, gepseudonimiseerd of versleuteld (kan ook op transportniveau)."/>
         <property key="Implicaties" value="6. De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
+        <property key="Implicaties" value="7. Waar mogelijk en waardevol wordt gebruik gemaakt van Privacy Enhancing Technologies om privacy te borgen."/>
       </element>
       <element xsi:type="archimate:Principle" name="1.1. Gegevens die kunnen worden gedeeld zijn vindbaar, toegankelijk, interoperabel en herbruikbaar" id="id-a3ff1bdac53d4cf28526f9f3f360ffcf">
         <documentation>Het beschikbaar stellen van gegevens voor hergebruik leidt tot meer transparantie, efficiëntie en innovatie. De wet open overheid onderstreept het belang van openbaarheid van publieke informatie voor de democratische samenleving. Voor het kunnen hergebruiken van gegevens zijn hun vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid zoals bedoeld met de FAIR-principes essentieel. Zij zorgen ervoor dat anderen in staat zijn om te begrijpen wat eigenschappen van de gegevens zijn, wat ze betekenen en of ze bruikbaar zijn voor hun eigen doeleinden. Ze zorgen er ook voor dat de gegevens eenvoudig verkregen kunnen worden.</documentation>
@@ -2448,6 +2454,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       <property key="niveau" value="1"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-92ffeefe22b441839b2cbf48806c4275" source="id-75c7bd8abe3244d3aed0a72bf1509275" target="id-9d943684fc1e4678a99a37ec061dcd19"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-940a03fd8313437da490c55aadad1b20" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-a1d7faf077c6431d81a6acd66ffc5b29"/>
     <element xsi:type="archimate:AssociationRelationship" name="is toegankelijk via" id="id-9479e6e915d9426b95c170e7ae02485b" source="id-5559669d97cb4cdca49cbe04a07067ff" target="id-9aab67d0e4a045fda585d6550fd23f32" directed="true"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-94b9d14cdd3148df8663ca62eb28d0a8" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-978c37663b714e0fbdc9ec088db243d4"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-95dd964f0aee44759912c80286e113d8" source="id-592dc350d1034ca280d27157e17ba09d" target="id-6105d026a74846a09e27cae12adde94b"/>
@@ -2602,6 +2609,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
     <element xsi:type="archimate:AssociationRelationship" id="id-dbe5df2d9ec34e0ea8e44d0dc844527d" source="id-b160b994f4554d128443e7406af8d09e" target="id-d974da9b3dc341f1b2c6e22e4009796a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-dd6c99e19d7f45f4a73222afe98a47d6" source="id-f5d4c4f8264842e7ab69504476a0cdd4" target="id-02a4804d1e204365a324f4629e057131"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-de72f87636534ed19236a7811480a1a3" source="id-51addf9338fa40d4abb17533786677d0" target="id-978c37663b714e0fbdc9ec088db243d4"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-e06efe55d12b41f98d9fa5304c9f669c" source="id-592dc350d1034ca280d27157e17ba09d" target="id-a1d7faf077c6431d81a6acd66ffc5b29"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e13d58fa574c444fa36e6f54d2215ae4" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-a886fec7ea1447db9831cd8c85bcd77c"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e1567f0a7a214780b6e64ab65bd1d5bd" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-adefb7b185264eaa958b42be410c314d"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e197220a62bb43229f2d68b1fb3d3eed" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-65345368655446139e74ae4b4fb1b8dc"/>
@@ -2909,7 +2917,9 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
     <element xsi:type="archimate:SpecializationRelationship" id="id-4baaf3df91a64de9b90b4213b96d276d" source="id-5559669d97cb4cdca49cbe04a07067ff" target="id-61972e0d2c02472b903090af6f8b0650"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-738dacacd7104d21807f0f314a944f42" source="id-d896763cdeee448e953a2193561a728f" target="id-6140b0bcf3aa44ab8c0137098352364d"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-f61f5dbacf1546e7bb51628c07df063f" source="id-e24ef8dc93054899b021a15207b3eea0" target="id-6140b0bcf3aa44ab8c0137098352364d"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-940a03fd8313437da490c55aadad1b20" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-a1d7faf077c6431d81a6acd66ffc5b29"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-da7edaa345a7408f84e703dd1dab296e" source="id-f417beff3e9f4b6088d2858190e298f4" target="id-ca0d41ec8062445a803b463b7b88a4c9"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-689c96395eb844b29d9f5bac2f56c26d" source="id-f417beff3e9f4b6088d2858190e298f4" target="id-653ab3c904ca4f04bd358b3eebd7cb46"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-25e2544c981943f2a31a478a00e4fd89" source="id-f417beff3e9f4b6088d2858190e298f4" target="id-592dc350d1034ca280d27157e17ba09d"/>
   </folder>
   <folder name="Views" id="id-a006a61a59a4410aa97243727cded72a" type="diagrams">
     <folder name="Gewenste situatie" id="id-1b70ddc9a2c04d01bd21b94782dbece6">
@@ -6887,7 +6897,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-e8947955e7704fa4a766648a7fa11a1f" targetConnections="id-50dcddb78e4f4b8aabd68d63496d8259 id-e8a8cdff8a74428d9fff180acb4ee3b4" archimateElement="id-592dc350d1034ca280d27157e17ba09d">
+        <child xsi:type="archimate:DiagramObject" id="id-e8947955e7704fa4a766648a7fa11a1f" targetConnections="id-50dcddb78e4f4b8aabd68d63496d8259 id-e8a8cdff8a74428d9fff180acb4ee3b4 id-e0c4ec87890f42c2b5b1bd257899fc58" archimateElement="id-592dc350d1034ca280d27157e17ba09d">
           <bounds x="1032" y="132" width="181" height="589"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-7fdbf5b8b58c4bcbb2d1168e65b90030" source="id-e8947955e7704fa4a766648a7fa11a1f" target="id-44c2c6c53df44ff8a5106492b8207b5d" archimateRelationship="id-a7efe5610ae94f379b253aec36ed45d1"/>
@@ -6906,7 +6916,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
             <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-27a67a7a928f49589e0ae269d015512e" targetConnections="id-8605c714f0e6406589fae572dfa1f248" fillColor="#ffffff" textPosition="1" archimateElement="id-ca0d41ec8062445a803b463b7b88a4c9">
+          <child xsi:type="archimate:DiagramObject" id="id-27a67a7a928f49589e0ae269d015512e" targetConnections="id-8605c714f0e6406589fae572dfa1f248 id-d2039fa2ac3c4579a8ae47b63247a390" fillColor="#ffffff" textPosition="1" archimateElement="id-ca0d41ec8062445a803b463b7b88a4c9">
             <bounds x="12" y="396" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
@@ -6926,7 +6936,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
             <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-c1b53cb72e624cc6ba52e0ad43e33c56" targetConnections="id-1ee65e5aefd847418b5406443bfb7310" fillColor="#ffffff" textPosition="1" archimateElement="id-653ab3c904ca4f04bd358b3eebd7cb46">
+          <child xsi:type="archimate:DiagramObject" id="id-c1b53cb72e624cc6ba52e0ad43e33c56" targetConnections="id-1ee65e5aefd847418b5406443bfb7310 id-4dba7bad6caf45a8a7979a2317e01937" fillColor="#ffffff" textPosition="1" archimateElement="id-653ab3c904ca4f04bd358b3eebd7cb46">
             <bounds x="12" y="456" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
@@ -7038,6 +7048,12 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <child xsi:type="archimate:DiagramObject" id="id-10de7bed0ce64f688b46480d2efdb331" textPosition="1" archimateElement="id-dfe54c64edd940149c83331f33968fad">
           <bounds x="36" y="216" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-467dcf3f2d6b4696ab6d55269e72beb0" lineColor="#808080" source="id-10de7bed0ce64f688b46480d2efdb331" target="id-494f00654f8f40909c2d180f53a57310" archimateRelationship="id-efd8e9ed92fe4fc69a08a4beb7ba6544"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b6101829e1e54faf97c468db2db5b778" textPosition="1" archimateElement="id-f417beff3e9f4b6088d2858190e298f4">
+          <bounds x="36" y="612" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d2039fa2ac3c4579a8ae47b63247a390" lineColor="#808080" source="id-b6101829e1e54faf97c468db2db5b778" target="id-27a67a7a928f49589e0ae269d015512e" archimateRelationship="id-da7edaa345a7408f84e703dd1dab296e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-4dba7bad6caf45a8a7979a2317e01937" lineColor="#808080" source="id-b6101829e1e54faf97c468db2db5b778" target="id-c1b53cb72e624cc6ba52e0ad43e33c56" archimateRelationship="id-689c96395eb844b29d9f5bac2f56c26d"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-e0c4ec87890f42c2b5b1bd257899fc58" lineColor="#808080" source="id-b6101829e1e54faf97c468db2db5b778" target="id-e8947955e7704fa4a766648a7fa11a1f" archimateRelationship="id-25e2544c981943f2a31a478a00e4fd89"/>
         </child>
       </element>
     </folder>
