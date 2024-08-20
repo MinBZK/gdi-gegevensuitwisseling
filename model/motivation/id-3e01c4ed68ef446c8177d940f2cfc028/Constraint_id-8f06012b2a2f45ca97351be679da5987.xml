@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="API Records"
+    id="id-8f06012b2a2f45ca97351be679da5987"
+    documentation="API Records is een specificatie voor het kunnen creëren, wijzigen en bevragen van metadata over geografische gegevens.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="OGC"/>
+  <properties
+      key="URL"
+      value="https://ogcapi.ogc.org/records/"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

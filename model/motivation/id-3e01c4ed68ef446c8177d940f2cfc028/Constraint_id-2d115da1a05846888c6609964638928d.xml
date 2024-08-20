@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="API Tiles"
+    id="id-2d115da1a05846888c6609964638928d"
+    documentation="De OGC API Tiles standaard ondersteunt het bevragen van geografische gegevens als tiles.">
+  <properties
+      key="Status"
+      value="geen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="OGC"/>
+  <properties
+      key="URL"
+      value="https://ogcapi.ogc.org/tiles/"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

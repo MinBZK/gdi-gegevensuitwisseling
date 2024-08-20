@@ -1,0 +1,8 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CPA register"
+    id="id-dfe54c64edd940149c83331f33968fad"
+    documentation="Het CPA Register slaat gegevens op over de organisatie, de gebruiker, service, certificaten, en digikoppeling. Dit om het de gebruikers makkelijk te maken om op basis van opgeslagen gegevens CPA’s te maken.">
+  <profiles
+      href="folder.xml#id-10b1e85a34ea4c249cabccc0e17a4651"/>
+</archimate:ApplicationComponent>

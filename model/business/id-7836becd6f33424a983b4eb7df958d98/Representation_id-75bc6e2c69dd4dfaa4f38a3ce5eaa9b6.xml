@@ -1,0 +1,11 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Veranderinitiatieven"
+    id="id-75bc6e2c69dd4dfaa4f38a3ce5eaa9b6"
+    documentation="&lt;p>De domeinarchitectuur beschrijft veranderinitiatieven die worden voorgesteld omdat ze nodig zijn om ervoor te zorgen dat de digitale overheid kan voldoen aan de beschreven architectuur. Het zijn in eerste instantie alleen voorstellen en ze zijn ook nog niet voorzien van informatie over kosten en baten. Ze zijn vooral input voor nog op te stellen vernieuwingsvoorstellen, in het kader waarvan kosten en baten kunnen worden uitgewerkt. Er is ook bewust voor gekozen om initiatieven die al deel uitmaken van lopende programma’s of projecten niet te benoemen, omdat dat weinig meerwaarde heeft. De volgende figuur plot de voorgestelde veranderinitiatieven op het functiemodel.&lt;/p>&#xD;&#xA;&lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/images/veranderinitiatieven.svg&quot;>&lt;/center>&lt;/p>&#xD;&#xA;">
+  <properties
+      key="elementType"
+      value="work-package"/>
+  <profiles
+      href="folder.xml#id-0005c1b00a8b43d58de11d534fb0aeb2"/>
+</archimate:Representation>

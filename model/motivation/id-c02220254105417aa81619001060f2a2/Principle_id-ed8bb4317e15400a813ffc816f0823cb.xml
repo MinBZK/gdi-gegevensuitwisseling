@@ -1,0 +1,27 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="3.4. Metagegevens zijn aan elkaar verbonden"
+    id="id-ed8bb4317e15400a813ffc816f0823cb"
+    documentation="Gegevens hebben metagegevens nodig om betekenis te krijgen en bruikbaar te zijn. Er zijn allerlei soorten metagegevens die verschillende aspecten van gegevens modelleren, zoals metagegevens die de betekenis beschrijven, metagegevens die de structuur beschrijven en metagegevens die beschrijven welke datasets beschikbaar zijn. Dit soort metagegevens moeten in relatie tot elkaar geïnterpreteerd worden, om echt waardevol te zijn. ">
+  <properties
+      key="Implicaties"
+      value="1. Modelelementen in informatie- en gegevensmodellen zoals objecttypes en attribuutsoorten refereren expliciet naar de gedefinieerde begrippen die ze representeren."/>
+  <properties
+      key="Implicaties"
+      value="2. In informatie- en gegevensmodellen wordt ook gerefereerd naar de beperkingsregels en afleidingsregels die van toepassing zijn."/>
+  <properties
+      key="Implicaties"
+      value="3. Bij metagegevens over datasets zijn ook metagegevens beschikbaar over de objecttypen en attribuutsoorten van de in de dataset aanwezige gegevens."/>
+  <properties
+      key="Implicaties"
+      value="4. Informatieobjecten zoals documenten en datasets zijn voorzien van begrippen zodat ze beter vindbaar zijn."/>
+  <properties
+      key="Implicaties"
+      value="5. Bij gegevens die worden uitgewisseld is een verwijzing aanwezig naar het gebruikte schema."/>
+  <properties
+      key="Implicaties"
+      value="6. Data-elementen in schema’s verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren."/>
+  <properties
+      key="Implicaties"
+      value="7. Er is bij de documentatie van diensten of operaties in gegevensdiensten beschreven welke beperkingsregels en afleidingsregels worden toegepast."/>
+</archimate:Principle>

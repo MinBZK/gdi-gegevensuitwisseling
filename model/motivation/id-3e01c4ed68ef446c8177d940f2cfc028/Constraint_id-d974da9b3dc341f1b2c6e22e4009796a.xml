@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="JWT"
+    id="id-d974da9b3dc341f1b2c6e22e4009796a"
+    documentation="JSON Web Token (JWT) is een compacte, URL-veilige manier om verklaringen uit te wisselen tussen twee partijen.">
+  <properties
+      key="Status"
+      value="geen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
+      key="URL"
+      value="https://www.rfc-editor.org/info/rfc7519"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

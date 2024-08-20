@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OpenAPI specificatie als Linked Data vocabulaire"
+    id="id-0e85a67b569d4eeba00a544dba53a937"
+    documentation="Het is wenselijk om een Linked Data vocabulaire te ontwikkelen voor de OpenAPI specificatie. Dit maakt het mogelijk om metagegevens over API's (API specificaties) te integreren met andere vormen van metagegevens, zoals gegevensmodellen. Specifieke aandacht is gewenst voor het op gestandaardiseerde wijze kunnen verbinden van data-elementen in API specificaties (en daarmee in JSON schema's) aan objecttypes en attributen in gegevensmodellen. Dit creëert een verticale data lineage waardoor gebruikers van API's beter inzicht krijgen in de precieze betekenis van gegevens in API's."/>

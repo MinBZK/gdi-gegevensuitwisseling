@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AMQP"
+    id="id-d492fe8867bc4528bff797b5762dd4c2"
+    documentation="Het Advanced Message Queuing Protocol (AMQP) is gericht op het betrouwbaar uitwisselen van berichten.">
+  <properties
+      key="Status"
+      value="geen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="OASIS"/>
+  <properties
+      key="URL"
+      value="https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

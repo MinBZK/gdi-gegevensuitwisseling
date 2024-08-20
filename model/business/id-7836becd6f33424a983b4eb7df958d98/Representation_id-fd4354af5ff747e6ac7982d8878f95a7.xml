@@ -1,0 +1,11 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Knelpunten"
+    id="id-fd4354af5ff747e6ac7982d8878f95a7"
+    documentation="&lt;p>Knelpunten zijn omstandigheden in de huidige situatie die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten van de analyse zijn samengevat en opgenomen in de architectuur.&lt;/p>">
+  <properties
+      key="elementType"
+      value="assessment"/>
+  <profiles
+      href="folder.xml#id-0005c1b00a8b43d58de11d534fb0aeb2"/>
+</archimate:Representation>

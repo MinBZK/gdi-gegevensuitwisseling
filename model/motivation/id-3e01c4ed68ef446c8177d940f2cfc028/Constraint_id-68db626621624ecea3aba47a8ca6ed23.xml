@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="SD-JWT"
+    id="id-68db626621624ecea3aba47a8ca6ed23"
+    documentation="Selective Disclosure JWT (SD-JWT) is een standaard die het mogelijk maakt om een subset van verklaringen in een getekende JWT te delen.">
+  <properties
+      key="Status"
+      value="geen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
+      key="URL"
+      value="https://www.ietf.org/archive/id/draft-fett-oauth-selective-disclosure-jwt-02.html"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

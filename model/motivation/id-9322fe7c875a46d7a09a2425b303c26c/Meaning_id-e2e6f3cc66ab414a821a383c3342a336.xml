@@ -1,0 +1,18 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="gegevensdienst"
+    id="id-e2e6f3cc66ab414a821a383c3342a336"
+    documentation="Een verzameling operaties die toegang bieden tot een of meer datasets of gegevensverwerkingsfuncties.">
+  <properties
+      key="Alternatieve term"
+      value="dataservice"/>
+  <properties
+      key="Redactionele notitie"
+      value="Dit is bewust breder gedefinieerd dan in DCAT 2.0 zodat dit ook past op event-gebaseerde communicatie."/>
+  <properties
+      key="Toelichting"
+      value="Met een Dataservice kan men toegang krijgen tot (een selectie of bewerking van) gegevens van een of meer datasets, speciaal bedoeld voor geautomatiseerde koppelingen tussen systemen. Voorbeelden zijn API- of WMS services."/>
+  <properties
+      key="Is gerelateerd aan"
+      value="gegeven"/>
+</archimate:Meaning>

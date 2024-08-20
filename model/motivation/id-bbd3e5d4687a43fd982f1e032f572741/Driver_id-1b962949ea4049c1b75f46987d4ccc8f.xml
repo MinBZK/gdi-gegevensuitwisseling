@@ -1,0 +1,11 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="eIDAS 2.0"
+    id="id-1b962949ea4049c1b75f46987d4ccc8f"
+    documentation="De afkorting eIDAS staat voor ‘electronic IDentities And Trust Services’. De verordening regelt een Europees kader voor digitale identiteiten waarmee het makkelijker en veiliger wordt om binnen Europa online zaken te regelen. De herziene versie van de verordening introduceert Europese digitale identiteitswallets waarmee burgers en organisaties gebruik kunnen maken van digitale diensten. Het gebruik van de wallet is op basis van vrijwilligheid en maakt het mogelijk voor burgers en organisaties om controle te hebben over hun persoonsgegevens. De wallet kan gebruikt worden als een identificatiemiddel, voor machtigen en vertegenwoordigen, voor elektronisch ondertekenen en als een middel voor het veilig delen van gegevens.  ">
+  <properties
+      key="URL"
+      value="https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52021PC0281"/>
+  <profiles
+      href="folder.xml#id-9a653edb2b4d4f3db01084267f44519e"/>
+</archimate:Driver>

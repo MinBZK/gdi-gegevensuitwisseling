@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IMX Model Mapping"
+    id="id-ce31bcdad11a4f879c58d0072d5dbbe9"
+    documentation="IMX Model Mapping beschrijft een vertaling van één of meer bronnen naar een doel en is bedoeld om gebruikt te worden voor een IMX orchestratie.">
+  <properties
+      key="Status"
+      value="geen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="Geonovum"/>
+  <properties
+      key="URL"
+      value="https://geonovum.github.io/IMX-ModelMapping/"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

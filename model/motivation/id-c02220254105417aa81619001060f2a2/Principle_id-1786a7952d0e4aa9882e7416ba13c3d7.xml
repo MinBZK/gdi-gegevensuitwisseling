@@ -1,0 +1,24 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="3.2. Metagegevens zijn begrijpelijk voor mensen"
+    id="id-1786a7952d0e4aa9882e7416ba13c3d7"
+    documentation="Gebruikers willen op basis van metagegevens bepalen wat gegevens betekenen voor hun eigen gebruik en moeten deze daarvoor kunnen begrijpen. In de praktijk worden gebruikers te vaak te snel doorverwezen naar technische specificaties en ontbreekt een begrijpelijke functionele uitleg. Specialisten hebben daarnaast ook een verantwoordelijkheid voor het onderhouden van metagegevens, en moeten deze metagegevens dus ook kunnen begrijpen om ze te kunnen aanpassen. Bepaalde metagegevens worden gegenereerd uit andere (hoger liggende) metagegevens en zijn daarmee automatisch op een hoger niveau gedocumenteerd. Denk bijvoorbeeld aan schema’s, die worden gegenereerd op basis van een gegevensmodel.">
+  <properties
+      key="Implicaties"
+      value="1. Metagegevens op alle niveaus zijn voorzien van een definitie of omschrijving en als dat niet voldoende is, ook van een aanvullende toelichting en/of voorbeelden."/>
+  <properties
+      key="Implicaties"
+      value="2. Metagegevens zijn geformuleerd in begrijpelijke taal, passend bij de doelgroepen."/>
+  <properties
+      key="Implicaties"
+      value="3. Metagegevens zijn niet alleen beschikbaar in machineleesbare vorm, maar zijn ook voorzien van begrijpelijke documentatie."/>
+  <properties
+      key="Implicaties"
+      value="4. Metagegevens zijn vastgelegd volgens open standaarden, zodat ze een breed herkenbare structuur en betekenis hebben."/>
+  <properties
+      key="Implicaties"
+      value="5. Fysieke schema's verwijzen naar gegevensmodellen waarin hun betekenis is gedefinieerd."/>
+  <properties
+      key="Implicaties"
+      value="6. Omschrijvingen en toelichtingen in metadata zijn digitaal toegankelijk."/>
+</archimate:Principle>

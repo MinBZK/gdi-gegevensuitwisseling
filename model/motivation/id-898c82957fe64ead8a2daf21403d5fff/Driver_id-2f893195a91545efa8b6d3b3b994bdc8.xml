@@ -1,0 +1,8 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Common Ground"
+    id="id-2f893195a91545efa8b6d3b3b994bdc8"
+    documentation="Common Ground is de informatiekundige visie waarmee gemeenten collectief de informatievoorziening eenvoudiger, flexibeler en slimmer willen inrichten. Daardoor willen ze hun dienstverlening en bedrijfsvoering verbeteren en beter ze in staat zijn om flexibel in te spelen op maatschappelijke opgaven. Het is gebaseerd op het inzicht dat de huidige manier van gegevens uitwisselen traag verloopt, kostbaar is en foutgevoelig. Basisgedachten daarbij zijn dat gegevens moeten worden losgekoppeld van processen en applicaties, en dat data bij de bron moet worden gehaald.">
+  <profiles
+      href="folder.xml#id-7be84c5323e54f1b9e45b26375c7309b"/>
+</archimate:Driver>

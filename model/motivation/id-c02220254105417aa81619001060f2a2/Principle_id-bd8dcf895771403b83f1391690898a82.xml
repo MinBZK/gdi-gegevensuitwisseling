@@ -1,0 +1,27 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="3.3. Gegevens worden contextrijk vastgelegd"
+    id="id-bd8dcf895771403b83f1391690898a82"
+    documentation="Het is belangrijk om de context en daarmee de herkomst van gegevens te kennen om hun betekenis goed te begrijpen. Dat is in het algemeen het doel van metagegevens. Metagegevens worden echter vaak niet goed vastgelegd omdat gebruikers het nut ervan niet goed begrijpen of omdat het te veel inspanning kost om ze vast te leggen. Door context expliciet en geautomatiseerd vast te leggen in metagegevens wordt de afhankelijkheid van mensen voor het vastleggen van metagegevens beperkt. Het belang van het expliciet maken van context door deze vast te leggen in metagegevens is groter als de afstand tussen inwinning en gebruik groter is.">
+  <properties
+      key="Implicaties"
+      value="1. Er wordt per gebruikscontext expliciet nagedacht welke metagegevens belangrijk zijn en vastgelegd moeten worden."/>
+  <properties
+      key="Implicaties"
+      value="2. Metagegevens worden zoveel mogelijk gedurende een bedrijfsproces geautomatiseerd afgeleid uit de context en opgeslagen bij gegevens."/>
+  <properties
+      key="Implicaties"
+      value="3. Het vastleggen van metagegevens is geïntegreerd in de reguliere applicaties waar gebruikers mee werken."/>
+  <properties
+      key="Implicaties"
+      value="4. Waar mogelijk en waardevol worden metagegevens gegenereerd op basis van kunstmatige intelligentie, bijvoorbeeld om relevante trefwoorden, samenvattingen of toelichtingen te genereren."/>
+  <properties
+      key="Implicaties"
+      value="5. Metagegevens die niet automatisch kunnen worden afgeleid, worden expliciet door gebruikers aan de gecreëerde gegevens toegevoegd zoals omschrijvingen."/>
+  <properties
+      key="Implicaties"
+      value="6. Er worden in de metagegevens relevante contextgegevens beschikbaar gesteld zoals de organisatie of persoon die de gegevens gecreëerd heeft en welke gebeurtenis en/of activiteit ten grondslag lag aan het vastleggen van de gegevens."/>
+  <properties
+      key="Implicaties"
+      value="7. In alle schakels in de keten van bronhouder tot gebruiker wordt relevante context toegevoegd, zoals over de bewerkingen die hebben plaatsgevonden en door wie."/>
+</archimate:Principle>

@@ -1,0 +1,18 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="object"
+    id="id-071577ea89c24de6b2cd3db78d55ab1f"
+    documentation="Een object is een onderscheidbaar iets in het beschouwde domein.">
+  <properties
+      key="Redactionele notitie"
+      value="Merk op dat MIM 1.2 de term object in de toelichting verwart met een instantie van een objecttype. Dat is echter geen object in de werkelijkheid maar een object in een administratie. Om die reden is dat deel van de toelichting in MIM weggelaten."/>
+  <properties
+      key="Toelichting"
+      value="Met in de werkelijkheid wordt bedoeld dat het om de daadwerkelijke onderwerpen van gesprek gaat, de verzameling van de concrete tastbare dingen waarover we het hebben. Bijvoorbeeld, de persoon Jan, Paleis 't Loo. "/>
+  <properties
+      key="Heeft bron"
+      value="MIM 1.2"/>
+  <properties
+      key="Is gerelateerd aan"
+      value="objecttype"/>
+</archimate:Meaning>

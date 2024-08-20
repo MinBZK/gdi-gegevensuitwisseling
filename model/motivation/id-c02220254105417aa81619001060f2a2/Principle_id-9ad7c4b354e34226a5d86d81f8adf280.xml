@@ -1,0 +1,33 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="1.5. De bron van de gegevens is leidend"
+    id="id-9ad7c4b354e34226a5d86d81f8adf280"
+    documentation="Het is belangrijk dat duidelijk is waar gegevens vandaan komen. Gegevens worden onderhouden in een bron. De bron is de plaats waar de kwaliteit van gegevens wordt bewaakt. Specifieke eisen m.b.t. performance of beschikbaarheid kunnen het lastig maken om gegevens technisch ook direct uit de bron op te halen. In een bepaalde gebruikscontext kan een gegevensdienst op een gecontroleerde kopie als verstrekkingspunt worden aangewezen (ervan uitgaande dat deze voldoet aan de gestelde kwaliteitseisen). De bron is wel de plaats waarnaar gerefereerd moet worden, omdat het de plaats is waar gegeven hun legitimiteit aan ontlenen. Als een intermediair gegevens inhoudelijk bewerkt (op basis van afleidingsregels) dan ontstaan er feitelijk andere gegevens en dus een nieuwe (afgeleide) bron.">
+  <properties
+      key="Implicaties"
+      value="1. Er zijn bronnen aangewezen voor specifieke soorten gegevens."/>
+  <properties
+      key="Implicaties"
+      value="2. In gebruikscontexten kunnen verstrekkingspunten worden aangewezen voor specifieke gegevens, waarbij wettelijke bepalingen leidend zijn."/>
+  <properties
+      key="Implicaties"
+      value="3. Verstrekkingspunten zijn gecontroleerd, voldoen aan gestelde kwaliteitseisen en daar wordt periodiek op gemonitord."/>
+  <properties
+      key="Implicaties"
+      value="4. Gegevens worden opgehaald bij en/of ontvangen van de bron of een verstrekkingspunt."/>
+  <properties
+      key="Implicaties"
+      value="5. Als gegevens met een hoge actualiteit (of juist historische gegevens) nodig zijn dan worden deze direct bij de bron of een verstrekkingspunt geraadpleegd."/>
+  <properties
+      key="Implicaties"
+      value="6. Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>
+  <properties
+      key="Implicaties"
+      value="7. Er wordt geen lokale kopie van gegevens gemaakt, tenzij er specifieke eisen zijn die daarom vragen."/>
+  <properties
+      key="Implicaties"
+      value="8. Raadplegen, zoeken en selecteren van gegevens bij een bron heeft de voorkeur boven het uitwisselen van gegevens. "/>
+  <properties
+      key="Implicaties"
+      value="9. Het is voor gebruikers duidelijk op welke bronnen de gegevens die zij zien zijn gebaseerd."/>
+</archimate:Principle>

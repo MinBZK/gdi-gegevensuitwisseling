@@ -1,0 +1,24 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="1.3 De kwaliteit van gegevens is afgestemd op het gebruik"
+    id="id-ff18baf9106743c8a7e736233cc94522"
+    documentation="Het is belangrijk dat gebruikers beschikken over gegevens die optimaal aansluiten bij hun eigen behoeften en gebruik. Daarbij is de kunst om een balans te vinden tussen kwaliteit en kosten. Een hele hoge kwaliteit leidt al snel tot onacceptabele kosten. De vraag is dus wat nodig is in een specifieke context. Dit vraagt vooral bewuste afwegingen. Als slechts een klein deel van de gebruikersgroep hoge eisen stelt, dan is de vraag of dat hogere kosten voor alle gebruikers rechtvaardigt. Daarnaast zijn er ook eisen waar bronhouders gewoonweg niet aan kunnen voldoen. Het terugmelden van mogelijke fouten is een belangrijke maatregel voor het verhogen van de gegevenskwaliteit. In meer algemene zin is afstemming tussen bronhouders en afnemers essentieel.">
+  <properties
+      key="Implicaties"
+      value="1. De eisen die gebruikers stellen aan de kwaliteit van gegevens worden door de (afnemer)organisatie gebundeld en expliciet gemaakt in elke gebruikscontext."/>
+  <properties
+      key="Implicaties"
+      value="2. Als afnemers specifieke kwaliteitseisen stellen en overeenkomen met de bronhouder dan worden deze vastgelegd in een overeenkomst met de aanbieder."/>
+  <properties
+      key="Implicaties"
+      value="3. De huidige kwaliteit van gegevens wordt expliciet gemeten en inzichtelijk gemaakt in de metagegevens, op een voor gebruikers begrijpelijke wijze."/>
+  <properties
+      key="Implicaties"
+      value="4. Aanbieders bieden de mogelijkheid om vermoedelijke fouten in registraties terug te melden (ook aan burgers en bedrijven) en routeren meldingen naar de verantwoordelijke bronhouder."/>
+  <properties
+      key="Implicaties"
+      value="5. Als er een verschil is tussen de eisen die worden gesteld vanuit gebruik en de huidige kwaliteit dan vindt hierover afstemming tussen bronhouder en afnemers plaats en wordt een afweging tussen kosten en baten van mogelijke maatregelen gemaakt."/>
+  <properties
+      key="Implicaties"
+      value="6. Er is periodieke afstemming tussen bronhouders en afnemers over de mate waarin gegevens (blijven) voldoen aan de gestelde kwaliteitseisen."/>
+</archimate:Principle>

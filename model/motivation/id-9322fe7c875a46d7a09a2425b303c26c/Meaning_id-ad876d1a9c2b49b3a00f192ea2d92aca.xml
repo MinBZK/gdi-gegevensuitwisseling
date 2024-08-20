@@ -1,0 +1,21 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="informatiemodel"
+    id="id-ad876d1a9c2b49b3a00f192ea2d92aca"
+    documentation="Een model dat een beschrijving geeft van eenheden van informatie of gegevens voor een bepaald domein.">
+  <properties
+      key="Redactionele notitie"
+      value="Dit is bewust breder gedefinieerd dan in MIM, omdat die definitie uitgaat van de context van MIM en daarmee te beperkt is."/>
+  <properties
+      key="Toelichting"
+      value="In MIM worden hier zowel conceptuele informatiemodellen als logische gegevensmodellen mee bedoeld. In meer algemene zin worden er meestal vooral conceptuele informatiemodellen mee bedoeld (zie ook NEN-EN-ISO 19101-1:2014)."/>
+  <properties
+      key="Heeft bovenliggend begrip"
+      value="model"/>
+  <properties
+      key="Is gerelateerd aan"
+      value="informatie, gegeven"/>
+  <properties
+      key="Is specialisatie van"
+      value="model"/>
+</archimate:Meaning>

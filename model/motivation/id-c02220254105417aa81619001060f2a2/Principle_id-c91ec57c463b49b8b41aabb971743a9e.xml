@@ -1,0 +1,27 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="2.2. Voorwaarden en afspraken zijn expliciet en inzichtelijk"
+    id="id-c91ec57c463b49b8b41aabb971743a9e"
+    documentation="Bronhouders willen hun gegevens beschermen. Vanuit de AVG is belangrijk dat een verwerkingsverantwoordelijke duidelijke afspraken maakt met verwerkers in verwerkingsovereenkomsten. In meer algemene zin is belangrijk dat rechten, plichten en aansprakelijkheden goed zijn geborgd. Als bepaalde afspraken generiek kunnen worden gemaakt, landelijk of in de context van een domein, dan heeft dat de voorkeur omdat het de noodzaak tot bilaterale afspraken minimaliseert. Inzicht in overeengekomen gegevensuitwisselingen (gegevensdeelrelaties) is wenselijk om transparantie te bieden over (her)gebruik van gegevens aan partijen binnen en buiten de overheid. Als voorwaarden en afspraken in machineleesbare vorm beschikbaar zijn dan kunnen ze geautomatiseerd worden getoetst. ">
+  <properties
+      key="Implicaties"
+      value="1. Bronhouders maken hun voorwaarden (rechten, plichten en beperkingen) expliciet en leggen relevante aspecten ervan vast als metagegevens."/>
+  <properties
+      key="Implicaties"
+      value="2. Afspraken worden bij voorkeur generiek gemaakt, landelijk of binnen een domein."/>
+  <properties
+      key="Implicaties"
+      value="3. Voorwaarden en aansprakelijkheden zijn in wetten, formele afspraken en/of overeenkomsten geborgd."/>
+  <properties
+      key="Implicaties"
+      value="4. Bronhouders en/of aanbieders maken waar nodig specifieke afspraken met afnemers, zoals over specifieke kwaliteitseisen."/>
+  <properties
+      key="Implicaties"
+      value="5. Overeengekomen gegevensuitwisselingen worden vastgelegd en publiek inzichtelijk gemaakt (tenzij daar specifieke beperkingen voor gelden)."/>
+  <properties
+      key="Implicaties"
+      value="6. Waar mogelijk en waardevol worden relevante voorwaarden in machineleesbare vorm omgezet en geautomatiseerd getoetst bij de uitwisseling."/>
+  <properties
+      key="Implicaties"
+      value="7. Afspraken worden periodiek door aanbieder en afnemers getoetst aan de realisatie, geëvalueerd en bijgesteld."/>
+</archimate:Principle>

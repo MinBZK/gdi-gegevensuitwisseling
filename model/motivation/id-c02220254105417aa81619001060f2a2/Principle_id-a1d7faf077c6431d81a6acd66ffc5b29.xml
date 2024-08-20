@@ -1,0 +1,27 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="1.7. Persoonsgegevens zijn beschermd bij het uitwisselen van gegevens"
+    id="id-a1d7faf077c6431d81a6acd66ffc5b29"
+    documentation="De Europese datastrategie stelt dat het belang van de burger altijd op de eerste plaats moet komen, in overeenstemming met de Europese waarden, grondrechten en regels. Het is belangrijk om te voldoen aan eisen rondom privacy en informatiebeveiliging bij het uitwisselen van gegevens. Daarbij vragen met name persoonsgegevens aandacht omdat deze inherent privacygevoelig zijn en de uitwisseling alleen onder specifieke condities mogelijk is. Anderzijds wordt privacy vaak onterecht als blokkade gezien voor de uitwisseling van gegevens. Eisen aan de bescherming van persoonsgegevens (en daarmee privacy) zijn gesteld in de Algemene Verordening Gegevensbescherming. ">
+  <properties
+      key="Implicaties"
+      value="1. De wettelijke grondslag en doelbinding van de gegevensuitwisseling zijn expliciet gemaakt door de afnemer, die deze op een later moment ook kan aantonen."/>
+  <properties
+      key="Implicaties"
+      value="2. Voorafgaand aan het uitwisselen van gegevens vindt expliciete toetsing op privacy (door afnemer) en informatiebeveiliging plaats."/>
+  <properties
+      key="Implicaties"
+      value="3. Gegevensdiensten die persoonsgegevens ontsluiten zijn alleen toegankelijk voor geauthenticeerde en geautoriseerde afnemers."/>
+  <properties
+      key="Implicaties"
+      value="4. Gegevens die worden uitgewisseld zijn geclassificeerd (in termen van beschikbaarheid, integriteit en vertrouwelijkheid) en op basis van deze classificatie zijn relevante maatregelen genomen."/>
+  <properties
+      key="Implicaties"
+      value="5. De persoonsgegevens die worden uitgewisseld zijn geanonimiseerd, gepseudonimiseerd of versleuteld (kan ook op transportniveau)."/>
+  <properties
+      key="Implicaties"
+      value="6. De persoonsgegevens die worden uitgewisseld zijn beperkt tot het hoogst noodzakelijke."/>
+  <properties
+      key="Implicaties"
+      value="7. Waar mogelijk en waardevol wordt gebruik gemaakt van Privacy Enhancing Technologies om privacy te borgen."/>
+</archimate:Principle>

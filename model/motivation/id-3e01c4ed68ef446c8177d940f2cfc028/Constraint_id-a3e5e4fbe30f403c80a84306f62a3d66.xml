@@ -1,0 +1,20 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="RDF"
+    id="id-a3e5e4fbe30f403c80a84306f62a3d66"
+    documentation="Resource Description Framework (RDF) is een standaard voor het uitdrukken van gegevens als linked data, gebruik makend van een drie-eenheid (triple) die bestaat uit een subject, een predicaat en een object. ">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Gestructureerd via het Web ter beschikking stellen van gegevens door overheden, zodat de aanbieder of overige partijen (geautomatiseerd) deze gegevens kunnen koppelen."/>
+  <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/Rdf"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

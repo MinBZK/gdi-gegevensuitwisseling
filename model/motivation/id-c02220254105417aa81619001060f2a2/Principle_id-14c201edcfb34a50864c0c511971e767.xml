@@ -1,0 +1,21 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="1.6. Burgers en organisaties hebben regie over hun eigen gegevens"
+    id="id-14c201edcfb34a50864c0c511971e767"
+    documentation="De Europese datastrategie stelt dat mensen meer invloed moeten krijgen over hun gegevens en dat zij daarom middelen en bevoegdheden nodig hebben om te beslissen wat er met hun gegevens gebeurt, als er geen wettelijke grondslag is voor hun verwerking. Voor burgers zijn rechten bij de verwerking van persoonsgegevens voor een deel al geborgd in de AVG. In de herziene eIDAS-verordening krijgen burgers en organisaties verdergaande de mogelijkheid om hun gegevens via eigen wallets te verstrekken aan partijen. Datasoevereiniteit is een belangrijk uitgangspunt bij gegevensruimtes en betekent dat organisaties zelf willen kunnen bepalen aan wie ze hun gegevens verstrekken.">
+  <properties
+      key="Implicaties"
+      value="1. Private afnemers bieden burgers of organisaties de keuzemogelijkheid om gegevens over henzelf via een wallet aan te leveren."/>
+  <properties
+      key="Implicaties"
+      value="2. Publieke afnemers die gegevens over burgers of organisaties nodig hebben, die nog niet bekend zijn bij de overheid bieden de keuzemogelijkheid om gegevens via een wallet aan te leveren."/>
+  <properties
+      key="Implicaties"
+      value="3. Aanbieders bieden burgers en organisaties de mogelijkheid om hun gegevens te downloaden inclusief een verifieerbare verklaring, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
+  <properties
+      key="Implicaties"
+      value="4. Burgers (en liefst ook organisaties) kunnen hun gegevens inzien en hebben inzicht in wanneer, met wie en waarom gegevens over henzelf zijn uitgewisseld."/>
+  <properties
+      key="Implicaties"
+      value="5. Organisaties zorgen dat toegang tot gevoelige gegevens alleen mogelijk is nadat de daaraan gerelateerde autorisatieregels zijn gecontroleerd."/>
+</archimate:Principle>

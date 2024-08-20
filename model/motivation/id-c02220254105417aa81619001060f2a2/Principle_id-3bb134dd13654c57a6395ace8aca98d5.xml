@@ -1,0 +1,12 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="6.1. Gegevens worden zo vroeg mogelijk gevalideerd"
+    id="id-3bb134dd13654c57a6395ace8aca98d5"
+    documentation="Het valideren van gegevens borgt dat gegevens valide en consistent zijn en is daarmee een belangrijke maatregel voor het borgen van de kwaliteit van gegevens. Dit is met name relevant als gegevens vervolgens worden doorgeleverd aan anderen zodat een mate van kwaliteit is geborgd in de keten. Bepaalde aspecten van kwaliteit zijn zo belangrijk dat gegevens die daar niet aan voldoen zouden moeten worden afgewezen. Dat gaat in ieder geval over de validiteit (structuur en vorm) en consistentie (samenhangend en vrij van tegenspraak) van gegevens, maar kan bijvoorbeeld ook over actualiteit gaan. Zo is bij het controleren van verifieerbare verklaringen belangrijk om te bepalen of ze nog geldig zijn. Door zo vroeg mogelijk te valideren kan snel een terugkoppeling worden gegeven over fouten en is foutherstel het meest eenvoudig en minder kostbaar dan het herstellen van de fout verderop in de keten.">
+  <properties
+      key="Implicaties"
+      value="1. Bronhouders en aanbieders controleren van gegevens die bij hen worden aangeleverd minimaal de validiteit, consistentie en andere aspecten van kwaliteit die tot afwijzing kunnen leiden, voordat ze worden geaccepteerd."/>
+  <properties
+      key="Implicaties"
+      value="2. Validatiediensten worden ook als losse dienst aangeboden zodat partijen zelf kunnen controleren of gegevens voldoen, zonder ze direct ter verwerking aan te bieden."/>
+</archimate:Principle>

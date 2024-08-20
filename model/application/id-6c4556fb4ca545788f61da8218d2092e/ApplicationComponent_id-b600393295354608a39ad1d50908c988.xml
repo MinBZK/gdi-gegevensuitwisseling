@@ -1,0 +1,14 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Digilevering"
+    id="id-b600393295354608a39ad1d50908c988"
+    documentation="Digilevering levert berichten over belangrijke gebeurtenissen.">
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://logius.nl/domeinen/gegevensuitwisseling/digilevering"/>
+  <profiles
+      href="folder.xml#id-10b1e85a34ea4c249cabccc0e17a4651"/>
+</archimate:ApplicationComponent>

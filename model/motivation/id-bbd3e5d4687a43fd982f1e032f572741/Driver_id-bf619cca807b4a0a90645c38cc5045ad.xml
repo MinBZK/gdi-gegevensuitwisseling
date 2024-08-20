@@ -1,0 +1,11 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Open Data Directive"
+    id="id-bf619cca807b4a0a90645c38cc5045ad"
+    documentation="In de open data directive is ingezet op het volledig kunnen benutten van het potentieel van overheidsinformatie ten behoeve van de Europese economie en samenleving door de richtlijn aan te passen aan de nieuwste ontwikkelingen op het gebied van databeheer en -gebruik. De Open Data Directive is geïmplementeerd in de Nederlandse Wet hergebruik van overheidsinformatie. ">
+  <properties
+      key="URL"
+      value="https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&amp;uri=CELEX:32019L1024"/>
+  <profiles
+      href="folder.xml#id-9a653edb2b4d4f3db01084267f44519e"/>
+</archimate:Driver>

@@ -1,0 +1,15 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="kwaliteitsraamwerk"
+    id="id-43ee04e054c941ebb507e2312762719c"
+    documentation="Een verzameling kwaliteitsdimensies en kwaliteitsattributen.">
+  <properties
+      key="Toelichting"
+      value="Een kwaliteitsraamwerk biedt een referentiekader om na te denken over kwaliteit."/>
+  <properties
+      key="Heeft bron"
+      value="NORA raamwerk gegevenskwaliteit"/>
+  <properties
+      key="Omvat"
+      value="kwaliteitsdimensie, kwaliteitsattribuut"/>
+</archimate:Meaning>

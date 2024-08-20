@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Digikoppeling ebMS migreren naar ebMS3/AS4"
+    id="id-97f3d38b3882435f8472a14f47d9100a"
+    documentation="De ebMS3/AS4 standaard is de opvolger van de ebMS2 standaard. De ebMS2 standaard is technisch verouderd, en in de markt is er meer kennis en ondersteuning beschikbaar voor ebMS3/AS4. Migratie naar de ebMS3/AS4 standaard is daarom aanbevolen. Daarnaast is het ook onderdeel van de Europese e-Delivery standaard. Er moet een implementatie- en migratieplan worden opgesteld."/>
