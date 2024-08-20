@@ -5,13 +5,13 @@
     documentation="Bronhouders willen hun gegevens beschermen. Vanuit de AVG is belangrijk dat een verwerkingsverantwoordelijke duidelijke afspraken maakt met verwerkers in verwerkingsovereenkomsten. In meer algemene zin is belangrijk dat rechten, plichten en aansprakelijkheden goed zijn geborgd. Als bepaalde afspraken generiek kunnen worden gemaakt, landelijk of in de context van een domein, dan heeft dat de voorkeur omdat het de noodzaak tot bilaterale afspraken minimaliseert. Inzicht in overeengekomen gegevensuitwisselingen (gegevensdeelrelaties) is wenselijk om transparantie te bieden over (her)gebruik van gegevens aan partijen binnen en buiten de overheid. Als voorwaarden en afspraken in machineleesbare vorm beschikbaar zijn dan kunnen ze geautomatiseerd worden getoetst. ">
   <properties
       key="Implicaties"
-      value="1. Bronhouders beschrijven hun voorwaarden zoals de van toepassing zijnde gebruiksbeperkingen, -rechten en -plichten expliciet."/>
+      value="1. Bronhouders maken hun voorwaarden (rechten, plichten en beperkingen) expliciet en leggen relevante aspecten ervan vast als metagegevens."/>
   <properties
       key="Implicaties"
       value="2. Afspraken worden bij voorkeur generiek gemaakt, landelijk of binnen een domein."/>
   <properties
       key="Implicaties"
-      value="3. Rechten, plichten en aansprakelijkheden zijn in wetten, formele afspraken en/of overeenkomsten geborgd."/>
+      value="3. Voorwaarden en aansprakelijkheden zijn in wetten, formele afspraken en/of overeenkomsten geborgd."/>
   <properties
       key="Implicaties"
       value="4. Bronhouders en/of aanbieders maken waar nodig specifieke afspraken met afnemers, zoals over specifieke kwaliteitseisen."/>
