@@ -208,10 +208,11 @@ om zo het mondiale concurrentievermogen en de soevereiniteit van Europa op het g
 De Europese Commissie werkt aan de datastrategie middels verschillende wetgevingstrajecten en investeringen. Dit zal onder andere leiden tot de totstandbrenging van gemeenschappelijke sectorale gegevensruimtes die samen een EU-brede gegevensruimte (eenheidsmarkt) zullen gaan vormen. Deze EU-brede gegevensruimte is een omgeving voor het uitwisselen, aanbieden en gebruiken van gegevens, binnen de randvoorwaarden en afspraken die voor die marktomgeving gelden. De sectorale gegevensruimtes zullen hiertoe onderling operabel zijn. Hiermee wordt het bestaande vrije verkeer van personen, goederen en kapitaal aangevuld met het vrije verkeer van gegevens. Het maakt het mogelijk maken om gegevens uit de hele EU, zowel uit de publieke sector als uit het bedrijfsleven, op betrouwbare wijze en tegen lagere kosten uit te wisselen, waardoor de ontwikkeling van nieuwe data-gedreven producten en diensten wordt gestimuleerd.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-De Europese Commissie definieert 14 sectorale gegevensruimtes (Common European Data Spaces) zoals benoemd in Tabel 2. Per gegevensruimte bestaan meerdere programma’s (met financiering van de Europese Commissie) waarin bijvoorbeeld onderzoek wordt verricht of waarin bouwstenen worden opgeleverd ten behoeve van de EU-brede gegevensruimte (Common European Dataspace). Een voorbeeld is het GREAT project dat bijdragen heeft geleverd voor de Green Deal dataspace. Verder is het name de Health gegevensruimte al ver uitgewerkt in specifieke wet- en regelgeving. In de meeste gevallen zijn de gegevensruimtes gestart met inventariserende acties, zoals het inventariseren van bestaande platformen. Het speelveld is nog flink in ontwikkeling.&#xD;
+De Europese Commissie definieert 14 sectorale gegevensruimtes (Common European Data Spaces) zoals benoemd in Tabel 2. Per gegevensruimte bestaan meerdere programma’s (met financiering van de Europese Commissie) waarin bijvoorbeeld onderzoek wordt verricht of waarin bouwstenen worden opgeleverd ten behoeve van de EU-brede gegevensruimte (Common European Dataspace). Een voorbeeld is het GREAT project dat bijdragen heeft geleverd voor de Green Deal dataspace. Verder is het name de Health gegevensruimte al ver uitgewerkt in specifieke wet- en regelgeving. In de meeste gevallen zijn de gegevensruimtes gestart met inventariserende acties, zoals het inventariseren van bestaande platformen. Het speelveld is nog flink in ontwikkeling.&lt;/p>&#xD;
+&lt;p>&#xD;
 &lt;table class=&quot;table table-striped&quot;>&#xD;
-&lt;tr>&lt;td>Agriculture&lt;/td>&lt;td>Green deal&lt;/td>&lt;td>Media>&lt;/td>&lt;td>Skills&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>Cultural Heritage&lt;/td>&lt;td>Health&lt;/td>&lt;td>Mobility&lt;/td>&lt;td>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Agriculture&lt;/td>&lt;td>Green deal&lt;/td>&lt;td>Media&lt;/td>&lt;td>Skills&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>Cultural Heritage&lt;/td>&lt;td>Health&lt;/td>&lt;td>Mobility&lt;/td>&lt;td>Tourism&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>Energy&lt;/td>&lt;td>Language&lt;/td>&lt;td>Public administration&lt;/td>&lt;td>&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>Finance&lt;/td>&lt;td>Manugfacturing&lt;/td>&lt;td>Research and Innovation&lt;/td>&lt;td>&lt;/td>&lt;/tr>&#xD;
 &lt;/table>&#xD;
@@ -250,7 +251,7 @@ Om te helpen eenheid te creëren heeft het Data Space Support Centre een &lt;a h
 &lt;/p>&#xD;
 &lt;p>&#xD;
 De Blueprint maakt een onderscheid tussen de “control plane” en de “data plane”. De control plane reguleert het management van gegevens en hoe gegevens worden gerouteerd en verwerkt. Het gaat dan bijvoorbeeld om de identificatie van gebruikers en de afhandeling van het toegangs- en gebruiksbeleid. De data plane zorgt voor de daadwerkelijke gegevensuitwisseling. De control plane kan van nature vergaand worden gestandaardiseerd, met behulp van gemeenschappelijke standaarden voor identificatie, authenticatie, etc. De data plane kan kan meer specifiek zijn voor een gegevensruimte. Sommige dataspaces richten zich op het delen van grote datasets, andere op het uitwisselen van berichten en anderen kiezen voor een op gebeurtenissen gebaseerde aanpak. Er is geen one-size-fits-all, hoewel er wel enkele mechanismen zijn (vooral op het gebied van data-interoperabiliteit) die kunnen helpen ervoor te zorgen dat verschillende dataplanes samenwerken.&lt;/p>&#xD;
-&lt;p>OpenDEI&lt;/p>&#xD;
+&lt;h4>OpenDEI&lt;/h4>&#xD;
 OpenDEI was een door de EU gefinancierd project dat heeft gelopen tot 2022. Het has als doel has om lacunes op te sporen, synergiën aan te moedigen, regionale en nationale samenwerking te ondersteunen, en de communicatie tussen de EU-projecten ter uitvoering van de digitale strategie van de EU te verbeteren. OpenDEI heeft een zeer lezenwaardig &lt;a href=&quot;https://design-principles-for-data-spaces.org/&quot;>position paper ”Design principles for data spaces”&lt;/a> opgeleverd in mei 2021. Aan het OpenDEI position paper hebben diverse andere gegevensruimte initiatieven en organisaties een bijdrage geleverd. Het bijbehorende model is ook de basis voor de architectuur van het federatief datastelsel.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
@@ -259,9 +260,9 @@ Het position paper beschrijft de principes voor het maken van data spaces, en is
 &lt;p>De OpenDEI referentie-architectuur beschrijft vier principes:&#xD;
 &lt;ul>&#xD;
 &lt;li>&lt;b>Datasoevereiniteit.&lt;/b> Het vermogen van een natuurlijke persoon of organisatie tot exclusieve zelfbeschikking met betrekking tot haar economische data goederen. Dit is het innovatieve en transformatieve concept dat ten grondslag ligt aan gegevensruimtes.&lt;/li>&#xD;
-&lt;li>Gelijk speelveld op data. Nieuwkomers ondervinden geen onoverkomelijke toetredingsdrempels vanwege monopolistische situaties. Wanneer er sprake is van een gelijk speelveld, concurreren spelers op kwaliteit van de dienstverlening en niet op de hoeveelheid data die ze beheren. Een gelijk speelveld voor data is een cruciale voorwaarde om een eerlijke economie voor het delen van data te creëren.&lt;/li>&#xD;
-&lt;li>Gedecentraliseerde ‘zachte infrastructuur’. De infrastructuur voor het delen van gegevens is geen monolithische gecentraliseerde IT-infrastructuur. Het is een verzameling van interoperabele implementaties van gegevensruimtes die voldoen aan een set afspraken. &lt;/li>&#xD;
-&lt;li>Publiek-private governance. Voor het ontwerp, de creatie en het onderhoud van het gelijke speelveld voor data is een goede governance essentieel. Alle belanghebbenden moeten zich vertegenwoordigd en betrokken voelen: gebruikers, leveranciers van gegevensdiensten, evenals hun technologiepartners en professionals.&lt;/li>&#xD;
+&lt;li>&lt;b>Gelijk speelveld op data.&lt;/b> Nieuwkomers ondervinden geen onoverkomelijke toetredingsdrempels vanwege monopolistische situaties. Wanneer er sprake is van een gelijk speelveld, concurreren spelers op kwaliteit van de dienstverlening en niet op de hoeveelheid data die ze beheren. Een gelijk speelveld voor data is een cruciale voorwaarde om een eerlijke economie voor het delen van data te creëren.&lt;/li>&#xD;
+&lt;li>&lt;b>Gedecentraliseerde ‘zachte infrastructuur’.&lt;/b> De infrastructuur voor het delen van gegevens is geen monolithische gecentraliseerde IT-infrastructuur. Het is een verzameling van interoperabele implementaties van gegevensruimtes die voldoen aan een set afspraken. &lt;/li>&#xD;
+&lt;li>&lt;b>Publiek-private governance.&lt;/b> Voor het ontwerp, de creatie en het onderhoud van het gelijke speelveld voor data is een goede governance essentieel. Alle belanghebbenden moeten zich vertegenwoordigd en betrokken voelen: gebruikers, leveranciers van gegevensdiensten, evenals hun technologiepartners en professionals.&lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;/p>&#xD;
 &lt;h4>International Data Spaces Association&lt;/h4>&#xD;
@@ -289,7 +290,7 @@ De Gaia-X Federatieve Diensten zijn diensten, die nodig zijn voor de operationel
 De coalitie is in januari 2020 gestart met steun van het Ministerie van Economische Zaken en Klimaat in Nederland. De verwachte levensduur van de projectfase van de coalitie is tot 2025. Tegen 2025 zal de Data Sharing Coalition naar verwachting haar resultaten en activiteiten hebben overgedragen aan een entiteit, die een Trust Framework exploiteert en beheert dat cross-domein data delen faciliteert. De eerste fase van de Data Sharing Coalition was een onderzoek naar het harmonisatiepotentieel om domeinoverstijgend delen van gegevens mogelijk te maken. Dat is uiteengezet in de Data Sharing Canvas, waarin de onderdelen van het cross-domein data delen zijn benoemd. Het heeft niet tot doel uitputtend te zijn of in detail invulling te geven aan deze onderwerpen. Het vormt ook de globale leidraad voor toekomstige werkzaamheden van de Data Sharing Coalition. Het beschrijft een Proxy model, waarbij proxies vergelijkbaar zijn met connectoren. In de toekomst zal het Data Sharing Canvas verder worden onderbouwd met inzichten, die zijn afgeleid van praktische use cases voor het delen van gegevens die de Data Sharing Coalition heeft gerealiseerd.&#xD;
 &lt;/p>&#xD;
 &lt;h4>iShare&lt;/h4>&#xD;
-&lt;p>iSHARE is een Nederlands initiatief dat werkt aan een vertrouwenskader voor gegevensruimtes. Het vertrouwenskader is een uniforme set van afspraken voor Identificatie, Authenticatie en Autorisatie (IAA), inclusief tooling die benodigd is om het afsprakenstelsel te implementeren. Door gebruik te maken van het vertrouwenskader van iSHARE hebben aanbieders de zekerheid, dat organisaties die toegang hebben tot gegevensdiensten wettelijk onder de geheimhoudingsovereenkomst vallen en in de licentie blijven die met de gegevens is afgegeven. Daarnaast heeft de aanbieder de zekerheid dat gegevens alleen wordt gedeeld met geautoriseerde afnemers. iSHARE is een volledig gefedereerde structuur en juridisch kader, die vertrouwen, databescherming en datasoevereiniteit binnen gegevensruimtes mogelijk maakt.&#xD;
+&lt;p>&lt;a href=&quot;https://ishare.eu/nl/&quot;>iShare&lt;/a> is een Nederlands initiatief dat werkt aan een vertrouwenskader voor gegevensruimtes. Het vertrouwenskader is een uniforme set van afspraken voor Identificatie, Authenticatie en Autorisatie (IAA), inclusief tooling die benodigd is om het afsprakenstelsel te implementeren. Door gebruik te maken van het vertrouwenskader van iSHARE hebben aanbieders de zekerheid, dat organisaties die toegang hebben tot gegevensdiensten wettelijk onder de geheimhoudingsovereenkomst vallen en in de licentie blijven die met de gegevens is afgegeven. Daarnaast heeft de aanbieder de zekerheid dat gegevens alleen wordt gedeeld met geautoriseerde afnemers. iSHARE is een volledig gefedereerde structuur en juridisch kader, die vertrouwen, databescherming en datasoevereiniteit binnen gegevensruimtes mogelijk maakt.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 iSHARE is ontstaan in de logistieke sector vanuit de vraag waarom organisaties weinig tot geen data met elkaar delen. Vanuit de eerste fase in 2016 is iSHARE opgebouwd met hulp van vele co-creatie-partners. De co-creatie-partners hebben verschillende achtergronden: uit de private en publieke sector, organisaties van verschillende grootte, verschillende modaliteiten, zowel aanbieders als ontvangers van data, enz. Deze verscheidenheid aan organisaties zorgt ervoor dat het iSHARE vertrouwenskader breed toepasbaar is geworden. De besturing van iSHARE is geregeld in een Nederlandse stichting, opgericht in 2018. &#xD;
@@ -325,11 +326,34 @@ In deze domeinarchitectuur hebben we functies benoemd die in het algemeen releva
       <element xsi:type="archimate:Representation" name="Veranderfactoren" id="id-325e9b67dd074c24b3d2065d60bcef5a" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de veranderfactoren die richting geven aan de architectuur. Het beschrijft de belangrijkste beleid en wet- en regelgeving die van toepassing zijn, de ontwikkelingen die spelen en de knelpunten die er op dit moment bestaan. &lt;/p></documentation>
       </element>
+      <element xsi:type="archimate:Representation" name="Managementsamenvatting" id="id-5014e756442d4f4c8bb8f709bb046591" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
+        <documentation>&lt;p>Dit document is de uitwerking van de GDI meerjarenvisie en de Architectuur Digitale Overheid 2030 op het onderwerp gegevensuitwisseling. Het geeft inzicht in de impact van nieuwe ontwikkelingen, beleid en wet- en regelgeving op het uitwisselen van gegevens tussen overheidsorganisaties. Het beschrijft de gewenste inrichting in de vorm van een visie, principes en voorgestelde veranderinitiatieven. Daarmee geeft het richting aan de doorontwikkeling van de digitale overheid op het onderwerp.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+De domeinarchitectuur is een doorontwikkeling van een eerdere versie, die in 2023 is opgeleverd en goedgekeurd door de Architectuurraad Digitale Overheid. Deze versie biedt een breder perspectief op het onderwerp, heeft een geheel andere structuur en bevat veel nieuwe informatie. Het geeft inhoudelijke verdieping op een aantal onderwerpen die actueel zijn op het gebied van gegevensuitwisseling: gegevensruimtes (data spaces), metagegevens, communicatieprotocollen, historie en notificatie.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+Er zijn een aantal kernboodschappen onderdeel van dit document, die op verschillende plaatsen in het document verder zijn uitgewerkt:&#xD;
+&lt;ul>&#xD;
+&lt;li>Gegevens moeten beschikbaar zijn voor hergebruik door anderen en voldoen aan de FAIR principes: vindbaar, toegankelijk, interoperabel en herbruikbaarheid.&lt;/li>&#xD;
+&lt;li>Metagegevens zijn een kritische succesfactor voor gegevensuitwisseling en moeten op allerlei niveaus, aan elkaar verbonden en als Linked Data beschikbaar zijn.&lt;/li>&#xD;
+&lt;li>Gegevens moeten contextrijk worden vastgelegd, inclusief historie, om discussie over de feiten, de herkomst en de betekenis van gegevens zoveel mogelijk te voorkomen.&lt;/li>&#xD;
+&lt;li>De betekenis en structuur van gegevens moet expliciet worden gemaakt in begrippen, informatie- en gegevensmodellen, aan elkaar verbonden en traceerbaar naar de wet.&lt;/li>&#xD;
+&lt;li>De kwaliteit van gegevens zou inzichtelijk moeten zijn in de metagegevens, conform het landelijke raamwerk, zodat gebruikers kunnen bepalen of gegevens passen bij hun gebruik.&lt;/li>&#xD;
+&lt;li>	De verantwoordelijkheden van bronhouders, aanbieders, afnemers moeten duidelijk zijn, zodat gegevensuitwisselingen efficiënt, rechtmatig en ethisch verantwoord kunnen zijn.&lt;/li>&#xD;
+&lt;li>Gegevens moeten beschikbaar zijn als herbruikbare gegevensdiensten, conform open standaarden, waarbij de standaarden van Forum Standaardisatie leidend zijn.&lt;/li>&#xD;
+&lt;li>Overheidsorganisaties zouden in staat moeten zijn om elkaar te notificeren over belangrijke gebeurtenissen, zodat snel en pro-actief kan worden gehandeld.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+Het document is tot stand gekomen in een interbestuurlijke werkgroep met architecten van verschillende overheidsorganisaties, gefaciliteerd vanuit bureau MIDO. Er heeft een brede review op een conceptversie van dit document plaatsgevonden. Daarbij is gebruik gemaakt van een brede klankbordgroep, de leden van de Programmeringstafel Gegevensuitwisseling en de leden van de interdepartementale CDO-raad.&#xD;
+&lt;/p></documentation>
+      </element>
       <element xsi:type="archimate:Representation" name="Inhoudsopgave" id="id-50e034c9db124940b1fa0936dc7f7f93" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>&#xD;
 &lt;table class=&quot;table&quot;>&#xD;
-&lt;tr>&lt;td width =40>1&lt;/td>&lt;td>&lt;b>Inleiding&lt;/b>&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>&lt;/td>&lt;td>Managementsamenvatting&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td width =40>1&lt;/td>&lt;td>&lt;b>Inleiding&lt;/b>&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>1.1&lt;/td>&lt;td>Aanleiding&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>1.2&lt;/td>&lt;td>Dit document&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>1.3&lt;/td>&lt;td>Documentstructuur&lt;/td>&lt;/tr>&#xD;
@@ -516,6 +540,41 @@ Het is door organisaties zelf te bepalen aan welke partijen en afdelingen zij de
       <element xsi:type="archimate:Representation" name="Standaarden" id="id-90484cc165104305a237032f84407803" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>In de domeinarchitectuur is een lijst van standaarden opgenomen die relevant zijn in het kader van gegevensuitwisseling. De basis voor deze lijst zijn de lijsten van Forum Standaardisatie. We hebben ervoor gekozen om alleen de generieke standaarden op te nemen en niet de toepassingspecifieke standaarden. Deze standaarden zijn aangevuld met andere standaarden die breder worden gebruikt of relevant zijn. Deze aanvullende standaarden zijn te beschouwen als aanbeveling vanuit deze architectuur. De aanbeveling is vooral om deze standaarden te bestuderen en hun inzet te overwegen bij het inrichten of aanpassen van toegangsinfrastructuren. De standaarden zijn voorzien van een aantal standaard eigenschappen zoals de beheerorganisatie en een URL naar meer informatie. Ze zijn ook gekoppeld aan functies en bedrijfsobjecten zodat hun toepassingsgebied duidelijk is. Bij de standaarden van Forum Standaardisatie zijn ook de status en het functioneel toepassingsgebied overgenomen.&lt;/p></documentation>
         <property key="elementType" value="constraintStandaard"/>
+      </element>
+      <element xsi:type="archimate:Representation" name="Betrokkenen" id="id-91d34b07a4114b9d8d8bb4689231fc3d" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
+        <documentation>&lt;p>De volgende mensen waren onderdeel van de architectuurwerkgroep gegevensuitwisseling en hebben bijgedragen aan de totstandkoming van dit document.&#xD;
+&lt;ul>&#xD;
+&lt;li>Harrie Schuurs, sponsor (Belastingdienst)&lt;/li>&#xD;
+&lt;li>Arnoud Quanjer, voorzitter (VNG)&lt;/li>&#xD;
+&lt;li>Danny Greefhorst, secretaris en redacteur (BZK/Bureau MIDO)&lt;/li>&#xD;
+&lt;li>Hans Markestein (Toeslagen)&lt;/li>&#xD;
+&lt;li>Dennis Passage (Logius)&lt;/li>&#xD;
+&lt;li>Hans Sinnige (RINIS)&lt;/li>&#xD;
+&lt;li>Han Wijlens (Kadaster)&lt;/li>&#xD;
+&lt;li>Bas Wernsen (JenV)&lt;/li>&#xD;
+&lt;li>Ad Gerrits (VNG)&lt;/li>&#xD;
+&lt;li>Miriam Staal (BZK/Bureau MIDO)&lt;/li>&#xD;
+&lt;/ul>&#xD;
+De volgende organisaties hebben reviewcommentaar geleverd op een concept versie van deze domeinarchitectuur:&#xD;
+&lt;ul>&#xD;
+&lt;li>Ministerie van Binnenlandse Zaken en Koninkrijksrelaties, inclusief Logius, Bureau Forum Standaardisatie, de Rijksdienst voor Identiteitsgegevens, Kadaster en Programma Federatief Data Stelsel&lt;/li>&#xD;
+&lt;li>Ministerie van Volksgezondheid, Welzijn en Sport&lt;/li>&#xD;
+&lt;li>Ministerie van Financiën, inclusief de Belastingdienst en dienst Toeslagen&lt;/li>&#xD;
+&lt;li>Ministerie van Justitie en Veiligheid, inclusief de Justitiële ICT Organisatie en de Nationale Politie&lt;/li>&#xD;
+&lt;li>Ministerie van Economische Zaken en Landbouw, inclusief de Rijksdienst voor Ondernemend Nederland&lt;/li>&#xD;
+&lt;li>Vereniging van Nederlandse Gemeenten&lt;/li>&#xD;
+&lt;li>Gemeenste Amsterdam&lt;/li>&#xD;
+&lt;li>Interprovinciaal Overleg&lt;/li>&#xD;
+&lt;li>Provincie Overijssel&lt;/li>&#xD;
+&lt;li>Unie van Waterschappen&lt;/li>&#xD;
+&lt;li>Het Waterschapshuis&lt;/li>&#xD;
+&lt;li>UWV&lt;/li>&#xD;
+&lt;li>DUO&lt;/li>&#xD;
+&lt;li>Geonovum&lt;/li>&#xD;
+&lt;li>Inlichtingenbureau&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;/p>&#xD;
+</documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Relatie van architectuurprincipes met ADO en NORA" id="id-98a74bf2a0b444ebba06ffda16362eb8" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>Deze bijlage relateert de architectuurprincipes zoals beschreven in deze domeinarchitectuur aan de uitgangspunten in de Architectuur Digitale Overheid 2030 en de principes en implicaties in NORA. Het levert daarmee een verdere onderbouwing en verdieping van de architectuurprincipes.&lt;/p>&#xD;
@@ -733,64 +792,6 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       <element xsi:type="archimate:Representation" name="Knelpunten" id="id-fd4354af5ff747e6ac7982d8878f95a7" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>Knelpunten zijn omstandigheden in de huidige situatie die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten van de analyse zijn samengevat en opgenomen in de architectuur.&lt;/p></documentation>
         <property key="elementType" value="assessment"/>
-      </element>
-      <element xsi:type="archimate:Representation" name="Managementsamenvatting" id="id-5014e756442d4f4c8bb8f709bb046591" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
-        <documentation>&lt;p>Dit document is de uitwerking van de GDI meerjarenvisie en de Architectuur Digitale Overheid 2030 op het onderwerp gegevensuitwisseling. Het geeft inzicht in de impact van nieuwe ontwikkelingen, beleid en wet- en regelgeving op het uitwisselen van gegevens tussen overheidsorganisaties. Het beschrijft de gewenste inrichting in de vorm van een visie, principes en voorgestelde veranderinitiatieven. Daarmee geeft het richting aan de doorontwikkeling van de digitale overheid op het onderwerp.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-De domeinarchitectuur is een doorontwikkeling van een eerdere versie, die in 2023 is opgeleverd en goedgekeurd door de Architectuurraad Digitale Overheid. Deze versie biedt een breder perspectief op het onderwerp, heeft een geheel andere structuur en bevat veel nieuwe informatie. Het geeft inhoudelijke verdieping op een aantal onderwerpen die actueel zijn op het gebied van gegevensuitwisseling: gegevensruimtes (data spaces), metagegevens, communicatieprotocollen, historie en notificatie.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-Er zijn een aantal kernboodschappen onderdeel van dit document, die op verschillende plaatsen in het document verder zijn uitgewerkt:&#xD;
-&lt;ul>&#xD;
-&lt;li>Gegevens moeten beschikbaar zijn voor hergebruik door anderen en voldoen aan de FAIR principes: vindbaar, toegankelijk, interoperabel en herbruikbaarheid.&lt;/li>&#xD;
-&lt;li>Metagegevens zijn een kritische succesfactor voor gegevensuitwisseling en moeten op allerlei niveaus, aan elkaar verbonden en als Linked Data beschikbaar zijn.&lt;/li>&#xD;
-&lt;li>Gegevens moeten contextrijk worden vastgelegd, inclusief historie, om discussie over de feiten, de herkomst en de betekenis van gegevens zoveel mogelijk te voorkomen.&lt;/li>&#xD;
-&lt;li>De betekenis en structuur van gegevens moet expliciet worden gemaakt in begrippen, informatie- en gegevensmodellen, aan elkaar verbonden en traceerbaar naar de wet.&lt;/li>&#xD;
-&lt;li>De kwaliteit van gegevens zou inzichtelijk moeten zijn in de metagegevens, conform het landelijke raamwerk, zodat gebruikers kunnen bepalen of gegevens passen bij hun gebruik.&lt;/li>&#xD;
-&lt;li>	De verantwoordelijkheden van bronhouders, aanbieders, afnemers moeten duidelijk zijn, zodat gegevensuitwisselingen efficiënt, rechtmatig en ethisch verantwoord kunnen zijn.&lt;/li>&#xD;
-&lt;li>Gegevens moeten beschikbaar zijn als herbruikbare gegevensdiensten, conform open standaarden, waarbij de standaarden van Forum Standaardisatie leidend zijn.&lt;/li>&#xD;
-&lt;li>Overheidsorganisaties zouden in staat moeten zijn om elkaar te notificeren over belangrijke gebeurtenissen, zodat snel en pro-actief kan worden gehandeld.&lt;/li>&#xD;
-&lt;/ul>&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-Het document is tot stand gekomen in een interbestuurlijke werkgroep met architecten van verschillende overheidsorganisaties, gefaciliteerd vanuit bureau MIDO. Er heeft een brede review op een conceptversie van dit document plaatsgevonden. Daarbij is gebruik gemaakt van een brede klankbordgroep, de leden van de Programmeringstafel Gegevensuitwisseling en de leden van de interdepartementale CDO-raad.&#xD;
-&lt;/p></documentation>
-      </element>
-      <element xsi:type="archimate:Representation" name="Betrokkenen" id="id-91d34b07a4114b9d8d8bb4689231fc3d" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
-        <documentation>&lt;p>De volgende mensen waren onderdeel van de architectuurwerkgroep gegevensuitwisseling en hebben bijgedragen aan de totstandkoming van dit document.&#xD;
-&lt;ul>&#xD;
-&lt;li>Harrie Schuurs, sponsor (Belastingdienst)&lt;/li>&#xD;
-&lt;li>Arnoud Quanjer, voorzitter (VNG)&lt;/li>&#xD;
-&lt;li>Danny Greefhorst, secretaris en redacteur (BZK/Bureau MIDO)&lt;/li>&#xD;
-&lt;li>Hans Markestein (Toeslagen)&lt;/li>&#xD;
-&lt;li>Dennis Passage (Logius)&lt;/li>&#xD;
-&lt;li>Hans Sinnige (RINIS)&lt;/li>&#xD;
-&lt;li>Han Wijlens (Kadaster)&lt;/li>&#xD;
-&lt;li>Bas Wernsen (JenV)&lt;/li>&#xD;
-&lt;li>Ad Gerrits (VNG)&lt;/li>&#xD;
-&lt;li>Miriam Staal (BZK/Bureau MIDO)&lt;/li>&#xD;
-&lt;/ul>&#xD;
-De volgende organisaties hebben reviewcommentaar geleverd op een concept versie van deze domeinarchitectuur:&#xD;
-&lt;ul>&#xD;
-&lt;li>Ministerie van Binnenlandse Zaken en Koninkrijksrelaties, inclusief Logius, Bureau Forum Standaardisatie, de Rijksdienst voor Identiteitsgegevens, Kadaster en Programma Federatief Data Stelsel&lt;/li>&#xD;
-&lt;li>Ministerie van Volksgezondheid, Welzijn en Sport&lt;/li>&#xD;
-&lt;li>Ministerie van Financiën, inclusief de Belastingdienst en dienst Toeslagen&lt;/li>&#xD;
-&lt;li>Ministerie van Justitie en Veiligheid, inclusief de Justitiële ICT Organisatie en de Nationale Politie&lt;/li>&#xD;
-&lt;li>Ministerie van Economische Zaken en Landbouw, inclusief de Rijksdienst voor Ondernemend Nederland&lt;/li>&#xD;
-&lt;li>Vereniging van Nederlandse Gemeenten&lt;/li>&#xD;
-&lt;li>Gemeenste Amsterdam&lt;/li>&#xD;
-&lt;li>Interprovinciaal Overleg&lt;/li>&#xD;
-&lt;li>Provincie Overijssel&lt;/li>&#xD;
-&lt;li>Unie van Waterschappen&lt;/li>&#xD;
-&lt;li>Het Waterschapshuis&lt;/li>&#xD;
-&lt;li>UWV&lt;/li>&#xD;
-&lt;li>DUO&lt;/li>&#xD;
-&lt;li>Geonovum&lt;/li>&#xD;
-&lt;li>Inlichtingenbureau&lt;/li>&#xD;
-&lt;/ul>&#xD;
-&lt;/p>&#xD;
-</documentation>
       </element>
     </folder>
     <folder name="Overig" id="id-93186e6e85174c738e2b8dd18bacb575">
@@ -2413,6 +2414,10 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
     <element xsi:type="archimate:AssociationRelationship" id="id-201c02a9a31047c286f4431b99af1bb4" source="id-0da09931f8ac4b368c786703913087bf" target="id-9d943684fc1e4678a99a37ec061dcd19"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-20794c1a772549dfacc3a015cb3df5b6" source="id-8f089dcb8add4b2fa57de76006aab538" target="id-90ed729aa9144f2bad8d25d7bd4b9c0b"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-20eb7ac394fc473b9418b8fa054ef1bd" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-0f85cbb16d5b48acbbe3cf7236dbdc2b"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-216b405e7b0f4f9b98097d50ceb8f8e7" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-5014e756442d4f4c8bb8f709bb046591">
+      <property key="volgnummer" value="2"/>
+      <property key="niveau" value="1"/>
+    </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-219381083dfa4c93ab09c5660d775f0e" source="id-21a270de58fa4a5f8079569197429604" target="id-ed833493853e4b119a15e5ce4c186ff2"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-21e04e6f560e497ea2447598fe94ac6b" source="id-0da09931f8ac4b368c786703913087bf" target="id-81ca2fbd0c984219b80e7596a9f16326"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-21f552ebef74437cbd3b7e8c283fa88e" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-d8486619cfed479eaa0f996e5af89ecf"/>
@@ -2449,6 +2454,7 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
     <element xsi:type="archimate:AssociationRelationship" id="id-30683d965ef54e5792b24e4e416f0bd4" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-7189c427043b41579a1b5ac7065242b6"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-31ea788841d240acbd69ad45669e642e" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-4ca2f05b381642d0987771b5f0af22a3"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-320ceee107b74584b08fb9c48e7e24db" source="id-e24ef8dc93054899b021a15207b3eea0" target="id-654de455909049e5880ca18ca40935ed"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-33fc8165963845039d1bb6b1d094907d" source="id-28d651febde04af58dfbd468003f9ce5" target="id-0da09931f8ac4b368c786703913087bf"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-34c3e6413d19470f8327d42074d041f2" source="id-5051532609b1444c926815801dc5652c" target="id-8d475d01559b463eb4a5a0e3fb3fc6b3"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-34dc0c99e8654ea5ac539995fbe8d50f" source="id-a424004519d640f3a005f813ece7ae01" target="id-80e3338ec5a94dc4a0bab92c6d9b286a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-355369df16a343b89fc8b203c6a9209e" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-c40dfcb8cd544a32a5e95435fa66423e"/>
@@ -2535,6 +2541,10 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
     <element xsi:type="archimate:AssociationRelationship" id="id-5ab0a0ec74ad4cf7a803037d5fa489d5" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-6857a45330d3428fa0562f7db033d6df"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5b34c1c8e7ee4a11bdd90bcde7c41b25" source="id-93d89c708c064926b628c42f8198227e" target="id-c3fe6d693371470caa89bea1b89e384a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5b4474b45bcc42229551a2beb4e62b0e" source="id-931fea44732b4ecfbe0760e2a54056c5" target="id-780c625f641d41048d9684b5380d3da9"/>
+    <element xsi:type="archimate:AssociationRelationship" name="6.8" id="id-5b468c5c896f435b8cb38cd8d63b1f62" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-91d34b07a4114b9d8d8bb4689231fc3d">
+      <property key="volgnummer" value="29"/>
+      <property key="niveau" value="2"/>
+    </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-5bd9c261225b414b90cb800a58406581" source="id-5679814c53bf40cf80e6a3e61c2f9ba6" target="id-80e3338ec5a94dc4a0bab92c6d9b286a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5c5f68be851e45059fffdc94231afe21" source="id-f2920b273337408fbcb8aad5795bdd2b" target="id-722d227311134e49a0f133a054b7b6aa"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5cd2191b490140cc9ff354c208529317" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-3d5e3c7b91dc412d9f110e7cbfca84aa"/>
@@ -2592,6 +2602,10 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
     <element xsi:type="archimate:AssociationRelationship" name="wordt uitgewisseld in" id="id-7524c5e84fc54ab799cc71f4ce864d9a" source="id-3f4dee7e670043c18bdf56feea2b5f91" target="id-cb139fa1a3624b03aae2faaca18fd761" directed="true"/>
     <element xsi:type="archimate:AssociationRelationship" name="is van toepassing op" id="id-758957796bf64c7eb768a2cd75e01ffe" source="id-153383edf7e242bebd14d1d5a0583d69" target="id-61972e0d2c02472b903090af6f8b0650" directed="true"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-75fa6937774f4698b0bbbc2636f38409" source="id-0da09931f8ac4b368c786703913087bf" target="id-d974da9b3dc341f1b2c6e22e4009796a"/>
+    <element xsi:type="archimate:AssociationRelationship" name="5.1" id="id-7613b3d2e8544ff096a4aa61349b9005" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-299bb657254f4aa3b7c2c356f6595dc8">
+      <property key="volgnummer" value="16"/>
+      <property key="niveau" value="2"/>
+    </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-773c88af6f6e4f2c942f912625bf06fd" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-517bb1d25ac740adb78e062922c5db17"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-77ddbe0b0061459387fb19ac6b423485" source="id-b160b994f4554d128443e7406af8d09e" target="id-adefb7b185264eaa958b42be410c314d"/>
     <element xsi:type="archimate:AssociationRelationship" name="heeft betrekking op" id="id-782039ed493f4359b9526024620931cf" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-acfdb86ed00441229bc99318d30fc9fc" directed="true"/>
@@ -2924,17 +2938,21 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
     <element xsi:type="archimate:InfluenceRelationship" id="id-23c87154b1904610997696d7334fe389" source="id-98e2c9f977d141989e67242a1492c39b" target="id-25b9d390a9254c9a9152dabc99585e20"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-26889e3a7934476d83b167e21dae75d6" source="id-14c201edcfb34a50864c0c511971e767" target="id-c5dc7e3513124ee19ef0e7c2aa6870ba"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-2b0b41d11e8e443b97e571fe466fa62c" source="id-c91ec57c463b49b8b41aabb971743a9e" target="id-573d85f01b6f46fda9cabc5589ca2ed4"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-2f96bb1fb4a94c8b859704661baa7030" source="id-cf8db3f407dd44b9a37bd2da04907734" target="id-3a8ae3000cd14de18d26df5d3d739697"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-3c5d0c8970e649f1a9ad3c948ae4197c" source="id-6857a45330d3428fa0562f7db033d6df" target="id-fbb841b923474ff48c4177ea731ef2a4"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-3e6ee919f66d4ff1ba26a7a707709f7f" source="id-a1d7faf077c6431d81a6acd66ffc5b29" target="id-573d85f01b6f46fda9cabc5589ca2ed4"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-45411bbd03de48538d9d12bcd0788a99" source="id-d0754566d25d4d02b9406e39f64a435d" target="id-9355be45403944f18e61afa4b91abdb0"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-47a41a3dcf2749d18740c08ea8621f48" source="id-0e85a67b569d4eeba00a544dba53a937" target="id-8f76efeb07e2411f9efae9af360f59a2"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-496a678cd90247e09ccf98abfb98aaa6" source="id-cf8db3f407dd44b9a37bd2da04907734" target="id-4096971ffba14b2c8cda7c14df4902ad"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-51286d23fe33428bb6b4bcb9d4908584" source="id-61aab3c0023a487da53dd54bd836a0cb" target="id-0732329c1ebe42a4a6291122d1d04415"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-55fdd872103c41a6b44c28edc5d499fa" source="id-98e2c9f977d141989e67242a1492c39b" target="id-4096971ffba14b2c8cda7c14df4902ad"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-586877299a0f41d893236ba4cf84d580" source="id-9841d9c7e9c44f5d9ca08a381330543d" target="id-bf619cca807b4a0a90645c38cc5045ad"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-5e167c1710914529880edc7f3a24c185" source="id-d0754566d25d4d02b9406e39f64a435d" target="id-4096971ffba14b2c8cda7c14df4902ad"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-5e2547da671c453fb1951ede34a858d9" source="id-d0754566d25d4d02b9406e39f64a435d" target="id-93363f3351234e5d91489db06daf31b3"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-5e5debc099b54e859669f044b3ec1340" source="id-98e2c9f977d141989e67242a1492c39b" target="id-8f76efeb07e2411f9efae9af360f59a2"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-620c0f5ea0a1456baced36ad329055f0" source="id-24c531554b1a401ebeee080552d22f84" target="id-25b9d390a9254c9a9152dabc99585e20"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-693a0e1627844db887226eb31d8a7045" source="id-97f3d38b3882435f8472a14f47d9100a" target="id-8f76efeb07e2411f9efae9af360f59a2"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-6c74bfd591744406ad9e0ae1006599e5" source="id-d0754566d25d4d02b9406e39f64a435d" target="id-4fddc93f50174700a05f1b06d12fc34c"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-710090dacb1c475f8ce856ccea95c342" source="id-4e60a3427db84c92bf612bd8aef22947" target="id-737159e0f4814622870921c8db4cad58"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-763491e148cf411699273dac1e71a9f3" source="id-6219ea07f37a4e4b81ea110e3a11ab36" target="id-4096971ffba14b2c8cda7c14df4902ad"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-77b7aef23ea94b328a2b64cc3b41dee1" source="id-3d510c2ae0e6482eaacaca7c8618f826" target="id-4096971ffba14b2c8cda7c14df4902ad"/>
@@ -2943,6 +2961,7 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
     <element xsi:type="archimate:InfluenceRelationship" id="id-7cfb5d0a6b164acc8c4e720cda39a70b" source="id-9841d9c7e9c44f5d9ca08a381330543d" target="id-9144f238c553428a80d101a6d9ee50d0"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-83320e1397a541769673c4058baa2bb8" source="id-5679814c53bf40cf80e6a3e61c2f9ba6" target="id-4096971ffba14b2c8cda7c14df4902ad"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-89c48a3bce594bf8bd40a027708a3921" source="id-e0a280a70ebe45558fda4c5cfc3d35f2" target="id-573d85f01b6f46fda9cabc5589ca2ed4"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-8f87bba9aa244c64bc0c4c171208cefc" source="id-d0754566d25d4d02b9406e39f64a435d" target="id-9d14d7e457894526b3dc5833564a1351"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-908446f8b4c245b4b81b8b374faa1081" source="id-5def1e4c5f5d4e2d97baddc782b9b8c6" target="id-82ea9270e5fb461ea70c0321b7aa9a68"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-9299667b706443fb9e6ed1d848fc0b92" source="id-8418d8cf38694245bdd592d1a4583f1e" target="id-c5dc7e3513124ee19ef0e7c2aa6870ba"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-9438f3de51c34f4e965162f98c4b80a0" source="id-24c531554b1a401ebeee080552d22f84" target="id-8f76efeb07e2411f9efae9af360f59a2"/>
@@ -2955,6 +2974,7 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
     <element xsi:type="archimate:InfluenceRelationship" id="id-c27c367f968e4a32ba89800578163c50" source="id-14c201edcfb34a50864c0c511971e767" target="id-1b962949ea4049c1b75f46987d4ccc8f"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-c5dabf4d840c485587027f9c56a73608" source="id-a424004519d640f3a005f813ece7ae01" target="id-8f76efeb07e2411f9efae9af360f59a2"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-c78cc1a3edbf43bebb15f692ee800a26" source="id-c3d3b29eb6bf4a8ca85062ffe482a3ca" target="id-573d85f01b6f46fda9cabc5589ca2ed4"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-ca4b8afc76b54e5984b8b6b92027198b" source="id-3d510c2ae0e6482eaacaca7c8618f826" target="id-3a8ae3000cd14de18d26df5d3d739697"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-d0b892991377480ca1452e8456177565" source="id-4adc66b28d264e749f0d9a8433584f2d" target="id-8f76efeb07e2411f9efae9af360f59a2"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-d1b02305be9c45d6932b0d80215a3702" source="id-9841d9c7e9c44f5d9ca08a381330543d" target="id-38fe544576bc441ba1b6838f6e46cf79"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-d3051877545f4136a7a33bcf498eaac0" source="id-782b91c6380f47d180e9037741d46a96" target="id-4096971ffba14b2c8cda7c14df4902ad"/>
@@ -2963,6 +2983,8 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
     <element xsi:type="archimate:InfluenceRelationship" id="id-d58cda7dd29d4abda81cf7c261a879f7" source="id-dd34cf416ee84ab8a5a6ead202d3fa0b" target="id-4096971ffba14b2c8cda7c14df4902ad"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-d77561aa420047f8880bc343723bbb08" source="id-50114aa8a6524532982326fe08b7dd17" target="id-c5dc7e3513124ee19ef0e7c2aa6870ba"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-dba8ba755f564330ac2ce97ac92d40b8" source="id-d1cd1faf10d944159fc5b17f7d3ddb95" target="id-25b9d390a9254c9a9152dabc99585e20"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-dd178916b402435594048c1dd8623d6f" source="id-d0754566d25d4d02b9406e39f64a435d" target="id-298beb3a97094048a2b1de3aa116113e"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-e240b27d15a1484c8bf83248118a5dc3" source="id-d0754566d25d4d02b9406e39f64a435d" target="id-3a8ae3000cd14de18d26df5d3d739697"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-f2774a4be87849e3b46d661fa434ea10" source="id-14c201edcfb34a50864c0c511971e767" target="id-573d85f01b6f46fda9cabc5589ca2ed4"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-045b1c19d9e54738912fd152a86b3b95" source="id-5b081702561f47dba7f87dddb4ef9a19" target="id-b72405ee2dea40629a0a330260ede075"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-0a02e2dee2934a33855898a75f49fdb6" source="id-39f6f8b9cd4644899f7436319b567b77" target="id-14c201edcfb34a50864c0c511971e767"/>
@@ -3108,18 +3130,6 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
     <element xsi:type="archimate:SpecializationRelationship" id="id-4baaf3df91a64de9b90b4213b96d276d" source="id-5559669d97cb4cdca49cbe04a07067ff" target="id-61972e0d2c02472b903090af6f8b0650"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-738dacacd7104d21807f0f314a944f42" source="id-d896763cdeee448e953a2193561a728f" target="id-6140b0bcf3aa44ab8c0137098352364d"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-f61f5dbacf1546e7bb51628c07df063f" source="id-e24ef8dc93054899b021a15207b3eea0" target="id-6140b0bcf3aa44ab8c0137098352364d"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-216b405e7b0f4f9b98097d50ceb8f8e7" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-5014e756442d4f4c8bb8f709bb046591">
-      <property key="volgnummer" value="2"/>
-      <property key="niveau" value="1"/>
-    </element>
-    <element xsi:type="archimate:AssociationRelationship" name="5.1" id="id-7613b3d2e8544ff096a4aa61349b9005" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-299bb657254f4aa3b7c2c356f6595dc8">
-      <property key="volgnummer" value="16"/>
-      <property key="niveau" value="2"/>
-    </element>
-    <element xsi:type="archimate:AssociationRelationship" name="6.8" id="id-5b468c5c896f435b8cb38cd8d63b1f62" source="id-f7cd0effef5643879ed04ee81f4d9bfb" target="id-91d34b07a4114b9d8d8bb4689231fc3d">
-      <property key="volgnummer" value="29"/>
-      <property key="niveau" value="2"/>
-    </element>
   </folder>
   <folder name="Views" id="id-a006a61a59a4410aa97243727cded72a" type="diagrams">
     <folder name="Gewenste situatie" id="id-1b70ddc9a2c04d01bd21b94782dbece6">
@@ -4182,7 +4192,7 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Veranderinitiatieven geplot op functiemodel" id="id-927c109992fb4fc3bc61a16560624684">
-        <child xsi:type="archimate:DiagramObject" id="id-7e03f095d3634fe3afd90b90a1bfe78a" targetConnections="id-6b41b7292f4049d582839ff24ec7f943 id-7df015bc7a2443fba20c60b800204e60 id-da5e5d13d5824732814bc72252d3c939 id-e940b2264d1546f8a54220302322e984 id-d6773cd1ca744086ab30e01329e1efab id-746fd81dfab74e70826f2bf672d568c0 id-c24f697e041f4d3b96d533bfb2050719" archimateElement="id-0da09931f8ac4b368c786703913087bf">
+        <child xsi:type="archimate:DiagramObject" id="id-7e03f095d3634fe3afd90b90a1bfe78a" targetConnections="id-6b41b7292f4049d582839ff24ec7f943 id-7df015bc7a2443fba20c60b800204e60 id-da5e5d13d5824732814bc72252d3c939 id-e940b2264d1546f8a54220302322e984 id-d6773cd1ca744086ab30e01329e1efab id-746fd81dfab74e70826f2bf672d568c0 id-c24f697e041f4d3b96d533bfb2050719 id-8d16fcf3384f48e18ba1d23504bdcd94" archimateElement="id-0da09931f8ac4b368c786703913087bf">
           <bounds x="612" y="48" width="265" height="421"/>
           <feature name="iconVisible" value="2"/>
           <child xsi:type="archimate:DiagramObject" id="id-5108536ccc234faa926683acda2f4d24" fillColor="#ffffff" textPosition="1" archimateElement="id-dd34cf416ee84ab8a5a6ead202d3fa0b">
@@ -4223,6 +4233,7 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
           <child xsi:type="archimate:DiagramObject" id="id-bb41a24e31ca4a3999b8b1a8584e01d3" fillColor="#ffffff" archimateElement="id-28d651febde04af58dfbd468003f9ce5">
             <bounds x="12" y="228" width="241" height="37"/>
             <feature name="iconVisible" value="2"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-8d16fcf3384f48e18ba1d23504bdcd94" source="id-bb41a24e31ca4a3999b8b1a8584e01d3" target="id-7e03f095d3634fe3afd90b90a1bfe78a" archimateRelationship="id-33fc8165963845039d1bb6b1d094907d"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-4b71810fffba45568e56c6acc810220c" archimateElement="id-b160b994f4554d128443e7406af8d09e">
@@ -5261,76 +5272,105 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Veranderinitiatieven gekoppeld aan knelpunten" id="id-e8166857808e4362bab171d1fdeceb15">
         <child xsi:type="archimate:DiagramObject" id="id-469858c8ef64499abcf398b91d48f938" targetConnections="id-6c4c3610573947dfbfd77f873ec8b03f id-446f236b54724e0599c22983bc4a9675 id-49ec44ac9e954644a5a94db26b52f95a id-ba8e30454687420d8263a3bd3b537b2d id-9323c7d5f32b43839bc45fc944aea65f id-82d18b406baa4b628982d8b5f6662399 id-66f04dd1b80643df8234c1018a0e8d05 id-c515051d8e0a4d7c9516e383d60eec90" textPosition="1" archimateElement="id-4096971ffba14b2c8cda7c14df4902ad">
-          <bounds x="708" y="120" width="309" height="55"/>
+          <bounds x="708" y="48" width="309" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-0bce0a6de97e4c4f8fdde29794396186" targetConnections="id-589836d7e196433d9905e7eeb33d3157 id-91407111ed484a1a87a9fd04d2104a61 id-4f7f8946c89841e9a6ef9bab22ff11fe" textPosition="1" archimateElement="id-25b9d390a9254c9a9152dabc99585e20">
-          <bounds x="708" y="264" width="309" height="55"/>
+          <bounds x="708" y="552" width="309" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f56a5c4fe72c4b6fa73329dafa9d86cf" targetConnections="id-afc42c527f6a42e09850c68e7099e637 id-2b03949f8e214dbd8d4f678745192802 id-6a5dff61b3344d2db61446841215ea8a id-08250e18c2a54d098534915768003eb4 id-f72275f37a604d39839d0aa8796ccadd id-e2a2744a5bca47188d84717382cad5bf id-6bbce9eab60d4ad590f9296dc9261a87" textPosition="1" archimateElement="id-8f76efeb07e2411f9efae9af360f59a2">
-          <bounds x="708" y="408" width="309" height="55"/>
+          <bounds x="708" y="624" width="309" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-5fadb0b948e6462aa2a5e23c3adeee90" textPosition="1" archimateElement="id-dd34cf416ee84ab8a5a6ead202d3fa0b">
-          <bounds x="72" y="48" width="241" height="37"/>
+          <bounds x="72" y="66" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-6c4c3610573947dfbfd77f873ec8b03f" source="id-5fadb0b948e6462aa2a5e23c3adeee90" target="id-469858c8ef64499abcf398b91d48f938" archimateRelationship="id-d58cda7dd29d4abda81cf7c261a879f7"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-4d02179d22a24c638ec21f506ab8f5dd" textPosition="1" archimateElement="id-97f3d38b3882435f8472a14f47d9100a">
-          <bounds x="72" y="480" width="241" height="37"/>
+          <bounds x="72" y="498" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-afc42c527f6a42e09850c68e7099e637" source="id-4d02179d22a24c638ec21f506ab8f5dd" target="id-f56a5c4fe72c4b6fa73329dafa9d86cf" archimateRelationship="id-693a0e1627844db887226eb31d8a7045"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-8db67d5e3d7e45018f8de071bf70e338" textPosition="1" archimateElement="id-4adc66b28d264e749f0d9a8433584f2d">
-          <bounds x="72" y="444" width="241" height="37"/>
+          <bounds x="72" y="462" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-2b03949f8e214dbd8d4f678745192802" source="id-8db67d5e3d7e45018f8de071bf70e338" target="id-f56a5c4fe72c4b6fa73329dafa9d86cf" archimateRelationship="id-d0b892991377480ca1452e8456177565"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-cfa6b254a03c4366a919e37d570d0a9c" textPosition="1" archimateElement="id-6219ea07f37a4e4b81ea110e3a11ab36">
-          <bounds x="72" y="228" width="241" height="37"/>
+          <bounds x="72" y="246" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-446f236b54724e0599c22983bc4a9675" source="id-cfa6b254a03c4366a919e37d570d0a9c" target="id-469858c8ef64499abcf398b91d48f938" archimateRelationship="id-763491e148cf411699273dac1e71a9f3"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-5b78804c6be94eafb7a482b63e8a85ca" textPosition="1" archimateElement="id-d0754566d25d4d02b9406e39f64a435d">
-          <bounds x="72" y="120" width="241" height="37"/>
+          <bounds x="72" y="138" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-49ec44ac9e954644a5a94db26b52f95a" source="id-5b78804c6be94eafb7a482b63e8a85ca" target="id-469858c8ef64499abcf398b91d48f938" archimateRelationship="id-5e167c1710914529880edc7f3a24c185"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-485d5768a5d2496e949e2c4fcc325e2f" source="id-5b78804c6be94eafb7a482b63e8a85ca" target="id-1e707ee26f9f40bb9dbe10a2da5ef697" archimateRelationship="id-dd178916b402435594048c1dd8623d6f"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-f9b82870661e4a23809d8ccb8055c9e8" source="id-5b78804c6be94eafb7a482b63e8a85ca" target="id-754ff865291a42e99ddc26714c4c90f2" archimateRelationship="id-8f87bba9aa244c64bc0c4c171208cefc"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-482c51fc8f824317aff9d3137b2f378f" source="id-5b78804c6be94eafb7a482b63e8a85ca" target="id-236caecb0d43476f83c10c402545e7c7" archimateRelationship="id-6c74bfd591744406ad9e0ae1006599e5"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0bc0e6f5dd4c46ca8b8864b8ab29cf50" source="id-5b78804c6be94eafb7a482b63e8a85ca" target="id-682ab9594e2c4e37802dc58bb6e6460e" archimateRelationship="id-45411bbd03de48538d9d12bcd0788a99"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-74cb4035365344a7bd49db0d1598fc61" source="id-5b78804c6be94eafb7a482b63e8a85ca" target="id-82f9e419bfbc4d96b5c5e088a817c793" archimateRelationship="id-e240b27d15a1484c8bf83248118a5dc3"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-802ae6753dfd4138a9ae24e6bf31f91f" source="id-5b78804c6be94eafb7a482b63e8a85ca" target="id-53dad2738c2e4bfbb9ca43f8c7c2e232" archimateRelationship="id-5e2547da671c453fb1951ede34a858d9"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-0629b8e5df324dd899d5595215be4a87" textPosition="1" archimateElement="id-cf8db3f407dd44b9a37bd2da04907734">
-          <bounds x="72" y="156" width="241" height="37"/>
+          <bounds x="72" y="174" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ba8e30454687420d8263a3bd3b537b2d" source="id-0629b8e5df324dd899d5595215be4a87" target="id-469858c8ef64499abcf398b91d48f938" archimateRelationship="id-496a678cd90247e09ccf98abfb98aaa6"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-f11cef73ccc349adbc97d87fc81f5e9e" source="id-0629b8e5df324dd899d5595215be4a87" target="id-82f9e419bfbc4d96b5c5e088a817c793" archimateRelationship="id-2f96bb1fb4a94c8b859704661baa7030"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-631e3dbf90ed49b396d0d364f17401b8" textPosition="1" archimateElement="id-a424004519d640f3a005f813ece7ae01">
-          <bounds x="72" y="408" width="241" height="37"/>
+          <bounds x="72" y="426" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-6a5dff61b3344d2db61446841215ea8a" source="id-631e3dbf90ed49b396d0d364f17401b8" target="id-f56a5c4fe72c4b6fa73329dafa9d86cf" archimateRelationship="id-c5dabf4d840c485587027f9c56a73608"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-ca3a2497f96f4471a0e60a3098fbb87a" textPosition="1" archimateElement="id-51b7d96c3c8143a6a0aab1ab35691a81">
-          <bounds x="72" y="516" width="241" height="37"/>
+          <bounds x="72" y="534" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e2a2744a5bca47188d84717382cad5bf" source="id-ca3a2497f96f4471a0e60a3098fbb87a" target="id-f56a5c4fe72c4b6fa73329dafa9d86cf" archimateRelationship="id-21c644265f074dc68ba4aa257bc6caaf"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f9684c26310b4f13b6ab6fdd76a7383c" textPosition="1" archimateElement="id-0e85a67b569d4eeba00a544dba53a937">
-          <bounds x="72" y="552" width="241" height="37"/>
+          <bounds x="72" y="570" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-08250e18c2a54d098534915768003eb4" source="id-f9684c26310b4f13b6ab6fdd76a7383c" target="id-f56a5c4fe72c4b6fa73329dafa9d86cf" archimateRelationship="id-47a41a3dcf2749d18740c08ea8621f48"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-59e564cd3fd345ecb6a65eeafbcdc4e0" textPosition="1" archimateElement="id-d1cd1faf10d944159fc5b17f7d3ddb95">
-          <bounds x="72" y="300" width="241" height="37"/>
+          <bounds x="72" y="318" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-589836d7e196433d9905e7eeb33d3157" source="id-59e564cd3fd345ecb6a65eeafbcdc4e0" target="id-0bce0a6de97e4c4f8fdde29794396186" archimateRelationship="id-dba8ba755f564330ac2ce97ac92d40b8"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-38963aae8cd64f0a88f36d44f5969f4e" textPosition="1" archimateElement="id-782b91c6380f47d180e9037741d46a96">
-          <bounds x="72" y="264" width="241" height="37"/>
+          <bounds x="72" y="282" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-82d18b406baa4b628982d8b5f6662399" source="id-38963aae8cd64f0a88f36d44f5969f4e" target="id-469858c8ef64499abcf398b91d48f938" archimateRelationship="id-d3051877545f4136a7a33bcf498eaac0"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-4f21ab1a006c44eaa5269ce72cd86a2f" textPosition="1" archimateElement="id-24c531554b1a401ebeee080552d22f84">
-          <bounds x="72" y="336" width="241" height="37"/>
+          <bounds x="72" y="354" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-91407111ed484a1a87a9fd04d2104a61" source="id-4f21ab1a006c44eaa5269ce72cd86a2f" target="id-0bce0a6de97e4c4f8fdde29794396186" archimateRelationship="id-620c0f5ea0a1456baced36ad329055f0"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-6bbce9eab60d4ad590f9296dc9261a87" source="id-4f21ab1a006c44eaa5269ce72cd86a2f" target="id-f56a5c4fe72c4b6fa73329dafa9d86cf" archimateRelationship="id-9438f3de51c34f4e965162f98c4b80a0"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-c25e9853b6344886a301e6d21507264e" textPosition="1" archimateElement="id-3d510c2ae0e6482eaacaca7c8618f826">
-          <bounds x="72" y="192" width="241" height="37"/>
+          <bounds x="72" y="210" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-66f04dd1b80643df8234c1018a0e8d05" source="id-c25e9853b6344886a301e6d21507264e" target="id-469858c8ef64499abcf398b91d48f938" archimateRelationship="id-77b7aef23ea94b328a2b64cc3b41dee1"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-4669eaf52a3d4192bd10fd12b7a51ae0" source="id-c25e9853b6344886a301e6d21507264e" target="id-82f9e419bfbc4d96b5c5e088a817c793" archimateRelationship="id-ca4b8afc76b54e5984b8b6b92027198b"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f06c8ec561604d6eba14ce9ff4fa6169" textPosition="1" archimateElement="id-98e2c9f977d141989e67242a1492c39b">
-          <bounds x="72" y="372" width="241" height="37"/>
+          <bounds x="72" y="390" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-f72275f37a604d39839d0aa8796ccadd" source="id-f06c8ec561604d6eba14ce9ff4fa6169" target="id-f56a5c4fe72c4b6fa73329dafa9d86cf" archimateRelationship="id-5e5debc099b54e859669f044b3ec1340"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-9323c7d5f32b43839bc45fc944aea65f" source="id-f06c8ec561604d6eba14ce9ff4fa6169" target="id-469858c8ef64499abcf398b91d48f938" archimateRelationship="id-55fdd872103c41a6b44c28edc5d499fa"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-4f7f8946c89841e9a6ef9bab22ff11fe" source="id-f06c8ec561604d6eba14ce9ff4fa6169" target="id-0bce0a6de97e4c4f8fdde29794396186" archimateRelationship="id-23c87154b1904610997696d7334fe389"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-77c86087498747bbb4162a131437034f" archimateElement="id-5679814c53bf40cf80e6a3e61c2f9ba6">
-          <bounds x="72" y="84" width="241" height="37"/>
+          <bounds x="72" y="102" width="241" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-c515051d8e0a4d7c9516e383d60eec90" source="id-77c86087498747bbb4162a131437034f" target="id-469858c8ef64499abcf398b91d48f938" archimateRelationship="id-83320e1397a541769673c4058baa2bb8"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-a84d5f50d2cd4301af68441b51ec390c" archimateElement="id-28d651febde04af58dfbd468003f9ce5">
+          <bounds x="72" y="606" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-1e707ee26f9f40bb9dbe10a2da5ef697" targetConnections="id-485d5768a5d2496e949e2c4fcc325e2f" textPosition="1" archimateElement="id-298beb3a97094048a2b1de3aa116113e">
+          <bounds x="708" y="192" width="309" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-754ff865291a42e99ddc26714c4c90f2" targetConnections="id-f9b82870661e4a23809d8ccb8055c9e8" textPosition="1" archimateElement="id-9d14d7e457894526b3dc5833564a1351">
+          <bounds x="708" y="264" width="309" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-236caecb0d43476f83c10c402545e7c7" targetConnections="id-482c51fc8f824317aff9d3137b2f378f" textPosition="1" archimateElement="id-4fddc93f50174700a05f1b06d12fc34c">
+          <bounds x="708" y="120" width="309" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-682ab9594e2c4e37802dc58bb6e6460e" targetConnections="id-0bc0e6f5dd4c46ca8b8864b8ab29cf50" textPosition="1" archimateElement="id-9355be45403944f18e61afa4b91abdb0">
+          <bounds x="708" y="336" width="309" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-82f9e419bfbc4d96b5c5e088a817c793" targetConnections="id-4669eaf52a3d4192bd10fd12b7a51ae0 id-f11cef73ccc349adbc97d87fc81f5e9e id-74cb4035365344a7bd49db0d1598fc61" textPosition="1" archimateElement="id-3a8ae3000cd14de18d26df5d3d739697">
+          <bounds x="708" y="408" width="309" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-53dad2738c2e4bfbb9ca43f8c7c2e232" targetConnections="id-802ae6753dfd4138a9ae24e6bf31f91f" textPosition="1" archimateElement="id-93363f3351234e5d91489db06daf31b3">
+          <bounds x="708" y="480" width="309" height="55"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Bedrijfsobjectenmodel gerelateerd aan standaarden" id="id-ed6feb91cd39427893ecde6052fd3a3e">
