@@ -193,6 +193,7 @@ De kern van de FSC standaard is dat het een vertrouwensnetwerk kan creëren tuss
         <documentation>&lt;p>De Generieke Digitale Infrastructuur bestaat uit een aantal generieke voorzieningen, die breed gebruikt kunnen worden door overheidsorganisaties. Daarnaast zijn er op het gebied van gegevensuitwisseling ook een aantal andere generieke voorzieningen die breder binnen de overheid gebruikt kunnen worden. In deze paragraaf wordt een overzicht gegeven van de belangrijkste voorzieningen die we onder de aandacht willen brengen. Deze voorzieningen zijn gerelateerd aan de functies om inzicht te geven in hun functionaliteit. Ze zijn ook voorzien van eigenschappen die beschrijven wie verantwoordelijk is voor het beheer en waar meer informatie over de voorziening kan worden gevonden.&lt;/p></documentation>
         <property key="elementType" value="application-componentHuidige voorziening"/>
       </element>
+      <element xsi:type="archimate:Representation" name="Verdieping: gegevensruimtes" id="id-299bb657254f4aa3b7c2c356f6595dc8" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2"/>
       <element xsi:type="archimate:Representation" name="Functies" id="id-307f05a1051a49ce9db6e3a9a2bd0c62" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>&#xD;
 In deze domeinarchitectuur hebben we functies benoemd die in het algemeen relevant zijn voor gegevensuitwisseling. De functies beschrijven vooral activiteiten op organisatieniveau (bedrijfsfuncties), maar ze zijn ook te zien als functies van informatiesystemen (applicatiefuncties). Het onderscheid is op dit niveau lastig te maken, mede doordat het afhankelijk is van de mate waarin activiteiten zijn geautomatiseerd. Organisaties zullen zelf moeten bepalen in hoeverre deze functies worden uitgevoerd door mensen en/of informatiesystemen. Daarbij kunnen ze ervoor kiezen om ze door andere organisaties te laten uitvoeren zoals aanbieders of andere soorten intermediairs of dienstverleners. Op landelijk niveau zijn er ook generieke voorzieningen beschikbaar die invulling geven aan een aantal van deze functies. De lijst van functies kan gebruikt worden om inzicht te geven in de huidige en gewenste inrichting van organisatie, processen en informatiesystemen. In de domeinarchitectuur zijn ze gekoppeld aan de capability’s, architectuurprincipes, bedrijfsobjecten, rollen, voorzieningen en standaarden. &#xD;
@@ -610,7 +611,6 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <documentation>&lt;p>Knelpunten zijn omstandigheden in de huidige situatie die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten van de analyse zijn samengevat en opgenomen in de architectuur.&lt;/p></documentation>
         <property key="elementType" value="assessment"/>
       </element>
-      <element xsi:type="archimate:Representation" name="Verdieping: gegevensruimtes" id="id-299bb657254f4aa3b7c2c356f6595dc8" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2"/>
     </folder>
     <folder name="Overig" id="id-93186e6e85174c738e2b8dd18bacb575">
       <element xsi:type="archimate:BusinessFunction" name="Bedrijfsfunctie" id="id-02a2244645ab48e7bfe7c0247690e2e9">
@@ -1459,13 +1459,13 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <documentation>Vanuit de Europese datastrategie wil de Commissie de ontwikkeling van gemeenschappelijke Europese gegevensruimtes (data spaces) in strategische economische sectoren en gebieden van algemeen belang bevorderen. Deze sectoren of domeinen zijn die waar het gebruik van data een systemische impact zal hebben op het hele ecosysteem, maar ook op burgers. De EU-brede gegevensruimte is waar alle aspecten uit de Data Governance Act, Data Act en Open Data Directive tot praktische uitdrukking komen. In de visie van de Europese strategie voor gegevens is de totstandbrenging van gemeenschappelijke, interoperabele gegevensruimtes in de hele EU in strategische sectoren gericht op het wegnemen van belemmeringen voor het delen van gegevens door de nodige instrumenten en infrastructuren te combineren en vertrouwenskwesties aan te pakken door middel van gemeenschappelijke regels.</documentation>
         <property key="URL" value="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020DC0066"/>
       </element>
-      <element xsi:type="archimate:Driver" name="I-strategie Rijk" id="id-fa9eb26057db4ff4927738de1817992d" profiles="id-d47de2a822304367b35fa6d2442d6060">
-        <documentation>In deze I-strategie 2021-2025 staan de gezamenlijke prioriteiten van de Chief Information Officers (CIO’s) van het rijk voor de informatievoorziening. Iedere prioriteit is uitgewerkt in een aantal actiepunten. Data is een expliciet aandachtspunt in deze I-strategie. Datamogelijkheden zijn geen sluitstuk, maar het vertrekpunt. Met data zijn we in staat om onze processen te verbeteren en vernieuwen, en betere en innovatievere besluiten te nemen. Ook zijn we wendbaarder wanneer we door inzet van data sneller inspelen op maatschappelijke veranderingen.</documentation>
-        <property key="URL" value="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/09/I-Strategie-Rijk-2021-2025.pdf"/>
-      </element>
       <element xsi:type="archimate:Driver" name="Baseline Informatiebeveiliging Overheid" id="id-f2e96a2c73b243b280dc21dd9c6b37ac" profiles="id-d47de2a822304367b35fa6d2442d6060">
         <documentation>De Baseline Informatiebeveiliging Overheid (BIO) is een normenkader voor informatiebeveiliging en geeft het basisniveau voor informatiebeveiliging waar alle overheidspartijen aan moeten voldoen. Door dit eenduidige normenkader binnen de overheid, wordt een stevige basis gelegd voor de verdere optimalisering van informatiebeveiliging binnen de gehele overheid en ontstaat een gemeenschappelijke taal die bijdraagt aan veilige samenwerking in ketens binnen de overheid. De BIO is gebaseerd op de NEN-ISO/IEC 27002.</documentation>
         <property key="URL" value="https://bio-overheid.nl/"/>
+      </element>
+      <element xsi:type="archimate:Driver" name="I-strategie Rijk" id="id-fa9eb26057db4ff4927738de1817992d" profiles="id-d47de2a822304367b35fa6d2442d6060">
+        <documentation>In deze I-strategie 2021-2025 staan de gezamenlijke prioriteiten van de Chief Information Officers (CIO’s) van het rijk voor de informatievoorziening. Iedere prioriteit is uitgewerkt in een aantal actiepunten. Data is een expliciet aandachtspunt in deze I-strategie. Datamogelijkheden zijn geen sluitstuk, maar het vertrekpunt. Met data zijn we in staat om onze processen te verbeteren en vernieuwen, en betere en innovatievere besluiten te nemen. Ook zijn we wendbaarder wanneer we door inzet van data sneller inspelen op maatschappelijke veranderingen.</documentation>
+        <property key="URL" value="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/09/I-Strategie-Rijk-2021-2025.pdf"/>
       </element>
     </folder>
     <folder name="Knelpunten" id="id-4cd456d8479f43e4805af28f1705b897">
@@ -2043,6 +2043,9 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <documentation>Aanbieders en afnemers zouden gegevens moeten uitwisselen op basis van expliciet vastgelegde voorwaarden en afspraken. Er is nu geen algemene overheidsbrede standaard die beschrijft hoe deze voorwaarden en afspraken kunnen worden vastgelegd. Het standaardiseren hiervan heeft veel meerwaarde. Het zorgt ervoor dat er meer duidelijkheid ontstaat tussen partijen over de voorwaarden en afspraken die gelden. Het maakt het ook mogelijk om dit soort informatie eenvoudiger publiek inzichtelijk te maken en om contractering verder te automatiseren.&#xD;
 </documentation>
       </element>
+      <element xsi:type="archimate:WorkPackage" name="Onderzoek positionering Dataspace Protocol" id="id-28d651febde04af58dfbd468003f9ce5">
+        <documentation>Het door IDSA beschreven Dataspace Protocol is een belangrijke basis onder de referentie-architectuur van IDS en naar verwachting tot gegevensruimtes in algemene zin. Er is duidelijkheid nodig over hoe het zich verhoudt tot standaarden die worden gebruikt bij de Nederlandse overheidsorganisaties. Zo zijn er overeenkomsten met de FSC en Digikoppeling standaarden alsook met het Nederlands profiel op DCAT. Daarnaast is er overlap met standaarden in het domein toegang.</documentation>
+      </element>
       <element xsi:type="archimate:WorkPackage" name="Standaard voor beperkingsregels" id="id-3d510c2ae0e6482eaacaca7c8618f826">
         <documentation>Er is nu geen eenvoudige technologie-onafhankelijke standaard voor het uitdrukken van beperkingsregels, waardoor moet worden gekozen tussen natuurlijke taal, een zelfbedachte taal, een leverancierspecifieke taal of modelleertaalspecifieke talen zoals OCL of SHACL. Hierdoor is het niet goed mogelijk om deze op een standaard en begrijpelijke manier te beschrijven in een informatie- of gegevensmodel of om kwaliteitsregels mee uit te drukken. Er zou onderzoek moeten plaatsvinden of er in de markt wel talen of standaarden beschikbaar zijn die kunnen worden omarmd, of dat een nieuwe taal moet worden ontwikkeld.</documentation>
       </element>
@@ -2081,9 +2084,6 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:WorkPackage" name="Beleid organisatie-identificaties" id="id-dd34cf416ee84ab8a5a6ead202d3fa0b">
         <documentation>Er zijn verschillende manieren om organisaties te identificeren, zoals het gebruik van KvK-nummer, OIN, CBS-code, de codes in het Register van Overheidsorganisaties en TOOI. Het is onduidelijk welke identificaties in welke situaties moeten worden gebruikt. Doordat er in de praktijk verschillende keuzes worden gemaakt is het integreren van gegevens over organisaties ook lastig. Er is beleid nodig dat meer duidelijkheid geeft om tot meer consistentie te komen. Daarbij moeten ook de consequenties voor organisaties en systemen worden meegenomen.</documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="Onderzoek positionering Dataspace Protocol" id="id-28d651febde04af58dfbd468003f9ce5">
-        <documentation>Het door IDSA beschreven Dataspace Protocol is een belangrijke basis onder de referentie-architectuur van IDS en naar verwachting tot gegevensruimtes in algemene zin. Er is duidelijkheid nodig over hoe het zich verhoudt tot standaarden die worden gebruikt bij de Nederlandse overheidsorganisaties. Zo zijn er overeenkomsten met de FSC en Digikoppeling standaarden alsook met het Nederlands profiel op DCAT. Daarnaast is er overlap met standaarden in het domein toegang.</documentation>
       </element>
     </folder>
     <folder name="Overig" id="id-ce9e646ec2624ba8b6b773978e4af906">
@@ -2855,6 +2855,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
     <element xsi:type="archimate:ServingRelationship" id="id-2178ea6643544fcfa7e47d5027dcdec9" source="id-3503096184b0469cb2a6d88074aef990" target="id-80e3338ec5a94dc4a0bab92c6d9b286a"/>
     <element xsi:type="archimate:ServingRelationship" id="id-22fbfa601e3b474c921a82fd79e6e5dd" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-a71d09891a9e4ea791f3fc82931009e3"/>
     <element xsi:type="archimate:ServingRelationship" id="id-2478fdd36034487887aff9e142f5452f" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-5b081702561f47dba7f87dddb4ef9a19"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-25e2544c981943f2a31a478a00e4fd89" source="id-f417beff3e9f4b6088d2858190e298f4" target="id-592dc350d1034ca280d27157e17ba09d"/>
     <element xsi:type="archimate:ServingRelationship" id="id-2ca3f294bd314bb29174f4592f783692" source="id-927d7689889140539622db35ff1a8d76" target="id-e8e0fadbd63b479d95144f268ac1d2af"/>
     <element xsi:type="archimate:ServingRelationship" id="id-2d6da87e1c39403a9ef4bc9045b5298b" source="id-3503096184b0469cb2a6d88074aef990" target="id-2cefc04003f94fcb9721acbc42c92adf"/>
     <element xsi:type="archimate:ServingRelationship" id="id-2eeb1777528e4f3982cd1dff61a7d02f" source="id-5051532609b1444c926815801dc5652c" target="id-02a2244645ab48e7bfe7c0247690e2e9"/>
@@ -2870,6 +2871,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
     <element xsi:type="archimate:ServingRelationship" id="id-626a3aa4849648e0a1c9076749ae86eb" source="id-161915f58fb942938998f90cc96e6c79" target="id-5ef12d74a642417684910d16092653f2"/>
     <element xsi:type="archimate:ServingRelationship" id="id-629a653bbb1c402aaaae18397789a83d" source="id-0b707b5b0cd746078e937a088f499aba" target="id-d2465138e3d44120a0132c92bc8ffdf3"/>
     <element xsi:type="archimate:ServingRelationship" id="id-68155f8bf439418ab83bbcba876fbf21" source="id-0b707b5b0cd746078e937a088f499aba" target="id-40f2e2d826cb46b3807a92ba2f3dc691"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-689c96395eb844b29d9f5bac2f56c26d" source="id-f417beff3e9f4b6088d2858190e298f4" target="id-653ab3c904ca4f04bd358b3eebd7cb46"/>
     <element xsi:type="archimate:ServingRelationship" id="id-6a31a641bd8543098cd6c6298b25b2c3" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-15948e1fa01f4d98a7998a64ecf203db"/>
     <element xsi:type="archimate:ServingRelationship" id="id-6bdd5c791bca4e40bea5655330eb06d5" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-0117f3617bc9465ca0df8a0441383b79"/>
     <element xsi:type="archimate:ServingRelationship" id="id-717cbb14b0da477b9d19b5515fa73278" source="id-3503096184b0469cb2a6d88074aef990" target="id-5dd88ea08e294b44898d119a8f6f280c"/>
@@ -2909,6 +2911,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
     <element xsi:type="archimate:ServingRelationship" id="id-d196dd95c2d343adb1b095850e3a5844" source="id-15d03a85a8b340c490a44cc1c3a3c056" target="id-0da09931f8ac4b368c786703913087bf"/>
     <element xsi:type="archimate:ServingRelationship" id="id-d3293bb44c5447b79f733fc3538ff47b" source="id-3503096184b0469cb2a6d88074aef990" target="id-eb64c1bcb6af46da9cc40b24284e5b69"/>
     <element xsi:type="archimate:ServingRelationship" id="id-d4fd5d1c71224a78817e59f9b12d0dd6" source="id-15d03a85a8b340c490a44cc1c3a3c056" target="id-592dc350d1034ca280d27157e17ba09d"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-da7edaa345a7408f84e703dd1dab296e" source="id-f417beff3e9f4b6088d2858190e298f4" target="id-ca0d41ec8062445a803b463b7b88a4c9"/>
     <element xsi:type="archimate:ServingRelationship" id="id-deb749b7dd1540e1b30174949eb98251" source="id-3503096184b0469cb2a6d88074aef990" target="id-a71d09891a9e4ea791f3fc82931009e3"/>
     <element xsi:type="archimate:ServingRelationship" id="id-e3ce36e9469a41b4942de071bef0abfe" source="id-b600393295354608a39ad1d50908c988" target="id-8f089dcb8add4b2fa57de76006aab538"/>
     <element xsi:type="archimate:ServingRelationship" id="id-e515323b773249beab09db6244b472b6" source="id-161915f58fb942938998f90cc96e6c79" target="id-e8e0fadbd63b479d95144f268ac1d2af"/>
@@ -2924,9 +2927,6 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
     <element xsi:type="archimate:SpecializationRelationship" id="id-4baaf3df91a64de9b90b4213b96d276d" source="id-5559669d97cb4cdca49cbe04a07067ff" target="id-61972e0d2c02472b903090af6f8b0650"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-738dacacd7104d21807f0f314a944f42" source="id-d896763cdeee448e953a2193561a728f" target="id-6140b0bcf3aa44ab8c0137098352364d"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-f61f5dbacf1546e7bb51628c07df063f" source="id-e24ef8dc93054899b021a15207b3eea0" target="id-6140b0bcf3aa44ab8c0137098352364d"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-da7edaa345a7408f84e703dd1dab296e" source="id-f417beff3e9f4b6088d2858190e298f4" target="id-ca0d41ec8062445a803b463b7b88a4c9"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-689c96395eb844b29d9f5bac2f56c26d" source="id-f417beff3e9f4b6088d2858190e298f4" target="id-653ab3c904ca4f04bd358b3eebd7cb46"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-25e2544c981943f2a31a478a00e4fd89" source="id-f417beff3e9f4b6088d2858190e298f4" target="id-592dc350d1034ca280d27157e17ba09d"/>
   </folder>
   <folder name="Views" id="id-a006a61a59a4410aa97243727cded72a" type="diagrams">
     <folder name="Gewenste situatie" id="id-1b70ddc9a2c04d01bd21b94782dbece6">

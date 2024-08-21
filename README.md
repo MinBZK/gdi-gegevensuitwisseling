@@ -14,6 +14,8 @@ Bij de verschillende onderdelen van de architectuur wordt verwezen naar beschrij
 # Architectuur
 Inleiding: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-f763d8baeed7450a801180ca97a5e0bc.html">beschrijving</a>.
 
+Managementsamenvatting: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-5014e756442d4f4c8bb8f709bb046591.html">beschrijving</a>.
+
 Veranderfactoren:
 * Ontwikkelingen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/ontwikkelingen.html">overzicht</a>
 * Beleid: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/beleid.html">overzicht</a>
@@ -27,6 +29,7 @@ Gewenste situatie:
 * Veranderinitiatieven: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/veranderinitiatieven.html">overzicht</a>
 
 Verdieping:
+* Verdieping op thema gegevensruimtes: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-299bb657254f4aa3b7c2c356f6595dc8.html">beschrijving</a>
 * Verdieping op thema metagegevens: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-b7da2fb1fe314dbfb7d025d2f1a07035.html">beschrijving</a>
 * Verdieping op thema communicatieprotocollen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-1d2d4327d948422eadfcd5208208ec3a.html">beschrijving</a>
 * Verdieping op thema historie: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-dcfbaf9541ce478aa0eb2bac5e9fb2dd.html">beschrijving</a>
@@ -41,6 +44,7 @@ Bijlagen:
 * Standaarden: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-5df0c1360768493aa966c16f7dbfd414">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaardendetails.html">details</a>
 * Begrippen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/begrippendetails.html">details</a>
 * Relatie van architectuurprincipes met ADO en NORA: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-98a74bf2a0b444ebba06ffda16362eb8.html">overzicht</a>
+* Betrokkenen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-91d34b07a4114b9d8d8bb4689231fc3d.html">overzicht</a>
 
 Documenten:
 * Samenvatting van de belangrijkste onderdelen in één pagina: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20gegevensuitwisseling.html">samenvatting</a>
