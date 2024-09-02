@@ -5,7 +5,7 @@
     documentation="De Geo-standaarden maken het mogelijk om op een eenduidige manier gegevens met een geografische component uit te wisselen. Ze bestaan uit: NL ISO 19115, NL ISO 19119, NL WFS, NL WMS, ISO 19136:2007, NEN 3610:2011 en GeoPackage 1.2.">
   <properties
       key="Status"
-      value="Aanbevolen"/>
+      value="Verplicht"/>
   <properties
       key="Functioneel toepassingsgebied"
       value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>

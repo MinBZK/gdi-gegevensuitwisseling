@@ -5,7 +5,7 @@
     documentation="Nederlands profiel WMS op ISO 19128 versie 1.1. WMS maakt het mogelijk om een rasterbeelden op te vragen.">
   <properties
       key="Status"
-      value="Aanbevolen"/>
+      value="Verplicht"/>
   <properties
       key="Functioneel toepassingsgebied"
       value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>

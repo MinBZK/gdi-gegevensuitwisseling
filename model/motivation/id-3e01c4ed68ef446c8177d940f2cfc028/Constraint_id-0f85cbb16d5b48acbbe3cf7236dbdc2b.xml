@@ -5,7 +5,7 @@
     documentation="Het Basismodel geo-informatie (NEN3610) bevat de termen, definities, relaties en algemene regels voor de uitwisseling van informatie over ruimtelijke objecten.">
   <properties
       key="Status"
-      value="Aanbevolen"/>
+      value="Verplicht"/>
   <properties
       key="Functioneel toepassingsgebied"
       value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
