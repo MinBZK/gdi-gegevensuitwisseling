@@ -5,7 +5,7 @@
     documentation="Nederlands WFS profiel 1.1 op ISO 19142 voor Web Feature Services 2.0. Een WFS ondersteunt minimaal het opvragen van geo-informatie. Aanvullend biedt een WFS mogelijkheden om geo-informatie in de database direct te bewerken.">
   <properties
       key="Status"
-      value="Aanbevolen"/>
+      value="Verplicht"/>
   <properties
       key="Functioneel toepassingsgebied"
       value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
