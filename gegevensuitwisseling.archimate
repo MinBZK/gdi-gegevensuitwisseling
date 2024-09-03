@@ -172,7 +172,7 @@ De koppelvlakstandaard REST API is nu specifiek gericht op RESTful API’s. Tege
 &lt;p>&#xD;
 &lt;table class=&quot;table table-striped&quot;>&#xD;
 &lt;tr>&lt;td valign=&quot;top&quot;>&lt;b>Standaard&lt;/b>&lt;/td>&lt;td valign=&quot;top&quot;>&lt;b>Functioneel toepassingsgebied&lt;/b>&lt;/td>&lt;td valign=&quot;top&quot;>&lt;b>Status&lt;/b>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td valign=&quot;top&quot;>Geo-standaarden&lt;/td>&lt;td valign=&quot;top&quot;>Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is.&lt;/td>&lt;td valign=&quot;top&quot;>Aanbevolen&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td valign=&quot;top&quot;>Geo-standaarden&lt;/td>&lt;td valign=&quot;top&quot;>Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is.&lt;/td>&lt;td valign=&quot;top&quot;>Verplicht&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td valign=&quot;top&quot;>OData&lt;/td>&lt;td valign=&quot;top&quot;>OData kan worden toegepast voor het bouwen en gebruiken van REST APIs met als doel het gestructureerd ontsluiten van (statistische) open datasets.&lt;/td>&lt;td valign=&quot;top&quot;>Aanbevolen&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td valign=&quot;top&quot;>GraphQL&lt;/td>&lt;td valign=&quot;top&quot;>&lt;i>Het flexibel bevragen van meerdere resources.&lt;/i>&lt;/td>&lt;td valign=&quot;top&quot;>geen&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td valign=&quot;top&quot;>SPARQL&lt;/td>&lt;td valign=&quot;top&quot;>&lt;i>Het bevragen van Linked Data resources.&lt;/i>&lt;/td>&lt;td valign=&quot;top&quot;>geen&lt;/td>&lt;/tr>&#xD;
@@ -418,7 +418,7 @@ Om gegevensuitwisseling goed te laten werken is het belangrijk dat rollen, taken
 Aanbieders moeten ervoor zorgen dat gegevens beschikbaar zijn conform de &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-a3ff1bdac53d4cf28526f9f3f360ffcf.html&quot;>FAIR-principes&lt;/a>, zodat ze vindbaar, toegankelijk, interoperabel en herbruikbaar zijn. Het gebruik van &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-6857a45330d3428fa0562f7db033d6df.html&quot;>open standaarden&lt;/a> is daarvoor een belangrijke basis. Daarnaast zullen ze metagegevens beschikbaar moeten stellen, en zorgen dat deze bekend zijn in relevante (data)catalogi. Ze moeten expliciete aandacht hebben voor belangrijke &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-e0a280a70ebe45558fda4c5cfc3d35f2.html&quot;>gegevens- of informatiebehoeften&lt;/a> die bij meerdere afnemers spelen. De gegevensdiensten die ze aanbieden moeten &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-95d4a5adf6e44308b2126fb23ae66a73.html&quot;>herbruikbaar&lt;/a> zijn, zodat ze breed voor allerlei afnemers beschikbaar zijn. Ze zullen in de toekomst gegevens over partijen ook beschikbaar moeten stellen in de vorm van verifieerbare verklaringen, zodat deze gebruikt kunnen worden in EDI wallets. Aanbieders moeten afnemers notificeren over relevante gebeurtenissen die zijn optreden bij bronhouders, zodat overheidsorganisaties snel kunnen acteren. Aanbieders zijn het loket richting afnemers en moeten terugmeldingen routeren naar de verantwoordelijke bronhouder. Gegevens moeten zowel binnen domeinen, als tussen domeinen kunnen worden uitgewisseld. Dat betekent dat landelijke afspraken en &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-6857a45330d3428fa0562f7db033d6df.html&quot;>standaarden&lt;/a> gebruikt moeten worden voor het beschikbaar stellen van gegevens die landelijk waardevol zijn. &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Een scheiding van de rollen bronhouder en aanbieder heeft als voordeel dat het leidt tot een duidelijker verdeling van taken en verantwoordelijkheden. Het vastleggen van feiten vraagt nu eenmaal een andere focus dan het toegankelijk ontsluiten van gegevens.&#xD;
+Een partij die bronhouder is kan zelf ook de rol van aanbieder invullen. Het is afhankelijk van de context of dit logisch is. Een scheiding van de rollen bronhouder en aanbieder heeft als voordeel dat het leidt tot een duidelijker verdeling van taken en verantwoordelijkheden. Het vastleggen van feiten vraagt nu eenmaal een andere focus dan het toegankelijk ontsluiten van gegevens.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 Afnemers behandelen de &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-9ad7c4b354e34226a5d86d81f8adf280.html&quot;>bronnen die worden beheerd door bronhouders als leidend&lt;/a>, zodat er geen discussie nodig is over de authenticiteit en actualiteit van de gegevens. Zij laten gegevens zoveel mogelijk bij de bron. Afnemers hebben een verantwoordelijkheid om het gebruik van gegevens te kennen en te ondersteunen. Zij moeten zicht hebben op de kwaliteitseisen van gebruikers, zodat ze deze kunnen inbrengen bij bronhouders. Als zij twijfel hebben over de juistheid van gegevens dan melden ze deze bij de aanbieder. Zij zijn verantwoordelijk voor het rechtmatig gebruik van gegevens. Dat betekent dat ze expliciet moeten maken wat de wettelijke grondslag en doelbinding is van het gebruik van de gegevens en dat op een later moment ook kunnen aantonen, bijvoorbeeld in een audit. Daaraan gerelateerd moeten zij zorgen dat het gebruik van persoonsgegevens is getoetst op privacy en ethiek. Als afnemer hebben zij de verantwoordelijkheid voor het juist gebruik van gegevens. Afnemers die gegevens gegevens ontvangen zullen deze zelf moeten &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-3bb134dd13654c57a6395ace8aca98d5.html&quot;>valideren&lt;/a>. Als afnemers verifieerbare verklaringen ontvangen dan zullen ze zelf de authenticiteit, integriteit en geldigheid van deze verklaringen moeten controleren.&lt;/p>&#xD;
@@ -503,13 +503,13 @@ Rondom gegevens spelen allerlei &lt;b>regels&lt;/b> een rol. In de meest algemen
 &lt;b>Bronhouders&lt;/b> zijn verantwoordelijk voor het inwinnen en beheren van gegevens. Onderdeel daarvan is het verbeteren van de kwaliteit van gegevens. Aan de andere kant zijn er &lt;b>afnemers&lt;/b> van gegevens. Dat zijn organisaties waar &lt;b>gebruikers&lt;/b> allerlei toepassingen en gebruik kennen van gegevens, waarbij toenemend allerlei vormen van data science en kunstmatige intelligentie worden toegepast. Om ervoor te zorgen dat gegevens kunnen worden uitgewisseld moeten ze worden aangeboden in een vorm die bruikbaar is voor afnemers. Dit is de rol van een &lt;b>aanbieder&lt;/b> (ook wel: verstrekker of leverancier) die hiervoor gegevensdiensten aanbiedt. &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Een partij die bronhouder is kan zelf ook aanbieder zijn of kan zich laten ontzorgen door een andere partij. Een voorbeeld van een aanbieder is Publieke Dienstverlening op de Kaart (PDOK), een dienst die wordt aangeboden door het Kadaster voor het ontsluiten van geografische gegevens. Daarnaast is deze rolverdeling expliciet bij een aantal basisregistraties. Zo zijn bijvoorbeeld gemeenten bronhouder van de basisregistratie personen (BRP), maar is de Rijksdienst voor Identiteitsgegevens de aanbieder van de gegevens, die hiervoor de landelijke voorziening bied. De BRP kent heel veel verschillende overheidsorganisaties als afnemers, inclusief gemeenten zelf. Een partij die bronhouder is kan ook de rol van afnemer hebben als er gegevens worden ingewonnen door andere partijen.&#xD;
+Een partij die bronhouder is kan zelf ook aanbieder zijn of kan zich laten ontzorgen door een andere partij. Een voorbeeld van een aanbieder is Publieke Dienstverlening op de Kaart (PDOK), een dienst die wordt aangeboden door het Kadaster voor het ontsluiten van geografische gegevens. De rol van aanbieder is expliciet benoemd bij de basisregistraties (en wordt daar verstrekker genoemd). Zo zijn bijvoorbeeld gemeenten bronhouder van de basisregistratie personen (BRP), maar is de Rijksdienst voor Identiteitsgegevens de aanbieder van de gegevens, die hiervoor de landelijke voorziening bied. De BRP kent heel veel verschillende overheidsorganisaties als afnemers, inclusief gemeenten zelf. Een partij die bronhouder is kan ook de rol van afnemer hebben als er gegevens worden ingewonnen door andere partijen.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 Een &lt;b>intermediair&lt;/b> is een partij die in de keten tussen een aanbieder en een afnemer toegevoegde waarde kan leveren in de uitwisseling. Er zijn allerlei soorten intermediairs te onderkennen. Zo zijn er intermediairs die gespecialiseerd zijn in het samenbrengen, combineren en afleiden van verschillende soorten gegevens. Een voorbeeld van een dergelijke partij is het Inlichtingenbureau dat slimme dienstverlening biedt aan gemeenten op onderwerpen zoals werk- en bestaanszekerheid, onderwijs en belastingen. Er zijn ook intermediairs die vooral gericht zijn op het vertalen van gegevens. Een voorbeeld van een intermediair in deze categorie is stichting RINIS, die vooral technische vertalingen uitvoert. Er kunnen ook intermediairs zijn die zich specifiek richten op het ondersteunen van het abonneren op, en notificeren over gebeurtenissen. &#xD;
 &lt;/p> &#xD;
 &lt;p>&#xD;
-In dit document spreken we in verband met leesbaarheid vaak over bronhouder, aanbieder, intermediair en afnemer alsof ze een partij zijn, maar daarmee bedoelen we dan eigenlijk een partij die een dergelijke rol heeft en die ook andere rollen kan hebben.&#xD;
+In dit document spreken we in verband met leesbaarheid vaak over bronhouder, aanbieder, intermediair en afnemer alsof ze een organisatie zijn, maar daarmee bedoelen we een organisatie die een dergelijke rol heeft en die ook andere rollen kan hebben. Het moet per context worden bepaald welke rollen door welke organisaties worden ingevuld.&#xD;
 &lt;p>&#xD;
 &lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/images/basisrollen.svg&quot;>&lt;/center>&lt;/p>&#xD;
 &lt;h2>Functies&lt;/h2>&#xD;
@@ -746,7 +746,7 @@ Er is ook andere context die relevant is om toe te voegen aan feiten. Zo is het 
       </element>
       <element xsi:type="archimate:Representation" name="Inleiding" id="id-f763d8baeed7450a801180ca97a5e0bc" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;h2>1.1 Aanleiding&lt;/h2>&#xD;
-&lt;p>De overheid digitaliseert en dat roept vragen op over hoe overheidsorganisaties hun processen, gegevens en systemen moeten inrichten. De Generieke Digitale Infrastructuur (GDI) ondersteunt de digitale overheid met afspraken, standaarden en voorzieningen. In de MIDO governancestructuur werken overheidsorganisaties samen aan de doorontwikkeling van de digitale overheid en de GDI. Er is vanuit deze governance een &lt;a href=&quot;https://pgdi.nl/files/view/82435cdb-9861-4a46-8152-288f666dc32f/gdi-meerjarenvisie.pdf&quot;>meerjarenvisie&lt;/a> en een &lt;a href =&quot;https://pgdi.nl/ado&quot;>Architectuur Digitale Overheid 2030&lt;/a> opgesteld die op hoofdlijnen beschrijft hoe de digitale overheid zich de komende jaren zou moeten doorontwikkelen. De Architectuur Digitale Overheid wordt nader uitgewerkt in vier domeinarchitecturen op het gebied van interactie, toegang, gegevensuitwisseling en infrastructuur.&lt;/p>&#xD;
+&lt;p>De overheid digitaliseert en dat roept vragen op over hoe overheidsorganisaties hun processen, gegevens en systemen moeten inrichten. De Generieke Digitale Infrastructuur (GDI) ondersteunt de digitale overheid met afspraken, standaarden en voorzieningen. In de governancestructuur van het Meerjarenprogramma Infrastructuur Digitale Overheid (MIDO) werken overheidsorganisaties samen aan de doorontwikkeling van de digitale overheid en de GDI. Er is vanuit deze governance een &lt;a href=&quot;https://pgdi.nl/files/view/82435cdb-9861-4a46-8152-288f666dc32f/gdi-meerjarenvisie.pdf&quot;>meerjarenvisie&lt;/a> en een &lt;a href =&quot;https://pgdi.nl/ado&quot;>Architectuur Digitale Overheid 2030&lt;/a> opgesteld die op hoofdlijnen beschrijft hoe de digitale overheid zich de komende jaren zou moeten doorontwikkelen. De Architectuur Digitale Overheid wordt nader uitgewerkt in vier domeinarchitecturen op het gebied van interactie, toegang, gegevensuitwisseling en infrastructuur.&lt;/p>&#xD;
 &lt;p>Gegevensuitwisseling is het domein dat gaat over het uitwisselen van gegevens tussen de informatiesystemen van overheidsorganisaties en met andere organisaties. Deze gegevens worden richting gebruikers ontsloten in de context van het domein interactie. De beveiligde toegang tot gegevens is onderdeel van het domein toegang. Domein infrastructuur ondersteunt de andere domeinen met infrastructurele voorzieningen, zowel software- als hardwarematig.&lt;/p>&#xD;
 &lt;p>Het uitwisselen van gegevens vindt op veel plaatsen en niveaus plaats. Het is een inherent onderdeel van wat organisaties doen. Het zou daarom een onderdeel van de cultuur, besturing en competenties van organisaties moeten zijn. In de praktijk blijkt dat organisaties er vaak onvoldoende aandacht aan geven, waardoor het uiteindelijk meer tijd en geld kost, onvoldoende aansluit bij behoeften van gebruikers en niet voldoet aan relevante wet- en regelgeving. Daarnaast zijn er allerlei ontwikkelingen die om aandacht vragen. Zo komt er nieuwe wet- en regelgeving vanuit Europa die aandacht vraagt en nemen de behoeften van gebruikers alleen maar toe. De Europese datastrategie stelt voor om gegevensruimtes in te richten die drempels moeten wegnemen voor het delen en hergebruiken van gegevens. De impact daarvan op overheidsorganisaties wordt steeds duidelijker, maar moet nog verder uitkristalliseren.&lt;/p>&#xD;
 &lt;h2>1.2 Dit document&lt;/h2>&#xD;
@@ -815,7 +815,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
     </folder>
     <folder name="Bedrijfsobjecten" id="id-9366b94c500a4a39bbd14241d7e0205a">
       <element xsi:type="archimate:BusinessObject" name="Begrip" id="id-153383edf7e242bebd14d1d5a0583d69">
-        <documentation>Een eenheid van denken - idee, betekenis of categorisering. (bron: Standaard voor het beschrijven van begrippen).</documentation>
+        <documentation>Een eenheid van denken die wordt uitgedrukt door een woord of een groep woorden en verwijst naar de betekenis die daaraan wordt gegeven.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Uitwisselafspraak" id="id-21a270de58fa4a5f8079569197429604">
         <documentation>Een afspraak tussen partijen over wie, wanneer, welke gegevens onder welke condities uitwisselt.</documentation>
@@ -1163,7 +1163,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="NEN 3610" id="id-0f85cbb16d5b48acbbe3cf7236dbdc2b" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>Het Basismodel geo-informatie (NEN3610) bevat de termen, definities, relaties en algemene regels voor de uitwisseling van informatie over ruimtelijke objecten.</documentation>
-        <property key="Status" value="Aanbevolen"/>
+        <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="Geonovum"/>
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
@@ -1200,14 +1200,14 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="NL WMS" id="id-35ec7c5a907d4d5889a0491d4776a503" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>Nederlands profiel WMS op ISO 19128 versie 1.1. WMS maakt het mogelijk om een rasterbeelden op te vragen.</documentation>
-        <property key="Status" value="Aanbevolen"/>
+        <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="Geonovum"/>
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
       </element>
       <element xsi:type="archimate:Constraint" name="GeoPackage" id="id-39b68135266a4b08be0c9bacacd8a5da" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>GeoPackage is een bestandsformaat voor het vastleggen van geografische gegevens.</documentation>
-        <property key="Status" value="Aanbevolen"/>
+        <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="OGC"/>
         <property key="URL" value="https://www.geopackage.org/"/>
@@ -1278,7 +1278,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="NL ISO 19119" id="id-6502e902a19e4f4987a1340c7fefb05a" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>Nederlands metadataprofiel op ISO 19119 services. Dit metadataprofiel beschrijft de verplichte metadata elementen van een service op een dataset of dataset serie. </documentation>
-        <property key="Status" value="Aanbevolen"/>
+        <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="Geonovum"/>
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
@@ -1388,7 +1388,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="GML" id="id-7f3f21e561764fe0bd54a826cb952254" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>De Geography Markup Language (GML) is een XML-gebaseerde vorm voor het uitdrukken van schema's voor geografische gegevens.</documentation>
-        <property key="Status" value="Aanbevolen"/>
+        <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="OGC"/>
         <property key="URL" value="https://www.ogc.org/standard/gml/"/>
@@ -1447,7 +1447,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="Geo-standaarden" id="id-a9426479d67d4614b26c009c8b5f8a5f" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>De Geo-standaarden maken het mogelijk om op een eenduidige manier gegevens met een geografische component uit te wisselen. Ze bestaan uit: NL ISO 19115, NL ISO 19119, NL WFS, NL WMS, ISO 19136:2007, NEN 3610:2011 en GeoPackage 1.2.</documentation>
-        <property key="Status" value="Aanbevolen"/>
+        <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="Geonovum"/>
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
@@ -1472,7 +1472,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="NL WFS" id="id-b7baf6f4703f48ed874cc7b905d81e60" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>Nederlands WFS profiel 1.1 op ISO 19142 voor Web Feature Services 2.0. Een WFS ondersteunt minimaal het opvragen van geo-informatie. Aanvullend biedt een WFS mogelijkheden om geo-informatie in de database direct te bewerken.</documentation>
-        <property key="Status" value="Aanbevolen"/>
+        <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="Geonovum"/>
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
@@ -1594,7 +1594,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="NL ISO 19115" id="id-e0903391f835401798f98afd39daea1a" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>Nederlands metadataprofiel op ISO 19115 geografie. Het Nederlandse metadataprofiel voor geografie beschrijft hoe je de metadata van geo-datasets opstelt.</documentation>
-        <property key="Status" value="Aanbevolen"/>
+        <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="Geonovum"/>
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
@@ -1795,7 +1795,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <property key="Is gerelateerd aan" value="gegeven"/>
       </element>
       <element xsi:type="archimate:Meaning" name="begrip" id="id-431b7e35b5b74fd49402a5559d35c23f">
-        <documentation>Een eenheid van denken - idee, betekenis of categorisering.</documentation>
+        <documentation>Een eenheid van denken die wordt uitgedrukt door een woord of een groep woorden en verwijst naar de betekenis die daaraan wordt gegeven.</documentation>
         <property key="Toelichting" value="De belangrijkste toepassing voor een begrippenkader is het ophalen van informatie, waarbij het doel is om naar begrippen te zoeken. Begrippen worden weergegeven door termen. Elke term in een thesaurus moet een enkel begrip (of denkeenheid) vertegenwoordigen. Begrippen kunnen variëren van eenvoudig (bijv. katten) tot zeer complex (bijv. rassendiscriminatie onder etnische minderheden). Samengestelde termen of zinsdelen zijn over het algemeen nodig om de meer complexe begrippen uit te drukken."/>
         <property key="Heeft bron" value="NL SBB"/>
         <property key="Is onderdeel van" value="begrippenkader"/>
