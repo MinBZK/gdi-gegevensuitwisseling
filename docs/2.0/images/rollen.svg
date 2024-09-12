@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="287mm"
+   height="101mm"
+   viewBox="0 0 287 101"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="rollen.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69219276"
+     inkscape:cx="396.56583"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="3206"
+     inkscape:window-y="1791"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-28.274863,-48.340645)"
+       id="g16">
+      <rect
+         x="121.5"
+         y="495.5"
+         width="193"
+         height="60"
+         stroke="#223f59"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect1" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(166.278,520)"
+         id="text1">Domein</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(258.778,520)"
+         id="text2">-</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(162.525,549)"
+         id="text3">regisseur</text>
+      <rect
+         x="555.5"
+         y="490.5"
+         width="192"
+         height="60"
+         stroke="#223f59"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect3" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(601.409,515)"
+         id="text4">Clearing</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(615.162,544)"
+         id="text5">house</text>
+      <path
+         d="M 0.5,-5.42337e-7 0.500004,4 h -1 L -0.5,5.42337e-7 Z M 0.500008,7 l 4e-6,4 h -1 l -4e-6,-4 z m 7e-6,7 4e-6,4 H -0.49998 l -5e-6,-4 z m 8e-6,7 4e-6,4 h -1 l -4e-6,-4 z m 7e-6,7 5e-6,4 h -1 l -5e-6,-4 z m 8e-6,7 4e-6,4 h -1 l -4e-6,-4 z m 8e-6,7 4e-6,4 h -1 l -4e-6,-4 z m 7e-6,7 4e-6,4 h -1 l -4e-6,-4 z m 8e-6,7 4e-6,4 h -1 l -4e-6,-4 z m 7e-6,7 5e-6,4 h -1 l -5e-6,-4 z m 8e-6,7 4e-6,4 h -1 l -4e-6,-4 z m 8e-6,7 4e-6,4 h -1 l -4e-6,-4 z m 7e-6,7 4e-6,4 h -1 l -4e-6,-4 z m 3.500009,4.7912 -3.999995013,8 -4.000004987,-8 z"
+         fill="#a6a6a6"
+         transform="matrix(-1,0,0,1,651.5,393.5)"
+         id="path5" />
+      <rect
+         x="987.5"
+         y="491.5"
+         width="192"
+         height="60"
+         stroke="#223f59"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect5" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(1021.4,516)"
+         id="text6">Toetsings</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(1133.82,516)"
+         id="text7">-</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(1019.86,545)"
+         id="text8">commissie</text>
+      <rect
+         x="121.5"
+         y="333.5"
+         width="193"
+         height="60"
+         stroke="#a6a6a6"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect8" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(147.608,373)"
+         id="text9">Bronhouder</text>
+      <rect
+         x="555.5"
+         y="333.5"
+         width="192"
+         height="60"
+         stroke="#a6a6a6"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect9" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(590.326,373)"
+         id="text10">Aanbieder</text>
+      <rect
+         x="987.5"
+         y="333.5"
+         width="192"
+         height="60"
+         stroke="#a6a6a6"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect10" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(1031.94,373)"
+         id="text11">Afnemer</text>
+      <path
+         d="m 314.5,363 h 233.454 v 1 H 314.5 Z m 232.121,-3.5 8,4 -8,4 z"
+         fill="#a6a6a6"
+         id="path11" />
+      <path
+         d="m 747.5,363 h 232.433 v 1 H 747.5 Z m 231.1,-3.5 8,4 -8,4 z"
+         fill="#a6a6a6"
+         id="path12" />
+      <rect
+         x="755.5"
+         y="196.5"
+         width="193"
+         height="60"
+         stroke="#a6a6a6"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect12" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(776.261,236)"
+         id="text12">Intermediair</text>
+      <path
+         d="m 651,334 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -2.5 c 0,-0.276 0.224,-0.5 0.5,-0.5 h 1.5 v 1 h -1.5 l 0.5,-0.5 v 2.5 z m 5,-3 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 1.554 v 1 H 747 Z m 0.22,-3.5 8,4 -8,4 z"
+         fill="#a6a6a6"
+         id="path13" />
+      <path
+         d="m 948.5,226 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 2.38 c 0.28,0 0.5,0.224 0.5,0.5 v 1.62 h -1 v -1.62 l 0.5,0.5 h -2.38 z m 2.88,5.12 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 3.5,3.88 -4,8 -4,-8 z"
+         fill="#a6a6a6"
+         id="path14" />
+      <path
+         d="M 0.189733,-0.462603 3.89056,1.05526 3.51109,1.98047 -0.189733,0.462603 Z M 6.66617,2.19366 10.367,3.71153 9.98753,4.63673 6.28671,3.11887 Z M 13.1426,4.84993 16.8434,6.36779 16.464,7.293 12.7631,5.77513 Z m 6.4764,2.65626 3.7009,1.51787 -0.3795,0.9252 -3.7008,-1.51786 z m 6.4765,2.65631 3.7008,1.5178 -0.3795,0.9252 -3.7008,-1.5178 z m 6.4764,2.6562 3.7009,1.5179 -0.3795,0.9252 -3.7008,-1.5179 z m 6.4765,2.6563 3.7008,1.5179 -0.3795,0.9252 -3.7008,-1.5179 z m 6.4764,2.6563 3.7008,1.5178 -0.3794,0.9252 -3.7009,-1.5178 z m 6.4764,2.6562 3.7009,1.5179 -0.3795,0.9252 -3.7008,-1.5179 z m 6.4765,2.6563 3.7008,1.5178 -0.3795,0.9253 -3.7008,-1.5179 z m 6.4764,2.6562 3.7008,1.5179 -0.3794,0.9252 -3.7008,-1.5178 z m 6.4765,2.6563 3.7008,1.5179 -0.3795,0.9252 -3.7008,-1.5179 z m 6.4764,2.6563 3.7008,1.5178 -0.3795,0.9253 -3.7008,-1.5179 z m 6.4764,2.6562 3.7009,1.5179 -0.3795,0.9252 -3.7008,-1.5179 z m 6.4765,2.6563 3.7008,1.5179 -0.3795,0.9252 -3.7008,-1.5179 z m 6.4764,2.6563 3.7007,1.5178 -0.379,0.9253 -3.7012,-1.5179 z m 6.4767,2.6562 3.701,1.5179 -0.38,0.9252 -3.701,-1.5179 z m 6.476,2.6563 3.701,1.5179 -0.379,0.9252 -3.701,-1.5179 z m 6.477,2.6563 3.7,1.5178 -0.379,0.9253 -3.701,-1.5179 z m 6.476,2.6562 3.701,1.5179 -0.38,0.9252 -3.7,-1.5179 z m 6.477,2.6563 3.7,1.5179 -0.379,0.9252 -3.701,-1.5179 z m 6.476,2.6563 3.701,1.5178 -0.38,0.9253 -3.701,-1.5179 z m 6.476,2.6562 3.701,1.5179 -0.379,0.9252 -3.701,-1.5178 z m 6.477,2.6563 3.701,1.5179 -0.38,0.9252 -3.701,-1.5179 z m 6.476,2.6563 3.701,1.5178 -0.379,0.9253 -3.701,-1.5179 z m 6.477,2.6562 3.701,1.5179 -0.38,0.9252 -3.701,-1.5179 z m 6.476,2.6563 3.701,1.5179 -0.38,0.9252 -3.7,-1.5179 z m 6.477,2.6563 3.7,1.5178 -0.379,0.9253 -3.701,-1.5179 z m 6.476,2.6562 3.701,1.5179 -0.38,0.9252 -3.7,-1.5178 z m 6.476,2.6563 3.701,1.5179 -0.379,0.9252 -3.701,-1.5179 z m 6.477,2.6563 3.701,1.5178 -0.38,0.9252 -3.701,-1.5178 z m 6.476,2.6562 3.701,1.5179 -0.379,0.9252 -3.701,-1.5179 z m 6.477,2.6563 3.701,1.5179 -0.38,0.9252 -3.701,-1.5179 z m 6.476,2.6563 3.701,1.5178 -0.379,0.9252 -3.701,-1.5178 z m 6.477,2.6562 3.7,1.5179 -0.379,0.9252 -3.701,-1.5179 z m 6.476,2.6563 3.701,1.5179 -0.38,0.9252 -3.7,-1.5179 z m 5.883,-1.3702 5.884,6.7366 -8.92,0.6651 z"
+         fill="#a6a6a6"
+         transform="matrix(-1,0,0,1,988.132,393.5)"
+         id="path15" />
+      <path
+         d="M 0.439276,-0.238824 2.34986,3.27538 1.47131,3.75303 -0.439276,0.238824 Z M 3.7828,5.91104 5.69339,9.42525 4.81484,9.90289 2.90425,6.38869 Z m 3.34353,6.14986 1.91059,3.5142 -0.87855,0.4777 -1.91059,-3.5143 z m 3.34357,6.1499 1.9106,3.5142 -0.8786,0.4776 -1.91059,-3.5142 z m 3.3435,6.1498 1.9106,3.5142 -0.8786,0.4777 -1.9106,-3.5142 z m 3.3435,6.1499 1.9106,3.5142 -0.8785,0.4776 -1.9106,-3.5142 z m 3.3436,6.1499 1.9105,3.5142 -0.8785,0.4776 -1.9106,-3.5142 z m 3.3435,6.1498 1.9106,3.5142 -0.8786,0.4777 -1.9106,-3.5142 z m 3.3435,6.1499 1.9106,3.5142 -0.8786,0.4776 -1.9105,-3.5142 z m 3.3435,6.1498 1.9106,3.5142 -0.8785,0.4777 -1.9106,-3.5142 z m 3.3436,6.1499 1.9106,3.5142 -0.8786,0.4777 -1.9106,-3.5142 z m 3.3435,6.1499 1.9106,3.5142 -0.8786,0.4776 -1.9106,-3.5142 z m 3.3435,6.1498 1.9106,3.5142 -0.8785,0.4777 -1.9106,-3.5142 z m 3.3435,6.1499 1.9106,3.5142 -0.8785,0.4776 -1.9106,-3.5142 z m 3.3436,6.1499 1.9106,3.5142 -0.8786,0.4776 -1.9106,-3.5142 z m 3.3435,6.1498 1.9106,3.5142 -0.8786,0.4777 -1.9106,-3.5142 z m 3.3435,6.1499 1.9106,3.514 -0.8785,0.478 -1.9106,-3.5144 z m 3.3436,6.15 1.9105,3.514 -0.8785,0.478 -1.9106,-3.515 z m 3.3435,6.15 1.9106,3.514 -0.8786,0.478 -1.9106,-3.515 z m 3.3435,6.15 1.9106,3.514 -0.8785,0.477 -1.9106,-3.514 z m 3.3435,6.149 1.9106,3.515 -0.8785,0.477 -1.9106,-3.514 z m 3.3436,6.15 1.9106,3.515 -0.8786,0.477 -1.9106,-3.514 z m 3.3435,6.15 1.9106,3.514 -0.8786,0.478 -1.9106,-3.514 z m 3.3435,6.15 1.9106,3.514 -0.8785,0.478 -1.9106,-3.514 z m 3.3436,6.15 1.9106,3.514 -0.8786,0.478 -1.9106,-3.514 z m 3.3435,6.15 1.9106,3.514 -0.8786,0.478 -1.9106,-3.515 z m 3.3435,6.15 1.9106,3.514 -0.8785,0.477 -1.9106,-3.514 z m 3.3436,6.149 1.9105,3.515 -0.8785,0.477 -1.9106,-3.514 z m 3.3435,6.15 1.9106,3.515 -0.8786,0.477 -1.9106,-3.514 z m 3.3435,6.15 1.9106,3.514 -0.8785,0.478 -1.9106,-3.514 z m 3.3434,6.15 1.911,3.514 -0.879,0.478 -1.9104,-3.514 z m 3.344,6.15 1.91,3.514 -0.878,0.478 -1.911,-3.514 z m 3.343,6.15 1.911,3.514 -0.879,0.478 -1.91,-3.515 z m 3.344,6.15 1.91,3.514 -0.878,0.478 -1.911,-3.515 z m 3.343,6.15 1.911,3.514 -0.879,0.477 -1.91,-3.514 z m 3.344,6.149 1.91,3.515 -0.878,0.477 -1.911,-3.514 z m 3.343,6.15 1.911,3.514 -0.879,0.478 -1.91,-3.514 z m 3.344,6.15 0.483,0.889 -0.878,0.478 -0.484,-0.889 z m 2.921,-1.954 0.307,8.939 -7.335,-5.118 z"
+         fill="#a6a6a6"
+         transform="matrix(-1,0,0,1,851.878,256.5)"
+         id="path16" />
+    </g>
+  </g>
+</svg>
