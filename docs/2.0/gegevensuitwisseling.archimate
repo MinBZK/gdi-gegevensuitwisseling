@@ -1159,7 +1159,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <documentation>De Nederlandse Standaard voor het Beschrijven van Begrippen (NL-SBB) geeft aan hoe begrippen in een begrippenlijst, taxonomie of thesaurus eenduidig worden beschreven. </documentation>
         <property key="Status" value="geen"/>
         <property key="Beheerorganisatie" value="Geonovum"/>
-        <property key="URL" value="https://profielstelselcatalogus.pldn.nl/"/>
+        <property key="URL" value="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/"/>
       </element>
       <element xsi:type="archimate:Constraint" name="NEN 3610" id="id-0f85cbb16d5b48acbbe3cf7236dbdc2b" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>Het Basismodel geo-informatie (NEN3610) bevat de termen, definities, relaties en algemene regels voor de uitwisseling van informatie over ruimtelijke objecten.</documentation>
