@@ -5,7 +5,7 @@
     documentation="De OGC API Tiles standaard ondersteunt het bevragen van geografische gegevens als tiles.">
   <properties
       key="Status"
-      value="geen"/>
+      value="Verplicht"/>
   <properties
       key="Beheerorganisatie"
       value="OGC"/>

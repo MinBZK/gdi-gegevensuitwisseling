@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beleid"
     id="id-0c8e568c55ab4ddc91ef581d337e57ff"
-    documentation="&lt;p>De domeinarchitectuur beschrijft een aantal belangrijke beleidsdocumenten die invloed hebben op gegevensuitwisseling. Overheidsorganisaties zouden zich bewust moeten zijn van dit beleid en dit mee moeten nemen in hun eigen beleidsvorming.&lt;/p>">
+    documentation="&lt;p>De domeinarchitectuur beschrijft een aantal belangrijke beleidsdocumenten die invloed hebben op gegevensuitwisseling. Overheidsorganisaties zouden zich bewust moeten zijn van dit beleid en van het feit dat dit directe invloed heeft op hun eigen beleidsvorming.&lt;/p>">
   <properties
       key="elementType"
       value="driverBeleid"/>

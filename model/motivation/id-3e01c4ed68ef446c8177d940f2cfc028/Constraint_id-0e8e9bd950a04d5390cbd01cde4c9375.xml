@@ -11,7 +11,7 @@
       value="Geonovum"/>
   <properties
       key="URL"
-      value="https://profielstelselcatalogus.pldn.nl/"/>
+      value="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/"/>
   <profiles
       href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
 </archimate:Constraint>
