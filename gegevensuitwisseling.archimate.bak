@@ -861,7 +861,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <documentation>Een verzameling gegevens die als geheel wordt verzonden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Gegevenskwaliteit" id="id-d663973596d447ae98a48793fe341f34">
-        <documentation>Een verzameling gegevens die is gepubliceerd of samengesteld door één enkele partij. (bron: DCAT 2.0)</documentation>
+        <documentation>De mate waarin een geheel van eigenschappen en kenmerken van één of meer gegevens voldoet aan eisen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Afleidingsregel" id="id-d896763cdeee448e953a2193561a728f">
         <documentation>Een regel die beschrijft hoe bepaalde soorten gegevens kunnen worden afgeleid uit andere soorten gegevens.</documentation>
