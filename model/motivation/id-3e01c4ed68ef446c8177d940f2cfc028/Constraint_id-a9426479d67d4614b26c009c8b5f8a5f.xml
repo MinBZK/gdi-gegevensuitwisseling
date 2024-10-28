@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Geo-standaarden"
     id="id-a9426479d67d4614b26c009c8b5f8a5f"
-    documentation="De Geo-standaarden maken het mogelijk om op een eenduidige manier gegevens met een geografische component uit te wisselen. Ze bestaan uit: NL ISO 19115, NL ISO 19119, NL WFS, NL WMS, ISO 19136:2007, NEN 3610:2011 en GeoPackage 1.2.">
+    documentation="De Geo-standaarden maken het mogelijk om op een eenduidige manier gegevens met een geografische component uit te wisselen. Ze bestaan uit: NL ISO 19115, NL ISO 19119, ISO 19136:2007, NEN 3610:2011 en GeoPackage 1.2. Sinds 19 september 204 zijn de NL WMS en NL WFS standaarden vervangen door de drie OGC standaarden OGC-API - Features - Part 1: Core, OGC-API – Features – Part 2: Coordinate Reference Systems by Reference en OGC-API – Tiles - Part 1: Core.">
   <properties
       key="Status"
       value="Verplicht"/>
