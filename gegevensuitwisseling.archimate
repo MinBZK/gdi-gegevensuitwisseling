@@ -110,7 +110,7 @@ Ook bij gebruik van het NL GOV Profile for CloudEvents is er ruimte voor betrokk
 </documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Beleid" id="id-0c8e568c55ab4ddc91ef581d337e57ff" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
-        <documentation>&lt;p>De domeinarchitectuur beschrijft een aantal belangrijke beleidsdocumenten die invloed hebben op gegevensuitwisseling. Overheidsorganisaties zouden zich bewust moeten zijn van dit beleid en dit mee moeten nemen in hun eigen beleidsvorming.&lt;/p></documentation>
+        <documentation>&lt;p>De domeinarchitectuur beschrijft een aantal belangrijke beleidsdocumenten die invloed hebben op gegevensuitwisseling. Overheidsorganisaties zouden zich bewust moeten zijn van dit beleid en van het feit dat dit directe invloed heeft op hun eigen beleidsvorming.&lt;/p></documentation>
         <property key="elementType" value="driverBeleid"/>
       </element>
       <element xsi:type="archimate:Representation" name="Gewenste situatie" id="id-18e78a7e0dbd4aedb6667e27b568a9b1" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
@@ -185,7 +185,7 @@ De koppelvlakstandaard REST API is nu specifiek gericht op RESTful API’s. Tege
 De Federated Service Connectivity (FSC) standaard is ontwikkeld in de context van het Common Ground programma voor gemeenten. Het standaardiseert de werking van tussenliggende componenten die het gebruik van API’s vereenvoudigen. De standaard wordt inmiddels ondersteund door verschillende leveranciers en is gepositioneerd als een brede standaard die door alle overheidsorganisaties kan worden gebruikt. Het is voorgesteld als onderdeel van het Digikoppeling profiel voor REST API’s, maar kan in bredere zin worden gebruikt voor gegevensuitwisseling tussen systemen over HTTP.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-De kern van de FSC standaard is dat het een vertrouwensnetwerk kan creëren tussen systemen door het creëren van contracten tussen partijen. De API's die worden aangeboden en de bijbehorende contracten worden geregistreerd in een directory, waarvan er meerdere kunnen zijn. In een directory kunnen API's worden gezocht en op basis daarvan kunnen ze worden aangroepen door systemen, waarbij het resulterende berichtenverkeer verloopt over tussenliggende FSC componenten. Er is een tussenliggend componenten bij het zendende systeem (outway) en een tussenliggend componenten bij het ontvangende systeem (inway). In deze componenten kan ook extra functionaliteit worden aangeroepen, zoals het loggen van de berichten. Hiervoor wordt een transactie-identificatie gegenereerd, die bij elkaar behorende berichten kan correleren. Daarnaast zijn er manager componenten die vooral verantwoordelijk zijn voor de contractafhandeling. Het is mogelijk om machtigingen tussen systemen toe te kennen. Hierdoor kan een systeem van een derde partij (bijvoorbeeld een SaaS leverancier) een machtiging ontvangen om namens een overheidsorganisatie gebruik te maken van een ander systeem. Dit voorkomt dat er sleutels van certificaten aan deze derde partij moeten worden verstrekt, wat vanuit beveiligingsperspectief onwenselijk is. &lt;/p>&#xD;
+De kern van de FSC standaard is dat het een vertrouwensnetwerk kan creëren tussen systemen door het creëren van contracten tussen partijen. De API's die worden aangeboden en de bijbehorende contracten worden geregistreerd in een directory, waarvan er meerdere kunnen zijn. In een directory kunnen API's worden gezocht en op basis daarvan kunnen ze worden aangroepen door systemen, waarbij het resulterende berichtenverkeer verloopt over tussenliggende FSC componenten. Er is een tussenliggend component bij het zendende systeem (outway) en een tussenliggend component bij het ontvangende systeem (inway). In deze componenten kan ook extra functionaliteit worden aangeroepen, zoals het loggen van de berichten. Hiervoor wordt een transactie-identificatie gegenereerd, die bij elkaar behorende berichten kan correleren. Daarnaast zijn er manager componenten die vooral verantwoordelijk zijn voor de contractafhandeling. Het is mogelijk om machtigingen tussen systemen toe te kennen. Hierdoor kan een systeem van een derde partij (bijvoorbeeld een SaaS leverancier) een machtiging ontvangen om namens een overheidsorganisatie gebruik te maken van een ander systeem. Dit voorkomt dat er sleutels van certificaten aan deze derde partij moeten worden verstrekt, wat vanuit beveiligingsperspectief onwenselijk is. &lt;/p>&#xD;
 &lt;p>&lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/images/fsc.jpg&quot; width=640>&lt;/p>&#xD;
 </documentation>
       </element>
@@ -476,7 +476,7 @@ Er zijn een aantal landelijke catalogi beschikbaar voor het publiceren van metag
       </element>
       <element xsi:type="archimate:Representation" name="Kernbegrippen" id="id-88bf1904f4f846abab067f16e454c4cc" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>Dit hoofdstuk is bedoeld om de belangrijkste terminologie zoals gebruikt in dit document te verduidelijken. Een is een samenvatting en meer toegankelijke beschrijving van informatie die ook aanwezig is in de begrippenlijst, het functiemodel, het bedrijfsobjectmodel en de rollen. Voor een meer uitgebreide lijst van begrippen wordt dan ook naar de bijlage verwezen.&lt;/p>&#xD;
-&lt;h2>Gegevens en informatie&lt;/h2>&#xD;
+&lt;h2>2.1 Gegevens en informatie&lt;/h2>&#xD;
 &lt;p>&#xD;
 Dit document gaat over de uitwisseling van &lt;b>gegevens&lt;/b>. Alhoewel de termen “gegevens” en “data” vaak als synoniem worden gebruikt, gebruiken we in dit document vooral de term “gegevens”. We leggen daarbij de nadruk op dat we vooral geïnteresseerd zijn in betekenisvolle eenheden en niet op de grondstof die eraan ten grondslag ligt. Vanuit dat perspectief zijn gegevens beweringen over objecten, zoals “Jan is geboren op 1 januari 1945”. Gegevens zijn daarmee het gevolg van &lt;b>feiten&lt;/b>; gebeurtenissen of omstandigheden waarvan de werkelijkheid vaststaat.&#xD;
 &lt;/p>&#xD;
@@ -498,12 +498,12 @@ Uiteindelijk moeten gegevens vooral waardevol zijn voor gebruikers. Deze hebben 
 &lt;p>&#xD;
 Rondom gegevens spelen allerlei &lt;b>regels&lt;/b> een rol. In de meest algemene zin van het woord zijn dat voorschriften. De belangrijkste soorten regels vanuit het perspectief van gegevensverwerking zijn beperkingsregels en afleidingsregels. &lt;b>Beperkingsregels&lt;/b> beschrijven binnen welke grenzen de gegevens zich mogen begeven, welke waarden ze mogen aannemen. Deze regels horen al in een gegevensmodel expliciet te zijn gemaakt. Dit soort regels worden ook gebruikt om de kwaliteit van gegevens mee te controleren. We noemen ze dan &lt;b>kwaliteitsregels&lt;/b>. De andere belangrijke categorie van regels zijn &lt;b>afleidingsregels&lt;/b>. Dat zijn regels die beschrijven hoe bepaalde soorten gegevens kunnen worden afgeleid uit andere soorten van gegevens. Dat is bijvoorbeeld nodig om informatieproducten te kunnen maken, of om vertalingen tussen gegevens uit te voeren.&#xD;
 &lt;/p>&#xD;
-&lt;h2>Rollen&lt;/h2>&#xD;
+&lt;h2>2.2 Rollen&lt;/h2>&#xD;
 &lt;p>&#xD;
 &lt;b>Bronhouders&lt;/b> zijn verantwoordelijk voor het inwinnen en beheren van gegevens. Onderdeel daarvan is het verbeteren van de kwaliteit van gegevens. Aan de andere kant zijn er &lt;b>afnemers&lt;/b> van gegevens. Dat zijn organisaties waar &lt;b>gebruikers&lt;/b> allerlei toepassingen en gebruik kennen van gegevens, waarbij toenemend allerlei vormen van data science en kunstmatige intelligentie worden toegepast. Om ervoor te zorgen dat gegevens kunnen worden uitgewisseld moeten ze worden aangeboden in een vorm die bruikbaar is voor afnemers. Dit is de rol van een &lt;b>aanbieder&lt;/b> (ook wel: verstrekker of leverancier) die hiervoor gegevensdiensten aanbiedt. &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Een partij die bronhouder is kan zelf ook aanbieder zijn of kan zich laten ontzorgen door een andere partij. Een voorbeeld van een aanbieder is Publieke Dienstverlening op de Kaart (PDOK), een dienst die wordt aangeboden door het Kadaster voor het ontsluiten van geografische gegevens. De rol van aanbieder is expliciet benoemd bij de basisregistraties (en wordt daar verstrekker genoemd). Zo zijn bijvoorbeeld gemeenten bronhouder van de basisregistratie personen (BRP), maar is de Rijksdienst voor Identiteitsgegevens de aanbieder van de gegevens, die hiervoor de landelijke voorziening bied. De BRP kent heel veel verschillende overheidsorganisaties als afnemers, inclusief gemeenten zelf. Een partij die bronhouder is kan ook de rol van afnemer hebben als er gegevens worden ingewonnen door andere partijen.&#xD;
+Een partij die bronhouder is kan zelf ook aanbieder zijn of kan zich laten ontzorgen door een andere partij. Een voorbeeld van een aanbieder Kadaster met de dienst Publieke Dienstverlening op de Kaart (PDOK) die is gericht op het ontsluiten van geografische gegevens. De rol van aanbieder is expliciet benoemd bij de basisregistraties (en wordt daar verstrekker genoemd). Zo zijn bijvoorbeeld gemeenten bronhouder van de basisregistratie personen (BRP), maar is de Rijksdienst voor Identiteitsgegevens de aanbieder van de gegevens, die hiervoor de landelijke voorziening bied. De BRP kent heel veel verschillende overheidsorganisaties als afnemers, inclusief gemeenten zelf. Een partij die bronhouder is kan ook de rol van afnemer hebben als er gegevens worden ingewonnen door andere partijen.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 Een &lt;b>intermediair&lt;/b> is een partij die in de keten tussen een aanbieder en een afnemer toegevoegde waarde kan leveren in de uitwisseling. Er zijn allerlei soorten intermediairs te onderkennen. Zo zijn er intermediairs die gespecialiseerd zijn in het samenbrengen, combineren en afleiden van verschillende soorten gegevens. Een voorbeeld van een dergelijke partij is het Inlichtingenbureau dat slimme dienstverlening biedt aan gemeenten op onderwerpen zoals werk- en bestaanszekerheid, onderwijs en belastingen. Er zijn ook intermediairs die vooral gericht zijn op het vertalen van gegevens. Een voorbeeld van een intermediair in deze categorie is stichting RINIS, die vooral technische vertalingen uitvoert. Er kunnen ook intermediairs zijn die zich specifiek richten op het ondersteunen van het abonneren op, en notificeren over gebeurtenissen. &#xD;
@@ -512,7 +512,7 @@ Een &lt;b>intermediair&lt;/b> is een partij die in de keten tussen een aanbieder
 In dit document spreken we in verband met leesbaarheid vaak over bronhouder, aanbieder, intermediair en afnemer alsof ze een organisatie zijn, maar daarmee bedoelen we een organisatie die een dergelijke rol heeft en die ook andere rollen kan hebben. Het moet per context worden bepaald welke rollen door welke organisaties worden ingevuld.&#xD;
 &lt;p>&#xD;
 &lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/images/basisrollen.svg&quot;>&lt;/center>&lt;/p>&#xD;
-&lt;h2>Functies&lt;/h2>&#xD;
+&lt;h2>2.3 Functies&lt;/h2>&#xD;
 &lt;p>&#xD;
 In deze domeinarchitectuur hebben we functies benoemd die in het algemeen relevant zijn voor gegevensuitwisseling. In deze paragraaf beschrijven we de hoofdfuncties, die activiteiten op organisatieniveau beschrijven (het zijn bedrijfsfuncties). Deze functies worden gebruikt om andere zaken op te plotten en aan te relateren. Figuur 2 geeft een overzicht van deze functies. In de bijlage zijn ook de meer gedetailleerde functies beschreven. &#xD;
 &lt;/p>&#xD;
@@ -750,7 +750,7 @@ Er is ook andere context die relevant is om toe te voegen aan feiten. Zo is het 
 &lt;p>Gegevensuitwisseling is het domein dat gaat over het uitwisselen van gegevens tussen de informatiesystemen van overheidsorganisaties en met andere organisaties. Deze gegevens worden richting gebruikers ontsloten in de context van het domein interactie. De beveiligde toegang tot gegevens is onderdeel van het domein toegang. Domein infrastructuur ondersteunt de andere domeinen met infrastructurele voorzieningen, zowel software- als hardwarematig.&lt;/p>&#xD;
 &lt;p>Het uitwisselen van gegevens vindt op veel plaatsen en niveaus plaats. Het is een inherent onderdeel van wat organisaties doen. Het zou daarom een onderdeel van de cultuur, besturing en competenties van organisaties moeten zijn. In de praktijk blijkt dat organisaties er vaak onvoldoende aandacht aan geven, waardoor het uiteindelijk meer tijd en geld kost, onvoldoende aansluit bij behoeften van gebruikers en niet voldoet aan relevante wet- en regelgeving. Daarnaast zijn er allerlei ontwikkelingen die om aandacht vragen. Zo komt er nieuwe wet- en regelgeving vanuit Europa die aandacht vraagt en nemen de behoeften van gebruikers alleen maar toe. De Europese datastrategie stelt voor om gegevensruimtes in te richten die drempels moeten wegnemen voor het delen en hergebruiken van gegevens. De impact daarvan op overheidsorganisaties wordt steeds duidelijker, maar moet nog verder uitkristalliseren.&lt;/p>&#xD;
 &lt;h2>1.2 Dit document&lt;/h2>&#xD;
-&lt;p>Dit document beschrijft de domeinarchitectuur voor gegevensuitwisseling, als onderdeel van de Generieke Digitale Infrastructuur. Het is opgesteld in een interbestuurlijke architectuurwerkgroep met vertegenwoordigers van verschillende overheidsorganisaties. Deze zijn ondersteund door bureau MIDO van het ministerie van BZK. Het beschrijft relevant beleid, wet- &amp; regelgeving en ontwikkelingen, en vertaalt deze naar een visie en richting voor de inrichting van gegevensuitwisseling bij overheidsorganisaties. De architectuur geeft richting aan ontwerpkeuzes die in programma's en projecten worden gemaakt. Het speelt een formele rol in de kaderstelling, toezicht en monitoring van programma's en projecten die gefinancierd worden vanuit de MIDO governancestructuur. Het document is vooral gericht op enterprise-, informatie- en data-architecten bij overheidsorganisaties.&lt;/p>&#xD;
+&lt;p>Dit document beschrijft de domeinarchitectuur voor gegevensuitwisseling, als onderdeel van de Generieke Digitale Infrastructuur. Het is opgesteld in een interbestuurlijke architectuurwerkgroep met vertegenwoordigers van verschillende overheidsorganisaties. Deze werkgroep is ondersteund door bureau MIDO van het ministerie van BZK. Het beschrijft relevant beleid, wet- &amp; regelgeving en ontwikkelingen, en vertaalt deze naar een visie en richting voor de inrichting van gegevensuitwisseling bij overheidsorganisaties. De architectuur geeft richting aan ontwerpkeuzes die in programma's en projecten worden gemaakt. Het speelt een formele rol in de kaderstelling, toezicht en monitoring van programma's en projecten die gefinancierd worden vanuit de MIDO governancestructuur. Het document is vooral gericht op enterprise-, informatie- en data-architecten bij overheidsorganisaties.&lt;/p>&#xD;
 &lt;p>Het document is een doorontwikkeling van een eerdere versie van de domeinarchitectuur, maar kent een bredere scope en een andere structuur en opzet. Gegevensuitwisseling is breder geïnterpreteerd dan alleen de technische uitwisseling; het is alles wat nodig is om ervoor te zorgen dat gegevens in een registratie beschikbaar zijn voor gebruik. Het omvat ook dat wat in andere contexten “delen”, &quot;verstrekken&quot; of “databeschikbaarheid” wordt genoemd. Het inwinnen, beheren, gebruiken en archiveren van gegevens is buiten scope omdat het geen aspecten zijn van uitwisseling. Tegelijkertijd is wel het onderwerp metagegevens onderdeel van de scope. De reden is dat metagegevens horen bij de gegevens die worden uitgewisseld en essentieel zijn voor een goede en betekenisvolle uitwisseling van gegevens. Daarmee zijn aspecten voor het creëren en publiceren van dit soort metagegevens wel meegenomen.&lt;/p>&#xD;
 &lt;p>Er is voor gekozen om de architectuur in de modelleertaal ArchiMate uit te werken en de details ervan alleen online beschikbaar te stellen. Dit document is daarmee een samenvatting en verwijzing naar details die online te vinden zijn. Het bevat dan ook allerlei links die toegang geven tot meer informatie. De architectuur wordt online ook doorontwikkeld en beheerd in &lt;a href=&quot;https://github.com/minbzk/gdi-gegevensuitwisseling&quot;>GitHub&lt;/a>, waardoor de meest actuele versie daar te vinden is. Daar zijn ook bestanden te vinden die direct kunnen worden ingelezen in het Open Source modelleertool Archi.&#xD;
 &lt;/p>&#xD;
@@ -783,7 +783,7 @@ Er is ook andere context die relevant is om toe te voegen aan feiten. Zo is het 
 &lt;/ul>&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado&quot;>Architectuur Digitale Overheid 2030&lt;/a> en de &lt;a href=&quot;https://www.noraonline.nl&quot;>NORA&lt;/a>. Hierdoor is deze domeinarchitectuur te beschouwen als een doorvertaling en concretisering van deze overkoepelende architecturen. Er is een specifieke bijlage in dit document waarin de relatie is gelegd tussen de architectuurprincipes in deze domeinarchitectuur en uitspraken in de Architectuur Digitale Overheid en NORA.&lt;/p>&#xD;
+Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado&quot;>Architectuur Digitale Overheid 2030&lt;/a> en de &lt;a href=&quot;https://www.noraonline.nl&quot;>NORA&lt;/a>. Hierdoor is deze domeinarchitectuur te beschouwen als een doorvertaling en concretisering van deze overkoepelende architecturen. Er is een specifieke bijlage in dit document waarin de relatie is gelegd tussen de architectuurprincipes in deze domeinarchitectuur en uitspraken in de Architectuur Digitale Overheid en NORA.&lt;/p>&#xD;
 &lt;h2>1.5 Relatie met andere initiatieven&lt;/h2>&#xD;
 &lt;p>Er zijn allerlei andere initiatieven die zijn gerelateerd aan gegevensuitwisseling. Het belangrijkste programma dat er op het moment van schrijven van dit document loopt is het programma Federatief Data Stelsel (FDS), als onderdeel van het programma Interbestuurlijke Data Strategie (IBDS). Er is regelmatig afgestemd met programma FDS om conflicten en overlap te voorkomen. De nadruk in programma FDS ligt op het op een verantwoorde wijze delen van gegevens tussen sectoren. De nadruk in deze architectuur ligt op het in meer algemene zin beschrijven van hoe met gegevensuitwisseling wordt omgegaan. De architectuur van het federatief datastelsel is een verdere concretisering van de domeinarchitectuur, waarin meer specifieke keuzes worden gemaakt.&lt;/p>&#xD;
 &lt;p>Andere belangrijke programma's die impact hebben op gegevensuitwisseling zijn het programma Regie op Gegevens, het  programma EDI-stelsel NL en het programma Single Digital Gateway (SDG). De eerste twee programma's hebben onderling een sterke relatie, omdat ze eigenlijk beiden aandacht geven aan de implementatie van de nieuwe eIDAS verordening en het gebruik van European Digital Identity Wallets. Er is afgestemd met deze programma's om dat wat hierover duidelijk is in de architectuur een plek te geven. Dat geldt ook voor het programma Single Digital Gateway, in het kader waarvan het Once Only Technical System (OOTS) wordt geïmplementeerd.&lt;/p> &#xD;
@@ -890,7 +890,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <documentation>Een rol die een onafhankelijk oordeel kan vellen over de wenselijkheid van het uitwisselen van gegevens vanuit het perspectief van privacy en ethiek.</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" name="Afnemer" id="id-7e1dd515c72c4cfebcc6c2e5120be767">
-        <documentation>Een rol die ervoor zorgt dat aangeboden gegevens beschikbaar zijn voor gebruik.</documentation>
+        <documentation>Een rol die gegevens afneemt en beschikbaar stelt aan gebruikers.</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" name="Gebruiker" id="id-ab9cfceafd9e49bebc65ba491c76da1d">
         <documentation>Een natuurlijk persoon die gegevens en/of functionaliteit gebruikt voor het uitvoeren van werkzaamheden.</documentation>
@@ -1159,7 +1159,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <documentation>De Nederlandse Standaard voor het Beschrijven van Begrippen (NL-SBB) geeft aan hoe begrippen in een begrippenlijst, taxonomie of thesaurus eenduidig worden beschreven. </documentation>
         <property key="Status" value="geen"/>
         <property key="Beheerorganisatie" value="Geonovum"/>
-        <property key="URL" value="https://profielstelselcatalogus.pldn.nl/"/>
+        <property key="URL" value="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/"/>
       </element>
       <element xsi:type="archimate:Constraint" name="NEN 3610" id="id-0f85cbb16d5b48acbbe3cf7236dbdc2b" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>Het Basismodel geo-informatie (NEN3610) bevat de termen, definities, relaties en algemene regels voor de uitwisseling van informatie over ruimtelijke objecten.</documentation>
@@ -1188,7 +1188,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="API Tiles" id="id-2d115da1a05846888c6609964638928d" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>De OGC API Tiles standaard ondersteunt het bevragen van geografische gegevens als tiles.</documentation>
-        <property key="Status" value="geen"/>
+        <property key="Status" value="Verplicht"/>
         <property key="Beheerorganisatie" value="OGC"/>
         <property key="URL" value="https://ogcapi.ogc.org/tiles/"/>
       </element>
@@ -1200,7 +1200,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="NL WMS" id="id-35ec7c5a907d4d5889a0491d4776a503" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>Nederlands profiel WMS op ISO 19128 versie 1.1. WMS maakt het mogelijk om een rasterbeelden op te vragen.</documentation>
-        <property key="Status" value="Verplicht"/>
+        <property key="Status" value="Aanbevolen"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="Geonovum"/>
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
@@ -1272,7 +1272,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="API Features" id="id-622179f0f5ab4f9fa6ac73b164c5be51" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>De OGC API features standaard is bedoeld voor het creëren, wijzigen en bevragen van geografische gegevens op het web.</documentation>
-        <property key="Status" value="geen"/>
+        <property key="Status" value="Verplicht"/>
         <property key="Beheerorganisatie" value="OGC"/>
         <property key="URL" value="https://ogcapi.ogc.org/features/"/>
       </element>
@@ -1446,7 +1446,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Mim"/>
       </element>
       <element xsi:type="archimate:Constraint" name="Geo-standaarden" id="id-a9426479d67d4614b26c009c8b5f8a5f" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
-        <documentation>De Geo-standaarden maken het mogelijk om op een eenduidige manier gegevens met een geografische component uit te wisselen. Ze bestaan uit: NL ISO 19115, NL ISO 19119, NL WFS, NL WMS, ISO 19136:2007, NEN 3610:2011 en GeoPackage 1.2.</documentation>
+        <documentation>De Geo-standaarden maken het mogelijk om op een eenduidige manier gegevens met een geografische component uit te wisselen. Ze bestaan uit: NL ISO 19115, NL ISO 19119, ISO 19136:2007, NEN 3610:2011 en GeoPackage 1.2. Sinds 19 september 204 zijn de NL WMS en NL WFS standaarden vervangen door de drie OGC standaarden OGC-API - Features - Part 1: Core, OGC-API – Features – Part 2: Coordinate Reference Systems by Reference en OGC-API – Tiles - Part 1: Core.</documentation>
         <property key="Status" value="Verplicht"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="Geonovum"/>
@@ -1472,7 +1472,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
       </element>
       <element xsi:type="archimate:Constraint" name="NL WFS" id="id-b7baf6f4703f48ed874cc7b905d81e60" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>Nederlands WFS profiel 1.1 op ISO 19142 voor Web Feature Services 2.0. Een WFS ondersteunt minimaal het opvragen van geo-informatie. Aanvullend biedt een WFS mogelijkheden om geo-informatie in de database direct te bewerken.</documentation>
-        <property key="Status" value="Verplicht"/>
+        <property key="Status" value="Aanbevolen"/>
         <property key="Functioneel toepassingsgebied" value="Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie tussen organisaties, waarbij de ruimtelijke dimensie van significant belang is."/>
         <property key="Beheerorganisatie" value="Geonovum"/>
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/Geo-standaarden"/>
@@ -1748,8 +1748,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <property key="Is gerelateerd aan" value="kwaliteitsdimensie"/>
       </element>
       <element xsi:type="archimate:Meaning" name="gegeven" id="id-0a1723fed84640eeb7e459a5f8da0389">
-        <documentation>Een vastgelegde waarneming of bewering over een getypeerde eigenschap van een object.&#xD;
-</documentation>
+        <documentation>Een vastgelegde waarneming of bewering over een getypeerde eigenschap van een object.</documentation>
         <property key="Redactionele notitie" value="Gebaseerd op de definitie in MIM 1.2, maar aangescherpt n.a.v. discussie in werkgroep conceptueel modelleren van de MIM community."/>
         <property key="Is exemplaar van" value="data element"/>
       </element>
@@ -2306,8 +2305,8 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
     <element xsi:type="archimate:AggregationRelationship" id="id-83add2029f0345e3a16f26041f6f4d14" source="id-a9426479d67d4614b26c009c8b5f8a5f" target="id-e0903391f835401798f98afd39daea1a"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-8cf405ba8744407aa1a2d3b4bc653852" source="id-7958166e52a74fffb2122281e06c48d1" target="id-d8486619cfed479eaa0f996e5af89ecf"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-93c5561d6a9d494c9acbfdada6c67af6" source="id-7958166e52a74fffb2122281e06c48d1" target="id-3d5e3c7b91dc412d9f110e7cbfca84aa"/>
-    <element xsi:type="archimate:AggregationRelationship" id="id-9a0d762f797644f4862abc513f98b1cc" source="id-a9426479d67d4614b26c009c8b5f8a5f" target="id-b7baf6f4703f48ed874cc7b905d81e60"/>
-    <element xsi:type="archimate:AggregationRelationship" id="id-a2b7b2d81dda49fd96fa8eff265fa34e" source="id-a9426479d67d4614b26c009c8b5f8a5f" target="id-35ec7c5a907d4d5889a0491d4776a503"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-9a0d762f797644f4862abc513f98b1cc" source="id-a9426479d67d4614b26c009c8b5f8a5f" target="id-622179f0f5ab4f9fa6ac73b164c5be51"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-a2b7b2d81dda49fd96fa8eff265fa34e" source="id-a9426479d67d4614b26c009c8b5f8a5f" target="id-2d115da1a05846888c6609964638928d"/>
     <element xsi:type="archimate:AggregationRelationship" name="groepeert" id="id-c0a09364b54245cca9e9935870069b1b" source="id-9aab67d0e4a045fda585d6550fd23f32" target="id-acfdb86ed00441229bc99318d30fc9fc"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-d9ccb09447ca462e80e7ecf6c6e065d3" source="id-7958166e52a74fffb2122281e06c48d1" target="id-bf22ed38d975422685a677577ebb57bf"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-eb01905fab104d98978cd908ff3837f1" source="id-7958166e52a74fffb2122281e06c48d1" target="id-0c5ff2bcee01490da929bce198ffa7e8"/>
@@ -3256,6 +3255,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <child xsi:type="archimate:DiagramObject" id="id-a39e57e671e44960a8ebad7fc43a0fbf" archimateElement="id-0da09931f8ac4b368c786703913087bf">
           <bounds x="804" y="-36" width="577" height="685"/>
           <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d04420fd6f5a4b2eb1d99e9d6e134e3e" source="id-a39e57e671e44960a8ebad7fc43a0fbf" target="id-ad4db344b68c49f58007973eefbed39f" archimateRelationship="id-01cc68defcb544b6afdb7ff5c2d6a3b5"/>
           <child xsi:type="archimate:Group" id="id-6f19fdcc5111481ca76166b4e19114cb" name="Protocollen" textAlignment="1" fillColor="#ffffb5">
             <bounds x="12" y="24" width="553" height="325"/>
             <child xsi:type="archimate:DiagramObject" id="id-682419481f0f40d7b322cb64cccc5afc" fillColor="#ffffff" textPosition="1" archimateElement="id-d8486619cfed479eaa0f996e5af89ecf">
@@ -3319,11 +3319,11 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
               <bounds x="12" y="228" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-0ef7f1aa696d452b8faeff58f2089b40" fillColor="#ffffff" textPosition="1" archimateElement="id-622179f0f5ab4f9fa6ac73b164c5be51">
+            <child xsi:type="archimate:DiagramObject" id="id-0ef7f1aa696d452b8faeff58f2089b40" targetConnections="id-9bc1c7a6a1e8482a8d2a04a6e5c9b7b8" fillColor="#ffffff" textPosition="1" archimateElement="id-622179f0f5ab4f9fa6ac73b164c5be51">
               <bounds x="372" y="36" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-74e3f106b78245d8a865e467444a3985" fillColor="#ffffff" textPosition="1" archimateElement="id-2d115da1a05846888c6609964638928d">
+            <child xsi:type="archimate:DiagramObject" id="id-74e3f106b78245d8a865e467444a3985" targetConnections="id-2e206bb117614415bc3bc3378d7e3634" fillColor="#ffffff" textPosition="1" archimateElement="id-2d115da1a05846888c6609964638928d">
               <bounds x="372" y="84" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
@@ -3346,7 +3346,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
               <bounds x="12" y="132" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-08e43ea8918940dbb446752b2b92d5d9" fillColor="#ffffff" textPosition="1" archimateElement="id-7f3f21e561764fe0bd54a826cb952254">
+            <child xsi:type="archimate:DiagramObject" id="id-08e43ea8918940dbb446752b2b92d5d9" targetConnections="id-e13e2eb5ae1e477f91e397ec7616d725" fillColor="#ffffff" textPosition="1" archimateElement="id-7f3f21e561764fe0bd54a826cb952254">
               <bounds x="192" y="36" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
@@ -3358,7 +3358,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
               <bounds x="12" y="180" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-8012235b93344f2280665cdfecc8d24b" fillColor="#ffffff" textPosition="1" archimateElement="id-39b68135266a4b08be0c9bacacd8a5da">
+            <child xsi:type="archimate:DiagramObject" id="id-8012235b93344f2280665cdfecc8d24b" targetConnections="id-7ac4d478d9fe4029b86e5311cd8be0d0" fillColor="#ffffff" textPosition="1" archimateElement="id-39b68135266a4b08be0c9bacacd8a5da">
               <bounds x="192" y="132" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
@@ -3442,6 +3442,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
         <child xsi:type="archimate:DiagramObject" id="id-20ed27128a6f42a0aca5c834a66c5fac" archimateElement="id-e8e0fadbd63b479d95144f268ac1d2af">
           <bounds x="12" y="-36" width="781" height="601"/>
           <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-bed688e253fb4243840f3d1da018676f" source="id-20ed27128a6f42a0aca5c834a66c5fac" target="id-ad4db344b68c49f58007973eefbed39f" archimateRelationship="id-920d6a532b084981901a64b952a7add9"/>
           <child xsi:type="archimate:Group" id="id-113b82041e6c4b14a65cf34f97b29f6a" name="Begrippen en bedrijfsregels" textAlignment="1" fillColor="#ffffb5">
             <bounds x="12" y="24" width="373" height="181"/>
             <child xsi:type="archimate:DiagramObject" id="id-b5af6ee53a424591ac59f52a0c03ec8e" fillColor="#ffffff" textPosition="1" archimateElement="id-d8f49707cd50464faed61c5d8ec11625">
@@ -3491,15 +3492,15 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
               <bounds x="12" y="321" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-5c87ba140171482b8af11b1baf8dc191" fillColor="#ffffff" textPosition="1" archimateElement="id-0f85cbb16d5b48acbbe3cf7236dbdc2b">
+            <child xsi:type="archimate:DiagramObject" id="id-5c87ba140171482b8af11b1baf8dc191" targetConnections="id-26fd09a9bc1649219b03e8a39de89da2" fillColor="#ffffff" textPosition="1" archimateElement="id-0f85cbb16d5b48acbbe3cf7236dbdc2b">
               <bounds x="192" y="33" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-f224d78944bb4592b68c76cc03a5bee3" fillColor="#ffffff" textPosition="1" archimateElement="id-39b68135266a4b08be0c9bacacd8a5da">
+            <child xsi:type="archimate:DiagramObject" id="id-f224d78944bb4592b68c76cc03a5bee3" targetConnections="id-ee1d491b43a1474aa1a37e92f9d9a703" fillColor="#ffffff" textPosition="1" archimateElement="id-39b68135266a4b08be0c9bacacd8a5da">
               <bounds x="192" y="81" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-7a59923da2644e28b833766070bb9ec6" fillColor="#ffffff" textPosition="1" archimateElement="id-7f3f21e561764fe0bd54a826cb952254">
+            <child xsi:type="archimate:DiagramObject" id="id-7a59923da2644e28b833766070bb9ec6" targetConnections="id-cb562e07c78f4cd6921c7a8e451b15ec" fillColor="#ffffff" textPosition="1" archimateElement="id-7f3f21e561764fe0bd54a826cb952254">
               <bounds x="192" y="129" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
@@ -3546,11 +3547,11 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
               <bounds x="12" y="36" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-56eb2b22682747319289bd4d027f5468" fillColor="#ffffff" textPosition="1" archimateElement="id-e0903391f835401798f98afd39daea1a">
+            <child xsi:type="archimate:DiagramObject" id="id-56eb2b22682747319289bd4d027f5468" targetConnections="id-ba39d108fe9e4ac7b5d8abec27f80ec0" fillColor="#ffffff" textPosition="1" archimateElement="id-e0903391f835401798f98afd39daea1a">
               <bounds x="12" y="84" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-681a8dfb8e03438ba8bf14df6113269c" fillColor="#ffffff" textPosition="1" archimateElement="id-6502e902a19e4f4987a1340c7fefb05a">
+            <child xsi:type="archimate:DiagramObject" id="id-681a8dfb8e03438ba8bf14df6113269c" targetConnections="id-10cd88eaaa4d409493e44390f7331ab0" fillColor="#ffffff" textPosition="1" archimateElement="id-6502e902a19e4f4987a1340c7fefb05a">
               <bounds x="192" y="180" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
@@ -3636,6 +3637,18 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
               <feature name="iconVisible" value="2"/>
             </child>
           </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ad4db344b68c49f58007973eefbed39f" targetConnections="id-bed688e253fb4243840f3d1da018676f id-d04420fd6f5a4b2eb1d99e9d6e134e3e" archimateElement="id-a9426479d67d4614b26c009c8b5f8a5f">
+          <bounds x="927" y="724" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ba39d108fe9e4ac7b5d8abec27f80ec0" source="id-ad4db344b68c49f58007973eefbed39f" target="id-56eb2b22682747319289bd4d027f5468" archimateRelationship="id-83add2029f0345e3a16f26041f6f4d14"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-e13e2eb5ae1e477f91e397ec7616d725" source="id-ad4db344b68c49f58007973eefbed39f" target="id-08e43ea8918940dbb446752b2b92d5d9" archimateRelationship="id-6e66a0ae9f1543ceb8665612ae3f36b4"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-cb562e07c78f4cd6921c7a8e451b15ec" source="id-ad4db344b68c49f58007973eefbed39f" target="id-7a59923da2644e28b833766070bb9ec6" archimateRelationship="id-6e66a0ae9f1543ceb8665612ae3f36b4"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-10cd88eaaa4d409493e44390f7331ab0" source="id-ad4db344b68c49f58007973eefbed39f" target="id-681a8dfb8e03438ba8bf14df6113269c" archimateRelationship="id-32066a8d30be4f81908902d5c1b80eb4"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-7ac4d478d9fe4029b86e5311cd8be0d0" source="id-ad4db344b68c49f58007973eefbed39f" target="id-8012235b93344f2280665cdfecc8d24b" archimateRelationship="id-6de96c7cfbc3483fb659379c7e39762e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ee1d491b43a1474aa1a37e92f9d9a703" source="id-ad4db344b68c49f58007973eefbed39f" target="id-f224d78944bb4592b68c76cc03a5bee3" archimateRelationship="id-6de96c7cfbc3483fb659379c7e39762e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-26fd09a9bc1649219b03e8a39de89da2" source="id-ad4db344b68c49f58007973eefbed39f" target="id-5c87ba140171482b8af11b1baf8dc191" archimateRelationship="id-0e8c70128ebf408abccde16aa65ec35a"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9bc1c7a6a1e8482a8d2a04a6e5c9b7b8" source="id-ad4db344b68c49f58007973eefbed39f" target="id-0ef7f1aa696d452b8faeff58f2089b40" archimateRelationship="id-9a0d762f797644f4862abc513f98b1cc"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2e206bb117614415bc3bc3378d7e3634" source="id-ad4db344b68c49f58007973eefbed39f" target="id-74e3f106b78245d8a865e467444a3985" archimateRelationship="id-a2b7b2d81dda49fd96fa8eff265fa34e"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Architectuurprincipes gerelateerd aan wetgeving" id="id-6b7bc157855642cea6dce7d3dc7e12bf">
@@ -5953,6 +5966,7 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
           <sourceConnection xsi:type="archimate:Connection" id="id-6c9e9ab8bb064b108ac6ae85ef659ece" source="id-aa93f16774d24e25be7c921a653e5459" target="id-c7ddfa1ac3904f809d6ff96e0dac9ef3" archimateRelationship="id-e5e1d373a5e7469fa9e884845da57761"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-17a5c537bb5d4d4cbf31b9411c279e51" source="id-aa93f16774d24e25be7c921a653e5459" target="id-2561bae4d19242bdb86cace73d6d8c98" archimateRelationship="id-10741bfeda2e40ab98e4184688f5e8a1"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-17f700adb3ee4164ad75789ab1d22b5c" source="id-aa93f16774d24e25be7c921a653e5459" target="id-303fb45628aa4e8294ae973ccb3f79fb" archimateRelationship="id-0fcc64688809413b8e2d805a71ca9fe4"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9f7b35a2819e411894743cf0c42008b5" source="id-aa93f16774d24e25be7c921a653e5459" target="id-220779d99529406088e823b87b9db259" archimateRelationship="id-c4cd0e4df4fb41d5b297a9e096b51438"/>
           <child xsi:type="archimate:DiagramObject" id="id-2561bae4d19242bdb86cace73d6d8c98" targetConnections="id-17a5c537bb5d4d4cbf31b9411c279e51 id-32c4f8174674458090c1c759886132d0" fillColor="#ffffff" textPosition="1" archimateElement="id-dd3a04e932584febb455690d934653c0">
             <bounds x="12" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
@@ -5983,6 +5997,10 @@ Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https:
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-303fb45628aa4e8294ae973ccb3f79fb" targetConnections="id-ae1be59d3fa24561a19eeed6e862a353 id-17f700adb3ee4164ad75789ab1d22b5c id-335874d1f1da4ae28d290e0480161e17" fillColor="#ffffff" textPosition="1" archimateElement="id-4a160e64388c4d53b0b4ec7340fdd42a">
             <bounds x="12" y="216" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-220779d99529406088e823b87b9db259" targetConnections="id-9f7b35a2819e411894743cf0c42008b5" fillColor="#ffffff" textPosition="1" archimateElement="id-a628d157f3234731abd92e55d1852909">
+            <bounds x="12" y="516" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
