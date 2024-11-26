@@ -1,0 +1,7 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tussenkanaal component"
+    id="id-fa5f1d1b9fcb412dbc0e22d383228b4c">
+  <profiles
+      href="folder.xml#id-3fede1bbcb0941648a2c8a077a594cb1"/>
+</archimate:ApplicationComponent>

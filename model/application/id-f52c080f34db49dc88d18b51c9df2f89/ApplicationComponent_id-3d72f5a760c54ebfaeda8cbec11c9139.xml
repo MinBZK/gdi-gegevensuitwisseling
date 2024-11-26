@@ -1,0 +1,7 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Toestemmings component"
+    id="id-3d72f5a760c54ebfaeda8cbec11c9139">
+  <profiles
+      href="folder.xml#id-3fede1bbcb0941648a2c8a077a594cb1"/>
+</archimate:ApplicationComponent>

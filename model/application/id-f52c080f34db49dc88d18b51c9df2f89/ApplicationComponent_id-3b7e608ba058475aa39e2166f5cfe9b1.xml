@@ -1,0 +1,7 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Preview component"
+    id="id-3b7e608ba058475aa39e2166f5cfe9b1">
+  <profiles
+      href="folder.xml#id-3fede1bbcb0941648a2c8a077a594cb1"/>
+</archimate:ApplicationComponent>

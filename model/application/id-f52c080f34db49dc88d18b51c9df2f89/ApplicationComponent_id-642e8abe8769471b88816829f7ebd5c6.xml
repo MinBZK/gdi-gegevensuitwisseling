@@ -1,0 +1,7 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FSC componenten"
+    id="id-642e8abe8769471b88816829f7ebd5c6">
+  <profiles
+      href="folder.xml#id-3fede1bbcb0941648a2c8a077a594cb1"/>
+</archimate:ApplicationComponent>

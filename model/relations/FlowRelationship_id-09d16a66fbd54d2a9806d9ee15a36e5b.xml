@@ -1,0 +1,13 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="gestandaardiseerde gegevens"
+    id="id-09d16a66fbd54d2a9806d9ee15a36e5b"
+    documentation="HTTP API met FSC, PKIoverheid&#xD;&#xA;eisen stellen aan metagegevens">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_id-b3c2d26759f74122bea52f234b07e6d4.xml#id-b3c2d26759f74122bea52f234b07e6d4"/>
+  <target
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_id-1aa97f1cec4b46b488a2817e072295eb.xml#id-1aa97f1cec4b46b488a2817e072295eb"/>
+</archimate:FlowRelationship>
