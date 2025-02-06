@@ -43,6 +43,7 @@ var elementTypeMappings = {
     "business-object":"Bedrijfsobject",
 	"business-role":"Rol",
 	"business-actor":"Actor",
+	"business-service": "Dienst",
     "assessment":"knelpunt",
     "application-componentHuidige voorziening":"Huidige voorziening",
     "application-componentGewenste voorziening":"Gewenste voorziening",
@@ -56,6 +57,7 @@ var elementTypeMappings = {
 	"constraint":"Beperking",
     "constraintStandaard":"Standaard",
 	"outcome":"Uitkomst",
+	"goal":"Doelstelling",
     "driverWetgeving":"Wet- en regelgeving",
 	"meaning": "Begrip",
     "grouping": "Groep",
@@ -73,6 +75,7 @@ var elementTypePluralMappings = {
     "business-object":"bedrijfsobjecten",
 	"business-role":"rollen",
 	"business-actor":"actoren",
+	"business-service": "diensten",
     "assessment":"knelpunten",
     "application-componentHuidige voorziening":"huidige voorzieningen",
     "application-componentGewenste voorziening":"gewenste voorzieningen",
@@ -85,7 +88,8 @@ var elementTypePluralMappings = {
 	"principle":"principes",
 	"constraint":"beperkingen",
 	"constraintStandaard":"standaarden",
-	"outcome":"Uitkomst",
+	"outcome":"uitkomsten",
+	"goal":"doelstellingen",
 	"driverWetgeving":"wetten",
 	"meaning":"begrippen",
 	"grouping": "groepen",
@@ -96,7 +100,7 @@ var elementTypePluralMappings = {
 	"representationBrondocument": "brondocumenten"
 }
 
-var elementTypes = ["capability", "value-stream", "business-function", "business-object", "business-role", "business-actor", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "application-function", "productHuidige GDI-bouwsteen", "productGewenste GDI-bouwsteen", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraint", "constraintStandaard", "outcome", "driverWetgeving", "meaning", "grouping", "plateau", "work-package", "representationTekst", "representationDocument", "representationBrondocument"];
+var elementTypes = ["capability", "value-stream", "business-function", "business-object", "business-role", "business-actor", "business-service", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "application-function", "productHuidige GDI-bouwsteen", "productGewenste GDI-bouwsteen", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraint", "constraintStandaard", "outcome", "goal", "driverWetgeving", "meaning", "grouping", "plateau", "work-package", "representationTekst", "representationDocument", "representationBrondocument"];
 
 var dirPath = window.promptOpenDirectory({ title: "Kies output directory"});
 
