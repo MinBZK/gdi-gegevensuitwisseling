@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="241mm"
+   height="60mm"
+   viewBox="0 0 241 60"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="basisrollen.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69219276"
+     inkscape:cx="396.56583"
+     inkscape:cy="399.4552"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="3206"
+     inkscape:window-y="1791"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-46.586226,-66.536069)"
+       id="g6">
+      <rect
+         x="189.5"
+         y="402.5"
+         width="193"
+         height="60"
+         stroke="#223f59"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect1" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(215.254,442)"
+         id="text1">Bronhouder</text>
+      <rect
+         x="534.5"
+         y="402.5"
+         width="193"
+         height="60"
+         stroke="#223f59"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect2" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(570.142,442)"
+         id="text2">Aanbieder</text>
+      <rect
+         x="880.5"
+         y="402.5"
+         width="192"
+         height="60"
+         stroke="#223f59"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect3" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(924.946,442)"
+         id="text3">Afnemer</text>
+      <path
+         d="m 382.5,432 h 145.625 v 1 H 382.5 Z m 144.291,-3.5 8,4 -8,4 z"
+         id="path3" />
+      <path
+         d="m 727.5,432 h 145.625 v 1 H 727.5 Z m 144.291,-3.5 8,4 -8,4 z"
+         id="path4" />
+      <rect
+         x="707.5"
+         y="265.5"
+         width="193"
+         height="60"
+         stroke="#223f59"
+         stroke-width="2.66667"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect4" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(728.502,304)"
+         id="text4">Intermediair</text>
+      <path
+         d="m 631,403 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -4 h 1 v 4 z m 0,-7 v -2.5 c 0,-0.276 0.224,-0.5 0.5,-0.5 h 1.5 v 1 h -1.5 l 0.5,-0.5 v 2.5 z m 5,-3 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 1.979 v 1 H 699 Z m 0.646,-3.5 8,4 -8,4 z"
+         id="path5" />
+      <path
+         d="m 900.5,295 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 7,0 h 4 v 1 h -4 z m 6.646,1.354 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 4 h -1 v -4 z m 0,7 v 1.979 h -1 v -1.979 z m 3.5,0.646 -4,8 -4,-8 z"
+         id="path6" />
+    </g>
+  </g>
+</svg>

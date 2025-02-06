@@ -56,6 +56,11 @@
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/digikoppeling"/>
       </element>
     </folder>
+    <folder name="OOTS-EDI" id="id-70a279a21db74629a6d4da00a7d9ed45">
+      <element xsi:type="archimate:BusinessRole" name="Tussenkanaal leverancier" id="id-1aa97f1cec4b46b488a2817e072295eb"/>
+      <element xsi:type="archimate:BusinessRole" name="OOTS verstrekker" id="id-6684cbc3805c412faf854b8f8dfc774f"/>
+      <element xsi:type="archimate:BusinessRole" name="Pub EAA verstrekker" id="id-b3776aa7bb4c4c8e828fdcc5b8221237"/>
+    </folder>
     <folder name="Teksten" id="id-7836becd6f33424a983b4eb7df958d98">
       <element xsi:type="archimate:Representation" name="Begrippen" id="id-021ce092aa7a46f6af9b8c068cf8b7d2" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
         <documentation>&lt;p>Deze begrippenlijst bevat een beschrijving van de belangrijkste begrippen zoals gehanteerd in de domeinarchitectuur. Het neemt een voorschot op de nieuwe set van begrippen zoals deze worden gedefinieerd in de NORA begrippenlijst. Die begrippenlijst is echter nog in ontwikkeling en kan nog wijzigen. De intentie is om in de toekomst vooral te verwijzen naar de nieuwe NORA begrippenlijst zodra deze beschikbaar is.&lt;/p></documentation>
@@ -458,7 +463,7 @@ Het uitwisselpatroon dat OOTS ondersteunt is eigenlijk een algemener patroon, da
 &lt;p>Er ontstaan ook nieuwe interactiepatronen om op een andere manier met privacy om te gaan. Er zijn allerlei Privacy Enhancing Technologies (PET's) die hiervoor mechanismen bieden. Het &lt;a href=&quot;https://nicpet.pleio.nl/&quot;>Nationaal innovatiecentrum voor PET's (Nicpet)&lt;/a> is een goede bron voor informatie en advies. Een voorbeeld van een PET is Multi Party Computation (MPC).  Dit is een cryptografische techniek die partijen in staat stelt gezamenlijke berekeningen uit te voeren op gedeelde gegevens, zonder deze daadwerkelijk te onthullen. Het creëert een veilige omgeving waarin partijen gezamenlijke berekeningen kunnen uitvoeren zonder de onderliggende gegevens met elkaar te delen. De techniek versleutelt lokaal de gegevens van de partijen en deelt de versleutelde gegevens over verschillende partijen. Berekeningen worden lokaal bij de partijen zelf uitgevoerd op deze versleutelde gegevens, en alleen het eindresultaat wordt met alle partijen gedeeld. Dit waarborgt zowel de privacy van de individuele partijen als de vertrouwelijkheid van de gegevens.&lt;/p>&#xD;
 &lt;h2>De rol van metagegevens in gegevensuitwisseling&lt;/h2>&#xD;
 &lt;p>&#xD;
-Gegevensuitwisseling kan alleen werken als er ook metagegevens zijn die bepalen wat de gegevens betekenen, hoe met hun uitwisseling wordt omgegaan en wat daarvoor de wettelijke grondslag is. Metagegevens zijn een belangrijke basis onder de &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-a3ff1bdac53d4cf28526f9f3f360ffcf.html&quot;>FAIR-principes&lt;/a>. Door datasets en gegevensdiensten te publiceren in relevante catalogi zijn ze vindbaar. Door in de metagegevens te verwijzen naar &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-108681ef00724a4ba689f412dd9ba257.html&quot;>begrippen&lt;/a>, informatie- en gegevensmodellen worden gegevens meer interoperabel. Door het opnemen van metagegevens over de beperkingen, rechten en plichten die van toepassing zijn worden de gegevens ook beter herbruikbaar. Belangrijk is dat metagegevens &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-1786a7952d0e4aa9882e7416ba13c3d7.html&quot;>begrijpelijk zijn verwoord zodat ze eenvoudig kunnen worden begrepen&lt;/a>. Ook in de uitwisseling zelf spelen metagegevens een belangrijke rol. Ze kunnen aangeven waar gegevens vandaan komen, hoe ze zijn ontstaan en wanneer ze zijn uitgewisseld. Hierdoor zorgen metagegevens ook voor herleidbaarheid en geloofwaardigheid van gegevens.&lt;/p>&#xD;
+Gegevensuitwisseling kan alleen werken als er ook metagegevens zijn die bepalen wat de gegevens betekenen en hoe met hun uitwisseling wordt omgegaan. Metagegevens zijn een belangrijke basis onder de &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-a3ff1bdac53d4cf28526f9f3f360ffcf.html&quot;>FAIR-principes&lt;/a>. Door datasets en gegevensdiensten te publiceren in relevante catalogi zijn ze vindbaar. Door in de metagegevens te verwijzen naar &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-108681ef00724a4ba689f412dd9ba257.html&quot;>begrippen&lt;/a>, informatie- en gegevensmodellen worden gegevens meer interoperabel. Door het opnemen van metagegevens over de beperkingen, rechten en plichten die van toepassing zijn worden de gegevens ook beter herbruikbaar. Belangrijk is dat metagegevens &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-1786a7952d0e4aa9882e7416ba13c3d7.html&quot;>begrijpelijk zijn verwoord zodat ze eenvoudig kunnen worden begrepen&lt;/a>. Ook in de uitwisseling zelf spelen metagegevens een belangrijke rol. Ze kunnen aangeven waar gegevens vandaan komen, hoe ze zijn ontstaan en wanneer ze zijn uitgewisseld. Hierdoor zorgen metagegevens ook voor herleidbaarheid en geloofwaardigheid van gegevens.&lt;/p>&#xD;
 &lt;p>&#xD;
 Begrippen, informatie- en gegevensmodellen zijn zelf ook een vorm van metagegevens. Ze beschrijven de betekenis en structuur van de gegevens. Begrippen zijn daarbij het &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-108681ef00724a4ba689f412dd9ba257.html&quot;>startpunt voor gemeenschappelijke begripsvorming&lt;/a>. Zij zijn deels expliciet of impliciet aanwezig in wet- en regelgeving, waardoor ze een formele status hebben. Door informatie- en gegevensmodellen te &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/content/elements/id-ed8bb4317e15400a813ffc816f0823cb.html&quot;>verbinden&lt;/a> aan deze begrippen wordt hun betekenis duidelijker. Als ook verbindingen worden gelegd vanuit gegevensmodellen naar schema's en uiteindelijk ook naar de individuele gegevens zelf is deze betekenis in de gehele keten geborgd. Het wordt dan ook mogelijk voor een eindgebruiker om de betekenis van een individueel gegeven op zijn scherm, in een rapportage of dashboard op te vragen. Als er daarnaast ook metagegevens over de herkomst van gegevens beschikbaar zijn, dan kan een eindgebruiker ook direct zien hoe de gegevens tot stand zijn gekomen: op basis van welke bronnen en welke regels.&#xD;
 &lt;/p>&#xD;
@@ -538,7 +543,8 @@ Het is door organisaties zelf te bepalen aan welke partijen en afdelingen zij de
 </documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Standaarden" id="id-90484cc165104305a237032f84407803" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
-        <documentation>&lt;p>In de domeinarchitectuur is een lijst van standaarden opgenomen die relevant zijn in het kader van gegevensuitwisseling. De basis voor deze lijst zijn de lijsten van Forum Standaardisatie. We hebben ervoor gekozen om alleen de generieke standaarden op te nemen en niet de toepassingspecifieke standaarden. Deze standaarden zijn aangevuld met andere standaarden die breder worden gebruikt of relevant zijn. Deze aanvullende standaarden zijn te beschouwen als aanbeveling vanuit deze architectuur. De aanbeveling is vooral om deze standaarden te bestuderen en hun inzet te overwegen bij het inrichten of aanpassen van toegangsinfrastructuren. De standaarden zijn voorzien van een aantal standaard eigenschappen zoals de beheerorganisatie en een URL naar meer informatie. Ze zijn ook gekoppeld aan functies en bedrijfsobjecten zodat hun toepassingsgebied duidelijk is. Bij de standaarden van Forum Standaardisatie zijn ook de status en het functioneel toepassingsgebied overgenomen.&lt;/p></documentation>
+        <documentation>&lt;p>In de domeinarchitectuur is een lijst van standaarden opgenomen die relevant zijn in het kader van gegevensuitwisseling. De basis voor deze lijst zijn de lijsten van Forum Standaardisatie. We hebben ervoor gekozen om alleen de generieke standaarden op te nemen en niet de toepassingsspecifieke standaarden. Deze standaarden zijn aangevuld met andere standaarden die we aanbevelen. We bevelen daarmee vooral aan om deze standaarden te bestuderen en hun inzet te overwegen bij het inrichten of aanpassen van gegevensuitwisseling. Het belangrijkste criterium voor het opnemen van deze standaarden is dat ze een belangrijke meerwaarde bieden t.o.v. andere standaarden.&lt;/p>&#xD;
+&lt;p>De standaarden zijn voorzien van een aantal standaard eigenschappen zoals de beheerorganisatie en een URL naar meer informatie. Ze zijn ook gekoppeld aan functies en bedrijfsobjecten zodat hun toepassingsgebied duidelijk is. Bij de standaarden van Forum Standaardisatie zijn ook de status en het functioneel toepassingsgebied overgenomen.&lt;/p></documentation>
         <property key="elementType" value="constraintStandaard"/>
       </element>
       <element xsi:type="archimate:Representation" name="Betrokkenen" id="id-91d34b07a4114b9d8d8bb4689231fc3d" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
@@ -608,7 +614,7 @@ De volgende figuur geeft een overzicht van de architectuurprincipes en hun relat
         <documentation>&lt;p>In dit deel van de architectuur wordt een verdieping gegeven aan het thema metagegevens. Het start met een korte inleiding van het onderwerp en een overzicht van de belangrijkste objecten en de standaarden die daarbij van toepassing zijn. Vervolgens gaat het dieper in op specifieke vormen van metagegevens die extra aandacht vragen in de context van gegevensuitwisseling: modellen, metagegevens over gegevenskwaliteit, voorwaarden,  overeenkomsten en de herkomst van gegevens.&lt;/p>&#xD;
 &lt;h3>Inleiding&lt;/h3>&#xD;
 &lt;p>Metagegevens zijn gegevens over gegevens en helpen je om bepaalde aspecten van de gegevens beter te begrijpen. Praktisch gezien kun je metagegevens zien als bijsluiter bij gegevens. Het onderscheid tussen gegevens en metagegevens is niet altijd zwart-wit; het is afhankelijk van de context en de rol die de gegevens spelen. Zo kunnen bijvoorbeeld gegevens over een persoon gebruikt worden om aan te geven wie de auteur is van een informatie-object en daarmee worden ze metagegevens. Er zijn allerlei vormen van metagegevens. De DAMA Data Management Body of Knowlegde (DMBoK) maakt onderscheid tussen business metagegevens, technische metagegevens en operationele metagegevens. Business metagegevens zijn bijvoorbeeld begrippen, bedrijfsregels, informatie- en gegevensmodellen, kwaliteitsregels, datasetdefinities en gegevens over de herkomst van gegevens. Technische metagegevens zijn bijvoorbeeld technische gegevensmodellen, gegevens over databases, bestandsformaten en ETL scripts. Operationele metagegevens zijn bijvoorbeeld audit- en errorlogs, omvang- en gebruiksgegevens en uitwisselafspraken. Dit onderscheid wordt vooral gebruikt in de context van gestructureerde gegevens.  In de context van archivering wordt ook wel het onderscheid gemaakt tussen beschrijvende metagegevens, structurele metagegevens en administratieve metagegevens. Er is eerder door een NORA werkgroep een &lt;a href=&quot;https://www.noraonline.nl/wiki/Visie_metadatamanagement&quot;>visie op metagegevens&lt;/a> opgesteld waarin meer algemene informatie over het onderwerp te lezen is. Onderdeel daarvan is ook een volwassenheidsmodel voor het omgaan met metagegevens.&lt;/p>&#xD;
-&lt;p>In de context van gegevensuitwisseling is vooral interessant welke metagegevens worden uitgewisseld met andere organisaties. Daarbij spelen standaarden een cruciale rol. Ze zorgen ervoor dat afnemers eenvoudiger kunnen begrijpen welke gegevens het betreft. Er is een grote diversiteit aan standaarden die iets zeggen over metagegevens. De volgende figuur geeft een overzicht van gangbare standaarden, geplot op het &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-efc531031d114860a309f6eeacdad289&quot;>bedrijfsobjectenmodel&lt;/a>. Het geeft aan welke standaarden, voor het beschrijven van welke soort metagegevens relevant zijn. Per standaard is met een kleur aangegeven of deze door Forum Standaardisatie verplicht of aanbevolen is, of dat deze in deze architectuur wordt aanbevolen. De figuur maakt direct het belang van metagegevens in de context van gegevensuitwisseling duidelijk. Er is een grote diversiteit aan soorten metagegevens en standaarden belangrijk om ervoor te zorgen dat gegevensuitwisseling op een goede manier kan verlopen. Om dit goed te laten werken zijn ook de relaties tussen deze standaarden belangrijk. Op het eerste gezicht lijkt het alsof er wel erg veel standaarden zijn, maar veel van deze standaarden zijn complementair of hebben een duidelijk eigen bestaansrecht en toepassingsgebied. Op hoofdlijnen is het bedrijfsobjectenmodel een metadatamodel en het kan door organisaties ook als startpunt voor een eigen metadatamodel dienen. Een dergelijk model is belangrijk bij het inrichten van het beheer van metagegevens.&lt;/p>&#xD;
+&lt;p>In de context van gegevensuitwisseling is vooral interessant welke metagegevens worden uitgewisseld met andere organisaties. Daarbij spelen standaarden een cruciale rol. Ze zorgen ervoor dat afnemers eenvoudiger kunnen begrijpen welke gegevens het betreft. Er is een grote diversiteit aan standaarden die iets zeggen over metagegevens. De volgende figuur geeft een overzicht van gangbare standaarden, geplot op het &lt;a href=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-efc531031d114860a309f6eeacdad289&quot;>bedrijfsobjectenmodel&lt;/a>. Het geeft aan welke standaarden, voor het beschrijven van welke soort metagegevens relevant zijn. Per standaard is met een kleur aangegeven of deze door Forum Standaardisatie verplicht of aanbevolen is, of dat deze in deze architectuur wordt aanbevolen of als kansrijk wordt gezien. De figuur maakt direct het belang van metagegevens in de context van gegevensuitwisseling duidelijk. Er is een grote diversiteit aan soorten metagegevens en standaarden belangrijk om ervoor te zorgen dat gegevensuitwisseling op een goede manier kan verlopen. Om dit goed te laten werken zijn ook de relaties tussen deze standaarden belangrijk. Op het eerste gezicht lijkt het alsof er wel erg veel standaarden zijn, maar veel van deze standaarden zijn complementair of hebben een duidelijk eigen bestaansrecht en toepassingsgebied. Op hoofdlijnen is het bedrijfsobjectenmodel een metadatamodel en het kan door organisaties ook als startpunt voor een eigen metadatamodel dienen. Een dergelijk model is belangrijk bij het inrichten van het beheer van metagegevens.&lt;/p>&#xD;
 &lt;p>&lt;img src=&quot;https://minbzk.github.io/gdi-gegevensuitwisseling/images/metadatastandaarden.svg&quot;>&lt;/p>&#xD;
 &lt;p>&#xD;
 &lt;h3>Begrippen, informatie- en gegevensmodellen&lt;/h3>&#xD;
@@ -1117,6 +1123,26 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
         <property key="exclude"/>
       </element>
     </folder>
+    <folder name="Eénmalig verstrekken" id="id-f52c080f34db49dc88d18b51c9df2f89">
+      <element xsi:type="archimate:ApplicationComponent" name="EDI wallet" id="id-14e0c974ad9b4a118c05926c7b457d44" profiles="id-3fede1bbcb0941648a2c8a077a594cb1"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Preview component" id="id-3b7e608ba058475aa39e2166f5cfe9b1" profiles="id-3fede1bbcb0941648a2c8a077a594cb1"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Toestemmings component" id="id-3d72f5a760c54ebfaeda8cbec11c9139" profiles="id-3fede1bbcb0941648a2c8a077a594cb1"/>
+      <element xsi:type="archimate:ApplicationComponent" name="FSC componenten" id="id-642e8abe8769471b88816829f7ebd5c6" profiles="id-3fede1bbcb0941648a2c8a077a594cb1"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Aanbieder component" id="id-93bc6782f38841668be7440aca6f6616" profiles="id-3fede1bbcb0941648a2c8a077a594cb1"/>
+      <element xsi:type="archimate:ApplicationComponent" name="FSC componenten" id="id-9b71565c6dd644d2ba90970b4398e416" profiles="id-3fede1bbcb0941648a2c8a077a594cb1"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Tussenkanaal component" id="id-fa5f1d1b9fcb412dbc0e22d383228b4c" profiles="id-3fede1bbcb0941648a2c8a077a594cb1"/>
+      <element xsi:type="archimate:ApplicationComponent" name="OOTS V" id="id-ff6d365ac701476abeb3ec37ef493544" profiles="id-3fede1bbcb0941648a2c8a077a594cb1"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Toestemmen" id="id-0c6dec928ae34a77b99b99c338840141"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Loggen gegevensuitwisseling" id="id-1825dbeb30044d8c97b703531a91e42b"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Autoriseren" id="id-2fe5da22e9bf4abf89f863788d8f7d25"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Transformeren gegevens" id="id-5cf0905ab9cb4bc5932b583e1eb1a5fc"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Authenticeren" id="id-795d6bdbbe0946f6bd25b69495fbccdb"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Loggen bewerking" id="id-7be57f4c886c4f29993503b308b8df19"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Aanbieden gegevensdienst" id="id-9f7a96db9f594590a1f907d580695df5"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Zoeken bronhouder" id="id-d6cbf81feaa14c129f426cd903c032de"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Previewen" id="id-dce5926fd3e34322a2e85151b3facfc2"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Valideren gegevens" id="id-f5253197f7f44ada9624c09fef49a946"/>
+    </folder>
   </folder>
   <folder name="Technology &amp; Physical" id="id-55afe510d2f54c15a8ac95ea21911ebd" type="technology"/>
   <folder name="Motivation" id="id-c45eee903423481e9f1131d2210261a0" type="motivation">
@@ -1360,11 +1386,11 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
         <property key="Beheerorganisatie" value="Logius"/>
         <property key="URL" value="https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules"/>
       </element>
-      <element xsi:type="archimate:Constraint" name="RuleSpeak" id="id-76f91f51924e4f858d9554164ece1a0f" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
-        <documentation>RuleSpeak is een taal voor het beschrijven van bedrijfsregels op een manier die dicht tegen natuurlijke taal aanligt.</documentation>
+      <element xsi:type="archimate:Constraint" name="RegelSpraak" id="id-76f91f51924e4f858d9554164ece1a0f" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
+        <documentation>RegelSpraak is een taal voor het beschrijven van bedrijfsregels op een manier die dicht tegen natuurlijke taal aanligt.</documentation>
         <property key="Status" value="geen"/>
-        <property key="Beheerorganisatie" value="Business Rule Solutions"/>
-        <property key="URL" value="https://www.rulespeak.com/nl/"/>
+        <property key="Beheerorganisatie" value="Belastingdienst"/>
+        <property key="URL" value="https://wendbarewetsuitvoering.pleio.nl/page/view/291f5846-cdfc-42d9-9f31-a2158fe59128/specificaties-regelspraak"/>
       </element>
       <element xsi:type="archimate:Constraint" name="XML Signature" id="id-780c625f641d41048d9684b5380d3da9" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>XML Signature definieert een standaard XML syntax voor digitale handtekeningen.</documentation>
@@ -1515,6 +1541,7 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
         <property key="Status" value="geen"/>
         <property key="Beheerorganisatie" value="Geonovum"/>
         <property key="URL" value="https://geonovum.github.io/IMX-ModelMapping/"/>
+        <property/>
       </element>
       <element xsi:type="archimate:Constraint" name="ODRL" id="id-ce64114e055648af86127a0b29704e94" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>De Open Digital Rights Language (ODRL) is een taal voor het vastleggen van afspraken over gebruik van gegevens en diensten.</documentation>
@@ -2045,7 +2072,7 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
         <property key="Implicaties" value="6. Het eigenaarschap van begrippen wordt duidelijk belegd, zodat het beheer ervan geborgd is."/>
       </element>
       <element xsi:type="archimate:Principle" name="1.6. Burgers en organisaties hebben regie over hun eigen gegevens" id="id-14c201edcfb34a50864c0c511971e767">
-        <documentation>De Europese datastrategie stelt dat mensen meer invloed moeten krijgen over hun gegevens en dat zij daarom middelen en bevoegdheden nodig hebben om te beslissen wat er met hun gegevens gebeurt, als er geen wettelijke grondslag is voor hun verwerking. Voor burgers zijn rechten bij de verwerking van persoonsgegevens voor een deel al geborgd in de AVG. In de herziene eIDAS-verordening krijgen burgers en organisaties verdergaande de mogelijkheid om hun gegevens via eigen wallets te verstrekken aan partijen. Datasoevereiniteit is een belangrijk uitgangspunt bij gegevensruimtes en betekent dat organisaties zelf willen kunnen bepalen aan wie ze hun gegevens verstrekken.</documentation>
+        <documentation>De Europese datastrategie stelt dat mensen meer invloed moeten krijgen over hun gegevens en dat zij daarom middelen en bevoegdheden nodig hebben om te beslissen wat er met hun gegevens gebeurt, als er geen wettelijke grondslag is voor hun verwerking. Voor burgers zijn rechten bij de verwerking van persoonsgegevens voor een deel al geborgd in de AVG. In de herziene eIDAS-verordening krijgen burgers en organisaties de mogelijkheid om hun gegevens via eigen wallets te verstrekken aan partijen. Datasoevereiniteit is een belangrijk uitgangspunt bij gegevensruimtes en betekent dat organisaties zelf willen kunnen bepalen aan wie ze hun gegevens verstrekken.</documentation>
         <property key="Implicaties" value="1. Private afnemers bieden burgers of organisaties de keuzemogelijkheid om gegevens over henzelf via een wallet aan te leveren."/>
         <property key="Implicaties" value="2. Publieke afnemers die gegevens over burgers of organisaties nodig hebben, die nog niet bekend zijn bij de overheid bieden de keuzemogelijkheid om gegevens via een wallet aan te leveren."/>
         <property key="Implicaties" value="3. Aanbieders bieden burgers en organisaties de mogelijkheid om hun gegevens te downloaden inclusief een verifieerbare verklaring, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
@@ -2311,29 +2338,45 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
     <element xsi:type="archimate:AggregationRelationship" id="id-d9ccb09447ca462e80e7ecf6c6e065d3" source="id-7958166e52a74fffb2122281e06c48d1" target="id-bf22ed38d975422685a677577ebb57bf"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-eb01905fab104d98978cd908ff3837f1" source="id-7958166e52a74fffb2122281e06c48d1" target="id-0c5ff2bcee01490da929bce198ffa7e8"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-07a1014b652e4d08b6245aee38cfc554" source="id-68f19d0b5d404a1d854d2547a20d3733" target="id-6572c141a9734d8ab64400552d10974a"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-0dc1ef32322e466a92dc383e09cb078a" source="id-642e8abe8769471b88816829f7ebd5c6" target="id-2fe5da22e9bf4abf89f863788d8f7d25"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-0e2bd44779dd4a2d88e3e8a195c02990" source="id-7e1dd515c72c4cfebcc6c2e5120be767" target="id-6572c141a9734d8ab64400552d10974a"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-10c1dfac06704990a5bb38c42587d519" source="id-17639e1cdd3b498ca114e819d1d727a9" target="id-2cefc04003f94fcb9721acbc42c92adf"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-169b1e150c404f04a7bf728f07207256" source="id-0b68d37ce0bf43e5889c43744e9adfdb" target="id-592dc350d1034ca280d27157e17ba09d"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-1afefc1f48f548a594f3ee3fa92d35e0" source="id-3b7e608ba058475aa39e2166f5cfe9b1" target="id-dce5926fd3e34322a2e85151b3facfc2"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-28586dc3670f46569a63adbd20b39929" source="id-fa5f1d1b9fcb412dbc0e22d383228b4c" target="id-f5253197f7f44ada9624c09fef49a946"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-2ac851c26a084b2fbf4557694864edb0" source="id-642e8abe8769471b88816829f7ebd5c6" target="id-1825dbeb30044d8c97b703531a91e42b"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-2c910c7c5be748ec9f776882e5023168" source="id-1aaa39bc9b504fffba6e8f8be2c29f89" target="id-b160b994f4554d128443e7406af8d09e"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-2cb1acca63484780b30da45db0e8c2ae" source="id-0b68d37ce0bf43e5889c43744e9adfdb" target="id-e8e0fadbd63b479d95144f268ac1d2af"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-2f3652024432444ba08e65ad36d4c370" source="id-52c59f07100e4613a636bbe6f2633937" target="id-f42973772a34492b919745229e4a9735"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-3374a094eab647f9927b94390ee21ed1" source="id-0b68d37ce0bf43e5889c43744e9adfdb" target="id-83efbf11e08643ea93f8b87ff9d6e520"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-3f776fdb34a7449888c1eec5f95deac7" source="id-93bc6782f38841668be7440aca6f6616" target="id-f5253197f7f44ada9624c09fef49a946"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-4192739cd1a2402db37ba03ae3acaa52" source="id-9b71565c6dd644d2ba90970b4398e416" target="id-1825dbeb30044d8c97b703531a91e42b"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-44a32bcb447d44188e000a1751887c89" source="id-b3c2d26759f74122bea52f234b07e6d4" target="id-0da09931f8ac4b368c786703913087bf"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-4f815d842d7649eb9fbfae4af641e888" source="id-a8bbacb1e2cb410b94715623077562f5" target="id-02a2244645ab48e7bfe7c0247690e2e9"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-52a9f9619f3249389246073563643752" source="id-1aaa39bc9b504fffba6e8f8be2c29f89" target="id-e8e0fadbd63b479d95144f268ac1d2af"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-547c2af6fa804529a47c6e42f1dc7f47" source="id-fa5f1d1b9fcb412dbc0e22d383228b4c" target="id-5cf0905ab9cb4bc5932b583e1eb1a5fc"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-5649cc4a3d50442fb026ce4c58ecd466" source="id-b3c2d26759f74122bea52f234b07e6d4" target="id-e8e0fadbd63b479d95144f268ac1d2af"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-5bf5be25fd4646f183d1e81cc1da2fa5" source="id-b3c2d26759f74122bea52f234b07e6d4" target="id-592dc350d1034ca280d27157e17ba09d"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-5ca22bf3c95e403b9002c599a1ceac0c" source="id-fa5f1d1b9fcb412dbc0e22d383228b4c" target="id-9f7a96db9f594590a1f907d580695df5"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-6bbe0b93d0c84402b4e8f57c542d8771" source="id-7e1dd515c72c4cfebcc6c2e5120be767" target="id-b160b994f4554d128443e7406af8d09e"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-876cfe5cf13c4bb3b2de5da1cf255761" source="id-fa5f1d1b9fcb412dbc0e22d383228b4c" target="id-7be57f4c886c4f29993503b308b8df19"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-87c986252d774d70bacf86394f213b87" source="id-fa5f1d1b9fcb412dbc0e22d383228b4c" target="id-d6cbf81feaa14c129f426cd903c032de"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-8849177707354b2898092abf0638aeb3" source="id-fa5f1d1b9fcb412dbc0e22d383228b4c" target="id-2fe5da22e9bf4abf89f863788d8f7d25"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-8888358a5a8c4ee58f29eb2433e65c05" source="id-17639e1cdd3b498ca114e819d1d727a9" target="id-3b0a1d7d37fd44ab8463f05620c4997d"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-89a7cf55c4de416ab4a89388eeec3e9f" source="id-1aaa39bc9b504fffba6e8f8be2c29f89" target="id-592dc350d1034ca280d27157e17ba09d"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-8ee39dddcf8645c1a43b316683089dea" source="id-52c59f07100e4613a636bbe6f2633937" target="id-dd3a04e932584febb455690d934653c0"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-97b3164f45494fb3b1c15af8649c6c0a" source="id-0b68d37ce0bf43e5889c43744e9adfdb" target="id-f0ef2161fd644111bde92c8cb5f70a51"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-9f6f69ca7be2498bbabf1d7fd7e5d7f7" source="id-93bc6782f38841668be7440aca6f6616" target="id-2fe5da22e9bf4abf89f863788d8f7d25"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-9fbc106db3d14e4fa51a08f6077734b1" source="id-0b68d37ce0bf43e5889c43744e9adfdb" target="id-39f6f8b9cd4644899f7436319b567b77"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-a62ab8a9810445208158f75d5e2cea59" source="id-52c59f07100e4613a636bbe6f2633937" target="id-f0ef2161fd644111bde92c8cb5f70a51"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-a6fcc76926354053933ff54dffb62a09" source="id-3d72f5a760c54ebfaeda8cbec11c9139" target="id-0c6dec928ae34a77b99b99c338840141"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-b56d735b86fd432dbf815d686a5e9647" source="id-93bc6782f38841668be7440aca6f6616" target="id-9f7a96db9f594590a1f907d580695df5"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-c04f440d61004e428c1d69bbaacc9edd" source="id-17639e1cdd3b498ca114e819d1d727a9" target="id-2a09dbc4bf6844f4adf8de42a628bd5a"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-c13fba7d2b914b15b773f71b77080b29" source="id-52c59f07100e4613a636bbe6f2633937" target="id-39f6f8b9cd4644899f7436319b567b77"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-c2e03f3281344478bfc0f1961f6fba75" source="id-7e1dd515c72c4cfebcc6c2e5120be767" target="id-592dc350d1034ca280d27157e17ba09d"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-c415a0cf082c4920b660a6369014cb8d" source="id-1aaa39bc9b504fffba6e8f8be2c29f89" target="id-0da09931f8ac4b368c786703913087bf"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-e4b45c0bc5a241279e352a45fd27367d" source="id-fa5f1d1b9fcb412dbc0e22d383228b4c" target="id-795d6bdbbe0946f6bd25b69495fbccdb"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-eee518b319e9475ab3db7b80e59fd615" source="id-642e8abe8769471b88816829f7ebd5c6" target="id-795d6bdbbe0946f6bd25b69495fbccdb"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-efcc8338b8ca4e7eaea02b25a8df4e84" source="id-b3c2d26759f74122bea52f234b07e6d4" target="id-4a160e64388c4d53b0b4ec7340fdd42a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-00afb8510b034059b242ed47e6a1ad59" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-81ca2fbd0c984219b80e7596a9f16326"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-010a3df290f8427ebe94c7bcf13f3a38" source="id-5ef12d74a642417684910d16092653f2" target="id-8f06012b2a2f45ca97351be679da5987"/>
@@ -2929,6 +2972,14 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
     <element xsi:type="archimate:CompositionRelationship" id="id-ff49c9a4209f48a4ab6b2ddd81bb25c2" source="id-592dc350d1034ca280d27157e17ba09d" target="id-eb64c1bcb6af46da9cc40b24284e5b69"/>
     <element xsi:type="archimate:FlowRelationship" id="id-02161f986a474cddb944a7fcaa203eab" source="id-b8bd855199e9414b937ab5aaf1c2411f" target="id-b8bd855199e9414b937ab5aaf1c2411f"/>
     <element xsi:type="archimate:FlowRelationship" id="id-03037ac6d6984aa2a4a46b5b993b6b8b" source="id-b5b54e4f16e04d6aacca4e426b1efdce" target="id-b5b54e4f16e04d6aacca4e426b1efdce"/>
+    <element xsi:type="archimate:FlowRelationship" name="gestandaardiseerde gegevens" id="id-09d16a66fbd54d2a9806d9ee15a36e5b" source="id-b3c2d26759f74122bea52f234b07e6d4" target="id-1aa97f1cec4b46b488a2817e072295eb">
+      <documentation>HTTP API met FSC, PKIoverheid&#xD;
+eisen stellen aan metagegevens</documentation>
+    </element>
+    <element xsi:type="archimate:FlowRelationship" name="gegevens" id="id-26fe37f87a4f448199ae482a058d336b" source="id-0b68d37ce0bf43e5889c43744e9adfdb" target="id-b3c2d26759f74122bea52f234b07e6d4"/>
+    <element xsi:type="archimate:FlowRelationship" name="verifieerbare verklaring" id="id-6684b0bc4d2f4273a5be2423da479e10" source="id-b3776aa7bb4c4c8e828fdcc5b8221237" target="id-ab9cfceafd9e49bebc65ba491c76da1d"/>
+    <element xsi:type="archimate:FlowRelationship" name="gegevens voor verklaring" id="id-76fd8e2bfed3438b9529c94dd9df2295" source="id-1aa97f1cec4b46b488a2817e072295eb" target="id-b3776aa7bb4c4c8e828fdcc5b8221237"/>
+    <element xsi:type="archimate:FlowRelationship" name="gegevens voor evidence" id="id-897ec314344944d4a2563e160faf6ced" source="id-1aa97f1cec4b46b488a2817e072295eb" target="id-6684cbc3805c412faf854b8f8dfc774f"/>
     <element xsi:type="archimate:FlowRelationship" id="id-91e8a363cee34ca1b629f78962cbbcf2" source="id-ea34eeed23794fc5978ef39d96ba1b85" target="id-ea34eeed23794fc5978ef39d96ba1b85"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-128371cbb59f4bb0948e4aa7656f7d21" source="id-4e60a3427db84c92bf612bd8aef22947" target="id-0732329c1ebe42a4a6291122d1d04415"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-1475d8081b244eceb2348e53e27e47a0" source="id-3b7fd55c85ef44d689f7fe0c16da60e1" target="id-c5dc7e3513124ee19ef0e7c2aa6870ba"/>
@@ -3047,6 +3098,7 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
     <element xsi:type="archimate:ServingRelationship" id="id-0e60be940cf442bba3613117f5d62af1" source="id-3503096184b0469cb2a6d88074aef990" target="id-592dc350d1034ca280d27157e17ba09d"/>
     <element xsi:type="archimate:ServingRelationship" id="id-101a00fe03ac43019d57b3fa19aacfbd" source="id-b600393295354608a39ad1d50908c988" target="id-40f2e2d826cb46b3807a92ba2f3dc691"/>
     <element xsi:type="archimate:ServingRelationship" id="id-104cc57814a3400e851a779f1c97d127" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-3b0a1d7d37fd44ab8463f05620c4997d"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-106b6504847a4e06b466c84cb9f48f1a" source="id-3b7e608ba058475aa39e2166f5cfe9b1" target="id-fa5f1d1b9fcb412dbc0e22d383228b4c"/>
     <element xsi:type="archimate:ServingRelationship" id="id-16e6a3c34f524dd7a8bbebcefd595b8a" source="id-207abc50681e457f9f627d1308453fc3" target="id-51addf9338fa40d4abb17533786677d0"/>
     <element xsi:type="archimate:ServingRelationship" id="id-170381d353e649ccb205164752a68bb5" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-8f089dcb8add4b2fa57de76006aab538"/>
     <element xsi:type="archimate:ServingRelationship" id="id-174cbe074b9144dd828984b67373f428" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-51addf9338fa40d4abb17533786677d0"/>
@@ -3062,8 +3114,11 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
     <element xsi:type="archimate:ServingRelationship" id="id-2d6da87e1c39403a9ef4bc9045b5298b" source="id-3503096184b0469cb2a6d88074aef990" target="id-2cefc04003f94fcb9721acbc42c92adf"/>
     <element xsi:type="archimate:ServingRelationship" id="id-2eeb1777528e4f3982cd1dff61a7d02f" source="id-5051532609b1444c926815801dc5652c" target="id-02a2244645ab48e7bfe7c0247690e2e9"/>
     <element xsi:type="archimate:ServingRelationship" id="id-330fe3c8e2ed4b9c803cb3430b0e39a5" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-d2465138e3d44120a0132c92bc8ffdf3"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-3821e20ca7bb421aad96773c8b6e6659" source="id-14e0c974ad9b4a118c05926c7b457d44" target="id-ab9cfceafd9e49bebc65ba491c76da1d"/>
     <element xsi:type="archimate:ServingRelationship" id="id-3ab80528f1b24838ab30c2e6e473b2b2" source="id-70e78e7d7f8c40508ab7f46030260c3e" target="id-521fc9d8b0c04730ac5ac93823baf06f"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-3be5ee609aa84eda80fb4126530b6504" source="id-642e8abe8769471b88816829f7ebd5c6" target="id-93bc6782f38841668be7440aca6f6616"/>
     <element xsi:type="archimate:ServingRelationship" id="id-3d510ec005d3450eb3d2501b08faded4" source="id-3503096184b0469cb2a6d88074aef990" target="id-c70fc050756240529366d822038fb340"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-41121bc74edc4fe5976180467ec91623" source="id-3d72f5a760c54ebfaeda8cbec11c9139" target="id-fa5f1d1b9fcb412dbc0e22d383228b4c"/>
     <element xsi:type="archimate:ServingRelationship" id="id-42fee1e2005649e0899dbb87194ea060" source="id-ea34eeed23794fc5978ef39d96ba1b85" target="id-02a2244645ab48e7bfe7c0247690e2e9"/>
     <element xsi:type="archimate:ServingRelationship" id="id-4a6849a6cab6496482e5f755869eac1e" source="id-b600393295354608a39ad1d50908c988" target="id-5dd88ea08e294b44898d119a8f6f280c"/>
     <element xsi:type="archimate:ServingRelationship" id="id-4b7f836d6c30483d9d89e69acf00a71a" source="id-3503096184b0469cb2a6d88074aef990" target="id-592dc350d1034ca280d27157e17ba09d"/>
@@ -3077,6 +3132,7 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
     <element xsi:type="archimate:ServingRelationship" id="id-6a31a641bd8543098cd6c6298b25b2c3" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-15948e1fa01f4d98a7998a64ecf203db"/>
     <element xsi:type="archimate:ServingRelationship" id="id-6bdd5c791bca4e40bea5655330eb06d5" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-0117f3617bc9465ca0df8a0441383b79"/>
     <element xsi:type="archimate:ServingRelationship" id="id-717cbb14b0da477b9d19b5515fa73278" source="id-3503096184b0469cb2a6d88074aef990" target="id-5dd88ea08e294b44898d119a8f6f280c"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-74362545f98546e08485d8264f9853f6" source="id-93bc6782f38841668be7440aca6f6616" target="id-b3c2d26759f74122bea52f234b07e6d4"/>
     <element xsi:type="archimate:ServingRelationship" id="id-78cb673e0dfd4b86ae5c20a6aa35ca76" source="id-b600393295354608a39ad1d50908c988" target="id-51addf9338fa40d4abb17533786677d0"/>
     <element xsi:type="archimate:ServingRelationship" id="id-79f3dfc9cb1740b08b9205f782c2daa5" source="id-3503096184b0469cb2a6d88074aef990" target="id-8f048bf52b2e497d8f033cdc091084a6"/>
     <element xsi:type="archimate:ServingRelationship" id="id-7a4e27eb633e4f6fb603818ed1425600" source="id-65b1207ae2ce4594af1e92b327a4de42" target="id-5ef12d74a642417684910d16092653f2"/>
@@ -3095,6 +3151,7 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
     <element xsi:type="archimate:ServingRelationship" id="id-954321257d274b1e853e37f8c4df8783" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-5dd88ea08e294b44898d119a8f6f280c"/>
     <element xsi:type="archimate:ServingRelationship" id="id-9e4a8de03fbc4832850cf70b71e6d1df" source="id-3503096184b0469cb2a6d88074aef990" target="id-931fea44732b4ecfbe0760e2a54056c5"/>
     <element xsi:type="archimate:ServingRelationship" id="id-a61a7c982cf54e708abfe6f822d066aa" source="id-207abc50681e457f9f627d1308453fc3" target="id-06c74ea4eb7a4052b002d1f9ce22c820"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-a9fadb3eae844716a74ac8886917d87b" source="id-fa5f1d1b9fcb412dbc0e22d383228b4c" target="id-1aa97f1cec4b46b488a2817e072295eb"/>
     <element xsi:type="archimate:ServingRelationship" id="id-ab020ec6a7d94029881fbafb445f0c8b" source="id-05b303b70c4543f983b3b7317197980e" target="id-39f6f8b9cd4644899f7436319b567b77"/>
     <element xsi:type="archimate:ServingRelationship" id="id-ab50d721f0794469b5639362ded371d4" source="id-aa1ff1bfa9e34d478810bb449f6ad57d" target="id-5ef12d74a642417684910d16092653f2"/>
     <element xsi:type="archimate:ServingRelationship" id="id-ab7940ade3fb4338b013d204efb619fa" source="id-65b1207ae2ce4594af1e92b327a4de42" target="id-e8e0fadbd63b479d95144f268ac1d2af"/>
@@ -3112,6 +3169,7 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
     <element xsi:type="archimate:ServingRelationship" id="id-ce4a095e3f5b4b00812b93870d83d6d9" source="id-05b303b70c4543f983b3b7317197980e" target="id-80e3338ec5a94dc4a0bab92c6d9b286a"/>
     <element xsi:type="archimate:ServingRelationship" id="id-d196dd95c2d343adb1b095850e3a5844" source="id-15d03a85a8b340c490a44cc1c3a3c056" target="id-0da09931f8ac4b368c786703913087bf"/>
     <element xsi:type="archimate:ServingRelationship" id="id-d3293bb44c5447b79f733fc3538ff47b" source="id-3503096184b0469cb2a6d88074aef990" target="id-eb64c1bcb6af46da9cc40b24284e5b69"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-d380c0e12d9241b58c41c6f65762913c" source="id-9b71565c6dd644d2ba90970b4398e416" target="id-fa5f1d1b9fcb412dbc0e22d383228b4c"/>
     <element xsi:type="archimate:ServingRelationship" id="id-d4fd5d1c71224a78817e59f9b12d0dd6" source="id-15d03a85a8b340c490a44cc1c3a3c056" target="id-592dc350d1034ca280d27157e17ba09d"/>
     <element xsi:type="archimate:ServingRelationship" id="id-da7edaa345a7408f84e703dd1dab296e" source="id-f417beff3e9f4b6088d2858190e298f4" target="id-ca0d41ec8062445a803b463b7b88a4c9"/>
     <element xsi:type="archimate:ServingRelationship" id="id-deb749b7dd1540e1b30174949eb98251" source="id-3503096184b0469cb2a6d88074aef990" target="id-a71d09891a9e4ea791f3fc82931009e3"/>
@@ -3121,6 +3179,7 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
     <element xsi:type="archimate:ServingRelationship" id="id-efd8e9ed92fe4fc69a08a4beb7ba6544" source="id-dfe54c64edd940149c83331f33968fad" target="id-39f6f8b9cd4644899f7436319b567b77"/>
     <element xsi:type="archimate:ServingRelationship" id="id-f09f00461eb94bae8d4e20789dbd6dc6" source="id-3503096184b0469cb2a6d88074aef990" target="id-39f6f8b9cd4644899f7436319b567b77"/>
     <element xsi:type="archimate:ServingRelationship" id="id-f40e2030960d42fe931d49ec1ee19ab8" source="id-70e78e7d7f8c40508ab7f46030260c3e" target="id-e8e0fadbd63b479d95144f268ac1d2af"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-f49632e837fc40458226bde3b4147f3b" source="id-ff6d365ac701476abeb3ec37ef493544" target="id-6684cbc3805c412faf854b8f8dfc774f"/>
     <element xsi:type="archimate:ServingRelationship" id="id-f6160583f2384f4db60d40a890a4a638" source="id-95f98ed0ae6c402d818ccdbc416eb8aa" target="id-b160b994f4554d128443e7406af8d09e"/>
     <element xsi:type="archimate:ServingRelationship" id="id-f7fa887a41724bc1b90216328bb486e9" source="id-aa1ff1bfa9e34d478810bb449f6ad57d" target="id-e8e0fadbd63b479d95144f268ac1d2af"/>
     <element xsi:type="archimate:ServingRelationship" id="id-f8b011b016b949bc92b97eadef2cd2ae" source="id-70e78e7d7f8c40508ab7f46030260c3e" target="id-5ef12d74a642417684910d16092653f2"/>
@@ -3132,6 +3191,137 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
   </folder>
   <folder name="Views" id="id-a006a61a59a4410aa97243727cded72a" type="diagrams">
     <folder name="Gewenste situatie" id="id-1b70ddc9a2c04d01bd21b94782dbece6">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Eénmalig verstrekken" id="id-4ceabffe4d3947afb54aeb12d72c3d4a">
+        <child xsi:type="archimate:DiagramObject" id="id-43a0aa2e5bda41c8b1fa8b1ff2f4e2ec" textPosition="1" archimateElement="id-0b68d37ce0bf43e5889c43744e9adfdb">
+          <bounds x="24" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-85db0741e9aa4a86a2538d287773a8d5" source="id-43a0aa2e5bda41c8b1fa8b1ff2f4e2ec" target="id-69d7692257a2448ab4cd4af5d6640e8f" archimateRelationship="id-26fe37f87a4f448199ae482a058d336b"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9b7c6c71274e47ffb2d5ecf4bc5c7104" textPosition="1" archimateElement="id-14e0c974ad9b4a118c05926c7b457d44">
+          <bounds x="1080" y="240" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c49f7127f3e24281b58fa71ca326960b" source="id-9b7c6c71274e47ffb2d5ecf4bc5c7104" target="id-ebe63197181f43c088db9add391b60ee" archimateRelationship="id-3821e20ca7bb421aad96773c8b6e6659"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9bba36e4aaad45f9a7a82fc04907e607" textPosition="1" archimateElement="id-ff6d365ac701476abeb3ec37ef493544">
+          <bounds x="936" y="240" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-43a159500bcc4d13b1f2c88293737f52" source="id-9bba36e4aaad45f9a7a82fc04907e607" target="id-ac8fe92e7a9243638e446915052a5803" archimateRelationship="id-f49632e837fc40458226bde3b4147f3b"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ac8fe92e7a9243638e446915052a5803" targetConnections="id-6537bf0a8fde40ea87e86f1dfec38367 id-43a159500bcc4d13b1f2c88293737f52" textPosition="1" archimateElement="id-6684cbc3805c412faf854b8f8dfc774f">
+          <bounds x="936" y="120" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-147a11810ada4b9d9da85e2648096592" archimateElement="id-9b71565c6dd644d2ba90970b4398e416">
+          <bounds x="756" y="480" width="145" height="109"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-b3300748ae2c404fb11cd0bb52105203" source="id-147a11810ada4b9d9da85e2648096592" target="id-b7ed219471ff4ad7abcac2174c8f5ac9" archimateRelationship="id-d380c0e12d9241b58c41c6f65762913c"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a4e6802d212341a5a46222e4d7f799b0" source="id-147a11810ada4b9d9da85e2648096592" target="id-7b8469c26dfa471881876beaad4c10f1" archimateRelationship="id-4192739cd1a2402db37ba03ae3acaa52"/>
+          <child xsi:type="archimate:DiagramObject" id="id-7b8469c26dfa471881876beaad4c10f1" targetConnections="id-a4e6802d212341a5a46222e4d7f799b0" textPosition="1" archimateElement="id-1825dbeb30044d8c97b703531a91e42b">
+            <bounds x="12" y="36" width="120" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b7ed219471ff4ad7abcac2174c8f5ac9" targetConnections="id-14d175593f0a4ea78754e63d40bb6131 id-b3300748ae2c404fb11cd0bb52105203 id-072a35b489574755b61e2ef6279941a8" archimateElement="id-fa5f1d1b9fcb412dbc0e22d383228b4c">
+          <bounds x="419" y="240" width="278" height="349"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0d44ef024c804749b605d8132dd26542" source="id-b7ed219471ff4ad7abcac2174c8f5ac9" target="id-988fd5a677c241f996b7045927a3e9f9" archimateRelationship="id-87c986252d774d70bacf86394f213b87">
+            <bendpoint startX="368" startY="-3" endX="-120" endY="-56"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-bfcfb74f3c59437fa839321ef9846d99" source="id-b7ed219471ff4ad7abcac2174c8f5ac9" target="id-eba72c9d0a654a76a6272480067ea0b2" archimateRelationship="id-e4b45c0bc5a241279e352a45fd27367d">
+            <bendpoint startX="236" startY="9" endX="-106" endY="-87"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-698cd309c92640d0bc1b6adac808c82c" source="id-b7ed219471ff4ad7abcac2174c8f5ac9" target="id-1154af9bd88a44d09db0d5b9cd452e69" archimateRelationship="id-8849177707354b2898092abf0638aeb3"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a2de080a41e34739a26847d613f3519f" source="id-b7ed219471ff4ad7abcac2174c8f5ac9" target="id-ba20bf4bec6341d2adb183e8cb871f77" archimateRelationship="id-a9fadb3eae844716a74ac8886917d87b"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-4783daf353b940759c81dc1d7d64d9ed" source="id-b7ed219471ff4ad7abcac2174c8f5ac9" target="id-ad77384d63684b06866011f8e93c0855" archimateRelationship="id-547c2af6fa804529a47c6e42f1dc7f47">
+            <bendpoint startX="236" startY="177" endX="-106" endY="3"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c7ed9240b8e341b9a3f415e706e1908f" source="id-b7ed219471ff4ad7abcac2174c8f5ac9" target="id-71fbd3896fd141a09e00b08e4931e6cb" archimateRelationship="id-28586dc3670f46569a63adbd20b39929">
+            <bendpoint startX="236" startY="129" endX="-252" endY="-3"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ec5e99654b064d04a112607970c719bf" source="id-b7ed219471ff4ad7abcac2174c8f5ac9" target="id-c74e6026b8754986a97f2dc564eebeea" archimateRelationship="id-876cfe5cf13c4bb3b2de5da1cf255761">
+            <bendpoint startX="248" startY="213" endX="-240" endY="-3"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5dd27730aab34610aa4841af3c4894d8" source="id-b7ed219471ff4ad7abcac2174c8f5ac9" target="id-7c95279075b9467598e76aeed5a2dd99" archimateRelationship="id-5ca22bf3c95e403b9002c599a1ceac0c"/>
+          <child xsi:type="archimate:DiagramObject" id="id-eba72c9d0a654a76a6272480067ea0b2" targetConnections="id-bfcfb74f3c59437fa839321ef9846d99" textPosition="1" archimateElement="id-795d6bdbbe0946f6bd25b69495fbccdb">
+            <bounds x="12" y="36" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-1154af9bd88a44d09db0d5b9cd452e69" targetConnections="id-698cd309c92640d0bc1b6adac808c82c" textPosition="1" archimateElement="id-2fe5da22e9bf4abf89f863788d8f7d25">
+            <bounds x="12" y="96" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-c74e6026b8754986a97f2dc564eebeea" targetConnections="id-ec5e99654b064d04a112607970c719bf" textPosition="1" archimateElement="id-7be57f4c886c4f29993503b308b8df19">
+            <bounds x="144" y="36" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-71fbd3896fd141a09e00b08e4931e6cb" targetConnections="id-c7ed9240b8e341b9a3f415e706e1908f" textPosition="1" archimateElement="id-f5253197f7f44ada9624c09fef49a946">
+            <bounds x="12" y="156" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-ad77384d63684b06866011f8e93c0855" targetConnections="id-4783daf353b940759c81dc1d7d64d9ed" textPosition="1" archimateElement="id-5cf0905ab9cb4bc5932b583e1eb1a5fc">
+            <bounds x="12" y="216" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-988fd5a677c241f996b7045927a3e9f9" targetConnections="id-0d44ef024c804749b605d8132dd26542" textPosition="1" archimateElement="id-d6cbf81feaa14c129f426cd903c032de">
+            <bounds x="144" y="96" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-7c95279075b9467598e76aeed5a2dd99" targetConnections="id-5dd27730aab34610aa4841af3c4894d8" textPosition="1" archimateElement="id-9f7a96db9f594590a1f907d580695df5">
+            <bounds x="144" y="156" width="120" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9fe0032815bc483492363a7b77240c57" archimateElement="id-642e8abe8769471b88816829f7ebd5c6">
+          <bounds x="11" y="240" width="145" height="229"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-398b887dbd4e460bbfffce208134ebdd" source="id-9fe0032815bc483492363a7b77240c57" target="id-df80da101b604126a22140efb6258616" archimateRelationship="id-3be5ee609aa84eda80fb4126530b6504"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2c0b90a9a1e04f95932cb3369a42475d" source="id-9fe0032815bc483492363a7b77240c57" target="id-2344d2060a0f4812947afce347654ec4" archimateRelationship="id-2ac851c26a084b2fbf4557694864edb0"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-80191530c6dc45ca83ee5e43377b0879" source="id-9fe0032815bc483492363a7b77240c57" target="id-8f8f4f0d6beb445d8b1ce9ab7ca0cc16" archimateRelationship="id-eee518b319e9475ab3db7b80e59fd615"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-059c4765224e48feb65bb3dec0620fa2" source="id-9fe0032815bc483492363a7b77240c57" target="id-9213ccb7e2f940d8830a038096b60b8a" archimateRelationship="id-0dc1ef32322e466a92dc383e09cb078a"/>
+          <child xsi:type="archimate:DiagramObject" id="id-2344d2060a0f4812947afce347654ec4" targetConnections="id-2c0b90a9a1e04f95932cb3369a42475d" textPosition="1" archimateElement="id-1825dbeb30044d8c97b703531a91e42b">
+            <bounds x="12" y="156" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-8f8f4f0d6beb445d8b1ce9ab7ca0cc16" targetConnections="id-80191530c6dc45ca83ee5e43377b0879" textPosition="1" archimateElement="id-795d6bdbbe0946f6bd25b69495fbccdb">
+            <bounds x="12" y="36" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-9213ccb7e2f940d8830a038096b60b8a" targetConnections="id-059c4765224e48feb65bb3dec0620fa2" textPosition="1" archimateElement="id-2fe5da22e9bf4abf89f863788d8f7d25">
+            <bounds x="12" y="96" width="120" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9a2118c2a97841fdbddb53dae161d7df" archimateElement="id-3b7e608ba058475aa39e2166f5cfe9b1">
+          <bounds x="756" y="240" width="145" height="110"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-1ad3df46c20448c788a9110cb73dd6c7" source="id-9a2118c2a97841fdbddb53dae161d7df" target="id-f99a47d344014df3bd4f5a86ddea8e32" archimateRelationship="id-1afefc1f48f548a594f3ee3fa92d35e0"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-14d175593f0a4ea78754e63d40bb6131" source="id-9a2118c2a97841fdbddb53dae161d7df" target="id-b7ed219471ff4ad7abcac2174c8f5ac9" archimateRelationship="id-106b6504847a4e06b466c84cb9f48f1a"/>
+          <child xsi:type="archimate:DiagramObject" id="id-f99a47d344014df3bd4f5a86ddea8e32" targetConnections="id-1ad3df46c20448c788a9110cb73dd6c7" textPosition="1" archimateElement="id-dce5926fd3e34322a2e85151b3facfc2">
+            <bounds x="12" y="42" width="120" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ba20bf4bec6341d2adb183e8cb871f77" targetConnections="id-a2de080a41e34739a26847d613f3519f id-93cd082ff7f946c892a1626e9179d6e6" textPosition="1" archimateElement="id-1aa97f1cec4b46b488a2817e072295eb">
+          <bounds x="500" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-990555f190ea4ec8b23a9f6009ef65ca" source="id-ba20bf4bec6341d2adb183e8cb871f77" target="id-dad1048cda9641f5ad630fe3d5566aa9" archimateRelationship="id-76fd8e2bfed3438b9529c94dd9df2295"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-6537bf0a8fde40ea87e86f1dfec38367" source="id-ba20bf4bec6341d2adb183e8cb871f77" target="id-ac8fe92e7a9243638e446915052a5803" archimateRelationship="id-897ec314344944d4a2563e160faf6ced">
+            <bendpoint startX="232" startY="93" endX="-240" endY="-3"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-50b3006464424f658b18a1274d237551" archimateElement="id-3d72f5a760c54ebfaeda8cbec11c9139">
+          <bounds x="756" y="359" width="145" height="110"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-8a1376c5b8784a42bed942f5c39259a3" source="id-50b3006464424f658b18a1274d237551" target="id-a9739409896b4fdc8de293c7e6c58b6c" archimateRelationship="id-a6fcc76926354053933ff54dffb62a09"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-072a35b489574755b61e2ef6279941a8" source="id-50b3006464424f658b18a1274d237551" target="id-b7ed219471ff4ad7abcac2174c8f5ac9" archimateRelationship="id-41121bc74edc4fe5976180467ec91623"/>
+          <child xsi:type="archimate:DiagramObject" id="id-a9739409896b4fdc8de293c7e6c58b6c" targetConnections="id-8a1376c5b8784a42bed942f5c39259a3" textPosition="1" archimateElement="id-0c6dec928ae34a77b99b99c338840141">
+            <bounds x="12" y="42" width="120" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-dad1048cda9641f5ad630fe3d5566aa9" targetConnections="id-990555f190ea4ec8b23a9f6009ef65ca" textPosition="1" archimateElement="id-b3776aa7bb4c4c8e828fdcc5b8221237">
+          <bounds x="804" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d6b03dca774b4e6e92a76bfa06875343" source="id-dad1048cda9641f5ad630fe3d5566aa9" target="id-ebe63197181f43c088db9add391b60ee" archimateRelationship="id-6684b0bc4d2f4273a5be2423da479e10"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-69d7692257a2448ab4cd4af5d6640e8f" targetConnections="id-85db0741e9aa4a86a2538d287773a8d5 id-90ada539e60f43708bd095e68e7f3525" textPosition="1" archimateElement="id-b3c2d26759f74122bea52f234b07e6d4">
+          <bounds x="229" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-93cd082ff7f946c892a1626e9179d6e6" source="id-69d7692257a2448ab4cd4af5d6640e8f" target="id-ba20bf4bec6341d2adb183e8cb871f77" archimateRelationship="id-09d16a66fbd54d2a9806d9ee15a36e5b">
+            <feature name="labelExpression" value="gestandaardiseerde&#xD;&#xA;en geïntegreerde&#xD;&#xA;gegevens"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ebe63197181f43c088db9add391b60ee" targetConnections="id-d6b03dca774b4e6e92a76bfa06875343 id-c49f7127f3e24281b58fa71ca326960b" textPosition="1" archimateElement="id-ab9cfceafd9e49bebc65ba491c76da1d">
+          <bounds x="1080" y="24" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-df80da101b604126a22140efb6258616" targetConnections="id-398b887dbd4e460bbfffce208134ebdd" archimateElement="id-93bc6782f38841668be7440aca6f6616">
+          <bounds x="216" y="240" width="145" height="229"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-90ada539e60f43708bd095e68e7f3525" source="id-df80da101b604126a22140efb6258616" target="id-69d7692257a2448ab4cd4af5d6640e8f" archimateRelationship="id-74362545f98546e08485d8264f9853f6"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-004e8a44e4394d69937e50d792fb7503" source="id-df80da101b604126a22140efb6258616" target="id-ce08d65573a44f18a4b611f3e112a363" archimateRelationship="id-3f776fdb34a7449888c1eec5f95deac7"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ff042f8304654ab58973dd5e528659b8" source="id-df80da101b604126a22140efb6258616" target="id-c4085ac4bfd74a429e67aaac098bcd4e" archimateRelationship="id-b56d735b86fd432dbf815d686a5e9647"/>
+          <child xsi:type="archimate:DiagramObject" id="id-ce08d65573a44f18a4b611f3e112a363" targetConnections="id-004e8a44e4394d69937e50d792fb7503" textPosition="1" archimateElement="id-f5253197f7f44ada9624c09fef49a946">
+            <bounds x="12" y="36" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-c4085ac4bfd74a429e67aaac098bcd4e" targetConnections="id-ff042f8304654ab58973dd5e528659b8" textPosition="1" archimateElement="id-9f7a96db9f594590a1f907d580695df5">
+            <bounds x="12" y="96" width="120" height="55"/>
+          </child>
+        </child>
+      </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Architectuurprincipes geplot op functiemodel" id="id-4e701366fd844120b700c114068bc91e">
         <child xsi:type="archimate:DiagramObject" id="id-42ee4f28760043f9bff98fac0edb4a8e" archimateElement="id-0da09931f8ac4b368c786703913087bf">
           <bounds x="684" y="180" width="325" height="397"/>
@@ -3255,7 +3445,6 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
         <child xsi:type="archimate:DiagramObject" id="id-a39e57e671e44960a8ebad7fc43a0fbf" archimateElement="id-0da09931f8ac4b368c786703913087bf">
           <bounds x="804" y="-36" width="577" height="685"/>
           <feature name="iconVisible" value="2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-d04420fd6f5a4b2eb1d99e9d6e134e3e" source="id-a39e57e671e44960a8ebad7fc43a0fbf" target="id-ad4db344b68c49f58007973eefbed39f" archimateRelationship="id-01cc68defcb544b6afdb7ff5c2d6a3b5"/>
           <child xsi:type="archimate:Group" id="id-6f19fdcc5111481ca76166b4e19114cb" name="Protocollen" textAlignment="1" fillColor="#ffffb5">
             <bounds x="12" y="24" width="553" height="325"/>
             <child xsi:type="archimate:DiagramObject" id="id-682419481f0f40d7b322cb64cccc5afc" fillColor="#ffffff" textPosition="1" archimateElement="id-d8486619cfed479eaa0f996e5af89ecf">
@@ -3319,11 +3508,11 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
               <bounds x="12" y="228" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-0ef7f1aa696d452b8faeff58f2089b40" targetConnections="id-9bc1c7a6a1e8482a8d2a04a6e5c9b7b8" fillColor="#ffffff" textPosition="1" archimateElement="id-622179f0f5ab4f9fa6ac73b164c5be51">
+            <child xsi:type="archimate:DiagramObject" id="id-0ef7f1aa696d452b8faeff58f2089b40" fillColor="#ffffff" textPosition="1" archimateElement="id-622179f0f5ab4f9fa6ac73b164c5be51">
               <bounds x="372" y="36" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-74e3f106b78245d8a865e467444a3985" targetConnections="id-2e206bb117614415bc3bc3378d7e3634" fillColor="#ffffff" textPosition="1" archimateElement="id-2d115da1a05846888c6609964638928d">
+            <child xsi:type="archimate:DiagramObject" id="id-74e3f106b78245d8a865e467444a3985" fillColor="#ffffff" textPosition="1" archimateElement="id-2d115da1a05846888c6609964638928d">
               <bounds x="372" y="84" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
@@ -3346,7 +3535,7 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
               <bounds x="12" y="132" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-08e43ea8918940dbb446752b2b92d5d9" targetConnections="id-e13e2eb5ae1e477f91e397ec7616d725" fillColor="#ffffff" textPosition="1" archimateElement="id-7f3f21e561764fe0bd54a826cb952254">
+            <child xsi:type="archimate:DiagramObject" id="id-08e43ea8918940dbb446752b2b92d5d9" fillColor="#ffffff" textPosition="1" archimateElement="id-7f3f21e561764fe0bd54a826cb952254">
               <bounds x="192" y="36" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
@@ -3358,7 +3547,7 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
               <bounds x="12" y="180" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-8012235b93344f2280665cdfecc8d24b" targetConnections="id-7ac4d478d9fe4029b86e5311cd8be0d0" fillColor="#ffffff" textPosition="1" archimateElement="id-39b68135266a4b08be0c9bacacd8a5da">
+            <child xsi:type="archimate:DiagramObject" id="id-8012235b93344f2280665cdfecc8d24b" fillColor="#ffffff" textPosition="1" archimateElement="id-39b68135266a4b08be0c9bacacd8a5da">
               <bounds x="192" y="132" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
@@ -3442,7 +3631,6 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
         <child xsi:type="archimate:DiagramObject" id="id-20ed27128a6f42a0aca5c834a66c5fac" archimateElement="id-e8e0fadbd63b479d95144f268ac1d2af">
           <bounds x="12" y="-36" width="781" height="601"/>
           <feature name="iconVisible" value="2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-bed688e253fb4243840f3d1da018676f" source="id-20ed27128a6f42a0aca5c834a66c5fac" target="id-ad4db344b68c49f58007973eefbed39f" archimateRelationship="id-920d6a532b084981901a64b952a7add9"/>
           <child xsi:type="archimate:Group" id="id-113b82041e6c4b14a65cf34f97b29f6a" name="Begrippen en bedrijfsregels" textAlignment="1" fillColor="#ffffb5">
             <bounds x="12" y="24" width="373" height="181"/>
             <child xsi:type="archimate:DiagramObject" id="id-b5af6ee53a424591ac59f52a0c03ec8e" fillColor="#ffffff" textPosition="1" archimateElement="id-d8f49707cd50464faed61c5d8ec11625">
@@ -3492,15 +3680,15 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
               <bounds x="12" y="321" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-5c87ba140171482b8af11b1baf8dc191" targetConnections="id-26fd09a9bc1649219b03e8a39de89da2" fillColor="#ffffff" textPosition="1" archimateElement="id-0f85cbb16d5b48acbbe3cf7236dbdc2b">
+            <child xsi:type="archimate:DiagramObject" id="id-5c87ba140171482b8af11b1baf8dc191" fillColor="#ffffff" textPosition="1" archimateElement="id-0f85cbb16d5b48acbbe3cf7236dbdc2b">
               <bounds x="192" y="33" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-f224d78944bb4592b68c76cc03a5bee3" targetConnections="id-ee1d491b43a1474aa1a37e92f9d9a703" fillColor="#ffffff" textPosition="1" archimateElement="id-39b68135266a4b08be0c9bacacd8a5da">
+            <child xsi:type="archimate:DiagramObject" id="id-f224d78944bb4592b68c76cc03a5bee3" fillColor="#ffffff" textPosition="1" archimateElement="id-39b68135266a4b08be0c9bacacd8a5da">
               <bounds x="192" y="81" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-7a59923da2644e28b833766070bb9ec6" targetConnections="id-cb562e07c78f4cd6921c7a8e451b15ec" fillColor="#ffffff" textPosition="1" archimateElement="id-7f3f21e561764fe0bd54a826cb952254">
+            <child xsi:type="archimate:DiagramObject" id="id-7a59923da2644e28b833766070bb9ec6" fillColor="#ffffff" textPosition="1" archimateElement="id-7f3f21e561764fe0bd54a826cb952254">
               <bounds x="192" y="129" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
@@ -3547,11 +3735,11 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
               <bounds x="12" y="36" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-56eb2b22682747319289bd4d027f5468" targetConnections="id-ba39d108fe9e4ac7b5d8abec27f80ec0" fillColor="#ffffff" textPosition="1" archimateElement="id-e0903391f835401798f98afd39daea1a">
+            <child xsi:type="archimate:DiagramObject" id="id-56eb2b22682747319289bd4d027f5468" fillColor="#ffffff" textPosition="1" archimateElement="id-e0903391f835401798f98afd39daea1a">
               <bounds x="12" y="84" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-681a8dfb8e03438ba8bf14df6113269c" targetConnections="id-10cd88eaaa4d409493e44390f7331ab0" fillColor="#ffffff" textPosition="1" archimateElement="id-6502e902a19e4f4987a1340c7fefb05a">
+            <child xsi:type="archimate:DiagramObject" id="id-681a8dfb8e03438ba8bf14df6113269c" fillColor="#ffffff" textPosition="1" archimateElement="id-6502e902a19e4f4987a1340c7fefb05a">
               <bounds x="192" y="180" width="169" height="37"/>
               <feature name="iconVisible" value="2"/>
             </child>
@@ -3637,18 +3825,6 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
               <feature name="iconVisible" value="2"/>
             </child>
           </child>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-ad4db344b68c49f58007973eefbed39f" targetConnections="id-bed688e253fb4243840f3d1da018676f id-d04420fd6f5a4b2eb1d99e9d6e134e3e" archimateElement="id-a9426479d67d4614b26c009c8b5f8a5f">
-          <bounds x="927" y="724" width="120" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-ba39d108fe9e4ac7b5d8abec27f80ec0" source="id-ad4db344b68c49f58007973eefbed39f" target="id-56eb2b22682747319289bd4d027f5468" archimateRelationship="id-83add2029f0345e3a16f26041f6f4d14"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-e13e2eb5ae1e477f91e397ec7616d725" source="id-ad4db344b68c49f58007973eefbed39f" target="id-08e43ea8918940dbb446752b2b92d5d9" archimateRelationship="id-6e66a0ae9f1543ceb8665612ae3f36b4"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-cb562e07c78f4cd6921c7a8e451b15ec" source="id-ad4db344b68c49f58007973eefbed39f" target="id-7a59923da2644e28b833766070bb9ec6" archimateRelationship="id-6e66a0ae9f1543ceb8665612ae3f36b4"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-10cd88eaaa4d409493e44390f7331ab0" source="id-ad4db344b68c49f58007973eefbed39f" target="id-681a8dfb8e03438ba8bf14df6113269c" archimateRelationship="id-32066a8d30be4f81908902d5c1b80eb4"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-7ac4d478d9fe4029b86e5311cd8be0d0" source="id-ad4db344b68c49f58007973eefbed39f" target="id-8012235b93344f2280665cdfecc8d24b" archimateRelationship="id-6de96c7cfbc3483fb659379c7e39762e"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-ee1d491b43a1474aa1a37e92f9d9a703" source="id-ad4db344b68c49f58007973eefbed39f" target="id-f224d78944bb4592b68c76cc03a5bee3" archimateRelationship="id-6de96c7cfbc3483fb659379c7e39762e"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-26fd09a9bc1649219b03e8a39de89da2" source="id-ad4db344b68c49f58007973eefbed39f" target="id-5c87ba140171482b8af11b1baf8dc191" archimateRelationship="id-0e8c70128ebf408abccde16aa65ec35a"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-9bc1c7a6a1e8482a8d2a04a6e5c9b7b8" source="id-ad4db344b68c49f58007973eefbed39f" target="id-0ef7f1aa696d452b8faeff58f2089b40" archimateRelationship="id-9a0d762f797644f4862abc513f98b1cc"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-2e206bb117614415bc3bc3378d7e3634" source="id-ad4db344b68c49f58007973eefbed39f" target="id-74e3f106b78245d8a865e467444a3985" archimateRelationship="id-a2b7b2d81dda49fd96fa8eff265fa34e"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Architectuurprincipes gerelateerd aan wetgeving" id="id-6b7bc157855642cea6dce7d3dc7e12bf">
