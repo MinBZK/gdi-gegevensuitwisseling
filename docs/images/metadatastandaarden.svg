@@ -2482,14 +2482,158 @@
          d="M851.75 617.841 851.75 628.195 787.84 628.195 787.84 617.841ZM641.76 605.052 641.76 633.676 998.438 633.676 998.438 605.052Z"
          id="path24-38" />
     </clipPath>
+    <clipPath
+       id="clip0-44">
+      <path
+         d="M476.812 303.581 476.812 313.934 410.467 313.934 410.467 303.581ZM404.989 262.166 404.989 359.612 482.29 359.612 482.29 262.166Z"
+         id="path1-43" />
+    </clipPath>
+    <clipPath
+       id="clip1-2">
+      <path
+         d="M418.38 332.814 418.38 343.168 352.035 343.168 352.035 332.814ZM346.557 251.204 346.557 475.937 428.118 475.937 428.118 251.204Z"
+         id="path2-57" />
+    </clipPath>
+    <clipPath
+       id="clip2-05">
+      <path
+         d="M681.323 245.114 681.323 255.467 614.979 255.467 614.979 245.114ZM487.768 239.632 487.768 359.612 686.801 359.612 686.801 239.632Z"
+         id="path3-21" />
+    </clipPath>
+    <clipPath
+       id="clip3-38">
+      <path
+         d="M256.475 208.572 256.475 218.925 192.565 218.925 192.565 208.572ZM187.087 203.09 187.087 483.245 467.682 483.245 467.682 203.09Z"
+         id="path4-65" />
+    </clipPath>
+    <clipPath
+       id="clip4-82">
+      <path
+         d="M481.681 418.688 481.681 429.041 434.205 429.041 434.205 418.688ZM428.727 379.101 428.727 469.237 487.159 469.237 487.159 379.101Z"
+         id="path5-6" />
+    </clipPath>
+    <clipPath
+       id="clip5-9">
+      <path
+         d="M569.329 376.055 569.329 386.409 501.767 386.409 501.767 376.055ZM487.159 368.138 487.159 595.916 574.807 595.916 574.807 368.138Z"
+         id="path6-94" />
+    </clipPath>
+    <clipPath
+       id="clip6-98">
+      <path
+         d="M756.189 333.423 756.189 343.777 699.583 343.777 699.583 333.423ZM463.421 327.942 463.421 359.612 995.395 359.612 995.395 327.942Z"
+         id="path7-4" />
+    </clipPath>
+    <clipPath
+       id="clip7-96">
+      <path
+         d="M565.068 354.739 565.068 365.093 541.33 365.093 541.33 354.739ZM487.768 349.258 487.768 370.574 618.631 370.574 618.631 349.258Z"
+         id="path8-55" />
+    </clipPath>
+    <clipPath
+       id="clip8-3">
+      <path
+         d="M366.034 411.379 366.034 440.004 330.732 440.004 330.732 411.379ZM312.472 372.401 312.472 475.937 428.727 475.937 428.727 372.401Z"
+         id="path9-5" />
+    </clipPath>
+    <clipPath
+       id="clip9-598">
+      <path
+         d="M492.028 531.968 492.028 542.321 424.466 542.321 424.466 531.968ZM418.988 488.726 418.988 586.172 497.506 586.172 497.506 488.726Z"
+         id="path10-01" />
+    </clipPath>
+    <clipPath
+       id="clip10-45">
+      <path
+         d="M401.946 473.501 401.946 483.854 338.036 483.854 338.036 473.501ZM312.472 468.019 312.472 489.335 428.118 489.335 428.118 468.019Z"
+         id="path11-06" />
+    </clipPath>
+    <clipPath
+       id="clip11-29">
+      <path
+         d="M1034.96 418.688 1034.96 429.041 977.135 429.041 977.135 418.688ZM971.657 379.101 971.657 469.237 1040.44 469.237 1040.44 379.101Z"
+         id="path12-30" />
+    </clipPath>
+    <clipPath
+       id="clip12-664">
+      <path
+         d="M1054.44 304.19 1054.44 314.543 1001.48 314.543 1001.48 304.19ZM996.003 262.166 996.003 359.612 1059.91 359.612 1059.91 262.166Z"
+         id="path13-923" />
+    </clipPath>
+    <clipPath
+       id="clip13-65">
+      <path
+         d="M928.442 318.806 928.442 329.16 864.532 329.16 864.532 318.806ZM845.054 244.505 845.054 359.612 1015.48 359.612 1015.48 244.505Z"
+         id="path14-96" />
+    </clipPath>
+    <clipPath
+       id="clip14-37">
+      <path
+         d="M1022.18 531.968 1022.18 542.321 989.917 542.321 989.917 531.968ZM984.439 488.117 984.439 585.563 1027.65 585.563 1027.65 488.117Z"
+         id="path15-58" />
+    </clipPath>
+    <clipPath
+       id="clip15-06">
+      <path
+         d="M682.541 531.968 682.541 542.321 613.153 542.321 613.153 531.968ZM607.675 488.726 607.675 586.172 688.019 586.172 688.019 488.726Z"
+         id="path16-1" />
+    </clipPath>
+    <clipPath
+       id="clip16-22">
+      <path
+         d="M649.673 413.815 649.673 424.169 617.413 424.169 617.413 413.815ZM611.935 378.492 611.935 468.628 655.151 468.628 655.151 378.492Z"
+         id="path17-32" />
+    </clipPath>
+    <clipPath
+       id="clip17-498">
+      <path
+         d="M594.284 522.832 594.284 533.186 570.546 533.186 570.546 522.832ZM487.768 467.41 487.768 607.488 618.631 607.488 618.631 467.41Z"
+         id="path18-4" />
+    </clipPath>
+    <clipPath
+       id="clip18-355">
+      <path
+         d="M770.797 464.365 770.797 474.719 700.192 474.719 700.192 464.365ZM677.671 458.884 677.671 480.2 786.622 480.2 786.622 458.884Z"
+         id="path19-78" />
+    </clipPath>
+    <clipPath
+       id="clip19-1">
+      <path
+         d="M778.101 533.795 778.101 544.148 707.496 544.148 707.496 533.795ZM677.671 477.764 677.671 604.443 786.622 604.443 786.622 477.764Z"
+         id="path20-49" />
+    </clipPath>
+    <clipPath
+       id="clip20-84">
+      <path
+         d="M759.232 421.124 759.232 431.477 726.973 431.477 726.973 421.124ZM659.411 378.492 659.411 468.628 822.534 468.628 822.534 378.492Z"
+         id="path21-63" />
+    </clipPath>
+    <clipPath
+       id="clip21-534">
+      <path
+         d="M384.294 647.075 384.294 657.428 327.688 657.428 327.688 647.075ZM311.863 482.636 311.863 662.91 1027.05 662.91 1027.05 482.636Z"
+         id="path22-4" />
+    </clipPath>
+    <clipPath
+       id="clip22-16">
+      <path
+         d="M760.45 632.458 760.45 642.812 703.844 642.812 703.844 632.458ZM451.856 605.052 451.856 648.293 1013.05 648.293 1013.05 605.052Z"
+         id="path23-01" />
+    </clipPath>
+    <clipPath
+       id="clip23-43">
+      <path
+         d="M851.75 617.841 851.75 628.195 787.84 628.195 787.84 617.841ZM641.76 605.052 641.76 633.676 998.438 633.676 998.438 605.052Z"
+         id="path24-5" />
+    </clipPath>
   </defs>
   <g
      inkscape:label="Laag 1"
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="matrix(0.26458333,0,0,0.26458333,-50.037664,-48.318798)"
-       id="g244">
+       transform="matrix(0.26458333,0,0,0.26458333,-49.252622,-47.653128)"
+       id="g245">
       <g
          id="g180">
         <g
@@ -2502,7 +2646,7 @@
                  d="m 240.423,38.3459 h 72.431 v 32.868 h -72.431 z"
                  fill="#ffffff"
                  transform="matrix(1,0,0,1.0006,181,197)"
-                 id="path25-8" />
+                 id="path25-2" />
             </g>
             <g
                id="g26">
@@ -2513,7 +2657,7 @@
                  stroke-miterlimit="10"
                  fill="none"
                  transform="matrix(1,0,0,1.0006,181,197)"
-                 id="path26-43" />
+                 id="path26-2" />
             </g>
             <g
                id="g27">
@@ -3035,7 +3179,7 @@
                  id="path88" />
             </g>
             <g
-               clip-path="url(#clip0-56)"
+               clip-path="url(#clip0-44)"
                id="g89">
               <path
                  d="m 262.335,71.2139 v 40.1721 0 0 0 0 0 0 43.824"
@@ -3065,7 +3209,7 @@
                  id="path91" />
             </g>
             <g
-               clip-path="url(#clip1-48)"
+               clip-path="url(#clip1-2)"
                id="g92">
               <path
                  d="m 240.423,60.2579 h -30.433 -1.826 l -1.218,0.6087 -1.217,1.2173 -1.217,1.2173 -0.609,1.2174 v 1.826 74.2574 0 0 0 0 0 0 18.868 l 1.217,0.609 1.218,1.217 0.608,1.218 -0.608,1.217 -1.218,1.217 -1.217,0.609 v 15.825 l 1.217,0.609 1.218,1.217 0.608,1.218 -0.608,1.217 -1.218,1.217 -1.217,0.609 v 78.518 1.826 l 0.609,1.217 1.217,1.218 1.217,1.217 1.218,0.609 h 1.826 30.433"
@@ -3084,7 +3228,7 @@
                  id="path93" />
             </g>
             <g
-               clip-path="url(#clip2-5)"
+               clip-path="url(#clip2-05)"
                id="g94">
               <path
                  d="m 312.854,52.9539 h 147.906 1.826 l 1.217,0.6087 1.218,1.2173 1.217,1.2173 0.609,1.2174 v 1.826 79.1264 l 1.217,0.609 1.217,1.217 0.609,1.217 -0.609,1.218 -1.217,1.217 -1.217,0.609 v 10.956"
@@ -3114,7 +3258,7 @@
                  id="path96" />
             </g>
             <g
-               clip-path="url(#clip3-37)"
+               clip-path="url(#clip3-38)"
                id="g97">
               <path
                  d="m 65.1272,279.378 h -15.8253 -1.826 l -1.2173,-0.609 -1.2173,-1.217 -1.2174,-1.218 -0.6086,-1.217 v -1.826 -250.7704 -1.826 l 0.6086,-1.2173 1.2174,-1.2173 1.2173,-1.2174 1.2173,-0.6086 h 1.826 221.5541 1.826 l 1.218,0.6086 1.217,1.2174 1.217,1.2173 0.609,1.2173 v 1.826 15.8253"
@@ -3144,7 +3288,7 @@
                  id="path99" />
             </g>
             <g
-               clip-path="url(#clip4-10)"
+               clip-path="url(#clip4-82)"
                id="g100">
               <path
                  d="M 276.943,188.078 V 264.77"
@@ -3174,7 +3318,7 @@
                  id="path102" />
             </g>
             <g
-               clip-path="url(#clip5-7)"
+               clip-path="url(#clip5-9)"
                id="g103">
               <path
                  d="m 312.854,177.122 h 60.258 1.826 l 1.217,0.608 1.218,1.218 1.217,1.217 0.609,1.217 v 1.826 199.643 1.826 l -0.609,1.217 -1.217,1.217 -1.218,1.218 -1.217,0.608 h -1.826 -60.258"
@@ -3204,7 +3348,7 @@
                  id="path105" />
             </g>
             <g
-               clip-path="url(#clip6-01)"
+               clip-path="url(#clip6-98)"
                id="g106">
               <path
                  d="m 288.508,155.21 v -9.13 -1.218 l 0.608,-1.217 0.609,-1.217 1.217,-0.609 1.218,-0.609 h 1.217 506.41 1.217 l 1.217,0.609 1.218,0.609 0.608,1.217 0.609,1.217 v 1.218 9.13"
@@ -3234,7 +3378,7 @@
                  id="path108" />
             </g>
             <g
-               clip-path="url(#clip7-99)"
+               clip-path="url(#clip7-96)"
                id="g109">
               <path
                  d="m 312.854,162.514 h 59.041 v 0 0 0 0 0 0 h 58.432"
@@ -3264,7 +3408,7 @@
                  id="path111" />
             </g>
             <g
-               clip-path="url(#clip8-15)"
+               clip-path="url(#clip8-3)"
                id="g112">
               <path
                  d="m 137.558,272.074 h 23.738 1.826 l 1.218,-0.609 1.217,-1.217 1.217,-1.218 0.609,-1.217 v -1.826 -75.475 -1.826 l 0.609,-1.217 1.217,-1.217 1.217,-1.218 1.218,-0.608 h 1.826 66.953"
@@ -3338,7 +3482,7 @@
                  id="path119" />
             </g>
             <g
-               clip-path="url(#clip9-07)"
+               clip-path="url(#clip9-598)"
                id="g120">
               <path
                  d="m 276.943,297.638 v 83.995"
@@ -3368,7 +3512,7 @@
                  id="path122" />
             </g>
             <g
-               clip-path="url(#clip10-84)"
+               clip-path="url(#clip10-45)"
                id="g123">
               <path
                  d="M 137.558,281.204 H 240.423"
@@ -3387,7 +3531,7 @@
                  id="path124" />
             </g>
             <g
-               clip-path="url(#clip11-30)"
+               clip-path="url(#clip11-29)"
                id="g125">
               <path
                  d="M 824.742,188.078 V 264.77"
@@ -3447,7 +3591,7 @@
                  id="path130" />
             </g>
             <g
-               clip-path="url(#clip12-74)"
+               clip-path="url(#clip12-664)"
                id="g131">
               <path
                  d="m 846.654,71.2139 v 40.7801 0 0 0 0 0 0 43.216"
@@ -3477,7 +3621,7 @@
                  id="path133" />
             </g>
             <g
-               clip-path="url(#clip13-54)"
+               clip-path="url(#clip13-65)"
                id="g134">
               <path
                  d="m 670.141,53.5626 h 38.955 1.826 l 1.217,0.6087 1.217,1.2173 1.218,1.2173 0.608,1.2173 v 1.826 60.8668 1.826 l 0.609,1.217 1.217,1.217 1.218,1.218 1.217,0.608 h 1.826 97.386 1.826 l 1.218,0.609 1.217,1.217 1.217,1.218 0.609,1.217 v 1.826 22.521"
@@ -3507,7 +3651,7 @@
                  id="path136" />
             </g>
             <g
-               clip-path="url(#clip14-26)"
+               clip-path="url(#clip14-37)"
                id="g137">
               <path
                  d="m 824.742,297.638 v 83.995"
@@ -3547,7 +3691,7 @@
                  id="path140" />
             </g>
             <g
-               clip-path="url(#clip15-43)"
+               clip-path="url(#clip15-06)"
                id="g141">
               <path
                  d="m 466.847,297.638 v 83.995"
@@ -3577,7 +3721,7 @@
                  id="path143" />
             </g>
             <g
-               clip-path="url(#clip16-6)"
+               clip-path="url(#clip16-22)"
                id="g144">
               <path
                  d="m 452.239,188.078 v 33.476 0 0 0 0 0 0 43.216"
@@ -3617,7 +3761,7 @@
                  id="path147" />
             </g>
             <g
-               clip-path="url(#clip17-499)"
+               clip-path="url(#clip17-498)"
                id="g148">
               <path
                  d="m 312.854,403.545 h 82.17 1.826 l 1.217,-0.608 1.218,-1.218 1.217,-1.217 0.609,-1.217 v -1.826 -66.953 0 0 0 0 0 0 -45.042 -1.826 l 0.608,-1.217 1.218,-1.217 1.217,-1.218 1.217,-0.608 h 1.826 23.13"
@@ -3647,7 +3791,7 @@
                  id="path150" />
             </g>
             <g
-               clip-path="url(#clip18-75)"
+               clip-path="url(#clip18-355)"
                id="g151">
               <path
                  d="m 598.318,272.074 h -43.823 v 0 0 0 0 0 0 h -51.737"
@@ -3687,7 +3831,7 @@
                  id="path154" />
             </g>
             <g
-               clip-path="url(#clip19-37)"
+               clip-path="url(#clip19-1)"
                id="g155">
               <path
                  d="m 598.318,396.241 h -30.433 -1.826 l -1.217,-0.608 -1.217,-1.218 -1.218,-1.217 -0.608,-1.217 v -1.826 -97.387 -1.826 l -0.609,-1.217 -1.218,-1.217 -1.217,-1.218 -1.217,-0.608 h -1.826 -52.954"
@@ -3727,7 +3871,7 @@
                  id="path158" />
             </g>
             <g
-               clip-path="url(#clip20-8)"
+               clip-path="url(#clip20-84)"
                id="g159">
               <path
                  d="m 488.759,188.078 v 34.694 1.826 l 0.608,1.217 1.218,1.217 1.217,1.218 1.217,0.608 h 1.826 133.907 1.826 l 1.217,0.609 1.217,1.217 1.218,1.218 0.608,1.217 v 1.826 29.825"
@@ -3767,7 +3911,7 @@
                  id="path162" />
             </g>
             <g
-               clip-path="url(#clip21-54)"
+               clip-path="url(#clip21-534)"
                id="g163">
               <path
                  d="m 839.35,414.501 v 34.086 1.826 l -0.609,1.217 -1.217,1.217 -1.217,1.218 -1.218,0.608 h -1.826 -652.489 -1.826 l -1.218,-0.608 -1.217,-1.218 -1.217,-1.217 -0.609,-1.217 v -1.826 -150.341 -1.826 l -0.609,-1.217 -1.217,-1.217 -1.217,-1.218 -1.218,-0.608 H 168.6 137.558"
@@ -3797,7 +3941,7 @@
                  id="path165" />
             </g>
             <g
-               clip-path="url(#clip22-29)"
+               clip-path="url(#clip22-16)"
                id="g166">
               <path
                  d="m 276.943,414.501 v 19.478 1.826 l 0.609,1.217 1.217,1.217 1.217,1.218 1.218,0.608 h 1.826 535.625 1.826 l 1.218,-0.608 1.217,-1.218 1.217,-1.217 0.609,-1.217 v -1.826 -19.478"
@@ -3827,7 +3971,7 @@
                  id="path168" />
             </g>
             <g
-               clip-path="url(#clip23-63)"
+               clip-path="url(#clip23-43)"
                id="g169">
               <path
                  d="m 466.847,414.501 v 7.304 1.218 0.608 l 0.608,0.609 1.218,1.217 h 0.608 1.218 335.983 1.217 0.609 l 0.609,-0.608 1.217,-1.218 v -0.608 -1.218 -7.304"
@@ -4256,7 +4400,7 @@
          transform="translate(303.966,321)"
          id="text207">SHACL</text>
       <rect
-         x="283"
+         x="207"
          y="327"
          width="73"
          height="19"
@@ -4266,7 +4410,7 @@
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(307.799,341)"
+         transform="translate(231.816,341)"
          id="text208">XSLT</text>
       <rect
          x="382"
@@ -4389,7 +4533,7 @@
          y="307"
          width="73"
          height="18"
-         fill="#d9d9d9"
+         fill="#ffffb5"
          id="rect218" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
@@ -4411,34 +4555,34 @@
          transform="translate(844.436,452)"
          id="text220">IIIF</text>
       <rect
-         x="207"
-         y="327"
+         x="244"
+         y="210"
          width="73"
-         height="19"
+         height="18"
          fill="#d9d9d9"
          id="rect220" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(235.733,341)"
-         id="text221">RIF</text>
+         transform="translate(258.592,223)"
+         id="text221">AsyncAPI</text>
       <rect
-         x="244"
-         y="210"
+         x="572"
+         y="555"
          width="73"
          height="18"
-         fill="#d9d9d9"
+         fill="#92d050"
          id="rect221" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(258.592,223)"
-         id="text222">AsyncAPI</text>
+         transform="translate(597.277,569)"
+         id="text222">StUF</text>
       <rect
          x="572"
-         y="555"
+         y="535"
          width="73"
          height="18"
          fill="#92d050"
@@ -4447,69 +4591,69 @@
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(597.277,569)"
-         id="text223">StUF</text>
-      <rect
-         x="572"
-         y="535"
-         width="73"
-         height="18"
-         fill="#92d050"
-         id="rect223" />
-      <text
-         font-family="Verdana, Verdana_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="9px"
          transform="translate(576.86,549)"
-         id="text224">Digikoppeling</text>
+         id="text223">Digikoppeling</text>
       <rect
          x="650"
          y="535"
          width="72"
          height="18"
          fill="#d9d9d9"
-         id="rect224" />
+         id="rect223" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="8px"
          transform="translate(654.609,548)"
-         id="text225">NL</text>
+         id="text224">NL</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="8px"
          transform="translate(667.942,548)"
-         id="text226">CloudEvents</text>
+         id="text225">CloudEvents</text>
       <rect
          x="650"
          y="555"
          width="72"
          height="18"
          fill="#baebfd"
-         id="rect226" />
+         id="rect225" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
          transform="translate(673.192,569)"
-         id="text227">SOAP</text>
+         id="text226">SOAP</text>
       <rect
          x="459"
          y="327"
          width="73"
          height="19"
          fill="#d9d9d9"
-         id="rect227" />
+         id="rect226" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
          transform="translate(472.359,341)"
-         id="text228">ArchiMate</text>
+         id="text227">ArchiMate</text>
       <rect
          x="741"
          y="555"
+         width="73"
+         height="18"
+         fill="#ffffb5"
+         id="rect227" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="9px"
+         transform="translate(758.618,569)"
+         id="text228">OID4VC</text>
+      <rect
+         x="741"
+         y="535"
          width="73"
          height="18"
          fill="#d9d9d9"
@@ -4518,12 +4662,12 @@
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(758.618,569)"
-         id="text229">OID4VC</text>
+         transform="translate(758.368,549)"
+         id="text229">W3C VC</text>
       <rect
-         x="741"
+         x="817"
          y="535"
-         width="73"
+         width="72"
          height="18"
          fill="#d9d9d9"
          id="rect229" />
@@ -4531,62 +4675,62 @@
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(758.368,549)"
-         id="text230">W3C VC</text>
-      <rect
-         x="817"
-         y="535"
-         width="72"
-         height="18"
-         fill="#d9d9d9"
-         id="rect230" />
-      <text
-         font-family="Verdana, Verdana_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="9px"
          transform="translate(822.52,549)"
-         id="text231">ISO 18013</text>
+         id="text230">ISO 18013</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
          transform="translate(873.52,549)"
-         id="text232">-</text>
+         id="text231">-</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
          transform="translate(877.686,549)"
-         id="text233">5</text>
+         id="text232">5</text>
       <rect
          x="817"
          y="555"
          width="72"
          height="18"
          fill="#baebfd"
-         id="rect233" />
+         id="rect232" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
          transform="translate(840.936,569)"
-         id="text234">X509</text>
+         id="text233">X509</text>
       <rect
          x="244"
          y="438"
          width="73"
-         height="18"
+         height="21"
+         fill="#d9d9d9"
+         id="rect233" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="9px"
+         transform="translate(250.842,452)"
+         id="text234">RegelSpraak</text>
+      <rect
+         x="777"
+         y="210"
+         width="73"
+         height="19"
          fill="#d9d9d9"
          id="rect234" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(255.676,452)"
-         id="text235">RuleSpeak</text>
+         transform="translate(797.778,224)"
+         id="text235">XACML</text>
       <rect
-         x="777"
-         y="210"
+         x="244"
+         y="417"
          width="73"
          height="19"
          fill="#d9d9d9"
@@ -4595,11 +4739,11 @@
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(797.778,224)"
-         id="text236">XACML</text>
+         transform="translate(267.509,431)"
+         id="text236">SBVR</text>
       <rect
-         x="244"
-         y="417"
+         x="777"
+         y="396"
          width="73"
          height="19"
          fill="#d9d9d9"
@@ -4608,92 +4752,98 @@
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(267.509,431)"
-         id="text237">SBVR</text>
-      <rect
-         x="777"
-         y="396"
-         width="73"
-         height="19"
-         fill="#d9d9d9"
-         id="rect237" />
-      <text
-         font-family="Verdana, Verdana_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="9px"
          transform="translate(799.565,410)"
-         id="text238">MDTO</text>
+         id="text237">MDTO</text>
       <rect
          x="1007"
          y="438"
          width="73"
          height="18"
          fill="#baebfd"
-         id="rect238" />
+         id="rect237" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
          transform="translate(1030.41,452)"
-         id="text239">DCAT</text>
+         id="text238">DCAT</text>
       <rect
-         x="738"
+         x="629"
          y="677"
          width="106"
          height="32"
          fill="#92d050"
+         id="rect238" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="9px"
+         transform="translate(642.139,696)"
+         id="text239">Verplicht door FS</text>
+      <rect
+         x="746"
+         y="677"
+         width="106"
+         height="33"
+         fill="#baebfd"
          id="rect239" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(750.395,696)"
-         id="text240">Verplicht door FS</text>
+         transform="translate(751.988,697)"
+         id="text240">Aanbevolen door FS</text>
       <rect
-         x="854"
+         x="860"
          y="677"
          width="106"
          height="33"
-         fill="#baebfd"
+         fill="#d9d9d9"
          id="rect240" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(860.243,697)"
-         id="text241">Aanbevolen door FS</text>
-      <rect
-         x="968"
-         y="677"
-         width="106"
-         height="33"
-         fill="#d9d9d9"
-         id="rect241" />
+         transform="translate(879.761,691)"
+         id="text241">Aanbevolen in</text>
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
-         transform="translate(988.017,691)"
-         id="text242">Aanbevolen in</text>
-      <text
-         font-family="Verdana, Verdana_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="9px"
-         transform="translate(992.85,702)"
-         id="text243">architectuur</text>
+         transform="translate(884.594,702)"
+         id="text242">architectuur</text>
       <rect
          x="741"
          y="417"
          width="73"
          height="19"
          fill="#d9d9d9"
-         id="rect243" />
+         id="rect242" />
       <text
          font-family="Verdana, Verdana_MSFontService, sans-serif"
          font-weight="400"
          font-size="9px"
          transform="translate(765.035,431)"
-         id="text244">TOOI</text>
+         id="text243">TOOI</text>
+      <rect
+         x="974"
+         y="677"
+         width="105"
+         height="33"
+         fill="#ffffb5"
+         id="rect243" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="9px"
+         transform="translate(1007.53,697)"
+         id="text244">Kansrij</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="9px"
+         transform="translate(1040.03,697)"
+         id="text245">k</text>
     </g>
   </g>
 </svg>
