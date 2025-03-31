@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="model"
     id="id-c19fe33f288b4f60838dc60620e97eab"
-    documentation="Een abstractie van enige aspecten van de werkelijkheid.">
+    documentation="Een vereenvoudigde representatie van een deel van de werkelijkheid.">
   <properties
       key="Heeft bron"
       value="NEN 3610:2022"/>

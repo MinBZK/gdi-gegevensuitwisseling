@@ -1,5 +1,5 @@
 <archimate:WorkPackage
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Standaardiseren NL GOV profile for CloudEvents en AsyncAPI"
+    name="Standaardiseren AsyncAPI"
     id="id-782b91c6380f47d180e9037741d46a96"
-    documentation="De standaarden &quot;NL GOV profile for CloudEvents&quot; en AsyncAPI zijn een belangrijke basis voor gebeurtenisgedreven gegevensuitwisseling, maar hebben op dit moment geen formele status binnen de overheid. Het sturen op het gebruik hiervan is wenselijk om te komen tot meer standaardisatie. De standaarden zouden aangeboden moeten worden aan Forum Standaardisatie zodat deze overheidsbreed aanbevolen of verplicht worden."/>
+    documentation="De standaard AsyncAPI is een belangrijke basis voor gebeurtenisgedreven gegevensuitwisseling, maar heeft op dit moment geen formele status binnen de overheid. Het sturen op het gebruik hiervan is wenselijk om te komen tot meer standaardisatie. De standaard zou aangeboden moeten worden aan Forum Standaardisatie zodat deze overheidsbreed aanbevolen of verplicht wordt."/>
