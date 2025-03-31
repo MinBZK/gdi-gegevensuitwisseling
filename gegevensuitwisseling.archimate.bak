@@ -543,7 +543,7 @@ Het is door organisaties zelf te bepalen aan welke partijen en afdelingen zij de
 </documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Standaarden" id="id-90484cc165104305a237032f84407803" profiles="id-0005c1b00a8b43d58de11d534fb0aeb2">
-        <documentation>&lt;p>In de domeinarchitectuur is een lijst van standaarden opgenomen die relevant zijn in het kader van gegevensuitwisseling. De basis voor deze lijst zijn de lijsten van Forum Standaardisatie. We hebben ervoor gekozen om alleen de generieke standaarden op te nemen en niet de toepassingsspecifieke standaarden. Deze standaarden zijn aangevuld met andere standaarden die we aanbevelen. We bevelen daarmee vooral aan om deze standaarden te bestuderen en hun inzet te overwegen bij het inrichten of aanpassen van gegevensuitwisseling. Het belangrijkste criterium voor het opnemen van deze standaarden is dat ze een belangrijke meerwaarde bieden t.o.v. andere standaarden. Standaarden in deze lijst die nog niet formeel zijn vastgesteld, maar wel als kansrijk worden gezien hebben een aparte status gekregen.&lt;/p>&#xD;
+        <documentation>&lt;p>In de domeinarchitectuur is een lijst van standaarden opgenomen die relevant zijn in het kader van gegevensuitwisseling. De basis voor deze lijst zijn de lijsten van Forum Standaardisatie. We hebben ervoor gekozen om alleen de generieke standaarden op te nemen en niet de toepassingsspecifieke standaarden. Deze standaarden zijn aangevuld met andere standaarden die we aanbevelen. We bevelen daarmee vooral aan om deze standaarden te bestuderen en hun inzet te overwegen bij het inrichten of aanpassen van gegevensuitwisseling. Het belangrijkste criterium voor het opnemen van deze standaarden is dat ze een belangrijke meerwaarde bieden t.o.v. andere standaarden.&lt;/p>&#xD;
 &lt;p>De standaarden zijn voorzien van een aantal standaard eigenschappen zoals de beheerorganisatie en een URL naar meer informatie. Ze zijn ook gekoppeld aan functies en bedrijfsobjecten zodat hun toepassingsgebied duidelijk is. Bij de standaarden van Forum Standaardisatie zijn ook de status en het functioneel toepassingsgebied overgenomen.&lt;/p></documentation>
         <property key="elementType" value="constraintStandaard"/>
       </element>
@@ -1541,6 +1541,7 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
         <property key="Status" value="geen"/>
         <property key="Beheerorganisatie" value="Geonovum"/>
         <property key="URL" value="https://geonovum.github.io/IMX-ModelMapping/"/>
+        <property/>
       </element>
       <element xsi:type="archimate:Constraint" name="ODRL" id="id-ce64114e055648af86127a0b29704e94" profiles="id-ac6c41bdfa5d4805be6b7aee7df9b6b7">
         <documentation>De Open Digital Rights Language (ODRL) is een taal voor het vastleggen van afspraken over gebruik van gegevens en diensten.</documentation>
