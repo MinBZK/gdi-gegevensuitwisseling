@@ -1,5 +1,13 @@
-Dit is de GitHub repository van de MIDO/GDI werkgroep gegevensuitwisseling. Deze werkgroep is verantwoordelijk voor de (door)ontwikkeling van de domeinarchitectuur gegevensuitwisseling. Versie 2.0 van deze domeinarchitectuur is formeel vastgesteld door de Programmeringsraad GDI op 12 september 2024. Op deze GitHub is tevens de werkversie beschikbaar, waarin nieuwe inzichten en aanvullingen worden verwerkt.
+Dit is de GitHub repository van de MIDO/GDI werkgroep gegevensuitwisseling. Deze werkgroep is verantwoordelijk voor de (door)ontwikkeling van de domeinarchitectuur gegevensuitwisseling. Versie 2.0 van deze domeinarchitectuur is formeel vastgesteld door de Programmeringsraad GDI op 12 september 2024. De meest recente versie is 2.0.3. 
 
-Kies de versie waarin je geïnteresseerd bent:
-* <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/2.0/content/index.html">Vastgestelde versie (2.0)</a>
-* <a href="werkversie.md">Werkversie</a> 
+De domeinarchitectuur is formeel gepubliceerd op NORAonline.nl en beschikbaar via: <a href="https://www.noraonline.nl/wiki/Domeinarchitectuur_Gegevensuitwisseling">https://www.noraonline.nl/wiki/Domeinarchitectuur_Gegevensuitwisseling</a>
+
+Op deze GitHub zijn de ArchiMate modellen die ten grondslag liggen aan de domeinarchitectuur beschikbaar. Deze zijn beschikbaar in verschillende vormen: als ArchiMate bestand in het ArchiMate uitwisselformaat, als Archi bestand, als Archi HTML report en als een zelf-ontwikkelde HTML site, waarin je eenvoudig tussen de elementen kunt navigeren. Daarnaast is er voor gebruikers van de coArchi plug-in ook de mogelijkheid om de bestande direct in Archi in te lezen. Ook is er een PDF versie van de domeinarchitectuur als geheel beschikbaar per versie. In onderstaande tabel kun je de de verschillende bestanden, per beschikbare versie zien.
+
+<table>
+<tr><th>Versie</th><th>PDF</th><th>ArchiMate uitwisselformaat</th><th>Archi export</th><th>Archi HTML report</th><th>Zelfgemaakte HTML export</th></tr>
+<tr><td>werkversie</td><td></td><td><a href="gegevensuitwisseling.archimate">download</a></td><td><a href="gegevensuitwisseling.xml">download</a></td><td><a href="docs/index.html">bekijken</a></td><td><a href="werkversie.md">bekijken</a></td></tr>
+<tr><td>2.0.2</td><td><a href="docs/2.0.2/Domeinarchitectuur%20Gegevensuitwisseling.pdf">download</a></td><td><a href="docs/2.0.2/gegevensuitwisseling.archimate">download</a></td><td><a href="docs/2.0.2/gegevensuitwisseling.xml">download</a></td><td><a href="docs/2.0.2/index.html">bekijken</a></td><td><a href="docs/2.0.2/content/index.html">bekijken</a></td></tr>
+<tr><td>2.0.1</td><td><a href="docs/2.0.1/Domeinarchitectuur%20Gegevensuitwisseling.pdf">download</a></td><td><a href="docs/2.0.1/gegevensuitwisseling.archimate">download</a></td><td><a href="docs/2.0.1/gegevensuitwisseling.xml">download</a></td><td><a href="docs/2.0.1/index.html">bekijken</a></td><td><a href="docs/2.0.1/content/index.html">bekijken</a></td></tr>
+<tr><td>2.0.0</td><td><a href="docs/2.0.0/Domeinarchitectuur%20Gegevensuitwisseling.pdf">download</a></td><td><a href="docs/2.0.0/gegevensuitwisseling.archimate">download</a></td><td><a href="docs/2.0.0/gegevensuitwisseling.xml">download</a></td><td><a href="docs/2.0.0/index.html">bekijken</a></td><td><a href="docs/2.0.0/content/index.html">bekijken</a></td></tr>
+</table>
