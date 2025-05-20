@@ -2,6 +2,9 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="FSC componenten"
     id="id-9b71565c6dd644d2ba90970b4398e416">
+  <properties
+      key="Status"
+      value="gewenst"/>
   <profiles
       href="folder.xml#id-3fede1bbcb0941648a2c8a077a594cb1"/>
 </archimate:ApplicationComponent>
