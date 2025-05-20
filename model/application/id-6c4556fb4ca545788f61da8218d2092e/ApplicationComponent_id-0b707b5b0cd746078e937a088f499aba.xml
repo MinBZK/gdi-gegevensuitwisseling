@@ -9,6 +9,9 @@
   <properties
       key="URL"
       value="https://logius.nl/domeinen/infrastructuur/centraal-aansluitpunt"/>
+  <properties
+      key="Status"
+      value="huidig"/>
   <profiles
       href="folder.xml#id-10b1e85a34ea4c249cabccc0e17a4651"/>
 </archimate:ApplicationComponent>

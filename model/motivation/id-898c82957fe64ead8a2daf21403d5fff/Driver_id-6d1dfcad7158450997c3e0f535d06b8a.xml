@@ -1,8 +1,0 @@
-<archimate:Driver
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Kunstmatige intelligentie (AI)"
-    id="id-6d1dfcad7158450997c3e0f535d06b8a"
-    documentation="Mede door de toegenomen hoeveelheid beschikbare gegevens is er veel aandacht voor kunstmatige intelligentie. Er ontstaan allerlei nieuwe mogelijkheden in het gebruik van gegevens. Daarmee is er ook een grotere behoefte aan de beschikbaarheid en uitwisseling van gegevens. Tegelijkertijd ontstaan er allerlei nieuwe risico's en dilemma's bij het gebruik van kunstmatige intelligentie, met name op het gebied van privacy en ethiek.">
-  <profiles
-      href="folder.xml#id-7be84c5323e54f1b9e45b26375c7309b"/>
-</archimate:Driver>

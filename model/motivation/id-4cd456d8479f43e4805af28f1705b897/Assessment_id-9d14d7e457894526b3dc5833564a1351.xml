@@ -1,5 +1,0 @@
-<archimate:Assessment
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Gegevens opgesloten in systemen"
-    id="id-9d14d7e457894526b3dc5833564a1351"
-    documentation="Gegevens zitten vaak nog te veel opgesloten in (oude) systemen en kunnen daardoor niet makkelijk gedeeld of uitgewisseld worden. En ook bij het bouwen van nieuwe systemen zijn de gegevens soms nog niet goed los van de applicaties beschikbaar. Van standaard applicaties is ook niet altijd voldoende documentatie beschikbaar over het gehanteerde gegevensmodel, waardoor ook niet duidelijk is welke gegevens precies beschikbaar zijn."/>

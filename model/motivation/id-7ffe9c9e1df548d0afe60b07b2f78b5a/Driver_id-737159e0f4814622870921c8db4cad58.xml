@@ -1,9 +1,0 @@
-<archimate:Driver
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Beleid"
-    id="id-737159e0f4814622870921c8db4cad58">
-  <properties
-      key="exclude"/>
-  <profiles
-      href="folder.xml#id-d47de2a822304367b35fa6d2442d6060"/>
-</archimate:Driver>

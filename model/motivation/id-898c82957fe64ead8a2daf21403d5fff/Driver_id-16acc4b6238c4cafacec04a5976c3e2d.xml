@@ -1,8 +1,0 @@
-<archimate:Driver
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Veel Europese regelgeving"
-    id="id-16acc4b6238c4cafacec04a5976c3e2d"
-    documentation="Europa streeft actief naar ongehinderd gegevensverkeer binnen de EU en tussen sectoren, met toepassing van de Europese regels en waarden, met name die ter bescherming van persoonsgegevens. Er wordt vanuit Europa allerlei nieuwe wet- en regelgeving opgesteld rondom gegevens. Deze wet- en regelgeving vraagt ook integratie van gegevens op Europees niveau. Daarmee wordt veel van de verandering rondom gegevensuitwisseling bepaald vanuit Europa. Dit vraagt veel van overheidsorganisaties en genereert allerlei vragen bij de implementatie.">
-  <profiles
-      href="folder.xml#id-7be84c5323e54f1b9e45b26375c7309b"/>
-</archimate:Driver>

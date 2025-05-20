@@ -1,9 +1,0 @@
-<archimate:Meaning
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="bericht"
-    id="id-93ec1387d3734a0cb4ef5275a27fd0a8"
-    documentation="Een afgebakende hoeveelheid gegevens die een verzender naar een ontvanger stuurt.">
-  <properties
-      key="Is gerelateerd aan"
-      value="gegevens"/>
-</archimate:Meaning>
