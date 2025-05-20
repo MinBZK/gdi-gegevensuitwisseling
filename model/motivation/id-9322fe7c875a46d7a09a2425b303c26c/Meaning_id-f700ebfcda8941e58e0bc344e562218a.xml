@@ -1,9 +1,0 @@
-<archimate:Meaning
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="bronhouder"
-    id="id-f700ebfcda8941e58e0bc344e562218a"
-    documentation="De verantwoordelijke voor de inhoud en kwaliteit van een registratie.">
-  <properties
-      key="Toelichting"
-      value="Een bronhouder is verantwoordelijk voor het inwinnen en bijhouden van de authentieke en&#xA;niet-authentieke gegevens in een registratie en voor het borgen van de kwaliteit van die gegevens&#xA;(onder meer naar aanleiding van ontvangen terugmeldingen)."/>
-</archimate:Meaning>

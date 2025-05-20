@@ -1,5 +1,0 @@
-<archimate:WorkPackage
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="eDelivery als Digikoppeling koppelvlakstandaard ondersteunen"
-    id="id-51b7d96c3c8143a6a0aab1ab35691a81"
-    documentation="De ebMS2 standaard is technisch verouderd. De Europese e-Delivery standaard ondersteunt de nieuwe ebMS3 standaard en is ook goed binnen Nederland te gebruiken. Het zou daarom goed zijn als de e-Delivery standaard toegevoegd zou worden als koppelvlakstandaard aan Digikoppeling. Er zijn bij de e-Delivery standaard een aantal (software)bouwstenen beschikbaar, die mogelijk ook onderdeel zouden kunnen worden van de GDI en daarmee breed beschikbaar zouden kunnen worden gesteld aan overheidsorganisaties. Het vraagt nader onderzoek om te bepalen of dit meerwaarde heeft."/>

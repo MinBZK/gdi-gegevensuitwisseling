@@ -1,9 +1,0 @@
-<archimate:Meaning
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="gebeurtenistype"
-    id="id-1b259db36bce4ea1b2c9617d76ecee5e"
-    documentation="De typering van een groep gebeurtenissen die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.">
-  <properties
-      key="Redactionele notitie"
-      value="Deze definitie volgt dezelfde structuur als die van objecttype, omdat ze beiden een groepering van attribuutsoorten zijn."/>
-</archimate:Meaning>

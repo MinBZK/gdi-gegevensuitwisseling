@@ -1,9 +1,0 @@
-<archimate:Meaning
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="locatie"
-    id="id-601d85b84c7a465193abb120b7c0ee63"
-    documentation="Een positie relatief ten opzichte van de aarde.">
-  <properties
-      key="Redactionele notitie"
-      value="Deze definitie is gebaseerd op NEN 3610:2022, maar die bevat geen formele definitie."/>
-</archimate:Meaning>

@@ -1,8 +1,0 @@
-<archimate:Driver
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Wet hergebruik overheidsinformatie"
-    id="id-e7bfc1cbbc064b6e9ff53a427cc78fb9"
-    documentation="De Wet hergebruik overheidsinformatie (Who) is bedoeld om de openheid en het hergebruik van gegevens, die door organisaties met een publieke taak worden beheerd, te verbeteren. Dit om de waarde van die informatie voor het maatschappelijk en economisch verkeer te ondersteunen en vergroten. De overheid wil meer openheid over wat zij doet. Veel informatie is daarom openbaar, vrij te gebruiken en te verspreiden. Personen kunnen, volgens de Who, een verzoek indienen om hergebruik van informatie mogelijk te maken. Als deze informatie vervolgens geleverd wordt, moet deze in een open en machineleesbaar formaat aangeboden worden. De aanpassing van de Who aan de Open Data Directive zorgt ervoor dat er meer soorten organisaties aan de wet moeten voldoen. Andere nieuwe verplichtingen hebben betrekking op onder meer specifieke hoogwaardige gegevenssets, dynamische gegevens en onderzoeksgegevens.">
-  <profiles
-      href="folder.xml#id-9a653edb2b4d4f3db01084267f44519e"/>
-</archimate:Driver>
