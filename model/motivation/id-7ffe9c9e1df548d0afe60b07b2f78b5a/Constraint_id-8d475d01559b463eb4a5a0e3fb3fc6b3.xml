@@ -1,9 +1,0 @@
-<archimate:Constraint
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Standaard"
-    id="id-8d475d01559b463eb4a5a0e3fb3fc6b3">
-  <properties
-      key="exclude"/>
-  <profiles
-      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
-</archimate:Constraint>
