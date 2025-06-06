@@ -1,5 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Data-element"
+    name="Gegevenselement"
     id="id-b8382723adde49209c8e6ba8d3130fd5"
     documentation="Eenheid van gegevens die in een bepaalde context als ondeelbaar wordt beschouwd. (bron: ISO/IEC 11179-30:2023)"/>

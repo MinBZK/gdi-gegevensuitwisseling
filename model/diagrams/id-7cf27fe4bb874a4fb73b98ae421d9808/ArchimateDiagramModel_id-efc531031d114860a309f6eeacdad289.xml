@@ -406,7 +406,7 @@
         value="2"/>
     <features
         name="labelExpression"
-        value="Data-&#xD;&#xA;element"/>
+        value="Gegevens-&#xD;&#xA;element"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-d5384432eb894d6387f08876d7eddc69"
