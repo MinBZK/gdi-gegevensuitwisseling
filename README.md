@@ -13,4 +13,4 @@ Op deze GitHub zijn de ArchiMate modellen die ten grondslag liggen aan de domein
 <tr><td>2.0.0</td><td><a href="docs/2.0.0/Domeinarchitectuur%20Gegevensuitwisseling%202.0.pdf">download</a></td><td><a href="docs/2.0.0/gegevensuitwisseling.archimate">download</a></td><td><a href="docs/2.0.0/gegevensuitwisseling.xml">download</a></td><td><a href="https://minbzk.github.io/gdi-gegevensuitwisseling/2.0.0">bekijken</a></td><td><a href="https://minbzk.github.io/gdi-gegevensuitwisseling/2.0.0/content/index.html">bekijken</a></td></tr>
 </table>
 
-Er zijn <a href="instructies.md">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi. Daarnaast is er een beschrijving van het gehanteerde <a href="metamodel.md">metamodel</a>.
+Er zijn <a href="instructies.md">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi.
