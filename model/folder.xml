@@ -2,6 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gegevensuitwisseling"
     id="id-06c6c1de430644b9adb865225da06cba"
+    purpose="Dit document beschrijft de domeinarchitectuur voor gegevensuitwisseling, als onderdeel van de Generieke Digitale Infrastructuur. Het is opgesteld in een interbestuurlijke werkgroep met vertegenwoordigers van verschillende overheidsorganisaties. Het is een uitwerking van de Meerjarenvisie Digitale Overheid en de Architectuur Digitale Overheid."
     version="5.0.0">
   <profiles
       name="Standaard"
