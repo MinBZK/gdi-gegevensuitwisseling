@@ -1,7 +1,7 @@
 # Installeren en configureren Archi
 
 ## Voor lezers
-1. Installeren Archi versie 5.2.0: https://www.archimatetool.com/download/ 
+1. Installeren recentie versie Archi (getest met versie 5.2.0): https://www.archimatetool.com/download/ 
 2. Downloaden ArchiMate bestand
 3. Inlezen ArchiMate bestand in Archi (File>Open)
 
