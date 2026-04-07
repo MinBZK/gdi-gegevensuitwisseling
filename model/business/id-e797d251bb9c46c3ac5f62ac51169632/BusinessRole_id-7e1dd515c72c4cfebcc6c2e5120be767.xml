@@ -1,5 +1,5 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Afnemer"
+    name="Gegevensafnemer"
     id="id-7e1dd515c72c4cfebcc6c2e5120be767"
-    documentation="Een rol die gegevens afneemt en beschikbaar stelt aan gebruikers."/>
+    documentation="Een rol van een partij die gegevens van andere partijen afneemt en beschikbaar stelt voor gebruik."/>

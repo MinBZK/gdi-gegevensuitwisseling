@@ -1,5 +1,5 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Aanbieder"
+    name="Gegevensaanbieder"
     id="id-b3c2d26759f74122bea52f234b07e6d4"
     documentation="Een rol van een partij die gegevens beschikbaar maakt voor gegevensafnemers door gegevensdiensten aan te bieden op een dataset."/>

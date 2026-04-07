@@ -1,0 +1,5 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opdrachtgever"
+    id="id-996fe268578c484eb05d4254b44ac347"
+    documentation="Een rol van een partij die verantwoordelijk is voor een registratie en het beschikbaar stellen van gegevens uit deze registratie."/>
