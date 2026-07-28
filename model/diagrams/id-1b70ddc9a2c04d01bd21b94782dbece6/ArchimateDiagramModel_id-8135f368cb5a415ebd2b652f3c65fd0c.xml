@@ -1943,6 +1943,23 @@
           xsi:type="archimate:Constraint"
           href="Constraint_id-3cd7d97de1d44c39bec06dfefe442347.xml#id-3cd7d97de1d44c39bec06dfefe442347"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-b0c32209cd1847e48ce4163c5529122f"
+        fillColor="#feffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="348"
+          y="468"
+          width="157"
+          height="37"/>
+      <archimateElement
+          xsi:type="archimate:Constraint"
+          href="Constraint_id-46675c0708e740348ddd24e58696abb8.xml#id-46675c0708e740348ddd24e58696abb8"/>
+    </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-e8e0fadbd63b479d95144f268ac1d2af.xml#id-e8e0fadbd63b479d95144f268ac1d2af"/>

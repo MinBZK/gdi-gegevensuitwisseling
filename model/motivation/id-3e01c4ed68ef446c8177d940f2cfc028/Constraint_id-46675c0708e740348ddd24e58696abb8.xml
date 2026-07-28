@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Kwaliteitsregeltaal"
+    id="id-46675c0708e740348ddd24e58696abb8"
+    documentation="Kwaliteitsregeltaal biedt een eenvoudige, formele taal voor het definieren van kwaliteitsregels voor gegevens.">
+  <properties
+      key="Status"
+      value="geen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="NORA"/>
+  <properties
+      key="URL"
+      value="https://www.noraonline.nl/wiki/Kwaliteitsregeltaal"/>
+  <profiles
+      href="folder.xml#id-ac6c41bdfa5d4805be6b7aee7df9b6b7"/>
+</archimate:Constraint>

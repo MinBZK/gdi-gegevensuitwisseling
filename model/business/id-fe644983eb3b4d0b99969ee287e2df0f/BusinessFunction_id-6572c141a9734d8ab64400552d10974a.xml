@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Toetsen van gegevensuitwisseling aan privacy en ethiek"
+    name="Aansluiten dataset"
     id="id-6572c141a9734d8ab64400552d10974a"
-    documentation="Het controleren of een gewenste gegevensuitwisseling voldoet aan ethische en privacy waarden, normen en afspraken."/>
+    documentation="Het toevoegen van een dataset van een aanbieder zodat deze beschikbaar is voor afnemers, inclusief het controleren of deze dataset aan de opgestelde afspraken."/>
