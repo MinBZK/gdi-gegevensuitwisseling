@@ -1,33 +1,42 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1.5. De bron van de gegevens is leidend"
+    name="1.5. Gegevens worden in de bron beheerd en worden via een bijbehorend verstrekkingspunt verkregen op het moment dat ze nodig zijn"
     id="id-9ad7c4b354e34226a5d86d81f8adf280"
-    documentation="Het is belangrijk dat duidelijk is waar gegevens vandaan komen. Gegevens worden onderhouden in een bron. De bron is de plaats waar de kwaliteit van gegevens wordt bewaakt. Specifieke eisen m.b.t. performance of beschikbaarheid kunnen het lastig maken om gegevens technisch ook direct uit de bron op te halen. In een bepaalde gebruikscontext kan een gegevensdienst op een gecontroleerde kopie als verstrekkingspunt worden aangewezen (ervan uitgaande dat deze voldoet aan de gestelde kwaliteitseisen). De bron is wel de plaats waarnaar gerefereerd moet worden, omdat het de plaats is waar gegeven hun legitimiteit aan ontlenen. Als een intermediair gegevens inhoudelijk bewerkt (op basis van afleidingsregels) dan ontstaan er feitelijk andere gegevens en dus een nieuwe (afgeleide) bron.">
+    documentation="De juistheid van gegevens kan alleen worden geborgd als wijzigingen worden aangebracht op de plaats waar de gegevens worden beheerd en geraadpleegd. Gegevens bij een verstrekkingspunt halen voorkomt het gebruik van niet meer actuele gegevens. Hun authenticiteit is dan ook duidelijk en ze zijn eenvoudiger te beperken tot wat nodig is voor een specifieke afnemer en gebruik (dataminimalisatie). Toegangscontrole bij de aanbieder van de bron borgt de controle van autorisatieregels voordat toegang wordt verschaft">
   <properties
       key="Implicaties"
-      value="1. Er zijn bronnen aangewezen voor specifieke soorten gegevens."/>
+      value="1. Bronhouders en aanbieders begrijpen de eisen en verantwoordelijkheden die voortvloeien uit het halen bij de bron en zijn hierop aanspreekbaar."/>
   <properties
       key="Implicaties"
-      value="2. In gebruikscontexten kunnen verstrekkingspunten worden aangewezen voor specifieke gegevens, waarbij wettelijke bepalingen leidend zijn."/>
+      value="2. Afnemers en gebruikers begrijpen en accepteren dat het verkrijgen van gegevens bij een verstrekkingspunt de afhankelijkheid van anderen verhoogt en dat het maken van afspraken nodig is."/>
   <properties
       key="Implicaties"
-      value="3. Verstrekkingspunten zijn gecontroleerd, voldoen aan gestelde kwaliteitseisen en daar wordt periodiek op gemonitord."/>
+      value="3. Er zijn in onderling overleg en verstrekkingspunten aangewezen voor specifieke gegevens."/>
   <properties
       key="Implicaties"
-      value="4. Gegevens worden opgehaald bij en/of ontvangen van de bron of een verstrekkingspunt."/>
+      value="4. Gegevens worden via verstrekkingspunten aangeboden conform eisen en met afnemers gemaakte afspraken, zoals over kwaliteit en serviceniveau."/>
   <properties
       key="Implicaties"
-      value="5. Als gegevens met een hoge actualiteit (of juist historische gegevens) nodig zijn dan worden deze direct bij de bron of een verstrekkingspunt geraadpleegd."/>
+      value="5. Verstrekkingspunten controleren of afnemers toegang mogen krijgen tot gegevens."/>
   <properties
       key="Implicaties"
       value="6. Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron."/>
   <properties
       key="Implicaties"
-      value="7. Er wordt geen lokale kopie van gegevens gemaakt, tenzij er specifieke eisen zijn die daarom vragen."/>
+      value="7. Bij elk gebruik van gegevens bepalen de gebruiksdoelen en kwaliteitseisen hoe gegevens worden verzameld, opgeslagen, bewerkt en uitgewisseld."/>
   <properties
       key="Implicaties"
-      value="8. Raadplegen, zoeken en selecteren van gegevens bij een bron heeft de voorkeur boven het uitwisselen van gegevens. "/>
+      value="8. Afnemers kunnen geinformeerd worden over wijzigingen in gegevens in bronnen, zodat zij op basis daarvan relevante processen kunnen starten."/>
   <properties
       key="Implicaties"
-      value="9. Het is voor gebruikers duidelijk op welke bronnen de gegevens die zij zien zijn gebaseerd."/>
+      value="9. Als er een kopie wordt gemaakt van gegevens dan zijn hiervoor belangrijke argumenten en worden er duidelijke afspraken over gemaakt. "/>
+  <properties
+      key="Implicaties"
+      value="10. Als gegevens niet direct uit de bron worden verkregen dan is duidelijk hoe zij tot stand zijn gekomen."/>
+  <properties
+      key="Implicaties"
+      value="11. De bron is in staat de formele historie van de gegevens te reproduceren, zodat afnemers geen kopie hoeven te maken ten behoeve van historie."/>
+  <properties
+      key="Implicaties"
+      value="12. Er is duidelijk hoelang de gegevens beschikbaar blijven in de bron, zodat afnemers weten of ze voor archiefdoeleinden een kopie moeten maken."/>
 </archimate:Principle>

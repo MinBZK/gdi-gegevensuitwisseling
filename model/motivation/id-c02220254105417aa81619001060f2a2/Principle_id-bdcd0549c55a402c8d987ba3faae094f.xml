@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="4.2. Registraties bieden historische gegevens aan"
     id="id-bdcd0549c55a402c8d987ba3faae094f"
-    documentation="Registraties zijn de formele bron voor de gegevens die ze beheren. Formele registraties zoals sector- en basisregistraties zijn een belangrijke basis voor de Nederlandse overheid en er zal op allerlei manieren naar ze worden gerefereerd. Het is belangrijk dat er geen discussie kan ontstaan over welke gegevens er op een bepaald moment onderdeel waren van een registratie, ook in juridische zin.">
+    documentation="Registraties zijn de formele bron voor de gegevens die ze beheren. Formele registraties zoals sector- en basisregistraties zijn een belangrijke basis voor de Nederlandse overheid en er zal op allerlei manieren naar ze worden gerefereerd. Het is belangrijk dat er geen discussie kan ontstaan over welke gegevens er op een bepaald moment onderdeel waren van een registratie, ook in juridische zin. Het beschikbaar stellen van historie voorkomt ook dat afnemers een eigen historische kopie van gegevens moeten bewaren.">
   <properties
       key="Implicaties"
       value="1. Nieuwe formele overheidsregistraties die worden ontwikkeld leggen de formele historie van gegevens vast."/>
