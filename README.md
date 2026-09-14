@@ -1,4 +1,4 @@
-Dit is de GitHub repository van de MIDO/GDI werkgroep gegevensuitwisseling. Deze werkgroep is verantwoordelijk voor de (door)ontwikkeling van de domeinarchitectuur gegevensuitwisseling. Versie 2.0 van deze domeinarchitectuur is formeel vastgesteld door de Programmeringsraad GDI op 12 september 2024. De meest recente versie is 2.0.3. 
+Dit is de GitHub repository van de MIDO/GDI werkgroep gegevensuitwisseling. Deze werkgroep is verantwoordelijk voor de (door)ontwikkeling van de domeinarchitectuur gegevensuitwisseling. Versie 2.0 van deze domeinarchitectuur is formeel vastgesteld door de Programmeringsraad GDI op 12 september 2024. De meest recente versie is 2.1 die is gepubliceerd op 1p september 2026. 
 
 De domeinarchitectuur is formeel gepubliceerd op NORAonline.nl en beschikbaar via: <a href="https://www.noraonline.nl/wiki/Domeinarchitectuur_Gegevensuitwisseling">https://www.noraonline.nl/wiki/Domeinarchitectuur_Gegevensuitwisseling</a>
 
