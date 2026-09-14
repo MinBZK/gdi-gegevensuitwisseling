@@ -1,21 +1,24 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1.8. Uitwisseling van gegevens wordt gelogd als deze later aantoonbaar moet zijn"
+    name="1.8. Vertrouwen in gegevensuitwisseling is gebaseerd op verifieerbare verklaringen"
     id="id-deb4667d24eb494c919800436a77358c"
-    documentation="Logging van gegevensuitwisselingen (verzendingen en ontvangsten) maakt het mogelijk om op een later moment aan te tonen dat gegevensuitwisselingen hebben plaatsgevonden (onweerlegbaarheid). Dat is met name relevant bij de uitwisseling van persoonsgegevens, maar bijvoorbeeld ook bij het aanleveren van gegevens aan een landelijke registratie. Het faciliteert verder foutanalyse, procesanalyse, misbruikdetectie, forensisch onderzoek en onderlinge verrekening van diensten. Auditlogging is in het algemeen een plicht vanuit het perspectief van informatiebeveiliging. ">
+    documentation="Digitale gegevensuitwisseling vereist dat partijen kunnen vertrouwen op uitspraken over bijvoorbeeld identiteiten, bevoegdheden en gegevens. Daarom moet gegevensuitwisseling, waar nodig, gebruik maken van verifieerbare verklaringen die onafhankelijk controleerbaar zijn. Verifieerbare verklaringen bestaan er in verschillende vormen, maar bouwen typisch op cryptografische mechanismen. Binnen Europa is hiervoor een stelsel van afspraken, standaarden en vertrouwensdiensten in het kader van eIDAS. Verifieerbare verklaringen spelen daarbij een centrale rol voor uiteenlopende doeleinden, zoals het vaststellen van identiteiten en bevoegdheden, het aantonen van de herkomst en integriteit van gegevens, en het ondersteunen van toezicht, verantwoording en geschilbeslechting.">
   <properties
       key="Implicaties"
-      value="1. Bronhouders afspraken maken met aanbieders over onweerlegbaarheid en logging."/>
+      value="1. Partijen gebruiken verifieerbare verklaringen voor het verkrijgen van vertrouwen in identiteiten, bevoegdheden, gegevens, gebeurtenissen en tijdstippen."/>
   <properties
       key="Implicaties"
-      value="2. Aanbieders loggen (metagegevens van) berichten die zijn verzonden, afnemers loggen (metagegevens van) berichten die zijn ontvangen als de uitwisseling later aantoonbaar moet zijn."/>
+      value="2. Waar passend worden Europese standaarden en vertrouwensdiensten toegepast, zoals bij het gebruik van de persoonlijke of business wallet."/>
   <properties
       key="Implicaties"
-      value="3. De logs van verzonden en ontvangen berichten zijn aan elkaar te relateren op basis van een gemeenschappelijke identificatie, zodat berichten die volgen uit één trigger aan elkaar gerelateerd kunnen worden."/>
+      value="3. Als uitwisseling van gegevens rechtsgevolgen heeft dan wordt onweerlegbaarheid ervan geborgd door verifieerbare verklaringen in combinatie met logging."/>
   <properties
       key="Implicaties"
-      value="4. Als hoge eisen aan onweerlegbaarheid worden gesteld dan worden aanvullende maatregelen overwogen, zoals het ondertekenen van berichten of het delegeren van logging naar een derde partij (clearing house)."/>
+      value="4. De vereiste mate van verifieerbaarheid is afhankelijk van de context en proportioneel aan het risico en de bijbehorende impact."/>
   <properties
       key="Implicaties"
-      value="5. De bewaartermijn van logs wordt expliciet bewaakt en gerespecteerd."/>
+      value="5. Een verklaring wordt alleen vertrouwd als deze valide, integer, authentiek en geldig is. "/>
+  <properties
+      key="Implicaties"
+      value="6. Verklaringen kunnen ook weer worden ingetrokken en partijen moeten daarom de geldigheid van verklaringen kunnen verifiëren."/>
 </archimate:Principle>
