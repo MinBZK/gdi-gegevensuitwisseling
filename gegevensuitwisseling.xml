@@ -3,6 +3,14 @@
   <name xml:lang="nl">Gegevensuitwisseling</name>
   <documentation xml:lang="nl">Dit document beschrijft de domeinarchitectuur voor gegevensuitwisseling, als onderdeel van de Generieke Digitale Infrastructuur. Het is opgesteld in een interbestuurlijke werkgroep met vertegenwoordigers van verschillende overheidsorganisaties. Het is een uitwerking van de Meerjarenvisie Digitale Overheid en de Architectuur Digitale Overheid.</documentation>
   <elements>
+    <element identifier="id-996fe268578c484eb05d4254b44ac347" xsi:type="BusinessRole">
+      <name xml:lang="nl">Opdrachtgever</name>
+      <documentation xml:lang="nl">Een rol van een partij die verantwoordelijk is voor een registratie en het beschikbaar stellen van gegevens uit deze registratie.</documentation>
+    </element>
+    <element identifier="id-d1ba75b42d3946c4867cac96235b289e" xsi:type="BusinessRole">
+      <name xml:lang="nl">Toezichthouder</name>
+      <documentation xml:lang="nl">Een rol van een partij die verantwoordelijk is voor het toezien of een registratie in overeenstemming met eisen, afspraken en wetgeving opereert.</documentation>
+    </element>
     <element identifier="id-0b68d37ce0bf43e5889c43744e9adfdb" xsi:type="BusinessRole">
       <name xml:lang="nl">Bronhouder</name>
       <documentation xml:lang="nl">Een rol van een partij die verantwoordelijk is voor de inhoud en kwaliteit van een registratie die als bron is aangewezen.</documentation>
@@ -14,6 +22,10 @@
     <element identifier="id-68f19d0b5d404a1d854d2547a20d3733" xsi:type="BusinessRole">
       <name xml:lang="nl">Toetsingscommissie</name>
       <documentation xml:lang="nl">Een rol die een onafhankelijk oordeel kan vellen over de wenselijkheid van het uitwisselen van gegevens vanuit het perspectief van privacy en ethiek.</documentation>
+    </element>
+    <element identifier="id-2bb2cbbcb3ad4d56ae86e7ce794d59e9" xsi:type="BusinessRole">
+      <name xml:lang="nl">Gegevensbeheerder</name>
+      <documentation xml:lang="nl">Een rol van een partij die verantwoordelijk is voor het beheren van gegevens.</documentation>
     </element>
     <element identifier="id-17639e1cdd3b498ca114e819d1d727a9" xsi:type="BusinessRole">
       <name xml:lang="nl">Verrekenhuis</name>
@@ -31,6 +43,10 @@
       <name xml:lang="nl">Gegevensaanbieder</name>
       <documentation xml:lang="nl">Een rol van een partij die gegevens beschikbaar maakt voor gegevensafnemers door gegevensdiensten aan te bieden op een dataset.</documentation>
     </element>
+    <element identifier="id-3b33dd3ea3fc4d65980075f2b7c9e78f" xsi:type="BusinessRole">
+      <name xml:lang="nl">Gegevensinwinner</name>
+      <documentation xml:lang="nl">Een rol van een partij die verantwoordelijk is voor het creëren van gegevens.</documentation>
+    </element>
     <element identifier="id-ab9cfceafd9e49bebc65ba491c76da1d" xsi:type="BusinessRole">
       <name xml:lang="nl">Gebruiker</name>
       <documentation xml:lang="nl">Een natuurlijk persoon die gegevens en/of functionaliteit gebruikt voor het uitvoeren van werkzaamheden.</documentation>
@@ -38,22 +54,6 @@
     <element identifier="id-e18c538700ac4c708486520f39c2146b" xsi:type="BusinessRole">
       <name xml:lang="nl">Gegevensarchivaris</name>
       <documentation xml:lang="nl">Een rol van een partij die verantwoordelijk is voor het langdurig bewaren en vernietigen van gegevens.</documentation>
-    </element>
-    <element identifier="id-2bb2cbbcb3ad4d56ae86e7ce794d59e9" xsi:type="BusinessRole">
-      <name xml:lang="nl">Gegevensbeheerder</name>
-      <documentation xml:lang="nl">Een rol van een partij die verantwoordelijk is voor het beheren van gegevens.</documentation>
-    </element>
-    <element identifier="id-3b33dd3ea3fc4d65980075f2b7c9e78f" xsi:type="BusinessRole">
-      <name xml:lang="nl">Gegevensinwinner</name>
-      <documentation xml:lang="nl">Een rol van een partij die verantwoordelijk is voor het creëren van gegevens.</documentation>
-    </element>
-    <element identifier="id-996fe268578c484eb05d4254b44ac347" xsi:type="BusinessRole">
-      <name xml:lang="nl">Opdrachtgever</name>
-      <documentation xml:lang="nl">Een rol van een partij die verantwoordelijk is voor een registratie en het beschikbaar stellen van gegevens uit deze registratie.</documentation>
-    </element>
-    <element identifier="id-d1ba75b42d3946c4867cac96235b289e" xsi:type="BusinessRole">
-      <name xml:lang="nl">Toezichthouder</name>
-      <documentation xml:lang="nl">Een rol van een partij die verantwoordelijk is voor het toezien of een registratie in overeenstemming met eisen, afspraken en wetgeving opereert.</documentation>
     </element>
     <element identifier="id-e8e0fadbd63b479d95144f268ac1d2af" xsi:type="BusinessFunction">
       <name xml:lang="nl">Beheren metagegevens</name>
@@ -350,6 +350,10 @@
       <name xml:lang="nl">Bericht</name>
       <documentation xml:lang="nl">Een afgebakende hoeveelheid gegevens die een verzender naar een ontvanger stuurt.</documentation>
     </element>
+    <element identifier="id-91c3b97a42f04243a51499384fba3a3d" xsi:type="BusinessObject">
+      <name xml:lang="nl">Bewerking</name>
+      <documentation xml:lang="nl">Een uitgevoerde activiteit die gegevens heeft omgezet naar andere gegevens.</documentation>
+    </element>
     <element identifier="id-5d14a03bdd4f4f93b68149da9192663e" xsi:type="BusinessObject">
       <name xml:lang="nl">Bestand</name>
       <documentation xml:lang="nl">Geordende verzameling van gegevens in elektronische vorm, die door een elektronisch apparaat met een naam kan worden behandeld en aangesproken.</documentation>
@@ -397,10 +401,6 @@
     <element identifier="id-c713b425f91c46ef860b8d0ade09b36c" xsi:type="BusinessObject">
       <name xml:lang="nl">Gebeurtenistype</name>
       <documentation xml:lang="nl">De typering van een groep gebeurtenissen die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.</documentation>
-    </element>
-    <element identifier="id-91c3b97a42f04243a51499384fba3a3d" xsi:type="BusinessObject">
-      <name xml:lang="nl">Bewerking</name>
-      <documentation xml:lang="nl">Een uitgevoerde activiteit die gegevens heeft omgezet naar andere gegevens.</documentation>
     </element>
     <element identifier="id-93bc6782f38841668be7440aca6f6616" xsi:type="ApplicationComponent">
       <name xml:lang="nl">Aanbieder component</name>
@@ -2047,6 +2047,24 @@
         </property>
       </properties>
     </element>
+    <element identifier="id-46675c0708e740348ddd24e58696abb8" xsi:type="Constraint">
+      <name xml:lang="nl">Kwaliteitsregeltaal</name>
+      <documentation xml:lang="nl">Kwaliteitsregeltaal biedt een eenvoudige, formele taal voor het definieren van kwaliteitsregels voor gegevens.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="nl">geen</value>
+        </property>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="nl">NORA</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="nl">https://www.noraonline.nl/wiki/Kwaliteitsregeltaal</value>
+        </property>
+        <property propertyDefinitionRef="specialization">
+          <value xml:lang="nl">Standaard</value>
+        </property>
+      </properties>
+    </element>
     <element identifier="id-5a30fe0f7f98492f9102dac8b3005d56" xsi:type="Constraint">
       <name xml:lang="nl">WS-Security</name>
       <documentation xml:lang="nl">Web Services Security (WS-Security) is een uitbreiding op de SOAP standaard, specifiek gerichty op beveiliging van Web Services.</documentation>
@@ -2257,24 +2275,6 @@
         </property>
       </properties>
     </element>
-    <element identifier="id-46675c0708e740348ddd24e58696abb8" xsi:type="Constraint">
-      <name xml:lang="nl">Kwaliteitsregeltaal</name>
-      <documentation xml:lang="nl">Kwaliteitsregeltaal biedt een eenvoudige, formele taal voor het definieren van kwaliteitsregels voor gegevens.</documentation>
-      <properties>
-        <property propertyDefinitionRef="propid-4">
-          <value xml:lang="nl">geen</value>
-        </property>
-        <property propertyDefinitionRef="propid-1">
-          <value xml:lang="nl">NORA</value>
-        </property>
-        <property propertyDefinitionRef="propid-2">
-          <value xml:lang="nl">https://www.noraonline.nl/wiki/Kwaliteitsregeltaal</value>
-        </property>
-        <property propertyDefinitionRef="specialization">
-          <value xml:lang="nl">Standaard</value>
-        </property>
-      </properties>
-    </element>
     <element identifier="id-6105d026a74846a09e27cae12adde94b" xsi:type="Principle">
       <name xml:lang="nl">5.1. Informatieproducten zijn herleidbaar naar de onderliggende gegevens en regels</name>
       <documentation xml:lang="nl">Het is belangrijk dat afnemers van informatieproducten weten hoe deze tot stand zijn gekomen. Ze willen weten welke onderliggende brongegevens zijn gebruikt en welke afleidingsregels daarop zijn toegepast. Hierdoor kunnen ze beter inschatten of de resulterende gegevens aansluiten bij hun informatiebehoefte en of ze voldoende betrouwbaar zijn. Het geeft ze vertrouwen in de mate waarin het informatieproduct aansluit bij hun eigen gebruik. De kwaliteit van de onderliggende brongegevens bepalen de kwaliteit van het informatieproduct.</documentation>
@@ -2294,35 +2294,44 @@
       </properties>
     </element>
     <element identifier="id-9ad7c4b354e34226a5d86d81f8adf280" xsi:type="Principle">
-      <name xml:lang="nl">1.5. De bron van de gegevens is leidend</name>
-      <documentation xml:lang="nl">Het is belangrijk dat duidelijk is waar gegevens vandaan komen. Gegevens worden onderhouden in een bron. De bron is de plaats waar de kwaliteit van gegevens wordt bewaakt. Specifieke eisen m.b.t. performance of beschikbaarheid kunnen het lastig maken om gegevens technisch ook direct uit de bron op te halen. In een bepaalde gebruikscontext kan een gegevensdienst op een gecontroleerde kopie als verstrekkingspunt worden aangewezen (ervan uitgaande dat deze voldoet aan de gestelde kwaliteitseisen). De bron is wel de plaats waarnaar gerefereerd moet worden, omdat het de plaats is waar gegeven hun legitimiteit aan ontlenen. Als een intermediair gegevens inhoudelijk bewerkt (op basis van afleidingsregels) dan ontstaan er feitelijk andere gegevens en dus een nieuwe (afgeleide) bron.</documentation>
+      <name xml:lang="nl">1.5. Gegevens worden in de bron beheerd en worden via een bijbehorend verstrekkingspunt verkregen op het moment dat ze nodig zijn</name>
+      <documentation xml:lang="nl">De juistheid van gegevens kan alleen worden geborgd als wijzigingen worden aangebracht op de plaats waar de gegevens worden beheerd en geraadpleegd. Gegevens bij een verstrekkingspunt halen voorkomt het gebruik van niet meer actuele gegevens. Hun authenticiteit is dan ook duidelijk en ze zijn eenvoudiger te beperken tot wat nodig is voor een specifieke afnemer en gebruik (dataminimalisatie). Toegangscontrole bij de aanbieder van de bron borgt de controle van autorisatieregels voordat toegang wordt verschaft</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">1. Er zijn bronnen aangewezen voor specifieke soorten gegevens.</value>
+          <value xml:lang="nl">1. Bronhouders en aanbieders begrijpen de eisen en verantwoordelijkheden die voortvloeien uit het halen bij de bron en zijn hierop aanspreekbaar.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">2. In gebruikscontexten kunnen verstrekkingspunten worden aangewezen voor specifieke gegevens, waarbij wettelijke bepalingen leidend zijn.</value>
+          <value xml:lang="nl">2. Afnemers en gebruikers begrijpen en accepteren dat het verkrijgen van gegevens bij een verstrekkingspunt de afhankelijkheid van anderen verhoogt en dat het maken van afspraken nodig is.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">3. Verstrekkingspunten zijn gecontroleerd, voldoen aan gestelde kwaliteitseisen en daar wordt periodiek op gemonitord.</value>
+          <value xml:lang="nl">3. Er zijn in onderling overleg en verstrekkingspunten aangewezen voor specifieke gegevens.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">4. Gegevens worden opgehaald bij en/of ontvangen van de bron of een verstrekkingspunt.</value>
+          <value xml:lang="nl">4. Gegevens worden via verstrekkingspunten aangeboden conform eisen en met afnemers gemaakte afspraken, zoals over kwaliteit en serviceniveau.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">5. Als gegevens met een hoge actualiteit (of juist historische gegevens) nodig zijn dan worden deze direct bij de bron of een verstrekkingspunt geraadpleegd.</value>
+          <value xml:lang="nl">5. Verstrekkingspunten controleren of afnemers toegang mogen krijgen tot gegevens.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">6. Het verwijzen naar een bron heeft de voorkeur boven het maken van een kopie van gegevens uit die bron.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">7. Er wordt geen lokale kopie van gegevens gemaakt, tenzij er specifieke eisen zijn die daarom vragen.</value>
+          <value xml:lang="nl">7. Bij elk gebruik van gegevens bepalen de gebruiksdoelen en kwaliteitseisen hoe gegevens worden verzameld, opgeslagen, bewerkt en uitgewisseld.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">8. Raadplegen, zoeken en selecteren van gegevens bij een bron heeft de voorkeur boven het uitwisselen van gegevens.</value>
+          <value xml:lang="nl">8. Afnemers kunnen geinformeerd worden over wijzigingen in gegevens in bronnen, zodat zij op basis daarvan relevante processen kunnen starten.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">9. Het is voor gebruikers duidelijk op welke bronnen de gegevens die zij zien zijn gebaseerd.</value>
+          <value xml:lang="nl">9. Als er een kopie wordt gemaakt van gegevens dan zijn hiervoor belangrijke argumenten en worden er duidelijke afspraken over gemaakt.</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="nl">10. Als gegevens niet direct uit de bron worden verkregen dan is duidelijk hoe zij tot stand zijn gekomen.</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="nl">11. De bron is in staat de formele historie van de gegevens te reproduceren, zodat afnemers geen kopie hoeven te maken ten behoeve van historie.</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="nl">12. Er is duidelijk hoelang de gegevens beschikbaar blijven in de bron, zodat afnemers weten of ze voor archiefdoeleinden een kopie moeten maken.</value>
         </property>
       </properties>
     </element>
@@ -2349,7 +2358,7 @@
     </element>
     <element identifier="id-20f197627a654049b7c1ffff515291f3" xsi:type="Principle">
       <name xml:lang="nl">3.6. De kwaliteit van gegevens is beschreven conform het landelijke raamwerk gegevenskwaliteit</name>
-      <documentation xml:lang="nl">Het is belangrijk dat gebruikers eenvoudig inzicht kunnen krijgen in de kwaliteit van gegevens, zodat zij begrijpen of deze aansluiten bij hun eigen gebruik. Door de naamgeving en inhoud van dimensies voor gegevenskwaliteit te standaardiseren, zijn deze beter begrijpelijk voor afnemers. Het NORA raamwerk gegevenskwaliteit is gebaseerd op wereldwijde ISO standaarden, breed afgestemd binnen de Nederlandse overheid en is ook de basis voor het federatief datastelsel.</documentation>
+      <documentation xml:lang="nl">Het is belangrijk dat gebruikers eenvoudig inzicht kunnen krijgen in de kwaliteit van gegevens, zodat zij begrijpen of deze aansluiten bij hun eigen gebruik. Door de naamgeving en inhoud van dimensies voor gegevenskwaliteit te standaardiseren, zijn deze beter begrijpelijk voor afnemers. Het NORA raamwerk gegevenskwaliteit is gebaseerd op wereldwijde ISO standaarden, breed afgestemd binnen de Nederlandse overheid en is ook de basis voor het Federatief Datastelsel.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">1. In de metagegevens van datasets zijn beschrijvingen van de kwaliteitseisen(normen) en gerealiseerde kwaliteit beschreven conform de structuur van het NORA raamwerk gegevenskwaliteit.</value>
@@ -2360,7 +2369,7 @@
       </properties>
     </element>
     <element identifier="id-a1d7faf077c6431d81a6acd66ffc5b29" xsi:type="Principle">
-      <name xml:lang="nl">1.7. Persoonsgegevens zijn beschermd bij het uitwisselen van gegevens</name>
+      <name xml:lang="nl">1.7. Gevoelige gegevens zijn beschermd bij het uitwisselen van gegevens</name>
       <documentation xml:lang="nl">De Europese datastrategie stelt dat het belang van de burger altijd op de eerste plaats moet komen, in overeenstemming met de Europese waarden, grondrechten en regels. Het is belangrijk om te voldoen aan eisen rondom privacy en informatiebeveiliging bij het uitwisselen van gegevens. Daarbij vragen met name persoonsgegevens aandacht omdat deze inherent privacygevoelig zijn en de uitwisseling alleen onder specifieke condities mogelijk is. Anderzijds wordt privacy vaak onterecht als blokkade gezien voor de uitwisseling van gegevens. Eisen aan de bescherming van persoonsgegevens (en daarmee privacy) zijn gesteld in de Algemene Verordening Gegevensbescherming.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
@@ -2370,7 +2379,7 @@
           <value xml:lang="nl">2. Voorafgaand aan het uitwisselen van gegevens vindt expliciete toetsing op privacy (door afnemer) en informatiebeveiliging plaats.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">3. Gegevensdiensten die persoonsgegevens ontsluiten zijn alleen toegankelijk voor geauthenticeerde en geautoriseerde afnemers.</value>
+          <value xml:lang="nl">3. Gegevensdiensten die gevoelige gegevens ontsluiten zijn alleen toegankelijk voor geauthenticeerde en geautoriseerde afnemers.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">4. Gegevens die worden uitgewisseld zijn geclassificeerd (in termen van beschikbaarheid, integriteit en vertrouwelijkheid) en op basis van deze classificatie zijn relevante maatregelen genomen.</value>
@@ -2391,10 +2400,10 @@
       <documentation xml:lang="nl">Door vanuit hergebruik naar de clustering van functionaliteit en gegevens te kijken wordt voorkomen dat specifieke afnemers eigen specifieke gegevens en gegevensdiensten vragen. Hergebruik van gegevensdiensten is efficiënter en meer beheersbaar dan het gebruik van point-to-point koppelingen omdat het tot minder koppelingen leidt. Tegelijkertijd vraagt dataminimalisatie aandacht, waardoor hergebruik lastiger kan zijn.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">1. Gegevensdiensten leveren een clustering van functionaliteit en gegevens die past bij de behoeften van een grote hoeveelheid afnemers.</value>
+          <value xml:lang="nl">1. Gegevensdiensten leveren gegevens die passen bij de behoeften van een grote hoeveelheid afnemers.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">2. Gegevensdiensten worden kenbaar gemaakt in developer.overheid.nl, data.overheid.nl en als het geografische gegevens betreft ook in het Nationaal Geo Register.</value>
+          <value xml:lang="nl">2. Gegevensdiensten worden kenbaar gemaakt in relevante catalogi zoals developer.overheid.nl, data.overheid.nl en het Nationaal Geo Register.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">3. Aanbieders van gegevensdiensten bieden afnemers testfaciliteiten zoals een testomgeving, testdata en/of testscripts, met name als de gegevensdienst meer behelst dan het ontsluiten van open data.</value>
@@ -2408,14 +2417,14 @@
       </properties>
     </element>
     <element identifier="id-b72405ee2dea40629a0a330260ede075" xsi:type="Principle">
-      <name xml:lang="nl">4.3. Aanbieders kunnen notificeren over belangrijke gebeurtenissen</name>
-      <documentation xml:lang="nl">Overheidsorganisaties willen worden geïnformeerd over gebeurtenissen waarop zij moeten acteren. De werkagenda waardegedreven digitaliseren stelt dat overheidsdienstverlening proactief zou moeten zijn en georganiseerd vanuit het perspectief van burgers en ondernemers o.a. aan de hand van levensgebeurtenissen. Dit betekent dat het belangrijk is om informatie over levensgebeurtenissen te delen.</documentation>
+      <name xml:lang="nl">4.3. Organisaties kunnen notificeren over belangrijke gebeurtenissen</name>
+      <documentation xml:lang="nl">Overheidsorganisaties willen worden geïnformeerd over gebeurtenissen waarop zij moeten acteren. Overheidsdienstverlening zou proactief moeten zijn en georganiseerd vanuit het perspectief van burgers en ondernemers o.a. aan de hand van levensgebeurtenissen. Dit betekent dat het belangrijk is om informatie over levensgebeurtenissen te delen.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">1. Organisaties definiëren expliciet welke (levens)gebeurtenissen zij op willen acteren en welke gegevensuitwisselingen met andere organisaties hiervoor nodig zijn.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">2. Aanbieders verstrekken notificaties als belangrijke gebeurtenissen plaatsvinden.</value>
+          <value xml:lang="nl">2. Organisaties verstrekken notificaties als belangrijke gebeurtenissen plaatsvinden.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">3. Er zijn mechanismen die borgen dat de notificaties daadwerkelijk worden ontvangen door afnemers.</value>
@@ -2493,7 +2502,7 @@
           <value xml:lang="nl">5. Bij gegevens die worden uitgewisseld is een verwijzing aanwezig naar het gebruikte schema.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">6. Data-elementen in schema’s verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren.</value>
+          <value xml:lang="nl">6. Gegevenselementen in schema’s verwijzen expliciet naar de objecttypen en attribuutsoorten die ze representeren.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">7. Er is bij de documentatie van diensten of operaties in gegevensdiensten beschreven welke beperkingsregels en afleidingsregels worden toegepast.</value>
@@ -2502,7 +2511,7 @@
     </element>
     <element identifier="id-6857a45330d3428fa0562f7db033d6df" xsi:type="Principle">
       <name xml:lang="nl">1.2. Gegevensuitwisseling is gebaseerd op open standaarden</name>
-      <documentation xml:lang="nl">Het tot stand brengen  van uitwisseling van gegevens kost vaak veel inspanning, doordat gegevens ontworpen zijn in een eigen context en er allerlei vertalingen nodig zijn om ze bruikbaar te maken in een andere context. Door gebruik te maken van uitwisselstandaarden wordt de variatie beperkt en zijn er minder vertalingen nodig. Open standaarden zorgen er ook voor dat leveranciersafhankelijkheden zoveel mogelijk worden voorkomen. In Nederland is het sturen op standaarden geformaliseerd in Forum Standaardisatie, die veel energie stopt in het bepalen en aanwijzen van standaarden die breed zouden moeten worden ingezet. In de Wet digitale overheid is beschreven dat in algemene maatregelen van bestuur bepaalde standaarden ook wettelijk verplicht kunnen worden gesteld.</documentation>
+      <documentation xml:lang="nl">Het tot stand brengen van uitwisseling van gegevens kost vaak veel inspanning, doordat gegevens ontworpen zijn in een eigen context en er allerlei vertalingen nodig zijn om ze bruikbaar te maken in een andere context. Door gebruik te maken van uitwisselstandaarden wordt de variatie beperkt en zijn er minder vertalingen nodig. Open standaarden zorgen er ook voor dat leveranciersafhankelijkheden zoveel mogelijk worden voorkomen. In Nederland is het sturen op standaarden geformaliseerd in Forum Standaardisatie, die veel energie stopt in het aanwijzen van standaarden die breed zouden moeten worden ingezet. In de Wet digitale overheid is beschreven dat in algemene maatregelen van bestuur bepaalde standaarden ook wettelijk verplicht kunnen worden gesteld.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">1. De standaarden op de “pas toe of leg uit” lijst van Forum Standaardisatie worden als eis meegegeven bij de selectie of ontwikkeling van systemen en gegevensuitwisselingen (of er wordt expliciet uitgelegd waarom ze niet van toepassing zijn).</value>
@@ -2565,13 +2574,16 @@
       <documentation xml:lang="nl">Afnemers willen worden ondersteund in hun specifieke informatie- of gegevensbehoefte. Ze willen deze bij voorkeur met een zo klein mogelijke inspanning ontvangen en gegevens liever ook niet zelf combineren en vertalen, als andere partijen dat voor ze kunnen doen tegen dezelfde of lagere kosten. Ze ontvangen gegevens bij voorkeur ook in hun eigen taal en in een formaat dat ze zelf direct kunnen gebruiken. Ze willen ook niet geconfronteerd worden met gegevens die ze niet nodig hebben. Dat sluit ook niet aan bij het principe van dataminimalisatie zoals beschreven in de AVG en levert alleen maar extra complexiteit en afhankelijkheden. Tegelijkertijd is ook de herbruikbaarheid van gegevensdiensten belangrijk en zal er dus een balans moeten worden gevonden tussen generiek en specifiek. Als slechts een klein deel van de afnemers specifieke eisen stelt dan is het de vraag of dat hogere kosten voor alle afnemers rechtvaardigt.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">1. De inhoud, omvang, taal, formaat en protocol van gegevensdiensten zijn afgestemd op de informatie- of gegevensbehoeften van groepen van afnemers.</value>
+          <value xml:lang="nl">1. Aanbieders onderzoeken structureel en pro-actief welke eisen en wensen m.b.t. de gegevens bestaan bij huidige en potentiële afnemers.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">2. Als meerdere afnemers een soortgelijke informatie- of gegevensbehoefte hebben dan wordt onderzocht of hiervoor een gemeenschappelijke gegevensdienst kan worden ingericht.</value>
+          <value xml:lang="nl">2. De inhoud, omvang, taal, formaat en protocol van gegevensdiensten zijn afgestemd op de informatie- of gegevensbehoeften van groepen van afnemers.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">3. Als meerdere afnemers gegevens willen in een andere taal, formaat of protocol dan de aanbieder kan of wil leveren dan wordt onderzocht of een voorziening deze vertalingen kan verzorgen.</value>
+          <value xml:lang="nl">3. Als meerdere afnemers een soortgelijke informatie- of gegevensbehoefte hebben dan wordt onderzocht of hiervoor een gemeenschappelijke gegevensdienst kan worden ingericht.</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="nl">4. Als meerdere afnemers gegevens willen in een andere taal, formaat of protocol dan de aanbieder kan of wil leveren dan wordt onderzocht of een voorziening deze vertalingen kan verzorgen.</value>
         </property>
       </properties>
     </element>
@@ -2601,13 +2613,13 @@
     </element>
     <element identifier="id-8418d8cf38694245bdd592d1a4583f1e" xsi:type="Principle">
       <name xml:lang="nl">2.1. Gegevensuitwisseling is federatief georganiseerd</name>
-      <documentation xml:lang="nl">De Europese datastrategie beoogt gegevensuitwisseling tussen en binnen sectoren te stimuleren middels gegevensruimtes. Inherent ligt de kennis van specifieke gegevens bij partijen in specifieke domeinen. Het is daarom het meest logisch om domeinen zelf verantwoordelijkheid te geven voor hun eigen gegevens. Binnen domeinen gelden ook specifieke eisen en zijn specifieke afspraken nodig. Tegelijkertijd zouden bepaalde gegevens ook buiten domeinen beschikbaar moeten zijn voor hergebruik. Samenwerkingen in domeinen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien. Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.</documentation>
+      <documentation xml:lang="nl">De Europese datastrategie beoogt gegevensuitwisseling tussen en binnen sectoren te stimuleren middels dataspaces. Inherent ligt de kennis van specifieke gegevens bij partijen in specifieke domeinen. Het is daarom het meest logisch om domeinen zelf verantwoordelijkheid te geven voor hun eigen gegevens. Binnen domeinen gelden ook specifieke eisen en zijn specifieke afspraken nodig. Tegelijkertijd zouden bepaalde gegevens ook buiten domeinen beschikbaar moeten zijn voor hergebruik. Samenwerkingen in domeinen kunnen starten tussen twee partijen, maar hebben vaak de potentie om te groeien. Voor het creëren van duurzame samenwerkingen is het afstemmen met andere mogelijke partijen belangrijk. Als wordt samengewerkt dan kunnen kosten en baten op een eerlijke manier worden gedeeld en kan worden geprofiteerd van schaalvoordeel. Hierdoor kunnen de drempels tot verdere samenwerking worden verlaagd voor nieuwe spelers.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">1. Gegevens worden decentraal, in domeinen, beheerd door partijen met de inhoudelijke domeinkennis.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">2. Domeinen zijn er zelf voor verantwoordelijk om hun gegevens aan te bieden, conform landelijke afspraken en standaarden voor breder hergebruik.</value>
+          <value xml:lang="nl">2. Domeinen zijn er zelf voor verantwoordelijk om hun gegevens en metagegevens aan te bieden, conform landelijke afspraken en standaarden voor breder hergebruik.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">3. Binnen domeinen wordt expliciete samenwerking gezocht tussen partijen die behoefte hebben aan dezelfde soorten gegevens.</value>
@@ -2655,7 +2667,7 @@
     </element>
     <element identifier="id-bdcd0549c55a402c8d987ba3faae094f" xsi:type="Principle">
       <name xml:lang="nl">4.2. Registraties bieden historische gegevens aan</name>
-      <documentation xml:lang="nl">Registraties zijn de formele bron voor de gegevens die ze beheren. Formele registraties zoals sector- en basisregistraties zijn een belangrijke basis voor de Nederlandse overheid en er zal op allerlei manieren naar ze worden gerefereerd. Het is belangrijk dat er geen discussie kan ontstaan over welke gegevens er op een bepaald moment onderdeel waren van een registratie, ook in juridische zin.</documentation>
+      <documentation xml:lang="nl">Registraties zijn de formele bron voor de gegevens die ze beheren. Formele registraties zoals sector- en basisregistraties zijn een belangrijke basis voor de Nederlandse overheid en er zal op allerlei manieren naar ze worden gerefereerd. Het is belangrijk dat er geen discussie kan ontstaan over welke gegevens er op een bepaald moment onderdeel waren van een registratie, ook in juridische zin. Het beschikbaar stellen van historie voorkomt ook dat afnemers een eigen historische kopie van gegevens moeten bewaren.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">1. Nieuwe formele overheidsregistraties die worden ontwikkeld leggen de formele historie van gegevens vast.</value>
@@ -2685,31 +2697,34 @@
       <documentation xml:lang="nl">Het is belangrijk dat gebruikers beschikken over gegevens die optimaal aansluiten bij hun eigen behoeften en gebruik. Daarbij is de kunst om een balans te vinden tussen kwaliteit en kosten. Een hele hoge kwaliteit leidt al snel tot onacceptabele kosten. De vraag is dus wat nodig is in een specifieke context. Dit vraagt vooral bewuste afwegingen. Als slechts een klein deel van de gebruikersgroep hoge eisen stelt, dan is de vraag of dat hogere kosten voor alle gebruikers rechtvaardigt. Daarnaast zijn er ook eisen waar bronhouders gewoonweg niet aan kunnen voldoen. Het terugmelden van mogelijke fouten is een belangrijke maatregel voor het verhogen van de gegevenskwaliteit. In meer algemene zin is afstemming tussen bronhouders en afnemers essentieel.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">1. De eisen die gebruikers stellen aan de kwaliteit van gegevens worden door de (afnemer)organisatie gebundeld en expliciet gemaakt in elke gebruikscontext.</value>
+          <value xml:lang="nl">1. Bronhouders onderzoeken structureel en pro-actief welke eisen en wensen m.b.t. kwaliteit bestaan bij huidige en potentiële afnemers.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">2. Als afnemers specifieke kwaliteitseisen stellen en overeenkomen met de bronhouder dan worden deze vastgelegd in een overeenkomst met de aanbieder.</value>
+          <value xml:lang="nl">2. De eisen die gebruikers stellen aan de kwaliteit van gegevens worden door de (afnemer)organisatie gebundeld en expliciet gemaakt in elke gebruikscontext.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">3. De huidige kwaliteit van gegevens wordt expliciet gemeten en inzichtelijk gemaakt in de metagegevens, op een voor gebruikers begrijpelijke wijze.</value>
+          <value xml:lang="nl">3. Als afnemers specifieke kwaliteitseisen stellen en overeenkomen met de bronhouder dan worden deze vastgelegd in een overeenkomst met de aanbieder.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">4. Aanbieders bieden de mogelijkheid om vermoedelijke fouten in registraties terug te melden (ook aan burgers en bedrijven) en routeren meldingen naar de verantwoordelijke bronhouder.</value>
+          <value xml:lang="nl">4. De huidige kwaliteit van gegevens wordt expliciet gemeten en inzichtelijk gemaakt in de metagegevens, op een voor gebruikers begrijpelijke wijze.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">5. Als er een verschil is tussen de eisen die worden gesteld vanuit gebruik en de huidige kwaliteit dan vindt hierover afstemming tussen bronhouder en afnemers plaats en wordt een afweging tussen kosten en baten van mogelijke maatregelen gemaakt.</value>
+          <value xml:lang="nl">5. Aanbieders bieden de mogelijkheid om vermoedelijke fouten in registraties terug te melden (ook aan burgers en bedrijven) en routeren meldingen naar de verantwoordelijke bronhouder.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">6. Er is periodieke afstemming tussen bronhouders en afnemers over de mate waarin gegevens (blijven) voldoen aan de gestelde kwaliteitseisen.</value>
+          <value xml:lang="nl">6. Als er een verschil is tussen de eisen die worden gesteld vanuit gebruik en de huidige kwaliteit dan vindt hierover afstemming tussen bronhouder en afnemers plaats en wordt een afweging tussen kosten en baten van mogelijke maatregelen gemaakt.</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="nl">7. Er is periodieke afstemming tussen bronhouders en afnemers over de mate waarin gegevens (blijven) voldoen aan de gestelde kwaliteitseisen.</value>
         </property>
       </properties>
     </element>
     <element identifier="id-14c201edcfb34a50864c0c511971e767" xsi:type="Principle">
       <name xml:lang="nl">1.6. Burgers en organisaties hebben regie over hun eigen gegevens</name>
-      <documentation xml:lang="nl">De Europese datastrategie stelt dat mensen meer invloed moeten krijgen over hun gegevens en dat zij daarom middelen en bevoegdheden nodig hebben om te beslissen wat er met hun gegevens gebeurt, als er geen wettelijke grondslag is voor hun verwerking. Voor burgers zijn rechten bij de verwerking van persoonsgegevens voor een deel al geborgd in de AVG. In de herziene eIDAS-verordening krijgen burgers en organisaties de mogelijkheid om hun gegevens via eigen wallets te verstrekken aan partijen. Datasoevereiniteit is een belangrijk uitgangspunt bij gegevensruimtes en betekent dat organisaties zelf willen kunnen bepalen aan wie ze hun gegevens verstrekken.</documentation>
+      <documentation xml:lang="nl">De Europese datastrategie stelt dat mensen meer invloed moeten krijgen over hun gegevens en dat zij daarom middelen en bevoegdheden nodig hebben om te beslissen wat er met hun gegevens gebeurt, als er geen wettelijke grondslag is voor hun verwerking. Voor burgers zijn rechten bij de verwerking van persoonsgegevens voor een deel al geborgd in de AVG. In de herziene eIDAS-verordening krijgen burgers en organisaties de mogelijkheid om hun gegevens via eigen wallets te verstrekken aan partijen. Dat is met name relevant voor private dienstverleners, omdat overheidsorganisaties vanuit hun wettelijke taak gegevens direct mogen uitwisselen. Datasoevereiniteit is een belangrijk uitgangspunt bij dataspaces en betekent dat organisaties zelf willen kunnen bepalen aan wie ze hun gegevens verstrekken.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">1. Private afnemers bieden burgers of organisaties de keuzemogelijkheid om gegevens over henzelf via een wallet aan te leveren.</value>
+          <value xml:lang="nl">1. Private afnemers (dienstverleners) bieden burgers of organisaties de keuzemogelijkheid om gegevens over henzelf via een wallet aan te leveren.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
           <value xml:lang="nl">2. Publieke afnemers die gegevens over burgers of organisaties nodig hebben, die nog niet bekend zijn bij de overheid bieden de keuzemogelijkheid om gegevens via een wallet aan te leveren.</value>
@@ -2726,23 +2741,26 @@
       </properties>
     </element>
     <element identifier="id-deb4667d24eb494c919800436a77358c" xsi:type="Principle">
-      <name xml:lang="nl">1.8. Uitwisseling van gegevens wordt gelogd als deze later aantoonbaar moet zijn</name>
-      <documentation xml:lang="nl">Logging van gegevensuitwisselingen (verzendingen en ontvangsten) maakt het mogelijk om op een later moment aan te tonen dat gegevensuitwisselingen hebben plaatsgevonden (onweerlegbaarheid). Dat is met name relevant bij de uitwisseling van persoonsgegevens, maar bijvoorbeeld ook bij het aanleveren van gegevens aan een landelijke registratie. Het faciliteert verder foutanalyse, procesanalyse, misbruikdetectie, forensisch onderzoek en onderlinge verrekening van diensten. Auditlogging is in het algemeen een plicht vanuit het perspectief van informatiebeveiliging.</documentation>
+      <name xml:lang="nl">1.8. Vertrouwen in gegevensuitwisseling is gebaseerd op verifieerbare verklaringen</name>
+      <documentation xml:lang="nl">Digitale gegevensuitwisseling vereist dat partijen kunnen vertrouwen op uitspraken over bijvoorbeeld identiteiten, bevoegdheden en gegevens. Daarom moet gegevensuitwisseling, waar nodig, gebruik maken van verifieerbare verklaringen die onafhankelijk controleerbaar zijn. Verifieerbare verklaringen bestaan er in verschillende vormen, maar bouwen typisch op cryptografische mechanismen. Binnen Europa is hiervoor een stelsel van afspraken, standaarden en vertrouwensdiensten in het kader van eIDAS. Verifieerbare verklaringen spelen daarbij een centrale rol voor uiteenlopende doeleinden, zoals het vaststellen van identiteiten en bevoegdheden, het aantonen van de herkomst en integriteit van gegevens, en het ondersteunen van toezicht, verantwoording en geschilbeslechting.</documentation>
       <properties>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">1. Bronhouders afspraken maken met aanbieders over onweerlegbaarheid en logging.</value>
+          <value xml:lang="nl">1. Partijen gebruiken verifieerbare verklaringen voor het verkrijgen van vertrouwen in identiteiten, bevoegdheden, gegevens, gebeurtenissen en tijdstippen.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">2. Aanbieders loggen (metagegevens van) berichten die zijn verzonden, afnemers loggen (metagegevens van) berichten die zijn ontvangen als de uitwisseling later aantoonbaar moet zijn.</value>
+          <value xml:lang="nl">2. Waar passend worden Europese standaarden en vertrouwensdiensten toegepast, zoals bij het gebruik van de persoonlijke of business wallet.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">3. De logs van verzonden en ontvangen berichten zijn aan elkaar te relateren op basis van een gemeenschappelijke identificatie, zodat berichten die volgen uit één trigger aan elkaar gerelateerd kunnen worden.</value>
+          <value xml:lang="nl">3. Als uitwisseling van gegevens rechtsgevolgen heeft dan wordt onweerlegbaarheid ervan geborgd door verifieerbare verklaringen in combinatie met logging.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">4. Als hoge eisen aan onweerlegbaarheid worden gesteld dan worden aanvullende maatregelen overwogen, zoals het ondertekenen van berichten of het delegeren van logging naar een derde partij (clearing house).</value>
+          <value xml:lang="nl">4. De vereiste mate van verifieerbaarheid is afhankelijk van de context en proportioneel aan het risico en de bijbehorende impact.</value>
         </property>
         <property propertyDefinitionRef="propid-6">
-          <value xml:lang="nl">5. De bewaartermijn van logs wordt expliciet bewaakt en gerespecteerd.</value>
+          <value xml:lang="nl">5. Een verklaring wordt alleen vertrouwd als deze valide, integer, authentiek en geldig is.</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="nl">6. Verklaringen kunnen ook weer worden ingetrokken en partijen moeten daarom de geldigheid van verklaringen kunnen verifiëren.</value>
         </property>
       </properties>
     </element>
@@ -2807,6 +2825,7 @@
     <relationship identifier="id-34cf8a2ea43a40fca3ec20150661ad95" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-9aab67d0e4a045fda585d6550fd23f32" xsi:type="Access" accessType="Write" />
     <relationship identifier="id-0666b4fa2bdb4ff18aca9ba1b04e8030" source="id-0da09931f8ac4b368c786703913087bf" target="id-b72405ee2dea40629a0a330260ede075" xsi:type="Association" />
     <relationship identifier="id-2ba4efb665e5465398963db37c106380" source="id-8f048bf52b2e497d8f033cdc091084a6" target="id-da7a4768123a4f0b9336cce462bfdbfc" xsi:type="Association" />
+    <relationship identifier="id-824c4e74989f4bf9a4d7810d65ae4bd3" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-46675c0708e740348ddd24e58696abb8" xsi:type="Association" />
     <relationship identifier="id-25421b01b6f845f2b244fdb5b711dee1" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-a3e5e4fbe30f403c80a84306f62a3d66" xsi:type="Association" />
     <relationship identifier="id-2cb1acca63484780b30da45db0e8c2ae" source="id-0b68d37ce0bf43e5889c43744e9adfdb" target="id-e8e0fadbd63b479d95144f268ac1d2af" xsi:type="Assignment" />
     <relationship identifier="id-e4d5008da9a24aa8adc226d966728332" source="id-f2920b273337408fbcb8aad5795bdd2b" target="id-b6dcc54033c54e28af9ab38462132c3c" xsi:type="Association" />
@@ -2828,6 +2847,7 @@
     <relationship identifier="id-5291739d23c94d78aa9851084f2f7a80" source="id-61972e0d2c02472b903090af6f8b0650" target="id-5d14a03bdd4f4f93b68149da9192663e" xsi:type="Aggregation">
       <name xml:lang="nl">groepeert</name>
     </relationship>
+    <relationship identifier="id-82c81c6b0e224712bb09524678349126" source="id-91c3b97a42f04243a51499384fba3a3d" target="id-2ca8c8a0edc245348bb3f56548636bf7" xsi:type="Association" />
     <relationship identifier="id-900c6978c6b649f2881d13d390af25f7" source="id-5ef12d74a642417684910d16092653f2" target="id-a3ff1bdac53d4cf28526f9f3f360ffcf" xsi:type="Realization" />
     <relationship identifier="id-0b9241bcecba43eb96270a3d00956f8d" source="id-8f048bf52b2e497d8f033cdc091084a6" target="id-d47e17732fb344d79996d472915371e0" xsi:type="Association" />
     <relationship identifier="id-ad24363d9af141f6a9af4951fdebde98" source="id-61972e0d2c02472b903090af6f8b0650" target="id-6b6bfd62cfce425b80f80637404b3925" xsi:type="Association" />
@@ -2842,8 +2862,10 @@
     <relationship identifier="id-4d59ab813be040479e8880ee5f846814" source="id-80e3338ec5a94dc4a0bab92c6d9b286a" target="id-4a160e64388c4d53b0b4ec7340fdd42a" xsi:type="Composition" />
     <relationship identifier="id-0ccc5b28039f409898982e15a2a10408" source="id-5dd88ea08e294b44898d119a8f6f280c" target="id-ed833493853e4b119a15e5ce4c186ff2" xsi:type="Association" />
     <relationship identifier="id-ecaf6452f0ab419d84fc1c818a2cb1fe" source="id-9aab67d0e4a045fda585d6550fd23f32" target="id-da7a4768123a4f0b9336cce462bfdbfc" xsi:type="Association" />
+    <relationship identifier="id-442b43c928354812bdbca43376d3e10a" source="id-91c3b97a42f04243a51499384fba3a3d" target="id-bd9f9a2fe62245c7ae1f01f5ff6ee28a" xsi:type="Association" />
     <relationship identifier="id-400d15b32b244139bd634a230ae5cf20" source="id-0da09931f8ac4b368c786703913087bf" target="id-a1d7faf077c6431d81a6acd66ffc5b29" xsi:type="Association" />
     <relationship identifier="id-35daddcccf90431fb46b1c76bfe561ec" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-a3ff1bdac53d4cf28526f9f3f360ffcf" xsi:type="Realization" />
+    <relationship identifier="id-1ee6286ed2f44c688c47e00c2cf5461e" source="id-b160b994f4554d128443e7406af8d09e" target="id-ed833493853e4b119a15e5ce4c186ff2" xsi:type="Association" />
     <relationship identifier="id-10c1dfac06704990a5bb38c42587d519" source="id-17639e1cdd3b498ca114e819d1d727a9" target="id-2cefc04003f94fcb9721acbc42c92adf" xsi:type="Assignment" />
     <relationship identifier="id-56524f4e035042009c15dfdc786b5757" source="id-cb139fa1a3624b03aae2faaca18fd761" target="id-b7baf6f4703f48ed874cc7b905d81e60" xsi:type="Association" />
     <relationship identifier="id-6818da728fc848e9bf939375a8f5587d" source="id-3f4dee7e670043c18bdf56feea2b5f91" target="id-bd9f9a2fe62245c7ae1f01f5ff6ee28a" xsi:type="Association" />
@@ -2928,6 +2950,9 @@ eisen stellen aan metagegevens</documentation>
     <relationship identifier="id-0b06f75704534090b16f2b0436a32c6e" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-e0903391f835401798f98afd39daea1a" xsi:type="Association" />
     <relationship identifier="id-65c4fdad1de7490c881f89b8492b390d" source="id-40f2e2d826cb46b3807a92ba2f3dc691" target="id-6656f6c85d4643d18bb5829dd0f8cef7" xsi:type="Association" />
     <relationship identifier="id-1e22bbb21d3846d1889aa34e32997090" source="id-0da09931f8ac4b368c786703913087bf" target="id-5dd88ea08e294b44898d119a8f6f280c" xsi:type="Composition" />
+    <relationship identifier="id-c819b8a150244955874870936568cec5" source="id-3f4dee7e670043c18bdf56feea2b5f91" target="id-91c3b97a42f04243a51499384fba3a3d" xsi:type="Association" isDirected="true">
+      <name xml:lang="nl">is bewerkt in</name>
+    </relationship>
     <relationship identifier="id-6e66a0ae9f1543ceb8665612ae3f36b4" source="id-a9426479d67d4614b26c009c8b5f8a5f" target="id-7f3f21e561764fe0bd54a826cb952254" xsi:type="Aggregation" />
     <relationship identifier="id-5a82849499584fcca29a6042ec5a7e99" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-94ea9b7331b44c07a35be13a359ffc32" xsi:type="Composition" />
     <relationship identifier="id-fef11d69a7024a0193cd4d3a5f7a3974" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-6b6bfd62cfce425b80f80637404b3925" xsi:type="Association" />
@@ -2982,6 +3007,7 @@ eisen stellen aan metagegevens</documentation>
     <relationship identifier="id-7a4e27eb633e4f6fb603818ed1425600" source="id-65b1207ae2ce4594af1e92b327a4de42" target="id-5ef12d74a642417684910d16092653f2" xsi:type="Serving" />
     <relationship identifier="id-e7fe3dcc3215436380572d0a8e2730bb" source="id-b160b994f4554d128443e7406af8d09e" target="id-bd9f9a2fe62245c7ae1f01f5ff6ee28a" xsi:type="Association" />
     <relationship identifier="id-6301416c97fa47c696986497f1e1c22f" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-da7a4768123a4f0b9336cce462bfdbfc" xsi:type="Association" />
+    <relationship identifier="id-031370d394854fa8a2a2263a5650b323" source="id-e24ef8dc93054899b021a15207b3eea0" target="id-46675c0708e740348ddd24e58696abb8" xsi:type="Association" />
     <relationship identifier="id-22f99d4d055d44e9b0d1cf6e04683fca" source="id-d2465138e3d44120a0132c92bc8ffdf3" target="id-d492fe8867bc4528bff797b5762dd4c2" xsi:type="Association" />
     <relationship identifier="id-a189f0bb09094521a29597f6a0a1491a" source="id-f2920b273337408fbcb8aad5795bdd2b" target="id-14c201edcfb34a50864c0c511971e767" xsi:type="Realization" />
     <relationship identifier="id-f4458e70849f4df8951a9ed09ba71981" source="id-f5d4c4f8264842e7ab69504476a0cdd4" target="id-8f06012b2a2f45ca97351be679da5987" xsi:type="Association" />
@@ -3173,6 +3199,9 @@ eisen stellen aan metagegevens</documentation>
     </relationship>
     <relationship identifier="id-2478fdd36034487887aff9e142f5452f" source="id-c3fe6d693371470caa89bea1b89e384a" target="id-5b081702561f47dba7f87dddb4ef9a19" xsi:type="Serving" />
     <relationship identifier="id-e4edb051974141af80463e26d8aedbfd" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-789abaabe8384ed1a6cff3e6c40c7a97" xsi:type="Association" />
+    <relationship identifier="id-1efdd1ebd7ef4d7b99c7180db1fa7474" source="id-acfdb86ed00441229bc99318d30fc9fc" target="id-91c3b97a42f04243a51499384fba3a3d" xsi:type="Association" isDirected="true">
+      <name xml:lang="nl">typeert</name>
+    </relationship>
     <relationship identifier="id-2b67650ebd434c62842f0d0dd7f8e668" source="id-e8e0fadbd63b479d95144f268ac1d2af" target="id-e12667630ded48f2b6c2c99bc1a01c44" xsi:type="Association" />
     <relationship identifier="id-730c85398a2b4d5f8a5fe117ca53ce9b" source="id-d896763cdeee448e953a2193561a728f" target="id-d882da32a721431a9f53b1dd0df21fe3" xsi:type="Association" />
     <relationship identifier="id-ae8617797680466e8449220f6d6b0276" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-cc4548cefc604808952b9fc34ae15981" xsi:type="Association" />
@@ -3454,36 +3483,25 @@ eisen stellen aan metagegevens</documentation>
     <relationship identifier="id-9698b7e5c89c477fabb87101a3ba229d" source="id-8c18137d2776413994c8db6b30eef898" target="id-b8382723adde49209c8e6ba8d3130fd5" xsi:type="Association" isDirected="true">
       <name xml:lang="nl">is gerepresenteerd in</name>
     </relationship>
-    <relationship identifier="id-1ee6286ed2f44c688c47e00c2cf5461e" source="id-b160b994f4554d128443e7406af8d09e" target="id-ed833493853e4b119a15e5ce4c186ff2" xsi:type="Association" />
-    <relationship identifier="id-c819b8a150244955874870936568cec5" source="id-3f4dee7e670043c18bdf56feea2b5f91" target="id-91c3b97a42f04243a51499384fba3a3d" xsi:type="Association" isDirected="true">
-      <name xml:lang="nl">is bewerkt in</name>
-    </relationship>
-    <relationship identifier="id-1efdd1ebd7ef4d7b99c7180db1fa7474" source="id-acfdb86ed00441229bc99318d30fc9fc" target="id-91c3b97a42f04243a51499384fba3a3d" xsi:type="Association" isDirected="true">
-      <name xml:lang="nl">typeert</name>
-    </relationship>
-    <relationship identifier="id-442b43c928354812bdbca43376d3e10a" source="id-91c3b97a42f04243a51499384fba3a3d" target="id-bd9f9a2fe62245c7ae1f01f5ff6ee28a" xsi:type="Association" />
-    <relationship identifier="id-82c81c6b0e224712bb09524678349126" source="id-91c3b97a42f04243a51499384fba3a3d" target="id-2ca8c8a0edc245348bb3f56548636bf7" xsi:type="Association" />
-    <relationship identifier="id-031370d394854fa8a2a2263a5650b323" source="id-e24ef8dc93054899b021a15207b3eea0" target="id-46675c0708e740348ddd24e58696abb8" xsi:type="Association" />
-    <relationship identifier="id-824c4e74989f4bf9a4d7810d65ae4bd3" source="id-66e29db64fa94a2b86401169f8f08aed" target="id-46675c0708e740348ddd24e58696abb8" xsi:type="Association" />
   </relationships>
   <organizations>
     <item>
       <label xml:lang="nl">Business</label>
       <item>
         <label xml:lang="nl">Rollen</label>
+        <item identifierRef="id-996fe268578c484eb05d4254b44ac347" />
+        <item identifierRef="id-d1ba75b42d3946c4867cac96235b289e" />
         <item identifierRef="id-0b68d37ce0bf43e5889c43744e9adfdb" />
         <item identifierRef="id-7e1dd515c72c4cfebcc6c2e5120be767" />
         <item identifierRef="id-68f19d0b5d404a1d854d2547a20d3733" />
+        <item identifierRef="id-2bb2cbbcb3ad4d56ae86e7ce794d59e9" />
         <item identifierRef="id-17639e1cdd3b498ca114e819d1d727a9" />
         <item identifierRef="id-1aaa39bc9b504fffba6e8f8be2c29f89" />
         <item identifierRef="id-52c59f07100e4613a636bbe6f2633937" />
         <item identifierRef="id-b3c2d26759f74122bea52f234b07e6d4" />
+        <item identifierRef="id-3b33dd3ea3fc4d65980075f2b7c9e78f" />
         <item identifierRef="id-ab9cfceafd9e49bebc65ba491c76da1d" />
         <item identifierRef="id-e18c538700ac4c708486520f39c2146b" />
-        <item identifierRef="id-2bb2cbbcb3ad4d56ae86e7ce794d59e9" />
-        <item identifierRef="id-3b33dd3ea3fc4d65980075f2b7c9e78f" />
-        <item identifierRef="id-996fe268578c484eb05d4254b44ac347" />
-        <item identifierRef="id-d1ba75b42d3946c4867cac96235b289e" />
       </item>
       <item>
         <label xml:lang="nl">Bedrijfsfuncties</label>
@@ -3557,6 +3575,7 @@ eisen stellen aan metagegevens</documentation>
         <item identifierRef="id-d896763cdeee448e953a2193561a728f" />
         <item identifierRef="id-b8382723adde49209c8e6ba8d3130fd5" />
         <item identifierRef="id-cb139fa1a3624b03aae2faaca18fd761" />
+        <item identifierRef="id-91c3b97a42f04243a51499384fba3a3d" />
         <item identifierRef="id-5d14a03bdd4f4f93b68149da9192663e" />
         <item identifierRef="id-3f4dee7e670043c18bdf56feea2b5f91" />
         <item identifierRef="id-21a270de58fa4a5f8079569197429604" />
@@ -3569,7 +3588,6 @@ eisen stellen aan metagegevens</documentation>
         <item identifierRef="id-acfdb86ed00441229bc99318d30fc9fc" />
         <item identifierRef="id-6140b0bcf3aa44ab8c0137098352364d" />
         <item identifierRef="id-c713b425f91c46ef860b8d0ade09b36c" />
-        <item identifierRef="id-91c3b97a42f04243a51499384fba3a3d" />
       </item>
     </item>
     <item>
@@ -3683,6 +3701,7 @@ eisen stellen aan metagegevens</documentation>
         <item identifierRef="id-091cee839d714688a54c57a769eea984" />
         <item identifierRef="id-81ca2fbd0c984219b80e7596a9f16326" />
         <item identifierRef="id-4ca2f05b381642d0987771b5f0af22a3" />
+        <item identifierRef="id-46675c0708e740348ddd24e58696abb8" />
         <item identifierRef="id-5a30fe0f7f98492f9102dac8b3005d56" />
         <item identifierRef="id-517bb1d25ac740adb78e062922c5db17" />
         <item identifierRef="id-bd9f9a2fe62245c7ae1f01f5ff6ee28a" />
@@ -3694,7 +3713,6 @@ eisen stellen aan metagegevens</documentation>
         <item identifierRef="id-82bc0503fd5c4d67b52990d8f2337dce" />
         <item identifierRef="id-d882da32a721431a9f53b1dd0df21fe3" />
         <item identifierRef="id-ce31bcdad11a4f879c58d0072d5dbbe9" />
-        <item identifierRef="id-46675c0708e740348ddd24e58696abb8" />
       </item>
       <item>
         <label xml:lang="nl">Architectuurprincipes</label>
@@ -3778,6 +3796,7 @@ eisen stellen aan metagegevens</documentation>
       <item identifierRef="id-34cf8a2ea43a40fca3ec20150661ad95" />
       <item identifierRef="id-0666b4fa2bdb4ff18aca9ba1b04e8030" />
       <item identifierRef="id-2ba4efb665e5465398963db37c106380" />
+      <item identifierRef="id-824c4e74989f4bf9a4d7810d65ae4bd3" />
       <item identifierRef="id-25421b01b6f845f2b244fdb5b711dee1" />
       <item identifierRef="id-2cb1acca63484780b30da45db0e8c2ae" />
       <item identifierRef="id-e4d5008da9a24aa8adc226d966728332" />
@@ -3797,6 +3816,7 @@ eisen stellen aan metagegevens</documentation>
       <item identifierRef="id-5cd2191b490140cc9ff354c208529317" />
       <item identifierRef="id-87c4869b6faa4559b8995b306d72d3fd" />
       <item identifierRef="id-5291739d23c94d78aa9851084f2f7a80" />
+      <item identifierRef="id-82c81c6b0e224712bb09524678349126" />
       <item identifierRef="id-900c6978c6b649f2881d13d390af25f7" />
       <item identifierRef="id-0b9241bcecba43eb96270a3d00956f8d" />
       <item identifierRef="id-ad24363d9af141f6a9af4951fdebde98" />
@@ -3809,8 +3829,10 @@ eisen stellen aan metagegevens</documentation>
       <item identifierRef="id-4d59ab813be040479e8880ee5f846814" />
       <item identifierRef="id-0ccc5b28039f409898982e15a2a10408" />
       <item identifierRef="id-ecaf6452f0ab419d84fc1c818a2cb1fe" />
+      <item identifierRef="id-442b43c928354812bdbca43376d3e10a" />
       <item identifierRef="id-400d15b32b244139bd634a230ae5cf20" />
       <item identifierRef="id-35daddcccf90431fb46b1c76bfe561ec" />
+      <item identifierRef="id-1ee6286ed2f44c688c47e00c2cf5461e" />
       <item identifierRef="id-10c1dfac06704990a5bb38c42587d519" />
       <item identifierRef="id-56524f4e035042009c15dfdc786b5757" />
       <item identifierRef="id-6818da728fc848e9bf939375a8f5587d" />
@@ -3889,6 +3911,7 @@ eisen stellen aan metagegevens</documentation>
       <item identifierRef="id-0b06f75704534090b16f2b0436a32c6e" />
       <item identifierRef="id-65c4fdad1de7490c881f89b8492b390d" />
       <item identifierRef="id-1e22bbb21d3846d1889aa34e32997090" />
+      <item identifierRef="id-c819b8a150244955874870936568cec5" />
       <item identifierRef="id-6e66a0ae9f1543ceb8665612ae3f36b4" />
       <item identifierRef="id-5a82849499584fcca29a6042ec5a7e99" />
       <item identifierRef="id-fef11d69a7024a0193cd4d3a5f7a3974" />
@@ -3939,6 +3962,7 @@ eisen stellen aan metagegevens</documentation>
       <item identifierRef="id-7a4e27eb633e4f6fb603818ed1425600" />
       <item identifierRef="id-e7fe3dcc3215436380572d0a8e2730bb" />
       <item identifierRef="id-6301416c97fa47c696986497f1e1c22f" />
+      <item identifierRef="id-031370d394854fa8a2a2263a5650b323" />
       <item identifierRef="id-22f99d4d055d44e9b0d1cf6e04683fca" />
       <item identifierRef="id-a189f0bb09094521a29597f6a0a1491a" />
       <item identifierRef="id-f4458e70849f4df8951a9ed09ba71981" />
@@ -4108,6 +4132,7 @@ eisen stellen aan metagegevens</documentation>
       <item identifierRef="id-6684b0bc4d2f4273a5be2423da479e10" />
       <item identifierRef="id-2478fdd36034487887aff9e142f5452f" />
       <item identifierRef="id-e4edb051974141af80463e26d8aedbfd" />
+      <item identifierRef="id-1efdd1ebd7ef4d7b99c7180db1fa7474" />
       <item identifierRef="id-2b67650ebd434c62842f0d0dd7f8e668" />
       <item identifierRef="id-730c85398a2b4d5f8a5fe117ca53ce9b" />
       <item identifierRef="id-ae8617797680466e8449220f6d6b0276" />
@@ -4369,13 +4394,6 @@ eisen stellen aan metagegevens</documentation>
       <item identifierRef="id-24dacc7a86794bc78b630c664324b677" />
       <item identifierRef="id-a1a490b0cffc43f48fb0c945c730f5f6" />
       <item identifierRef="id-9698b7e5c89c477fabb87101a3ba229d" />
-      <item identifierRef="id-1ee6286ed2f44c688c47e00c2cf5461e" />
-      <item identifierRef="id-c819b8a150244955874870936568cec5" />
-      <item identifierRef="id-1efdd1ebd7ef4d7b99c7180db1fa7474" />
-      <item identifierRef="id-442b43c928354812bdbca43376d3e10a" />
-      <item identifierRef="id-82c81c6b0e224712bb09524678349126" />
-      <item identifierRef="id-031370d394854fa8a2a2263a5650b323" />
-      <item identifierRef="id-824c4e74989f4bf9a4d7810d65ae4bd3" />
     </item>
     <item>
       <label xml:lang="nl">Views</label>

@@ -46,6 +46,7 @@ var elementTypeMappings = {
     "assessment":"knelpunt",
     "application-componentHuidige voorziening":"Huidige voorziening",
     "application-componentGewenste voorziening":"Gewenste voorziening",
+	"application-function": "Applicatiefunctie",
 	"productHuidige GDI-bouwsteen": "Huidige GDI-bouwsteen",
 	"productGewenste GDI-bouwsteen": "Gewenste GDI-bouwsteen",
 	"driverBeleid":"Beleid",
@@ -75,6 +76,7 @@ var elementTypePluralMappings = {
     "assessment":"knelpunten",
     "application-componentHuidige voorziening":"huidige voorzieningen",
     "application-componentGewenste voorziening":"gewenste voorzieningen",
+	"application-function": "applicatiefuncties",
 	"productHuidige GDI-bouwsteen": "huidige GDI-bouwstenen",
 	"productGewenste GDI-bouwsteen": "gewenste GDI-bouwstenen",
 	"driverBeleid":"beleid",
@@ -94,7 +96,7 @@ var elementTypePluralMappings = {
 	"representationBrondocument": "brondocumenten"
 }
 
-var elementTypes = ["capability", "value-stream", "business-function", "business-object", "business-role", "business-actor", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "productHuidige GDI-bouwsteen", "productGewenste GDI-bouwsteen", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraint", "constraintStandaard", "outcome", "driverWetgeving", "meaning", "grouping", "plateau", "work-package", "representationTekst", "representationDocument", "representationBrondocument"];
+var elementTypes = ["capability", "value-stream", "business-function", "business-object", "business-role", "business-actor", "assessment", "application-componentHuidige voorziening", "application-componentGewenste voorziening", "application-function", "productHuidige GDI-bouwsteen", "productGewenste GDI-bouwsteen", "driverBeleid", "driverOntwikkeling", "requirement", "principle", "constraint", "constraintStandaard", "outcome", "driverWetgeving", "meaning", "grouping", "plateau", "work-package", "representationTekst", "representationDocument", "representationBrondocument"];
 
 var dirPath = window.promptOpenDirectory({ title: "Kies output directory"});
 
